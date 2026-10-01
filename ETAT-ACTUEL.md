@@ -15,9 +15,10 @@ devenir est décrit dans `docs/conception/` (verrouillé) ; comment travailler, 
 comprend la reconstruction du vocabulaire selon l'architecture sémantique A2 (projets A2-01 à
 A2-05) et la réidentification de la grammaire (addendum A4).
 
-**Prochaine tâche : 2 · G1 · Catalogue minimal.** A2-01 est verrouillé
+**Prochaine tâche : 3 · A2-02 · Registres.** A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
-réidentifiée en `g_<n>` (tâche 1 bis, rapport `docs/rapports/etape2-tache1bis.md`).
+réidentifiée en `g_<n>` (tâche 1 bis) ; le catalogue minimal du contenu existe (tâche 2, G1,
+rapport `docs/rapports/etape2-tache2-G1.md`).
 
 ### Étape 2 · Feuille de route
 
@@ -28,7 +29,7 @@ livraison, relecture, tests verts, commit.
 |---|---|---|---|
 | 1 | A2-01 · Verrouillage | schéma A2-01, addenda A3 et A4, `REGLES-CONSTRUCTION.md` 2.3, mentions de statut dans les parties concernées ; documents seulement | ✅ fait |
 | 1 bis | Réidentification de la grammaire (A4) | un seul commit : `grammar.json` (`n5_g_<n>` → `g_<n>`, champ `level`), 63 références actives remappées, `events.js` (E5), validateur (I20, A4, préfixe `g_` de I18), tests ; plus aucun niveau déduit d'un identifiant `g_` ; `exemples.json` et fichiers de l'ancienne app inchangés | ✅ fait |
-| 2 | G1 · Catalogue minimal | `data/kana.json` (grille, 210 kana, non-régression), `createContent(rawData)` pur, `elementExists`, `elementsOfScope` ; ne lit que les identifiants ; niveau donné par la place du fichier ; comptes tirés des données ; test d'intégration par les surfaces publiques de `content` et `learning` | à faire |
+| 2 | G1 · Catalogue minimal | `data/kana.json` (grille, 210 kana, non-régression), `createContent(rawData)` pur, `elementExists`, `elementsOfScope` ; ne lit que les identifiants ; niveau donné par la place du fichier ; comptes tirés des données ; test d'intégration par les surfaces publiques de `content` et `learning` | ✅ fait |
 | 3 | A2-02 · Registres | catégories (3 niveaux), types, axes et pôles, relations, fonctions, classes grammaticales (table des 17 anciens `type`), compatibilités de compteurs, tags (critères, procédure, premiers tags) | à faire |
 | 4 | A2-03 · Validateur | I1 à I19, A1 à A3, N1 (`schema-A2-01.md`, §12) ; testés sur données d'essai, activés sur `data/` à la publication | à faire |
 | 5 | A2-04.0 · Espace de travail | sources figées, fichiers de lot, journal des corrections, table de correspondance, outil d'assemblage | à faire |
@@ -79,7 +80,8 @@ bloque `npm test`).
 - **Nouvelle base** : `src/config.js`, `src/store/` (contrat de stockage, version en
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
-  `dates.js`), `tools/check-layers.mjs`, `tools/validate-data.mjs`, `tests/` (268 tests dans Node, plus la page
+  `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
+  `tools/validate-data.mjs`, `tests/` (286 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -178,6 +180,11 @@ modifier ses parties verrouillées.
 | 2026-10-02 | Préfixe réservé contrôlé sur les identifiants de lieux, registres, personnages, missions, lectures, questions et expressions | `tools/validate-data.mjs` |
 | 2026-10-02 | Garde-fou statique : aucun fichier de `src/` ni de `tools/` ne contient `_g_` (ni lecture ni construction d'un identifiant de grammaire à niveau) | `tests/tools/identifiers.test.js` |
 | 2026-10-02 | Les clés d'exemple des tests du stockage suivent la nouvelle forme (`g_10`, `g_8`) ; l'ordre attendu change en conséquence (`g_…` avant `kana_…`) | `tests/store/` |
+| 2026-10-02 | `data/kana.json` : `{ scripts: [{ id, groups: [{ id, title, rows }] }] }`, écritures `hiragana` et `katakana`, groupes `base`, `dakuten`, `handakuten`, `sokuon`, `yoon`, cases `{ char, romaji }` ou `null` (grille de l'interface conservée) ; `title` repris tel quel de l'ancien code ; l'identifiant `kana_<caractère>` n'est pas stocké, il se déduit | `data/kana.json`, `src/content/kana.js` |
+| 2026-10-02 | Contrat d'entrée de `createContent` : `{ levels: { <niveau>: { vocab, grammar, kanji } }, kana, vocabHorsJlpt, expressions }`, toute autre clé refusée ; les niveaux fournis sont ceux de `VALIDATED_LEVELS` (adaptateur) ; un niveau absent a une portée vide | `src/content/catalog.js`, `tests/helpers/content-data.mjs` |
+| 2026-10-02 | Surface de `content` (G1) : `createContent` rend un objet gelé `{ elementExists, elementsOfScope }` ; portées gelées, stables d'un appel à l'autre ; portée inconnue : `TypeError` ; données incohérentes : `ContentError` portant tous les problèmes (identifiant absent ou en double par type, kanji de plusieurs caractères ou dans deux niveaux, niveau ou clé inconnus, fichier de niveau manquant, catalogue des kana invalide) | `src/content/index.js` |
+| 2026-10-02 | Ordre d'une portée de niveau : grammaire, vocabulaire, kanji, chacun dans l'ordre de son fichier ; portée `kana` dans l'ordre de la grille (hiragana puis katakana) | `src/content/catalog.js` |
+| 2026-10-02 | Validateur : `kana.json` obligatoire, contrôlé par la même fonction que le contenu (`kanaProblems`, importée de `src/content/index.js`) ; un kana existe s'il est au catalogue (les yōon sont acceptés) ; un kanji référencé doit appartenir au catalogue d'un niveau, le dictionnaire ne servant plus qu'à l'avertissement `kanji-inconnu` sur les mots | `tools/validate-data.mjs` |
 
 ---
 
@@ -257,3 +264,4 @@ modifier ses parties verrouillées.
 | 2026-10-01 | A2-01 | Corpus de stress-test (16 entrées N5), proposition de schéma, analyse de la reconstruction et des identifiants | — |
 | 2026-10-02 | 2 · 1 | Verrouillage d'A2-01 : `schema-A2-01.md`, addenda A3 et A4, `REGLES-CONSTRUCTION.md` 2.3, mentions de statut des parties 1, 2, 3, 5, 8, des addenda A1 et A2, du `README.md` et de `GUIDE-CONTENU.md`, sommaire. Documents seulement | — |
 | 2026-10-02 | 2 · 1 bis | Réidentification de la grammaire (addendum A4) : `grammar.json` en `g_<n>` avec `level`, 63 références remappées, `events.js` (E5), validateur (I18 pour `g_`, I20, A4), tests adaptés ; 6 nouveaux tests ; 11 sabotages du code et 5 des données, tous attrapés après comblement d'un trou (S11) ; 268 tests | — |
+| 2026-10-02 | 2 · 2 (G1) | Catalogue minimal : `data/kana.json` (210 kana, non-régression contre une copie figée de l'ancienne liste), `src/content/` (`createContent`, `elementExists`, `elementsOfScope`, `ContentError`), adaptateur de test, validateur (kana et kanji par catalogue) ; intégration avec `learning` par les surfaces publiques ; 18 nouveaux tests, 20 sabotages attrapés ; 286 tests | — |

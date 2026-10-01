@@ -25,6 +25,8 @@ function baseData() {
     ],
     'n5/kanji.json': { level: 'N5', count: 1, chars: ['水'] },
     'kanji_jouyou_fr.json': { 食: {} },
+    'kana.json': { scripts: [{ id: 'hiragana', groups: [{ id: 'base', title: null,
+      rows: [[{ char: 'あ', romaji: 'a' }, null, { char: 'きゃ', romaji: 'kya' }]] }] }] },
     'registres.json': [{ id: 'poli' }, { id: 'familier' }],
     'expressions.json': [{ id: 'ex_1', variants: [{ register: 'poli', japanese: 'ありがとうございます', romaji: 'arigatou gozaimasu' }] }],
     'vocab-hors-jlpt.json': [],
@@ -340,4 +342,40 @@ test('préfixe g_ réservé aux leçons de grammaire (A4-4, I18)', () => {
   for (const [i, change] of cases.entries()) {
     withData(modify(change), (r) => assert.ok(codes(r.errors).includes('prefixe-reserve'), `cas ${i + 1}`));
   }
+});
+
+// ── Étape 2 · G1 : kana et kanji par catalogue (décisions du 2026-10-01) ──
+
+test('kana.json : obligatoire et contrôlé', () => {
+  withData(modify((d) => { delete d['kana.json']; }), (r) => {
+    assert.ok(r.errors.some((e) => e.code === 'fichier-absent' && e.where === 'kana.json'));
+  });
+  withData(modify((d) => { d['kana.json'].scripts[0].groups[0].rows[0].push({ char: 'あ', romaji: 'a' }); }), (r) => {
+    assert.ok(codes(r.errors).includes('id-duplique'));
+  });
+  withData(modify((d) => { d['kana.json'].scripts[0].groups[0].rows[0].push({ char: 'x', romaji: 'x' }); }), (r) => {
+    assert.ok(codes(r.errors).includes('kana-invalide'));
+  });
+});
+
+test('un kana existe s\'il est au catalogue : yōon accepté, kana absent refusé', () => {
+  withData(modify((d) => { d['n5/missions.json'][0].teaches.kana = ['kana_きゃ']; }), (r) => {
+    assert.deepEqual(r.errors, []);
+  });
+  withData(modify((d) => { d['n5/missions.json'][0].teaches.kana = ['kana_い']; }), (r) => {
+    assert.ok(r.errors.some((e) => e.code === 'ref-inexistante' && e.message.includes('kana_い')));
+  });
+});
+
+test('un kanji référencé doit appartenir au catalogue d\'un niveau, pas seulement au dictionnaire', () => {
+  withData(modify((d) => { d['n5/missions.json'][0].teaches.kanji = ['水']; }), (r) => {
+    assert.deepEqual(r.errors, []);
+  });
+  withData(modify((d) => { d['n5/missions.json'][0].teaches.kanji = ['食']; }), (r) => {
+    assert.ok(r.errors.some((e) => e.code === 'ref-inexistante' && e.message.includes('食')));
+  });
+  // Le dictionnaire reste valable pour les kanji des mots (avertissement seulement).
+  withData(modify((d) => { d['n5/vocab.json'][0].kanji_list = ['食']; }), (r) => {
+    assert.ok(!codes(r.warnings).includes('kanji-inconnu'));
+  });
 });

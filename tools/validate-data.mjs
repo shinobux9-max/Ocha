@@ -18,6 +18,8 @@ import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { GUIDED_CONFIG } from '../src/config.js';
+// Même contrôle du catalogue des kana que le contenu : une seule définition des règles.
+import { kanaProblems, kanaEntries } from '../src/content/index.js';
 
 // ── Périmètre ───────────────────────────────────────────────────────────────
 
@@ -63,7 +65,6 @@ const REF_KEYS = ['grammar', 'vocab', 'kanji', 'kana', 'expression']; // partie 
 const MACRON = /[āīūēōĀĪŪĒŌ]/;                                         // GUIDE-CONTENU, §2
 const LATIN = /[A-Za-z]/;
 const stripRuby = (s) => String(s).replace(/<ruby>(.*?)<rt>.*?<\/rt><\/ruby>/g, '$1');
-const isKana = (c) => /^[\u3041-\u3096\u30A1-\u30FA\u30FC]$/.test(c);
 
 // ── Collecte des problèmes ──────────────────────────────────────────────────
 
@@ -93,7 +94,12 @@ function loadJson(dataDir, rel, report, { required = false } = {}) {
 
 function buildIndex(dataDir, report) {
   const index = {
-    grammar: new Map(), vocab: new Map(), kanji: new Set(), expression: new Map(),
+    grammar: new Map(), vocab: new Map(), expression: new Map(),
+    // Kanji ÉLÉMENTS : ceux des catalogues de niveau (décision du 2026-10-01). Le dictionnaire
+    // s'y ajoute seulement dans `kanjiKnown`, pour l'avertissement sur les kanji des mots.
+    kanji: new Set(), kanjiKnown: new Set(),
+    // Kana : le catalogue de data/kana.json (décision du 2026-10-01).
+    kana: new Set(),
     registers: new Set(), places: new Set(), categories: new Map(),
     // Niveau du fichier où chaque élément est défini (« vocab:<id> », « grammar:<id> ») : c'est
     // la place du fichier qui le donne, jamais l'identifiant (addendum A4).
@@ -127,10 +133,17 @@ function buildIndex(dataDir, report) {
     const grammar = loadJson(dataDir, join(lvl, 'grammar.json'), new Report());
     if (Array.isArray(grammar)) for (const g of grammar) register('grammar', g, grammarFile, lvl);
     const kanji = loadJson(dataDir, join(lvl, 'kanji.json'), new Report());
-    if (kanji && Array.isArray(kanji.chars)) kanji.chars.forEach((c) => index.kanji.add(c));
+    if (kanji && Array.isArray(kanji.chars)) kanji.chars.forEach((c) => { index.kanji.add(c); index.kanjiKnown.add(c); });
   }
   const dict = loadJson(dataDir, 'kanji_jouyou_fr.json', report);
-  if (dict && typeof dict === 'object') Object.keys(dict).forEach((c) => index.kanji.add(c));
+  if (dict && typeof dict === 'object') Object.keys(dict).forEach((c) => index.kanjiKnown.add(c));
+
+  const kana = loadJson(dataDir, 'kana.json', report, { required: true });
+  if (kana !== undefined) {
+    const problems = kanaProblems(kana);
+    for (const pb of problems) report.error(pb.code, pb.where, pb.message);
+    if (problems.length === 0) kanaEntries(kana).forEach((k) => index.kana.add(k.id));
+  }
 
   const hj = loadJson(dataDir, 'vocab-hors-jlpt.json', report);
   if (Array.isArray(hj)) for (const w of hj) register('vocab', w, 'vocab-hors-jlpt.json', 'hors_jlpt');
@@ -161,7 +174,7 @@ function exists(index, type, id) {
     case 'vocab': return index.vocab.has(id);
     case 'expression': return index.expression.has(id);
     case 'kanji': return index.kanji.has(id);
-    case 'kana': return typeof id === 'string' && id.startsWith('kana_') && isKana(id.slice(5));
+    case 'kana': return index.kana.has(id);
     default: return false;
   }
 }
@@ -369,7 +382,7 @@ function checkVocab(index, report, where0, vocab, prefix) {
     for (const k of w.kanji_list || []) {
       if (typeof k !== 'string' || [...k].length !== 1) {
         report.error('kanji-list-format', where, `« kanji_list » : chaque entrée doit être un seul kanji (« ${k} »)`);
-      } else if (!index.kanji.has(k)) {
+      } else if (!index.kanjiKnown.has(k)) {
         report.warn('kanji-inconnu', where, `kanji « ${k} » absent des listes de kanji`);
       }
     }
