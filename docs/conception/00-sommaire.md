@@ -24,6 +24,7 @@ référence : un comportement qui s'en écarte doit être signalé, jamais impro
 | A3 | `addendum-A3-modele-lexical.md` | modèle lexical d'Ocha v2 et reconstruction des données ; identifiants `v_<n>` |
 | A4 | `addendum-A4-identifiants.md` | identifiants indépendants du niveau ; grammaire en `g_<n>` |
 | — | `schema-A2-01.md` | schéma du vocabulaire (ENTRY → SENSE) et invariants du validateur |
+| — | `registre-des-tags.md` | tags : nature, critères de création, procédure (A2-02) |
 | — | `../../REGLES-CONSTRUCTION.md` | règles opérationnelles de la branche `ocha-v2` (à la racine du dépôt) |
 | — | `GUIDE-CONTENU.md`, `README.md` | rédaction du contenu et structure des fichiers de données |
 

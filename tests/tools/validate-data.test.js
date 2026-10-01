@@ -32,6 +32,8 @@ function registries() {
         { id: 'radio', label: 'Radio', children: [{ id: 'radio', label: 'Radio' }] }] }] },
     'registries/grammatical-classes.json': { source: 'A2-02', classes: [
       { id: 'nom', label: 'Nom' }, { id: 'verbe', label: 'Verbe' }] },
+    'registries/tags.json': { source: 'A2-02', tags: [
+      { id: 'lieu_konbini', label: 'Utile au konbini', description: 'Vocabulaire du lieu konbini.', kind: 'lieu' }] },
     'registries/counters.json': { source: 'A2-02', compatibilities: [
       { id: 'small_animals', label: 'Petits animaux' }] },
     'registries/semantic-types.json': { source: 'A2-ST-v1', families: [
@@ -434,9 +436,9 @@ test('un kanji référencé doit appartenir au catalogue d\'un niveau, pas seule
 const REG = (name) => `registries/${name}.json`;
 const errorsOf = (change) => withData(modify(change), (r) => r.errors);
 
-test('registres : les sept fichiers sont obligatoires', () => {
+test('registres : les huit fichiers sont obligatoires', () => {
   for (const name of ['categories', 'semantic-types', 'dimensions', 'relations', 'linguistic-functions',
-    'grammatical-classes', 'counters']) {
+    'grammatical-classes', 'counters', 'tags']) {
     const errors = errorsOf((d) => { delete d[REG(name)]; });
     assert.ok(errors.some((e) => e.code === 'fichier-absent' && e.where.includes(name)), name);
   }
@@ -555,4 +557,31 @@ test('registres plats : racine { source, liste }, source A2-02, entrées { id, l
     [(d) => { d[REG('counters')].compatibilities[0].id = 'g_animals'; }, 'prefixe-reserve']
   ];
   for (const [change, code] of cases) assert.ok(codes(errorsOf(change)).includes(code), code);
+});
+
+// ── A2-02 · 3.4 : registre des tags ──
+
+test('tags : { id, label, description, kind } exactement, kind parmi les natures permises', () => {
+  const tag = (d) => d[REG('tags')].tags[0];
+  const cases = [
+    [(d) => { d[REG('tags')].source = 'A2-03'; }, 'registre-source'],
+    [(d) => { d[REG('tags')].tags = []; }, 'registre-format'],
+    [(d) => { delete tag(d).description; }, 'registre-format'],
+    [(d) => { tag(d).description = ' '; }, 'registre-format'],
+    [(d) => { tag(d).retired = false; }, 'registre-format'],      // aucun champ de cycle de vie
+    [(d) => { tag(d).kind = 'theme'; }, 'tag-kind'],
+    [(d) => { delete tag(d).kind; }, 'registre-format'],
+    [(d) => { d[REG('tags')].tags.push({ ...tag(d) }); }, 'id-duplique'],
+    [(d) => { tag(d).id = 'g_konbini'; }, 'prefixe-reserve']
+  ];
+  for (const [change, code] of cases) assert.ok(codes(errorsOf(change)).includes(code), code);
+});
+
+// La nature d'un tag vient de son champ `kind`, jamais de son identifiant (addendum A2, D2) :
+// le préfixe « lieu_ » ne sert qu'à la lisibilité.
+test('tags : la nature est lue dans kind, jamais déduite du préfixe de l\'identifiant', () => {
+  // Préfixe « lieu_ » mais nature inconnue : refusé, le préfixe ne la rend pas valide.
+  assert.ok(codes(errorsOf((d) => { d[REG('tags')].tags[0].kind = 'categorie'; })).includes('tag-kind'));
+  // Nature « lieu » sans le préfixe : accepté, rien ne l'exige.
+  assert.deepEqual(errorsOf((d) => { d[REG('tags')].tags[0].id = 'pres_de_la_gare'; }), []);
 });

@@ -1,0 +1,29 @@
+{
+  "source": "A2-02",
+  "tags": [
+    {
+      "id": "lieu_konbini",
+      "label": "Utile au konbini",
+      "description": "Vocabulaire à proposer pour le lieu « konbini » d'Explorer, quel que soit son domaine sémantique.",
+      "kind": "lieu"
+    },
+    {
+      "id": "lieu_gare",
+      "label": "Utile à la gare",
+      "description": "Vocabulaire à proposer pour le lieu « gare » d'Explorer, quel que soit son domaine sémantique.",
+      "kind": "lieu"
+    },
+    {
+      "id": "lieu_restaurant",
+      "label": "Utile au restaurant",
+      "description": "Vocabulaire à proposer pour le lieu « restaurant » d'Explorer, quel que soit son domaine sémantique.",
+      "kind": "lieu"
+    },
+    {
+      "id": "lieu_hotel",
+      "label": "Utile à l'hôtel",
+      "description": "Vocabulaire à proposer pour le lieu « hôtel » d'Explorer, quel que soit son domaine sémantique.",
+      "kind": "lieu"
+    }
+  ]
+}

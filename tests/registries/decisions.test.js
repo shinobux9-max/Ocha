@@ -59,3 +59,17 @@ test('compteurs : seul small_animals est un identifiant du snapshot, les cinq au
   const conventions = registry('counters.json').compatibilities.map((c) => c.id).filter((id) => !declared.includes(id));
   assert.deepEqual(conventions, ['flat_objects', 'long_objects', 'books_volumes', 'generic_units', 'occurrences']);
 });
+
+// ── A2-02 · 3.4 : tags (décisions du 2026-10-02) ──
+
+test('tags : les quatre tags de lieu initiaux, de nature lieu, sans champ de cycle de vie', () => {
+  const reg = registry('tags.json');
+  assert.equal(reg.source, 'A2-02');
+  assert.deepEqual(Object.keys(reg), ['source', 'tags']);
+  assert.deepEqual(reg.tags.map((t) => t.id), ['lieu_konbini', 'lieu_gare', 'lieu_restaurant', 'lieu_hotel']);
+  for (const t of reg.tags) {
+    assert.deepEqual(Object.keys(t), ['id', 'label', 'description', 'kind'], t.id);
+    assert.equal(t.kind, 'lieu', t.id);
+    assert.ok(t.label !== '' && t.description !== '', t.id);
+  }
+});

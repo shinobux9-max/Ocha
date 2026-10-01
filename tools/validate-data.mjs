@@ -519,8 +519,13 @@ export const REGISTRY_SOURCES = Object.freeze({
   // (A2-LING-v1 nomme la propriété sans en donner les valeurs) et les compatibilités de
   // compteur (notions d'A2-LING-v1, identifiants fixés par A2-02 sauf `small_animals`).
   'grammatical-classes.json': 'A2-02',
-  'counters.json': 'A2-02'
+  'counters.json': 'A2-02',
+  'tags.json': 'A2-02'
 });
+
+// Natures de tag (A2-02 · 3.4). Le validateur reconnaît un tag de lieu par ce champ explicite,
+// jamais par son identifiant (addendum A2, D2 : aucun lien déduit d'une convention de nom).
+export const TAG_KINDS = Object.freeze(['lieu']);
 
 // Un nœud de registre : exactement les clés attendues, identifiant valide et non réservé,
 // libellé non vide. Renvoie vrai si le nœud est utilisable pour la suite des contrôles.
@@ -641,8 +646,9 @@ function checkCategoryTree(report, data) {
   }
 }
 
-// Registre plat (A2-02 · 3.3) : { source, <liste> }, chaque entrée { id, label }.
-function checkFlatRegistry(report, file, data, listKey, what) {
+// Registre plat (A2-02 · 3.3 et 3.4) : { source, <liste> }, chaque entrée { id, label } (et
+// les clés supplémentaires d'entrée demandées par le registre).
+function checkFlatRegistry(report, file, data, listKey, what, entryKeys = ['id', 'label']) {
   const where = `registries/${file}`;
   if (!data || typeof data !== 'object' || Array.isArray(data)) { report.error('registre-format', where, 'objet attendu'); return; }
   const keys = Object.keys(data).sort().join(',');
@@ -650,14 +656,27 @@ function checkFlatRegistry(report, file, data, listKey, what) {
   if (data.source !== REGISTRY_SOURCES[file]) report.error('registre-source', where, `source « ${data.source} » au lieu de « ${REGISTRY_SOURCES[file]} »`);
   const list = data[listKey];
   if (!Array.isArray(list) || list.length === 0) { report.error('registre-format', where, `« ${listKey} » doit être une liste non vide`); return; }
-  const ok = list.filter((n, i) => checkRegistryNode(report, `${where} · ${i + 1}`, n, ['id', 'label'], what));
+  const ok = list.filter((n, i) => checkRegistryNode(report, `${where} · ${i + 1}`, n, entryKeys, what));
   checkUnique(report, where, ok.map((n) => n.id), what);
+  return ok;
+}
+
+// Tags (A2-02 · 3.4) : { source, tags: [{ id, label, description, kind }] }. Aucun champ de cycle
+// de vie : il sera défini au premier retrait réel. Un identifiant de tag n'est jamais réattribué.
+function checkTags(report, data) {
+  const where = 'registries/tags.json';
+  const tags = checkFlatRegistry(report, 'tags.json', data, 'tags', 'tag', ['id', 'label', 'description', 'kind']) || [];
+  for (const t of tags) {
+    if (typeof t.description !== 'string' || t.description.trim() === '') report.error('registre-format', `${where} · ${t.id}`, 'description manquante');
+    if (!TAG_KINDS.includes(t.kind)) report.error('tag-kind', `${where} · ${t.id}`, `nature « ${t.kind} » inconnue (${TAG_KINDS.join(', ')})`);
+  }
 }
 
 const REGISTRY_CHECKS = {
   'categories.json': checkCategoryTree,
   'grammatical-classes.json': (report, data) => checkFlatRegistry(report, 'grammatical-classes.json', data, 'classes', 'classe grammaticale'),
   'counters.json': (report, data) => checkFlatRegistry(report, 'counters.json', data, 'compatibilities', 'compatibilité de compteur'),
+  'tags.json': checkTags,
   'semantic-types.json': checkSemanticTypes,
   'dimensions.json': checkDimensions,
   'relations.json': checkRelations,
