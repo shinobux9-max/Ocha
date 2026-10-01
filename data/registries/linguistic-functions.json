@@ -1,0 +1,73 @@
+{
+  "source": "A2-LING-v1",
+  "families": [
+    {
+      "id": "grammatical",
+      "label": "GRAMMATICAL",
+      "functions": [
+        {
+          "id": "interrogatif",
+          "label": "interrogatif"
+        },
+        {
+          "id": "deictique",
+          "label": "déictique"
+        },
+        {
+          "id": "comparatif",
+          "label": "comparatif"
+        },
+        {
+          "id": "quantificateur",
+          "label": "quantificateur"
+        },
+        {
+          "id": "negation",
+          "label": "négation"
+        },
+        {
+          "id": "pluralisation",
+          "label": "pluralisation"
+        },
+        {
+          "id": "modalite",
+          "label": "modalité"
+        },
+        {
+          "id": "aspect",
+          "label": "aspect"
+        },
+        {
+          "id": "temps",
+          "label": "temps"
+        }
+      ]
+    },
+    {
+      "id": "pragmatic_discourse",
+      "label": "PRAGMATIC / DISCOURSE",
+      "functions": [
+        {
+          "id": "connecteur",
+          "label": "connecteur"
+        },
+        {
+          "id": "intensifieur",
+          "label": "intensifieur"
+        },
+        {
+          "id": "alternative",
+          "label": "alternative"
+        },
+        {
+          "id": "discours",
+          "label": "discours"
+        },
+        {
+          "id": "politesse",
+          "label": "politesse"
+        }
+      ]
+    }
+  ]
+}

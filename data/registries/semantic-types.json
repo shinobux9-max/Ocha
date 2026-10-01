@@ -1,0 +1,93 @@
+{
+  "source": "A2-ST-v1",
+  "families": [
+    {
+      "id": "entity",
+      "label": "ENTITY",
+      "types": [
+        {
+          "id": "personne",
+          "label": "Personne"
+        },
+        {
+          "id": "organisme_vivant",
+          "label": "Organisme vivant"
+        },
+        {
+          "id": "objet_artefact",
+          "label": "Objet / artefact"
+        },
+        {
+          "id": "substance_matiere",
+          "label": "Substance / matière"
+        },
+        {
+          "id": "lieu",
+          "label": "Lieu"
+        },
+        {
+          "id": "organisation",
+          "label": "Organisation"
+        },
+        {
+          "id": "groupe_collectif",
+          "label": "Groupe / collectif"
+        }
+      ]
+    },
+    {
+      "id": "occurrence",
+      "label": "OCCURRENCE",
+      "types": [
+        {
+          "id": "action",
+          "label": "Action"
+        },
+        {
+          "id": "processus",
+          "label": "Processus"
+        },
+        {
+          "id": "evenement",
+          "label": "Événement"
+        },
+        {
+          "id": "resultat",
+          "label": "Résultat"
+        }
+      ]
+    },
+    {
+      "id": "condition",
+      "label": "CONDITION",
+      "types": [
+        {
+          "id": "etat",
+          "label": "État"
+        },
+        {
+          "id": "propriete",
+          "label": "Propriété"
+        }
+      ]
+    },
+    {
+      "id": "abstract",
+      "label": "ABSTRACT",
+      "types": [
+        {
+          "id": "information_contenu",
+          "label": "Information / contenu"
+        },
+        {
+          "id": "quantite_valeur",
+          "label": "Quantité / valeur"
+        },
+        {
+          "id": "concept_abstrait",
+          "label": "Concept abstrait"
+        }
+      ]
+    }
+  ]
+}

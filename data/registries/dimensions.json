@@ -1,0 +1,419 @@
+{
+  "source": "A2-DIM-v1",
+  "families": [
+    {
+      "id": "modalite_conceptuelle",
+      "label": "MODALITÉ CONCEPTUELLE",
+      "axes": [
+        {
+          "id": "possibilite_impossibilite",
+          "label": "Possibilité ↔ Impossibilité",
+          "poles": [
+            {
+              "id": "possibilite",
+              "label": "Possibilité"
+            },
+            {
+              "id": "impossibilite",
+              "label": "Impossibilité"
+            }
+          ]
+        },
+        {
+          "id": "necessite_facultativite",
+          "label": "Nécessité ↔ Facultativité",
+          "poles": [
+            {
+              "id": "necessite",
+              "label": "Nécessité"
+            },
+            {
+              "id": "facultativite",
+              "label": "Facultativité"
+            }
+          ]
+        },
+        {
+          "id": "probabilite",
+          "label": "Probabilité",
+          "poles": [
+            {
+              "id": "probabilite",
+              "label": "Probabilité"
+            }
+          ]
+        },
+        {
+          "id": "certitude_incertitude",
+          "label": "Certitude ↔ Incertitude",
+          "poles": [
+            {
+              "id": "certitude",
+              "label": "Certitude"
+            },
+            {
+              "id": "incertitude",
+              "label": "Incertitude"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "difficulte",
+      "label": "DIFFICULTÉ",
+      "axes": [
+        {
+          "id": "facilite_difficulte",
+          "label": "Facilité ↔ Difficulté",
+          "poles": [
+            {
+              "id": "facilite",
+              "label": "Facilité"
+            },
+            {
+              "id": "difficulte",
+              "label": "Difficulté"
+            }
+          ]
+        },
+        {
+          "id": "simplicite_complexite",
+          "label": "Simplicité ↔ Complexité",
+          "poles": [
+            {
+              "id": "simplicite",
+              "label": "Simplicité"
+            },
+            {
+              "id": "complexite",
+              "label": "Complexité"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "validite_qualite_conceptuelle",
+      "label": "VALIDITÉ & QUALITÉ CONCEPTUELLE",
+      "axes": [
+        {
+          "id": "validite_invalidite",
+          "label": "Validité ↔ Invalidité",
+          "poles": [
+            {
+              "id": "validite",
+              "label": "Validité"
+            },
+            {
+              "id": "invalidite",
+              "label": "Invalidité"
+            }
+          ]
+        },
+        {
+          "id": "exactitude_inexactitude",
+          "label": "Exactitude ↔ Inexactitude",
+          "poles": [
+            {
+              "id": "exactitude",
+              "label": "Exactitude"
+            },
+            {
+              "id": "inexactitude",
+              "label": "Inexactitude"
+            }
+          ]
+        },
+        {
+          "id": "precision_imprecision_ambiguite",
+          "label": "Précision ↔ Imprécision / ambiguïté",
+          "poles": [
+            {
+              "id": "precision",
+              "label": "Précision"
+            },
+            {
+              "id": "imprecision_ambiguite",
+              "label": "Imprécision / ambiguïté"
+            }
+          ]
+        },
+        {
+          "id": "adequation_inadequation",
+          "label": "Adéquation ↔ Inadéquation",
+          "poles": [
+            {
+              "id": "adequation",
+              "label": "Adéquation"
+            },
+            {
+              "id": "inadequation",
+              "label": "Inadéquation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "realite_statut_epistemique",
+      "label": "RÉALITÉ & STATUT ÉPISTÉMIQUE",
+      "axes": [
+        {
+          "id": "reel_fictif",
+          "label": "Réel ↔ Fictif",
+          "poles": [
+            {
+              "id": "reel",
+              "label": "Réel"
+            },
+            {
+              "id": "fictif",
+              "label": "Fictif"
+            }
+          ]
+        },
+        {
+          "id": "vrai_faux",
+          "label": "Vrai ↔ Faux",
+          "poles": [
+            {
+              "id": "vrai",
+              "label": "Vrai"
+            },
+            {
+              "id": "faux",
+              "label": "Faux"
+            }
+          ]
+        },
+        {
+          "id": "evidence_non_evidence",
+          "label": "Évidence ↔ Non-évidence",
+          "poles": [
+            {
+              "id": "evidence",
+              "label": "Évidence"
+            },
+            {
+              "id": "non_evidence",
+              "label": "Non-évidence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "normalite",
+      "label": "NORMALITÉ",
+      "axes": [
+        {
+          "id": "normal_anormal",
+          "label": "Normal ↔ Anormal",
+          "poles": [
+            {
+              "id": "normal",
+              "label": "Normal"
+            },
+            {
+              "id": "anormal",
+              "label": "Anormal"
+            }
+          ]
+        },
+        {
+          "id": "habituel_exceptionnel",
+          "label": "Habituel ↔ Exceptionnel",
+          "poles": [
+            {
+              "id": "habituel",
+              "label": "Habituel"
+            },
+            {
+              "id": "exceptionnel",
+              "label": "Exceptionnel"
+            }
+          ]
+        },
+        {
+          "id": "attendu_inattendu",
+          "label": "Attendu ↔ Inattendu",
+          "poles": [
+            {
+              "id": "attendu",
+              "label": "Attendu"
+            },
+            {
+              "id": "inattendu",
+              "label": "Inattendu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evaluation_fonctionnelle",
+      "label": "ÉVALUATION FONCTIONNELLE",
+      "axes": [
+        {
+          "id": "importance_insignifiance",
+          "label": "Importance ↔ Insignifiance",
+          "poles": [
+            {
+              "id": "importance",
+              "label": "Importance"
+            },
+            {
+              "id": "insignifiance",
+              "label": "Insignifiance"
+            }
+          ]
+        },
+        {
+          "id": "utilite_inutilite",
+          "label": "Utilité ↔ Inutilité",
+          "poles": [
+            {
+              "id": "utilite",
+              "label": "Utilité"
+            },
+            {
+              "id": "inutilite",
+              "label": "Inutilité"
+            }
+          ]
+        },
+        {
+          "id": "efficacite_inefficacite",
+          "label": "Efficacité ↔ Inefficacité",
+          "poles": [
+            {
+              "id": "efficacite",
+              "label": "Efficacité"
+            },
+            {
+              "id": "inefficacite",
+              "label": "Inefficacité"
+            }
+          ]
+        },
+        {
+          "id": "avantage_desavantage",
+          "label": "Avantage ↔ Désavantage",
+          "poles": [
+            {
+              "id": "avantage",
+              "label": "Avantage"
+            },
+            {
+              "id": "desavantage",
+              "label": "Désavantage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "completude_organisation",
+      "label": "COMPLÉTUDE & ORGANISATION",
+      "axes": [
+        {
+          "id": "complet_incomplet",
+          "label": "Complet ↔ Incomplet",
+          "poles": [
+            {
+              "id": "complet",
+              "label": "Complet"
+            },
+            {
+              "id": "incomplet",
+              "label": "Incomplet"
+            }
+          ]
+        },
+        {
+          "id": "uniforme_non_uniforme",
+          "label": "Uniforme ↔ Non uniforme",
+          "poles": [
+            {
+              "id": "uniforme",
+              "label": "Uniforme"
+            },
+            {
+              "id": "non_uniforme",
+              "label": "Non uniforme"
+            }
+          ]
+        },
+        {
+          "id": "ordonne_desordonne",
+          "label": "Ordonné ↔ Désordonné",
+          "poles": [
+            {
+              "id": "ordonne",
+              "label": "Ordonné"
+            },
+            {
+              "id": "desordonne",
+              "label": "Désordonné"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fonctionnement",
+      "label": "FONCTIONNEMENT",
+      "axes": [
+        {
+          "id": "fonctionnel_defaillant",
+          "label": "Fonctionnel ↔ Défaillant",
+          "poles": [
+            {
+              "id": "fonctionnel",
+              "label": "Fonctionnel"
+            },
+            {
+              "id": "defaillant",
+              "label": "Défaillant"
+            }
+          ]
+        },
+        {
+          "id": "actif_inactif",
+          "label": "Actif ↔ Inactif",
+          "poles": [
+            {
+              "id": "actif",
+              "label": "Actif"
+            },
+            {
+              "id": "inactif",
+              "label": "Inactif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature_conceptuelle",
+      "label": "NATURE CONCEPTUELLE",
+      "axes": [
+        {
+          "id": "concret_abstrait",
+          "label": "Concret ↔ Abstrait",
+          "poles": [
+            {
+              "id": "concret",
+              "label": "Concret"
+            },
+            {
+              "id": "abstrait",
+              "label": "Abstrait"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

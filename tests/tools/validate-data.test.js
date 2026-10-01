@@ -18,6 +18,28 @@ const canonicalKana = (baseRows) => ({ scripts: ['hiragana', 'katakana'].map((id
   id, groups: ['base', 'dakuten', 'handakuten', 'sokuon', 'yoon'].map((g) => ({
     id: g, title: null, rows: g === 'base' && i === 0 ? baseRows : [] })) })) });
 
+// Registres A2 minimaux et valides (A2-02 · 3.1) : un exemple de chaque cas utile.
+function registries() {
+  return {
+    'registries/semantic-types.json': { source: 'A2-ST-v1', families: [
+      { id: 'entity', label: 'ENTITY', types: [{ id: 'personne', label: 'Personne' }, { id: 'lieu', label: 'Lieu' }] }] },
+    'registries/dimensions.json': { source: 'A2-DIM-v1', families: [
+      { id: 'modalite_conceptuelle', label: 'MODALITÉ CONCEPTUELLE', axes: [
+        { id: 'probabilite', label: 'Probabilité', poles: [{ id: 'probabilite', label: 'Probabilité' }] },
+        { id: 'certitude_incertitude', label: 'Certitude ↔ Incertitude',
+          poles: [{ id: 'certitude', label: 'Certitude' }, { id: 'incertitude', label: 'Incertitude' }] }] }] },
+    'registries/relations.json': { source: 'A2-REL-v1.1', families: [
+      { id: 'structure', label: 'STRUCTURE', relations: [
+        { id: 'part_of', label: 'part_of', symmetric: false, inverse: 'has_part' },
+        { id: 'has_part', label: 'has_part', symmetric: false, inverse: 'part_of' },
+        { id: 'opposed_to', label: 'opposed_to', symmetric: true, inverse: null },
+        { id: 'compared_to', label: 'compared_to', symmetric: false, inverse: null }] }] },
+    'registries/linguistic-functions.json': { source: 'A2-LING-v1', families: [
+      { id: 'grammatical', label: 'GRAMMATICAL', functions: [{ id: 'interrogatif', label: 'interrogatif' }] },
+      { id: 'pragmatic_discourse', label: 'PRAGMATIC / DISCOURSE', functions: [{ id: 'politesse', label: 'politesse' }] }] }
+  };
+}
+
 function baseData() {
   const word = (id, w, extra = {}) => ({
     id, level: 'N5', word: w, reading: 'よみ', romaji: 'yomi',
@@ -32,6 +54,7 @@ function baseData() {
     'n5/kanji.json': { level: 'N5', count: 1, chars: ['水'] },
     'kanji_jouyou_fr.json': { 食: {} },
     'kana.json': canonicalKana([[{ char: 'あ', romaji: 'a' }, null, { char: 'きゃ', romaji: 'kya' }]]),
+    ...registries(),
     'registres.json': [{ id: 'poli' }, { id: 'familier' }],
     'expressions.json': [{ id: 'ex_1', variants: [{ register: 'poli', japanese: 'ありがとうございます', romaji: 'arigatou gozaimasu' }] }],
     'vocab-hors-jlpt.json': [],
@@ -391,4 +414,69 @@ test('un kanji référencé doit appartenir au catalogue d\'un niveau, pas seule
   withData(modify((d) => { d['n5/vocab.json'][0].kanji_list = ['食']; }), (r) => {
     assert.ok(!codes(r.warnings).includes('kanji-inconnu'));
   });
+});
+
+// ── A2-02 · 3.1 : intégrité des registres de data/registries/ (décision 11) ──
+
+const REG = (name) => `registries/${name}.json`;
+const errorsOf = (change) => withData(modify(change), (r) => r.errors);
+
+test('registres : les quatre fichiers sont obligatoires', () => {
+  for (const name of ['semantic-types', 'dimensions', 'relations', 'linguistic-functions']) {
+    const errors = errorsOf((d) => { delete d[REG(name)]; });
+    assert.ok(errors.some((e) => e.code === 'fichier-absent' && e.where.includes(name)), name);
+  }
+});
+
+test('registres : racine { source, families }, version du snapshot attendue', () => {
+  const cases = [
+    [(d) => { d[REG('semantic-types')].source = 'A2-ST-v2'; }, 'registre-source'],
+    [(d) => { d[REG('dimensions')].version = 1; }, 'registre-format'],
+    [(d) => { d[REG('relations')].families = []; }, 'registre-format'],
+    [(d) => { d[REG('linguistic-functions')] = []; }, 'registre-format'],
+    [(d) => { d[REG('semantic-types')].families[0].types = []; }, 'registre-format']
+  ];
+  for (const [change, code] of cases) assert.ok(codes(errorsOf(change)).includes(code), code);
+});
+
+test('registres : chaque nœud a exactement ses clés, un identifiant ASCII et un libellé', () => {
+  const cases = [
+    [(d) => { d[REG('semantic-types')].families[0].types[0].id = 'Personne'; }, 'registre-id'],
+    [(d) => { d[REG('semantic-types')].families[0].types[0].id = 'personnalité'; }, 'registre-id'],
+    [(d) => { d[REG('dimensions')].families[0].axes[1].poles[0].id = 'certitude_'; }, 'registre-id'],
+    [(d) => { d[REG('linguistic-functions')].families[0].functions[0].id = 'g_interrogatif'; }, 'prefixe-reserve'],
+    [(d) => { d[REG('relations')].families[0].label = ''; }, 'registre-format'],
+    [(d) => { d[REG('semantic-types')].families[0].types[0].description = 'x'; }, 'registre-format'],
+    [(d) => { delete d[REG('dimensions')].families[0].axes[0].label; }, 'registre-format']
+  ];
+  for (const [change, code] of cases) assert.ok(codes(errorsOf(change)).includes(code), code);
+});
+
+test('registres : identifiants uniques (familles, types, axes, pôles d\'un axe, relations, fonctions)', () => {
+  const cases = [
+    (d) => { d[REG('semantic-types')].families.push({ id: 'entity', label: 'X', types: [{ id: 'objet', label: 'O' }] }); },
+    (d) => { d[REG('semantic-types')].families.push({ id: 'abstract', label: 'X', types: [{ id: 'lieu', label: 'Lieu' }] }); },
+    (d) => { d[REG('dimensions')].families[0].axes.push({ id: 'probabilite', label: 'P', poles: [{ id: 'p', label: 'P' }] }); },
+    (d) => { d[REG('dimensions')].families[0].axes[1].poles[1].id = 'certitude'; },
+    (d) => { d[REG('relations')].families[0].relations.push({ id: 'opposed_to', label: 'o', symmetric: true, inverse: null }); },
+    (d) => { d[REG('linguistic-functions')].families[1].functions.push({ id: 'interrogatif', label: 'i' }); }
+  ];
+  for (const [i, change] of cases.entries()) assert.ok(codes(errorsOf(change)).includes('id-duplique'), `cas ${i + 1}`);
+});
+
+test('dimensions : un axe a au moins un pôle ; un seul pôle est permis (Probabilité)', () => {
+  assert.ok(codes(errorsOf((d) => { d[REG('dimensions')].families[0].axes[1].poles = []; })).includes('registre-format'));
+  assert.deepEqual(errorsOf(() => {}), []);
+});
+
+test('relations : symmetric booléen, inverse existant, réciproque, jamais sur une relation symétrique', () => {
+  const rel = (d, i) => d[REG('relations')].families[0].relations[i];
+  const cases = [
+    [(d) => { rel(d, 2).symmetric = 'oui'; }, 'registre-format'],
+    [(d) => { rel(d, 0).inverse = 'whole_of'; }, 'inverse-invalide'],
+    [(d) => { rel(d, 1).inverse = 'compared_to'; }, 'inverse-invalide'],
+    [(d) => { rel(d, 3).inverse = 'compared_to'; }, 'inverse-invalide'],
+    [(d) => { rel(d, 0).symmetric = true; }, 'inverse-invalide']
+  ];
+  for (const [change, code] of cases) assert.ok(codes(errorsOf(change)).includes(code), JSON.stringify(code));
 });

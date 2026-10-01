@@ -1,0 +1,167 @@
+{
+  "source": "A2-REL-v1.1",
+  "families": [
+    {
+      "id": "identite_comparaison",
+      "label": "IDENTITÉ & COMPARAISON",
+      "relations": [
+        {
+          "id": "identical_to",
+          "label": "identical_to",
+          "symmetric": true,
+          "inverse": null
+        },
+        {
+          "id": "different_from",
+          "label": "different_from",
+          "symmetric": true,
+          "inverse": null
+        },
+        {
+          "id": "similar_to",
+          "label": "similar_to",
+          "symmetric": true,
+          "inverse": null
+        },
+        {
+          "id": "equivalent_to",
+          "label": "equivalent_to",
+          "symmetric": true,
+          "inverse": null
+        },
+        {
+          "id": "corresponds_to",
+          "label": "corresponds_to",
+          "symmetric": false,
+          "inverse": null
+        },
+        {
+          "id": "compared_to",
+          "label": "compared_to",
+          "symmetric": false,
+          "inverse": null
+        },
+        {
+          "id": "opposed_to",
+          "label": "opposed_to",
+          "symmetric": true,
+          "inverse": null
+        },
+        {
+          "id": "contrasted_with",
+          "label": "contrasted_with",
+          "symmetric": true,
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "id": "structure",
+      "label": "STRUCTURE",
+      "relations": [
+        {
+          "id": "part_of",
+          "label": "part_of",
+          "symmetric": false,
+          "inverse": "has_part"
+        },
+        {
+          "id": "has_part",
+          "label": "has_part",
+          "symmetric": false,
+          "inverse": "part_of"
+        },
+        {
+          "id": "member_of",
+          "label": "member_of",
+          "symmetric": false,
+          "inverse": "has_member"
+        },
+        {
+          "id": "has_member",
+          "label": "has_member",
+          "symmetric": false,
+          "inverse": "member_of"
+        },
+        {
+          "id": "composed_of",
+          "label": "composed_of",
+          "symmetric": false,
+          "inverse": "component_of"
+        },
+        {
+          "id": "component_of",
+          "label": "component_of",
+          "symmetric": false,
+          "inverse": "composed_of"
+        }
+      ]
+    },
+    {
+      "id": "connexion",
+      "label": "CONNEXION",
+      "relations": [
+        {
+          "id": "connected_to",
+          "label": "connected_to",
+          "symmetric": true,
+          "inverse": null
+        },
+        {
+          "id": "separated_from",
+          "label": "separated_from",
+          "symmetric": true,
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "id": "causalite",
+      "label": "CAUSALITÉ",
+      "relations": [
+        {
+          "id": "causes",
+          "label": "causes",
+          "symmetric": false,
+          "inverse": "consequence_of"
+        },
+        {
+          "id": "consequence_of",
+          "label": "consequence_of",
+          "symmetric": false,
+          "inverse": "causes"
+        }
+      ]
+    },
+    {
+      "id": "organisation",
+      "label": "ORGANISATION",
+      "relations": [
+        {
+          "id": "reciprocal_with",
+          "label": "reciprocal_with",
+          "symmetric": true,
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "id": "relations_lexicales",
+      "label": "RELATIONS LEXICALES",
+      "relations": [
+        {
+          "id": "transitive_of",
+          "label": "transitive_of",
+          "symmetric": false,
+          "inverse": "intransitive_of"
+        },
+        {
+          "id": "intransitive_of",
+          "label": "intransitive_of",
+          "symmetric": false,
+          "inverse": "transitive_of"
+        }
+      ]
+    }
+  ]
+}

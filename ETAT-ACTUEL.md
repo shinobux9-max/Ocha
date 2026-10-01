@@ -15,7 +15,9 @@ devenir est décrit dans `docs/conception/` (verrouillé) ; comment travailler, 
 comprend la reconstruction du vocabulaire selon l'architecture sémantique A2 (projets A2-01 à
 A2-05) et la réidentification de la grammaire (addendum A4).
 
-**Prochaine tâche : 3 · A2-02 · Registres.** A2-01 est verrouillé
+**Tâche en cours : 3 · A2-02 · Registres.** Arbitrage du 2026-10-02 fait ; 3.1 livrée
+(registres fermés, rapport `docs/rapports/etape2-tache3-1-registres.md`). Prochaine sous-tâche :
+3.2 (`categories.json`), à autoriser explicitement après la validation de 3.1. A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
 réidentifiée en `g_<n>` (tâche 1 bis) ; le catalogue minimal du contenu existe (tâche 2, G1,
 rapport `docs/rapports/etape2-tache2-G1.md`).
@@ -30,7 +32,7 @@ livraison, relecture, tests verts, commit.
 | 1 | A2-01 · Verrouillage | schéma A2-01, addenda A3 et A4, `REGLES-CONSTRUCTION.md` 2.3, mentions de statut dans les parties concernées ; documents seulement | ✅ fait |
 | 1 bis | Réidentification de la grammaire (A4) | un seul commit : `grammar.json` (`n5_g_<n>` → `g_<n>`, champ `level`), 63 références actives remappées, `events.js` (E5), validateur (I20, A4, préfixe `g_` de I18), tests ; plus aucun niveau déduit d'un identifiant `g_` ; `exemples.json` et fichiers de l'ancienne app inchangés | ✅ fait |
 | 2 | G1 · Catalogue minimal | `data/kana.json` (grille, 210 kana, non-régression), `createContent(rawData)` pur, `elementExists`, `elementsOfScope` ; ne lit que les identifiants ; niveau donné par la place du fichier ; comptes tirés des données ; test d'intégration par les surfaces publiques de `content` et `learning` | ✅ fait |
-| 3 | A2-02 · Registres | catégories (3 niveaux), types, axes et pôles, relations, fonctions, classes grammaticales (table des 17 anciens `type`), compatibilités de compteurs, tags (critères, procédure, premiers tags) | à faire |
+| 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` ; 3.2 catégories ; 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | 3.1 livrée |
 | 4 | A2-03 · Validateur | I1 à I19, A1 à A3, N1 (`schema-A2-01.md`, §12) ; testés sur données d'essai, activés sur `data/` à la publication | à faire |
 | 5 | A2-04.0 · Espace de travail | sources figées, fichiers de lot, journal des corrections, table de correspondance, outil d'assemblage | à faire |
 | 6 | A2-04.1 à .15 · Lots | ~50 entrées par lot : proposition, relecture, audit, commit dans l'espace de travail | à faire |
@@ -81,7 +83,7 @@ bloque `npm test`).
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
   `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
-  `tools/validate-data.mjs`, `tests/` (287 tests dans Node, plus la page
+  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tests/` (298 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -185,6 +187,15 @@ modifier ses parties verrouillées.
 | 2026-10-02 | Surface de `content` (G1) : `createContent` rend un objet gelé `{ elementExists, elementsOfScope }` ; portées gelées, stables d'un appel à l'autre ; portée inconnue : `TypeError` ; données incohérentes : `ContentError` portant tous les problèmes (identifiant absent ou en double par type, kanji de plusieurs caractères ou dans deux niveaux, niveau ou clé inconnus, fichier de niveau manquant, catalogue des kana invalide) | `src/content/index.js` |
 | 2026-10-02 | Ordre d'une portée de niveau : grammaire, vocabulaire, kanji, chacun dans l'ordre de son fichier ; portée `kana` dans l'ordre de la grille (hiragana puis katakana) | `src/content/catalog.js` |
 | 2026-10-02 | Validateur : `kana.json` obligatoire, contrôlé par la même fonction que le contenu (`kanaProblems`, importée de `src/content/index.js`) ; un kana existe s'il est au catalogue (les yōon sont acceptés) ; un kanji référencé doit appartenir au catalogue d'un niveau, le dictionnaire ne servant plus qu'à l'avertissement `kanji-inconnu` sur les mots | `tools/validate-data.mjs` |
+| 2026-10-02 | A2-02 · emplacement : `data/registries/` (données canoniques), un fichier par registre : `categories.json`, `semantic-types.json`, `dimensions.json`, `relations.json`, `linguistic-functions.json`, `grammatical-classes.json`, `counters.json`, `tags.json` ; snapshots A2 figés dans `docs/conception/a2/`, copies octet pour octet | A2-02 |
+| 2026-10-02 | A2-02 · format : chaque registre a `source` (version du snapshot) puis une structure propre à sa nature, sans enveloppe universelle ; identifiants ASCII minuscules avec `_`, générés une fois à partir du libellé puis figés, jamais réattribués, jamais préfixés `v_` ni `g_` ; relations : noms anglais normatifs du snapshot ; libellés repris mot pour mot | A2-02 |
+| 2026-10-02 | A2-02 · catégories : identité hiérarchique locale. Un identifiant n'est unique que parmi ses frères ; l'identité d'un nœud de niveau 2 est (L1, L2), celle d'un niveau 3 (L1, L2, L3) ; aucun niveau 2 ou 3 n'est jamais cherché par son seul identifiant. Raison : 24 identifiants mécaniques sont partagés par 50 nœuds, aucune collision entre frères | A2-02 · 3.2 |
+| 2026-10-02 | A2-02 · dimensions : un axe a au moins un pôle ; « Probabilité » est l'axe `probabilite` à un seul pôle `probabilite` (transcription fidèle, I11 inchangé) | `data/registries/dimensions.json` |
+| 2026-10-02 | A2-02 · relations : `family`, `symmetric`, `inverse` ; libellé = nom normatif (le snapshot n'en donne pas d'autre) ; types sémantiques : seuls les 16 types terminaux sont attribuables ; fonctions linguistiques : familles `grammatical` et `pragmatic_discourse`, comme dans le schéma A2-01 ; libellés de familles repris en majuscules, comme dans les snapshots | 3.1 |
+| 2026-10-02 | A2-02 · classes grammaticales (pour 3.3) : `nom`, `numeral`, `pronom`, `verbe`, `adjectif_i`, `adjectif_na`, `adverbe`, `determinant`, `conjonction`, `interjection`. `numeral` couvre les 15 nombres simples (一 à 十, 百, 千, 万, 零, ゼロ) ; aucune règle « contient un chiffre → numeral » : les composés (一つ, 一人, jours, 二十歳…) se décident entrée par entrée en A2-04. 匹 : `nom` avec la propriété `counter`, pas de classe compteur | A2-02 · 3.3 |
+| 2026-10-02 | A2-02 · compteurs : six compatibilités attestées par `A2-LING-v1` (petits animaux, objets plats, objets longs, livres et volumes, unités génériques, occurrences) ; seule `small_animals` a un identifiant dans la source, les cinq autres seront fixés en 3.3 | A2-02 · 3.3 |
+| 2026-10-02 | A2-02 · tags : `{ id, label, description, kind }`, `kind: lieu` seul pour l'instant ; premiers tags `lieu_konbini`, `lieu_gare`, `lieu_restaurant`, `lieu_hotel` ; aucun mécanisme de retrait défini tant qu'aucun retrait réel n'existe ; un identifiant de tag n'est jamais réattribué | A2-02 · 3.4 |
+| 2026-10-02 | A2-02 · contrôles : `validate-data` vérifie l'intégrité interne des registres (source, clés exactes, identifiants, unicité, pôles, inverses réciproques, aucun inverse sur une relation symétrique) ; la conformité du vocabulaire aux registres relève d'A2-03 ; la transcription est vérifiée par des tests qui relisent les snapshots déposés | `tools/validate-data.mjs`, `tests/registries/` |
 
 ---
 
@@ -225,6 +236,19 @@ modifier ses parties verrouillées.
 - **Romaji des kana** (`–` pour っ, `di`, `du`, `wo`) : repris tels quels dans `kana.json` ;
   correction éventuelle à décider séparément.
 - **Grammaire présente dans plusieurs niveaux** : à décider à l'intégration du N4 (addendum A4).
+- **Points d'audit obligatoires d'A2-04 : doublons candidats** (à vérifier un par un avant tout
+  retrait d'identifiant, ce ne sont pas des fusions autorisées) : お姉さん, お母さん, お父さん,
+  美味しい, 面白い, 本当, 浴びる, 無くす, 醤油 (même mot en double) ; おなか / お腹, かばん / 鞄,
+  くだもの / 果物, ばんごはん / 晩ご飯, ひるごはん / 昼ご飯, かぎ / 鍵, せっけん / 石鹸,
+  くもり / 曇り, おととし / 一昨年, かわいい / 可愛い, はく / 履く, きれい / 綺麗, いい / 良い ;
+  朝ご飯 / 朝御飯, 曲がる / 曲る, 明るい / 明い (graphie fautive) ; 大変 (adverbe et adjectif en
+  な) ; キロ (kilo et kilomètre).
+- **Classes grammaticales à décider entrée par entrée en A2-04** : les 13 `adjectif` (この, その,
+  あの, どの, こんな → `determinant` ; les autres sont des adjectifs mal typés), 大きな
+  (`determinant`), conjonctions et interjections rangées en `adverbe` ou `interjection` (しかし,
+  でも, そうして, じゃ, じゃあ, それから, それでは, いいえ, ええ, どうぞ), など (particule), 弱く
+  (forme adverbiale de 弱い), noms rangés en `adverbe` (先, 一緒, 全部, 一番, たくさん), いくら, いつ,
+  composés numéraux (一つ à 九つ, jours, 一人, 二人, 二十歳).
 - **N4** : dans l'ancien format de données. Sera reconstruit avec la même méthode qu'A2-04,
   identifiants `v_<n>` et `g_<n>` suivants, niveau le plus précoce pour un mot présent dans
   plusieurs listes. Le validateur ne couvre que le N5 d'ici là.
@@ -265,3 +289,5 @@ modifier ses parties verrouillées.
 | 2026-10-02 | 2 · 1 | Verrouillage d'A2-01 : `schema-A2-01.md`, addenda A3 et A4, `REGLES-CONSTRUCTION.md` 2.3, mentions de statut des parties 1, 2, 3, 5, 8, des addenda A1 et A2, du `README.md` et de `GUIDE-CONTENU.md`, sommaire. Documents seulement | — |
 | 2026-10-02 | 2 · 1 bis | Réidentification de la grammaire (addendum A4) : `grammar.json` en `g_<n>` avec `level`, 63 références remappées, `events.js` (E5), validateur (I18 pour `g_`, I20, A4), tests adaptés ; 6 nouveaux tests ; 11 sabotages du code et 5 des données, tous attrapés après comblement d'un trou (S11) ; 268 tests | — |
 | 2026-10-02 | 2 · 2 (G1) | Catalogue minimal : `data/kana.json` (210 kana, non-régression contre une copie figée de l'ancienne liste), `src/content/` (`createContent`, `elementExists`, `elementsOfScope`, `ContentError`), adaptateur de test, validateur (kana et kanji par catalogue) ; intégration avec `learning` par les surfaces publiques ; structure canonique des kana imposée après relecture ; 19 nouveaux tests, 27 sabotages attrapés ; 287 tests | — |
+| 2026-10-02 | 2 · 3 (A2-02) | Découpage et arbitrage d'A2-02 (11 décisions, identité locale des catégories, classe `numeral`, 10 classes, 匹), après extraction des libellés répétés, des 17 anciens `type` et des candidats numéraux et compteurs ; aucun fichier créé | — |
+| 2026-10-02 | 2 · 3.1 | Registres fermés : `semantic-types.json` (4 familles, 16 types), `dimensions.json` (9 familles, 26 axes), `relations.json` (6 familles, 21 relations), `linguistic-functions.json` (2 familles, 14 fonctions) ; snapshots ST, DIM, REL, LING déposés ; intégrité dans `validate-data` ; tests de transcription ; 11 nouveaux tests, 20 sabotages attrapés ; 298 tests | — |

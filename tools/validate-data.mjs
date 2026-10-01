@@ -502,6 +502,121 @@ function checkParticles(index, report, lvl, particles) {
   }
 }
 
+// ── Registres A2 (A2-02) ────────────────────────────────────────────────────
+//
+// Intégrité interne des registres de data/registries/ (décision 11 d'A2-02). Leur usage par le
+// vocabulaire est contrôlé ailleurs (A2-03). Chaque registre a sa propre structure ; tous ont
+// une version de snapshot `source` et des familles.
+
+const REGISTRY_ID = /^[a-z0-9]+(_[a-z0-9]+)*$/;
+export const REGISTRY_SOURCES = Object.freeze({
+  'semantic-types.json': 'A2-ST-v1',
+  'dimensions.json': 'A2-DIM-v1',
+  'relations.json': 'A2-REL-v1.1',
+  'linguistic-functions.json': 'A2-LING-v1'
+});
+
+// Un nœud de registre : exactement les clés attendues, identifiant valide et non réservé,
+// libellé non vide. Renvoie vrai si le nœud est utilisable pour la suite des contrôles.
+function checkRegistryNode(report, where, node, keys, what) {
+  if (!node || typeof node !== 'object' || Array.isArray(node)) {
+    report.error('registre-format', where, `${what} : objet attendu`);
+    return false;
+  }
+  const actual = Object.keys(node).sort().join(',');
+  if (actual !== [...keys].sort().join(',')) {
+    report.error('registre-format', where, `${what} : clés ${actual || '(aucune)'} au lieu de ${keys.join(', ')}`);
+  }
+  if (typeof node.id !== 'string' || !REGISTRY_ID.test(node.id)) {
+    report.error('registre-id', where, `${what} : identifiant invalide « ${node.id} » (minuscules ASCII et « _ »)`);
+    return false;
+  }
+  checkReservedPrefix(report, where, node.id, what);
+  if (typeof node.label !== 'string' || node.label.trim() === '') report.error('registre-format', where, `${what} « ${node.id} » : libellé manquant`);
+  return true;
+}
+
+function checkUnique(report, where, ids, what) {
+  const seen = new Set();
+  for (const id of ids) {
+    if (seen.has(id)) report.error('id-duplique', where, `${what} « ${id} » en double`);
+    seen.add(id);
+  }
+}
+
+// Racine commune : { source, families }, puis les enfants de chaque famille sous `childKey`.
+// Renvoie la liste des enfants valides, avec leur famille.
+function checkRegistryRoot(report, file, data, childKey, childWhat) {
+  const where = `registries/${file}`;
+  if (!data || typeof data !== 'object' || Array.isArray(data)) { report.error('registre-format', where, 'objet attendu'); return []; }
+  const keys = Object.keys(data).sort().join(',');
+  if (keys !== 'families,source') report.error('registre-format', where, `clés ${keys} au lieu de source, families`);
+  if (data.source !== REGISTRY_SOURCES[file]) report.error('registre-source', where, `source « ${data.source} » au lieu de « ${REGISTRY_SOURCES[file]} »`);
+  if (!Array.isArray(data.families) || data.families.length === 0) { report.error('registre-format', where, '« families » doit être une liste non vide'); return []; }
+  const children = [];
+  const families = data.families.filter((f, i) => checkRegistryNode(report, `${where} · famille ${i + 1}`, f, ['id', 'label', childKey], 'famille'));
+  checkUnique(report, where, families.map((f) => f.id), 'famille');
+  for (const f of families) {
+    const fWhere = `${where} · ${f.id}`;
+    if (!Array.isArray(f[childKey]) || f[childKey].length === 0) { report.error('registre-format', fWhere, `« ${childKey} » doit être une liste non vide`); continue; }
+    f[childKey].forEach((c, i) => children.push({ node: c, family: f.id, where: `${fWhere} · ${i + 1}` }));
+  }
+  return children.filter((c) => {
+    const ok = c.node !== null && typeof c.node === 'object' && !Array.isArray(c.node);
+    if (!ok) report.error('registre-format', c.where, `${childWhat} : objet attendu`);
+    return ok;
+  });
+}
+
+function checkSemanticTypes(report, data) {
+  const types = checkRegistryRoot(report, 'semantic-types.json', data, 'types', 'type')
+    .filter((c) => checkRegistryNode(report, c.where, c.node, ['id', 'label'], 'type'));
+  checkUnique(report, 'registries/semantic-types.json', types.map((c) => c.node.id), 'type');
+}
+
+function checkDimensions(report, data) {
+  const where = 'registries/dimensions.json';
+  const axes = checkRegistryRoot(report, 'dimensions.json', data, 'axes', 'axe')
+    .filter((c) => checkRegistryNode(report, c.where, c.node, ['id', 'label', 'poles'], 'axe'));
+  checkUnique(report, where, axes.map((c) => c.node.id), 'axe');
+  for (const { node: axis, where: aWhere } of axes) {
+    // Un axe a au moins un pôle : « Probabilité » n'en a qu'un (décision 4 d'A2-02).
+    if (!Array.isArray(axis.poles) || axis.poles.length === 0) { report.error('registre-format', aWhere, `axe « ${axis.id} » sans pôle`); continue; }
+    const poles = axis.poles.filter((p, i) => checkRegistryNode(report, `${aWhere} · pôle ${i + 1}`, p, ['id', 'label'], 'pôle'));
+    checkUnique(report, aWhere, poles.map((p) => p.id), 'pôle');
+  }
+}
+
+function checkRelations(report, data) {
+  const where = 'registries/relations.json';
+  const relations = checkRegistryRoot(report, 'relations.json', data, 'relations', 'relation')
+    .filter((c) => checkRegistryNode(report, c.where, c.node, ['id', 'label', 'symmetric', 'inverse'], 'relation'));
+  checkUnique(report, where, relations.map((c) => c.node.id), 'relation');
+  const byId = new Map(relations.map((c) => [c.node.id, c.node]));
+  for (const { node: r, where: rWhere } of relations) {
+    if (typeof r.symmetric !== 'boolean') report.error('registre-format', rWhere, `« ${r.id} » : « symmetric » doit être un booléen`);
+    if (r.inverse === null) continue;
+    const inv = byId.get(r.inverse);
+    if (!inv) report.error('inverse-invalide', rWhere, `« ${r.id} » : inverse inconnu « ${r.inverse} »`);
+    else if (inv === r) report.error('inverse-invalide', rWhere, `« ${r.id} » est son propre inverse`);
+    else if (inv.inverse !== r.id) report.error('inverse-invalide', rWhere, `« ${r.id} » ↔ « ${inv.id} » : inverse non réciproque`);
+    if (r.symmetric === true) report.error('inverse-invalide', rWhere, `« ${r.id} » est symétrique : elle n'a pas d'inverse`);
+  }
+}
+
+function checkLinguisticFunctions(report, data) {
+  const functions = checkRegistryRoot(report, 'linguistic-functions.json', data, 'functions', 'fonction')
+    .filter((c) => checkRegistryNode(report, c.where, c.node, ['id', 'label'], 'fonction'));
+  checkUnique(report, 'registries/linguistic-functions.json', functions.map((c) => c.node.id), 'fonction');
+}
+
+const REGISTRY_CHECKS = {
+  'semantic-types.json': checkSemanticTypes,
+  'dimensions.json': checkDimensions,
+  'relations.json': checkRelations,
+  'linguistic-functions.json': checkLinguisticFunctions
+};
+
 // ── Point d'entrée ──────────────────────────────────────────────────────────
 
 export function validateData(dataDir) {
@@ -533,6 +648,10 @@ export function validateData(dataDir) {
     for (const r of files.registres) checkReservedPrefix(report, `registres.json · ${r?.id ?? '?'}`, r?.id, 'registre');
   }
   loadJson(dataDir, 'onboarding.json', report);
+  for (const [file, check] of Object.entries(REGISTRY_CHECKS)) {
+    const data = loadJson(dataDir, join('registries', file), report, { required: true });
+    if (data !== undefined) check(report, data);
+  }
   checkCategories(index, report);
 
   return report;
