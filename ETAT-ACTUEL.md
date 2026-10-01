@@ -10,13 +10,34 @@ devenir est décrit dans `docs/conception/` (verrouillé) ; comment travailler, 
 
 ## Étape en cours
 
-**Étape 1 · Stockage et apprentissage — ✅ terminée** le 2026-10-01 (rapport :
-`docs/rapports/etape1.md`).
+**Étape 2 · Contenu et graphe — en cours** (partie 9, 9.9 : chargement, normalisation
+`{ type, id }`, graphe, relations dérivées, `forms` / `construction` ; tests R1, R4, S1). Elle
+comprend la reconstruction du vocabulaire selon l'architecture sémantique A2 (projets A2-01 à
+A2-05) et la réidentification de la grammaire (addendum A4).
 
-**Prochaine étape : 2 · Contenu et graphe** (partie 9, 9.9 : chargement, normalisation
-`{ type, id }`, graphe, relations dérivées, `forms` / `construction` ; tests R1, R4, S1), à
-découper en tâches avant tout code. Le chantier A2-01 (schéma ENTRY → SENSE) s'y rattache
-(voir les points ouverts).
+**Tâche en cours : 1 bis · Réidentification de la grammaire.** A2-01 est verrouillé
+(`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3).
+
+### Étape 2 · Feuille de route
+
+Ordre fixé le 2026-10-02. Chaque tâche suit la méthode habituelle : périmètre validé,
+livraison, relecture, tests verts, commit.
+
+| # | Tâche | Contenu | État |
+|---|---|---|---|
+| 1 | A2-01 · Verrouillage | schéma A2-01, addenda A3 et A4, `REGLES-CONSTRUCTION.md` 2.3, mentions de statut dans les parties concernées ; documents seulement | ✅ fait |
+| 1 bis | Réidentification de la grammaire (A4) | un seul commit : `grammar.json` (`n5_g_<n>` → `g_<n>`, champ `level`), 63 références actives remappées, `events.js` (E5), validateur (I20, A4, préfixe `g_` de I18), tests ; plus aucun niveau déduit d'un identifiant `g_` ; `exemples.json` et fichiers de l'ancienne app inchangés | à faire |
+| 2 | G1 · Catalogue minimal | `data/kana.json` (grille, 210 kana, non-régression), `createContent(rawData)` pur, `elementExists`, `elementsOfScope` ; ne lit que les identifiants ; niveau donné par la place du fichier ; comptes tirés des données ; test d'intégration par les surfaces publiques de `content` et `learning` | à faire |
+| 3 | A2-02 · Registres | catégories (3 niveaux), types, axes et pôles, relations, fonctions, classes grammaticales (table des 17 anciens `type`), compatibilités de compteurs, tags (critères, procédure, premiers tags) | à faire |
+| 4 | A2-03 · Validateur | I1 à I19, A1 à A3, N1 (`schema-A2-01.md`, §12) ; testés sur données d'essai, activés sur `data/` à la publication | à faire |
+| 5 | A2-04.0 · Espace de travail | sources figées, fichiers de lot, journal des corrections, table de correspondance, outil d'assemblage | à faire |
+| 6 | A2-04.1 à .15 · Lots | ~50 entrées par lot : proposition, relecture, audit, commit dans l'espace de travail | à faire |
+| 7 | A2-04.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
+| 8 | A2-04.17 · Publication | une seule opération : vocabulaire canonique, validateur activé, `events.js` (E1 à E4) ; l'ancienne app cesse de fonctionner sur `ocha-v2` | à faire |
+| 9 | G2 à G9 · Graphe | normalisation, ordre de référence, graphe, relations dérivées, accessibilité (S1, R1), `forms` / `construction` (G7), validation (R4), branchement sur `learning` | à faire |
+| 10 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
+| 11 | Registre de phrases | format, identifiants, reconstruction depuis `exemples.json` et les anciens exemples ; requis avant l'étape 3 | à faire |
+| 12 | Clôture de l'étape 2 | scénario de bout en bout, rapport `docs/rapports/etape2.md` | à faire |
 
 Sous PowerShell, lancer les tests avec `npm.cmd test` (la stratégie d'exécution de Windows
 bloque `npm test`).
@@ -60,6 +81,9 @@ bloque `npm test`).
   `dates.js`), `tools/check-layers.mjs`, `tools/validate-data.mjs`, `tests/` (262 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
+- **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
+  indépendants du niveau), `docs/conception/schema-A2-01.md` (schéma du vocabulaire et
+  invariants du validateur), validés le 2026-10-02.
 - **Ancienne app** (`js/`, `css/`, `index.html`, `sw.js`…) : conservée **comme référence**
   pour reprendre la logique des modules listés dans la stratégie de reconstruction. Elle
   n'est pas modifiée. Son sort (déplacement ou suppression) sera décidé à l'étape 5, quand la
@@ -137,6 +161,17 @@ modifier ses parties verrouillées.
 | 2026-10-01 | Adaptateur IndexedDB, même sémantique que la version en mémoire : vérifications communes de `contract.js` avant tout appel à IndexedDB (mêmes `TypeError`), même file d'exécution (IndexedDB peut faire tourner en parallèle des transactions sur des magasins différents), annulation explicite si `work` échoue ; erreurs traduites en `StorageError` (`QuotaExceededError` → `quota` ; `InvalidStateError`, `UnknownError`, `NotFoundError`, base bloquée ou fermée → `unavailable` ; autres → `aborted`) ; une demande de mise à niveau venue d'un autre onglet ferme la base | `src/store/indexeddb.js` |
 | 2026-10-01 | Vérification de l'adaptateur IndexedDB : la suite de contrat commune (sans les pannes simulées), la persistance après réouverture et C3 de bout en bout sont joués dans le navigateur par `tests/browser/store-contract.html`, servie par `node tests/browser/serve.mjs` (aucune dépendance) | `tests/browser/` |
 | 2026-10-01 | `REVIEW_GRADED` sur un élément sans entrée SRS : la note est sa première évaluation (partie 1 : « question d'exercice ou note SRS »), donc `gradeReview` s'applique aussitôt à partir de l'entrée de départ de l'ancien code, alors que `QUESTION_ANSWERED` crée une entrée à J+1 sans la noter ; date d'introduction et origine `learned` posées si absentes | `src/learning/effects.js` |
+| 2026-10-01 | Étape 2 : `data/kana.json` devient la source canonique des kana (grille par groupes, identifiants stables `base`, `dakuten`, `handakuten`, `sokuon`, `yoon`), repris à l'identique de l'ancien code, romaji compris (`–`, `di`, `du`, `wo` inchangés) ; l'existence d'un kana est l'appartenance au catalogue | tâche G1 |
+| 2026-10-01 | Un kanji est un élément s'il appartient au catalogue de kanji d'un niveau ; sa présence dans un mot ne suffit pas | tâche G1 |
+| 2026-10-01 | `elementsOfScope(niveau)` : vocabulaire JLPT, grammaire et kanji du niveau ; jamais les mots hors JLPT ni les expressions ; kana pour la portée `kana` ; liste vide pour un niveau non intégré | tâche G1 |
+| 2026-10-01 | `content` est pur : `createContent(rawData)` reçoit les données déjà lues ; une référence structurelle invalide refuse la construction ; l'accessibilité reçoit l'état par injection (`getElementState(ref)`), sans importer `learning` | étape 2 |
+| 2026-10-01 | `docs/conception/README.md` n'est pas modifié pour décrire `kana.json` : documenté dans `ETAT-ACTUEL.md` et le rapport de la tâche | tâche G1 |
+| 2026-10-02 | A2-01 verrouillé : schéma ENTRY → SENSE strict, au moins un sens, sens ≠ traduction (`meaning.primary` et `alternatives`), lectures structurées, `writings`, kanji calculés, `grammatical_class` et `group` séparés, `suru_compatible`, nuances à trois portées, relations de sens à sens, `senseId` seulement avec une seule cible `vocab` | `docs/conception/schema-A2-01.md` |
+| 2026-10-02 | Addendum A3 : les données sont reconstruites (sources figées → travail → canonique toujours valide) ; identifiants de vocabulaire `v_<n>` indépendants du niveau, numéro historique conservé, `v_717` retiré, `hj_v_1` → `v_718`, `hj_v_2` → `v_719`, fusion au plus petit numéro, `data/vocab-retired.json` ; exemples hors du vocabulaire, dans un registre de phrases | `docs/conception/addendum-A3-modele-lexical.md` |
+| 2026-10-02 | Addendum A4 : grammaire `g_<n>` (numéro conservé) avec champ `level` ; aucun comportement ne déduit le niveau d'un identifiant d'élément ; missions et lectures gardent leur niveau dans l'identifiant | `docs/conception/addendum-A4-identifiants.md` |
+| 2026-10-02 | L'ancienne application cessera de fonctionner sur `ocha-v2` (grammaire dès la tâche 1 bis, vocabulaire à la publication d'A2-04) ; aucune compatibilité n'est maintenue ; elle reste intacte sur `Modularisation` | — |
+| 2026-10-02 | `exemples.json`, `concepts/n5.json`, `curriculum/n5.json` et `mapping.json` sont des sources figées : non remappés, lus avec les tables de correspondance | — |
+| 2026-10-02 | `REGLES-CONSTRUCTION.md` version 2.3 : identifiants `v_<n>` et `g_<n>`, identité sans niveau | `REGLES-CONSTRUCTION.md` §5 |
 
 ---
 
@@ -151,23 +186,35 @@ modifier ses parties verrouillées.
   avec l'interface (étape 5).
 - **Dossiers** : le magasin `folders` existe dans le schéma v1 ; son accès (par `learning`,
   jamais directement par l'interface) sera défini à l'étape 5.
-- **Champ de sens dans `QUESTION_ANSWERED`** : nom fixé par A2-01, ajouté ensuite ; rien
-  n'est anticipé à l'étape 1.
+- **Champ de sens dans `QUESTION_ANSWERED`** : `senseId` (A2-01), ajouté à la publication
+  d'A2-04 (E2 à E4).
 - **Tests navigateur** : la page `tests/browser/store-contract.html` se lance à la main ; elle
   n'est pas jouée par `npm test`. À relancer après toute modification de `src/store/`.
 - **Export / import** (bouton du bandeau 9.4) : étape 6. L'étape 1 expose l'état d'échec et
   `retry()`.
 - **`fake-indexeddb`** : à reconsidérer seulement si la vérification manuelle de l'adaptateur
   IndexedDB devient pénalisante.
-- **Architecture lexicale A2** : document de liaison validé
-  (`docs/conception/addendum-A2-liaison.md`). Prochain chantier : A2-01, schéma concret
-  ENTRY → SENSE (étape 2). La place des projets A2-06 à A2-09 reste à arbitrer.
-- **`data/n5/exemples.json` à reconstruire** : 436 exemples par kanji sans hiragana, exemples
-  de vocabulaire découpés par des espaces (voir `docs/rapports/etape0-tache6.md`). À traiter
-  avec la migration A2 ou un projet dédié.
-- **N4** : dans l'ancien format de données (identifiants, `group`, exemples, romaji). À migrer
-  au format v2 avant son intégration au moteur guidé. Le validateur ne couvre que le N5 d'ici
-  là.
+- **Architecture lexicale A2** : A2-01 verrouillé ; A2-02 à A2-05 dans la feuille de route de
+  l'étape 2. La place des projets A2-06 à A2-09 reste à arbitrer.
+- **`data/n5/exemples.json`** : source du registre de phrases (tâche 11), qui corrigera ses
+  défauts connus (436 exemples par kanji sans hiragana, découpage par espaces, 一つ lu いち,
+  買 lu ばい, 今朝 lu いま あさ, clé fantôme `n5_v_717`).
+- **Anomalies du vocabulaire relevées pour A2-04** (corrigées et journalisées pendant la
+  reconstruction) : 九つ lu ここなつ ; `kanji_list` faux pour 丈夫, 出来る, 二十歳, お手洗い ;
+  20 furigana dont le texte de base diffère du mot ; lectures et formes avec « / » ; doublons
+  きれい / 綺麗 et いい / 良い ; balise cassée dans l'exemple de 聞く ; « LaXiste » dans 甘い.
+- **Registre des formes et groupes compatibles** : à fixer avant G7 (aucun identifiant de forme
+  n'est inventé).
+- **Avertissement « élément enseigné par aucune activité ni leçon »** (2.7) : contrôle de
+  couverture du graphe ; ses exclusions légitimes sont à définir avant G8.
+- **Ajouts de contenu** : 円 (vocabulaire, par décision consignée pendant A2-04) ;
+  おはようございます (expressions, hors A2-04).
+- **Romaji des kana** (`–` pour っ, `di`, `du`, `wo`) : repris tels quels dans `kana.json` ;
+  correction éventuelle à décider séparément.
+- **Grammaire présente dans plusieurs niveaux** : à décider à l'intégration du N4 (addendum A4).
+- **N4** : dans l'ancien format de données. Sera reconstruit avec la même méthode qu'A2-04,
+  identifiants `v_<n>` et `g_<n>` suivants, niveau le plus précoce pour un mot présent dans
+  plusieurs listes. Le validateur ne couvre que le N5 d'ici là.
 - **75 leçons de grammaire sans `requires`** : dépendances à écrire (travail pédagogique).
 - **À l'étape 5** : déplacer `concepts/n5.json` vers `data/n5/concepts.json`, et
   `curriculum/n5.json` et `mapping.json` vers `data/legacy/`.
@@ -200,3 +247,6 @@ modifier ses parties verrouillées.
 | 2026-10-01 | 1 · 11 | Échec d'écriture (9.4) : compaction puis une seule nouvelle tentative, file volatile, statut `pending`, échec observable, `retry()` dans l'ordre ; trois tests des tâches 8 et 9 adaptés au nouveau comportement ; 16 tests | — |
 | 2026-10-01 | 1 · 12 | IndexedDB : `schema.js` (base `ocha`, version 1, migrations), `indexeddb.js` (même contrat que la mémoire), `meta` initial commun ; page de test navigateur et serveur local ; nouveau cas de contrat (ordre de fin entre magasins différents) ; 9 tests Node, 20 cas navigateur | — |
 | 2026-10-01 | 1 · 13 | Clôture : scénario de bout en bout (`e2e.test.js`, du 1er octobre au 23 décembre, invariants, S6 et S7 après chaque événement, C3, C5, 9.4, budget) ; vérification que le code livré est celui testé ; rapport `docs/rapports/etape1.md`. Aucune logique nouvelle. Étape 1 terminée : 262 tests, 20/20 dans le navigateur | — |
+| 2026-10-01 | 2 · — | Découpage de l'étape 2 et arbitrages préalables (kana, kanji, portées, `content` pur, refus des références invalides, accessibilité injectée) ; nouvel ordre avec la reconstruction A2 | — |
+| 2026-10-01 | A2-01 | Corpus de stress-test (16 entrées N5), proposition de schéma, analyse de la reconstruction et des identifiants | — |
+| 2026-10-02 | 2 · 1 | Verrouillage d'A2-01 : `schema-A2-01.md`, addenda A3 et A4, `REGLES-CONSTRUCTION.md` 2.3, mentions de statut des parties 1, 2, 3, 5, 8, des addenda A1 et A2, du `README.md` et de `GUIDE-CONTENU.md`, sommaire. Documents seulement | — |

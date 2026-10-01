@@ -2,7 +2,8 @@
 
 ## Addendum A1 · Champ `construction`
 
-**Statut** : 🔒 validé le 2026-09-29.
+**Statut** : 🔒 validé le 2026-09-29. Addendum A4 : les identifiants `n5_g_…` cités se lisent `g_…`,
+même numéro.
 
 **Modifie** : partie 2 (addendum 2.10), partie 5 (5.2), et leurs mentions dans la partie 9 et
 le sommaire. Aucune règle ne change : seul le **nom d'un champ** change.

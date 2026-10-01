@@ -3,7 +3,9 @@
 ## Partie 5 · Génération et adaptation pédagogique des exercices
 
 **Statut** : 🔒 verrouillée (version 3 : arbitrage O7 de la partie 8 intégré ; addendum A1 :
-champ `construction`, voir `addendum-A1-construction.md`). Les valeurs chiffrées sont des
+champ `construction`, voir `addendum-A1-construction.md` ; addendum A3 (`addendum-A3-modele-lexical.md`) : exemples
+lus dans le registre de phrases, `group` limité à la morphologie ; addendum A4 (`addendum-A4-identifiants.md`) : identifiants
+`g_<n>`). Les valeurs chiffrées sont des
 paramètres expérimentaux de la v1 (5.6).
 
 **Objet** : transformer une intention pédagogique en exercice adapté à l'utilisateur.

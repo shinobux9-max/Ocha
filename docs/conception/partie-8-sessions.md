@@ -3,7 +3,8 @@
 ## Partie 8 · Cinq sessions d'exemple
 
 **Statut** : 🔒 verrouillée (version 2 : arbitrages O1 à O7 intégrés, sessions A, C et D
-rejouées, aucune nouvelle contradiction ni lacune).
+rejouées, aucune nouvelle contradiction ni lacune). Addenda A3 et A4 : les identifiants cités
+se lisent avec le même numéro (`n5_v_33` → `v_33`, `n5_g_17` → `g_17`, `hj_v_1` → `v_718`).
 
 **Objet** : faire tourner à la main toutes les règles verrouillées (parties 1 à 7) sur cinq
 profils choisis pour **mettre le moteur sous pression**, pas pour montrer que tout marche.

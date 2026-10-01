@@ -1,5 +1,11 @@
 # Kanji-trad — nouveaux fichiers de données (exemples)
 
+> **Addenda A3 et A4** (`addendum-A3-modele-lexical.md`, `addendum-A4-identifiants.md`) : le
+> vocabulaire suit désormais `schema-A2-01.md` (identifiants `v_<n>`, mots hors JLPT avec
+> `level: "hors_jlpt"`, aucun exemple dans le vocabulaire) et la grammaire les identifiants
+> `g_<n>`. Les identifiants cités ici se lisent avec le même numéro. Les formats de ce document
+> seront mis à jour à la publication des données reconstruites (A2-04).
+
 Fichiers d'exemple pour tester la v4. Les identifiants de vocabulaire et de grammaire
 utilisés (`n5_v_…`, `n5_g_…`) sont les vrais identifiants de `vocab.json` et `grammar.json`.
 

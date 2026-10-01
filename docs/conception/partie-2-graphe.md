@@ -4,7 +4,11 @@
 
 **Statut** : 🔒 verrouillée (version 2), avec un addendum (2.10) qui n'en modifie aucune
 décision, et l'addendum A1 (champ `construction`, voir `addendum-A1-construction.md`).
-Addendum A2 (`addendum-A2-liaison.md`) : une référence `vocab` désigne toujours une ENTRY. Les seuils chiffrés sont des paramètres de la v1 (voir 2.9).
+Addendum A2 (`addendum-A2-liaison.md`) : une référence `vocab` désigne toujours une ENTRY.
+Addendum A3 (`addendum-A3-modele-lexical.md`) : identifiants `v_<n>`, kanji d'un mot calculés à partir de sa forme usuelle (2.5),
+`group` limité à la morphologie (2.10). Addendum A4 (`addendum-A4-identifiants.md`) : identifiants `g_<n>`, niveau lu dans le
+champ `level` (2.7). Les identifiants cités ici se lisent avec le même numéro (`n5_v_84` → `v_84`,
+`n5_g_8` → `g_8`). Les seuils chiffrés sont des paramètres de la v1 (voir 2.9).
 
 **Objet** : définir comment les contenus d'Ocha sont reliés entre eux, pour que le moteur
 sache ce qu'une activité exige, ce qu'elle enseigne, et ce qu'elle fait seulement

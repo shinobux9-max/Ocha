@@ -1,5 +1,11 @@
 # Kanji-trad — Guide de rédaction du contenu
 
+> **Addenda A3 et A4** (`addendum-A3-modele-lexical.md`, `addendum-A4-identifiants.md`) : le
+> vocabulaire suit désormais `schema-A2-01.md` (identifiants `v_<n>`, mots hors JLPT avec
+> `level: "hors_jlpt"`, aucun exemple dans le vocabulaire) et la grammaire les identifiants
+> `g_<n>`. Les identifiants cités ici se lisent avec le même numéro. Les formats de ce document
+> seront mis à jour à la publication des données reconstruites (A2-04).
+
 Ce guide explique comment écrire du nouveau contenu pour les fichiers de données de
 Kanji-trad, une application d'apprentissage du japonais pour francophones (niveaux JLPT
 N5 à N1). Il est destiné à la personne ou à l'IA qui rédige ce contenu.

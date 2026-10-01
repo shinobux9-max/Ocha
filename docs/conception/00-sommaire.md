@@ -21,6 +21,9 @@ référence : un comportement qui s'en écarte doit être signalé, jamais impro
 | 9 | `partie-9-architecture.md` | couches, stockage IndexedDB, atomicité, pannes, tests, ordre de reconstruction |
 | A1 | `addendum-A1-construction.md` | champ `construction` (au lieu de `pattern`) pour les constructions générées |
 | A2 | `addendum-A2-liaison.md` | liaison avec l'architecture sémantique A2 : l'ENTRY est l'unité d'apprentissage, statut des tags |
+| A3 | `addendum-A3-modele-lexical.md` | modèle lexical d'Ocha v2 et reconstruction des données ; identifiants `v_<n>` |
+| A4 | `addendum-A4-identifiants.md` | identifiants indépendants du niveau ; grammaire en `g_<n>` |
+| — | `schema-A2-01.md` | schéma du vocabulaire (ENTRY → SENSE) et invariants du validateur |
 | — | `../../REGLES-CONSTRUCTION.md` | règles opérationnelles de la branche `ocha-v2` (à la racine du dépôt) |
 | — | `GUIDE-CONTENU.md`, `README.md` | rédaction du contenu et structure des fichiers de données |
 
@@ -31,6 +34,6 @@ Tous les paramètres chiffrés des parties 1 à 5 sont regroupés dans une confi
 
 ## Prochaine étape
 
-**Étape 0 de la reconstruction** (partie 9, 9.9) : créer la branche `ocha-v2`, poser
-l'arborescence, rédiger les règles de construction de la nouvelle base (9.10), nettoyer et
-valider les données.
+**Étape 2 de la reconstruction** (partie 9, 9.9), dans l'ordre fixé par `ETAT-ACTUEL.md` :
+réidentification de la grammaire, catalogue minimal, registres A2-02, validateur A2-03,
+reconstruction du vocabulaire A2-04, graphe, audit A2-05, registre de phrases.

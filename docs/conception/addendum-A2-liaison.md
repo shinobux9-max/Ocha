@@ -2,7 +2,10 @@
 
 ## Addendum A2 · Liaison entre l'architecture sémantique A2 et la conception
 
-**Statut** : 🔒 validé le 2026-10-01 (version 2).
+**Statut** : 🔒 validé le 2026-10-01 (version 2). Addendum A3 (`addendum-A3-modele-lexical.md`) :
+la contrainte « l'identifiant d'une ENTRY existante ne change pas » est remplacée (identifiants
+`v_<n>`, immuables à partir de la première publication) ; la migration devient une
+reconstruction ; les questions de la section 8 sont tranchées par `schema-A2-01.md`.
 
 **Objet** : articuler deux ensembles de références verrouillés, qui ont été conçus
 séparément :
