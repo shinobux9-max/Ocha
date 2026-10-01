@@ -510,6 +510,7 @@ function checkParticles(index, report, lvl, particles) {
 
 const REGISTRY_ID = /^[a-z0-9]+(_[a-z0-9]+)*$/;
 export const REGISTRY_SOURCES = Object.freeze({
+  'categories.json': 'A2-L3-v1',
   'semantic-types.json': 'A2-ST-v1',
   'dimensions.json': 'A2-DIM-v1',
   'relations.json': 'A2-REL-v1.1',
@@ -610,7 +611,33 @@ function checkLinguisticFunctions(report, data) {
   checkUnique(report, 'registries/linguistic-functions.json', functions.map((c) => c.node.id), 'fonction');
 }
 
+// Catégories (A2-02 · 3.2) : un arbre { source, levels }, niveaux 1 → 2 → 3. Identité locale :
+// un identifiant n'est unique que parmi ses frères ; un nœud de niveau 2 est identifié par
+// (L1, L2), un nœud de niveau 3 par (L1, L2, L3). Les répétitions entre parents différents
+// (« mois », « radio → radio ») sont donc légales. Un niveau 2 sans niveau 3 a `children: []`.
+function checkCategoryTree(report, data) {
+  const where = 'registries/categories.json';
+  if (!data || typeof data !== 'object' || Array.isArray(data)) { report.error('registre-format', where, 'objet attendu'); return; }
+  const keys = Object.keys(data).sort().join(',');
+  if (keys !== 'levels,source') report.error('registre-format', where, `clés ${keys} au lieu de source, levels`);
+  if (data.source !== REGISTRY_SOURCES['categories.json']) report.error('registre-source', where, `source « ${data.source} » au lieu de « ${REGISTRY_SOURCES['categories.json']} »`);
+  if (!Array.isArray(data.levels) || data.levels.length === 0) { report.error('registre-format', where, '« levels » doit être une liste non vide'); return; }
+  // Vérifie une fratrie : chaque nœud, puis l'unicité des identifiants parmi ces seuls frères.
+  const siblings = (list, sWhere, nodeKeys, what) => {
+    if (!Array.isArray(list)) { report.error('registre-format', sWhere, '« children » doit être une liste'); return []; }
+    const ok = list.filter((n, i) => checkRegistryNode(report, `${sWhere} · ${i + 1}`, n, nodeKeys, what));
+    checkUnique(report, sWhere, ok.map((n) => n.id), what);
+    return ok;
+  };
+  for (const l1 of siblings(data.levels, where, ['id', 'label', 'children'], 'catégorie de niveau 1')) {
+    for (const l2 of siblings(l1.children, `${where} · ${l1.id}`, ['id', 'label', 'children'], 'catégorie de niveau 2')) {
+      siblings(l2.children, `${where} · ${l1.id} › ${l2.id}`, ['id', 'label'], 'catégorie de niveau 3');
+    }
+  }
+}
+
 const REGISTRY_CHECKS = {
+  'categories.json': checkCategoryTree,
   'semantic-types.json': checkSemanticTypes,
   'dimensions.json': checkDimensions,
   'relations.json': checkRelations,

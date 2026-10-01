@@ -39,7 +39,7 @@ const slug = (label) => label.normalize('NFD').replace(/\p{Mn}/gu, '').toLowerCa
 const versionOf = (md) => md.match(/\*\*Version :\*\* ([^\s\\]+)/)[1];
 
 test('chaque registre déclare la version de son snapshot', () => {
-  for (const [json, md] of [['semantic-types.json', 'A2-ST-v1.md'], ['dimensions.json', 'A2-DIM-v1.md'],
+  for (const [json, md] of [['categories.json', 'A2-L3-v1.md'], ['semantic-types.json', 'A2-ST-v1.md'], ['dimensions.json', 'A2-DIM-v1.md'],
     ['relations.json', 'A2-REL-v1.1.md'], ['linguistic-functions.json', 'A2-LING-v1.md']]) {
     assert.equal(registry(json).source, versionOf(snapshot(md)), json);
   }
@@ -104,4 +104,62 @@ test('fonctions linguistiques : 2 familles, 14 fonctions ; familles nommées com
   for (const node of [...reg.families, ...reg.families.flatMap((f) => f.functions)]) assert.equal(node.id, slug(node.label));
   // schema-A2-01.md, §7 : linguistic_functions = { grammatical: [], pragmatic_discourse: [] }.
   assert.deepEqual(reg.families.map((f) => f.id), ['grammatical', 'pragmatic_discourse']);
+});
+
+// ── A2-02 · 3.2 : catégories (A2-L3-v1, section 5) ──
+
+// Arbre du snapshot : « ### NN. Niveau 1 », puis « - Niveau 2 → N3 ; N3 ; … » ou « - Niveau 2 ».
+function snapshotCategories(md) {
+  const start = md.indexOf('## 5.');
+  const section = md.slice(start, md.indexOf('\n## ', start + 5));
+  const tree = [];
+  for (const line of section.split('\n')) {
+    const h = line.match(/^### (\d\d)\. (.+)$/);
+    if (h) { tree.push([h[2].trim(), []]); continue; }
+    if (!line.startsWith('- ')) continue;
+    const [l2, l3] = line.slice(2).split('→');
+    tree.at(-1)[1].push([l2.trim(), l3 === undefined ? [] : l3.split(';').map((x) => x.trim())]);
+  }
+  return tree;
+}
+
+test('catégories : l\'arbre entier est celui du snapshot, libellés et ordre compris (A2-L3-v1)', () => {
+  const md = snapshot('A2-L3-v1.md');
+  const reg = registry('categories.json');
+  const tree = reg.levels.map((l1) => [l1.label, l1.children.map((l2) => [l2.label, l2.children.map((l3) => l3.label)])]);
+  assert.deepEqual(tree, snapshotCategories(md));
+  // Comptes relevés à la main.
+  assert.equal(reg.levels.length, 32);
+  const l2s = reg.levels.flatMap((l1) => l1.children);
+  assert.equal(l2s.length, 225);
+  assert.equal(l2s.flatMap((l2) => l2.children).length, 585);
+  assert.equal(l2s.filter((l2) => l2.children.length === 0).length, 56);
+  // La liste des 32 niveaux 1 de la section 4 est celle des titres de la section 5.
+  const sec4 = md.slice(md.indexOf('## 4.'), md.indexOf('## 5.'));
+  assert.deepEqual(reg.levels.map((l1) => l1.label), [...sec4.matchAll(/^\d+\. (.+)$/gm)].map((m) => m[1].trim()));
+});
+
+test('catégories : identifiants mécaniques à chaque niveau ; répétitions légales sous des parents différents', () => {
+  const reg = registry('categories.json');
+  const paths = [];
+  for (const l1 of reg.levels) {
+    assert.equal(l1.id, slug(l1.label));
+    for (const l2 of l1.children) {
+      assert.equal(l2.id, slug(l2.label));
+      paths.push([l1.id, l2.id]);
+      for (const l3 of l2.children) {
+        assert.equal(l3.id, slug(l3.label));
+        assert.deepEqual(Object.keys(l3), ['id', 'label'], 'un niveau 3 n\'a pas d\'enfants');
+        paths.push([l1.id, l2.id, l3.id]);
+      }
+    }
+  }
+  // Identité = chemin : aucun chemin en double, alors que des identifiants isolés se répètent.
+  assert.equal(new Set(paths.map((p) => p.join('/'))).size, paths.length);
+  const has = (...p) => paths.some((x) => x.join('/') === p.join('/'));
+  assert.ok(has('temps', 'unites_temporelles', 'mois') && has('temps', 'calendrier', 'mois'));
+  assert.ok(has('communication_langage', 'langues', 'interpretation') && has('arts_creation', 'musique', 'interpretation')
+    && has('arts_creation', 'cinema_comme_creation_artistique', 'interpretation'));
+  assert.ok(has('medias', 'radio', 'radio') && has('voyage_tourisme', 'sejour', 'sejour'));
+  assert.ok(has('monde_naturel', 'animaux') && has('nombres_quantification', 'comptage_compteurs', 'animaux'));
 });

@@ -21,6 +21,15 @@ const canonicalKana = (baseRows) => ({ scripts: ['hiragana', 'katakana'].map((id
 // Registres A2 minimaux et valides (A2-02 · 3.1) : un exemple de chaque cas utile.
 function registries() {
   return {
+    // Répétitions légales (identité locale) : « mois » sous deux parents, « radio → radio » ;
+    // un niveau 2 sans niveau 3.
+    'registries/categories.json': { source: 'A2-L3-v1', levels: [
+      { id: 'temps', label: 'Temps', children: [
+        { id: 'unites_temporelles', label: 'Unités temporelles', children: [{ id: 'mois', label: 'Mois' }] },
+        { id: 'calendrier', label: 'Calendrier', children: [{ id: 'mois', label: 'Mois' }, { id: 'jours', label: 'Jours' }] },
+        { id: 'duree', label: 'Durée', children: [] }] },
+      { id: 'medias', label: 'Médias', children: [
+        { id: 'radio', label: 'Radio', children: [{ id: 'radio', label: 'Radio' }] }] }] },
     'registries/semantic-types.json': { source: 'A2-ST-v1', families: [
       { id: 'entity', label: 'ENTITY', types: [{ id: 'personne', label: 'Personne' }, { id: 'lieu', label: 'Lieu' }] }] },
     'registries/dimensions.json': { source: 'A2-DIM-v1', families: [
@@ -421,8 +430,8 @@ test('un kanji référencé doit appartenir au catalogue d\'un niveau, pas seule
 const REG = (name) => `registries/${name}.json`;
 const errorsOf = (change) => withData(modify(change), (r) => r.errors);
 
-test('registres : les quatre fichiers sont obligatoires', () => {
-  for (const name of ['semantic-types', 'dimensions', 'relations', 'linguistic-functions']) {
+test('registres : les cinq fichiers sont obligatoires', () => {
+  for (const name of ['categories', 'semantic-types', 'dimensions', 'relations', 'linguistic-functions']) {
     const errors = errorsOf((d) => { delete d[REG(name)]; });
     assert.ok(errors.some((e) => e.code === 'fichier-absent' && e.where.includes(name)), name);
   }
@@ -479,4 +488,48 @@ test('relations : symmetric booléen, inverse existant, réciproque, jamais sur 
     [(d) => { rel(d, 0).symmetric = true; }, 'inverse-invalide']
   ];
   for (const [change, code] of cases) assert.ok(codes(errorsOf(change)).includes(code), JSON.stringify(code));
+});
+
+// ── A2-02 · 3.2 : arbre des catégories (identité locale) ──
+
+test('catégories : racine { source, levels }, version A2-L3-v1', () => {
+  const cases = [
+    [(d) => { d[REG('categories')].source = 'A2-L3-v2'; }, 'registre-source'],
+    [(d) => { d[REG('categories')].families = []; }, 'registre-format'],
+    [(d) => { d[REG('categories')].levels = []; }, 'registre-format']
+  ];
+  for (const [change, code] of cases) assert.ok(codes(errorsOf(change)).includes(code), code);
+});
+
+test('catégories : clés exactes à chaque niveau ; un niveau 2 sans niveau 3 est valide', () => {
+  const cat = (d) => d[REG('categories')].levels;
+  const cases = [
+    (d) => { delete cat(d)[0].children; },                                     // niveau 1 sans children
+    (d) => { delete cat(d)[0].children[2].children; },                         // niveau 2 sans children
+    (d) => { cat(d)[0].children[2].children = null; },                         // children non liste
+    (d) => { cat(d)[0].children[0].children[0].children = []; },               // niveau 3 avec children
+    (d) => { cat(d)[1].children[0].children[0].level = 3; },                   // clé en trop
+    (d) => { cat(d)[1].label = ''; }                                           // libellé vide
+  ];
+  for (const [i, change] of cases.entries()) assert.ok(codes(errorsOf(change)).includes('registre-format'), `cas ${i + 1}`);
+  assert.deepEqual(errorsOf(() => {}), [], 'jeu valide, niveau 2 vide compris');
+});
+
+test('catégories : identifiants uniques parmi les frères seulement (identité locale)', () => {
+  const cat = (d) => d[REG('categories')].levels;
+  // Doublons entre frères : refusés, à chaque niveau.
+  const cases = [
+    (d) => { cat(d).push({ id: 'temps', label: 'Temps bis', children: [] }); },
+    (d) => { cat(d)[0].children.push({ id: 'calendrier', label: 'C', children: [] }); },
+    (d) => { cat(d)[0].children[1].children.push({ id: 'jours', label: 'J' }); }
+  ];
+  for (const [i, change] of cases.entries()) assert.ok(codes(errorsOf(change)).includes('id-duplique'), `cas ${i + 1}`);
+  // Même identifiant sous des parents différents, ou identique à celui du parent : légal.
+  assert.deepEqual(errorsOf((d) => { cat(d)[1].children.push({ id: 'calendrier', label: 'Calendrier', children: [{ id: 'temps', label: 'Temps' }] }); }), []);
+});
+
+test('catégories : forme des identifiants et préfixes réservés', () => {
+  const cat = (d) => d[REG('categories')].levels;
+  assert.ok(codes(errorsOf((d) => { cat(d)[0].children[0].id = 'Unités'; })).includes('registre-id'));
+  assert.ok(codes(errorsOf((d) => { cat(d)[0].children[0].children[0].id = 'g_mois'; })).includes('prefixe-reserve'));
 });

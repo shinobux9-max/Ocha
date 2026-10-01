@@ -1,0 +1,2076 @@
+{
+  "source": "A2-L3-v1",
+  "levels": [
+    {
+      "id": "etre_humain",
+      "label": "Être humain",
+      "children": [
+        {
+          "id": "corps",
+          "label": "Corps",
+          "children": [
+            { "id": "tete_visage", "label": "Tête & visage" },
+            { "id": "membres", "label": "Membres" },
+            { "id": "tronc", "label": "Tronc" },
+            { "id": "organes", "label": "Organes" },
+            { "id": "caracteristiques_corporelles", "label": "Caractéristiques corporelles" }
+          ]
+        },
+        {
+          "id": "sens_perception",
+          "label": "Sens & perception",
+          "children": [
+            { "id": "vue", "label": "Vue" },
+            { "id": "ouie", "label": "Ouïe" },
+            { "id": "odorat", "label": "Odorat" },
+            { "id": "gout", "label": "Goût" },
+            { "id": "toucher_sensations", "label": "Toucher & sensations" }
+          ]
+        },
+        {
+          "id": "etats_besoins_physiques",
+          "label": "États & besoins physiques",
+          "children": [
+            { "id": "sommeil_repos", "label": "Sommeil & repos" },
+            { "id": "faim_soif", "label": "Faim & soif" },
+            { "id": "fatigue_energie_physique", "label": "Fatigue & énergie physique" },
+            { "id": "confort_inconfort", "label": "Confort & inconfort" }
+          ]
+        },
+        {
+          "id": "emotions_sentiments",
+          "label": "Émotions & sentiments",
+          "children": [
+            { "id": "joie_plaisir", "label": "Joie & plaisir" },
+            { "id": "tristesse", "label": "Tristesse" },
+            { "id": "peur_inquietude", "label": "Peur & inquiétude" },
+            { "id": "colere", "label": "Colère" },
+            { "id": "affection", "label": "Affection" },
+            { "id": "surprise_reactions_emotionnelles", "label": "Surprise & réactions émotionnelles" }
+          ]
+        },
+        {
+          "id": "psychologie_esprit",
+          "label": "Psychologie & esprit",
+          "children": [
+            { "id": "pensee", "label": "Pensée" },
+            { "id": "memoire", "label": "Mémoire" },
+            { "id": "attention", "label": "Attention" },
+            { "id": "preferences", "label": "Préférences" },
+            { "id": "etats_psychologiques", "label": "États psychologiques" }
+          ]
+        },
+        {
+          "id": "capacites_aptitudes",
+          "label": "Capacités & aptitudes",
+          "children": [
+            { "id": "aptitude", "label": "Aptitude" },
+            { "id": "habilete", "label": "Habileté" },
+            { "id": "incapacite", "label": "Incapacité" }
+          ]
+        },
+        {
+          "id": "apparence_presentation_personnelle",
+          "label": "Apparence & présentation personnelle",
+          "children": [
+            { "id": "apparence_physique", "label": "Apparence physique" },
+            { "id": "coiffure_pilosite", "label": "Coiffure & pilosité" },
+            { "id": "presentation_personnelle", "label": "Présentation personnelle" }
+          ]
+        },
+        {
+          "id": "cycle_de_vie",
+          "label": "Cycle de vie",
+          "children": [
+            { "id": "naissance", "label": "Naissance" },
+            { "id": "enfance", "label": "Enfance" },
+            { "id": "age_adulte", "label": "Âge adulte" },
+            { "id": "vieillissement", "label": "Vieillissement" },
+            { "id": "mort", "label": "Mort" }
+          ]
+        },
+        {
+          "id": "hygiene_soins_personnels",
+          "label": "Hygiène & soins personnels",
+          "children": [
+            { "id": "toilette_corporelle", "label": "Toilette corporelle" },
+            { "id": "soins_des_cheveux", "label": "Soins des cheveux" },
+            { "id": "soins_bucco_dentaires", "label": "Soins bucco-dentaires" },
+            { "id": "soins_esthetiques", "label": "Soins esthétiques" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sante_medecine",
+      "label": "Santé & médecine",
+      "children": [
+        {
+          "id": "sante_etats_pathologiques",
+          "label": "Santé & états pathologiques",
+          "children": []
+        },
+        {
+          "id": "maladies_troubles",
+          "label": "Maladies & troubles",
+          "children": [
+            { "id": "maladies_infectieuses", "label": "Maladies infectieuses" },
+            { "id": "troubles_physiques", "label": "Troubles physiques" },
+            { "id": "troubles_mentaux", "label": "Troubles mentaux" },
+            { "id": "maladies_chroniques", "label": "Maladies chroniques" }
+          ]
+        },
+        {
+          "id": "symptomes_douleur",
+          "label": "Symptômes & douleur",
+          "children": [
+            { "id": "douleur", "label": "Douleur" },
+            { "id": "fievre", "label": "Fièvre" },
+            { "id": "symptomes_respiratoires", "label": "Symptômes respiratoires" },
+            { "id": "troubles_fonctionnels", "label": "Troubles fonctionnels" }
+          ]
+        },
+        {
+          "id": "blessures",
+          "label": "Blessures",
+          "children": [
+            { "id": "plaies", "label": "Plaies" },
+            { "id": "fractures", "label": "Fractures" },
+            { "id": "traumatismes", "label": "Traumatismes" }
+          ]
+        },
+        {
+          "id": "soins_traitements",
+          "label": "Soins & traitements",
+          "children": [
+            { "id": "consultation", "label": "Consultation" },
+            { "id": "diagnostic", "label": "Diagnostic" },
+            { "id": "traitement", "label": "Traitement" },
+            { "id": "chirurgie", "label": "Chirurgie" },
+            { "id": "reeducation", "label": "Rééducation" }
+          ]
+        },
+        {
+          "id": "medicaments",
+          "label": "Médicaments",
+          "children": [
+            { "id": "medicaments", "label": "Médicaments" },
+            { "id": "administration_des_medicaments", "label": "Administration des médicaments" }
+          ]
+        },
+        {
+          "id": "medecine_specialites",
+          "label": "Médecine & spécialités",
+          "children": []
+        },
+        {
+          "id": "professionnels_de_sante",
+          "label": "Professionnels de santé",
+          "children": [
+            { "id": "medecins", "label": "Médecins" },
+            { "id": "personnel_infirmier", "label": "Personnel infirmier" },
+            { "id": "autres_professions_medicales", "label": "Autres professions médicales" }
+          ]
+        },
+        {
+          "id": "etablissements_de_sante",
+          "label": "Établissements de santé",
+          "children": [
+            { "id": "hopitaux", "label": "Hôpitaux" },
+            { "id": "cliniques", "label": "Cliniques" },
+            { "id": "pharmacies", "label": "Pharmacies" }
+          ]
+        },
+        {
+          "id": "urgences_medicales",
+          "label": "Urgences médicales",
+          "children": []
+        },
+        {
+          "id": "aides_dispositifs_medicaux",
+          "label": "Aides & dispositifs médicaux",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "relations_sociales",
+      "label": "Relations sociales",
+      "children": [
+        {
+          "id": "famille_parente",
+          "label": "Famille & parenté",
+          "children": [
+            { "id": "parents_enfants", "label": "Parents & enfants" },
+            { "id": "fratrie", "label": "Fratrie" },
+            { "id": "grands_parents_descendants", "label": "Grands-parents & descendants" },
+            { "id": "parente_etendue", "label": "Parenté étendue" },
+            { "id": "relations_familiales", "label": "Relations familiales" }
+          ]
+        },
+        {
+          "id": "amitie_relations_interpersonnelles",
+          "label": "Amitié & relations interpersonnelles",
+          "children": [
+            { "id": "amitie", "label": "Amitié" },
+            { "id": "connaissance", "label": "Connaissance" },
+            { "id": "voisinage", "label": "Voisinage" },
+            { "id": "conflit", "label": "Conflit" },
+            { "id": "reconciliation", "label": "Réconciliation" }
+          ]
+        },
+        {
+          "id": "couple_relations_intimes",
+          "label": "Couple & relations intimes",
+          "children": [
+            { "id": "relation_amoureuse", "label": "Relation amoureuse" },
+            { "id": "fiancailles", "label": "Fiançailles" },
+            { "id": "mariage", "label": "Mariage" },
+            { "id": "separation_divorce", "label": "Séparation & divorce" }
+          ]
+        },
+        {
+          "id": "groupes_appartenance_sociale",
+          "label": "Groupes & appartenance sociale",
+          "children": [
+            { "id": "membres", "label": "Membres" },
+            { "id": "groupes", "label": "Groupes" },
+            { "id": "communautes", "label": "Communautés" },
+            { "id": "appartenance", "label": "Appartenance" }
+          ]
+        },
+        {
+          "id": "interactions_sociales",
+          "label": "Interactions sociales",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "droit_justice",
+      "label": "Droit & justice",
+      "children": [
+        {
+          "id": "droit_regles_juridiques",
+          "label": "Droit & règles juridiques",
+          "children": [
+            { "id": "lois", "label": "Lois" },
+            { "id": "reglementation", "label": "Réglementation" },
+            { "id": "normes_juridiques", "label": "Normes juridiques" }
+          ]
+        },
+        {
+          "id": "droits_obligations",
+          "label": "Droits & obligations",
+          "children": [
+            { "id": "droits", "label": "Droits" },
+            { "id": "devoirs", "label": "Devoirs" },
+            { "id": "responsabilite_juridique", "label": "Responsabilité juridique" }
+          ]
+        },
+        {
+          "id": "infractions_criminalite",
+          "label": "Infractions & criminalité",
+          "children": [
+            { "id": "crimes", "label": "Crimes" },
+            { "id": "delits", "label": "Délits" },
+            { "id": "vol_fraude", "label": "Vol & fraude" },
+            { "id": "violence_criminelle", "label": "Violence criminelle" }
+          ]
+        },
+        {
+          "id": "justice_procedures",
+          "label": "Justice & procédures",
+          "children": [
+            { "id": "proces", "label": "Procès" },
+            { "id": "jugement", "label": "Jugement" },
+            { "id": "preuve_juridique", "label": "Preuve juridique" },
+            { "id": "recours", "label": "Recours" }
+          ]
+        },
+        {
+          "id": "sanctions",
+          "label": "Sanctions",
+          "children": [
+            { "id": "peines", "label": "Peines" },
+            { "id": "amendes", "label": "Amendes" },
+            { "id": "emprisonnement", "label": "Emprisonnement" }
+          ]
+        },
+        {
+          "id": "application_de_la_loi",
+          "label": "Application de la loi",
+          "children": [
+            { "id": "police", "label": "Police" },
+            { "id": "arrestation", "label": "Arrestation" },
+            { "id": "maintien_de_l_ordre", "label": "Maintien de l’ordre" }
+          ]
+        },
+        {
+          "id": "institutions_judiciaires",
+          "label": "Institutions judiciaires",
+          "children": []
+        },
+        {
+          "id": "professionnels_du_droit",
+          "label": "Professionnels du droit",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "politique_institutions_publiques",
+      "label": "Politique & institutions publiques",
+      "children": [
+        {
+          "id": "systemes_politiques",
+          "label": "Systèmes politiques",
+          "children": []
+        },
+        {
+          "id": "gouvernement_institutions",
+          "label": "Gouvernement & institutions",
+          "children": [
+            { "id": "gouvernement", "label": "Gouvernement" },
+            { "id": "parlement", "label": "Parlement" },
+            { "id": "executif", "label": "Exécutif" },
+            { "id": "autorites_locales", "label": "Autorités locales" }
+          ]
+        },
+        {
+          "id": "elections_participation_civique",
+          "label": "Élections & participation civique",
+          "children": [
+            { "id": "elections", "label": "Élections" },
+            { "id": "vote", "label": "Vote" },
+            { "id": "participation_politique", "label": "Participation politique" }
+          ]
+        },
+        {
+          "id": "partis_mouvements_politiques",
+          "label": "Partis & mouvements politiques",
+          "children": []
+        },
+        {
+          "id": "pouvoir_gouvernance",
+          "label": "Pouvoir & gouvernance",
+          "children": [
+            { "id": "autorite_politique", "label": "Autorité politique" },
+            { "id": "exercice_du_pouvoir", "label": "Exercice du pouvoir" }
+          ]
+        },
+        {
+          "id": "politiques_publiques",
+          "label": "Politiques publiques",
+          "children": []
+        },
+        {
+          "id": "administration_publique",
+          "label": "Administration publique",
+          "children": [
+            { "id": "administrations", "label": "Administrations" },
+            { "id": "services_administratifs", "label": "Services administratifs" },
+            { "id": "documents_administratifs", "label": "Documents administratifs" }
+          ]
+        },
+        {
+          "id": "citoyennete",
+          "label": "Citoyenneté",
+          "children": [
+            { "id": "citoyens", "label": "Citoyens" },
+            { "id": "nationalite", "label": "Nationalité" },
+            { "id": "statut_civique", "label": "Statut civique" }
+          ]
+        },
+        {
+          "id": "relations_internationales_diplomatie",
+          "label": "Relations internationales & diplomatie",
+          "children": [
+            { "id": "diplomatie", "label": "Diplomatie" },
+            { "id": "ambassades", "label": "Ambassades" },
+            { "id": "relations_entre_etats", "label": "Relations entre États" },
+            { "id": "accords_internationaux", "label": "Accords internationaux" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "habitat_vie_domestique",
+      "label": "Habitat & vie domestique",
+      "children": [
+        {
+          "id": "logements",
+          "label": "Logements",
+          "children": [
+            { "id": "maisons", "label": "Maisons" },
+            { "id": "appartements", "label": "Appartements" },
+            { "id": "residences", "label": "Résidences" },
+            { "id": "logements_collectifs", "label": "Logements collectifs" }
+          ]
+        },
+        {
+          "id": "espaces_domestiques",
+          "label": "Espaces domestiques",
+          "children": [
+            { "id": "entree", "label": "Entrée" },
+            { "id": "sejour", "label": "Séjour" },
+            { "id": "chambre", "label": "Chambre" },
+            { "id": "cuisine", "label": "Cuisine" },
+            { "id": "salle_de_bain_toilettes", "label": "Salle de bain & toilettes" },
+            { "id": "espaces_exterieurs_domestiques", "label": "Espaces extérieurs domestiques" }
+          ]
+        },
+        {
+          "id": "mobilier",
+          "label": "Mobilier",
+          "children": [
+            { "id": "assises", "label": "Assises" },
+            { "id": "tables_surfaces", "label": "Tables & surfaces" },
+            { "id": "couchage", "label": "Couchage" },
+            { "id": "rangement", "label": "Rangement" }
+          ]
+        },
+        {
+          "id": "equipements_domestiques",
+          "label": "Équipements domestiques",
+          "children": [
+            { "id": "electromenager", "label": "Électroménager" },
+            { "id": "chauffage_climatisation", "label": "Chauffage & climatisation" },
+            { "id": "equipements_fonctionnels", "label": "Équipements fonctionnels" }
+          ]
+        },
+        {
+          "id": "accessoires_domestiques",
+          "label": "Accessoires domestiques",
+          "children": []
+        },
+        {
+          "id": "entretien_domestique",
+          "label": "Entretien domestique",
+          "children": [
+            { "id": "nettoyage", "label": "Nettoyage" },
+            { "id": "lessive", "label": "Lessive" },
+            { "id": "gestion_des_dechets", "label": "Gestion des déchets" }
+          ]
+        },
+        {
+          "id": "rangement",
+          "label": "Rangement",
+          "children": []
+        },
+        {
+          "id": "entretien_du_linge",
+          "label": "Entretien du linge",
+          "children": []
+        },
+        {
+          "id": "dechets_domestiques",
+          "label": "Déchets domestiques",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "alimentation_cuisine",
+      "label": "Alimentation & cuisine",
+      "children": [
+        {
+          "id": "aliments",
+          "label": "Aliments",
+          "children": [
+            { "id": "cereales_feculents", "label": "Céréales & féculents" },
+            { "id": "fruits", "label": "Fruits" },
+            { "id": "legumes", "label": "Légumes" },
+            { "id": "viandes", "label": "Viandes" },
+            { "id": "poissons_produits_marins", "label": "Poissons & produits marins" },
+            { "id": "produits_laitiers", "label": "Produits laitiers" },
+            { "id": "ufs", "label": "Œufs" },
+            { "id": "condiments_assaisonnements", "label": "Condiments & assaisonnements" },
+            { "id": "produits_prepares", "label": "Produits préparés" }
+          ]
+        },
+        {
+          "id": "boissons",
+          "label": "Boissons",
+          "children": [
+            { "id": "eau", "label": "Eau" },
+            { "id": "boissons_chaudes", "label": "Boissons chaudes" },
+            { "id": "boissons_froides", "label": "Boissons froides" },
+            { "id": "boissons_alcoolisees", "label": "Boissons alcoolisées" }
+          ]
+        },
+        {
+          "id": "repas",
+          "label": "Repas",
+          "children": [
+            { "id": "petit_dejeuner", "label": "Petit-déjeuner" },
+            { "id": "dejeuner", "label": "Déjeuner" },
+            { "id": "diner", "label": "Dîner" },
+            { "id": "collations", "label": "Collations" }
+          ]
+        },
+        {
+          "id": "consommation_alimentaire",
+          "label": "Consommation alimentaire",
+          "children": []
+        },
+        {
+          "id": "cuisine_preparation",
+          "label": "Cuisine & préparation",
+          "children": [
+            { "id": "decoupe", "label": "Découpe" },
+            { "id": "melange_preparation", "label": "Mélange & préparation" },
+            { "id": "cuisson", "label": "Cuisson" },
+            { "id": "assaisonnement", "label": "Assaisonnement" }
+          ]
+        },
+        {
+          "id": "gouts_alimentaires",
+          "label": "Goûts alimentaires",
+          "children": [
+            { "id": "sucre", "label": "Sucré" },
+            { "id": "sale", "label": "Salé" },
+            { "id": "acide", "label": "Acide" },
+            { "id": "amer", "label": "Amer" },
+            { "id": "epice", "label": "Épicé" }
+          ]
+        },
+        {
+          "id": "vaisselle_ustensiles",
+          "label": "Vaisselle & ustensiles",
+          "children": [
+            { "id": "vaisselle", "label": "Vaisselle" },
+            { "id": "couverts", "label": "Couverts" },
+            { "id": "ustensiles_de_cuisine", "label": "Ustensiles de cuisine" }
+          ]
+        },
+        {
+          "id": "conservation_alimentaire",
+          "label": "Conservation alimentaire",
+          "children": []
+        },
+        {
+          "id": "restauration",
+          "label": "Restauration",
+          "children": [
+            { "id": "restaurants", "label": "Restaurants" },
+            { "id": "cafes", "label": "Cafés" },
+            { "id": "service_de_restauration", "label": "Service de restauration" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "habillement_accessoires_personnels",
+      "label": "Habillement & accessoires personnels",
+      "children": [
+        {
+          "id": "vetements",
+          "label": "Vêtements",
+          "children": [
+            { "id": "hauts", "label": "Hauts" },
+            { "id": "bas", "label": "Bas" },
+            { "id": "vetements_complets", "label": "Vêtements complets" },
+            { "id": "sous_vetements", "label": "Sous-vêtements" },
+            { "id": "vetements_exterieurs", "label": "Vêtements extérieurs" }
+          ]
+        },
+        {
+          "id": "chaussures",
+          "label": "Chaussures",
+          "children": [
+            { "id": "chaussures", "label": "Chaussures" },
+            { "id": "bottes", "label": "Bottes" },
+            { "id": "sandales", "label": "Sandales" },
+            { "id": "chaussons", "label": "Chaussons" }
+          ]
+        },
+        {
+          "id": "accessoires_vestimentaires",
+          "label": "Accessoires vestimentaires",
+          "children": [
+            { "id": "couvre_chefs", "label": "Couvre-chefs" },
+            { "id": "ceintures", "label": "Ceintures" },
+            { "id": "cravates", "label": "Cravates" },
+            { "id": "gants", "label": "Gants" },
+            { "id": "echarpes", "label": "Écharpes" }
+          ]
+        },
+        {
+          "id": "bijoux_ornements",
+          "label": "Bijoux & ornements",
+          "children": [
+            { "id": "bagues", "label": "Bagues" },
+            { "id": "colliers", "label": "Colliers" },
+            { "id": "boucles_d_oreilles", "label": "Boucles d’oreilles" }
+          ]
+        },
+        {
+          "id": "sacs_contenants_personnels",
+          "label": "Sacs & contenants personnels",
+          "children": [
+            { "id": "sacs", "label": "Sacs" },
+            { "id": "sacs_a_dos", "label": "Sacs à dos" },
+            { "id": "portefeuilles", "label": "Portefeuilles" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economie_commerce",
+      "label": "Économie & commerce",
+      "children": [
+        {
+          "id": "argent_monnaie",
+          "label": "Argent & monnaie",
+          "children": [
+            { "id": "monnaies", "label": "Monnaies" },
+            { "id": "especes", "label": "Espèces" },
+            { "id": "fonds", "label": "Fonds" }
+          ]
+        },
+        {
+          "id": "prix_valeur_economique",
+          "label": "Prix & valeur économique",
+          "children": [
+            { "id": "prix", "label": "Prix" },
+            { "id": "cout", "label": "Coût" },
+            { "id": "valeur_monetaire", "label": "Valeur monétaire" }
+          ]
+        },
+        {
+          "id": "achat_vente",
+          "label": "Achat & vente",
+          "children": [
+            { "id": "achat", "label": "Achat" },
+            { "id": "vente", "label": "Vente" },
+            { "id": "commande", "label": "Commande" },
+            { "id": "echange_commercial", "label": "Échange commercial" }
+          ]
+        },
+        {
+          "id": "transactions_paiement",
+          "label": "Transactions & paiement",
+          "children": [
+            { "id": "paiement", "label": "Paiement" },
+            { "id": "facturation", "label": "Facturation" },
+            { "id": "dette", "label": "Dette" },
+            { "id": "credit", "label": "Crédit" }
+          ]
+        },
+        {
+          "id": "commerce",
+          "label": "Commerce",
+          "children": []
+        },
+        {
+          "id": "etablissements_commerciaux",
+          "label": "Établissements commerciaux",
+          "children": [
+            { "id": "magasins", "label": "Magasins" },
+            { "id": "supermarches", "label": "Supermarchés" },
+            { "id": "marches", "label": "Marchés" }
+          ]
+        },
+        {
+          "id": "banque_finance",
+          "label": "Banque & finance",
+          "children": [
+            { "id": "banque", "label": "Banque" },
+            { "id": "comptes", "label": "Comptes" },
+            { "id": "epargne", "label": "Épargne" },
+            { "id": "pret", "label": "Prêt" },
+            { "id": "investissement", "label": "Investissement" }
+          ]
+        },
+        {
+          "id": "marketing_promotion",
+          "label": "Marketing & promotion",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "travail_vie_professionnelle",
+      "label": "Travail & vie professionnelle",
+      "children": [
+        {
+          "id": "travail_emploi",
+          "label": "Travail & emploi",
+          "children": [
+            { "id": "activite_professionnelle", "label": "Activité professionnelle" },
+            { "id": "emploi", "label": "Emploi" },
+            { "id": "embauche", "label": "Embauche" },
+            { "id": "chomage", "label": "Chômage" }
+          ]
+        },
+        {
+          "id": "entreprises_organisations_professionnelles",
+          "label": "Entreprises & organisations professionnelles",
+          "children": [
+            { "id": "entreprises", "label": "Entreprises" },
+            { "id": "departements", "label": "Départements" },
+            { "id": "hierarchie_professionnelle", "label": "Hiérarchie professionnelle" }
+          ]
+        },
+        {
+          "id": "conditions_de_travail",
+          "label": "Conditions de travail",
+          "children": [
+            { "id": "horaires", "label": "Horaires" },
+            { "id": "conges", "label": "Congés" },
+            { "id": "environnement_professionnel", "label": "Environnement professionnel" }
+          ]
+        },
+        {
+          "id": "remuneration",
+          "label": "Rémunération",
+          "children": [
+            { "id": "salaire", "label": "Salaire" },
+            { "id": "prime", "label": "Prime" },
+            { "id": "revenus_professionnels", "label": "Revenus professionnels" }
+          ]
+        },
+        {
+          "id": "carriere",
+          "label": "Carrière",
+          "children": [
+            { "id": "recrutement", "label": "Recrutement" },
+            { "id": "promotion", "label": "Promotion" },
+            { "id": "mutation", "label": "Mutation" },
+            { "id": "retraite", "label": "Retraite" }
+          ]
+        },
+        {
+          "id": "relations_professionnelles",
+          "label": "Relations professionnelles",
+          "children": [
+            { "id": "collegues", "label": "Collègues" },
+            { "id": "superieurs", "label": "Supérieurs" },
+            { "id": "subordonnes", "label": "Subordonnés" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "espace_proprietes_spatiales",
+      "label": "Espace & propriétés spatiales",
+      "children": [
+        {
+          "id": "position_localisation",
+          "label": "Position & localisation",
+          "children": [
+            { "id": "interieur_exterieur", "label": "Intérieur / extérieur" },
+            { "id": "dessus_dessous", "label": "Dessus / dessous" },
+            { "id": "devant_derriere", "label": "Devant / derrière" },
+            { "id": "centre_peripherie", "label": "Centre / périphérie" }
+          ]
+        },
+        {
+          "id": "direction_orientation",
+          "label": "Direction & orientation",
+          "children": [
+            { "id": "directions_cardinales", "label": "Directions cardinales" },
+            { "id": "gauche_droite", "label": "Gauche / droite" },
+            { "id": "orientation", "label": "Orientation" }
+          ]
+        },
+        {
+          "id": "distance_proximite",
+          "label": "Distance & proximité",
+          "children": [
+            { "id": "proximite", "label": "Proximité" },
+            { "id": "eloignement", "label": "Éloignement" },
+            { "id": "intervalle_spatial", "label": "Intervalle spatial" }
+          ]
+        },
+        {
+          "id": "dimensions",
+          "label": "Dimensions",
+          "children": [
+            { "id": "longueur", "label": "Longueur" },
+            { "id": "largeur", "label": "Largeur" },
+            { "id": "hauteur", "label": "Hauteur" },
+            { "id": "profondeur", "label": "Profondeur" },
+            { "id": "taille", "label": "Taille" }
+          ]
+        },
+        {
+          "id": "forme",
+          "label": "Forme",
+          "children": [
+            { "id": "rond", "label": "Rond" },
+            { "id": "angulaire", "label": "Angulaire" },
+            { "id": "courbe", "label": "Courbe" },
+            { "id": "geometrie_spatiale_generale", "label": "Géométrie spatiale générale" }
+          ]
+        },
+        {
+          "id": "mouvement_deplacement",
+          "label": "Mouvement & déplacement",
+          "children": [
+            { "id": "aller_venir", "label": "Aller / venir" },
+            { "id": "avancer_reculer", "label": "Avancer / reculer" },
+            { "id": "monter_descendre", "label": "Monter / descendre" }
+          ]
+        },
+        {
+          "id": "vitesse",
+          "label": "Vitesse",
+          "children": []
+        },
+        {
+          "id": "entree_sortie",
+          "label": "Entrée & sortie",
+          "children": [
+            { "id": "entrer_sortir", "label": "Entrer / sortir" }
+          ]
+        },
+        {
+          "id": "parcours_trajectoire",
+          "label": "Parcours & trajectoire",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "transport_mobilite",
+      "label": "Transport & mobilité",
+      "children": [
+        {
+          "id": "moyens_de_transport",
+          "label": "Moyens de transport",
+          "children": []
+        },
+        {
+          "id": "transport_terrestre",
+          "label": "Transport terrestre",
+          "children": [
+            { "id": "automobile", "label": "Automobile" },
+            { "id": "bus", "label": "Bus" },
+            { "id": "deux_roues", "label": "Deux-roues" },
+            { "id": "transport_routier", "label": "Transport routier" }
+          ]
+        },
+        {
+          "id": "transport_ferroviaire",
+          "label": "Transport ferroviaire",
+          "children": [
+            { "id": "train", "label": "Train" },
+            { "id": "metro", "label": "Métro" },
+            { "id": "reseau_ferroviaire", "label": "Réseau ferroviaire" }
+          ]
+        },
+        {
+          "id": "transport_aerien",
+          "label": "Transport aérien",
+          "children": [
+            { "id": "avions", "label": "Avions" },
+            { "id": "aviation_civile", "label": "Aviation civile" }
+          ]
+        },
+        {
+          "id": "transport_maritime",
+          "label": "Transport maritime",
+          "children": [
+            { "id": "navires", "label": "Navires" },
+            { "id": "navigation", "label": "Navigation" }
+          ]
+        },
+        {
+          "id": "reseaux_infrastructures",
+          "label": "Réseaux & infrastructures",
+          "children": [
+            { "id": "routes", "label": "Routes" },
+            { "id": "gares", "label": "Gares" },
+            { "id": "aeroports", "label": "Aéroports" },
+            { "id": "ports", "label": "Ports" },
+            { "id": "arrets_stations", "label": "Arrêts & stations" }
+          ]
+        },
+        {
+          "id": "circulation",
+          "label": "Circulation",
+          "children": [
+            { "id": "trafic", "label": "Trafic" },
+            { "id": "conduite", "label": "Conduite" },
+            { "id": "regles_de_circulation", "label": "Règles de circulation" }
+          ]
+        },
+        {
+          "id": "utilisation_des_transports",
+          "label": "Utilisation des transports",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "voyage_tourisme",
+      "label": "Voyage & tourisme",
+      "children": [
+        {
+          "id": "voyage_deplacement_touristique",
+          "label": "Voyage & déplacement touristique",
+          "children": [
+            { "id": "depart", "label": "Départ" },
+            { "id": "destination", "label": "Destination" },
+            { "id": "itineraire", "label": "Itinéraire" }
+          ]
+        },
+        {
+          "id": "sejour",
+          "label": "Séjour",
+          "children": [
+            { "id": "arrivee", "label": "Arrivée" },
+            { "id": "sejour", "label": "Séjour" },
+            { "id": "retour", "label": "Retour" }
+          ]
+        },
+        {
+          "id": "hebergement_temporaire",
+          "label": "Hébergement temporaire",
+          "children": [
+            { "id": "hotels", "label": "Hôtels" },
+            { "id": "auberges", "label": "Auberges" },
+            { "id": "reservation", "label": "Réservation" }
+          ]
+        },
+        {
+          "id": "tourisme_visite",
+          "label": "Tourisme & visite",
+          "children": [
+            { "id": "tourisme", "label": "Tourisme" },
+            { "id": "sites_touristiques", "label": "Sites touristiques" },
+            { "id": "visites", "label": "Visites" },
+            { "id": "souvenirs", "label": "Souvenirs" }
+          ]
+        },
+        {
+          "id": "preparation_du_voyage",
+          "label": "Préparation du voyage",
+          "children": []
+        },
+        {
+          "id": "activites_touristiques",
+          "label": "Activités touristiques",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "environnement_construit_espaces_humains",
+      "label": "Environnement construit & espaces humains",
+      "children": [
+        {
+          "id": "batiments_constructions",
+          "label": "Bâtiments & constructions",
+          "children": [
+            { "id": "batiments", "label": "Bâtiments" },
+            { "id": "structures", "label": "Structures" },
+            { "id": "ouvrages", "label": "Ouvrages" }
+          ]
+        },
+        {
+          "id": "elements_architecturaux",
+          "label": "Éléments architecturaux",
+          "children": [
+            { "id": "murs", "label": "Murs" },
+            { "id": "toits", "label": "Toits" },
+            { "id": "portes_fenetres", "label": "Portes & fenêtres" },
+            { "id": "escaliers", "label": "Escaliers" },
+            { "id": "etages", "label": "Étages" }
+          ]
+        },
+        {
+          "id": "espaces_urbains",
+          "label": "Espaces urbains",
+          "children": [
+            { "id": "quartiers", "label": "Quartiers" },
+            { "id": "centres_urbains", "label": "Centres urbains" },
+            { "id": "zones_amenagees", "label": "Zones aménagées" }
+          ]
+        },
+        {
+          "id": "espaces_publics",
+          "label": "Espaces publics",
+          "children": [
+            { "id": "places", "label": "Places" },
+            { "id": "parcs_amenages", "label": "Parcs aménagés" },
+            { "id": "espaces_collectifs", "label": "Espaces collectifs" }
+          ]
+        },
+        {
+          "id": "voirie",
+          "label": "Voirie",
+          "children": [
+            { "id": "rues", "label": "Rues" },
+            { "id": "trottoirs", "label": "Trottoirs" },
+            { "id": "carrefours", "label": "Carrefours" }
+          ]
+        },
+        {
+          "id": "infrastructures_non_specialisees",
+          "label": "Infrastructures non spécialisées",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "monde_naturel",
+      "label": "Monde naturel",
+      "children": [
+        {
+          "id": "animaux",
+          "label": "Animaux",
+          "children": [
+            { "id": "mammiferes", "label": "Mammifères" },
+            { "id": "oiseaux", "label": "Oiseaux" },
+            { "id": "poissons", "label": "Poissons" },
+            { "id": "insectes", "label": "Insectes" },
+            { "id": "autres_animaux", "label": "Autres animaux" }
+          ]
+        },
+        {
+          "id": "vegetation",
+          "label": "Végétation",
+          "children": [
+            { "id": "arbres", "label": "Arbres" },
+            { "id": "fleurs", "label": "Fleurs" },
+            { "id": "herbes", "label": "Herbes" },
+            { "id": "plantes_sauvages", "label": "Plantes sauvages" }
+          ]
+        },
+        {
+          "id": "reliefs_formations_naturelles",
+          "label": "Reliefs & formations naturelles",
+          "children": [
+            { "id": "montagnes", "label": "Montagnes" },
+            { "id": "vallees", "label": "Vallées" },
+            { "id": "plaines", "label": "Plaines" },
+            { "id": "iles_naturelles", "label": "Îles naturelles" }
+          ]
+        },
+        {
+          "id": "eaux_milieux_aquatiques",
+          "label": "Eaux & milieux aquatiques",
+          "children": [
+            { "id": "mers_oceans", "label": "Mers & océans" },
+            { "id": "rivieres", "label": "Rivières" },
+            { "id": "lacs", "label": "Lacs" },
+            { "id": "littoraux", "label": "Littoraux" }
+          ]
+        },
+        {
+          "id": "meteo",
+          "label": "Météo",
+          "children": [
+            { "id": "pluie", "label": "Pluie" },
+            { "id": "neige", "label": "Neige" },
+            { "id": "vent", "label": "Vent" },
+            { "id": "nuages", "label": "Nuages" },
+            { "id": "conditions_atmospheriques", "label": "Conditions atmosphériques" }
+          ]
+        },
+        {
+          "id": "climat",
+          "label": "Climat",
+          "children": []
+        },
+        {
+          "id": "phenomenes_naturels",
+          "label": "Phénomènes naturels",
+          "children": [
+            { "id": "seismes", "label": "Séismes" },
+            { "id": "eruptions", "label": "Éruptions" },
+            { "id": "tempetes", "label": "Tempêtes" },
+            { "id": "inondations", "label": "Inondations" }
+          ]
+        },
+        {
+          "id": "ecosystemes_environnement",
+          "label": "Écosystèmes & environnement",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "temps",
+      "label": "Temps",
+      "children": [
+        {
+          "id": "unites_temporelles",
+          "label": "Unités temporelles",
+          "children": [
+            { "id": "seconde_minute_heure", "label": "Seconde / minute / heure" },
+            { "id": "jour", "label": "Jour" },
+            { "id": "semaine", "label": "Semaine" },
+            { "id": "mois", "label": "Mois" },
+            { "id": "annee", "label": "Année" }
+          ]
+        },
+        {
+          "id": "moments_periodes",
+          "label": "Moments & périodes",
+          "children": [
+            { "id": "parties_de_la_journee", "label": "Parties de la journée" },
+            { "id": "present", "label": "Présent" },
+            { "id": "passe", "label": "Passé" },
+            { "id": "futur", "label": "Futur" }
+          ]
+        },
+        {
+          "id": "calendrier",
+          "label": "Calendrier",
+          "children": [
+            { "id": "jours", "label": "Jours" },
+            { "id": "mois", "label": "Mois" },
+            { "id": "annees", "label": "Années" },
+            { "id": "dates", "label": "Dates" }
+          ]
+        },
+        {
+          "id": "chronologie",
+          "label": "Chronologie",
+          "children": [
+            { "id": "avant_apres", "label": "Avant / après" },
+            { "id": "debut_fin", "label": "Début / fin" },
+            { "id": "succession", "label": "Succession" }
+          ]
+        },
+        {
+          "id": "duree",
+          "label": "Durée",
+          "children": []
+        },
+        {
+          "id": "frequence",
+          "label": "Fréquence",
+          "children": [
+            { "id": "frequent", "label": "Fréquent" },
+            { "id": "occasionnel", "label": "Occasionnel" },
+            { "id": "rare", "label": "Rare" }
+          ]
+        },
+        {
+          "id": "relations_temporelles",
+          "label": "Relations temporelles",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "communication_langage",
+      "label": "Communication & langage",
+      "children": [
+        {
+          "id": "communication",
+          "label": "Communication",
+          "children": [
+            { "id": "transmission", "label": "Transmission" },
+            { "id": "echange", "label": "Échange" },
+            { "id": "contact", "label": "Contact" }
+          ]
+        },
+        {
+          "id": "parole_conversation",
+          "label": "Parole & conversation",
+          "children": [
+            { "id": "parler", "label": "Parler" },
+            { "id": "conversation", "label": "Conversation" },
+            { "id": "question", "label": "Question" },
+            { "id": "reponse", "label": "Réponse" }
+          ]
+        },
+        {
+          "id": "langues",
+          "label": "Langues",
+          "children": [
+            { "id": "langues", "label": "Langues" },
+            { "id": "traduction", "label": "Traduction" },
+            { "id": "interpretation", "label": "Interprétation" }
+          ]
+        },
+        {
+          "id": "ecriture",
+          "label": "Écriture",
+          "children": [
+            { "id": "ecrire", "label": "Écrire" },
+            { "id": "systemes_d_ecriture", "label": "Systèmes d’écriture" },
+            { "id": "orthographe", "label": "Orthographe" }
+          ]
+        },
+        {
+          "id": "lecture",
+          "label": "Lecture",
+          "children": [
+            { "id": "lire", "label": "Lire" },
+            { "id": "texte", "label": "Texte" }
+          ]
+        },
+        {
+          "id": "expression",
+          "label": "Expression",
+          "children": []
+        },
+        {
+          "id": "comprehension_linguistique",
+          "label": "Compréhension linguistique",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "education_apprentissage",
+      "label": "Éducation & apprentissage",
+      "children": [
+        {
+          "id": "apprentissage",
+          "label": "Apprentissage",
+          "children": [
+            { "id": "etudier", "label": "Étudier" },
+            { "id": "memoriser_en_contexte_d_apprentissage", "label": "Mémoriser en contexte d’apprentissage" },
+            { "id": "exercices", "label": "Exercices" }
+          ]
+        },
+        {
+          "id": "enseignement",
+          "label": "Enseignement",
+          "children": [
+            { "id": "enseigner", "label": "Enseigner" },
+            { "id": "cours", "label": "Cours" },
+            { "id": "instruction", "label": "Instruction" }
+          ]
+        },
+        {
+          "id": "etudes",
+          "label": "Études",
+          "children": []
+        },
+        {
+          "id": "etablissements_educatifs",
+          "label": "Établissements éducatifs",
+          "children": [
+            { "id": "ecole", "label": "École" },
+            { "id": "college_lycee", "label": "Collège & lycée" },
+            { "id": "universite", "label": "Université" }
+          ]
+        },
+        {
+          "id": "vie_scolaire_universitaire",
+          "label": "Vie scolaire & universitaire",
+          "children": [
+            { "id": "classe", "label": "Classe" },
+            { "id": "devoirs", "label": "Devoirs" },
+            { "id": "vacances_scolaires", "label": "Vacances scolaires" }
+          ]
+        },
+        {
+          "id": "evaluation_scolaire",
+          "label": "Évaluation scolaire",
+          "children": [
+            { "id": "examens", "label": "Examens" },
+            { "id": "notes", "label": "Notes" },
+            { "id": "reussite_echec_scolaire", "label": "Réussite / échec scolaire" }
+          ]
+        },
+        {
+          "id": "acteurs_de_l_education",
+          "label": "Acteurs de l’éducation",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "sciences",
+      "label": "Sciences",
+      "children": [
+        {
+          "id": "mathematiques_sciences_formelles",
+          "label": "Mathématiques & sciences formelles",
+          "children": [
+            { "id": "arithmetique", "label": "Arithmétique" },
+            { "id": "algebre", "label": "Algèbre" },
+            { "id": "geometrie", "label": "Géométrie" },
+            { "id": "statistiques", "label": "Statistiques" },
+            { "id": "probabilites", "label": "Probabilités" }
+          ]
+        },
+        {
+          "id": "physique",
+          "label": "Physique",
+          "children": [
+            { "id": "mecanique", "label": "Mécanique" },
+            { "id": "electricite_magnetisme", "label": "Électricité & magnétisme" },
+            { "id": "thermique", "label": "Thermique" },
+            { "id": "optique", "label": "Optique" },
+            { "id": "energie_physique", "label": "Énergie physique" }
+          ]
+        },
+        {
+          "id": "chimie",
+          "label": "Chimie",
+          "children": [
+            { "id": "elements_substances", "label": "Éléments & substances" },
+            { "id": "reactions", "label": "Réactions" },
+            { "id": "proprietes_chimiques", "label": "Propriétés chimiques" }
+          ]
+        },
+        {
+          "id": "sciences_du_vivant",
+          "label": "Sciences du vivant",
+          "children": [
+            { "id": "biologie", "label": "Biologie" },
+            { "id": "anatomie_scientifique", "label": "Anatomie scientifique" },
+            { "id": "genetique", "label": "Génétique" },
+            { "id": "ecologie", "label": "Écologie" }
+          ]
+        },
+        {
+          "id": "sciences_de_la_terre",
+          "label": "Sciences de la Terre",
+          "children": [
+            { "id": "geologie", "label": "Géologie" },
+            { "id": "sciences_atmospheriques", "label": "Sciences atmosphériques" }
+          ]
+        },
+        {
+          "id": "astronomie",
+          "label": "Astronomie",
+          "children": []
+        },
+        {
+          "id": "sciences_humaines_sociales",
+          "label": "Sciences humaines & sociales",
+          "children": []
+        },
+        {
+          "id": "recherche_methode_scientifique",
+          "label": "Recherche & méthode scientifique",
+          "children": [
+            { "id": "observation", "label": "Observation" },
+            { "id": "experience", "label": "Expérience" },
+            { "id": "analyse", "label": "Analyse" },
+            { "id": "theorie", "label": "Théorie" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technologie",
+      "label": "Technologie",
+      "children": [
+        {
+          "id": "informatique_numerique",
+          "label": "Informatique & numérique",
+          "children": [
+            { "id": "informatique", "label": "Informatique" },
+            { "id": "ordinateurs", "label": "Ordinateurs" },
+            { "id": "traitement_numerique", "label": "Traitement numérique" }
+          ]
+        },
+        {
+          "id": "appareils_electroniques",
+          "label": "Appareils électroniques",
+          "children": [
+            { "id": "telephones", "label": "Téléphones" },
+            { "id": "ordinateurs_personnels", "label": "Ordinateurs personnels" },
+            { "id": "appareils_electroniques", "label": "Appareils électroniques" }
+          ]
+        },
+        {
+          "id": "logiciels",
+          "label": "Logiciels",
+          "children": [
+            { "id": "applications", "label": "Applications" },
+            { "id": "systemes", "label": "Systèmes" },
+            { "id": "programmes", "label": "Programmes" }
+          ]
+        },
+        {
+          "id": "internet_reseaux",
+          "label": "Internet & réseaux",
+          "children": [
+            { "id": "internet", "label": "Internet" },
+            { "id": "reseaux", "label": "Réseaux" },
+            { "id": "services_en_ligne", "label": "Services en ligne" }
+          ]
+        },
+        {
+          "id": "donnees",
+          "label": "Données",
+          "children": [
+            { "id": "fichiers", "label": "Fichiers" },
+            { "id": "donnees_numeriques", "label": "Données numériques" },
+            { "id": "stockage", "label": "Stockage" }
+          ]
+        },
+        {
+          "id": "machines_systemes_techniques",
+          "label": "Machines & systèmes techniques",
+          "children": [
+            { "id": "machines", "label": "Machines" },
+            { "id": "mecanismes", "label": "Mécanismes" },
+            { "id": "composants", "label": "Composants" }
+          ]
+        },
+        {
+          "id": "ingenierie",
+          "label": "Ingénierie",
+          "children": []
+        },
+        {
+          "id": "innovation_invention",
+          "label": "Innovation & invention",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "nombres_quantification",
+      "label": "Nombres & quantification",
+      "children": [
+        {
+          "id": "nombres",
+          "label": "Nombres",
+          "children": [
+            { "id": "cardinaux", "label": "Cardinaux" },
+            { "id": "ordinaux", "label": "Ordinaux" },
+            { "id": "fractions", "label": "Fractions" },
+            { "id": "decimaux", "label": "Décimaux" }
+          ]
+        },
+        {
+          "id": "quantite",
+          "label": "Quantité",
+          "children": [
+            { "id": "grande_quantite", "label": "Grande quantité" },
+            { "id": "petite_quantite", "label": "Petite quantité" },
+            { "id": "absence", "label": "Absence" },
+            { "id": "surplus_reste", "label": "Surplus / reste" }
+          ]
+        },
+        {
+          "id": "ordre_numerique",
+          "label": "Ordre numérique",
+          "children": []
+        },
+        {
+          "id": "totalite_partie",
+          "label": "Totalité & partie",
+          "children": [
+            { "id": "totalite", "label": "Totalité" },
+            { "id": "partie", "label": "Partie" },
+            { "id": "majorite_minorite", "label": "Majorité / minorité" },
+            { "id": "reste", "label": "Reste" }
+          ]
+        },
+        {
+          "id": "proportions",
+          "label": "Proportions",
+          "children": [
+            { "id": "fraction", "label": "Fraction" },
+            { "id": "pourcentage", "label": "Pourcentage" },
+            { "id": "rapport", "label": "Rapport" }
+          ]
+        },
+        {
+          "id": "approximation_quantitative",
+          "label": "Approximation quantitative",
+          "children": []
+        },
+        {
+          "id": "comptage_compteurs",
+          "label": "Comptage & compteurs",
+          "children": [
+            { "id": "personnes", "label": "Personnes" },
+            { "id": "animaux", "label": "Animaux" },
+            { "id": "objets_longs", "label": "Objets longs" },
+            { "id": "objets_plats", "label": "Objets plats" },
+            { "id": "machines_vehicules", "label": "Machines & véhicules" },
+            { "id": "autres_classes_de_comptage", "label": "Autres classes de comptage" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "territoires_lieux_geographiques",
+      "label": "Territoires & lieux géographiques",
+      "children": [
+        {
+          "id": "pays_territoires",
+          "label": "Pays & territoires",
+          "children": [
+            { "id": "pays", "label": "Pays" },
+            { "id": "etats_territoriaux", "label": "États territoriaux" }
+          ]
+        },
+        {
+          "id": "continents_grandes_regions",
+          "label": "Continents & grandes régions",
+          "children": [
+            { "id": "continents", "label": "Continents" },
+            { "id": "grandes_regions_du_monde", "label": "Grandes régions du monde" }
+          ]
+        },
+        {
+          "id": "regions_divisions_territoriales",
+          "label": "Régions & divisions territoriales",
+          "children": [
+            { "id": "regions", "label": "Régions" },
+            { "id": "prefectures_provinces", "label": "Préfectures / provinces" },
+            { "id": "divisions_territoriales", "label": "Divisions territoriales" }
+          ]
+        },
+        {
+          "id": "villes_localites",
+          "label": "Villes & localités",
+          "children": [
+            { "id": "villes", "label": "Villes" },
+            { "id": "villages", "label": "Villages" },
+            { "id": "localites", "label": "Localités" }
+          ]
+        },
+        {
+          "id": "frontieres_territoriales",
+          "label": "Frontières territoriales",
+          "children": []
+        },
+        {
+          "id": "adresses_reperage_geographique",
+          "label": "Adresses & repérage géographique",
+          "children": []
+        },
+        {
+          "id": "representation_geographique",
+          "label": "Représentation géographique",
+          "children": [
+            { "id": "cartes", "label": "Cartes" },
+            { "id": "plans_geographiques", "label": "Plans géographiques" },
+            { "id": "reperes", "label": "Repères" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "religion_spiritualite",
+      "label": "Religion & spiritualité",
+      "children": [
+        {
+          "id": "religions_croyances",
+          "label": "Religions & croyances",
+          "children": [
+            { "id": "religions", "label": "Religions" },
+            { "id": "foi", "label": "Foi" },
+            { "id": "croyances", "label": "Croyances" }
+          ]
+        },
+        {
+          "id": "divinites_etres_spirituels",
+          "label": "Divinités & êtres spirituels",
+          "children": [
+            { "id": "dieux", "label": "Dieux" },
+            { "id": "esprits", "label": "Esprits" },
+            { "id": "etres_surnaturels_religieux", "label": "Êtres surnaturels religieux" }
+          ]
+        },
+        {
+          "id": "pratiques_religieuses",
+          "label": "Pratiques religieuses",
+          "children": [
+            { "id": "priere", "label": "Prière" },
+            { "id": "culte", "label": "Culte" },
+            { "id": "offrandes", "label": "Offrandes" }
+          ]
+        },
+        {
+          "id": "lieux_religieux",
+          "label": "Lieux religieux",
+          "children": [
+            { "id": "temples", "label": "Temples" },
+            { "id": "sanctuaires", "label": "Sanctuaires" },
+            { "id": "autres_lieux_de_culte", "label": "Autres lieux de culte" }
+          ]
+        },
+        {
+          "id": "acteurs_religieux",
+          "label": "Acteurs religieux",
+          "children": [
+            { "id": "pretres", "label": "Prêtres" },
+            { "id": "moines", "label": "Moines" },
+            { "id": "responsables_religieux", "label": "Responsables religieux" }
+          ]
+        },
+        {
+          "id": "spiritualite",
+          "label": "Spiritualité",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "culture_traditions",
+      "label": "Culture & traditions",
+      "children": [
+        {
+          "id": "culture",
+          "label": "Culture",
+          "children": []
+        },
+        {
+          "id": "coutumes_traditions",
+          "label": "Coutumes & traditions",
+          "children": [
+            { "id": "coutumes", "label": "Coutumes" },
+            { "id": "traditions", "label": "Traditions" },
+            { "id": "pratiques_culturelles", "label": "Pratiques culturelles" }
+          ]
+        },
+        {
+          "id": "fetes_celebrations",
+          "label": "Fêtes & célébrations",
+          "children": [
+            { "id": "festivals", "label": "Festivals" },
+            { "id": "fetes_traditionnelles", "label": "Fêtes traditionnelles" },
+            { "id": "celebrations", "label": "Célébrations" }
+          ]
+        },
+        {
+          "id": "rites_ceremonies",
+          "label": "Rites & cérémonies",
+          "children": [
+            { "id": "ceremonies", "label": "Cérémonies" },
+            { "id": "rites_de_passage", "label": "Rites de passage" },
+            { "id": "rites_funeraires", "label": "Rites funéraires" }
+          ]
+        },
+        {
+          "id": "patrimoine_culturel",
+          "label": "Patrimoine culturel",
+          "children": [
+            { "id": "patrimoine_materiel", "label": "Patrimoine matériel" },
+            { "id": "patrimoine_immateriel", "label": "Patrimoine immatériel" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arts_creation",
+      "label": "Arts & création",
+      "children": [
+        {
+          "id": "arts_visuels",
+          "label": "Arts visuels",
+          "children": [
+            { "id": "dessin", "label": "Dessin" },
+            { "id": "peinture", "label": "Peinture" },
+            { "id": "sculpture", "label": "Sculpture" },
+            { "id": "photographie_artistique", "label": "Photographie artistique" }
+          ]
+        },
+        {
+          "id": "musique",
+          "label": "Musique",
+          "children": [
+            { "id": "chant", "label": "Chant" },
+            { "id": "instruments", "label": "Instruments" },
+            { "id": "composition", "label": "Composition" },
+            { "id": "interpretation", "label": "Interprétation" }
+          ]
+        },
+        {
+          "id": "litterature",
+          "label": "Littérature",
+          "children": [
+            { "id": "roman", "label": "Roman" },
+            { "id": "poesie", "label": "Poésie" },
+            { "id": "autres_genres_litteraires", "label": "Autres genres littéraires" }
+          ]
+        },
+        {
+          "id": "theatre_arts_de_la_scene",
+          "label": "Théâtre & arts de la scène",
+          "children": [
+            { "id": "theatre", "label": "Théâtre" },
+            { "id": "danse", "label": "Danse" },
+            { "id": "spectacle", "label": "Spectacle" }
+          ]
+        },
+        {
+          "id": "cinema_comme_creation_artistique",
+          "label": "Cinéma comme création artistique",
+          "children": [
+            { "id": "film", "label": "Film" },
+            { "id": "realisation", "label": "Réalisation" },
+            { "id": "interpretation", "label": "Interprétation" }
+          ]
+        },
+        {
+          "id": "creation_artistique",
+          "label": "Création artistique",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "loisirs_jeux",
+      "label": "Loisirs & jeux",
+      "children": [
+        {
+          "id": "loisirs",
+          "label": "Loisirs",
+          "children": []
+        },
+        {
+          "id": "jeux",
+          "label": "Jeux",
+          "children": [
+            { "id": "jeux_de_societe", "label": "Jeux de société" },
+            { "id": "jeux_de_cartes", "label": "Jeux de cartes" },
+            { "id": "jeux_traditionnels", "label": "Jeux traditionnels" }
+          ]
+        },
+        {
+          "id": "jouets",
+          "label": "Jouets",
+          "children": []
+        },
+        {
+          "id": "jeux_video",
+          "label": "Jeux vidéo",
+          "children": [
+            { "id": "jeux_video", "label": "Jeux vidéo" },
+            { "id": "pratique_videoludique", "label": "Pratique vidéoludique" }
+          ]
+        },
+        {
+          "id": "activites_recreatives",
+          "label": "Activités récréatives",
+          "children": [
+            { "id": "collection", "label": "Collection" },
+            { "id": "promenade_de_loisir", "label": "Promenade de loisir" },
+            { "id": "passe_temps", "label": "Passe-temps" }
+          ]
+        },
+        {
+          "id": "passe_temps",
+          "label": "Passe-temps",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "children": [
+        {
+          "id": "pratique_sportive",
+          "label": "Pratique sportive",
+          "children": []
+        },
+        {
+          "id": "disciplines_sportives",
+          "label": "Disciplines sportives",
+          "children": [
+            { "id": "sports_collectifs", "label": "Sports collectifs" },
+            { "id": "sports_individuels", "label": "Sports individuels" },
+            { "id": "sports_de_combat", "label": "Sports de combat" },
+            { "id": "sports_aquatiques", "label": "Sports aquatiques" }
+          ]
+        },
+        {
+          "id": "competition",
+          "label": "Compétition",
+          "children": [
+            { "id": "match", "label": "Match" },
+            { "id": "tournoi", "label": "Tournoi" },
+            { "id": "championnat", "label": "Championnat" }
+          ]
+        },
+        {
+          "id": "entrainement",
+          "label": "Entraînement",
+          "children": [
+            { "id": "entrainement", "label": "Entraînement" },
+            { "id": "preparation_sportive", "label": "Préparation sportive" }
+          ]
+        },
+        {
+          "id": "equipes_participants",
+          "label": "Équipes & participants",
+          "children": [
+            { "id": "equipes", "label": "Équipes" },
+            { "id": "joueurs", "label": "Joueurs" },
+            { "id": "entraineurs", "label": "Entraîneurs" },
+            { "id": "arbitres", "label": "Arbitres" }
+          ]
+        },
+        {
+          "id": "installations_equipements_sportifs_specialises",
+          "label": "Installations & équipements sportifs spécialisés",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "medias",
+      "label": "Médias",
+      "children": [
+        {
+          "id": "presse",
+          "label": "Presse",
+          "children": [
+            { "id": "journaux", "label": "Journaux" },
+            { "id": "magazines", "label": "Magazines" }
+          ]
+        },
+        {
+          "id": "radio",
+          "label": "Radio",
+          "children": [
+            { "id": "radio", "label": "Radio" },
+            { "id": "emissions_radiophoniques", "label": "Émissions radiophoniques" }
+          ]
+        },
+        {
+          "id": "television",
+          "label": "Télévision",
+          "children": [
+            { "id": "television", "label": "Télévision" },
+            { "id": "programmes", "label": "Programmes" }
+          ]
+        },
+        {
+          "id": "medias_numeriques",
+          "label": "Médias numériques",
+          "children": [
+            { "id": "medias_en_ligne", "label": "Médias en ligne" },
+            { "id": "plateformes_numeriques", "label": "Plateformes numériques" }
+          ]
+        },
+        {
+          "id": "information_mediatique",
+          "label": "Information médiatique",
+          "children": [
+            { "id": "actualites", "label": "Actualités" },
+            { "id": "reportage", "label": "Reportage" },
+            { "id": "journalisme", "label": "Journalisme" }
+          ]
+        },
+        {
+          "id": "publication_diffusion",
+          "label": "Publication & diffusion",
+          "children": []
+        },
+        {
+          "id": "publicite_mediatique",
+          "label": "Publicité médiatique",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "matieres_materiaux",
+      "label": "Matières & matériaux",
+      "children": [
+        {
+          "id": "matieres_naturelles",
+          "label": "Matières naturelles",
+          "children": [
+            { "id": "bois", "label": "Bois" },
+            { "id": "pierre", "label": "Pierre" },
+            { "id": "fibres_naturelles", "label": "Fibres naturelles" }
+          ]
+        },
+        {
+          "id": "metaux",
+          "label": "Métaux",
+          "children": [
+            { "id": "fer", "label": "Fer" },
+            { "id": "cuivre", "label": "Cuivre" },
+            { "id": "metaux_divers", "label": "Métaux divers" }
+          ]
+        },
+        {
+          "id": "mineraux",
+          "label": "Minéraux",
+          "children": [
+            { "id": "roches", "label": "Roches" },
+            { "id": "mineraux", "label": "Minéraux" }
+          ]
+        },
+        {
+          "id": "materiaux_organiques",
+          "label": "Matériaux organiques",
+          "children": [
+            { "id": "papier", "label": "Papier" },
+            { "id": "cuir", "label": "Cuir" },
+            { "id": "caoutchouc", "label": "Caoutchouc" }
+          ]
+        },
+        {
+          "id": "materiaux_manufactures",
+          "label": "Matériaux manufacturés",
+          "children": [
+            { "id": "plastique", "label": "Plastique" },
+            { "id": "verre", "label": "Verre" },
+            { "id": "materiaux_composites", "label": "Matériaux composites" }
+          ]
+        },
+        {
+          "id": "proprietes_des_materiaux",
+          "label": "Propriétés des matériaux",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "production_industrie",
+      "label": "Production & industrie",
+      "children": [
+        {
+          "id": "production",
+          "label": "Production",
+          "children": [
+            { "id": "production", "label": "Production" },
+            { "id": "transformation", "label": "Transformation" }
+          ]
+        },
+        {
+          "id": "fabrication",
+          "label": "Fabrication",
+          "children": [
+            { "id": "assemblage", "label": "Assemblage" },
+            { "id": "usinage", "label": "Usinage" },
+            { "id": "fabrication", "label": "Fabrication" }
+          ]
+        },
+        {
+          "id": "industrie",
+          "label": "Industrie",
+          "children": [
+            { "id": "industrie_lourde", "label": "Industrie lourde" },
+            { "id": "industrie_manufacturiere", "label": "Industrie manufacturière" }
+          ]
+        },
+        {
+          "id": "usines_sites_de_production",
+          "label": "Usines & sites de production",
+          "children": [
+            { "id": "usines", "label": "Usines" },
+            { "id": "ateliers", "label": "Ateliers" },
+            { "id": "installations_industrielles", "label": "Installations industrielles" }
+          ]
+        },
+        {
+          "id": "procedes_industriels",
+          "label": "Procédés industriels",
+          "children": [
+            { "id": "traitement", "label": "Traitement" },
+            { "id": "assemblage", "label": "Assemblage" },
+            { "id": "controle_de_production", "label": "Contrôle de production" }
+          ]
+        },
+        {
+          "id": "produits_manufactures",
+          "label": "Produits manufacturés",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "agriculture_elevage",
+      "label": "Agriculture & élevage",
+      "children": [
+        {
+          "id": "agriculture",
+          "label": "Agriculture",
+          "children": [
+            { "id": "agriculture_generale", "label": "Agriculture générale" },
+            { "id": "exploitation_des_terres", "label": "Exploitation des terres" }
+          ]
+        },
+        {
+          "id": "cultures_agricoles",
+          "label": "Cultures agricoles",
+          "children": [
+            { "id": "cereales", "label": "Céréales" },
+            { "id": "legumes_cultives", "label": "Légumes cultivés" },
+            { "id": "fruits_cultives", "label": "Fruits cultivés" },
+            { "id": "autres_cultures", "label": "Autres cultures" }
+          ]
+        },
+        {
+          "id": "elevage",
+          "label": "Élevage",
+          "children": [
+            { "id": "betail", "label": "Bétail" },
+            { "id": "volaille", "label": "Volaille" },
+            { "id": "elevage_specialise", "label": "Élevage spécialisé" }
+          ]
+        },
+        {
+          "id": "exploitations_agricoles",
+          "label": "Exploitations agricoles",
+          "children": []
+        },
+        {
+          "id": "activites_agricoles",
+          "label": "Activités agricoles",
+          "children": [
+            { "id": "semis", "label": "Semis" },
+            { "id": "culture", "label": "Culture" },
+            { "id": "recolte", "label": "Récolte" },
+            { "id": "elevage", "label": "Élevage" }
+          ]
+        },
+        {
+          "id": "produits_agricoles",
+          "label": "Produits agricoles",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "couleurs",
+      "label": "Couleurs",
+      "children": [
+        {
+          "id": "couleurs_chromatiques",
+          "label": "Couleurs chromatiques",
+          "children": [
+            { "id": "rouge", "label": "Rouge" },
+            { "id": "orange", "label": "Orange" },
+            { "id": "jaune", "label": "Jaune" },
+            { "id": "vert", "label": "Vert" },
+            { "id": "bleu", "label": "Bleu" },
+            { "id": "violet", "label": "Violet" },
+            { "id": "brun", "label": "Brun" }
+          ]
+        },
+        {
+          "id": "noir_blanc_gris",
+          "label": "Noir, blanc & gris",
+          "children": [
+            { "id": "noir", "label": "Noir" },
+            { "id": "blanc", "label": "Blanc" },
+            { "id": "gris", "label": "Gris" }
+          ]
+        },
+        {
+          "id": "teintes_nuances",
+          "label": "Teintes & nuances",
+          "children": [
+            { "id": "clair_fonce", "label": "Clair / foncé" },
+            { "id": "intensite", "label": "Intensité" },
+            { "id": "nuances", "label": "Nuances" }
+          ]
+        },
+        {
+          "id": "proprietes_chromatiques",
+          "label": "Propriétés chromatiques",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
