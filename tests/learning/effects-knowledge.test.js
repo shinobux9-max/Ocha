@@ -18,7 +18,7 @@ import { replay, seededRandom } from './replay.js';
 
 const CATALOG = {
   kana: ['kana_あ', 'kana_い'].map((id) => ({ type: 'kana', id })),
-  n5: [{ type: 'vocab', id: 'n5_v_1' }, { type: 'vocab', id: 'n5_v_2' }, { type: 'grammar', id: 'n5_g_1' },
+  n5: [{ type: 'vocab', id: 'n5_v_1' }, { type: 'vocab', id: 'n5_v_2' }, { type: 'grammar', id: 'g_1' },
     { type: 'kanji', id: '水' }],
   n4: [{ type: 'vocab', id: 'n4_v_1' }, { type: 'kanji', id: '働' }],
   n3: [], n2: [], n1: []
@@ -89,9 +89,9 @@ test('délai de vérification : la date de déclaration participe à la réparti
 // ── KNOWLEDGE_DECLARED ──────────────────────────────────────────────────────
 
 test('déclaration : Nouveau, Découvert et En cours → Acquis, origine declared, non vérifié (3.4)', () => {
-  const s = run([introduced(W2, day(0)), answered({ type: 'grammar', id: 'n5_g_1' }, false, day(0)),
+  const s = run([introduced(W2, day(0)), answered({ type: 'grammar', id: 'g_1' }, false, day(0)),
     declareScope('n5', 'dcl_1', day(2))]);
-  for (const id of ['n5_v_1', 'n5_v_2', 'n5_g_1', '水']) {
+  for (const id of ['n5_v_1', 'n5_v_2', 'g_1', '水']) {
     assert.equal(st(s, id), 'acquired', id);
     assert.equal(s.elements[id].origin, ORIGINS.DECLARED);
     assert.equal(s.elements[id].verified, false);
@@ -135,9 +135,9 @@ test('niveau déclaré : il inclut tous les niveaux inférieurs, kana compris (1
   assert.deepEqual([...DECLARATION_SCOPE_ORDER], ['kana', 'n5', 'n4', 'n3', 'n2', 'n1']);
   const ids = (s) => Object.keys(s.elements).sort();
   assert.deepEqual(ids(run([declareScope('kana', 'd')])), ['kana_あ', 'kana_い']);
-  assert.deepEqual(ids(run([declareScope('n5', 'd')])), ['kana_あ', 'kana_い', 'n5_g_1', 'n5_v_1', 'n5_v_2', '水']);
+  assert.deepEqual(ids(run([declareScope('n5', 'd')])), ['g_1', 'kana_あ', 'kana_い', 'n5_v_1', 'n5_v_2', '水']);
   assert.deepEqual(ids(run([declareScope('n4', 'd')])),
-    ['kana_あ', 'kana_い', 'n4_v_1', 'n5_g_1', 'n5_v_1', 'n5_v_2', '働', '水']);
+    ['g_1', 'kana_あ', 'kana_い', 'n4_v_1', 'n5_v_1', 'n5_v_2', '働', '水']);
 });
 
 test('un niveau sans contenu est enregistré, sans autre effet (1.5)', () => {
@@ -207,13 +207,13 @@ test('première révision d\'un élément déclaré : aucun recul pour chaque d�
 // ── KNOWLEDGE_DECLARATION_UNDONE ────────────────────────────────────────────
 
 test('annulation : les éléments retrouvent leurs faits précédents (1.5, 3.4)', () => {
-  const start = run([introduced(W2, day(0)), answered({ type: 'grammar', id: 'n5_g_1' }, true, day(0))]);
+  const start = run([introduced(W2, day(0)), answered({ type: 'grammar', id: 'g_1' }, true, day(0))]);
   const declared = run([declareScope('n5', 'dcl_1', day(1))], start);
   const undone = run([undo('dcl_1', day(2))], declared);
   assert.deepEqual(undone.elements, start.elements, 'retour exact à l\'état d\'avant');
   assert.equal(st(undone, 'n5_v_1'), 'new');
   assert.equal(st(undone, 'n5_v_2'), 'discovered');
-  assert.equal(st(undone, 'n5_g_1'), 'learning');
+  assert.equal(st(undone, 'g_1'), 'learning');
   assert.equal(undone.declarations.dcl_1.undoneAt, day(2));
 });
 

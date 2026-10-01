@@ -17,7 +17,7 @@ import { replay, seededRandom } from './replay.js';
 let counter = 0;
 const day = (n, h = 8) => new Date(Date.UTC(2026, 9, 1 + n, h)).toISOString();
 const R = {
-  wa: { type: 'grammar', id: 'n5_g_8' },
+  wa: { type: 'grammar', id: 'g_8' },
   mizu: { type: 'kanji', id: '水' },
   word: { type: 'vocab', id: 'n5_v_117' },
   a: { type: 'kana', id: 'kana_あ' },
@@ -52,7 +52,7 @@ function deepFreeze(o) {
 test('présentation : Nouveau → Découvert, sans SRS ni faiblesse', () => {
   const s = replay([introduced(R.wa, day(0))]);
   assert.equal(stateOf(s, R.wa), 'discovered');
-  assert.deepEqual(s.elements[R.wa.id], { id: 'n5_g_8', introducedAt: day(0) });
+  assert.deepEqual(s.elements[R.wa.id], { id: 'g_8', introducedAt: day(0) });
   assert.deepEqual(s.weaknesses, {});
 });
 

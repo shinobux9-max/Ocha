@@ -38,8 +38,11 @@ export const CONTEXT_VALUES = Object.freeze({
 export const REF_TYPES = Object.freeze(['grammar', 'vocab', 'kanji', 'kana', 'expression']);
 
 // Forme des identifiants d'éléments (partie 1, 1.1 ; partie 2, 2.2).
+// Grammaire : `g_<n>`, sans niveau (addendum A4, contrôle E5 de schema-A2-01.md) ; le niveau
+// d'une leçon est son champ `level`, jamais déduit de l'identifiant.
+// Vocabulaire : forme actuelle jusqu'à la publication d'A2-04, qui passera à `v_<n>` (E1).
 const REF_ID_SHAPES = {
-  grammar: (id) => /^n[1-5]_g_.+$/.test(id),
+  grammar: (id) => /^g_[1-9][0-9]*$/.test(id),
   vocab: (id) => /^(n[1-5]|hj)_v_.+$/.test(id),
   kanji: (id) => [...id].length === 1,
   kana: (id) => /^kana_.+$/.test(id),

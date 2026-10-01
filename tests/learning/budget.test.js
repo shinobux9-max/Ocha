@@ -18,7 +18,7 @@ const id = () => `evt_${++counter}`;
 const vocab = (n) => ({ type: 'vocab', id: `n5_v_${n}` });
 const KANA = { type: 'kana', id: 'kana_あ' };
 const MIZU = { type: 'kanji', id: '水' };
-const LESSON = { type: 'grammar', id: 'n5_g_8' };
+const LESSON = { type: 'grammar', id: 'g_8' };
 const EX = { type: 'expression', id: 'ex_3' };
 
 const introduced = (ref, when = at(0), ctx = { mode: 'free', source: 'learn', activityType: 'lesson' }, extra = {}) =>

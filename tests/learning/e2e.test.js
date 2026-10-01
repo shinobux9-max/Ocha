@@ -26,7 +26,7 @@ import { DEFAULT_USER_SETTINGS } from '../../src/config.js';
 
 const CATALOG = {
   kana: ['kana_あ', 'kana_い', 'kana_う'].map((id) => ({ type: 'kana', id })),
-  n5: [{ type: 'grammar', id: 'n5_g_8' }, { type: 'kanji', id: '水' },
+  n5: [{ type: 'grammar', id: 'g_8' }, { type: 'kanji', id: '水' },
     ...Array.from({ length: 9 }, (_, i) => ({ type: 'vocab', id: `n5_v_${i + 1}` }))],
   n4: [], n3: [], n2: [], n1: []
 };
@@ -38,7 +38,7 @@ const LIMIT = DEFAULT_USER_SETTINGS.dailyNewBudget;
 
 // ── Contextes ───────────────────────────────────────────────────────────────
 
-const GUIDED_LESSON = { mode: 'guided', source: 'home', activityType: 'lesson', activityId: 'n5_g_8' };
+const GUIDED_LESSON = { mode: 'guided', source: 'home', activityType: 'lesson', activityId: 'g_8' };
 const PRACTICE = { mode: 'free', source: 'practice', activityType: 'quiz', exerciseType: 'qcm' };
 const REVIEW = { mode: 'free', source: 'review', activityType: 'srs_review', exerciseType: 'flashcard' };
 const FICHE = { mode: 'free', source: 'fiche', activityType: 'declaration' };
@@ -129,24 +129,24 @@ test('étape 1 de bout en bout : trois mois d\'apprentissage, invariants vérifi
   const S = 'ses_jour0';
   await send('SESSION_STARTED', { sessionType: 'normal', plannedMinutes: 12, plan: ['lesson'] },
     { mode: 'guided', source: 'home' }, { sessionId: S, session: { id: S, position: 0 } });
-  await send('ACTIVITY_STARTED', { activityId: 'n5_g_8', activityType: 'lesson' }, GUIDED_LESSON, { sessionId: S });
-  for (const id of ['n5_g_8', 'n5_v_1', 'n5_v_2']) {
+  await send('ACTIVITY_STARTED', { activityId: 'g_8', activityType: 'lesson' }, GUIDED_LESSON, { sessionId: S });
+  for (const id of ['g_8', 'n5_v_1', 'n5_v_2']) {
     await send('CONTENT_INTRODUCED', { element: ref(id) }, GUIDED_LESSON, { sessionId: S });
   }
-  assert.equal(st('n5_g_8'), 'discovered');
+  assert.equal(st('g_8'), 'discovered');
   assert.equal(await budget(), 3);
-  await send('QUESTION_ANSWERED', { questionId: 'gen:cloze:n5_g_8:ex1', target: [ref('n5_g_8')], correct: false, answer: 'が' },
+  await send('QUESTION_ANSWERED', { questionId: 'gen:cloze:g_8:ex1', target: [ref('g_8')], correct: false, answer: 'が' },
     { ...GUIDED_LESSON, exerciseType: 'cloze' }, { sessionId: S, session: { id: S, position: 1 } });
-  await send('QUESTION_ANSWERED', { questionId: 'gen:cloze:n5_g_8:ex2', target: [ref('n5_g_8')], correct: true },
+  await send('QUESTION_ANSWERED', { questionId: 'gen:cloze:g_8:ex2', target: [ref('g_8')], correct: true },
     { ...GUIDED_LESSON, exerciseType: 'cloze' }, { sessionId: S });
-  assert.equal(st('n5_g_8'), 'learning');
+  assert.equal(st('g_8'), 'learning');
   assert.equal(await budget(), 3, 'Découvert → En cours ne recompte pas');
-  await send('ACTIVITY_COMPLETED', { activityId: 'n5_g_8', activityType: 'lesson', durationSeconds: 240 },
+  await send('ACTIVITY_COMPLETED', { activityId: 'g_8', activityType: 'lesson', durationSeconds: 240 },
     GUIDED_LESSON, { sessionId: S });
-  await send('SESSION_COMPLETED', { actualMinutes: 11, completedActivities: ['n5_g_8'] },
+  await send('SESSION_COMPLETED', { actualMinutes: 11, completedActivities: ['g_8'] },
     { mode: 'guided', source: 'home' }, { sessionId: S, session: null });
   assert.equal(learning.getSession(), null);
-  assert.equal(computeActivityStatus(learning.getSnapshot().activities.n5_g_8), 'completed');
+  assert.equal(computeActivityStatus(learning.getSnapshot().activities.g_8), 'completed');
 
   // Pratique libre : un mot nouveau, raté ; la réponse part deux fois (double clic).
   const { event: missed } = await send('QUESTION_ANSWERED',
@@ -170,7 +170,7 @@ test('étape 1 de bout en bout : trois mois d\'apprentissage, invariants vérifi
   // ═══ Jour 1 — révisions, puis échec d'écriture ════════════════════════════
   setDay(1);
   assert.equal(await budget(), 0, 'nouveau jour, nouveau budget');
-  await send('REVIEW_GRADED', { element: ref('n5_g_8'), quality: 2 }, REVIEW);
+  await send('REVIEW_GRADED', { element: ref('g_8'), quality: 2 }, REVIEW);
   await send('REVIEW_GRADED', { element: ref('n5_v_3'), quality: 0 }, REVIEW);
   const weakV3 = learning.getSnapshot().weaknesses.n5_v_3;
   assert.equal(weakV3.consecutiveFails, 2);
@@ -204,24 +204,24 @@ test('étape 1 de bout en bout : trois mois d\'apprentissage, invariants vérifi
   assert.equal(learning.getSnapshot().elements['水'], undefined);
   assert.equal(await budget(), 0);
 
-  // ═══ Jours suivants — réviser n5_g_8 à chaque échéance jusqu'à la maîtrise ═
+  // ═══ Jours suivants — réviser g_8 à chaque échéance jusqu'à la maîtrise ═
   let reloads = 0;
-  for (let guard = 0; st('n5_g_8') !== 'mastered' && guard < 10; guard++) {
-    const due = new Date(learning.getSnapshot().elements.n5_g_8.srs.nextReviewDate);
+  for (let guard = 0; st('g_8') !== 'mastered' && guard < 10; guard++) {
+    const due = new Date(learning.getSnapshot().elements.g_8.srs.nextReviewDate);
     clock.now = new Date(due.getTime() + 3600000);
     learning = await open(); // un lancement par jour de révision : compaction quotidienne
     reloads += 1;
-    await send('REVIEW_GRADED', { element: ref('n5_g_8'), quality: 2 }, REVIEW);
+    await send('REVIEW_GRADED', { element: ref('g_8'), quality: 2 }, REVIEW);
     assert.equal(await budget(), 0, 'réviser ne consomme pas le budget');
   }
-  assert.equal(st('n5_g_8'), 'mastered');
+  assert.equal(st('g_8'), 'mastered');
   assert.ok(reloads >= 4);
 
   // « Ce que je connais déjà : N5 », puis annulation : un élément maîtrisé n'est pas touché,
   // les autres retrouvent exactement leurs faits.
   const beforeN5 = learning.getSnapshot();
   await send('KNOWLEDGE_DECLARED', { scope: 'n5', origin: 'declared', declarationId: 'dcl_n5' }, ONBOARDING);
-  assert.equal(learning.getSnapshot().elements.n5_g_8, beforeN5.elements.n5_g_8, 'maîtrisé : non touché');
+  assert.equal(learning.getSnapshot().elements.g_8, beforeN5.elements.g_8, 'maîtrisé : non touché');
   for (const id of ['n5_v_1', 'n5_v_3', 'n5_v_9', '水']) assert.equal(st(id), 'acquired', id);
   assert.equal(await budget(), 0);
   // Une vraie révision entre la déclaration et son annulation : elle doit primer.
@@ -239,13 +239,13 @@ test('étape 1 de bout en bout : trois mois d\'apprentissage, invariants vérifi
   const snap = learning.getSnapshot();
   const expected = {
     kana_あ: 'acquired', kana_い: 'acquired', kana_う: 'acquired', // déclarés, jamais révisés
-    n5_g_8: 'mastered', n5_v_1: 'discovered', n5_v_2: 'discovered', n5_v_3: 'learning',
+    g_8: 'mastered', n5_v_1: 'discovered', n5_v_2: 'discovered', n5_v_3: 'learning',
     水: 'new', n5_v_9: 'new', n5_v_4: 'new'
   };
   for (const [id, state] of Object.entries(expected)) assert.equal(st(id), state, id);
   assert.equal(snap.elements.kana_あ.origin, 'declared');
   assert.equal(snap.elements.kana_あ.verified, false);
-  assert.equal(snap.elements.n5_g_8.origin, 'learned');
+  assert.equal(snap.elements.g_8.origin, 'learned');
   assert.equal(snap.declarations.dcl_mizu.undoneAt !== null, true);
   assert.equal(snap.declarations.dcl_kana.undoneAt, null);
 

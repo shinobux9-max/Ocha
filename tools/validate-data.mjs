@@ -3,6 +3,7 @@
 // Vérifie les fichiers de data/ selon le document de conception :
 //   - partie 2, section 2.7 (validation du graphe) et addendum 2.10 (formes, group) ;
 //   - addendum A1 (champ `construction`) ;
+//   - addendum A4 (identifiants de grammaire `g_<n>`, niveau lu dans le champ `level`) ;
 //   - docs/conception/GUIDE-CONTENU.md (format des phrases, romaji, questions).
 //
 // Deux niveaux de gravité (partie 2, 2.7) :
@@ -27,8 +28,20 @@ import { GUIDED_CONFIG } from '../src/config.js';
 export const VALIDATED_LEVELS = ['n5'];
 
 // Tous les niveaux existants sont LUS pour construire l'index des identifiants, afin qu'une
-// référence vers un niveau supérieur soit reconnue (et signalée comme telle).
+// référence vers un niveau supérieur soit reconnue (et signalée comme telle). L'ordre est celui
+// de la progression d'Ocha, du plus précoce au plus avancé (addendum A3, L3).
 const ALL_LEVELS = ['n5', 'n4', 'n3', 'n2', 'n1'];
+const levelRank = (lvl) => ALL_LEVELS.indexOf(lvl);
+
+// Valeurs du champ `level` d'un élément et niveau de fichier correspondant (addendum A4).
+const LEVEL_VALUES = Object.freeze({ N5: 'n5', N4: 'n4', N3: 'n3', N2: 'n2', N1: 'n1' });
+const levelFromField = (value) => (Object.hasOwn(LEVEL_VALUES, value) ? LEVEL_VALUES[value] : null);
+
+// Identifiants indépendants du niveau (addendum A4) : la grammaire est `g_<n>` (contrôle I20).
+// Le niveau d'un élément n'est JAMAIS déduit de son identifiant.
+const GRAMMAR_ID = /^g_[1-9][0-9]*$/;
+// Préfixes réservés aux identifiants d'éléments (contrôle I18) ; « v_ » s'ajoutera avec A2-03.
+export const RESERVED_PREFIXES = Object.freeze(['g_']);
 
 // Emplacements provisoires : l'ancienne app charge encore ces fichiers ici. Ils seront
 // déplacés à l'étape 5 (concepts vers data/<niveau>/concepts.json).
@@ -81,17 +94,18 @@ function loadJson(dataDir, rel, report, { required = false } = {}) {
 function buildIndex(dataDir, report) {
   const index = {
     grammar: new Map(), vocab: new Map(), kanji: new Set(), expression: new Map(),
-    registers: new Set(), places: new Set(), categories: new Map()
+    registers: new Set(), places: new Set(), categories: new Map(),
+    // Niveau du fichier où chaque élément est défini (« vocab:<id> », « grammar:<id> ») : c'est
+    // la place du fichier qui le donne, jamais l'identifiant (addendum A4).
+    fileLevel: new Map()
   };
-  const levelOfId = (id) => (id.match(/^(n[1-5])_/) || [])[1] || null;
-  index.levelOfId = levelOfId;
 
   // Unicité des identifiants ENTRE fichiers, par espace d'identifiants (vocab, grammar,
   // expression). Les espaces ne peuvent pas se chevaucher : leurs préfixes diffèrent
   // (partie 2, 2.3). Un doublon À L'INTÉRIEUR d'un fichier est signalé par la validation de
   // ce fichier (niveaux validés seulement).
   const sources = { vocab: new Map(), grammar: new Map(), expression: new Map() };
-  const register = (space, item, file) => {
+  const register = (space, item, file, lvl) => {
     if (!item || typeof item.id !== 'string') return;
     const first = sources[space].get(item.id);
     if (first && first !== file) {
@@ -99,16 +113,19 @@ function buildIndex(dataDir, report) {
       return; // la première définition est conservée
     }
     if (!first) sources[space].set(item.id, file);
-    if (!index[space].has(item.id)) index[space].set(item.id, item);
+    if (!index[space].has(item.id)) {
+      index[space].set(item.id, item);
+      if (lvl) index.fileLevel.set(`${space}:${item.id}`, lvl);
+    }
   };
 
   for (const lvl of ALL_LEVELS) {
     const vocabFile = `${lvl}/vocab.json`;
     const vocab = loadJson(dataDir, join(lvl, 'vocab.json'), new Report());
-    if (Array.isArray(vocab)) for (const w of vocab) register('vocab', w, vocabFile);
+    if (Array.isArray(vocab)) for (const w of vocab) register('vocab', w, vocabFile, lvl);
     const grammarFile = `${lvl}/grammar.json`;
     const grammar = loadJson(dataDir, join(lvl, 'grammar.json'), new Report());
-    if (Array.isArray(grammar)) for (const g of grammar) register('grammar', g, grammarFile);
+    if (Array.isArray(grammar)) for (const g of grammar) register('grammar', g, grammarFile, lvl);
     const kanji = loadJson(dataDir, join(lvl, 'kanji.json'), new Report());
     if (kanji && Array.isArray(kanji.chars)) kanji.chars.forEach((c) => index.kanji.add(c));
   }
@@ -116,7 +133,7 @@ function buildIndex(dataDir, report) {
   if (dict && typeof dict === 'object') Object.keys(dict).forEach((c) => index.kanji.add(c));
 
   const hj = loadJson(dataDir, 'vocab-hors-jlpt.json', report);
-  if (Array.isArray(hj)) for (const w of hj) register('vocab', w, 'vocab-hors-jlpt.json');
+  if (Array.isArray(hj)) for (const w of hj) register('vocab', w, 'vocab-hors-jlpt.json', 'hors_jlpt');
 
   const expressions = loadJson(dataDir, 'expressions.json', report);
   if (Array.isArray(expressions)) for (const e of expressions) register('expression', e, 'expressions.json');
@@ -130,7 +147,8 @@ function buildIndex(dataDir, report) {
   // Catégories : seulement celles des niveaux validés et des mots hors JLPT (les niveaux hors
   // périmètre ont encore leurs anciennes catégories).
   for (const w of index.vocab.values()) {
-    const inScope = w.id.startsWith('hj_') || VALIDATED_LEVELS.includes(levelOfId(w.id));
+    const lvl = index.fileLevel.get(`vocab:${w.id}`);
+    const inScope = lvl === 'hors_jlpt' || VALIDATED_LEVELS.includes(lvl);
     if (inScope && w.category) index.categories.set(w.category, (index.categories.get(w.category) || 0) + 1);
   }
   return { index, files: { hj, expressions, registres, lieux } };
@@ -205,6 +223,18 @@ function checkSentence(index, report, where, s, { characters = null } = {}) {
 
 // ── Activités (missions, lectures) : requires, teaches, questions ───────────
 
+// Niveau d'une leçon : son champ `level` ; à défaut (niveaux hors périmètre, encore dans l'ancien
+// format), le niveau du fichier qui la définit. Jamais l'identifiant (addendum A4, A4-2).
+function grammarLevel(index, id) {
+  return levelFromField(index.grammar.get(id)?.level) ?? index.fileLevel.get(`grammar:${id}`) ?? null;
+}
+
+function checkReservedPrefix(report, where, id, what) {
+  if (typeof id !== 'string') return;
+  const prefix = RESERVED_PREFIXES.find((p) => id.startsWith(p));
+  if (prefix) report.error('prefixe-reserve', where, `${what} « ${id} » : le préfixe « ${prefix} » est réservé (addendum A4)`);
+}
+
 function checkActivity(index, report, where, act, level) {
   const req = checkRefGroup(index, report, where, act.requires, 'requires');
   const teach = checkRefGroup(index, report, where, act.teaches, 'teaches');
@@ -221,10 +251,15 @@ function checkActivity(index, report, where, act, level) {
   if (act.requires === undefined && act.teaches === undefined) {
     report.warn('sans-relations', where, 'ni « requires » ni « teaches »');
   }
+  // Partie 2, 2.7 · grammaire d'un niveau supérieur : comparaison des champs `level` de
+  // l'activité (à défaut, son fichier) et de la leçon (contrôle A4 de schema-A2-01.md).
+  const actLevel = levelFromField(act.level) ?? level;
   for (const r of req) {
     if (r.type !== 'grammar') continue;
-    const rl = index.levelOfId(r.id);
-    if (rl && level && rl < level) report.warn('niveau-superieur', where, `exige « ${r.id} », d'un niveau supérieur`);
+    const rl = grammarLevel(index, r.id);
+    if (rl && actLevel && levelRank(rl) > levelRank(actLevel)) {
+      report.warn('niveau-superieur', where, `exige « ${r.id} », d'un niveau supérieur`);
+    }
   }
   return new Set([...reqKeys, ...teach.map(keyOf)]);
 }
@@ -238,6 +273,7 @@ function checkQuestions(index, report, where, questions, activityId, allowed, se
     } else {
       if (seenIds.has(q.id)) report.error('id-duplique', qWhere, `identifiant de question en double « ${q.id} »`);
       seenIds.add(q.id);
+      checkReservedPrefix(report, qWhere, q.id, 'question');
       if (!q.id.startsWith(`${activityId}_`)) report.warn('question-id-prefixe', qWhere, `l'identifiant devrait commencer par « ${activityId}_ »`);
     }
     if (q.target === undefined) {
@@ -265,7 +301,10 @@ function checkGrammar(index, report, lvl, grammar) {
     if (!g || typeof g.id !== 'string') { report.error('format', where0, 'leçon sans identifiant'); continue; }
     if (ids.has(g.id)) report.error('id-duplique', where, 'identifiant en double');
     ids.add(g.id);
-    if (!g.id.startsWith(`${lvl}_g_`)) report.error('prefixe-id', where, `l'identifiant devrait commencer par « ${lvl}_g_ »`);
+    if (!GRAMMAR_ID.test(g.id)) report.error('forme-id', where, "l'identifiant doit avoir la forme « g_<n> » (addendum A4)");
+    const fieldLevel = levelFromField(g.level);
+    if (!fieldLevel) report.error('niveau-invalide', where, '« level » manquant ou invalide (N5 à N1)');
+    else if (fieldLevel !== lvl) report.error('niveau-fichier', where, `« level » ${g.level} ne correspond pas au fichier ${where0}`);
     if (g.requires === undefined) withoutRequires++;
     const req = checkRefGroup(index, report, where, g.requires, 'requires', { allowedKeys: ['grammar'] });
     if (req.some((r) => r.id === g.id)) report.error('prerequis-soi-meme', where, 'la leçon se déclare elle-même comme prérequis');
@@ -368,6 +407,8 @@ function checkMissions(index, report, lvl, missions, questionIds) {
     if (!m || typeof m.id !== 'string') { report.error('format', where0, 'mission sans identifiant'); continue; }
     if (ids.has(m.id)) report.error('id-duplique', where, 'identifiant en double');
     ids.add(m.id);
+    checkReservedPrefix(report, where, m.id, 'mission');
+    for (const c of m.characters || []) checkReservedPrefix(report, where, c?.id, 'personnage');
     if (!index.places.has(m.place)) report.error('lieu-inconnu', where, `lieu inconnu « ${m.place} »`);
     const allowed = checkActivity(index, report, where, m, lvl);
     const chars = characterSet(m);
@@ -384,6 +425,8 @@ function checkLectures(index, report, lvl, lectures, questionIds) {
     if (!l || typeof l.id !== 'string') { report.error('format', where0, 'lecture sans identifiant'); continue; }
     if (ids.has(l.id)) report.error('id-duplique', where, 'identifiant en double');
     ids.add(l.id);
+    checkReservedPrefix(report, where, l.id, 'lecture');
+    for (const c of l.characters || []) checkReservedPrefix(report, where, c?.id, 'personnage');
     if (!['histoire', 'dialogue', 'carnet', 'lettre'].includes(l.type)) report.error('format', where, `type inconnu « ${l.type} »`);
     if (l.place !== undefined && l.place !== null && !index.places.has(l.place)) report.error('lieu-inconnu', where, `lieu inconnu « ${l.place} »`);
     const allowed = checkActivity(index, report, where, l, lvl);
@@ -414,6 +457,7 @@ function checkExpressions(index, report, expressions) {
     if (ids.has(e.id)) report.error('id-duplique', where, 'identifiant en double');
     ids.add(e.id);
     if (!e.id.startsWith('ex_')) report.error('prefixe-id', where, "l'identifiant devrait commencer par « ex_ »");
+    checkReservedPrefix(report, where, e.id, 'expression');
     for (const [i, v] of (e.variants || []).entries()) {
       if (!index.registers.has(v?.register)) report.error('registre-inconnu', `${where} · variante ${i + 1}`, `registre inconnu « ${v?.register} »`);
       if (typeof v?.romaji === 'string' && MACRON.test(v.romaji)) report.warn('romaji-macron', `${where} · variante ${i + 1}`, 'romaji avec macron');
@@ -430,6 +474,7 @@ function checkExpressions(index, report, expressions) {
 
 function checkLieux(index, report, lieux) {
   for (const l of lieux) {
+    checkReservedPrefix(report, `lieux.json · ${l?.id ?? '?'}`, l?.id, 'lieu');
     for (const c of l?.vocab_categories || []) {
       if (!index.categories.has(c)) report.warn('categorie-inconnue', `lieux.json · ${l.id}`, `catégorie de vocabulaire inconnue « ${c} »`);
     }
@@ -471,6 +516,9 @@ export function validateData(dataDir) {
   if (Array.isArray(files.hj)) checkVocab(index, report, 'vocab-hors-jlpt.json', files.hj, 'hj_v_');
   if (Array.isArray(files.expressions)) checkExpressions(index, report, files.expressions);
   if (Array.isArray(files.lieux)) checkLieux(index, report, files.lieux);
+  if (Array.isArray(files.registres)) {
+    for (const r of files.registres) checkReservedPrefix(report, `registres.json · ${r?.id ?? '?'}`, r?.id, 'registre');
+  }
   loadJson(dataDir, 'onboarding.json', report);
   checkCategories(index, report);
 

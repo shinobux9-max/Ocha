@@ -193,7 +193,7 @@ test('chargement : un échec de compaction est signalé sans empêcher le charge
 
 // Partie 7 · C5 ; partie 3 · 3.10, invariant 7
 test('C5 : compacter le journal ne change aucun état, ni en mémoire ni au rechargement', async () => {
-  const ELEMENTS = [W, { type: 'kanji', id: '水' }, { type: 'grammar', id: 'n5_g_8' }, { type: 'kana', id: 'kana_あ' }];
+  const ELEMENTS = [W, { type: 'kanji', id: '水' }, { type: 'grammar', id: 'g_8' }, { type: 'kana', id: 'kana_あ' }];
   for (let seed = 1; seed <= 10; seed++) {
     const rnd = seededRandom(seed);
     const pick = (l) => l[Math.floor(rnd() * l.length)];

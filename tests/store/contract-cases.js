@@ -109,10 +109,10 @@ export const STORE_CONTRACT_CASES = [
     name: 'getAll renvoie les enregistrements triés par clé',
     async run({ store }) {
       await store.transaction(['elements'], async (tx) => {
-        for (const id of ['水', 'n5_v_2', 'kana_あ', 'n5_g_10', 'n5_g_8']) await tx.put('elements', { id });
+        for (const id of ['水', 'n5_v_2', 'kana_あ', 'g_10', 'g_8']) await tx.put('elements', { id });
       });
       same((await store.getAll('elements')).map((r) => r.id),
-        ['kana_あ', 'n5_g_10', 'n5_g_8', 'n5_v_2', '水'], 'ordre des clés');
+        ['g_10', 'g_8', 'kana_あ', 'n5_v_2', '水'], 'ordre des clés');
     }
   },
   {

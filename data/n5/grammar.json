@@ -1,6 +1,7 @@
 [
   {
-  "id": "n5_g_1",
+  "id": "g_1",
+  "level": "N5",
   "unit": 1,
   "unit_title": "Les bases de la phrase",
   "lesson_number": 1,
@@ -85,7 +86,8 @@
   ]
 },
 {
-  "id": "n5_g_2",
+  "id": "g_2",
+  "level": "N5",
   "unit": 1,
   "unit_title": "Les bases de la phrase",
   "lesson_number": 2,
@@ -160,7 +162,8 @@
   ]
 },
 {
-  "id": "n5_g_3",
+  "id": "g_3",
+  "level": "N5",
   "unit": 1,
   "unit_title": "Les bases de la phrase",
   "lesson_number": 3,
@@ -236,7 +239,8 @@
   ]
 },
 {
-  "id": "n5_g_4",
+  "id": "g_4",
+  "level": "N5",
   "unit": 1,
   "unit_title": "Les bases de la phrase",
   "lesson_number": 4,
@@ -313,7 +317,8 @@
   ]
 },
 {
-  "id": "n5_g_5",
+  "id": "g_5",
+  "level": "N5",
   "unit": 1,
   "unit_title": "Les bases de la phrase",
   "lesson_number": 5,
@@ -388,7 +393,8 @@
   ]
 },
 {
-  "id": "n5_g_6",
+  "id": "g_6",
+  "level": "N5",
   "unit": 1,
   "unit_title": "Les bases de la phrase",
   "lesson_number": 6,
@@ -464,7 +470,8 @@
   ]
 },
 {
-  "id": "n5_g_7",
+  "id": "g_7",
+  "level": "N5",
   "unit": 1,
   "unit_title": "Les bases de la phrase",
   "lesson_number": 7,
@@ -540,7 +547,8 @@
   ]
 },
 {
-  "id": "n5_g_8",
+  "id": "g_8",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 8,
@@ -616,7 +624,8 @@
   ]
 },
 {
-  "id": "n5_g_9",
+  "id": "g_9",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 9,
@@ -692,7 +701,8 @@
   ]
 },
 {
-  "id": "n5_g_10",
+  "id": "g_10",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 10,
@@ -768,7 +778,8 @@
   ]
 },
 {
-  "id": "n5_g_11",
+  "id": "g_11",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 11,
@@ -845,7 +856,8 @@
   ]
 },
 {
-  "id": "n5_g_12",
+  "id": "g_12",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 12,
@@ -922,7 +934,8 @@
   ]
 },
 {
-  "id": "n5_g_13",
+  "id": "g_13",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 13,
@@ -998,7 +1011,8 @@
   ]
 },
 {
-  "id": "n5_g_14",
+  "id": "g_14",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 14,
@@ -1073,7 +1087,8 @@
   ]
 },
 {
-  "id": "n5_g_15",
+  "id": "g_15",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 15,
@@ -1149,7 +1164,8 @@
   ]
 },
 {
-  "id": "n5_g_16",
+  "id": "g_16",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 16,
@@ -1226,7 +1242,8 @@
   ]
 },
 {
-  "id": "n5_g_17",
+  "id": "g_17",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 17,
@@ -1302,7 +1319,8 @@
   ]
 },
 {
-  "id": "n5_g_18",
+  "id": "g_18",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 18,
@@ -1378,7 +1396,8 @@
   ]
 },
 {
-  "id": "n5_g_19",
+  "id": "g_19",
+  "level": "N5",
   "unit": 2,
   "unit_title": "Les particules fondamentales",
   "lesson_number": 19,
@@ -1454,7 +1473,8 @@
   ]
 },
 {
-  "id": "n5_g_20",
+  "id": "g_20",
+  "level": "N5",
   "unit": 3,
   "unit_title": "Origine, limites et comparaisons",
   "lesson_number": 20,
@@ -1530,7 +1550,8 @@
   ]
 },
 {
-  "id": "n5_g_21",
+  "id": "g_21",
+  "level": "N5",
   "unit": 3,
   "unit_title": "Origine, limites et comparaisons",
   "lesson_number": 21,
@@ -1606,7 +1627,8 @@
   ]
 },
 {
-  "id": "n5_g_22",
+  "id": "g_22",
+  "level": "N5",
   "unit": 3,
   "unit_title": "Origine, limites et comparaisons",
   "lesson_number": 22,
@@ -1682,7 +1704,8 @@
   ]
 },
 {
-  "id": "n5_g_23",
+  "id": "g_23",
+  "level": "N5",
   "unit": 3,
   "unit_title": "Origine, limites et comparaisons",
   "lesson_number": 23,
@@ -1758,7 +1781,8 @@
   ]
 },
 {
-  "id": "n5_g_24",
+  "id": "g_24",
+  "level": "N5",
   "unit": 3,
   "unit_title": "Origine, limites et comparaisons",
   "lesson_number": 24,
@@ -1834,7 +1858,8 @@
   ]
 },
 {
-  "id": "n5_g_25",
+  "id": "g_25",
+  "level": "N5",
   "unit": 3,
   "unit_title": "Origine, limites et comparaisons",
   "lesson_number": 25,
@@ -1911,7 +1936,8 @@
   ]
 },
 {
-  "id": "n5_g_26",
+  "id": "g_26",
+  "level": "N5",
   "unit": 3,
   "unit_title": "Origine, limites et comparaisons",
   "lesson_number": 26,
@@ -1987,7 +2013,8 @@
   ]
 },
 {
-  "id": "n5_g_27",
+  "id": "g_27",
+  "level": "N5",
   "unit": 3,
   "unit_title": "Origine, limites et comparaisons",
   "lesson_number": 27,
@@ -2063,7 +2090,8 @@
   ]
 },
 {
-  "id": "n5_g_28",
+  "id": "g_28",
+  "level": "N5",
   "unit": 4,
   "unit_title": "Les Adjectifs",
   "lesson_number": 28,
@@ -2139,7 +2167,8 @@
   ]
 },
 {
-  "id": "n5_g_29",
+  "id": "g_29",
+  "level": "N5",
   "unit": 4,
   "unit_title": "Les Adjectifs",
   "lesson_number": 29,
@@ -2215,7 +2244,8 @@
   ]
 },
 {
-  "id": "n5_g_30",
+  "id": "g_30",
+  "level": "N5",
   "unit": 4,
   "unit_title": "Les Adjectifs",
   "lesson_number": 30,
@@ -2291,7 +2321,8 @@
   ]
 },
 {
-  "id": "n5_g_31",
+  "id": "g_31",
+  "level": "N5",
   "unit": 5,
   "unit_title": "L'existence et la possession",
   "lesson_number": 31,
@@ -2367,7 +2398,8 @@
   ]
 },
   {
-    "id": "n5_g_32",
+    "id": "g_32",
+    "level": "N5",
     "unit": 5,
     "unit_title": "L'existence et la possession",
     "lesson_number": 32,
@@ -2434,7 +2466,8 @@
     ]
   },
 {
-  "id": "n5_g_33",
+  "id": "g_33",
+  "level": "N5",
   "unit": 5,
   "unit_title": "L'existence et la possession",
   "lesson_number": 33,
@@ -2511,7 +2544,8 @@
   ]
 },
 {
-  "id": "n5_g_34",
+  "id": "g_34",
+  "level": "N5",
   "unit": 5,
   "unit_title": "L'existence et la possession",
   "lesson_number": 34,
@@ -2588,7 +2622,8 @@
   ]
 },
 {
-  "id": "n5_g_35",
+  "id": "g_35",
+  "level": "N5",
   "unit": 6,
   "unit_title": "La forme en TE (て)",
   "lesson_number": 35,
@@ -2666,7 +2701,8 @@
   ]
 },
 {
-  "id": "n5_g_36",
+  "id": "g_36",
+  "level": "N5",
   "unit": 6,
   "unit_title": "La forme en TE (て)",
   "lesson_number": 36,
@@ -2745,7 +2781,8 @@
   ]
 },
 {
-  "id": "n5_g_37",
+  "id": "g_37",
+  "level": "N5",
   "unit": 6,
   "unit_title": "La forme en TE (て)",
   "lesson_number": 37,
@@ -2822,7 +2859,8 @@
   ]
 },
 {
-  "id": "n5_g_38",
+  "id": "g_38",
+  "level": "N5",
   "unit": 6,
   "unit_title": "La forme en TE (て)",
   "lesson_number": 38,
@@ -2900,7 +2938,8 @@
   ]
 },
   {
-    "id": "n5_g_39",
+    "id": "g_39",
+    "level": "N5",
     "unit": 6,
     "unit_title": "La forme en TE (て)",
     "lesson_number": 39,
@@ -2968,7 +3007,8 @@
     ]
   },
 {
-  "id": "n5_g_40",
+  "id": "g_40",
+  "level": "N5",
   "unit": 7,
   "unit_title": "Obligations et interdictions (Forme NAI)",
   "lesson_number": 40,
@@ -3046,7 +3086,8 @@
   ]
 },
 {
-  "id": "n5_g_41",
+  "id": "g_41",
+  "level": "N5",
   "unit": 7,
   "unit_title": "Obligations et interdictions (Forme NAI)",
   "lesson_number": 41,
@@ -3124,7 +3165,8 @@
   ]
 },
 {
-  "id": "n5_g_42",
+  "id": "g_42",
+  "level": "N5",
   "unit": 7,
   "unit_title": "Obligations et interdictions (Forme NAI)",
   "lesson_number": 42,
@@ -3202,7 +3244,8 @@
   ]
 },
 {
-  "id": "n5_g_43",
+  "id": "g_43",
+  "level": "N5",
   "unit": 8,
   "unit_title": "La forme dictionnaire et les capacités",
   "lesson_number": 43,
@@ -3280,7 +3323,8 @@
   ]
 },
 {
-  "id": "n5_g_44",
+  "id": "g_44",
+  "level": "N5",
   "unit": 8,
   "unit_title": "La forme dictionnaire et les capacités",
   "lesson_number": 44,
@@ -3358,7 +3402,8 @@
   ]
 },
 {
-  "id": "n5_g_45",
+  "id": "g_45",
+  "level": "N5",
   "unit": 8,
   "unit_title": "La forme dictionnaire et les capacités",
   "lesson_number": 45,
@@ -3436,7 +3481,8 @@
   ]
 },
 {
-  "id": "n5_g_46",
+  "id": "g_46",
+  "level": "N5",
   "unit": 9,
   "unit_title": "Expériences et propositions (Forme TA)",
   "lesson_number": 46,
@@ -3514,7 +3560,8 @@
   ]
 },
 {
-  "id": "n5_g_47",
+  "id": "g_47",
+  "level": "N5",
   "unit": 9,
   "unit_title": "Expériences et propositions (Forme TA)",
   "lesson_number": 47,
@@ -3591,7 +3638,8 @@
   ]
 },
 {
-  "id": "n5_g_48",
+  "id": "g_48",
+  "level": "N5",
   "unit": 9,
   "unit_title": "Expériences et propositions (Forme TA)",
   "lesson_number": 48,
@@ -3668,7 +3716,8 @@
   ]
 },
 {
-  "id": "n5_g_49",
+  "id": "g_49",
+  "level": "N5",
   "unit": 9,
   "unit_title": "Expériences et propositions (Forme TA)",
   "lesson_number": 49,
@@ -3746,7 +3795,8 @@
   ]
 },
 {
-  "id": "n5_g_50",
+  "id": "g_50",
+  "level": "N5",
   "unit": 9,
   "unit_title": "Expériences et propositions (Forme TA)",
   "lesson_number": 50,
@@ -3824,7 +3874,8 @@
   ]
 },
 {
-  "id": "n5_g_51",
+  "id": "g_51",
+  "level": "N5",
   "unit": 10,
   "unit_title": "Exprimer les changements et les raisons",
   "lesson_number": 51,
@@ -3902,7 +3953,8 @@
   ]
 },
 {
-  "id": "n5_g_52",
+  "id": "g_52",
+  "level": "N5",
   "unit": 10,
   "unit_title": "Exprimer les changements et les raisons",
   "lesson_number": 52,
@@ -3980,7 +4032,8 @@
   ]
 },
 {
-  "id": "n5_g_53",
+  "id": "g_53",
+  "level": "N5",
   "unit": 10,
   "unit_title": "Exprimer les changements et les raisons",
   "lesson_number": 53,
@@ -4059,7 +4112,8 @@
   ]
 },
 {
-  "id": "n5_g_54",
+  "id": "g_54",
+  "level": "N5",
   "unit": 10,
   "unit_title": "Exprimer les changements et les raisons",
   "lesson_number": 54,
@@ -4137,7 +4191,8 @@
   ]
 },
 {
-  "id": "n5_g_55",
+  "id": "g_55",
+  "level": "N5",
   "unit": 11,
   "unit_title": "Les démonstratifs et positions",
   "lesson_number": 55,
@@ -4216,7 +4271,8 @@
   ]
 },
 {
-  "id": "n5_g_56",
+  "id": "g_56",
+  "level": "N5",
   "unit": 11,
   "unit_title": "Les démonstratifs et positions",
   "lesson_number": 56,
@@ -4295,7 +4351,8 @@
   ]
 },
 {
-  "id": "n5_g_57",
+  "id": "g_57",
+  "level": "N5",
   "unit": 11,
   "unit_title": "Les démonstratifs et positions",
   "lesson_number": 57,
@@ -4374,7 +4431,8 @@
   ]
 },
 {
-  "id": "n5_g_58",
+  "id": "g_58",
+  "level": "N5",
   "unit": 11,
   "unit_title": "Les démonstratifs et positions",
   "lesson_number": 58,
@@ -4455,7 +4513,8 @@
   ]
 },
 {
-  "id": "n5_g_59",
+  "id": "g_59",
+  "level": "N5",
   "unit": 12,
   "unit_title": "Mots interrogatifs et indéfinis",
   "lesson_number": 59,
@@ -4532,7 +4591,8 @@
   ]
 },
 {
-  "id": "n5_g_60",
+  "id": "g_60",
+  "level": "N5",
   "unit": 12,
   "unit_title": "Mots interrogatifs et indéfinis",
   "lesson_number": 60,
@@ -4611,7 +4671,8 @@
   ]
 },
 {
-  "id": "n5_g_61",
+  "id": "g_61",
+  "level": "N5",
   "unit": 12,
   "unit_title": "Mots interrogatifs et indéfinis",
   "lesson_number": 61,
@@ -4689,7 +4750,8 @@
   ]
 },
 {
-  "id": "n5_g_62",
+  "id": "g_62",
+  "level": "N5",
   "unit": 13,
   "unit_title": "Structures avancées et polies",
   "lesson_number": 62,
@@ -4767,7 +4829,8 @@
   ]
 },
 {
-  "id": "n5_g_63",
+  "id": "g_63",
+  "level": "N5",
   "unit": 13,
   "unit_title": "Structures avancées et polies",
   "lesson_number": 63,
@@ -4847,7 +4910,8 @@
   ]
 },
 {
-  "id": "n5_g_64",
+  "id": "g_64",
+  "level": "N5",
   "unit": 13,
   "unit_title": "Structures avancées et polies",
   "lesson_number": 64,
@@ -4925,7 +4989,8 @@
   ]
 },
 {
-  "id": "n5_g_65",
+  "id": "g_65",
+  "level": "N5",
   "unit": 13,
   "unit_title": "Structures avancées et polies",
   "lesson_number": 65,
@@ -5005,7 +5070,8 @@
   ]
 },
 {
-  "id": "n5_g_66",
+  "id": "g_66",
+  "level": "N5",
   "unit": 13,
   "unit_title": "Structures avancées et polies",
   "lesson_number": 66,
@@ -5083,7 +5149,8 @@
   ]
 },
 {
-  "id": "n5_g_67",
+  "id": "g_67",
+  "level": "N5",
   "unit": 14,
   "unit_title": "Conditionnels et nuances",
   "lesson_number": 67,
@@ -5162,7 +5229,8 @@
   ]
 },
 {
-  "id": "n5_g_68",
+  "id": "g_68",
+  "level": "N5",
   "unit": 14,
   "unit_title": "Conditionnels et nuances",
   "lesson_number": 68,
@@ -5242,7 +5310,8 @@
   ]
 },
 {
-  "id": "n5_g_69",
+  "id": "g_69",
+  "level": "N5",
   "unit": 14,
   "unit_title": "Conditionnels et nuances",
   "lesson_number": 69,
@@ -5320,7 +5389,8 @@
   ]
 },
 {
-  "id": "n5_g_70",
+  "id": "g_70",
+  "level": "N5",
   "unit": 14,
   "unit_title": "Conditionnels et nuances",
   "lesson_number": 70,
@@ -5398,7 +5468,8 @@
   ]
 },
 {
-  "id": "n5_g_71",
+  "id": "g_71",
+  "level": "N5",
   "unit": 15,
   "unit_title": "Expressions d'intention et d'état",
   "lesson_number": 71,
@@ -5476,7 +5547,8 @@
   ]
 },
 {
-  "id": "n5_g_72",
+  "id": "g_72",
+  "level": "N5",
   "unit": 15,
   "unit_title": "Expressions d'intention et d'état",
   "lesson_number": 72,
@@ -5554,7 +5626,8 @@
   ]
 },
 {
-  "id": "n5_g_73",
+  "id": "g_73",
+  "level": "N5",
   "unit": 15,
   "unit_title": "Expressions d'intention et d'état",
   "lesson_number": 73,
@@ -5632,7 +5705,8 @@
   ]
 },
 {
-  "id": "n5_g_74",
+  "id": "g_74",
+  "level": "N5",
   "unit": 15,
   "unit_title": "Expressions d'intention et d'état",
   "lesson_number": 74,
@@ -5710,7 +5784,8 @@
   ]
 },
 {
-  "id": "n5_g_75",
+  "id": "g_75",
+  "level": "N5",
   "unit": 15,
   "unit_title": "Expressions d'intention et d'état",
   "lesson_number": 75,

@@ -14,7 +14,7 @@ import { replay, seededRandom } from './replay.js';
 const CATALOG = {
   kana: [{ type: 'kana', id: 'kana_あ' }],
   n5: [{ type: 'vocab', id: 'n5_v_1' }, { type: 'vocab', id: 'n5_v_2' }, { type: 'kanji', id: '水' },
-    { type: 'grammar', id: 'n5_g_8' }],
+    { type: 'grammar', id: 'g_8' }],
   n4: [], n3: [], n2: [], n1: []
 };
 const ALL = Object.values(CATALOG).flat();

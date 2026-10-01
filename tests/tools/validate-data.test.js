@@ -20,8 +20,8 @@ function baseData() {
   return {
     'n5/vocab.json': [word('n5_v_1', '水'), word('n5_v_2', '食べる', { group: 'ru', type: 'verbe' })],
     'n5/grammar.json': [
-      { id: 'n5_g_1', item: 'です', pattern: '[Nom] + です' },
-      { id: 'n5_g_2', item: 'か', requires: { grammar: ['n5_g_1'] } }
+      { id: 'g_1', level: 'N5', item: 'です', pattern: '[Nom] + です' },
+      { id: 'g_2', level: 'N5', item: 'か', requires: { grammar: ['g_1'] } }
     ],
     'n5/kanji.json': { level: 'N5', count: 1, chars: ['水'] },
     'kanji_jouyou_fr.json': { 食: {} },
@@ -32,18 +32,18 @@ function baseData() {
     'onboarding.json': [],
     'n5/missions.json': [{
       id: 'n5_m_1', place: 'konbini',
-      requires: { grammar: ['n5_g_1'] },
+      requires: { grammar: ['g_1'] },
       teaches: { vocab: ['n5_v_1'], expression: ['ex_1'] },
       characters: [{ id: 'moi' }],
       dialogue: [{
         speaker: 'moi', japanese: `${R('水', 'みず')}です。`, romaji: 'mizu desu.', french: "C'est de l'eau.",
-        register: 'poli', refs: [{ text: '水', vocab: 'n5_v_1' }], grammar: ['n5_g_1']
+        register: 'poli', refs: [{ text: '水', vocab: 'n5_v_1' }], grammar: ['g_1']
       }],
       exercises: [{ id: 'n5_m_1_q1', type: 'choice', target: { vocab: ['n5_v_1'] }, choices: ['a', 'b'], answer: 0 }]
     }],
     'n5/lectures.json': [{
       id: 'n5_l_1', type: 'histoire', place: null,
-      requires: { grammar: ['n5_g_1'] }, teaches: { vocab: ['n5_v_1'] },
+      requires: { grammar: ['g_1'] }, teaches: { vocab: ['n5_v_1'] },
       blocks: [{ kind: 'paragraph', lines: [{ japanese: 'みずです。', romaji: 'mizu desu.', french: 'Eau.', register: 'poli' }] }],
       questions: [{ id: 'n5_l_1_q1', target: { vocab: ['n5_v_1'] }, choices: ['a', 'b'], answer: 1, line_ref: [0, 0] }]
     }]
@@ -87,13 +87,13 @@ test('JSON invalide et fichier obligatoire absent', () => {
 });
 
 test('référence vers un identifiant inexistant (partie 2, 2.7)', () => {
-  withData(modify((d) => { d['n5/missions.json'][0].requires.grammar.push('n5_g_99'); }), (r) => {
-    assert.ok(r.errors.some((e) => e.code === 'ref-inexistante' && e.message.includes('n5_g_99')));
+  withData(modify((d) => { d['n5/missions.json'][0].requires.grammar.push('g_99'); }), (r) => {
+    assert.ok(r.errors.some((e) => e.code === 'ref-inexistante' && e.message.includes('g_99')));
   });
 });
 
 test('élément à la fois exigé et enseigné', () => {
-  withData(modify((d) => { d['n5/missions.json'][0].teaches.grammar = ['n5_g_1']; }), (r) => {
+  withData(modify((d) => { d['n5/missions.json'][0].teaches.grammar = ['g_1']; }), (r) => {
     assert.ok(codes(r.errors).includes('requires-et-teaches'));
   });
 });
@@ -126,8 +126,8 @@ test('identifiant de question en double', () => {
 
 test('cycle de prérequis et leçon qui s\'exige elle-même', () => {
   withData(modify((d) => {
-    d['n5/grammar.json'][0].requires = { grammar: ['n5_g_2'] };
-    d['n5/grammar.json'].push({ id: 'n5_g_3', requires: { grammar: ['n5_g_3'] } });
+    d['n5/grammar.json'][0].requires = { grammar: ['g_2'] };
+    d['n5/grammar.json'].push({ id: 'g_3', level: 'N5', requires: { grammar: ['g_3'] } });
   }), (r) => {
     const c = codes(r.errors);
     assert.ok(c.includes('cycle'));
@@ -251,7 +251,7 @@ test('mapping.json et curriculum ne sont pas lus', () => {
 test("unicité des identifiants entre fichiers (même espace d'identifiants)", () => {
   withData(modify((d) => {
     d['n4/vocab.json'] = [{ id: 'n5_v_1' }];
-    d['n4/grammar.json'] = [{ id: 'n5_g_1' }];
+    d['n4/grammar.json'] = [{ id: 'g_1' }];
   }), (r) => {
     const dups = r.errors.filter((e) => e.code === 'id-duplique-global');
     assert.equal(dups.length, 2);
@@ -275,4 +275,69 @@ test('kanji_list : une entrée = exactement un kanji', () => {
     assert.ok(codes(r.errors).includes('kanji-list-format'));
     assert.ok(!codes(r.warnings).includes('kanji-inconnu'));
   });
+});
+
+// ── Addendum A4 : identifiants de grammaire indépendants du niveau ──
+
+test('grammaire : identifiant de forme g_<n> (addendum A4, I20)', () => {
+  for (const bad of ['n5_g_1', 'g_01', 'g_', 'lesson_1']) {
+    withData(modify((d) => { d['n5/grammar.json'].push({ id: bad, level: 'N5' }); }), (r) => {
+      assert.ok(r.errors.some((e) => e.code === 'forme-id' && e.where.includes(bad)), bad);
+    });
+  }
+});
+
+test('grammaire : champ level obligatoire, valide et égal au niveau du fichier (I20)', () => {
+  for (const level of [undefined, 'n5', 'N6', 5]) {
+    withData(modify((d) => { d['n5/grammar.json'][0].level = level; }), (r) => {
+      assert.ok(codes(r.errors).includes('niveau-invalide'), String(level));
+    });
+  }
+  withData(modify((d) => { d['n5/grammar.json'][0].level = 'N4'; }), (r) => {
+    assert.ok(codes(r.errors).includes('niveau-fichier'));
+    assert.ok(!codes(r.errors).includes('niveau-invalide'));
+  });
+});
+
+// Le niveau d'une leçon vient de son champ `level`, jamais de son identifiant (A4-2) : une
+// leçon `g_200` ne dit rien de son niveau, seul son champ indique qu'elle est N4.
+test('grammaire d\'un niveau supérieur : comparaison des champs level, pas des identifiants (A4)', () => {
+  withData(modify((d) => {
+    d['n4/grammar.json'] = [{ id: 'g_200', level: 'N4' }];
+    d['n5/missions.json'][0].requires.grammar.push('g_200');
+  }), (r) => {
+    assert.deepEqual(r.errors, []);
+    assert.ok(r.warnings.some((w) => w.code === 'niveau-superieur' && w.message.includes('g_200')));
+  });
+  // Même leçon, activité déclarée N4 par son propre champ level : rien à signaler.
+  withData(modify((d) => {
+    d['n4/grammar.json'] = [{ id: 'g_200', level: 'N4' }];
+    d['n5/missions.json'][0].level = 'N4';
+    d['n5/missions.json'][0].requires.grammar.push('g_200');
+  }), (r) => {
+    assert.ok(!codes(r.warnings).includes('niveau-superieur'));
+  });
+  // Leçons N5 exigées par une activité N5 : rien à signaler.
+  withData(baseData(), (r) => assert.ok(!codes(r.warnings).includes('niveau-superieur')));
+  // Le champ prime sur la place du fichier. Ce n'est observable que dans un niveau hors
+  // périmètre, où I20 n'impose pas encore l'égalité : une leçon rangée dans le fichier N4 mais
+  // déclarée N5 n'est pas d'un niveau supérieur pour une activité N5.
+  withData(modify((d) => {
+    d['n4/grammar.json'] = [{ id: 'g_200', level: 'N5' }];
+    d['n5/missions.json'][0].requires.grammar.push('g_200');
+  }), (r) => assert.ok(!codes(r.warnings).includes('niveau-superieur')));
+});
+
+test('préfixe g_ réservé aux leçons de grammaire (A4-4, I18)', () => {
+  const cases = [
+    (d) => { d['lieux.json'][0].id = 'g_konbini'; d['n5/missions.json'][0].place = 'g_konbini'; },
+    (d) => { d['registres.json'].push({ id: 'g_soutenu' }); },
+    (d) => { d['n5/missions.json'][0].characters.push({ id: 'g_ken' }); },
+    (d) => { d['n5/missions.json'][0].id = 'g_m_1'; },
+    (d) => { d['n5/lectures.json'][0].id = 'g_l_1'; },
+    (d) => { d['n5/lectures.json'][0].questions[0].id = 'g_q_1'; }
+  ];
+  for (const [i, change] of cases.entries()) {
+    withData(modify(change), (r) => assert.ok(codes(r.errors).includes('prefixe-reserve'), `cas ${i + 1}`));
+  }
 });

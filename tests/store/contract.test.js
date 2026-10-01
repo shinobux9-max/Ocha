@@ -75,6 +75,6 @@ test('indexField et normalizeRange', () => {
 });
 
 test('compareKeys suit l\'ordre des chaînes', () => {
-  assert.deepEqual(['水', 'n5_v_2', 'kana_あ', 'n5_g_10'].sort(compareKeys),
-    ['kana_あ', 'n5_g_10', 'n5_v_2', '水']);
+  assert.deepEqual(['水', 'n5_v_2', 'kana_あ', 'g_10'].sort(compareKeys),
+    ['g_10', 'kana_あ', 'n5_v_2', '水']);
 });

@@ -25,10 +25,10 @@ const VALID = {
     payload: { activityId: 'n5_m_1', activityType: 'mission', durationSeconds: 300, score: 0.8 } },
   ACTIVITY_SKIPPED: { sessionId: 'ses_1', context: { mode: 'guided', source: 'home', activityType: 'reading' },
     payload: { activityId: 'n5_l_5', activityType: 'reading' } },
-  CONTENT_INTRODUCED: { context: { mode: 'free', source: 'learn', activityType: 'lesson', activityId: 'n5_g_8' },
-    payload: { element: ref('grammar', 'n5_g_8') } },
+  CONTENT_INTRODUCED: { context: { mode: 'free', source: 'learn', activityType: 'lesson', activityId: 'g_8' },
+    payload: { element: ref('grammar', 'g_8') } },
   QUESTION_ANSWERED: { context: free,
-    payload: { questionId: 'gen:cloze:n5_g_8:ex2', target: [ref('grammar', 'n5_g_8')], correct: false, answer: 'が' } },
+    payload: { questionId: 'gen:cloze:g_8:ex2', target: [ref('grammar', 'g_8')], correct: false, answer: 'が' } },
   REVIEW_GRADED: { context: { mode: 'free', source: 'review', activityType: 'srs_review', exerciseType: 'flashcard' },
     payload: { element: ref('kanji', '水'), quality: 2 } },
   REINFORCEMENT_TRIGGERED: { sessionId: 'ses_1', context: { mode: 'guided', source: 'home', activityType: 'quiz' },
@@ -101,22 +101,32 @@ test('contexte : mode, source et type d\'activité connus ; facultatifs vérifi�
 // ── Références { type, id } ─────────────────────────────────────────────────
 
 test('références : clé connue et identifiant de la bonne forme (partie 1, 1.1)', () => {
-  const ok = [ref('grammar', 'n5_g_8'), ref('vocab', 'n5_v_117'), ref('vocab', 'hj_v_1'), ref('vocab', 'n4_v_3'),
+  const ok = [ref('grammar', 'g_8'), ref('vocab', 'n5_v_117'), ref('vocab', 'hj_v_1'), ref('vocab', 'n4_v_3'),
     ref('kanji', '水'), ref('kanji', '𠮟'), ref('kana', 'kana_あ'), ref('expression', 'ex_3')];
   for (const r of ok) assert.deepEqual(validateEvent(withPayload('CONTENT_INTRODUCED', { element: r })), [], r.id);
   const ko = [ref('vocabulary', 'n5_v_1'), ref('kanji', 'n5_k_1'), ref('kanji', '水曜'), ref('kana', 'あ'),
-    ref('vocab', 'n5_g_8'), ref('grammar', 'n5_v_1'), ref('expression', 'n5_e_1'), ref('vocab', ''),
+    ref('vocab', 'g_8'), ref('grammar', 'n5_v_1'), ref('expression', 'n5_e_1'), ref('vocab', ''),
     { type: 'vocab', id: 'n5_v_1', label: 'x' }, 'n5_v_1'];
   for (const r of ko) {
     assert.ok(validateEvent(withPayload('CONTENT_INTRODUCED', { element: r })).length > 0, JSON.stringify(r));
   }
 });
 
+// Addendum A4 · E5 : une leçon s'identifie par `g_<n>`, sans niveau dans l'identifiant.
+test('grammaire : forme g_<n> seulement, l\'ancienne forme à niveau est refusée (addendum A4)', () => {
+  for (const id of ['g_1', 'g_8', 'g_75', 'g_1000']) {
+    assert.deepEqual(validateEvent(withPayload('CONTENT_INTRODUCED', { element: ref('grammar', id) })), [], id);
+  }
+  for (const id of ['n5_g_8', 'n4_g_1', 'g_0', 'g_08', 'g_', 'g_8a', 'G_8', 'g_-1', ' g_8', 'gen:cloze:g_8:ex1']) {
+    assert.ok(validateEvent(withPayload('CONTENT_INTRODUCED', { element: ref('grammar', id) })).length > 0, id);
+  }
+});
+
 test('l\'existence des éléments est vérifiée par la fonction injectée', () => {
-  const catalog = new Set(['grammar:n5_g_8', 'kanji:水']);
+  const catalog = new Set(['grammar:g_8', 'kanji:水']);
   const elementExists = (r) => catalog.has(`${r.type}:${r.id}`);
   assert.deepEqual(validateEvent(make('QUESTION_ANSWERED'), { elementExists }), []);
-  const unknown = withPayload('QUESTION_ANSWERED', { target: [ref('grammar', 'n5_g_8'), ref('vocab', 'n5_v_999')] });
+  const unknown = withPayload('QUESTION_ANSWERED', { target: [ref('grammar', 'g_8'), ref('vocab', 'n5_v_999')] });
   assert.deepEqual(validateEvent(unknown, { elementExists }), ['élément inexistant : vocab n5_v_999']);
   // Sans fonction fournie, aucune vérification d'existence.
   assert.deepEqual(validateEvent(unknown), []);
@@ -129,8 +139,8 @@ test('l\'existence des éléments est vérifiée par la fonction injectée', () 
 test('QUESTION_ANSWERED : question, cible non vide sans doublon, correct booléen, answer facultatif', () => {
   invalid(withPayload('QUESTION_ANSWERED', { questionId: '' }), /questionId/, 'question');
   invalid(withPayload('QUESTION_ANSWERED', { target: [] }), /payload\.target/, 'cible vide');
-  invalid(withPayload('QUESTION_ANSWERED', { target: ref('grammar', 'n5_g_8') }), /payload\.target/, 'cible non liste');
-  invalid(withPayload('QUESTION_ANSWERED', { target: [ref('grammar', 'n5_g_8'), ref('grammar', 'n5_g_8')] }),
+  invalid(withPayload('QUESTION_ANSWERED', { target: ref('grammar', 'g_8') }), /payload\.target/, 'cible non liste');
+  invalid(withPayload('QUESTION_ANSWERED', { target: [ref('grammar', 'g_8'), ref('grammar', 'g_8')] }),
     /en double/, 'doublon');
   invalid(withPayload('QUESTION_ANSWERED', { correct: 'oui' }), /correct/, 'correct');
   const selfReport = { ...make('QUESTION_ANSWERED'), payload: { questionId: 'q', target: [ref('kanji', '水')], correct: true } };

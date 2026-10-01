@@ -2,7 +2,7 @@
   {
     "particle": "は",
     "romaji": "wa",
-    "grammar_id": "n5_g_8",
+    "grammar_id": "g_8",
     "examples": [
       {
         "japanese": "<ruby>私<rt>わたし</rt></ruby> **は** <ruby>学生<rt>がくせい</rt></ruby> です 。",
@@ -39,7 +39,7 @@
   {
     "particle": "が",
     "romaji": "ga",
-    "grammar_id": "n5_g_9",
+    "grammar_id": "g_9",
     "examples": [
       {
         "japanese": "<ruby>猫<rt>ねこ</rt></ruby> **が** います 。",
@@ -76,7 +76,7 @@
   {
     "particle": "を",
     "romaji": "o",
-    "grammar_id": "n5_g_10",
+    "grammar_id": "g_10",
     "examples": [
       {
         "japanese": "<ruby>本<rt>ほん</rt></ruby> **を** <ruby>読<rt>よ</rt></ruby>みます 。",
@@ -113,7 +113,7 @@
   {
     "particle": "に",
     "romaji": "ni",
-    "grammar_id": "n5_g_11",
+    "grammar_id": "g_11",
     "examples": [
       {
         "japanese": "<ruby>東京<rt>とうきょう</rt></ruby> **に** <ruby>住<rt>す</rt></ruby>んでいます 。",
@@ -150,7 +150,7 @@
   {
     "particle": "で",
     "romaji": "de",
-    "grammar_id": "n5_g_12",
+    "grammar_id": "g_12",
     "examples": [
       {
         "japanese": "<ruby>図書館<rt>としょかん</rt></ruby> **で** <ruby>勉強<rt>べんきょう</rt></ruby>します 。",
@@ -187,7 +187,7 @@
   {
     "particle": "へ",
     "romaji": "e",
-    "grammar_id": "n5_g_13",
+    "grammar_id": "g_13",
     "examples": [
       {
         "japanese": "<ruby>日本<rt>にほん</rt></ruby> **へ** <ruby>行<rt>い</rt></ruby>きます 。",
@@ -224,7 +224,7 @@
   {
     "particle": "と",
     "romaji": "to",
-    "grammar_id": "n5_g_14",
+    "grammar_id": "g_14",
     "examples": [
       {
         "japanese": "私 **と** <ruby>友達<rt>ともだち</rt></ruby> が 行きます 。",
@@ -261,7 +261,7 @@
   {
     "particle": "も",
     "romaji": "mo",
-    "grammar_id": "n5_g_15",
+    "grammar_id": "g_15",
     "examples": [
       {
         "japanese": "<ruby>私<rt>わたし</rt></ruby> **も** <ruby>学生<rt>がくせい</rt></ruby> です 。",
@@ -298,7 +298,7 @@
   {
     "particle": "の",
     "romaji": "no",
-    "grammar_id": "n5_g_16",
+    "grammar_id": "g_16",
     "examples": [
       {
         "japanese": "これ **は** <ruby>私<rt>わたし</rt></ruby> **の** <ruby>本<rt>ほん</rt></ruby> です 。",
@@ -335,7 +335,7 @@
   {
     "particle": "か",
     "romaji": "ka",
-    "grammar_id": "n5_g_17",
+    "grammar_id": "g_17",
     "examples": [
       {
         "japanese": "これ は <ruby>本<rt>ほん</rt></ruby> です **か** 。",
@@ -372,7 +372,7 @@
   {
     "particle": "ね",
     "romaji": "ne",
-    "grammar_id": "n5_g_18",
+    "grammar_id": "g_18",
     "examples": [
       {
         "japanese": "きょう は <ruby>暑<rt>あつ</rt></ruby>い です **ね** 。",
@@ -409,7 +409,7 @@
   {
     "particle": "よ",
     "romaji": "yo",
-    "grammar_id": "n5_g_19",
+    "grammar_id": "g_19",
     "examples": [
       {
         "japanese": "この <ruby>本<rt>ほん</rt></ruby> は <ruby>面白<rt>おもしろ</rt></ruby>い です **よ** 。",
@@ -446,7 +446,7 @@
   {
     "particle": "から",
     "romaji": "kara",
-    "grammar_id": "n5_g_20",
+    "grammar_id": "g_20",
     "examples": [
       {
         "japanese": "<ruby>東京<rt>とうきょう</rt></ruby> **から** <ruby>来<rt>き</rt></ruby>ました 。",
@@ -483,7 +483,7 @@
   {
     "particle": "まで",
     "romaji": "made",
-    "grammar_id": "n5_g_21",
+    "grammar_id": "g_21",
     "examples": [
       {
         "japanese": "<ruby>駅<rt>えき</rt></ruby> **まで** <ruby>歩<rt>ある</rt></ruby>いて 行きます 。",
@@ -520,7 +520,7 @@
   {
     "particle": "より",
     "romaji": "yori",
-    "grammar_id": "n5_g_22",
+    "grammar_id": "g_22",
     "examples": [
       {
         "japanese": "りんご は バナナ **より** <ruby>赤<rt>あか</rt></ruby>い です 。",
@@ -557,7 +557,7 @@
   {
     "particle": "だけ",
     "romaji": "dake",
-    "grammar_id": "n5_g_23",
+    "grammar_id": "g_23",
     "examples": [
       {
         "japanese": "りんご を 1つ **だけ** <ruby>食<rt>た</rt></ruby>べました 。",
@@ -594,7 +594,7 @@
   {
     "particle": "ごろ",
     "romaji": "goro",
-    "grammar_id": "n5_g_24",
+    "grammar_id": "g_24",
     "examples": [
       {
         "japanese": "毎朝 7<ruby>時<rt>じ</rt></ruby> **ごろ** に <ruby>起<rt>お</rt></ruby>きます 。",
@@ -631,7 +631,7 @@
   {
     "particle": "くらい / ぐらい",
     "romaji": "kurai / gurai",
-    "grammar_id": "n5_g_25",
+    "grammar_id": "g_25",
     "examples": [
       {
         "japanese": "<ruby>家<rt>いえ</rt></ruby> から 駅 まで 20<ruby>分<rt>ふん</rt></ruby> **くらい** かかります 。",
@@ -668,7 +668,7 @@
   {
     "particle": "や",
     "romaji": "ya",
-    "grammar_id": "n5_g_26",
+    "grammar_id": "g_26",
     "examples": [
       {
         "japanese": "カバン の <ruby>中<rt>なか</rt></ruby> に <ruby>本<rt>ほん</rt></ruby> **や** ノート が あります 。",
@@ -705,7 +705,7 @@
   {
     "particle": "など",
     "romaji": "nado",
-    "grammar_id": "n5_g_27",
+    "grammar_id": "g_27",
     "examples": [
       {
         "japanese": "カバン の 中 に 本 や ノート **など** が あります 。",
