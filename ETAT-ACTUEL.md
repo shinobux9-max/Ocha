@@ -20,7 +20,7 @@ A2-05) et la réidentification de la grammaire (addendum A4).
 
 ### Étape 2 · Feuille de route
 
-Ordre fixé le 2026-10-02. Chaque tâche suit la méthode habituelle : périmètre validé,
+Ordre fixé le 2026-10-02 : le graphe (G2 à G9) se construit sur le corpus audité (A2-05). Chaque tâche suit la méthode habituelle : périmètre validé,
 livraison, relecture, tests verts, commit.
 
 | # | Tâche | Contenu | État |
@@ -34,8 +34,8 @@ livraison, relecture, tests verts, commit.
 | 6 | A2-04.1 à .15 · Lots | ~50 entrées par lot : proposition, relecture, audit, commit dans l'espace de travail | à faire |
 | 7 | A2-04.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
 | 8 | A2-04.17 · Publication | une seule opération : vocabulaire canonique, validateur activé, `events.js` (E1 à E4) ; l'ancienne app cesse de fonctionner sur `ocha-v2` | à faire |
-| 9 | G2 à G9 · Graphe | normalisation, ordre de référence, graphe, relations dérivées, accessibilité (S1, R1), `forms` / `construction` (G7), validation (R4), branchement sur `learning` | à faire |
-| 10 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
+| 9 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
+| 10 | G2 à G9 · Graphe | normalisation, ordre de référence, graphe, relations dérivées, accessibilité (S1, R1), `forms` / `construction` (G7), validation (R4), branchement sur `learning` | à faire |
 | 11 | Registre de phrases | format, identifiants, reconstruction depuis `exemples.json` et les anciens exemples ; requis avant l'étape 3 | à faire |
 | 12 | Clôture de l'étape 2 | scénario de bout en bout, rapport `docs/rapports/etape2.md` | à faire |
 
