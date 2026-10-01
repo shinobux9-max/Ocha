@@ -1,0 +1,15 @@
+{
+  "source": "A2-02",
+  "classes": [
+    { "id": "nom", "label": "Nom" },
+    { "id": "numeral", "label": "Numéral" },
+    { "id": "pronom", "label": "Pronom" },
+    { "id": "verbe", "label": "Verbe" },
+    { "id": "adjectif_i", "label": "Adjectif en い" },
+    { "id": "adjectif_na", "label": "Adjectif en な" },
+    { "id": "adverbe", "label": "Adverbe" },
+    { "id": "determinant", "label": "Déterminant" },
+    { "id": "conjonction", "label": "Conjonction" },
+    { "id": "interjection", "label": "Interjection" }
+  ]
+}

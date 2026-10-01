@@ -30,6 +30,10 @@ function registries() {
         { id: 'duree', label: 'Durée', children: [] }] },
       { id: 'medias', label: 'Médias', children: [
         { id: 'radio', label: 'Radio', children: [{ id: 'radio', label: 'Radio' }] }] }] },
+    'registries/grammatical-classes.json': { source: 'A2-02', classes: [
+      { id: 'nom', label: 'Nom' }, { id: 'verbe', label: 'Verbe' }] },
+    'registries/counters.json': { source: 'A2-02', compatibilities: [
+      { id: 'small_animals', label: 'Petits animaux' }] },
     'registries/semantic-types.json': { source: 'A2-ST-v1', families: [
       { id: 'entity', label: 'ENTITY', types: [{ id: 'personne', label: 'Personne' }, { id: 'lieu', label: 'Lieu' }] }] },
     'registries/dimensions.json': { source: 'A2-DIM-v1', families: [
@@ -430,8 +434,9 @@ test('un kanji référencé doit appartenir au catalogue d\'un niveau, pas seule
 const REG = (name) => `registries/${name}.json`;
 const errorsOf = (change) => withData(modify(change), (r) => r.errors);
 
-test('registres : les cinq fichiers sont obligatoires', () => {
-  for (const name of ['categories', 'semantic-types', 'dimensions', 'relations', 'linguistic-functions']) {
+test('registres : les sept fichiers sont obligatoires', () => {
+  for (const name of ['categories', 'semantic-types', 'dimensions', 'relations', 'linguistic-functions',
+    'grammatical-classes', 'counters']) {
     const errors = errorsOf((d) => { delete d[REG(name)]; });
     assert.ok(errors.some((e) => e.code === 'fichier-absent' && e.where.includes(name)), name);
   }
@@ -532,4 +537,22 @@ test('catégories : forme des identifiants et préfixes réservés', () => {
   const cat = (d) => d[REG('categories')].levels;
   assert.ok(codes(errorsOf((d) => { cat(d)[0].children[0].id = 'Unités'; })).includes('registre-id'));
   assert.ok(codes(errorsOf((d) => { cat(d)[0].children[0].children[0].id = 'g_mois'; })).includes('prefixe-reserve'));
+});
+
+// ── A2-02 · 3.3 : classes grammaticales et compatibilités de compteur (registres plats) ──
+
+test('registres plats : racine { source, liste }, source A2-02, entrées { id, label } uniques', () => {
+  const cases = [
+    [(d) => { d[REG('grammatical-classes')].source = 'A2-LING-v1'; }, 'registre-source'],
+    [(d) => { d[REG('counters')].source = 'A2-LING-v1'; }, 'registre-source'],
+    [(d) => { d[REG('grammatical-classes')].families = []; }, 'registre-format'],
+    [(d) => { d[REG('counters')].compatibilities = []; }, 'registre-format'],
+    [(d) => { d[REG('grammatical-classes')].classes[0].group = 'nom'; }, 'registre-format'],
+    [(d) => { d[REG('counters')].compatibilities[0].label = ''; }, 'registre-format'],
+    [(d) => { d[REG('grammatical-classes')].classes.push({ id: 'nom', label: 'Nom bis' }); }, 'id-duplique'],
+    [(d) => { d[REG('counters')].compatibilities.push({ id: 'small_animals', label: 'x' }); }, 'id-duplique'],
+    [(d) => { d[REG('grammatical-classes')].classes[1].id = 'Verbe'; }, 'registre-id'],
+    [(d) => { d[REG('counters')].compatibilities[0].id = 'g_animals'; }, 'prefixe-reserve']
+  ];
+  for (const [change, code] of cases) assert.ok(codes(errorsOf(change)).includes(code), code);
 });

@@ -15,10 +15,9 @@ devenir est décrit dans `docs/conception/` (verrouillé) ; comment travailler, 
 comprend la reconstruction du vocabulaire selon l'architecture sémantique A2 (projets A2-01 à
 A2-05) et la réidentification de la grammaire (addendum A4).
 
-**Tâche en cours : 3 · A2-02 · Registres.** 3.1 validée (registres fermés) ; 3.2 livrée
-(catégories, rapport `docs/rapports/etape2-tache3-2-categories.md`). Prochaine sous-tâche : 3.3
-(`grammatical-classes.json`, `counters.json`), à autoriser explicitement après la validation de
-3.2. A2-01 est verrouillé
+**Tâche en cours : 3 · A2-02 · Registres.** 3.1 et 3.2 validées ; 3.3 livrée (classes
+grammaticales et compteurs, rapport `docs/rapports/etape2-tache3-3-classes-compteurs.md`).
+Prochaine sous-tâche : 3.4 (`tags.json`), à autoriser explicitement après la validation de 3.3. A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
 réidentifiée en `g_<n>` (tâche 1 bis) ; le catalogue minimal du contenu existe (tâche 2, G1,
 rapport `docs/rapports/etape2-tache2-G1.md`).
@@ -33,7 +32,7 @@ livraison, relecture, tests verts, commit.
 | 1 | A2-01 · Verrouillage | schéma A2-01, addenda A3 et A4, `REGLES-CONSTRUCTION.md` 2.3, mentions de statut dans les parties concernées ; documents seulement | ✅ fait |
 | 1 bis | Réidentification de la grammaire (A4) | un seul commit : `grammar.json` (`n5_g_<n>` → `g_<n>`, champ `level`), 63 références actives remappées, `events.js` (E5), validateur (I20, A4, préfixe `g_` de I18), tests ; plus aucun niveau déduit d'un identifiant `g_` ; `exemples.json` et fichiers de l'ancienne app inchangés | ✅ fait |
 | 2 | G1 · Catalogue minimal | `data/kana.json` (grille, 210 kana, non-régression), `createContent(rawData)` pur, `elementExists`, `elementsOfScope` ; ne lit que les identifiants ; niveau donné par la place du fichier ; comptes tirés des données ; test d'intégration par les surfaces publiques de `content` et `learning` | ✅ fait |
-| 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (livrée) ; 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | 3.1 validée, 3.2 livrée |
+| 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (livrée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | 3.1 et 3.2 validées, 3.3 livrée |
 | 4 | A2-03 · Validateur | I1 à I19, A1 à A3, N1 (`schema-A2-01.md`, §12) ; testés sur données d'essai, activés sur `data/` à la publication | à faire |
 | 5 | A2-04.0 · Espace de travail | sources figées, fichiers de lot, journal des corrections, table de correspondance, outil d'assemblage | à faire |
 | 6 | A2-04.1 à .15 · Lots | ~50 entrées par lot : proposition, relecture, audit, commit dans l'espace de travail | à faire |
@@ -84,7 +83,7 @@ bloque `npm test`).
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
   `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
-  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tests/` (304 tests dans Node, plus la page
+  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tests/` (308 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -198,6 +197,8 @@ modifier ses parties verrouillées.
 | 2026-10-02 | A2-02 · tags : `{ id, label, description, kind }`, `kind: lieu` seul pour l'instant ; premiers tags `lieu_konbini`, `lieu_gare`, `lieu_restaurant`, `lieu_hotel` ; aucun mécanisme de retrait défini tant qu'aucun retrait réel n'existe ; un identifiant de tag n'est jamais réattribué | A2-02 · 3.4 |
 | 2026-10-02 | A2-02 · contrôles : `validate-data` vérifie l'intégrité interne des registres (source, clés exactes, identifiants, unicité, pôles, inverses réciproques, aucun inverse sur une relation symétrique) ; la conformité du vocabulaire aux registres relève d'A2-03 ; la transcription est vérifiée par des tests qui relisent les snapshots déposés | `tools/validate-data.mjs`, `tests/registries/` |
 | 2026-10-02 | A2-02 · 3.2 · `categories.json` : `{ source: "A2-L3-v1", levels: [{ id, label, children: [{ id, label, children: [{ id, label }] }] }] }` ; un niveau 2 sans niveau 3 a `children: []` ; un niveau 3 n'a pas de clé `children` ; transcription de la section 5 du snapshot | `data/registries/categories.json` |
+| 2026-10-02 | A2-02 · 3.3 · identifiants des compatibilités de compteur : `small_animals` (identifiant du snapshot), puis `flat_objects`, `long_objects`, `books_volumes`, `generic_units`, `occurrences` (conventions Ocha A2-02, notions tirées d'`A2-LING-v1`, chacune adossée à un compteur d'exemple : 匹, 枚, 本, 冊, 個, 回) | `data/registries/counters.json` |
+| 2026-10-02 | A2-02 · 3.3 · `grammatical-classes.json` : `{ source: "A2-02", classes: [{ id, label }] }`, les dix classes dans l'ordre arbitré ; `counters.json` : `{ source: "A2-02", compatibilities: [{ id, label }] }`. `source: "A2-02"` signale des registres décidés par Ocha et non transcrits d'un snapshot. Chaîne à respecter (contrôlée en A2-03) : propriété `counter` → `counter_for` → identifiant de `counters.json`. Aucune forme (一つ, 一人, 二十歳…) n'est rendue compteur par détection : au N5, seul 匹 a besoin de `counter_for` | `data/registries/` |
 
 ---
 
@@ -294,3 +295,4 @@ modifier ses parties verrouillées.
 | 2026-10-02 | 2 · 3 (A2-02) | Découpage et arbitrage d'A2-02 (11 décisions, identité locale des catégories, classe `numeral`, 10 classes, 匹), après extraction des libellés répétés, des 17 anciens `type` et des candidats numéraux et compteurs ; aucun fichier créé | — |
 | 2026-10-02 | 2 · 3.1 | Registres fermés : `semantic-types.json` (4 familles, 16 types), `dimensions.json` (9 familles, 26 axes), `relations.json` (6 familles, 21 relations), `linguistic-functions.json` (2 familles, 14 fonctions) ; snapshots ST, DIM, REL, LING déposés ; intégrité dans `validate-data` ; tests de transcription ; 11 nouveaux tests, 20 sabotages attrapés ; 298 tests | — |
 | 2026-10-02 | 2 · 3.2 | Catégories : `categories.json` (32 / 225 / 585, dont 56 niveaux 2 sans niveau 3), snapshot `A2-L3-v1` déposé ; intégrité de l'arbre dans `validate-data` (unicité parmi les frères seulement) ; transcription comparée à l'arbre entier du snapshot ; 6 nouveaux tests, 16 sabotages attrapés ; 304 tests | — |
+| 2026-10-02 | 2 · 3.3 | Classes grammaticales et compteurs : `grammatical-classes.json` (10 classes), `counters.json` (6 compatibilités) ; registres plats contrôlés par `validate-data` ; tests distinguant ce qui vient d'`A2-LING-v1` de ce qui a été décidé en A2-02 ; 4 nouveaux tests, 13 sabotages attrapés ; 308 tests | — |

@@ -1,0 +1,11 @@
+{
+  "source": "A2-02",
+  "compatibilities": [
+    { "id": "small_animals", "label": "Petits animaux" },
+    { "id": "flat_objects", "label": "Objets plats" },
+    { "id": "long_objects", "label": "Objets longs ou cylindriques" },
+    { "id": "books_volumes", "label": "Livres et volumes" },
+    { "id": "generic_units", "label": "Unités génériques" },
+    { "id": "occurrences", "label": "Occurrences" }
+  ]
+}

@@ -514,7 +514,12 @@ export const REGISTRY_SOURCES = Object.freeze({
   'semantic-types.json': 'A2-ST-v1',
   'dimensions.json': 'A2-DIM-v1',
   'relations.json': 'A2-REL-v1.1',
-  'linguistic-functions.json': 'A2-LING-v1'
+  'linguistic-functions.json': 'A2-LING-v1',
+  // Registres décidés en A2-02, et non transcrits d'un snapshot : les classes grammaticales
+  // (A2-LING-v1 nomme la propriété sans en donner les valeurs) et les compatibilités de
+  // compteur (notions d'A2-LING-v1, identifiants fixés par A2-02 sauf `small_animals`).
+  'grammatical-classes.json': 'A2-02',
+  'counters.json': 'A2-02'
 });
 
 // Un nœud de registre : exactement les clés attendues, identifiant valide et non réservé,
@@ -636,8 +641,23 @@ function checkCategoryTree(report, data) {
   }
 }
 
+// Registre plat (A2-02 · 3.3) : { source, <liste> }, chaque entrée { id, label }.
+function checkFlatRegistry(report, file, data, listKey, what) {
+  const where = `registries/${file}`;
+  if (!data || typeof data !== 'object' || Array.isArray(data)) { report.error('registre-format', where, 'objet attendu'); return; }
+  const keys = Object.keys(data).sort().join(',');
+  if (keys !== [listKey, 'source'].sort().join(',')) report.error('registre-format', where, `clés ${keys} au lieu de source, ${listKey}`);
+  if (data.source !== REGISTRY_SOURCES[file]) report.error('registre-source', where, `source « ${data.source} » au lieu de « ${REGISTRY_SOURCES[file]} »`);
+  const list = data[listKey];
+  if (!Array.isArray(list) || list.length === 0) { report.error('registre-format', where, `« ${listKey} » doit être une liste non vide`); return; }
+  const ok = list.filter((n, i) => checkRegistryNode(report, `${where} · ${i + 1}`, n, ['id', 'label'], what));
+  checkUnique(report, where, ok.map((n) => n.id), what);
+}
+
 const REGISTRY_CHECKS = {
   'categories.json': checkCategoryTree,
+  'grammatical-classes.json': (report, data) => checkFlatRegistry(report, 'grammatical-classes.json', data, 'classes', 'classe grammaticale'),
+  'counters.json': (report, data) => checkFlatRegistry(report, 'counters.json', data, 'compatibilities', 'compatibilité de compteur'),
   'semantic-types.json': checkSemanticTypes,
   'dimensions.json': checkDimensions,
   'relations.json': checkRelations,
