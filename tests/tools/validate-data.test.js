@@ -12,6 +12,12 @@ import { validateData, VALIDATED_LEVELS } from '../../tools/validate-data.mjs';
 
 const R = (k, r) => `<ruby>${k}<rt>${r}</rt></ruby>`;
 
+// Squelette canonique de kana.json : deux écritures, cinq groupes chacune ; seule la base des
+// hiragana reçoit des cases.
+const canonicalKana = (baseRows) => ({ scripts: ['hiragana', 'katakana'].map((id, i) => ({
+  id, groups: ['base', 'dakuten', 'handakuten', 'sokuon', 'yoon'].map((g) => ({
+    id: g, title: null, rows: g === 'base' && i === 0 ? baseRows : [] })) })) });
+
 function baseData() {
   const word = (id, w, extra = {}) => ({
     id, level: 'N5', word: w, reading: 'よみ', romaji: 'yomi',
@@ -25,8 +31,7 @@ function baseData() {
     ],
     'n5/kanji.json': { level: 'N5', count: 1, chars: ['水'] },
     'kanji_jouyou_fr.json': { 食: {} },
-    'kana.json': { scripts: [{ id: 'hiragana', groups: [{ id: 'base', title: null,
-      rows: [[{ char: 'あ', romaji: 'a' }, null, { char: 'きゃ', romaji: 'kya' }]] }] }] },
+    'kana.json': canonicalKana([[{ char: 'あ', romaji: 'a' }, null, { char: 'きゃ', romaji: 'kya' }]]),
     'registres.json': [{ id: 'poli' }, { id: 'familier' }],
     'expressions.json': [{ id: 'ex_1', variants: [{ register: 'poli', japanese: 'ありがとうございます', romaji: 'arigatou gozaimasu' }] }],
     'vocab-hors-jlpt.json': [],
@@ -355,6 +360,14 @@ test('kana.json : obligatoire et contrôlé', () => {
   });
   withData(modify((d) => { d['kana.json'].scripts[0].groups[0].rows[0].push({ char: 'x', romaji: 'x' }); }), (r) => {
     assert.ok(codes(r.errors).includes('kana-invalide'));
+  });
+  // Structure canonique, même contrat que le contenu (kanaProblems).
+  withData(modify((d) => { d['kana.json'].scripts[1].groups[4].id = 'foobar'; }), (r) => {
+    assert.ok(codes(r.errors).includes('groupe-inconnu'));
+    assert.ok(codes(r.errors).includes('groupe-manquant'));
+  });
+  withData(modify((d) => { d['kana.json'].scripts.reverse(); }), (r) => {
+    assert.ok(codes(r.errors).includes('ordre-invalide'));
   });
 });
 

@@ -12,6 +12,12 @@
 
 export const KANA_ID_PREFIX = 'kana_';
 
+// Structure canonique de la grille (décisions du 2026-10-01 et du 2026-10-02) : ces écritures et
+// ces groupes, chacun exactement une fois, dans cet ordre. L'ordre structure la grille et donc
+// l'ordre de la liste plate (kanaEntries), de la portée « kana » et de la non-régression.
+export const KANA_SCRIPTS = Object.freeze(['hiragana', 'katakana']);
+export const KANA_GROUPS = Object.freeze(['base', 'dakuten', 'handakuten', 'sokuon', 'yoon']);
+
 const KANA_TEXT = /^[\u3041-\u3096\u30A1-\u30FA\u30FC]+$/;
 const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
 const isText = (v) => typeof v === 'string' && v !== '';
@@ -34,6 +40,7 @@ export function kanaProblems(kana, where = 'kana.json') {
   if (extra.length) add('cle-inconnue', where, `clé(s) inconnue(s) : ${extra.join(', ')}`);
 
   const scriptIds = new Set();
+  const scriptOrder = [];
   const chars = new Map();
   kana.scripts.forEach((script, si) => {
     const sWhere = `${where} · écriture ${si + 1}`;
@@ -43,7 +50,10 @@ export function kanaProblems(kana, where = 'kana.json') {
     }
     if (scriptIds.has(script.id)) add('id-duplique', sWhere, `écriture « ${script.id} » en double`);
     scriptIds.add(script.id);
+    scriptOrder.push(script.id);
+    if (!KANA_SCRIPTS.includes(script.id)) add('ecriture-inconnue', sWhere, `écriture inconnue « ${script.id} » (${KANA_SCRIPTS.join(', ')})`);
     const groupIds = new Set();
+    const groupOrder = [];
     script.groups.forEach((group, gi) => {
       const gWhere = `${where} · ${script.id} · groupe ${gi + 1}`;
       if (!isObject(group) || !isText(group.id) || !Array.isArray(group.rows)) {
@@ -52,6 +62,8 @@ export function kanaProblems(kana, where = 'kana.json') {
       }
       if (groupIds.has(group.id)) add('id-duplique', gWhere, `groupe « ${group.id} » en double`);
       groupIds.add(group.id);
+      groupOrder.push(group.id);
+      if (!KANA_GROUPS.includes(group.id)) add('groupe-inconnu', gWhere, `groupe inconnu « ${group.id} » (${KANA_GROUPS.join(', ')})`);
       if (group.title !== null && !isText(group.title)) add('format', gWhere, '« title » est un texte ou null');
       group.rows.forEach((row, ri) => {
         if (!Array.isArray(row)) { add('format', `${gWhere} · rangée ${ri + 1}`, 'une rangée est une liste'); return; }
@@ -69,8 +81,23 @@ export function kanaProblems(kana, where = 'kana.json') {
         });
       });
     });
+    checkCanonical(add, `${where} · ${script.id}`, groupOrder, KANA_GROUPS, 'groupe');
   });
+  checkCanonical(add, where, scriptOrder, KANA_SCRIPTS, 'écriture');
   return problems;
+}
+
+// Chaque valeur canonique présente, et dans l'ordre canonique. Les valeurs inconnues et les
+// doublons sont signalés à part : ici, seuls les manques et l'ordre des valeurs connues comptent.
+function checkCanonical(add, where, actual, canonical, label) {
+  for (const id of canonical) {
+    if (!actual.includes(id)) add(label === 'groupe' ? 'groupe-manquant' : 'ecriture-manquante', where, `${label} « ${id} » manquant(e)`);
+  }
+  const known = actual.filter((id, i) => canonical.includes(id) && actual.indexOf(id) === i);
+  const expected = canonical.filter((id) => known.includes(id));
+  if (known.join() !== expected.join()) {
+    add('ordre-invalide', where, `ordre des ${label}s : ${known.join(', ')} au lieu de ${expected.join(', ')}`);
+  }
 }
 
 /**

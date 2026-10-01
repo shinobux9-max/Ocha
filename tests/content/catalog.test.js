@@ -74,10 +74,16 @@ test('portées gelées, identiques d\'un appel à l\'autre ; portée inconnue re
 
 // ── Refus des données incohérentes (décision du 2026-10-01) ──
 
+// Squelette canonique de kana.json : deux écritures, cinq groupes chacune ; seule la base des
+// hiragana reçoit des cases.
+const canonicalKana = (baseRows) => ({ scripts: ['hiragana', 'katakana'].map((id, i) => ({
+  id, groups: ['base', 'dakuten', 'handakuten', 'sokuon', 'yoon'].map((g) => ({
+    id: g, title: null, rows: g === 'base' && i === 0 ? baseRows : [] })) })) });
+
 function minimal() {
   return {
     levels: { n5: { grammar: [{ id: 'g_1' }], vocab: [{ id: 'n5_v_1' }], kanji: { chars: ['水'] } } },
-    kana: { scripts: [{ id: 'hiragana', groups: [{ id: 'base', title: null, rows: [[{ char: 'あ', romaji: 'a' }]] }] }] },
+    kana: canonicalKana([[{ char: 'あ', romaji: 'a' }]]),
     vocabHorsJlpt: [{ id: 'hj_v_1' }],
     expressions: [{ id: 'ex_1' }]
   };
@@ -107,6 +113,8 @@ test('construction refusée : chaque motif est signalé', () => {
   refused((r) => { r.mapping = {}; }, 'cle-inconnue');
   refused((r) => { r.kana.scripts[0].groups[0].rows[0].push({ char: 'あ', romaji: 'a' }); }, 'id-duplique');
   refused((r) => { delete r.kana; }, 'format');
+  refused((r) => { r.kana.scripts[0].groups[0].id = 'foobar'; }, 'groupe-inconnu');
+  refused((r) => { r.kana.scripts.pop(); }, 'ecriture-manquante');
   refused((r) => { r.vocabHorsJlpt = {}; }, 'format');
   refused((r) => { delete r.levels; }, 'format');
 });

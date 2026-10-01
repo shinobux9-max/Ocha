@@ -10,7 +10,7 @@
 
 | Vérification | Résultat |
 |---|---|
-| `npm test` | **286 tests, tous verts** (268 avant la tâche, 18 nouveaux) |
+| `npm test` | **287 tests, tous verts** (268 avant la tâche, 19 nouveaux) |
 | `node tools/validate-data.mjs` | 0 erreur, 8 avertissements (les mêmes qu'avant) |
 | `node tools/check-layers.mjs` | aucune violation (19 fichiers, dont les 4 de `src/content/`) |
 | Catalogue sur les vraies données | 210 kana ; portée `n5` : 75 leçons, 716 mots, 110 kanji (901) ; `n4` à `n1` vides |
@@ -26,7 +26,7 @@
 | `src/content/errors.js` | **nouveau** : `ContentError` |
 | `tests/helpers/content-data.mjs` | **nouveau** : adaptateur Node qui lit `data/` pour les tests |
 | `tests/content/fixtures/kana-legacy.json` | **nouveau** : copie figée de l'ancienne liste des kana |
-| `tests/content/kana.test.js`, `catalog.test.js`, `integration.test.js`, `purity.test.js` | **nouveaux** : 15 tests |
+| `tests/content/kana.test.js`, `catalog.test.js`, `integration.test.js`, `purity.test.js` | **nouveaux** : 16 tests |
 | `tools/validate-data.mjs` | kana et kanji par catalogue |
 | `tests/tools/validate-data.test.js` | catalogue de kana dans le jeu d'essai, 3 nouveaux tests |
 
@@ -39,6 +39,12 @@
   - Groupes : `base`, `dakuten`, `handakuten`, `sokuon`, `yoon`.
   - `title` : repris de l'ancien code (`null` pour la base, `Dakuten ゛`…).
   - Cases : `{ char, romaji }` ou `null` (case vide de la grille).
+- **Structure canonique imposée** (correction de relecture) : `kanaProblems` exige les écritures
+  `hiragana` puis `katakana` et, dans chacune, les groupes `base`, `dakuten`, `handakuten`,
+  `sokuon`, `yoon`, chacun exactement une fois et dans cet ordre, puisque l'ordre de la grille
+  fait celui de la liste plate. Codes : `ecriture-inconnue`, `ecriture-manquante`,
+  `groupe-inconnu`, `groupe-manquant`, `ordre-invalide` (un doublon reste `id-duplique`). Comme
+  `kanaProblems` sert au contenu et au validateur, le même contrat s'applique aux deux.
 - **Aucun identifiant stocké** : `kana_<caractère>` se déduit du caractère, comme le veut le
   principe « rien de dérivable » de l'addendum A3.
 - Une rangée par ligne dans le fichier, pour que la grille reste lisible dans VS Code.
@@ -118,10 +124,19 @@ en mémoire :
 | S17 | validateur : `kana.json` facultatif | `kana.json` obligatoire |
 | S18 | validateur : structure de `kana.json` non contrôlée | `kana.json` contrôlé |
 | S19 | case de kana avec un champ en trop acceptée | structure des kana |
+| S20 | écriture inconnue acceptée | structure canonique |
+| S21 | groupe inconnu accepté | structure canonique, contenu, validateur |
+| S22 | écriture ou groupe manquant accepté | structure canonique, contenu, validateur |
+| S23 | ordre des écritures ou des groupes non contrôlé | structure canonique, validateur |
+| S24 | groupes non comparés à la liste canonique | structure canonique, validateur |
+| S25 | écritures non comparées à la liste canonique | structure canonique, contenu, validateur |
+| S26 | données : deux groupes intervertis dans `kana.json` | non-régression, et `validate-data` (`ordre-invalide`) |
 
 Données : un kana en double dans `data/kana.json` fait échouer `validate-data` (`id-duplique`).
 
-Aucun trou révélé.
+Aucun trou révélé par les sabotages. La relecture en a signalé un, hors de leur portée : la
+structure canonique était vérifiée sur le fichier actuel, mais pas imposée par `kanaProblems`.
+Il est comblé (section 3, sabotages S20 à S26).
 
 ## 8. Points à signaler
 

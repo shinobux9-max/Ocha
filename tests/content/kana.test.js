@@ -32,25 +32,51 @@ test('la grille garde ses écritures et ses groupes, avec des identifiants stabl
   assert.ok(entries.some((e) => e.id === 'kana_きゃ'));
 });
 
+// Squelette canonique : deux écritures, cinq groupes chacune ; seule la base des hiragana a des cases.
+const SCRIPTS = ['hiragana', 'katakana'];
+const GROUPS = ['base', 'dakuten', 'handakuten', 'sokuon', 'yoon'];
+const canonical = (rows = [[{ char: 'あ', romaji: 'a' }]]) => ({ scripts: SCRIPTS.map((id, i) => ({
+  id, groups: GROUPS.map((g) => ({ id: g, title: null, rows: g === 'base' && i === 0 ? rows : [] })) })) });
+const has = (kana, code) => kanaProblems(kana).some((p) => p.code === code);
+
 test('catalogue des kana : chaque défaut de structure est signalé', () => {
-  const grid = (rows, extra = {}) => ({ scripts: [{ id: 'hiragana', groups: [{ id: 'base', title: null, rows }] }], ...extra });
   const a = { char: 'あ', romaji: 'a' };
+  assert.deepEqual(kanaProblems(canonical()), []);
+  assert.deepEqual(kanaProblems(canonical([[a, null]])), [], 'une case vide est permise');
   const cases = [
     [null, 'format'],
     [{ scripts: [] }, 'format'],
-    [grid([[a]], { extra: 1 }), 'cle-inconnue'],
-    [grid([[a, { char: 'あ', romaji: 'a' }]]), 'id-duplique'],
-    [grid([[{ char: 'a', romaji: 'a' }]]), 'kana-invalide'],
-    [grid([[{ char: 'あ', romaji: '' }]]), 'format'],
-    [grid([[{ char: 'あ', romaji: 'a', id: 'kana_あ' }]]), 'format'],
-    [grid(['あ']), 'format'],
-    [{ scripts: [{ id: 'hiragana', groups: [{ id: 'base', title: null, rows: [] }, { id: 'base', title: null, rows: [] }] }] }, 'id-duplique'],
-    [{ scripts: [{ id: 'hiragana', groups: [{ id: 'base', title: 3, rows: [] }] }] }, 'format'],
-    [{ scripts: [{ id: 'hiragana', groups: [] }, { id: 'hiragana', groups: [] }] }, 'id-duplique']
+    [{ ...canonical(), extra: 1 }, 'cle-inconnue'],
+    [canonical([[a, { char: 'あ', romaji: 'a' }]]), 'id-duplique'],
+    [canonical([[{ char: 'a', romaji: 'a' }]]), 'kana-invalide'],
+    [canonical([[{ char: 'あ', romaji: '' }]]), 'format'],
+    [canonical([[{ char: 'あ', romaji: 'a', id: 'kana_あ' }]]), 'format'],
+    [canonical(['あ']), 'format']
   ];
-  for (const [kana, code] of cases) {
-    const problems = kanaProblems(kana);
-    assert.ok(problems.some((p) => p.code === code), `${JSON.stringify(kana)} → ${code}`);
-  }
-  assert.deepEqual(kanaProblems(grid([[a, null]])), [], 'une case vide est permise');
+  for (const [kana, code] of cases) assert.ok(has(kana, code), `${JSON.stringify(kana)?.slice(0, 80)} → ${code}`);
+  const k = canonical();
+  k.scripts[0].groups[0].title = 3;
+  assert.ok(has(k, 'format'), 'title ni texte ni null');
+});
+
+// Structure canonique (décision du 2026-10-02) : imposée par kanaProblems, donc par le contenu ET
+// par le validateur, et pas seulement vérifiée sur le fichier actuel.
+test('catalogue des kana : écritures et groupes canoniques, chacun une fois, dans l\'ordre', () => {
+  const change = (fn) => { const k = canonical(); fn(k); return k; };
+  const cases = [
+    ['écriture inconnue', (k) => { k.scripts[1].id = 'romaji'; }, 'ecriture-inconnue'],
+    ['écriture manquante', (k) => { k.scripts.pop(); }, 'ecriture-manquante'],
+    ['écriture supplémentaire', (k) => { k.scripts.push({ id: 'hentaigana', groups: [] }); }, 'ecriture-inconnue'],
+    ['écriture en double', (k) => { k.scripts.push(structuredClone(k.scripts[1])); }, 'id-duplique'],
+    ['écritures dans le désordre', (k) => { k.scripts.reverse(); }, 'ordre-invalide'],
+    ['groupe inconnu', (k) => { k.scripts[0].groups[1].id = 'foobar'; }, 'groupe-inconnu'],
+    ['groupe inconnu en plus', (k) => { k.scripts[1].groups.push({ id: 'foobar', title: null, rows: [] }); }, 'groupe-inconnu'],
+    ['groupe manquant', (k) => { k.scripts[1].groups.splice(3, 1); }, 'groupe-manquant'],
+    ['groupe en double', (k) => { k.scripts[0].groups.push({ id: 'yoon', title: null, rows: [] }); }, 'id-duplique'],
+    ['groupes dans le désordre', (k) => { [k.scripts[0].groups[1], k.scripts[0].groups[2]] = [k.scripts[0].groups[2], k.scripts[0].groups[1]]; }, 'ordre-invalide']
+  ];
+  for (const [label, fn, code] of cases) assert.ok(has(change(fn), code), `${label} → ${code}`);
+  // Le cas de la revue : un groupe « foobar » seul n'est pas une grille valide.
+  const lone = { scripts: [{ id: 'hiragana', groups: [{ id: 'foobar', title: null, rows: [] }] }] };
+  for (const code of ['groupe-inconnu', 'groupe-manquant', 'ecriture-manquante']) assert.ok(has(lone, code), code);
 });

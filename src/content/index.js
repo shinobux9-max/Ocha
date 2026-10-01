@@ -13,7 +13,7 @@ import { buildCatalog, keyOf, ELEMENT_TYPES, SCOPES } from './catalog.js';
 import { ContentError } from './errors.js';
 
 export { ContentError } from './errors.js';
-export { kanaProblems, kanaEntries, kanaId, KANA_ID_PREFIX } from './kana.js';
+export { kanaProblems, kanaEntries, kanaId, KANA_ID_PREFIX, KANA_SCRIPTS, KANA_GROUPS } from './kana.js';
 export { ELEMENT_TYPES, SCOPES, LEVELS } from './catalog.js';
 
 /**
