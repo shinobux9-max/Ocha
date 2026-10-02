@@ -1,0 +1,1642 @@
+{
+  "lot": "lot-02",
+  "title": "Alimentation, boissons, repas et table",
+  "entries": {
+    "n5_v_66": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0189"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'emploie aussi pour un médicament : 薬を飲む, prendre un médicament (l'avaler).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Boire",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "consommation_alimentaire"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_84": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0168",
+        "A2-04-D0169",
+        "A2-04-D0170"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Forme polie et courante ; 弁当 sans お existe aussi, surtout à l'écrit et dans les composés (駅弁).",
+        "tags": [
+          "lieu_konbini"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bento",
+              "alternatives": [
+                "Repas en boîte"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "produits_prepares"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_85": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0179",
+        "A2-04-D0180"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Désigne d'abord le thé vert japonais ; le thé noir se dit 紅茶.",
+        "tags": [
+          "lieu_konbini",
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Thé",
+              "alternatives": [
+                "Thé vert"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "boissons",
+              "level_3": "boissons_chaudes"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_86": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0185"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Désigne aussi, plus précisément, le saké (日本酒).",
+        "tags": [
+          "lieu_konbini",
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Alcool",
+              "alternatives": [
+                "Boisson alcoolisée"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "boissons",
+              "level_3": "boissons_alcoolisees"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_88": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0165",
+        "A2-04-D0166",
+        "A2-04-D0167"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme poli et courant ; le riz cru se dit 米 (こめ).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Riz cuit",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "cereales_feculents"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "tags": [
+              "lieu_restaurant"
+            ]
+          },
+          {
+            "meaning": {
+              "primary": "Repas",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "repas"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "ご飯を食べる : prendre son repas ; 朝ご飯, 晩ご飯 : petit-déjeuner, dîner."
+          }
+        ]
+      }
+    },
+    "n5_v_89": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0199",
+        "A2-04-D0200"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "茶碗",
+            "furigana": "<ruby>茶碗<rt>ちゃわん</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Littéralement « bol à thé » : il sert aujourd'hui surtout pour le riz.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bol (à riz)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "vaisselle_ustensiles",
+              "level_3": "vaisselle"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_90": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0143",
+        "A2-04-D0144"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "鶏肉",
+            "furigana": "<ruby>鶏肉<rt>とりにく</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le poulet vivant se dit 鶏 (にわとり).",
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Poulet (viande)",
+              "alternatives": [
+                "Viande de poulet"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "viandes"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_93": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0204"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Récipient à anse (tasse, mug) ; le verre sans anse se dit コップ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tasse",
+              "alternatives": [
+                "Gobelet"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "vaisselle_ustensiles",
+              "level_3": "vaisselle"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_94": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0171",
+        "A2-04-D0172"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Désigne d'ordinaire le curry japonais servi avec du riz (カレーライス).",
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Curry",
+              "alternatives": [
+                "Riz au curry"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "produits_prepares"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_95": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0182"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La boisson ; l'établissement se dit 喫茶店 ou カフェ.",
+        "tags": [
+          "lieu_konbini",
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Café (boisson)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "boissons",
+              "level_3": "boissons_chaudes"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_97": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0153",
+        "A2-04-D0154"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_konbini"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pain",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "cereales_feculents"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_98": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0215",
+        "A2-04-D0216"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Plutôt un restaurant à l'occidentale ; un restaurant japonais traditionnel peut se dire 料理屋.",
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Restaurant",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "restauration",
+              "level_3": "restaurants"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_99": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0149",
+        "A2-04-D0150"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Désigne d'ordinaire l'œuf de poule.",
+        "tags": [
+          "lieu_konbini"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Œuf",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "ufs"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_101": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0217",
+        "A2-04-D0218"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Café à la japonaise, souvent de style ancien ; la boisson se dit コーヒー.",
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Café (établissement)",
+              "alternatives": [
+                "Salon de thé"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "restauration",
+              "level_3": "cafes"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_102": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0157",
+        "A2-04-D0158"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sel",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "condiments_assaisonnements"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_103": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0173",
+        "A2-04-D0174"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un peu plus neutre que 晩ご飯, courant à l'oral.",
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dîner",
+              "alternatives": [
+                "Repas du soir"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "repas",
+              "level_3": "diner"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_104": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0175",
+        "A2-04-D0176",
+        "A2-04-D0177"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cuisine",
+              "alternatives": [
+                "Préparation des plats"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "cuisine_preparation"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "料理する : cuisiner."
+          },
+          {
+            "meaning": {
+              "primary": "Plat",
+              "alternatives": [
+                "Mets"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "produits_prepares"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "tags": [
+              "lieu_restaurant"
+            ],
+            "nuance": "日本料理 : la cuisine japonaise (les plats)."
+          }
+        ]
+      }
+    },
+    "n5_v_108": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0183",
+        "A2-04-D0184"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lait de vache ; ミルク s'emploie aussi, surtout pour le café.",
+        "tags": [
+          "lieu_konbini"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lait",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "produits_laitiers"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_109": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0145"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bœuf (viande)",
+              "alternatives": [
+                "Viande de bœuf"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "viandes"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_110": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0159",
+        "A2-04-D0160"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sucre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "condiments_assaisonnements"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_111": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0207",
+        "A2-04-D0208"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Souvent お箸, forme polie. Ne pas confondre avec 橋 (はし, le pont), homophone.",
+        "tags": [
+          "lieu_konbini",
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Baguettes",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "vaisselle_ustensiles",
+              "level_3": "couverts"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_112": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0181"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Littéralement « thé rouge ».",
+        "tags": [
+          "lieu_konbini",
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Thé noir",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "boissons",
+              "level_3": "boissons_chaudes"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_113": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0141",
+        "A2-04-D0142"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Viande",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "viandes"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_114": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0146"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Porc (viande)",
+              "alternatives": [
+                "Viande de porc"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "viandes"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_115": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0151",
+        "A2-04-D0152"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Légume",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "legumes"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_117": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0187",
+        "A2-04-D0188"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Manger",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "consommation_alimentaire"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_118": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0163",
+        "A2-04-D0164"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Nourriture",
+              "alternatives": [
+                "Aliment"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_119": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0219",
+        "A2-04-D0220"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Aussi un petit restaurant populaire, bon marché.",
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cantine",
+              "alternatives": [
+                "Réfectoire",
+                "Cafétéria"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "restauration",
+              "level_3": "restaurants"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_120": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0186"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "飲み物は？ : et comme boisson ? (au restaurant).",
+        "tags": [
+          "lieu_konbini",
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Boisson",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "boissons"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_121": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0161",
+        "A2-04-D0162"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Ne pas confondre avec 雨 (あめ, la pluie), homophone.",
+        "tags": [
+          "lieu_konbini"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bonbon",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "produits_prepares"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_122": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0147",
+        "A2-04-D0148"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Poisson (animal)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "animaux",
+              "level_3": "poissons"
+            },
+            "semantic_type": "organisme_vivant",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Poisson (aliment)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "poissons_produits_marins"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "tags": [
+              "lieu_restaurant"
+            ]
+          }
+        ]
+      }
+    },
+    "n5_v_211": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0213",
+        "A2-04-D0214"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Couteau de table ; le couteau de cuisine se dit 包丁.",
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Couteau",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "vaisselle_ustensiles",
+              "level_3": "couverts"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_225": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0201",
+        "A2-04-D0202",
+        "A2-04-D0203"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Forme polie et courante ; 皿 (さら) sans お, à l'écrit et dans les composés.",
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Assiette",
+              "alternatives": [
+                "Plat"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "vaisselle_ustensiles",
+              "level_3": "vaisselle"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_230": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0205",
+        "A2-04-D0206"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Récipient sans anse ; la tasse se dit カップ.",
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Verre",
+              "alternatives": [
+                "Gobelet"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "vaisselle_ustensiles",
+              "level_3": "vaisselle"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_231": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0209",
+        "A2-04-D0210"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_konbini",
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cuillère",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "vaisselle_ustensiles",
+              "level_3": "couverts"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_232": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0211",
+        "A2-04-D0212"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fourchette",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "vaisselle_ustensiles",
+              "level_3": "couverts"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_427": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0196",
+        "A2-04-D0197",
+        "A2-04-D0198"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Familier pour le goût ; plus poli : おいしくない.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mauvais (au goût)",
+              "alternatives": [
+                "Pas bon"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "gouts_alimentaires"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Fâcheux",
+              "alternatives": [
+                "Embarrassant"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "まずいことになった : ça tourne mal."
+          }
+        ]
+      }
+    },
+    "n5_v_464": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0190",
+        "A2-04-D0191",
+        "A2-04-D0192",
+        "A2-04-D0193"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sucré",
+              "alternatives": [
+                "Doux"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "gouts_alimentaires",
+              "level_3": "sucre"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Indulgent",
+              "alternatives": [
+                "Laxiste"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "子供に甘い : être indulgent avec les enfants ; 考えが甘い : avoir une vue trop optimiste."
+          }
+        ]
+      }
+    },
+    "n5_v_481": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0194",
+        "A2-04-D0195"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Se dit aussi d'un plat trop salé dans certaines régions (ailleurs : しょっぱい). Le même kanji se lit つらい, « pénible » : c'est un autre mot.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Épicé",
+              "alternatives": [
+                "Piquant"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "gouts_alimentaires",
+              "level_3": "epice"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_619": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0155",
+        "A2-04-D0156"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Beurre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "produits_laitiers"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_677": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0178"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'eau froide ou à température ambiante ; l'eau chaude se dit お湯 (おゆ). Au restaurant, on demande お水.",
+        "tags": [
+          "lieu_konbini",
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Eau",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "boissons",
+              "level_3": "eau"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}
