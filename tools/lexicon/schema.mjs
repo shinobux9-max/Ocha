@@ -38,8 +38,7 @@ export const LEXICON_LEVELS = Object.freeze(['N5', 'N4', 'N3', 'N2', 'N1', 'hors
 //   shape    : pour un objet, sa description
 // Le validateur VALIDE, il ne normalise pas : un champ facultatif absent n'est jamais remplacé
 // par une valeur par défaut, même quand le schéma en indique une (« absent équivaut à [] »).
-// Tout champ non décrit est une erreur (I1). La description des SENSE vient avec 4.3 : en 4.2,
-// `senses` est seulement une liste.
+// Tout champ non décrit est une erreur (I1).
 
 export const WRITING_SHAPE = Object.freeze({
   form: { type: 'text', required: true },
@@ -68,6 +67,49 @@ export const LINGUISTIC_SHAPE = Object.freeze({
   counter: { type: 'object', required: false, nullable: true, shape: COUNTER_SHAPE }
 });
 
+// ── SENSE (schema-A2-01.md, §7 ; A2-03 · 4.3) ──
+
+export const MEANING_SHAPE = Object.freeze({
+  primary: { type: 'text', required: true },
+  alternatives: { type: 'list', required: true, items: 'text' }
+});
+
+// Chemin de catégorie : level_1 obligatoire ; level_2 et level_3 facultatifs (absents ou null).
+export const CATEGORY_SHAPE = Object.freeze({
+  level_1: { type: 'text', required: true },
+  level_2: { type: 'text', required: false, nullable: true },
+  level_3: { type: 'text', required: false, nullable: true }
+});
+
+export const DIMENSION_SHAPE = Object.freeze({
+  axis: { type: 'text', required: true },
+  pole: { type: 'text', required: true }
+});
+
+// Forme locale seulement : le type, la cible et la cohérence des relations relèvent de I12 (4.4).
+export const RELATION_SHAPE = Object.freeze({
+  type: { type: 'text', required: true },
+  target: { type: 'text', required: true }
+});
+
+export const FUNCTIONS_SHAPE = Object.freeze({
+  grammatical: { type: 'list', required: true, items: 'text' },
+  pragmatic_discourse: { type: 'list', required: true, items: 'text' }
+});
+
+export const SENSE_SHAPE = Object.freeze({
+  id: { type: 'text', required: true },
+  meaning: { type: 'object', required: true, shape: MEANING_SHAPE },
+  category: { type: 'object', required: true, nullable: true, shape: CATEGORY_SHAPE },
+  semantic_type: { type: 'text', required: true, nullable: true },
+  dimensions: { type: 'list', required: true, items: DIMENSION_SHAPE },
+  relations: { type: 'list', required: true, items: RELATION_SHAPE },
+  linguistic_functions: { type: 'object', required: true, shape: FUNCTIONS_SHAPE },
+  tags: { type: 'list', required: false, items: 'text' },
+  particles: { type: 'list', required: false, items: 'text' },
+  nuance: { type: 'text', required: false, nullable: true }
+});
+
 export const ENTRY_SHAPE = Object.freeze({
   id: { type: 'text', required: true },
   level: { type: 'text', required: true },
@@ -78,7 +120,7 @@ export const ENTRY_SHAPE = Object.freeze({
   nuance: { type: 'text', required: false, nullable: true },
   tags: { type: 'list', required: false, items: 'text' },
   retired_sense_ids: { type: 'list', required: false, items: 'text' },
-  senses: { type: 'list', required: true }
+  senses: { type: 'list', required: true, items: SENSE_SHAPE }
 });
 
 // Entrée de data/vocab-retired.json (schema-A2-01.md, §9).
@@ -90,6 +132,8 @@ export const RETIRED_SHAPE = Object.freeze({
 // ── Valeurs (schema-A2-01.md, §3 à §6 et §9) ────────────────────────────────
 
 export const ENTRY_ID = /^v_[1-9][0-9]*$/;
+// Identifiant de SENSE : <id de l'ENTRY>_s<m> (schema-A2-01.md, §7).
+export const SENSE_ID = /^v_[1-9][0-9]*_s[1-9][0-9]*$/;
 // `group` : comportement morphologique seulement (addendum A3, L6), ou null.
 export const GROUP_VALUES = Object.freeze(['ru', 'u', 'irrégulier', 'suru', 'i', 'na', 'nom']);
 // Kana d'une lecture : hiragana, katakana et « ー », sans « / » (règle unique du validateur).

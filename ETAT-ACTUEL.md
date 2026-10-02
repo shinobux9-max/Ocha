@@ -15,9 +15,9 @@ devenir est décrit dans `docs/conception/` (verrouillé) ; comment travailler, 
 comprend la reconstruction du vocabulaire selon l'architecture sémantique A2 (projets A2-01 à
 A2-05) et la réidentification de la grammaire (addendum A4).
 
-**Tâche en cours : 4 · A2-03 · Validateur du schéma lexical.** 4.1 validée ; 4.2 livrée
-(schéma strict et ENTRY, rapport `docs/rapports/etape2-tache4-2-entry.md`). Prochaine
-sous-tâche : 4.3 (SENSE), à autoriser explicitement après la validation de 4.2.
+**Tâche en cours : 4 · A2-03 · Validateur du schéma lexical.** 4.1 et 4.2 validées ; 4.3 livrée
+(SENSE, rapport `docs/rapports/etape2-tache4-3-sense.md`). Prochaine sous-tâche : 4.4
+(références transversales), à autoriser explicitement après la validation de 4.3.
 A2-02 est terminé (rapport final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
 réidentifiée en `g_<n>` (tâche 1 bis) ; le catalogue minimal du contenu existe (tâche 2, G1,
@@ -34,7 +34,7 @@ livraison, relecture, tests verts, commit.
 | 1 bis | Réidentification de la grammaire (A4) | un seul commit : `grammar.json` (`n5_g_<n>` → `g_<n>`, champ `level`), 63 références actives remappées, `events.js` (E5), validateur (I20, A4, préfixe `g_` de I18), tests ; plus aucun niveau déduit d'un identifiant `g_` ; `exemples.json` et fichiers de l'ancienne app inchangés | ✅ fait |
 | 2 | G1 · Catalogue minimal | `data/kana.json` (grille, 210 kana, non-régression), `createContent(rawData)` pur, `elementExists`, `elementsOfScope` ; ne lit que les identifiants ; niveau donné par la place du fichier ; comptes tirés des données ; test d'intégration par les surfaces publiques de `content` et `learning` | ✅ fait |
 | 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (validée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait, A2-02 fermé (3.1 à 3.5 validées) |
-| 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | 4.1 validée, 4.2 livrée |
+| 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | 4.1 et 4.2 validées, 4.3 livrée |
 | 5 | A2-04.0 · Espace de travail | sources figées, fichiers de lot, journal des corrections, table de correspondance, outil d'assemblage | à faire |
 | 6 | A2-04.1 à .15 · Lots | ~50 entrées par lot : proposition, relecture, audit, commit dans l'espace de travail | à faire |
 | 7 | A2-04.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
@@ -84,7 +84,7 @@ bloque `npm test`).
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
   `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
-  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tests/` (346 tests dans Node, plus la page
+  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tests/` (359 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -211,6 +211,9 @@ modifier ses parties verrouillées.
 | 2026-10-02 | A2-03 · 4.2 · description déclarative (`tools/lexicon/schema.mjs`) : chaque champ a `type` (`text` = chaîne non vide, `boolean`, `list`, `object`), `required`, `nullable`, et `items` ou `shape` ; présent à null ≠ absent ; aucune valeur par défaut, le validateur valide sans normaliser ; un seul vérificateur générique (`checkShape`) tire de cette description la liste des champs admis (I1) | `tools/lexicon/schema.mjs` |
 | 2026-10-02 | A2-03 · 4.2 · interprétations du schéma : les champs d'une lecture (§4) et d'une forme (§5) sont tous obligatoires, `note` pouvant valoir null (aucun n'y est marqué facultatif) ; N1 est le nombre d'ENTRY par niveau, les kanji calculés à partir de `word` relèvent de A2 (`kanji-inconnu`), jamais stockés ; kanji connus = catalogues de niveau et dictionnaire, comme l'actuel `kanji-inconnu`, fournis par l'appelant | A2-03 · 4.2 |
 | 2026-10-02 | A2-03 · 4.2 · contrat d'entrée de `validateLexicon` : `{ files, registries, retired, knownKanji }` ; furigana : seule la structure `ruby` (paires base et `rt`, `rp` facultatifs autour de `rt`) est admise, validée avant le calcul du texte de base ; codes `champ-inconnu`, `champ-manquant`, `type-invalide`, `entree-id`, `id-retire`, `niveau-fichier`, `forme-invalide`, `lecture-manquante`, `lecture-defaut`, `kana-invalide`, `furigana-invalide`, `furigana-base`, `graphie-doublon`, `classe-inconnue`, `group-invalide`, `suru-compatible`, `compteur-vide`, `compteur-inconnu`, `unite-doublon`, `retire-invalide` ; avertissements `romaji-macron`, `kanji-inconnu`, `suru-sans-suru` ; information `entrees-par-niveau` | `tools/lexicon/` |
+| 2026-10-02 | A2-03 · 4.2 validée : lecture `{ kana, romaji, furigana, default, note }` et forme `{ form, furigana }` entièrement obligatoires, `note: null` signifiant « aucune condition particulière » (jamais rendu facultatif en A2-04) ; `retired` et `knownKanji` fournis par l'appelant | `tools/lexicon/schema.mjs` |
+| 2026-10-02 | A2-03 · 4.3 · SENSE : description déclarative (`SENSE_SHAPE` et sous-objets), I1 étendu à l'intérieur des SENSE ; `category.level_2` et `level_3` facultatifs, absents ou null ; relations vérifiées dans leur seule forme `{ type, target }` (type, cible, cohérence : I12, 4.4) ; contrat d'entrée augmenté de `particles` (valeurs de `particles.json`, I15) ; la stabilité historique des identifiants de sens n'est pas vérifiable sur un seul état des données et relève du journal d'A2-04 | `tools/lexicon/sense.mjs` |
+| 2026-10-02 | A2-03 · 4.3 · codes : `sens-manquant`, `sens-id`, `sens-retire-invalide`, `sens-libelle`, `categorie-nulle`, `categorie-chemin`, `categorie-inconnue`, `type-nul`, `type-inconnu`, `dimension-inconnue`, `pole-inconnu`, `dimension-doublon`, `fonction-inconnue`, `tag-inconnu`, `tag-doublon`, `tag-repete`, `particule-inconnue` (avec `id-duplique` et `id-retire`) | `tools/lexicon/sense.mjs` |
 
 ---
 
@@ -317,3 +320,4 @@ modifier ses parties verrouillées.
 | 2026-10-02 | 2 · 4 (A2-03) | Découpage et arbitrage d'A2-03 (12 décisions ; `lieux.json` reste à A2-04 ; pas d'analyse du Markdown du schéma) | — |
 | 2026-10-02 | 2 · 4.1 | Socle du validateur lexical : `tools/lexicon/` (`index.mjs`, `registries.mjs`, `schema.mjs`), index des huit registres (catégories par chemin seulement), contrat d'entrée de `validateLexicon`, fixture illustrative ; `validate-data` : libellés sans espaces autour, `v_` réservé ; 11 nouveaux tests, 13 sabotages attrapés ; 326 tests | — |
 | 2026-10-02 | 2 · 4.2 | Schéma strict et ENTRY : description déclarative et `checkShape` (I1), `tools/lexicon/entry.mjs` (I2 à I6, I16, I17, A1 à A3, N1), analyseur structurel des furigana, test de conformité au schéma ; correction d'un défaut du rapport (tableaux gelés en cours de route) ; 20 nouveaux tests, 26 sabotages attrapés ; 346 tests | — |
+| 2026-10-02 | 2 · 4.3 | SENSE : description déclarative, `tools/lexicon/sense.mjs` (I7 à I11, I13 à I15, tags de l'ENTRY), contrat d'entrée augmenté de `particles`, conformité au schéma étendue ; 13 nouveaux tests, 22 sabotages attrapés ; 359 tests | — |

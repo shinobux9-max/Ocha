@@ -9,7 +9,8 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   ENTRY_SHAPE, READING_SHAPE, WRITING_SHAPE, LINGUISTIC_SHAPE, COUNTER_SHAPE, RETIRED_SHAPE,
-  ENTRY_ID, GROUP_VALUES, KANA_READING, LEXICON_LEVELS
+  SENSE_SHAPE, MEANING_SHAPE, CATEGORY_SHAPE, DIMENSION_SHAPE, RELATION_SHAPE, FUNCTIONS_SHAPE,
+  ENTRY_ID, SENSE_ID, GROUP_VALUES, KANA_READING, LEXICON_LEVELS
 } from '../../tools/lexicon/schema.mjs';
 
 const keys = (shape) => Object.keys(shape);
@@ -46,7 +47,8 @@ test('propriétés linguistiques (§6), compteur, identifiants retirés (§9)', 
 });
 
 test('le validateur valide sans normaliser : aucune valeur par défaut dans la description', () => {
-  for (const shape of [ENTRY_SHAPE, READING_SHAPE, WRITING_SHAPE, LINGUISTIC_SHAPE, COUNTER_SHAPE, RETIRED_SHAPE]) {
+  for (const shape of [ENTRY_SHAPE, READING_SHAPE, WRITING_SHAPE, LINGUISTIC_SHAPE, COUNTER_SHAPE, RETIRED_SHAPE,
+    SENSE_SHAPE, MEANING_SHAPE, CATEGORY_SHAPE, DIMENSION_SHAPE, RELATION_SHAPE, FUNCTIONS_SHAPE]) {
     for (const [name, field] of Object.entries(shape)) {
       for (const prop of Object.keys(field)) assert.ok(['type', 'required', 'nullable', 'items', 'shape'].includes(prop), `${name}.${prop}`);
     }
@@ -60,4 +62,29 @@ test('valeurs : identifiant, niveaux, group, kana d\'une lecture', () => {
   assert.deepEqual(GROUP_VALUES, ['ru', 'u', 'irrégulier', 'suru', 'i', 'na', 'nom']);
   for (const ok of ['たかい', 'コーヒー', 'きゃく', 'パン']) assert.match(ok, KANA_READING);
   for (const bad of ['なん / なに', 'takai', '高い', 'たか い', '']) assert.doesNotMatch(bad, KANA_READING);
+});
+
+test('SENSE (§7) : champs, obligatoires, nullables ; aucun exemple', () => {
+  assert.equal(ENTRY_SHAPE.senses.items, SENSE_SHAPE);
+  assert.deepEqual(keys(SENSE_SHAPE), ['id', 'meaning', 'category', 'semantic_type', 'dimensions', 'relations',
+    'linguistic_functions', 'tags', 'particles', 'nuance']);
+  assert.deepEqual(where(SENSE_SHAPE, 'required'), ['id', 'meaning', 'category', 'semantic_type', 'dimensions', 'relations',
+    'linguistic_functions']);
+  assert.deepEqual(where(SENSE_SHAPE, 'nullable'), ['category', 'semantic_type', 'nuance']);
+  for (const gone of ['examples', 'example', 'level']) assert.ok(!keys(SENSE_SHAPE).includes(gone), gone);
+});
+
+test('sous-objets du SENSE : libellé, chemin, dimension, relation, fonctions', () => {
+  assert.deepEqual(keys(MEANING_SHAPE), ['primary', 'alternatives']);
+  assert.deepEqual(where(MEANING_SHAPE, 'required'), ['primary', 'alternatives']);
+  assert.deepEqual(keys(CATEGORY_SHAPE), ['level_1', 'level_2', 'level_3']);
+  assert.deepEqual(where(CATEGORY_SHAPE, 'required'), ['level_1']);
+  assert.deepEqual(where(CATEGORY_SHAPE, 'nullable'), ['level_2', 'level_3']);
+  assert.deepEqual(keys(DIMENSION_SHAPE), ['axis', 'pole']);
+  assert.deepEqual(keys(RELATION_SHAPE), ['type', 'target']);
+  // Familles du registre des fonctions, mêmes clés que dans le schéma.
+  assert.deepEqual(keys(FUNCTIONS_SHAPE), ['grammatical', 'pragmatic_discourse']);
+  assert.deepEqual(where(FUNCTIONS_SHAPE, 'required'), ['grammatical', 'pragmatic_discourse']);
+  for (const ok of ['v_188_s1', 'v_1_s12']) assert.match(ok, SENSE_ID);
+  for (const bad of ['v_188_s0', 'v_188_1', 'v_188', 'n5_v_188_s1']) assert.doesNotMatch(bad, SENSE_ID);
 });

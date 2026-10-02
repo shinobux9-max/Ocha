@@ -1,13 +1,14 @@
 // Ocha v2 — Validateur lexical : ENTRY (A2-03 · 4.2)
 //
-// Contrôles de docs/conception/schema-A2-01.md, §12 : I1 (forme stricte de l'ENTRY et de ses
-// sous-objets, sauf l'intérieur des SENSE, 4.3), I2, I3, I4, I5, I6, I16, I17, avertissements A1
-// à A3, information N1. Le contenu des SENSE n'est pas examiné ici.
+// Contrôles de docs/conception/schema-A2-01.md, §12 : I1 (forme stricte de l'ENTRY et de tous ses
+// sous-objets, SENSE compris), I2, I3, I4, I5, I6, I16, I17, avertissements A1 à A3, information
+// N1. Les contrôles propres aux SENSE sont dans sense.mjs (4.3).
 
 import {
   ENTRY_SHAPE, RETIRED_SHAPE, ENTRY_ID, GROUP_VALUES, KANA_READING, MACRON, KANJI_CHAR,
   checkShape, usable
 } from './schema.mjs';
+import { checkSenses } from './sense.mjs';
 
 // ── Furigana ─────────────────────────────────────────────────────────────────
 //
@@ -149,6 +150,9 @@ function checkEntry(report, ctx, file, entry, i) {
     }
   }
 
+  // I7 à I11, I13 à I15 · SENSE (et tags de l'ENTRY)
+  checkSenses(report, ctx, where, entry);
+
   // I16 · une unité, une ENTRY : même forme usuelle et même lecture par défaut
   const def = usable(entry, 'readings', 'list') ? entry.readings.find((r) => r?.default === true) : undefined;
   if (word !== null && usable(def, 'kana', 'text')) {
@@ -179,9 +183,9 @@ function checkRetired(report, retired, ids) {
  * Contrôles de niveau ENTRY sur l'ensemble des fichiers (les identifiants et les unités sont
  * uniques dans tout le vocabulaire).
  */
-export function checkEntries(report, { files, retired, knownKanji, index }) {
+export function checkEntries(report, { files, retired, knownKanji, particles, index }) {
   const retiredIds = new Set(retired.filter((r) => typeof r?.id === 'string').map((r) => r.id));
-  const ctx = { index, retiredIds, knownKanji: new Set(knownKanji), ids: new Map(), units: new Map() };
+  const ctx = { index, retiredIds, knownKanji: new Set(knownKanji), particles: new Set(particles), ids: new Map(), units: new Map() };
   const perLevel = new Map();
   for (const file of files) {
     file.entries.forEach((entry, i) => checkEntry(report, ctx, file, entry, i));

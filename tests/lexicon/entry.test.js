@@ -18,8 +18,14 @@ const warns = (change) => run(change).warnings.map((w) => w.code);
 const assertErr = (code, change, label = code) => assert.ok(errs(change).includes(code), `${label} : ${JSON.stringify(errs(change))}`);
 const assertClean = (change, label) => assert.deepEqual(run(change).errors, [], label);
 // Une seconde ENTRY, distincte de la première.
-const other = (patch = {}) => ({ ...structuredClone(minimalLexicon().files[0].entries[0]), id: 'v_2', word: '低い',
-  readings: [{ kana: 'ひくい', romaji: 'hikui', furigana: '<ruby>低<rt>ひく</rt></ruby>い', default: true, note: null }], ...patch });
+// Ses sens sont renumérotés sous son propre identifiant (I7).
+const other = (patch = {}) => {
+  const base = structuredClone(minimalLexicon().files[0].entries[0]);
+  const id = patch.id ?? 'v_2';
+  return { ...base, id, word: '低い',
+    readings: [{ kana: 'ひくい', romaji: 'hikui', furigana: '<ruby>低<rt>ひく</rt></ruby>い', default: true, note: null }],
+    senses: base.senses.map((s, k) => ({ ...s, id: `${id}_s${k + 1}` })), ...patch };
+};
 
 // ── I1 · forme stricte ──
 
@@ -176,7 +182,8 @@ test('N1 : nombre d\'ENTRY par niveau', () => {
     ['entrees-par-niveau', 'N5', '1 ENTRY'], ['entrees-par-niveau', 'hors_jlpt', '1 ENTRY']]);
 });
 
-// 4.2 s'arrête à l'ENTRY : le contenu d'un SENSE n'est examiné qu'en 4.3.
-test('4.2 n\'examine pas l\'intérieur des SENSE', () => {
-  assert.deepEqual(errs((x, e) => { e.senses = [{ quoi: 'que ce soit' }]; }), []);
+// Depuis 4.3, la forme stricte (I1) s'étend à l'intérieur des SENSE.
+test('I1 s\'applique à l\'intérieur des SENSE', () => {
+  assertErr('champ-inconnu', (x, e) => { e.senses[0].examples = []; });
+  assertErr('champ-manquant', (x, e) => { delete e.senses[0].dimensions; });
 });

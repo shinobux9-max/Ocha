@@ -48,7 +48,9 @@ test('contrat d\'entrée : { files, registries }, fichiers { file, level, entrie
     (x) => { delete x.retired; },
     (x) => { x.retired = {}; },
     (x) => { delete x.knownKanji; },
-    (x) => { x.knownKanji = ['高い']; }
+    (x) => { x.knownKanji = ['高い']; },
+    (x) => { delete x.particles; },
+    (x) => { x.particles = ['を', '']; }
   ];
   for (const [i, change] of cases.entries()) assert.ok(codes(validateLexicon(input(change))).includes('lexique-format'), `cas ${i + 1}`);
   assert.ok(codes(validateLexicon(null)).includes('lexique-format'));

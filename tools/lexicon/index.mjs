@@ -9,8 +9,8 @@
 //   - sur data/ seulement à la publication d'A2-04, quand tools/validate-data.mjs l'appellera à la
 //     place de l'ancien contrôle du vocabulaire. Aucune détection automatique du format.
 //
-// Contrôles en place : contrat d'entrée (4.1) ; ENTRY, I1 à I6, I16, I17, A1 à A3, N1 (4.2).
-// À venir : SENSE (4.3), références transversales (4.4).
+// Contrôles en place : contrat d'entrée (4.1) ; ENTRY, I1 à I6, I16, I17, A1 à A3, N1 (4.2) ;
+// SENSE, I7 à I11, I13 à I15 (4.3). À venir : références transversales, I12 et I19 (4.4).
 
 import { buildRegistryIndex } from './registries.mjs';
 import { LEXICON_LEVELS } from './schema.mjs';
@@ -20,7 +20,7 @@ export { buildRegistryIndex, readRegistries } from './registries.mjs';
 export { REGISTRY_SOURCES, REGISTRY_FILES, LEXICON_LEVELS } from './schema.mjs';
 export { parseFurigana, kanjiOf } from './entry.mjs';
 
-const INPUT_KEYS = ['files', 'registries', 'retired', 'knownKanji'];
+const INPUT_KEYS = ['files', 'registries', 'retired', 'knownKanji', 'particles'];
 const FILE_KEYS = ['file', 'level', 'entries'];
 const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
 
@@ -46,6 +46,7 @@ function createReport() {
  * @param {Record<string, object>} input.registries contenu des huit registres de data/registries/
  * @param {object[]} input.retired contenu de data/vocab-retired.json
  * @param {string[]} input.knownKanji kanji connus : catalogues de niveau et dictionnaire (A2)
+ * @param {string[]} input.particles valeurs de particles.json (I15)
  * @returns {{ errors: object[], warnings: object[], infos: object[] }}
  */
 export function validateLexicon(input) {
@@ -67,6 +68,9 @@ export function validateLexicon(input) {
   if (!Array.isArray(input.knownKanji) || input.knownKanji.some((k) => typeof k !== 'string' || [...k].length !== 1)) {
     report.error('lexique-format', 'lexique', '« knownKanji » doit être une liste de caractères');
   }
+  if (!Array.isArray(input.particles) || input.particles.some((p) => typeof p !== 'string' || p === '')) {
+    report.error('lexique-format', 'lexique', '« particles » doit être une liste de particules (particles.json)');
+  }
 
   if (!Array.isArray(input.files) || input.files.length === 0) {
     report.error('lexique-format', 'lexique', '« files » doit être une liste non vide');
@@ -86,6 +90,6 @@ export function validateLexicon(input) {
   });
   // Les contrôles du lexique supposent un contrat d'entrée respecté.
   if (report.hasErrors()) return report.result();
-  checkEntries(report, { files: input.files, retired: input.retired, knownKanji: input.knownKanji, index });
+  checkEntries(report, { files: input.files, retired: input.retired, knownKanji: input.knownKanji, particles: input.particles, index });
   return report.result();
 }
