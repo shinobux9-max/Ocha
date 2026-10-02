@@ -3096,5 +3096,1029 @@
     ],
     "after": null,
     "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0221",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_33",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0222",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_33",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Foyer",
+      "Logement",
+      "Famille"
+    ],
+    "after": null,
+    "reason": "« Foyer » relève de 家庭, « famille » de 家族 ; « logement » est redondant avec « domicile »."
+  },
+  {
+    "id": "A2-04-D0223",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_33",
+    "field": "readings",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "La lecture うち, documentée par la nuance de la source, n'est PAS ajoutée à readings (arbitrage du lot 03) : ce serait une exception de lecture absente de la mécanique. Elle reste mentionnée dans la nuance et consignée comme candidat d'enrichissement, à traiter par une procédure globale si elle est décidée avant 5.17."
+  },
+  {
+    "id": "A2-04-D0224",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_507",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0225",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_507",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Logement en immeuble (souvent de type léger/modeste par rapport au *manshon* ou *mansion*)"
+    ],
+    "after": null,
+    "reason": "Explication d'usage, reprise dans la nuance."
+  },
+  {
+    "id": "A2-04-D0226",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_34",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0227",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_34",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Famille",
+      "Ménage",
+      "Cadre familial"
+    ],
+    "after": null,
+    "reason": "« Famille » relève de 家族 ; « ménage » est ambigu en français (le nettoyage) ; « cadre familial » est redondant."
+  },
+  {
+    "id": "A2-04-D0228",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_100",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0229",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_100",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pièce pour cuisiner"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0230",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_248",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0231",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_248",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Porche d'entrée"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : le 玄関 est à l'intérieur."
+  },
+  {
+    "id": "A2-04-D0232",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_217",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0233",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_217",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Espace extérieur privé"
+    ],
+    "after": null,
+    "reason": "Définition, pas une traduction."
+  },
+  {
+    "id": "A2-04-D0234",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_708",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0235",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_708",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Porte d'entrée",
+      "Porte monumentale"
+    ],
+    "after": null,
+    "reason": "« Porte d'entrée » prête à confusion avec 玄関 et 入口 ; « porte monumentale » est reprise dans la nuance (temple)."
+  },
+  {
+    "id": "A2-04-D0236",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_214",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [
+      "lieu_gare"
+    ],
+    "reason": "lieu_hotel écarté ; lieu_gare ajouté hors des candidats : Vocabulaire d'action propre à la gare (s'orienter, trouver un service), 入口 et 出口 balisent toute gare."
+  },
+  {
+    "id": "A2-04-D0237",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_214",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>",
+    "after": "<ruby>入<rt>いり</rt></ruby><ruby>口<rt>ぐち</rt></ruby>",
+    "reason": "Les furigana de la source étaient ceux de la graphie 入り口, pas de la forme usuelle 入口."
+  },
+  {
+    "id": "A2-04-D0238",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_214",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "入り口"
+    ],
+    "reason": "入り口 est une autre graphie du même mot (okurigana), sans changement de forme lexicale : ajoutée à writings."
+  },
+  {
+    "id": "A2-04-D0239",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_214",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Porte d'entrée"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : 入口 désigne l'accès, pas la porte."
+  },
+  {
+    "id": "A2-04-D0240",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_241",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [
+      "lieu_gare"
+    ],
+    "reason": "lieu_hotel écarté ; lieu_gare ajouté hors des candidats : Vocabulaire d'action propre à la gare (s'orienter, trouver un service), les sorties numérotées (東口, 3番出口)."
+  },
+  {
+    "id": "A2-04-D0241",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_241",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Porte de sortie"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : 出口 désigne l'issue, pas la porte."
+  },
+  {
+    "id": "A2-04-D0242",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_210",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0243",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_210",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Porte battante",
+      "Porte d'entrée"
+    ],
+    "after": null,
+    "reason": "Le premier est repris dans la nuance ; le second prête à confusion avec 玄関."
+  },
+  {
+    "id": "A2-04-D0244",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_218",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0245",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_218",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Vantail"
+    ],
+    "after": null,
+    "reason": "Terme technique ; non repris."
+  },
+  {
+    "id": "A2-04-D0246",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_222",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0247",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_222",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Fenêtre",
+      "Ouverture",
+      "Guichet"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens, « fenêtre »."
+  },
+  {
+    "id": "A2-04-D0248",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_222",
+    "field": "senses",
+    "kind": "correction",
+    "before": "Guichet",
+    "after": null,
+    "reason": "« Guichet » est le sens de 窓口, autre mot : confusion de la source, non reprise comme sens de 窓."
+  },
+  {
+    "id": "A2-04-D0249",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_222",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Ouverture"
+    ],
+    "after": null,
+    "reason": "Trop général."
+  },
+  {
+    "id": "A2-04-D0250",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_662",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0251",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_662",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Passage",
+      "Galerie"
+    ],
+    "after": null,
+    "reason": "Termes voisins, pas équivalents."
+  },
+  {
+    "id": "A2-04-D0252",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_711",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0253",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_711",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Marches d'escalier"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0254",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_202",
+    "field": "tags",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      "lieu_gare",
+      "lieu_hotel"
+    ],
+    "reason": "Aucun candidat hérité ; lieu_gare et lieu_hotel ajoutés : on cherche l'ascenseur pour s'orienter dans une gare comme à l'arrivée à l'hôtel (エレベーターはどこですか)."
+  },
+  {
+    "id": "A2-04-D0255",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_202",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Monte-charge"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0256",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_208",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Bain",
+      "Salle de bain",
+      "Baignoire"
+    ],
+    "after": [
+      "S1 Bain (le fait de se baigner)",
+      "S2 Salle de bain"
+    ],
+    "reason": "Deux sens documentés par la source : prendre un bain (お風呂に入る) et la pièce, deux référents distincts."
+  },
+  {
+    "id": "A2-04-D0257",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_208",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Baignoire"
+    ],
+    "after": null,
+    "reason": "La baignoire elle-même se dit 浴槽 ; non reprise."
+  },
+  {
+    "id": "A2-04-D0258",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_209",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. Dans le service hôtelier, on dit お風呂."
+  },
+  {
+    "id": "A2-04-D0259",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_209",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Bain",
+      "Baignoire",
+      "Salle de bain"
+    ],
+    "after": [
+      "S1 Bain",
+      "S2 Salle de bain"
+    ],
+    "reason": "Mêmes sens que お風呂 (n5_v_208)."
+  },
+  {
+    "id": "A2-04-D0260",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_209",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Baignoire"
+    ],
+    "after": null,
+    "reason": "La baignoire elle-même se dit 浴槽."
+  },
+  {
+    "id": "A2-04-D0261",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_209",
+    "field": "entrée",
+    "kind": "decision",
+    "before": null,
+    "after": "distincte de n5_v_208",
+    "reason": "お風呂 et ふろ restent deux ENTRY (arbitrage du lot 03) : comme pour お皿 / 皿, la présence de お change la forme lexicale ; leur proximité pourra être notée par une relation en 5.16."
+  },
+  {
+    "id": "A2-04-D0262",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_209",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "風呂"
+    ],
+    "reason": "風呂 est la graphie en kanji de ふろ (documentée par la nuance de la source) : variante kana / kanji."
+  },
+  {
+    "id": "A2-04-D0263",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_612",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Jet de douche"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0264",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_617",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Cabinet"
+    ],
+    "after": null,
+    "reason": "Vieilli ; non repris."
+  },
+  {
+    "id": "A2-04-D0265",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_589",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>御</ruby><ruby>手</ruby><ruby>洗</ruby>い",
+    "after": "お<ruby>手<rt>て</rt></ruby><ruby>洗<rt>あら</rt></ruby>い",
+    "reason": "Furigana de la source invalides (ruby sans lecture) et écrits avec 御 au lieu de お."
+  },
+  {
+    "id": "A2-04-D0266",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_589",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Cabinet",
+      "Lavabo (sens originel)"
+    ],
+    "after": null,
+    "reason": "« Cabinet » est vieilli ; le sens littéral est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0267",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_207",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0268",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_207",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "椅子"
+    ],
+    "reason": "椅子 est la graphie en kanji de いす (documentée par la nuance de la source) : variante kana / kanji."
+  },
+  {
+    "id": "A2-04-D0269",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_207",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Tabouret"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0270",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_212",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Couchage"
+    ],
+    "after": null,
+    "reason": "Trop général."
+  },
+  {
+    "id": "A2-04-D0271",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_96",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Table à manger",
+      "Bureau"
+    ],
+    "after": null,
+    "reason": "Le premier est repris dans la nuance ; le second relève de 机."
+  },
+  {
+    "id": "A2-04-D0272",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_247",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Étagère de rangement pour livres"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0273",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_613",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Radiateur"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : désigne en français un appareil fixe."
+  },
+  {
+    "id": "A2-04-D0274",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_713",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Électricité",
+      "Lumière électrique",
+      "Éclairage"
+    ],
+    "after": [
+      "S1 Électricité",
+      "S2 Lumière (éclairage)"
+    ],
+    "reason": "Deux sens documentés par la source : l'énergie, et l'éclairage qu'on allume ou éteint (電気をつける), deux référents distincts."
+  },
+  {
+    "id": "A2-04-D0275",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_713",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "L'électricité, phénomène et forme d'énergie : ni substance, ni objet, ni concept abstrait de secours ; aucun type terminal ne convient. Addendum A6."
+  },
+  {
+    "id": "A2-04-D0276",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_713",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Lumière électrique"
+    ],
+    "after": null,
+    "reason": "Redondant avec « lumière »."
+  },
+  {
+    "id": "A2-04-D0277",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_692",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Vase à fleurs"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0278",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_237",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0279",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_236",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0280",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_236",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Coffret"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0281",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_229",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0282",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_229",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Papier toilette"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0283",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_233",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0284",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_233",
+    "field": "senses",
+    "kind": "correction",
+    "before": "Pilier (métier, figuratif)",
+    "after": null,
+    "reason": "Traduction erronée : ポスト a aussi le sens de « poste, fonction », un autre emploi de l'emprunt, hors N5. « Pilier » ne correspond à rien : non repris."
+  },
+  {
+    "id": "A2-04-D0285",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_233",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Boîte postale"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : la boîte postale est un service de la poste."
+  },
+  {
+    "id": "A2-04-D0286",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_191",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Match"
+    ],
+    "after": null,
+    "reason": "Autre emploi de l'emprunt, non pertinent au N5 : le match sportif se dit 試合."
+  },
+  {
+    "id": "A2-04-D0287",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_219",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0288",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_220",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_219",
+    "reason": "掃除する est la réalisation en する du nom verbal 掃除, sans identité lexicale distincte : fusion dans 掃除, qui reçoit suru_compatible: true (arbitrage du lot 03). Règle transversale : on fusionne une forme en する avec son nom quand elle n'apporte pas d'identité lexicale propre ; chaque cas futur est examiné selon ce critère."
+  },
+  {
+    "id": "A2-04-D0289",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_680",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0290",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_680",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Faire la machine"
+    ],
+    "after": null,
+    "reason": "Expression familière, pas une traduction du nom."
+  },
+  {
+    "id": "A2-04-D0291",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_221",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Rincer",
+      "Nettoyer à l'eau"
+    ],
+    "after": null,
+    "reason": "Le premier n'est pas équivalent ; le second est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0292",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-03",
+    "entry": "n5_v_531",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Demeurer"
+    ],
+    "after": null,
+    "reason": "Registre soutenu ; non repris."
   }
 ]

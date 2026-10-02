@@ -1,0 +1,1519 @@
+{
+  "lot": "lot-03",
+  "title": "Maison, habitat et vie domestique",
+  "entries": {
+    "n5_v_33": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0221",
+        "A2-04-D0222",
+        "A2-04-D0223"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le bâtiment où l'on habite. Se lit aussi うち, surtout pour « chez soi », avec une nuance plus familière (lecture documentée par la source, non reprise comme lecture structurée dans A2-04).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Maison",
+              "alternatives": [
+                "Domicile"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "logements",
+              "level_3": "maisons"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_34": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0226",
+        "A2-04-D0227"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le foyer, la vie de famille à la maison, par opposition au bâtiment 家 (いえ) : 家庭料理, la cuisine familiale.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Foyer",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "relations_familiales"
+            },
+            "semantic_type": "groupe_collectif",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_96": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0271"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Table de repas ou de salon ; le bureau pour travailler se dit 机.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Table",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "mobilier",
+              "level_3": "tables_surfaces"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_100": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0228",
+        "A2-04-D0229"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La pièce où l'on prépare les repas ; キッチン, emprunté à l'anglais, est aussi très courant.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cuisine (pièce)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "espaces_domestiques",
+              "level_3": "cuisine"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_145": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Meuble pour étudier ou travailler ; la table de repas se dit テーブル.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bureau",
+              "alternatives": [
+                "Table de travail"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "mobilier",
+              "level_3": "tables_surfaces"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_191": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0286"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le match sportif se dit 試合.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Allumette",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "accessoires_domestiques"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_202": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0254",
+        "A2-04-D0255"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_gare",
+          "lieu_hotel"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ascenseur",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "elements_architecturaux"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_207": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0267",
+        "A2-04-D0268",
+        "A2-04-D0269"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "椅子",
+            "furigana": "<ruby>椅子<rt>いす</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaise",
+              "alternatives": [
+                "Siège"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "mobilier",
+              "level_3": "assises"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_208": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0256",
+        "A2-04-D0257"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Forme polie et courante, avec お ; ふろ (風呂) est une autre ENTRY (arbitrage du lot 03).",
+        "tags": [
+          "lieu_hotel"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bain",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "hygiene_soins_personnels",
+              "level_3": "toilette_corporelle"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "お風呂に入る : prendre un bain."
+          },
+          {
+            "meaning": {
+              "primary": "Salle de bain",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "espaces_domestiques",
+              "level_3": "salle_de_bain_toilettes"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_209": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0258",
+        "A2-04-D0259",
+        "A2-04-D0260",
+        "A2-04-D0261",
+        "A2-04-D0262"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "風呂",
+            "furigana": "<ruby>風呂<rt>ふろ</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Forme sans お, plus neutre ou familière ; お風呂 est une autre ENTRY. Les deux ne sont pas fusionnées : la présence de お n'est pas une différence d'écriture (arbitrage du lot 03).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bain",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "hygiene_soins_personnels",
+              "level_3": "toilette_corporelle"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "お風呂に入る : prendre un bain."
+          },
+          {
+            "meaning": {
+              "primary": "Salle de bain",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "espaces_domestiques",
+              "level_3": "salle_de_bain_toilettes"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_210": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0242",
+        "A2-04-D0243"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Porte à l'occidentale, à battant ; la porte japonaise, souvent coulissante, se dit 戸.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Porte",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "elements_architecturaux",
+              "level_3": "portes_fenetres"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_212": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0270"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lit à l'occidentale ; le couchage traditionnel se dit 布団.",
+        "tags": [
+          "lieu_hotel"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lit",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "mobilier",
+              "level_3": "couchage"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_214": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0236",
+        "A2-04-D0237",
+        "A2-04-D0238",
+        "A2-04-D0239"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "入り口",
+            "furigana": "<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'endroit par où l'on entre ; contraire : 出口.",
+        "tags": [
+          "lieu_gare"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Entrée",
+              "alternatives": [
+                "Accès"
+              ]
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "elements_architecturaux"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "いりぐち",
+            "romaji": "iriguchi",
+            "furigana": "<ruby>入<rt>いり</rt></ruby><ruby>口<rt>ぐち</rt></ruby>",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_217": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0232",
+        "A2-04-D0233"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Jardin",
+              "alternatives": [
+                "Cour"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "espaces_domestiques",
+              "level_3": "espaces_exterieurs_domestiques"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_218": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0244",
+        "A2-04-D0245"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Porte traditionnelle japonaise ; la porte occidentale se dit ドア.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Porte (japonaise)",
+              "alternatives": [
+                "Porte coulissante"
+              ]
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "elements_architecturaux",
+              "level_3": "portes_fenetres"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_219": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0287",
+        "A2-04-D0288"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "掃除する : faire le ménage, nettoyer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ménage",
+              "alternatives": [
+                "Nettoyage"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "entretien_domestique",
+              "level_3": "nettoyage"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_220": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0288"
+      ],
+      "retire": {
+        "merged_into": "n5_v_219"
+      }
+    },
+    "n5_v_221": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0291"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Laver avec de l'eau : les mains, la vaisselle, les légumes.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Laver",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "entretien_domestique",
+              "level_3": "nettoyage"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_222": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0246",
+        "A2-04-D0247",
+        "A2-04-D0248",
+        "A2-04-D0249"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fenêtre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "elements_architecturaux",
+              "level_3": "portes_fenetres"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_224": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Toute pièce d'une habitation ; à l'hôtel, la chambre.",
+        "tags": [
+          "lieu_hotel"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pièce",
+              "alternatives": [
+                "Chambre",
+                "Salle"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "espaces_domestiques"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_229": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0281",
+        "A2-04-D0282"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme un peu vieilli : on dit aujourd'hui トイレットペーパー ou ティッシュ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Papier hygiénique",
+              "alternatives": [
+                "Papier mouchoir"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "accessoires_domestiques"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_233": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0283",
+        "A2-04-D0284",
+        "A2-04-D0285"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Boîte aux lettres de rue (pour poster) ou de la maison.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Boîte aux lettres",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "transmission"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_236": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0279",
+        "A2-04-D0280"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Boîte",
+              "alternatives": [
+                "Carton"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "rangement"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_237": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0278"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le papier, ou une feuille (1枚の紙). Ne pas confondre avec 髪 (cheveux) et 神 (dieu), homophones.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Papier",
+              "alternatives": [
+                "Feuille de papier"
+              ]
+            },
+            "category": {
+              "level_1": "matieres_materiaux",
+              "level_2": "materiaux_organiques",
+              "level_3": "papier"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_241": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0240",
+        "A2-04-D0241"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Contraire : 入口.",
+        "tags": [
+          "lieu_gare"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sortie",
+              "alternatives": [
+                "Issue"
+              ]
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "elements_architecturaux"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_247": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0272"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Étagère à livres",
+              "alternatives": [
+                "Bibliothèque (meuble)"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "mobilier",
+              "level_3": "rangement"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_248": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0230",
+        "A2-04-D0231"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le vestibule à l'entrée d'une maison japonaise, où l'on retire ses chaussures.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Entrée",
+              "alternatives": [
+                "Vestibule"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "espaces_domestiques",
+              "level_3": "entree"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_507": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0224",
+        "A2-04-D0225"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Désigne un petit immeuble d'appartements de construction légère, ou un logement dans un tel immeuble ; un immeuble plus solide et cossu se dit マンション.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Appartement",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "logements",
+              "level_3": "appartements"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_531": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0292"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Surtout au progressif : 東京に住んでいます, j'habite à Tokyo.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Habiter",
+              "alternatives": [
+                "Résider"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "logements"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_589": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0265",
+        "A2-04-D0266"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme poli, sûr dans toutes les situations ; littéralement « se laver les mains ». Plus direct : トイレ.",
+        "tags": [
+          "lieu_gare"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Toilettes",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "espaces_domestiques",
+              "level_3": "salle_de_bain_toilettes"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "おてあらい",
+            "romaji": "otearai",
+            "furigana": "お<ruby>手<rt>て</rt></ruby><ruby>洗<rt>あら</rt></ruby>い",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_612": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0263"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Surtout dans シャワーを浴びる : prendre une douche.",
+        "tags": [
+          "lieu_hotel"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Douche",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "espaces_domestiques",
+              "level_3": "salle_de_bain_toilettes"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_613": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0273"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Au Japon, appareil de chauffage d'appoint (au gaz, au kérosène, électrique).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Poêle (de chauffage)",
+              "alternatives": [
+                "Chauffage d'appoint"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "equipements_domestiques",
+              "level_3": "chauffage_climatisation"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_617": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0264"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme courant et direct ; plus poli : お手洗い.",
+        "tags": [
+          "lieu_gare"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Toilettes",
+              "alternatives": [
+                "W.-C."
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "espaces_domestiques",
+              "level_3": "salle_de_bain_toilettes"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_641": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Réfrigérateur",
+              "alternatives": [
+                "Frigo"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "equipements_domestiques",
+              "level_3": "electromenager"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_662": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0250",
+        "A2-04-D0251"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Couloir",
+              "alternatives": [
+                "Corridor"
+              ]
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "elements_architecturaux"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_680": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0289",
+        "A2-04-D0290"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "洗濯する : faire la lessive.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lessive",
+              "alternatives": [
+                "Lavage du linge"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "entretien_domestique",
+              "level_3": "lessive"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_692": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0277"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vase",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "accessoires_domestiques"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_708": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0234",
+        "A2-04-D0235"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Grande porte extérieure : l'entrée d'une propriété, d'une école, d'un temple ; la porte d'une maison se dit ドア ou 戸.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Portail",
+              "alternatives": [
+                "Grille"
+              ]
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "elements_architecturaux",
+              "level_3": "portes_fenetres"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_711": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0252",
+        "A2-04-D0253"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Escalier",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "elements_architecturaux",
+              "level_3": "escaliers"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_713": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0274",
+        "A2-04-D0275",
+        "A2-04-D0276"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Électricité",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "sciences",
+              "level_2": "physique",
+              "level_3": "electricite_magnetisme"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Lumière",
+              "alternatives": [
+                "Éclairage"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "equipements_domestiques",
+              "level_3": "equipements_fonctionnels"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "tags": [
+              "lieu_hotel"
+            ],
+            "nuance": "電気をつける : allumer la lumière ; 電気を消す : l'éteindre."
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}
