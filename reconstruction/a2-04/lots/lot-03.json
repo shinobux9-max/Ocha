@@ -3,7 +3,7 @@
   "title": "Maison, habitat et vie domestique",
   "entries": {
     "n5_v_33": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0221",
         "A2-04-D0222",
@@ -41,7 +41,7 @@
       }
     },
     "n5_v_34": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0226",
         "A2-04-D0227"
@@ -76,7 +76,7 @@
       }
     },
     "n5_v_96": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0271"
       ],
@@ -110,7 +110,7 @@
       }
     },
     "n5_v_100": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0228",
         "A2-04-D0229"
@@ -145,7 +145,7 @@
       }
     },
     "n5_v_145": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [],
       "fields": {
         "writings": [],
@@ -179,7 +179,7 @@
       }
     },
     "n5_v_191": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0286"
       ],
@@ -212,7 +212,7 @@
       }
     },
     "n5_v_202": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0254",
         "A2-04-D0255"
@@ -224,8 +224,7 @@
         "counter": null,
         "nuance": null,
         "tags": [
-          "lieu_gare",
-          "lieu_hotel"
+          "lieu_gare"
         ],
         "senses": [
           {
@@ -249,7 +248,7 @@
       }
     },
     "n5_v_207": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0267",
         "A2-04-D0268",
@@ -292,7 +291,7 @@
       }
     },
     "n5_v_208": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0256",
         "A2-04-D0257"
@@ -310,26 +309,9 @@
           {
             "meaning": {
               "primary": "Bain",
-              "alternatives": []
-            },
-            "category": {
-              "level_1": "etre_humain",
-              "level_2": "hygiene_soins_personnels",
-              "level_3": "toilette_corporelle"
-            },
-            "semantic_type": "action",
-            "dimensions": [],
-            "relations": [],
-            "linguistic_functions": {
-              "grammatical": [],
-              "pragmatic_discourse": []
-            },
-            "nuance": "お風呂に入る : prendre un bain."
-          },
-          {
-            "meaning": {
-              "primary": "Salle de bain",
-              "alternatives": []
+              "alternatives": [
+                "Salle de bain"
+              ]
             },
             "category": {
               "level_1": "habitat_vie_domestique",
@@ -342,13 +324,14 @@
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []
-            }
+            },
+            "nuance": "Le bain japonais : la baignoire d'eau chaude où l'on se plonge après s'être lavé, et par extension la pièce. お風呂に入る : prendre un bain (l'action est portée par 入る)."
           }
         ]
       }
     },
     "n5_v_209": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0258",
         "A2-04-D0259",
@@ -372,26 +355,9 @@
           {
             "meaning": {
               "primary": "Bain",
-              "alternatives": []
-            },
-            "category": {
-              "level_1": "etre_humain",
-              "level_2": "hygiene_soins_personnels",
-              "level_3": "toilette_corporelle"
-            },
-            "semantic_type": "action",
-            "dimensions": [],
-            "relations": [],
-            "linguistic_functions": {
-              "grammatical": [],
-              "pragmatic_discourse": []
-            },
-            "nuance": "お風呂に入る : prendre un bain."
-          },
-          {
-            "meaning": {
-              "primary": "Salle de bain",
-              "alternatives": []
+              "alternatives": [
+                "Salle de bain"
+              ]
             },
             "category": {
               "level_1": "habitat_vie_domestique",
@@ -404,13 +370,14 @@
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []
-            }
+            },
+            "nuance": "Le bain japonais : la baignoire d'eau chaude où l'on se plonge après s'être lavé, et par extension la pièce. お風呂に入る : prendre un bain (l'action est portée par 入る)."
           }
         ]
       }
     },
     "n5_v_210": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0242",
         "A2-04-D0243"
@@ -445,7 +412,7 @@
       }
     },
     "n5_v_212": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0270"
       ],
@@ -481,7 +448,7 @@
       }
     },
     "n5_v_214": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0236",
         "A2-04-D0237",
@@ -535,7 +502,7 @@
       }
     },
     "n5_v_217": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0232",
         "A2-04-D0233"
@@ -572,7 +539,7 @@
       }
     },
     "n5_v_218": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0244",
         "A2-04-D0245"
@@ -609,7 +576,7 @@
       }
     },
     "n5_v_219": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0287",
         "A2-04-D0288"
@@ -646,7 +613,7 @@
       }
     },
     "n5_v_220": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0288"
       ],
@@ -655,7 +622,7 @@
       }
     },
     "n5_v_221": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0291"
       ],
@@ -689,7 +656,7 @@
       }
     },
     "n5_v_222": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0246",
         "A2-04-D0247",
@@ -726,7 +693,7 @@
       }
     },
     "n5_v_224": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [],
       "fields": {
         "writings": [],
@@ -762,7 +729,7 @@
       }
     },
     "n5_v_229": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0281",
         "A2-04-D0282"
@@ -798,7 +765,7 @@
       }
     },
     "n5_v_233": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0283",
         "A2-04-D0284",
@@ -834,7 +801,7 @@
       }
     },
     "n5_v_236": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0279",
         "A2-04-D0280"
@@ -870,7 +837,7 @@
       }
     },
     "n5_v_237": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0278"
       ],
@@ -906,7 +873,7 @@
       }
     },
     "n5_v_241": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0240",
         "A2-04-D0241"
@@ -944,7 +911,7 @@
       }
     },
     "n5_v_247": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0272"
       ],
@@ -980,7 +947,7 @@
       }
     },
     "n5_v_248": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0230",
         "A2-04-D0231"
@@ -1017,7 +984,7 @@
       }
     },
     "n5_v_507": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0224",
         "A2-04-D0225"
@@ -1052,7 +1019,7 @@
       }
     },
     "n5_v_531": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0292"
       ],
@@ -1087,7 +1054,7 @@
       }
     },
     "n5_v_589": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0265",
         "A2-04-D0266"
@@ -1133,7 +1100,7 @@
       }
     },
     "n5_v_612": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0263"
       ],
@@ -1169,7 +1136,7 @@
       }
     },
     "n5_v_613": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0273"
       ],
@@ -1205,7 +1172,7 @@
       }
     },
     "n5_v_617": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0264"
       ],
@@ -1243,7 +1210,7 @@
       }
     },
     "n5_v_641": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [],
       "fields": {
         "writings": [],
@@ -1277,7 +1244,7 @@
       }
     },
     "n5_v_662": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0250",
         "A2-04-D0251"
@@ -1313,7 +1280,7 @@
       }
     },
     "n5_v_680": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0289",
         "A2-04-D0290"
@@ -1350,7 +1317,7 @@
       }
     },
     "n5_v_692": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0277"
       ],
@@ -1383,7 +1350,7 @@
       }
     },
     "n5_v_708": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0234",
         "A2-04-D0235"
@@ -1420,7 +1387,7 @@
       }
     },
     "n5_v_711": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0252",
         "A2-04-D0253"
@@ -1455,7 +1422,7 @@
       }
     },
     "n5_v_713": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0274",
         "A2-04-D0275",

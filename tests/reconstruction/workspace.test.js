@@ -56,14 +56,17 @@ test('5.3 : le lot 02 est entièrement validé (41 entrées), journal compris', 
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
-// A2-04 · 5.4 : le lot 03 est livré en PROPOSITION, journal compris ; aucune de ses décisions
-// n'est validée avant la relecture. Ce test changera à la validation du lot 03.
-test('5.4 : le lot 03 est entièrement proposé (40 entrées), journal compris', () => {
+// A2-04 · 5.4 fermée : le lot 03 est entièrement validé (39 entrées gardées, 掃除する retiré),
+// avec tout son journal.
+test('5.4 : le lot 03 est entièrement validé (40 entrées dont 1 retrait), journal compris', () => {
   const lot3 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-03.json'), 'utf8'));
   assert.equal(Object.keys(lot3.entries).length, 40);
-  assert.ok(Object.values(lot3.entries).every((e) => e.status === 'proposed'));
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  assert.ok(journal.filter((j) => j.lot === 'lot-03').every((j) => j.status === 'proposed'));
+  assert.ok(Object.values(lot3.entries).every((e) => e.status === 'validated'));
+  assert.deepEqual(Object.entries(lot3.entries).filter(([, e]) => e.retire).map(([id, e]) => [id, e.retire.merged_into]), [['n5_v_220', 'n5_v_219']]);
+  assert.deepEqual(lot3.additions, []);
+  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-03');
+  assert.equal(own.length, 72);
+  assert.ok(own.every((j) => j.status === 'validated'));
 });
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du

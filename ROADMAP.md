@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-03
+**Dernière mise à jour :** 2026-10-03 (clôture du lot 03)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,11 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot 03 « Maison, habitat et
-vie domestique ».**
+**A2-04 · reconstruction du vocabulaire N5 → 5.5, composition du lot 04.**
 
-Les lots 0, 01 et 02 sont terminés. La proposition du lot 03 a été livrée (40 entrées, statut
-`proposed`) ; elle est en relecture.
+Les lots 0, 01, 02 et 03 sont terminés et validés. Le prochain chantier est la composition du
+lot 04 : son périmètre doit être validé avant toute proposition lexicale.
 
 ------------------------------------------------------------------------
 
@@ -246,8 +245,9 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.1 · lot 0** | Identité, doublons, fusions, graphies et lectures problématiques | ✅ Terminé |
 | **5.2 · lot 01** | Personnes, famille, corps et santé | ✅ Terminé |
 | **5.3 · lot 02** | Alimentation, boissons, repas et table | ✅ Terminé |
-| **5.4 · lot 03** | Maison, habitat et vie domestique | 🟡 **Proposition livrée ; en relecture** |
-| **5.5 → 5.15** | Lots thématiques suivants | ⬜ À faire |
+| **5.4 · lot 03** | Maison, habitat et vie domestique | ✅ Terminé |
+| **5.5 · lot 04** | À composer | 🔵 **Prochain chantier** |
+| **5.6 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -260,33 +260,26 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 02
+#### État chiffré après le lot 03
 
--   **123 ENTRY validées** dans la reconstruction ;
--   **28 identifiants retirés** ;
--   **568 anciennes entrées encore à décider** avant le lot 03 ;
+-   **162 ENTRY validées** dans la reconstruction ;
+-   **29 identifiants retirés** (dont `掃除する`, fusionné dans `掃除`) ;
+-   **528 anciennes entrées encore à décider** ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
-#### Lot 03 · proposition en relecture
+#### Lot 03 · clos
 
-Thème : **Maison, habitat et vie domestique**.
+Thème : **Maison, habitat et vie domestique** (40 anciennes entrées : 39 gardées, 1 fusion).
+Arbitrages appliqués :
 
-Périmètre : **40 anciennes entrées**.
-
-Trois arbitrages préparatoires ont été fixés :
-
--   `お風呂` et `ふろ` restent deux ENTRY distinctes pour le moment ;
+-   `お風呂` et `ふろ` restent deux ENTRY distinctes, chacune à un seul sens (le bain japonais) ;
 -   `掃除する` est fusionné sous `掃除` (`suru_compatible: true`) : une forme en する est
     fusionnée avec son nom quand elle n'apporte pas d'identité lexicale propre, et chaque autre
     cas du corpus (散歩する, 勉強する…) sera examiné selon ce critère ;
--   la lecture `うち` de `家` n'est pas ajoutée opportunément pendant ce
-    lot : elle reste un point d'enrichissement/audit.
+-   la lecture `うち` de `家` n'est pas ajoutée : elle reste un point d'enrichissement/audit.
 
-État de la proposition : 72 décisions de journal proposées (D0221 à D0292) ; essai à blanc :
-**162 ENTRY**, **29 identifiants retirés** (`掃除する` en plus), 0 problème, 0 erreur, 0 attente.
-
-**Prochaine action immédiate :** relire et arbitrer la proposition du lot 03, la réviser si
-besoin, puis la valider avant de composer le lot suivant (5.5).
+**Prochaine action immédiate :** composer le lot 04 (5.5), faire valider son périmètre, puis
+seulement produire ses décisions en statut `proposed`.
 
 ------------------------------------------------------------------------
 
@@ -551,7 +544,8 @@ Ensuite seulement :
    │   ├── Lot 0 Identité                   ✅
    │   ├── Lot 01 Personnes                 ✅
    │   ├── Lot 02 Alimentation              ✅
-   │   ├── Lot 03 Maison                    🟡
+   │   ├── Lot 03 Maison                    ✅
+   │   ├── Lot 04 (5.5)                     🔵
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

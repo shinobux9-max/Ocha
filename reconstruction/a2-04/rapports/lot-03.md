@@ -6,7 +6,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_33 → v_33 · 家
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0221** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0222** (abandon, senses) : « Foyer » relève de 家庭, « famille » de 家族 ; « logement » est redondant avec « domicile ». — avant `["Foyer","Logement","Famille"]` → après `null`
@@ -31,7 +31,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -52,7 +52,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_34 → v_34 · 家庭
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0226** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0227** (abandon, senses) : « Famille » relève de 家族 ; « ménage » est ambigu en français (le nettoyage) ; « cadre familial » est redondant. — avant `["Famille","Ménage","Cadre familial"]` → après `null`
@@ -76,7 +76,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -97,7 +97,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_96 → v_96 · テーブル
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0271** (abandon, senses) : Le premier est repris dans la nuance ; le second relève de 机. — avant `["Table à manger","Bureau"]` → après `null`
 
@@ -119,7 +119,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -140,7 +140,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_100 → v_100 · 台所
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0228** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0229** (abandon, senses) : Redondant. — avant `["Pièce pour cuisiner"]` → après `null`
@@ -164,7 +164,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -185,7 +185,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_145 → v_145 · 机
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -205,7 +205,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -226,7 +226,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_191 → v_191 · マッチ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0286** (abandon, senses) : Autre emploi de l'emprunt, non pertinent au N5 : le match sportif se dit 試合. — avant `["Match"]` → après `null`
 
@@ -248,7 +248,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -269,9 +269,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_202 → v_202 · エレベーター
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0254** (decision, tags) : Aucun candidat hérité ; lieu_gare et lieu_hotel ajoutés : on cherche l'ascenseur pour s'orienter dans une gare comme à l'arrivée à l'hôtel (エレベーターはどこですか). — avant `[]` → après `["lieu_gare","lieu_hotel"]`
+- **A2-04-D0254** (decision, tags) : Aucun candidat hérité ; lieu_gare ajouté : dans une gare à plusieurs niveaux, chercher et prendre l'ascenseur relève du vocabulaire d'orientation et d'accessibilité. lieu_hotel n'est pas retenu (révision 5.4b) : l'ascenseur est commun à tout immeuble et n'appartient pas au service hôtelier comme 部屋, ベッド ou シャワー. — avant `[]` → après `["lieu_gare"]`
 - **A2-04-D0255** (abandon, senses) : Pas équivalent. — avant `["Monte-charge"]` → après `null`
 
 | Champ source | Valeur |
@@ -292,14 +292,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `null`
-- tags : `["lieu_gare","lieu_hotel"]`
+- tags : `["lieu_gare"]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
@@ -313,7 +313,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_207 → v_207 · いす
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0267** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0268** (decision, writings) : 椅子 est la graphie en kanji de いす (documentée par la nuance de la source) : variante kana / kanji. — avant `null` → après `["椅子"]`
@@ -338,7 +338,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"椅子","furigana":"<ruby>椅子<rt>いす</rt></ruby>"}]`
 - suru_compatible : `false`
@@ -359,9 +359,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_208 → v_208 · お風呂
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0256** (decision, senses) : Deux sens documentés par la source : prendre un bain (お風呂に入る) et la pièce, deux référents distincts. — avant `["Bain","Salle de bain","Baignoire"]` → après `["S1 Bain (le fait de se baigner)","S2 Salle de bain"]`
+- **A2-04-D0256** (decision, senses) : Un seul sens (révision 5.4b) : la source décrit un seul concept, le bain japonais (l'installation, et par extension la pièce), et aucune action ; dans お風呂に入る, l'action vient de 入る. « Salle de bain » rend la largeur référentielle du même mot, comme « jambe » pour 足 : ce n'est pas un second référent canonique. — avant `["Bain","Salle de bain","Baignoire"]` → après `"un seul sens"`
 - **A2-04-D0257** (abandon, senses) : La baignoire elle-même se dit 浴槽 ; non reprise. — avant `["Baignoire"]` → après `null`
 
 | Champ source | Valeur |
@@ -383,7 +383,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -394,8 +394,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
-| 1 | **Bain** | etre_humain › hygiene_soins_personnels › toilette_corporelle | action |  | お風呂に入る : prendre un bain. |
-| 2 | **Salle de bain** | habitat_vie_domestique › espaces_domestiques › salle_de_bain_toilettes | lieu |  |  |
+| 1 | **Bain** (Salle de bain) | habitat_vie_domestique › espaces_domestiques › salle_de_bain_toilettes | lieu |  | Le bain japonais : la baignoire d'eau chaude où l'on se plonge après s'être lavé, et par extension la pièce. お風呂に入る : prendre un bain (l'action est portée par 入る). |
 
 **Contexte (anciens exemples, lecture seule)**
 
@@ -405,10 +404,10 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_209 → v_209 · ふろ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0258** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. Dans le service hôtelier, on dit お風呂. — avant `["lieu_hotel"]` → après `[]`
-- **A2-04-D0259** (decision, senses) : Mêmes sens que お風呂 (n5_v_208). — avant `["Bain","Baignoire","Salle de bain"]` → après `["S1 Bain","S2 Salle de bain"]`
+- **A2-04-D0259** (decision, senses) : Un seul sens, comme お風呂 (n5_v_208) : le bain japonais, l'installation et par extension la pièce ; aucune action (révision 5.4b). — avant `["Bain","Baignoire","Salle de bain"]` → après `"un seul sens"`
 - **A2-04-D0260** (abandon, senses) : La baignoire elle-même se dit 浴槽. — avant `["Baignoire"]` → après `null`
 - **A2-04-D0261** (decision, entrée) : お風呂 et ふろ restent deux ENTRY (arbitrage du lot 03) : comme pour お皿 / 皿, la présence de お change la forme lexicale ; leur proximité pourra être notée par une relation en 5.16. — avant `null` → après `"distincte de n5_v_208"`
 - **A2-04-D0262** (decision, writings) : 風呂 est la graphie en kanji de ふろ (documentée par la nuance de la source) : variante kana / kanji. — avant `null` → après `["風呂"]`
@@ -432,7 +431,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"風呂","furigana":"<ruby>風呂<rt>ふろ</rt></ruby>"}]`
 - suru_compatible : `false`
@@ -443,8 +442,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
-| 1 | **Bain** | etre_humain › hygiene_soins_personnels › toilette_corporelle | action |  | お風呂に入る : prendre un bain. |
-| 2 | **Salle de bain** | habitat_vie_domestique › espaces_domestiques › salle_de_bain_toilettes | lieu |  |  |
+| 1 | **Bain** (Salle de bain) | habitat_vie_domestique › espaces_domestiques › salle_de_bain_toilettes | lieu |  | Le bain japonais : la baignoire d'eau chaude où l'on se plonge après s'être lavé, et par extension la pièce. お風呂に入る : prendre un bain (l'action est portée par 入る). |
 
 **Contexte (anciens exemples, lecture seule)**
 
@@ -454,7 +452,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_210 → v_210 · ドア
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0242** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0243** (abandon, senses) : Le premier est repris dans la nuance ; le second prête à confusion avec 玄関. — avant `["Porte battante","Porte d'entrée"]` → après `null`
@@ -478,7 +476,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -499,7 +497,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_212 → v_212 · ベッド
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0270** (abandon, senses) : Trop général. — avant `["Couchage"]` → après `null`
 
@@ -522,7 +520,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -543,7 +541,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_214 → v_214 · 入口
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0236** (decision, tags) : lieu_hotel écarté ; lieu_gare ajouté hors des candidats : Vocabulaire d'action propre à la gare (s'orienter, trouver un service), 入口 et 出口 balisent toute gare. — avant `["lieu_hotel"]` → après `["lieu_gare"]`
 - **A2-04-D0237** (correction, readings) : Les furigana de la source étaient ceux de la graphie 入り口, pas de la forme usuelle 入口. — avant `"<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>"` → après `"<ruby>入<rt>いり</rt></ruby><ruby>口<rt>ぐち</rt></ruby>"`
@@ -569,7 +567,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - readings : **exception**, furigana incohérents avec la forme
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"いりぐち","romaji":"iriguchi","furigana":"<ruby>入<rt>いり</rt></ruby><ruby>口<rt>ぐち</rt></ruby>","default":true,"note":null}]`
 - writings : `[{"form":"入り口","furigana":"<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>"}]`
@@ -591,7 +589,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_217 → v_217 · 庭
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0232** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0233** (abandon, senses) : Définition, pas une traduction. — avant `["Espace extérieur privé"]` → après `null`
@@ -615,7 +613,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -636,7 +634,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_218 → v_218 · 戸
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0244** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0245** (abandon, senses) : Terme technique ; non repris. — avant `["Vantail"]` → après `null`
@@ -660,7 +658,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -681,7 +679,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_219 → v_219 · 掃除
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0287** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0288** (fusion, entrée) : 掃除する est la réalisation en する du nom verbal 掃除, sans identité lexicale distincte : fusion dans 掃除, qui reçoit suru_compatible: true (arbitrage du lot 03). Règle transversale : on fusionne une forme en する avec son nom quand elle n'apporte pas d'identité lexicale propre ; chaque cas futur est examiné selon ce critère. — avant `null` → après `"n5_v_219"`
@@ -705,7 +703,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `true`
@@ -726,7 +724,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_220 → v_220 · 掃除する
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0288** (fusion, entrée) : 掃除する est la réalisation en する du nom verbal 掃除, sans identité lexicale distincte : fusion dans 掃除, qui reçoit suru_compatible: true (arbitrage du lot 03). Règle transversale : on fusionne une forme en する avec son nom quand elle n'apporte pas d'identité lexicale propre ; chaque cas futur est examiné selon ce critère. — avant `null` → après `"n5_v_219"`
 
@@ -759,7 +757,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_221 → v_221 · 洗う
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0291** (abandon, senses) : Le premier n'est pas équivalent ; le second est repris dans la nuance. — avant `["Rincer","Nettoyer à l'eau"]` → après `null`
 
@@ -781,7 +779,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -802,7 +800,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_222 → v_222 · 窓
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0246** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0247** (decision, senses) : Un seul sens, « fenêtre ». — avant `["Fenêtre","Ouverture","Guichet"]` → après `"un seul sens"`
@@ -828,7 +826,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -849,7 +847,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_224 → v_224 · 部屋
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -870,7 +868,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -891,7 +889,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_229 → v_229 · ちり紙
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0281** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0282** (abandon, senses) : Redondant. — avant `["Papier toilette"]` → après `null`
@@ -915,7 +913,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -936,7 +934,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_233 → v_233 · ポスト
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0283** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0284** (correction, senses) : Traduction erronée : ポスト a aussi le sens de « poste, fonction », un autre emploi de l'emprunt, hors N5. « Pilier » ne correspond à rien : non repris. — avant `"Pilier (métier, figuratif)"` → après `null`
@@ -961,7 +959,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -982,7 +980,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_236 → v_236 · 箱
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0279** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0280** (abandon, senses) : Pas équivalent. — avant `["Coffret"]` → après `null`
@@ -1006,7 +1004,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1027,7 +1025,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_237 → v_237 · 紙
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0278** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 
@@ -1050,7 +1048,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1071,7 +1069,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_241 → v_241 · 出口
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0240** (decision, tags) : lieu_hotel écarté ; lieu_gare ajouté hors des candidats : Vocabulaire d'action propre à la gare (s'orienter, trouver un service), les sorties numérotées (東口, 3番出口). — avant `["lieu_hotel"]` → après `["lieu_gare"]`
 - **A2-04-D0241** (abandon, senses) : Pas équivalent : 出口 désigne l'issue, pas la porte. — avant `["Porte de sortie"]` → après `null`
@@ -1095,7 +1093,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1116,7 +1114,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_247 → v_247 · 本棚
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0272** (abandon, senses) : Redondant. — avant `["Étagère de rangement pour livres"]` → après `null`
 
@@ -1138,7 +1136,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1159,7 +1157,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_248 → v_248 · 玄関
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0230** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0231** (abandon, senses) : Pas équivalent : le 玄関 est à l'intérieur. — avant `["Porche d'entrée"]` → après `null`
@@ -1183,7 +1181,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1204,7 +1202,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_507 → v_507 · アパート
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0224** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0225** (abandon, senses) : Explication d'usage, reprise dans la nuance. — avant `["Logement en immeuble (souvent de type léger/modeste par rapport au *manshon* ou *mansion*)"]` → après `null`
@@ -1228,7 +1226,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1249,7 +1247,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_531 → v_531 · 住む
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0292** (abandon, senses) : Registre soutenu ; non repris. — avant `["Demeurer"]` → après `null`
 
@@ -1271,7 +1269,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1292,7 +1290,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_589 → v_589 · お手洗い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0265** (correction, readings) : Furigana de la source invalides (ruby sans lecture) et écrits avec 御 au lieu de お. — avant `"<ruby>御</ruby><ruby>手</ruby><ruby>洗</ruby>い"` → après `"お<ruby>手<rt>て</rt></ruby><ruby>洗<rt>あら</rt></ruby>い"`
 - **A2-04-D0266** (abandon, senses) : « Cabinet » est vieilli ; le sens littéral est repris dans la nuance. — avant `["Cabinet","Lavabo (sens originel)"]` → après `null`
@@ -1316,7 +1314,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - readings : **exception**, furigana incohérents avec la forme
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"おてあらい","romaji":"otearai","furigana":"お<ruby>手<rt>て</rt></ruby><ruby>洗<rt>あら</rt></ruby>い","default":true,"note":null}]`
 - writings : `[]`
@@ -1338,7 +1336,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_612 → v_612 · シャワー
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0263** (abandon, senses) : Redondant. — avant `["Jet de douche"]` → après `null`
 
@@ -1361,7 +1359,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1382,7 +1380,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_613 → v_613 · ストーブ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0273** (abandon, senses) : Pas équivalent : désigne en français un appareil fixe. — avant `["Radiateur"]` → après `null`
 
@@ -1404,7 +1402,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1425,7 +1423,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_617 → v_617 · トイレ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0264** (abandon, senses) : Vieilli ; non repris. — avant `["Cabinet"]` → après `null`
 
@@ -1448,7 +1446,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1469,7 +1467,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_641 → v_641 · 冷蔵庫
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -1489,7 +1487,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1510,7 +1508,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_662 → v_662 · 廊下
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0250** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0251** (abandon, senses) : Termes voisins, pas équivalents. — avant `["Passage","Galerie"]` → après `null`
@@ -1534,7 +1532,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1555,7 +1553,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_680 → v_680 · 洗濯
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0289** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0290** (abandon, senses) : Expression familière, pas une traduction du nom. — avant `["Faire la machine"]` → après `null`
@@ -1579,7 +1577,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `true`
@@ -1600,7 +1598,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_692 → v_692 · 花瓶
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0277** (abandon, senses) : Redondant. — avant `["Vase à fleurs"]` → après `null`
 
@@ -1622,7 +1620,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1643,7 +1641,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_708 → v_708 · 門
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0234** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0235** (abandon, senses) : « Porte d'entrée » prête à confusion avec 玄関 et 入口 ; « porte monumentale » est reprise dans la nuance (temple). — avant `["Porte d'entrée","Porte monumentale"]` → après `null`
@@ -1667,7 +1665,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1688,7 +1686,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_711 → v_711 · 階段
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0252** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0253** (abandon, senses) : Redondant. — avant `["Marches d'escalier"]` → après `null`
@@ -1712,7 +1710,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1733,7 +1731,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_713 → v_713 · 電気
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0274** (decision, senses) : Deux sens documentés par la source : l'énergie, et l'éclairage qu'on allume ou éteint (電気をつける), deux référents distincts. — avant `["Électricité","Lumière électrique","Éclairage"]` → après `["S1 Électricité","S2 Lumière (éclairage)"]`
 - **A2-04-D0275** (type-nul, sens 1 · semantic_type) : L'électricité, phénomène et forme d'énergie : ni substance, ni objet, ni concept abstrait de secours ; aucun type terminal ne convient. Addendum A6.
@@ -1758,7 +1756,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
