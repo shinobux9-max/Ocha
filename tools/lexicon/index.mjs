@@ -10,17 +10,22 @@
 //     place de l'ancien contrôle du vocabulaire. Aucune détection automatique du format.
 //
 // Contrôles en place : contrat d'entrée (4.1) ; ENTRY, I1 à I6, I16, I17, A1 à A3, N1 (4.2) ;
-// SENSE, I7 à I11, I13 à I15 (4.3). À venir : références transversales, I12 et I19 (4.4).
+// SENSE, I7 à I11, I13 à I15 (4.3) ; références transversales, I12, I19, tags des expressions
+// et des lieux (4.4).
 
 import { buildRegistryIndex } from './registries.mjs';
 import { LEXICON_LEVELS } from './schema.mjs';
 import { checkEntries } from './entry.mjs';
+import { checkRelations, checkReferences, checkExpressionTags, checkPlaces } from './references.mjs';
 
 export { buildRegistryIndex, readRegistries } from './registries.mjs';
 export { REGISTRY_SOURCES, REGISTRY_FILES, LEXICON_LEVELS } from './schema.mjs';
 export { parseFurigana, kanjiOf } from './entry.mjs';
+export { REFERENCE_SHAPE } from './references.mjs';
 
-const INPUT_KEYS = ['files', 'registries', 'retired', 'knownKanji', 'particles'];
+const INPUT_KEYS = ['files', 'registries', 'retired', 'knownKanji', 'particles', 'references', 'expressions', 'lieux'];
+// Données d'autres fichiers, facultatives : absentes, elles ne sont pas contrôlées.
+const OPTIONAL_LISTS = ['references', 'expressions', 'lieux'];
 const FILE_KEYS = ['file', 'level', 'entries'];
 const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
 
@@ -47,6 +52,10 @@ function createReport() {
  * @param {object[]} input.retired contenu de data/vocab-retired.json
  * @param {string[]} input.knownKanji kanji connus : catalogues de niveau et dictionnaire (A2)
  * @param {string[]} input.particles valeurs de particles.json (I15)
+ * @param {{ where: string, vocab: string, sense?: string }[]} [input.references] références au
+ *   vocabulaire venues des activités, des expressions et des phrases, déjà extraites (I19)
+ * @param {object[]} [input.expressions] expressions.json : seul le champ `tags` est examiné (I14)
+ * @param {object[]} [input.lieux] lieux au futur format : seul `vocab_tags` est examiné (I14)
  * @returns {{ errors: object[], warnings: object[], infos: object[] }}
  */
 export function validateLexicon(input) {
@@ -71,6 +80,9 @@ export function validateLexicon(input) {
   if (!Array.isArray(input.particles) || input.particles.some((p) => typeof p !== 'string' || p === '')) {
     report.error('lexique-format', 'lexique', '« particles » doit être une liste de particules (particles.json)');
   }
+  for (const key of OPTIONAL_LISTS) {
+    if (Object.hasOwn(input, key) && !Array.isArray(input[key])) report.error('lexique-format', 'lexique', `« ${key} » doit être une liste`);
+  }
 
   if (!Array.isArray(input.files) || input.files.length === 0) {
     report.error('lexique-format', 'lexique', '« files » doit être une liste non vide');
@@ -91,5 +103,15 @@ export function validateLexicon(input) {
   // Les contrôles du lexique supposent un contrat d'entrée respecté.
   if (report.hasErrors()) return report.result();
   checkEntries(report, { files: input.files, retired: input.retired, knownKanji: input.knownKanji, particles: input.particles, index });
+  // I12 · relations, sur l'index global des SENSE
+  const senses = checkRelations(report, { files: input.files, index });
+  // I19 · références injectées
+  if (input.references) {
+    const entries = new Set(input.files.flatMap((f) => f.entries).filter((e) => typeof e?.id === 'string').map((e) => e.id));
+    checkReferences(report, { references: input.references, entries, senses });
+  }
+  // I14 · tags des expressions et des lieux
+  if (input.expressions) checkExpressionTags(report, { expressions: input.expressions, index });
+  if (input.lieux) checkPlaces(report, { lieux: input.lieux, index });
   return report.result();
 }

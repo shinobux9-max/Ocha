@@ -123,6 +123,9 @@ test('I14 : tags connus, sans doublon, jamais répétés de l\'ENTRY sur un sens
 
 // ── Frontière avec 4.4 ──
 
-test('les relations ne sont vérifiées que dans leur forme : type, cible et cohérence relèvent de I12 (4.4)', () => {
-  assertClean((x, e, s) => { s.relations = [{ type: 'opposé à', target: 'v_999_s1' }]; }, 'type et cible inconnus, acceptés en 4.3');
+// sense.mjs ne vérifie que la forme d'une relation ; son type et sa cible ne sont jugés que par
+// I12 (references.mjs). Une relation de type et de cible inconnus ne produit donc que des codes I12.
+test('relations : sense.mjs ne juge que la forme, le reste relève de I12', () => {
+  const codes = errs((x, e, s) => { s.relations = [{ type: 'opposé à', target: 'v_999_s1' }]; });
+  assert.deepEqual([...new Set(codes)].sort(), ['relation-cible', 'relation-inconnue']);
 });
