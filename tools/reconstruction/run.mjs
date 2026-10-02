@@ -35,7 +35,7 @@ if (command === 'report') {
   const path = join(WORK, 'lots', `${name}.json`);
   if (!name || !existsSync(path)) { console.error(`lot introuvable : ${name}`); process.exit(1); }
   mkdirSync(join(WORK, 'rapports'), { recursive: true });
-  writeFileSync(join(WORK, 'rapports', `${name}.md`), renderLotReport(readJson(path), readSources(join(WORK, 'sources'))));
+  writeFileSync(join(WORK, 'rapports', `${name}.md`), renderLotReport(readJson(path), readSources(join(WORK, 'sources')), readJson(join(WORK, 'journal.json'))));
   console.log(`rapport écrit : reconstruction/a2-04/rapports/${name}.md`);
   process.exit(0);
 }

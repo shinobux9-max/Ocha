@@ -1,1 +1,696 @@
-[]
+[
+  {
+    "id": "A2-04-D0001",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_591",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_17",
+    "reason": "Doublon exact de お姉さん (même mot, même lecture, mêmes sens) ; n5_v_17 survit (plus petit numéro), ses furigana sont valides."
+  },
+  {
+    "id": "A2-04-D0002",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_592",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_18",
+    "reason": "Doublon exact de お母さん ; n5_v_18 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0003",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_590",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_19",
+    "reason": "Doublon exact de お父さん ; n5_v_19 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0004",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_587",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_474",
+    "reason": "Doublon exact de 美味しい ; n5_v_474 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0005",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_474",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>美<rt>おい</rt></ruby>しい",
+    "after": "<ruby>美味<rt>おい</rt></ruby>しい",
+    "reason": "Furigana source incohérents : le texte de base donnait 美しい au lieu de 美味しい."
+  },
+  {
+    "id": "A2-04-D0006",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_588",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_10",
+    "reason": "Doublon exact de 面白い ; n5_v_10 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0007",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_10",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Intéressant",
+      "Amusant",
+      "Divertissant",
+      "Drôle"
+    ],
+    "after": [
+      "S1 Intéressant",
+      "S2 Amusant (divertissant, drôle)"
+    ],
+    "reason": "Deux sens exploitables : ce qui captive l'esprit, et ce qui divertit ou fait rire."
+  },
+  {
+    "id": "A2-04-D0008",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_514",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_510",
+    "reason": "Doublon exact de 本当 ; n5_v_510 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0009",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_582",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_559",
+    "reason": "Doublon exact de 浴びる ; n5_v_559 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0010",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_601",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_564",
+    "reason": "Doublon exact de 無くす ; n5_v_564 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0011",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_706",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_594",
+    "reason": "Doublon exact de 醤油 ; n5_v_594 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0012",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_594",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>醤<ruby>油<rt>しょうゆ</rt></ruby></ruby>",
+    "after": "<ruby>醤油<rt>しょうゆ</rt></ruby>",
+    "reason": "Furigana source invalides (ruby imbriqué), ceux du doublon aussi (油 répété)."
+  },
+  {
+    "id": "A2-04-D0013",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_45",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_44",
+    "reason": "Même unité lexicale que おなか ; お腹 devient une autre graphie (writings). n5_v_44 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0014",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_227",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_64",
+    "reason": "Même unité lexicale que 鞄 ; かばん devient une autre graphie (writings). n5_v_64 survit (plus petit numéro). Forme usuelle à revoir : かばん est la plus courante au N5, mais n5_v_64 porte 鞄."
+  },
+  {
+    "id": "A2-04-D0015",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_107",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_87",
+    "reason": "Même unité lexicale que くだもの ; 果物 devient une autre graphie (writings). n5_v_87 survit (plus petit numéro). Forme usuelle à revoir : 果物 est aussi très courant."
+  },
+  {
+    "id": "A2-04-D0016",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_106",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_91",
+    "reason": "Même unité lexicale que ばんごはん ; 晩ご飯 devient une autre graphie (writings). n5_v_91 survit (plus petit numéro). Forme usuelle à revoir : 晩ご飯 est la plus courante à l'écrit."
+  },
+  {
+    "id": "A2-04-D0017",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_105",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_92",
+    "reason": "Même unité lexicale que ひるごはん ; 昼ご飯 devient une autre graphie (writings). n5_v_92 survit (plus petit numéro). Forme usuelle à revoir : 昼ご飯 est la plus courante à l'écrit."
+  },
+  {
+    "id": "A2-04-D0018",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_238",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_226",
+    "reason": "Même unité lexicale que かぎ ; 鍵 devient une autre graphie (writings). n5_v_226 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0019",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_235",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_228",
+    "reason": "Même unité lexicale que せっけん ; 石鹸 devient une autre graphie (writings). n5_v_228 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0020",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_276",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_263",
+    "reason": "Même unité lexicale que くもり ; 曇り devient une autre graphie (writings). n5_v_263 survit (plus petit numéro). Forme usuelle à revoir : 曇り est la plus courante (bulletins météo)."
+  },
+  {
+    "id": "A2-04-D0021",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_285",
+    "field": "senses",
+    "kind": "correction",
+    "before": "L'année dernière",
+    "after": "Il y a deux ans",
+    "reason": "Sens principal source erroné : おととし désigne l'année d'avant l'an dernier, pas l'an dernier (去年)."
+  },
+  {
+    "id": "A2-04-D0022",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_289",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_285",
+    "reason": "Même unité lexicale que おととし ; 一昨年 devient une autre graphie (writings). n5_v_285 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0023",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_437",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_423",
+    "reason": "Même unité lexicale que かわいい ; 可愛い devient une autre graphie (writings). n5_v_423 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0024",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_423",
+    "field": "writings",
+    "kind": "correction",
+    "before": "<ruby>可<rt>か</rt></ruby><ruby>愛<rt>あい</rt></ruby>い",
+    "after": "<ruby>可<rt>か</rt></ruby><ruby>愛<rt>わい</rt></ruby>い",
+    "reason": "Furigana source de 可愛い (n5_v_437) erronés : ils se lisaient かあいい au lieu de かわいい."
+  },
+  {
+    "id": "A2-04-D0025",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_549",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_68",
+    "reason": "Même unité lexicale que はく ; 履く devient une autre graphie (writings). n5_v_68 survit (plus petit numéro). Forme usuelle à revoir : 履く est aussi très courant."
+  },
+  {
+    "id": "A2-04-D0026",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_424",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Joli",
+      "Propre",
+      "Beau",
+      "Net"
+    ],
+    "after": [
+      "S1 Beau (joli)",
+      "S2 Propre (net)"
+    ],
+    "reason": "Deux sens exploitables : la beauté visuelle et la propreté."
+  },
+  {
+    "id": "A2-04-D0027",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_472",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_424",
+    "reason": "Même unité lexicale que きれい ; 綺麗 devient une autre graphie (writings). n5_v_424 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0028",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_460",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_459",
+    "reason": "Même unité lexicale que 朝ご飯 ; 朝御飯 devient une autre graphie (writings). n5_v_459 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0029",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_555",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Tourner",
+      "Prendre un virage",
+      "Être courbé",
+      "Ployer"
+    ],
+    "after": [
+      "S1 Tourner",
+      "S2 Être courbé"
+    ],
+    "reason": "Deux sens exploitables : changer de direction, et être tordu ou incurvé."
+  },
+  {
+    "id": "A2-04-D0030",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_672",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_555",
+    "reason": "Même unité lexicale que 曲がる ; 曲る devient une autre graphie (writings). n5_v_555 survit (plus petit numéro). 曲る est une variante ancienne d'okurigana."
+  },
+  {
+    "id": "A2-04-D0031",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_668",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_455",
+    "reason": "明い est une graphie fautive de 明るい (okurigana incomplet) : l'entrée est absorbée, sans devenir une autre graphie."
+  },
+  {
+    "id": "A2-04-D0032",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_455",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>明<rt>あかる</rt></ruby>い",
+    "after": "<ruby>明<rt>あか</rt></ruby>るい",
+    "reason": "Furigana source incohérents : le texte de base donnait 明い au lieu de 明るい."
+  },
+  {
+    "id": "A2-04-D0033",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_455",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Lumineux",
+      "Clair",
+      "Ensoleillé",
+      "Joyeux (de nature)"
+    ],
+    "after": [
+      "S1 Lumineux",
+      "S2 Enjoué"
+    ],
+    "reason": "Deux sens exploitables : la lumière d'un lieu, et le caractère d'une personne."
+  },
+  {
+    "id": "A2-04-D0034",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_508",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_495",
+    "reason": "大変 adverbe et 大変 adjectif en な sont une seule unité lexicale ; n5_v_495 survit (plus petit numéro). Sa classe mécanique est adverbe (ancien type) : à revoir, voir le rapport."
+  },
+  {
+    "id": "A2-04-D0035",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_610",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_363",
+    "reason": "Même mot キロ : kilogramme et kilomètre sont deux sens d'une seule abréviation ; n5_v_363 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0036",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_583",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_420",
+    "reason": "良い et いい / 良い sont la même unité ; n5_v_420 survit (plus petit numéro)."
+  },
+  {
+    "id": "A2-04-D0037",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_420",
+    "field": "word",
+    "kind": "decision",
+    "before": "いい / 良い",
+    "after": "良い",
+    "reason": "La forme source contenait deux formes. Les lectures sont attachées à la forme usuelle : いい (lecture par défaut) et よい ne peuvent toutes deux s'écrire que sur 良い ; いい devient une autre graphie."
+  },
+  {
+    "id": "A2-04-D0038",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_329",
+    "field": "readings",
+    "kind": "decision",
+    "before": "まいとし / まいねん",
+    "after": [
+      "まいとし (défaut)",
+      "まいねん"
+    ],
+    "reason": "Deux lectures d'un même sens ; まいとし, plus courante à l'oral, par défaut."
+  },
+  {
+    "id": "A2-04-D0039",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_332",
+    "field": "readings",
+    "kind": "decision",
+    "before": "まいつき / まいげつ",
+    "after": [
+      "まいつき (défaut)",
+      "まいげつ"
+    ],
+    "reason": "Deux lectures d'un même sens ; まいつき, courante, par défaut."
+  },
+  {
+    "id": "A2-04-D0040",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_369",
+    "field": "readings",
+    "kind": "decision",
+    "before": "しち / なな",
+    "after": [
+      "しち (défaut)",
+      "なな"
+    ],
+    "reason": "しち en premier comme dans la source ; なな est la plus fréquente pour compter : choix de la lecture par défaut à confirmer."
+  },
+  {
+    "id": "A2-04-D0041",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_374",
+    "field": "readings",
+    "kind": "decision",
+    "before": "きゅう / く",
+    "after": [
+      "きゅう (défaut)",
+      "く"
+    ],
+    "reason": "きゅう par défaut, comme dans la source ; く dans quelques composés."
+  },
+  {
+    "id": "A2-04-D0042",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_386",
+    "field": "readings",
+    "kind": "decision",
+    "before": "し / よん",
+    "after": [
+      "し (défaut)",
+      "よん"
+    ],
+    "reason": "し en premier comme dans la source ; よん est la plus courante : choix de la lecture par défaut à confirmer."
+  },
+  {
+    "id": "A2-04-D0043",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_401",
+    "field": "readings",
+    "kind": "decision",
+    "before": "なん / なに",
+    "after": [
+      "なに (défaut)",
+      "なん"
+    ],
+    "reason": "Deux lectures d'un même sens ; la condition d'emploi de なん va dans la note de la lecture."
+  },
+  {
+    "id": "A2-04-D0044",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_510",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Sérieux"
+    ],
+    "after": null,
+    "reason": "Traduction trop éloignée du sens « vérité » ; l'emploi « sérieusement » relève de 本当に, décrit dans la nuance."
+  },
+  {
+    "id": "A2-04-D0045",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_559",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "S'arroser"
+    ],
+    "after": null,
+    "reason": "Traduction redondante avec « S'asperger »."
+  },
+  {
+    "id": "A2-04-D0046",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_564",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Se débarrasser de"
+    ],
+    "after": null,
+    "reason": "Sens de 無くす au sens de « supprimer » (無くす = faire disparaître) : hors N5, non repris ; à rouvrir si un lot le juge utile."
+  },
+  {
+    "id": "A2-04-D0047",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_64",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Valise"
+    ],
+    "after": null,
+    "reason": "Une valise se dit スーツケース ; « sac, cartable, sacoche » couvrent le sens."
+  },
+  {
+    "id": "A2-04-D0048",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_87",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Fruits frais"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Fruit »."
+  },
+  {
+    "id": "A2-04-D0049",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_226",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Mot de passe (informatique)"
+    ],
+    "after": null,
+    "reason": "Emploi informatique hors N5, non repris comme sens ; à rouvrir si nécessaire."
+  },
+  {
+    "id": "A2-04-D0050",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_228",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pain de savon"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Savon » et « Savonnette »."
+  },
+  {
+    "id": "A2-04-D0051",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_263",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Nuage"
+    ],
+    "after": null,
+    "reason": "Le nuage se dit 雲 (くも) ; くもり désigne le temps nuageux."
+  },
+  {
+    "id": "A2-04-D0052",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_495",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Dur"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Difficile » et « Pénible » (traduction du doublon n5_v_508)."
+  },
+  {
+    "id": "A2-04-D0053",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_420",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Superbe",
+      "Excellent",
+      "Correct"
+    ],
+    "after": null,
+    "reason": "Traductions du doublon n5_v_583, trop fortes (superbe, excellent) ou redondantes (correct)."
+  },
+  {
+    "id": "A2-04-D0054",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_369",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le chiffre 7"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Sept »."
+  },
+  {
+    "id": "A2-04-D0055",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_374",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le chiffre 9"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Neuf »."
+  },
+  {
+    "id": "A2-04-D0056",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_386",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le chiffre 4"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Quatre »."
+  }
+]

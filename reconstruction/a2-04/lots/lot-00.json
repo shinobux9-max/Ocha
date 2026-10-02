@@ -1,0 +1,1844 @@
+{
+  "lot": "lot-00",
+  "title": "Identité : doublons candidats, formes et lectures avec « / »",
+  "entries": {
+    "n5_v_10": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0006",
+        "A2-04-D0007"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Intéressant",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "attention"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Amusant",
+              "alternatives": [
+                "Divertissant",
+                "Drôle"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "emotions_sentiments",
+              "level_3": "joie_plaisir"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_17": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0001"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme poli. Pour parler de sa propre sœur aînée à un tiers, on dit 姉 (あね).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Grande sœur",
+              "alternatives": [
+                "Sœur aînée"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "fratrie"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Jeune femme",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "interactions_sociales"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Pour interpeller poliment une jeune femme qu'on ne connaît pas."
+          }
+        ]
+      }
+    },
+    "n5_v_18": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0002"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme poli. Pour parler de sa propre mère à un tiers, on dit 母 (はは).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mère",
+              "alternatives": [
+                "Maman"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "parents_enfants"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_19": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0003"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme poli. Pour parler de son propre père à un tiers, on dit 父 (ちち).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Père",
+              "alternatives": [
+                "Papa"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "parents_enfants"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_44": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0013"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "お腹",
+            "furigana": "お<ruby>腹<rt>なか</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ventre",
+              "alternatives": [
+                "Estomac",
+                "Abdomen"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "tronc"
+            },
+            "semantic_type": "organisme_vivant",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Souvent dans おなかがすいた (avoir faim) et おなかが痛い (avoir mal au ventre)."
+          }
+        ]
+      }
+    },
+    "n5_v_45": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0013"
+      ],
+      "retire": {
+        "merged_into": "n5_v_44"
+      }
+    },
+    "n5_v_64": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0014",
+        "A2-04-D0047"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "かばん",
+            "furigana": "かばん"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sac",
+              "alternatives": [
+                "Cartable",
+                "Sacoche"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "sacs_contenants_personnels",
+              "level_3": "sacs"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_68": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0025"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "履く",
+            "furigana": "<ruby>履<rt>は</rt></ruby>く"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mettre (en bas du corps)",
+              "alternatives": [
+                "Porter (pantalon, jupe, chaussures)",
+                "Enfiler"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements",
+              "level_3": "bas"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Pour le bas du corps et les pieds ; pour le haut du corps, on dit 着る (きる)."
+          }
+        ]
+      }
+    },
+    "n5_v_87": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0015",
+        "A2-04-D0048"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "果物",
+            "furigana": "<ruby>果<rt>くだ</rt></ruby><ruby>物<rt>もの</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_konbini"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fruit",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "fruits"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_91": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0016"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "晩ご飯",
+            "furigana": "<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dîner",
+              "alternatives": [
+                "Repas du soir"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "repas",
+              "level_3": "diner"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_92": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0017"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "昼ご飯",
+            "furigana": "<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Déjeuner",
+              "alternatives": [
+                "Repas de midi"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "repas",
+              "level_3": "dejeuner"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_105": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0017"
+      ],
+      "retire": {
+        "merged_into": "n5_v_92"
+      }
+    },
+    "n5_v_106": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0016"
+      ],
+      "retire": {
+        "merged_into": "n5_v_91"
+      }
+    },
+    "n5_v_107": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0015"
+      ],
+      "retire": {
+        "merged_into": "n5_v_87"
+      }
+    },
+    "n5_v_226": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0018",
+        "A2-04-D0049"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "鍵",
+            "furigana": "<ruby>鍵<rt>かぎ</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_hotel"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Clé",
+              "alternatives": [
+                "Verrou"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "accessoires_domestiques"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "かぎをかける : fermer à clé."
+          }
+        ]
+      }
+    },
+    "n5_v_227": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0014"
+      ],
+      "retire": {
+        "merged_into": "n5_v_64"
+      }
+    },
+    "n5_v_228": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0019",
+        "A2-04-D0050"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "石鹸",
+            "furigana": "<ruby>石鹸<rt>せっけん</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_hotel"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Savon",
+              "alternatives": [
+                "Savonnette"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "hygiene_soins_personnels",
+              "level_3": "toilette_corporelle"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_235": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0019"
+      ],
+      "retire": {
+        "merged_into": "n5_v_228"
+      }
+    },
+    "n5_v_238": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0018"
+      ],
+      "retire": {
+        "merged_into": "n5_v_226"
+      }
+    },
+    "n5_v_263": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0020",
+        "A2-04-D0051"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "曇り",
+            "furigana": "<ruby>曇<rt>くも</rt></ruby>り"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Temps nuageux",
+              "alternatives": [
+                "Ciel couvert"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "nuages"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_276": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0020"
+      ],
+      "retire": {
+        "merged_into": "n5_v_263"
+      }
+    },
+    "n5_v_285": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0022",
+        "A2-04-D0021"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "一昨年",
+            "furigana": "<ruby>一昨年<rt>おととし</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Il y a deux ans",
+              "alternatives": [
+                "L'avant-dernière année"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "passe"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_289": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0022"
+      ],
+      "retire": {
+        "merged_into": "n5_v_285"
+      }
+    },
+    "n5_v_329": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0038"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaque année",
+              "alternatives": [
+                "Tous les ans"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "frequent"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "まいとし",
+            "romaji": "maitoshi",
+            "furigana": "<ruby>毎<rt>まい</rt></ruby><ruby>年<rt>とし</rt></ruby>",
+            "default": true,
+            "note": null
+          },
+          {
+            "kana": "まいねん",
+            "romaji": "mainen",
+            "furigana": "<ruby>毎<rt>まい</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
+            "default": false,
+            "note": "Lecture sino-japonaise, un peu plus soutenue."
+          }
+        ]
+      }
+    },
+    "n5_v_332": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0039"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaque mois",
+              "alternatives": [
+                "Tous les mois"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "frequent"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "まいつき",
+            "romaji": "maitsuki",
+            "furigana": "<ruby>毎<rt>まい</rt></ruby><ruby>月<rt>つき</rt></ruby>",
+            "default": true,
+            "note": null
+          },
+          {
+            "kana": "まいげつ",
+            "romaji": "maigetsu",
+            "furigana": "<ruby>毎<rt>まい</rt></ruby><ruby>月<rt>げつ</rt></ruby>",
+            "default": false,
+            "note": "Lecture sino-japonaise, plus soutenue."
+          }
+        ]
+      }
+    },
+    "n5_v_363": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0035"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Kilo (kilogramme)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Kilomètre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "distance_proximite"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_369": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0040",
+        "A2-04-D0054"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sept",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "しち",
+            "romaji": "shichi",
+            "furigana": "<ruby>七<rt>しち</rt></ruby>",
+            "default": true,
+            "note": null
+          },
+          {
+            "kana": "なな",
+            "romaji": "nana",
+            "furigana": "<ruby>七<rt>なな</rt></ruby>",
+            "default": false,
+            "note": "Lecture japonaise, la plus fréquente pour compter et dire l'heure (七時 : しちじ)."
+          }
+        ]
+      }
+    },
+    "n5_v_374": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0041",
+        "A2-04-D0055"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Neuf",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "きゅう",
+            "romaji": "kyuu",
+            "furigana": "<ruby>九<rt>きゅう</rt></ruby>",
+            "default": true,
+            "note": null
+          },
+          {
+            "kana": "く",
+            "romaji": "ku",
+            "furigana": "<ruby>九<rt>く</rt></ruby>",
+            "default": false,
+            "note": "Dans quelques composés (九時 : くじ, 九月 : くがつ)."
+          }
+        ]
+      }
+    },
+    "n5_v_386": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0042",
+        "A2-04-D0056"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Quatre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "し",
+            "romaji": "shi",
+            "furigana": "<ruby>四<rt>し</rt></ruby>",
+            "default": true,
+            "note": null
+          },
+          {
+            "kana": "よん",
+            "romaji": "yon",
+            "furigana": "<ruby>四<rt>よん</rt></ruby>",
+            "default": false,
+            "note": "Lecture la plus courante pour compter, car し évoque 死 (mort)."
+          }
+        ]
+      }
+    },
+    "n5_v_401": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0043"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Quoi",
+              "alternatives": [
+                "Quel",
+                "Que"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "なに",
+            "romaji": "nani",
+            "furigana": "<ruby>何<rt>なに</rt></ruby>",
+            "default": true,
+            "note": null
+          },
+          {
+            "kana": "なん",
+            "romaji": "nan",
+            "furigana": "<ruby>何<rt>なん</rt></ruby>",
+            "default": false,
+            "note": "Devant t, d, n, devant un compteur et devant です."
+          }
+        ]
+      }
+    },
+    "n5_v_420": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0036",
+        "A2-04-D0037",
+        "A2-04-D0053"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "いい",
+            "furigana": "いい"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "いい est la forme parlée courante ; ses formes conjuguées viennent de よい (よかった, よくない).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bon",
+              "alternatives": [
+                "Bien",
+                "Chouette",
+                "Bienveillant"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "word": "良い",
+        "readings": [
+          {
+            "kana": "いい",
+            "romaji": "ii",
+            "furigana": "<ruby>良<rt>い</rt></ruby>い",
+            "default": true,
+            "note": null
+          },
+          {
+            "kana": "よい",
+            "romaji": "yoi",
+            "furigana": "<ruby>良<rt>よ</rt></ruby>い",
+            "default": false,
+            "note": "Forme écrite ou soutenue ; base des formes conjuguées."
+          }
+        ]
+      }
+    },
+    "n5_v_423": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0023",
+        "A2-04-D0024"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "可愛い",
+            "furigana": "<ruby>可<rt>か</rt></ruby><ruby>愛<rt>わい</rt></ruby>い"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mignon",
+              "alternatives": [
+                "Adorable",
+                "Joli"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "emotions_sentiments",
+              "level_3": "affection"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_424": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0027",
+        "A2-04-D0026"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "綺麗",
+            "furigana": "<ruby>綺<rt>き</rt></ruby><ruby>麗<rt>れい</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Beau",
+              "alternatives": [
+                "Joli"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Propre",
+              "alternatives": [
+                "Net"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "entretien_domestique",
+              "level_3": "nettoyage"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [
+              {
+                "axis": "ordonne_desordonne",
+                "pole": "ordonne"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_437": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0023"
+      ],
+      "retire": {
+        "merged_into": "n5_v_423"
+      }
+    },
+    "n5_v_455": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0031",
+        "A2-04-D0032",
+        "A2-04-D0033"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lumineux",
+              "alternatives": [
+                "Clair",
+                "Ensoleillé"
+              ]
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "teintes_nuances",
+              "level_3": "clair_fonce"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Enjoué",
+              "alternatives": [
+                "Joyeux (de nature)"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "etats_psychologiques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "あかるい",
+            "romaji": "akarui",
+            "furigana": "<ruby>明<rt>あか</rt></ruby>るい",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_459": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0028"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "朝御飯",
+            "furigana": "<ruby>朝<rt>あさ</rt></ruby><ruby>御<rt>ご</rt></ruby><ruby>飯<rt>はん</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Petit-déjeuner",
+              "alternatives": [
+                "Repas du matin"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "repas",
+              "level_3": "petit_dejeuner"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_460": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0028"
+      ],
+      "retire": {
+        "merged_into": "n5_v_459"
+      }
+    },
+    "n5_v_472": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0027"
+      ],
+      "retire": {
+        "merged_into": "n5_v_424"
+      }
+    },
+    "n5_v_474": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0004",
+        "A2-04-D0005"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Délicieux",
+              "alternatives": [
+                "Bon (au goût)",
+                "Savoureux"
+              ]
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "gouts_alimentaires"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "おいしい",
+            "romaji": "oishii",
+            "furigana": "<ruby>美味<rt>おい</rt></ruby>しい",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_495": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0034",
+        "A2-04-D0052"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Très",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "intensifieur"
+              ]
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Difficile",
+              "alternatives": [
+                "Pénible",
+                "Grave"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [
+              {
+                "axis": "facilite_difficulte",
+                "pole": "difficulte"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "大変です : c'est dur, c'est grave."
+          }
+        ]
+      }
+    },
+    "n5_v_508": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0034"
+      ],
+      "retire": {
+        "merged_into": "n5_v_495"
+      }
+    },
+    "n5_v_510": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0008",
+        "A2-04-D0044"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'emploie souvent comme adverbe (本当に, vraiment) ou pour marquer l'étonnement (本当？, vraiment ?).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vérité",
+              "alternatives": [
+                "Réalité",
+                "Vrai"
+              ]
+            },
+            "category": null,
+            "semantic_type": "concept_abstrait",
+            "dimensions": [
+              {
+                "axis": "vrai_faux",
+                "pole": "vrai"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_514": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0008"
+      ],
+      "retire": {
+        "merged_into": "n5_v_510"
+      }
+    },
+    "n5_v_549": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0025"
+      ],
+      "retire": {
+        "merged_into": "n5_v_68"
+      }
+    },
+    "n5_v_555": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0030",
+        "A2-04-D0029"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "曲る",
+            "furigana": "<ruby>曲<rt>ま</rt></ruby>る"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tourner",
+              "alternatives": [
+                "Prendre un virage"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "orientation"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を",
+              "に"
+            ],
+            "nuance": "角を曲がる : tourner au coin ; 右に曲がる : tourner à droite."
+          },
+          {
+            "meaning": {
+              "primary": "Être courbé",
+              "alternatives": [
+                "Ployer"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "forme",
+              "level_3": "courbe"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": []
+          }
+        ]
+      }
+    },
+    "n5_v_559": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0009",
+        "A2-04-D0045"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Prendre (une douche)",
+              "alternatives": [
+                "S'asperger"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "hygiene_soins_personnels",
+              "level_3": "toilette_corporelle"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Surtout dans シャワーを浴びる (prendre une douche)."
+          },
+          {
+            "meaning": {
+              "primary": "Recevoir (de la lumière, des acclamations)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "sens_perception",
+              "level_3": "toucher_sensations"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ]
+          }
+        ]
+      }
+    },
+    "n5_v_564": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0010",
+        "A2-04-D0046"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif (を) ; ne pas confondre avec l'intransitif 無くなる (disparaître, être perdu).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Perdre (un objet)",
+              "alternatives": [
+                "Égarer"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_582": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0009"
+      ],
+      "retire": {
+        "merged_into": "n5_v_559"
+      }
+    },
+    "n5_v_583": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0036"
+      ],
+      "retire": {
+        "merged_into": "n5_v_420"
+      }
+    },
+    "n5_v_587": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0004"
+      ],
+      "retire": {
+        "merged_into": "n5_v_474"
+      }
+    },
+    "n5_v_588": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0006"
+      ],
+      "retire": {
+        "merged_into": "n5_v_10"
+      }
+    },
+    "n5_v_590": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0003"
+      ],
+      "retire": {
+        "merged_into": "n5_v_19"
+      }
+    },
+    "n5_v_591": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0001"
+      ],
+      "retire": {
+        "merged_into": "n5_v_17"
+      }
+    },
+    "n5_v_592": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0002"
+      ],
+      "retire": {
+        "merged_into": "n5_v_18"
+      }
+    },
+    "n5_v_594": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0011",
+        "A2-04-D0012"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_konbini",
+          "lieu_restaurant"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sauce soja",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "aliments",
+              "level_3": "condiments_assaisonnements"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "しょうゆ",
+            "romaji": "shouyu",
+            "furigana": "<ruby>醤油<rt>しょうゆ</rt></ruby>",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_601": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0010"
+      ],
+      "retire": {
+        "merged_into": "n5_v_564"
+      }
+    },
+    "n5_v_610": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0035"
+      ],
+      "retire": {
+        "merged_into": "n5_v_363"
+      }
+    },
+    "n5_v_668": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0031"
+      ],
+      "retire": {
+        "merged_into": "n5_v_455"
+      }
+    },
+    "n5_v_672": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0030"
+      ],
+      "retire": {
+        "merged_into": "n5_v_555"
+      }
+    },
+    "n5_v_706": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0011"
+      ],
+      "retire": {
+        "merged_into": "n5_v_594"
+      }
+    }
+  },
+  "additions": []
+}
