@@ -53,6 +53,8 @@ export function minimalLexicon() {
         ]
       },
       { file: 'vocab-hors-jlpt.json', level: 'hors_jlpt', entries: [] }
-    ]
+    ],
+    retired: [{ id: 'v_717', merged_into: null }],
+    knownKanji: ['高']
   };
 }

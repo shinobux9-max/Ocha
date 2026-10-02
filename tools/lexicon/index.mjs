@@ -9,16 +9,18 @@
 //   - sur data/ seulement à la publication d'A2-04, quand tools/validate-data.mjs l'appellera à la
 //     place de l'ancien contrôle du vocabulaire. Aucune détection automatique du format.
 //
-// A2-03 · 4.1 : socle. Seul le contrat d'entrée est vérifié ; les invariants I1 à I19 viennent
-// avec 4.2 à 4.4.
+// Contrôles en place : contrat d'entrée (4.1) ; ENTRY, I1 à I6, I16, I17, A1 à A3, N1 (4.2).
+// À venir : SENSE (4.3), références transversales (4.4).
 
 import { buildRegistryIndex } from './registries.mjs';
 import { LEXICON_LEVELS } from './schema.mjs';
+import { checkEntries } from './entry.mjs';
 
 export { buildRegistryIndex, readRegistries } from './registries.mjs';
 export { REGISTRY_SOURCES, REGISTRY_FILES, LEXICON_LEVELS } from './schema.mjs';
+export { parseFurigana, kanjiOf } from './entry.mjs';
 
-const INPUT_KEYS = ['files', 'registries'];
+const INPUT_KEYS = ['files', 'registries', 'retired', 'knownKanji'];
 const FILE_KEYS = ['file', 'level', 'entries'];
 const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
 
@@ -31,14 +33,19 @@ function createReport() {
     error: (code, where, message) => errors.push({ code, where, message }),
     warn: (code, where, message) => warnings.push({ code, where, message }),
     info: (code, where, message) => infos.push({ code, where, message }),
-    result: () => Object.freeze({ errors: Object.freeze(errors), warnings: Object.freeze(warnings), infos: Object.freeze(infos) })
+    hasErrors: () => errors.length > 0,
+    // Copie gelée : le rapport peut encore recevoir des problèmes après un appel.
+    result: () => Object.freeze({ errors: Object.freeze([...errors]), warnings: Object.freeze([...warnings]), infos: Object.freeze([...infos]) })
   };
 }
 
 /**
- * @param {{ files: { file: string, level: string, entries: object[] }[], registries: Record<string, object> }} input
- *   files : les fichiers de vocabulaire, chacun avec le niveau qu'il porte (`N5`… ou `hors_jlpt`) ;
- *   registries : le contenu des huit registres de data/registries/, indexé par nom de fichier.
+ * @param {object} input
+ * @param {{ file: string, level: string, entries: object[] }[]} input.files fichiers de vocabulaire,
+ *   chacun avec le niveau qu'il porte (`N5`… ou `hors_jlpt`)
+ * @param {Record<string, object>} input.registries contenu des huit registres de data/registries/
+ * @param {object[]} input.retired contenu de data/vocab-retired.json
+ * @param {string[]} input.knownKanji kanji connus : catalogues de niveau et dictionnaire (A2)
  * @returns {{ errors: object[], warnings: object[], infos: object[] }}
  */
 export function validateLexicon(input) {
@@ -50,10 +57,15 @@ export function validateLexicon(input) {
   const extra = Object.keys(input).filter((k) => !INPUT_KEYS.includes(k));
   if (extra.length) report.error('lexique-format', 'lexique', `clé(s) inconnue(s) : ${extra.join(', ')}`);
 
+  let index = null;
   try {
-    buildRegistryIndex(input.registries);
+    index = buildRegistryIndex(input.registries);
   } catch (e) {
     report.error('registres-indisponibles', 'registries', e.message);
+  }
+  if (!Array.isArray(input.retired)) report.error('lexique-format', 'lexique', '« retired » doit être une liste (data/vocab-retired.json)');
+  if (!Array.isArray(input.knownKanji) || input.knownKanji.some((k) => typeof k !== 'string' || [...k].length !== 1)) {
+    report.error('lexique-format', 'lexique', '« knownKanji » doit être une liste de caractères');
   }
 
   if (!Array.isArray(input.files) || input.files.length === 0) {
@@ -72,5 +84,8 @@ export function validateLexicon(input) {
     if (!LEXICON_LEVELS.includes(f.level)) report.error('lexique-format', where, `niveau « ${f.level} » inconnu (${LEXICON_LEVELS.join(', ')})`);
     if (!Array.isArray(f.entries)) report.error('lexique-format', where, '« entries » doit être une liste');
   });
+  // Les contrôles du lexique supposent un contrat d'entrée respecté.
+  if (report.hasErrors()) return report.result();
+  checkEntries(report, { files: input.files, retired: input.retired, knownKanji: input.knownKanji, index });
   return report.result();
 }

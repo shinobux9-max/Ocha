@@ -11,9 +11,10 @@ const REGISTRIES = readRegistries(DATA_DIR);
 const input = (change = () => {}) => { const x = { ...minimalLexicon(), registries: REGISTRIES }; change(x); return x; };
 const codes = (r) => r.errors.map((e) => e.code);
 
-test('lexique minimal : aucun problème, rapport gelé', () => {
+test('lexique minimal : aucune erreur ni avertissement, rapport gelé', () => {
   const r = validateLexicon(input());
-  assert.deepEqual(r, { errors: [], warnings: [], infos: [] });
+  assert.deepEqual(r.errors, []);
+  assert.deepEqual(r.warnings, []);
   assert.ok(Object.isFrozen(r) && Object.isFrozen(r.errors));
 });
 
@@ -43,7 +44,11 @@ test('contrat d\'entrée : { files, registries }, fichiers { file, level, entrie
     (x) => { x.files[1].file = 'n5/vocab.json'; },
     (x) => { x.files[0].source = 'A2-04'; },
     (x) => { delete x.files[0].file; },
-    (x) => { x.files.push('n5/vocab.json'); }
+    (x) => { x.files.push('n5/vocab.json'); },
+    (x) => { delete x.retired; },
+    (x) => { x.retired = {}; },
+    (x) => { delete x.knownKanji; },
+    (x) => { x.knownKanji = ['高い']; }
   ];
   for (const [i, change] of cases.entries()) assert.ok(codes(validateLexicon(input(change))).includes('lexique-format'), `cas ${i + 1}`);
   assert.ok(codes(validateLexicon(null)).includes('lexique-format'));
