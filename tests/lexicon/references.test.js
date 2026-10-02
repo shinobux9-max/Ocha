@@ -110,6 +110,8 @@ test('expressions : tags facultatifs, connus, sans doublon, jamais de nature lie
   assertErr('tag-inconnu', (x) => { x.expressions = ex(['saison']); });
   assertErr('tag-doublon', (x) => { withTags(x, [THEME]); x.expressions = ex(['theme_saison', 'theme_saison']); });
   assertErr('type-invalide', (x) => { x.expressions = ex('theme_saison'); });
+  assertErr('type-invalide', (x) => { x.expressions = ex(['']); }, 'tag vide');
+  assertErr('type-invalide', (x) => { x.expressions = ex([3]); }, 'tag non textuel');
   assertClean((x) => { withTags(x, [THEME]); x.expressions = ex(['theme_saison']); }, 'tag d\'une autre nature');
   assertClean((x) => { withTags(x, [PREFIX_TRAP]); x.expressions = ex(['lieu_trompeur']); }, 'préfixe lieu_, nature theme');
   assertErr('tag-lieu-expression', (x) => { withTags(x, [NO_PREFIX]); x.expressions = ex(['pres_de_la_gare']); }, 'nature lieu sans préfixe');
@@ -127,6 +129,8 @@ test('lieux (futur format) : vocab_tags ne désigne que des tags existants de na
   assertClean((x) => { withTags(x, [NO_PREFIX]); x.lieux = lieu(['pres_de_la_gare']); }, 'nature lieu sans préfixe');
   assertErr('tag-doublon', (x) => { x.lieux = lieu(['lieu_gare', 'lieu_gare']); });
   assertErr('lieu-format', (x) => { x.lieux = [{ id: 'konbini', vocab_categories: ['nourriture'] }]; }, 'ancien format');
+  assertErr('type-invalide', (x) => { x.lieux = ['konbini']; }, 'lieu non objet');
+  assertErr('type-invalide', (x) => { x.lieux = lieu(['']); }, 'tag vide');
 });
 
 test('le vrai lieux.json n\'est pas migré par A2-03', () => {

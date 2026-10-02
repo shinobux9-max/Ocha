@@ -50,6 +50,8 @@ test('I1 : champ obligatoire manquant, null interdit ou permis, mauvais type', (
   assertErr('type-invalide', (x, e) => { e.tags = 'lieu_konbini'; }, 'tags');
   assertErr('type-invalide', (x, e) => { e.senses = {}; }, 'senses');
   assertClean((x, e) => { e.nuance = null; e.linguistic.group = null; e.linguistic.counter = null; }, 'nullables à null');
+  assertErr('type-invalide', (x) => { x.files[0].entries.push('v_2'); }, 'ENTRY non objet');
+  assertErr('type-invalide', (x, e) => { e.senses.push('v_188_s3'); }, 'SENSE non objet');
 });
 
 test('I1 : un champ facultatif absent est accepté, et rien n\'est ajouté (aucune normalisation)', () => {

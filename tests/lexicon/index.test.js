@@ -44,6 +44,7 @@ test('contrat d\'entrée : { files, registries }, fichiers { file, level, entrie
     (x) => { x.files[1].file = 'n5/vocab.json'; },
     (x) => { x.files[0].source = 'A2-04'; },
     (x) => { delete x.files[0].file; },
+    (x) => { x.files[0].file = ''; },
     (x) => { x.files.push('n5/vocab.json'); },
     (x) => { delete x.retired; },
     (x) => { x.retired = {}; },

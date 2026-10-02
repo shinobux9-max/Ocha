@@ -15,10 +15,11 @@ devenir est décrit dans `docs/conception/` (verrouillé) ; comment travailler, 
 comprend la reconstruction du vocabulaire selon l'architecture sémantique A2 (projets A2-01 à
 A2-05) et la réidentification de la grammaire (addendum A4).
 
-**Tâche en cours : 4 · A2-03 · Validateur du schéma lexical.** 4.1 à 4.3 validées ; 4.4 livrée
-(références transversales, rapport `docs/rapports/etape2-tache4-4-references.md`). Prochaine
-sous-tâche : 4.5 (point d'entrée, audit de couverture, clôture d'A2-03), à autoriser
-explicitement après la validation de 4.4.
+**Tâche en cours : 4 · A2-03 · Validateur du schéma lexical.** 4.1 à 4.4 validées ; 4.5 livrée
+(adaptateur, audit de couverture, clôture ; rapport final `docs/rapports/etape2-A2-03.md`).
+Après sa validation, A2-03 sera fermé et la prochaine tâche sera A2-04 (reconstruction et
+publication du vocabulaire N5). Le validateur lexical est implémenté et éprouvé sur jeux
+d'essai ; il n'est pas encore appliqué à `data/` (bascule à la publication d'A2-04).
 A2-02 est terminé (rapport final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
 réidentifiée en `g_<n>` (tâche 1 bis) ; le catalogue minimal du contenu existe (tâche 2, G1,
@@ -35,7 +36,7 @@ livraison, relecture, tests verts, commit.
 | 1 bis | Réidentification de la grammaire (A4) | un seul commit : `grammar.json` (`n5_g_<n>` → `g_<n>`, champ `level`), 63 références actives remappées, `events.js` (E5), validateur (I20, A4, préfixe `g_` de I18), tests ; plus aucun niveau déduit d'un identifiant `g_` ; `exemples.json` et fichiers de l'ancienne app inchangés | ✅ fait |
 | 2 | G1 · Catalogue minimal | `data/kana.json` (grille, 210 kana, non-régression), `createContent(rawData)` pur, `elementExists`, `elementsOfScope` ; ne lit que les identifiants ; niveau donné par la place du fichier ; comptes tirés des données ; test d'intégration par les surfaces publiques de `content` et `learning` | ✅ fait |
 | 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (validée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait, A2-02 fermé (3.1 à 3.5 validées) |
-| 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | 4.1 à 4.3 validées, 4.4 livrée |
+| 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | 4.1 à 4.4 validées, 4.5 livrée |
 | 5 | A2-04.0 · Espace de travail | sources figées, fichiers de lot, journal des corrections, table de correspondance, outil d'assemblage | à faire |
 | 6 | A2-04.1 à .15 · Lots | ~50 entrées par lot : proposition, relecture, audit, commit dans l'espace de travail | à faire |
 | 7 | A2-04.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
@@ -85,7 +86,7 @@ bloque `npm test`).
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
   `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
-  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tests/` (370 tests dans Node, plus la page
+  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tests/` (380 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -218,6 +219,9 @@ modifier ses parties verrouillées.
 | 2026-10-02 | A2-03 · 4.4 · I12 : index global des SENSE de tous les fichiers fournis ; type au registre, cible = SENSE existant différent du porteur ; doublons détectés par une clé canonique (symétrique : ordre indifférent ; paire inverse : écriture commune ; dirigée sans inverse : orientation significative) ; le lien miroir n'est jamais exigé, mais le noter des deux côtés est un doublon (I12) | `tools/lexicon/references.mjs` |
 | 2026-10-02 | A2-03 · 4.4 · I19 : les références arrivent déjà extraites, liste plate `{ where, vocab, sense? }` (`REFERENCE_SHAPE`), sans que le validateur connaisse la structure des activités ni du futur registre de phrases ; une référence vise l'ENTRY, `sense` doit être un sens existant de cette ENTRY (D1 intact) ; l'extraction depuis les activités et les expressions revient à l'appelant | `tools/lexicon/references.mjs` |
 | 2026-10-02 | A2-03 · 4.4 · contrat d'entrée : `references`, `expressions`, `lieux` facultatifs (absents : non contrôlés). Expressions : seul `tags` est examiné (facultatif ; connus, sans doublon, jamais de nature `lieu`) ; lieux au futur format : seul `vocab_tags` (liste de tags existants de nature `lieu`, lue dans `kind`) ; `expressions.json` et `lieux.json` non modifiés ; garde-fou de pureté : seul `registries.mjs` importe `node:fs`, pour l'aide `readRegistries`, jamais appelée par le validateur | `tools/lexicon/`, `tests/lexicon/purity.test.js` |
+| 2026-10-02 | A2-03 · 4.4 validée : I19 valide des références lexicales normalisées `{ where, vocab, sense? }` ; leur extraction depuis chaque format source appartient à l'orchestrateur ou à l'adaptateur, jamais au validateur | `tools/lexicon/references.mjs` |
+| 2026-10-02 | A2-03 · 4.5 · adaptateur `tools/lexicon-adapter.mjs`, hors du cœur pur : `readLexiconDependencies` (registres, kanji connus = catalogues de tous les niveaux et clés d'un caractère du dictionnaire, particules, expressions ; lieux seulement avec `includeLieux`), `readRetired`, `readActivities`, `extractReferences` (parcours identique à `validate-data`, jamais de `sense`) ; préparer le branchement n'est pas effectuer la bascule : `validate-data` n'appelle pas le validateur lexical avant la publication d'A2-04 (vérifié par un test) | `tools/lexicon-adapter.mjs` |
+| 2026-10-02 | A2-03 · 4.5 · couverture : `tests/lexicon/coverage.test.js` relie chaque invariant à ses codes (aucun code orphelin, aucun invariant fantôme, chaque code attendu par un test) ; audit mécanique des 81 sites d'émission, 81 attrapés après comblement de 5 trous de test ; plan de bascule pour le commit de publication d'A2-04 dans le rapport final | `tests/lexicon/coverage.test.js`, `docs/rapports/etape2-A2-03.md` |
 
 ---
 
@@ -262,6 +266,13 @@ modifier ses parties verrouillées.
   (faits en 4.1) ; catégorie résolue par chemin complet (index livré en 4.1, contrôle I9 en
   4.3) ; tag de lieu reconnu par `kind` (I14, en 4.3 et 4.4) ; registres dans
   `data/registries/`.
+- **Bascule du validateur lexical à la publication d'A2-04** : suivre le plan de
+  `docs/rapports/etape2-A2-03.md`, section 4 (appel par `validate-data`, retrait de l'ancien
+  contrôle du vocabulaire, `lieux.json` en `vocab_tags`, références remappées, `events.js` E1 à E4,
+  formats de `README.md` et `GUIDE-CONTENU.md`).
+- **Anomalie du dictionnaire des kanji** : `data/kanji_jouyou_fr.json` contient cinq clés qui sont
+  des mots (山羊, 生活, 措置, 継続, 迅速) ; l'adaptateur du validateur lexical les écarte ; à
+  corriger dans une tâche de données.
 - **Points d'audit obligatoires d'A2-04 : doublons candidats** (à vérifier un par un avant tout
   retrait d'identifiant, ce ne sont pas des fusions autorisées) : お姉さん, お母さん, お父さん,
   美味しい, 面白い, 本当, 浴びる, 無くす, 醤油 (même mot en double) ; おなか / お腹, かばん / 鞄,
@@ -326,3 +337,4 @@ modifier ses parties verrouillées.
 | 2026-10-02 | 2 · 4.2 | Schéma strict et ENTRY : description déclarative et `checkShape` (I1), `tools/lexicon/entry.mjs` (I2 à I6, I16, I17, A1 à A3, N1), analyseur structurel des furigana, test de conformité au schéma ; correction d'un défaut du rapport (tableaux gelés en cours de route) ; 20 nouveaux tests, 26 sabotages attrapés ; 346 tests | — |
 | 2026-10-02 | 2 · 4.3 | SENSE : description déclarative, `tools/lexicon/sense.mjs` (I7 à I11, I13 à I15, tags de l'ENTRY), contrat d'entrée augmenté de `particles`, conformité au schéma étendue ; 13 nouveaux tests, 22 sabotages attrapés ; 359 tests | — |
 | 2026-10-02 | 2 · 4.4 | Références transversales : `tools/lexicon/references.mjs` (I12, I19, tags des expressions, futur format des lieux), contrat d'entrée augmenté de trois listes facultatives, garde-fou de pureté du validateur ; un contrôle redondant supprimé (sens d'une référence) ; 11 nouveaux tests, 19 sabotages attrapés ; 370 tests | — |
+| 2026-10-02 | 2 · 4.5 | Adaptateur du validateur lexical (dépendances, extraction des références, sans bascule), audit de couverture (81 sites, 6 trous de test comblés dont un révélé par sabotage), test permanent de couverture, rapport final d'A2-03 avec plan de bascule ; 10 nouveaux tests ; 380 tests | — |
