@@ -158,3 +158,47 @@ test('remappage des références : gardées, fusionnées, supprimées', () => {
   assert.deepEqual(references, [{ where: 'a', vocab: 'v_188' }, { where: 'b', vocab: 'v_424' }]);
   assert.deepEqual(unknown.map((r) => r.where), ['c', 'd']);
 });
+
+// ── 5.1b : statut du journal, forme usuelle après fusion, category null justifiée ──
+
+test('journal : statut obligatoire ; une décision validée ne cite que du journal validé', () => {
+  const proposedJ = [journalEntry('A2-04-D0001', 'fusion', 'n5_v_472', { status: 'proposed' })];
+  const ret = (status) => lot({ n5_v_424: validated(fieldsFor('n5_v_424')), n5_v_472: { status, journal: ['A2-04-D0001'], retire: { merged_into: 'n5_v_424' } } });
+  assert.ok(codes(run([ret('validated')], proposedJ)).includes('journal-non-valide'));
+  assert.ok(!codes(run([ret('proposed')], proposedJ)).includes('journal-non-valide'), 'une proposition peut citer une proposition');
+  const { status, ...noStatus } = journalEntry('A2-04-D0002', 'decision');
+  assert.ok(codes(run([], [noStatus])).includes('journal-format'));
+  assert.ok(codes(run([], [journalEntry('A2-04-D0003', 'decision', 'n5_v_1', { status: 'vu' })])).includes('journal-format'));
+});
+
+test('forme usuelle : décidable pour le survivant d\'une fusion seulement, avec ses lectures', () => {
+  const j = [journalEntry('A2-04-D0001', 'fusion', 'n5_v_227')];
+  const kaban = { word: 'かばん', readings: [{ kana: 'かばん', romaji: 'kaban', furigana: 'かばん', default: true, note: null }],
+    writings: [{ form: '鞄', furigana: '<ruby>鞄<rt>かばん</rt></ruby>' }] };
+  const fused = (extra) => lot({ n5_v_64: validated(fieldsFor('n5_v_64', extra)), n5_v_227: { status: 'validated', journal: ['A2-04-D0001'], retire: { merged_into: 'n5_v_64' } } });
+  let a = run([fused(kaban)], j);
+  assert.deepEqual(a.problems, []);
+  assert.equal(a.files[0].entries.find((e) => e.id === 'v_64').word, 'かばん', 'identifiant v_64, forme かばん');
+  assert.deepEqual(validateAssembly(a, DEPS).errors, []);
+  const { readings, ...wordOnly } = kaban;
+  assert.ok(codes(run([fused(wordOnly)], j)).includes('decision-incomplete'), 'forme sans lectures');
+  a = run([lot({ n5_v_188: validated(fieldsFor('n5_v_188', { word: 'たかい', readings: kaban.readings })) })]);
+  assert.ok(codes(a).includes('decision-hors-frontiere'), 'pas de fusion : forme mécanique');
+});
+
+test('category null pour un sens lexical : décision « categorie-nulle » du journal exigée, sur ce sens', () => {
+  const nullSense = (extra = {}) => validated(fieldsFor('n5_v_188', { senses: [sense({ category: null, ...extra })] }), ['A2-04-D0001']);
+  const jOk = [journalEntry('A2-04-D0001', 'categorie-nulle', 'n5_v_188', { field: 'sens 1 · category' })];
+  assert.deepEqual(run([lot({ n5_v_188: nullSense() })], jOk).problems, []);
+  assert.ok(codes(run([lot({ n5_v_188: nullSense() })], [journalEntry('A2-04-D0001', 'decision', 'n5_v_188')])).includes('categorie-nulle-injustifiee'));
+  const jWrongSense = [journalEntry('A2-04-D0001', 'categorie-nulle', 'n5_v_188', { field: 'sens 2 · category' })];
+  assert.ok(codes(run([lot({ n5_v_188: nullSense() })], jWrongSense)).includes('categorie-nulle-injustifiee'), 'sur ce sens précisément');
+  const fn = { linguistic_functions: { grammatical: ['interrogatif'], pragmatic_discourse: [] }, semantic_type: null };
+  assert.deepEqual(run([lot({ n5_v_188: validated(fieldsFor('n5_v_188', { senses: [sense({ category: null, ...fn })] })) })]).problems, [], 'une fonction suffit');
+});
+
+test('大変 : classe et groupe décidables (exception de classe)', () => {
+  const a = run([lot({ n5_v_495: validated(fieldsFor('n5_v_495', { grammatical_class: 'adjectif_na', group: 'na' })) })]);
+  assert.deepEqual(a.problems, []);
+  assert.equal(a.files[0].entries[0].linguistic.grammatical_class, 'adjectif_na');
+});

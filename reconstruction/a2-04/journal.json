@@ -1,6 +1,7 @@
 [
   {
     "id": "A2-04-D0001",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_591",
@@ -12,6 +13,7 @@
   },
   {
     "id": "A2-04-D0002",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_592",
@@ -23,6 +25,7 @@
   },
   {
     "id": "A2-04-D0003",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_590",
@@ -34,6 +37,7 @@
   },
   {
     "id": "A2-04-D0004",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_587",
@@ -45,6 +49,7 @@
   },
   {
     "id": "A2-04-D0005",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_474",
@@ -56,6 +61,7 @@
   },
   {
     "id": "A2-04-D0006",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_588",
@@ -67,6 +73,7 @@
   },
   {
     "id": "A2-04-D0007",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_10",
@@ -86,6 +93,7 @@
   },
   {
     "id": "A2-04-D0008",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_514",
@@ -97,6 +105,7 @@
   },
   {
     "id": "A2-04-D0009",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_582",
@@ -108,6 +117,7 @@
   },
   {
     "id": "A2-04-D0010",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_601",
@@ -119,6 +129,7 @@
   },
   {
     "id": "A2-04-D0011",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_706",
@@ -130,6 +141,7 @@
   },
   {
     "id": "A2-04-D0012",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_594",
@@ -141,6 +153,7 @@
   },
   {
     "id": "A2-04-D0013",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_45",
@@ -148,10 +161,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_44",
-    "reason": "Même unité lexicale que おなか ; お腹 devient une autre graphie (writings). n5_v_44 survit (plus petit numéro)."
+    "reason": "Même unité lexicale que おなか ; お腹 est une autre graphie. n5_v_44 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0014",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_227",
@@ -159,10 +173,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_64",
-    "reason": "Même unité lexicale que 鞄 ; かばん devient une autre graphie (writings). n5_v_64 survit (plus petit numéro). Forme usuelle à revoir : かばん est la plus courante au N5, mais n5_v_64 porte 鞄."
+    "reason": "Même unité lexicale que 鞄 ; かばん est une autre graphie. n5_v_64 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0015",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_107",
@@ -170,10 +185,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_87",
-    "reason": "Même unité lexicale que くだもの ; 果物 devient une autre graphie (writings). n5_v_87 survit (plus petit numéro). Forme usuelle à revoir : 果物 est aussi très courant."
+    "reason": "Même unité lexicale que くだもの ; 果物 est une autre graphie. n5_v_87 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0016",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_106",
@@ -181,10 +197,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_91",
-    "reason": "Même unité lexicale que ばんごはん ; 晩ご飯 devient une autre graphie (writings). n5_v_91 survit (plus petit numéro). Forme usuelle à revoir : 晩ご飯 est la plus courante à l'écrit."
+    "reason": "Même unité lexicale que ばんごはん ; 晩ご飯 est une autre graphie. n5_v_91 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0017",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_105",
@@ -192,10 +209,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_92",
-    "reason": "Même unité lexicale que ひるごはん ; 昼ご飯 devient une autre graphie (writings). n5_v_92 survit (plus petit numéro). Forme usuelle à revoir : 昼ご飯 est la plus courante à l'écrit."
+    "reason": "Même unité lexicale que ひるごはん ; 昼ご飯 est une autre graphie. n5_v_92 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0018",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_238",
@@ -203,10 +221,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_226",
-    "reason": "Même unité lexicale que かぎ ; 鍵 devient une autre graphie (writings). n5_v_226 survit (plus petit numéro)."
+    "reason": "Même unité lexicale que かぎ ; 鍵 est une autre graphie. n5_v_226 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0019",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_235",
@@ -214,10 +233,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_228",
-    "reason": "Même unité lexicale que せっけん ; 石鹸 devient une autre graphie (writings). n5_v_228 survit (plus petit numéro)."
+    "reason": "Même unité lexicale que せっけん ; 石鹸 est une autre graphie. n5_v_228 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0020",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_276",
@@ -225,10 +245,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_263",
-    "reason": "Même unité lexicale que くもり ; 曇り devient une autre graphie (writings). n5_v_263 survit (plus petit numéro). Forme usuelle à revoir : 曇り est la plus courante (bulletins météo)."
+    "reason": "Même unité lexicale que くもり ; 曇り est une autre graphie. n5_v_263 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0021",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_285",
@@ -240,6 +261,7 @@
   },
   {
     "id": "A2-04-D0022",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_289",
@@ -247,10 +269,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_285",
-    "reason": "Même unité lexicale que おととし ; 一昨年 devient une autre graphie (writings). n5_v_285 survit (plus petit numéro)."
+    "reason": "Même unité lexicale que おととし ; 一昨年 est une autre graphie. n5_v_285 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0023",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_437",
@@ -258,10 +281,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_423",
-    "reason": "Même unité lexicale que かわいい ; 可愛い devient une autre graphie (writings). n5_v_423 survit (plus petit numéro)."
+    "reason": "Même unité lexicale que かわいい ; 可愛い est une autre graphie. n5_v_423 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0024",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_423",
@@ -273,6 +297,7 @@
   },
   {
     "id": "A2-04-D0025",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_549",
@@ -280,10 +305,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_68",
-    "reason": "Même unité lexicale que はく ; 履く devient une autre graphie (writings). n5_v_68 survit (plus petit numéro). Forme usuelle à revoir : 履く est aussi très courant."
+    "reason": "Même unité lexicale que はく ; 履く est une autre graphie. n5_v_68 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0026",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_424",
@@ -303,6 +329,7 @@
   },
   {
     "id": "A2-04-D0027",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_472",
@@ -310,10 +337,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_424",
-    "reason": "Même unité lexicale que きれい ; 綺麗 devient une autre graphie (writings). n5_v_424 survit (plus petit numéro)."
+    "reason": "Même unité lexicale que きれい ; 綺麗 est une autre graphie. n5_v_424 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0028",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_460",
@@ -321,10 +349,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_459",
-    "reason": "Même unité lexicale que 朝ご飯 ; 朝御飯 devient une autre graphie (writings). n5_v_459 survit (plus petit numéro)."
+    "reason": "Même unité lexicale que 朝ご飯 ; 朝御飯 est une autre graphie. n5_v_459 survit (plus petit numéro)."
   },
   {
     "id": "A2-04-D0029",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_555",
@@ -344,6 +373,7 @@
   },
   {
     "id": "A2-04-D0030",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_672",
@@ -351,10 +381,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_555",
-    "reason": "Même unité lexicale que 曲がる ; 曲る devient une autre graphie (writings). n5_v_555 survit (plus petit numéro). 曲る est une variante ancienne d'okurigana."
+    "reason": "Même unité lexicale que 曲がる ; 曲る est une autre graphie. n5_v_555 survit (plus petit numéro). 曲る est une variante ancienne d'okurigana."
   },
   {
     "id": "A2-04-D0031",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_668",
@@ -366,6 +397,7 @@
   },
   {
     "id": "A2-04-D0032",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_455",
@@ -377,6 +409,7 @@
   },
   {
     "id": "A2-04-D0033",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_455",
@@ -396,6 +429,7 @@
   },
   {
     "id": "A2-04-D0034",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_508",
@@ -403,10 +437,11 @@
     "kind": "fusion",
     "before": null,
     "after": "n5_v_495",
-    "reason": "大変 adverbe et 大変 adjectif en な sont une seule unité lexicale ; n5_v_495 survit (plus petit numéro). Sa classe mécanique est adverbe (ancien type) : à revoir, voir le rapport."
+    "reason": "大変 adverbe et 大変 adjectif en な sont une seule unité lexicale ; n5_v_495 survit (plus petit numéro). Classe : adjectif en な ; l'emploi intensifieur relève du sens 1."
   },
   {
     "id": "A2-04-D0035",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_610",
@@ -418,6 +453,7 @@
   },
   {
     "id": "A2-04-D0036",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_583",
@@ -429,17 +465,19 @@
   },
   {
     "id": "A2-04-D0037",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_420",
     "field": "word",
     "kind": "decision",
     "before": "いい / 良い",
-    "after": "良い",
-    "reason": "La forme source contenait deux formes. Les lectures sont attachées à la forme usuelle : いい (lecture par défaut) et よい ne peuvent toutes deux s'écrire que sur 良い ; いい devient une autre graphie."
+    "after": "いい",
+    "reason": "La forme source contenait deux formes. Forme usuelle いい ; 良い devient une autre graphie. La lecture よい n'est pas une lecture structurée : ses furigana devraient avoir いい pour texte de base (I4), ce qui est impossible ; elle est décrite dans la nuance de l'ENTRY."
   },
   {
     "id": "A2-04-D0038",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_329",
@@ -454,6 +492,7 @@
   },
   {
     "id": "A2-04-D0039",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_332",
@@ -468,20 +507,22 @@
   },
   {
     "id": "A2-04-D0040",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_369",
     "field": "readings",
     "kind": "decision",
-    "before": "しち / なな",
+    "before": "なな / しち",
     "after": [
-      "しち (défaut)",
-      "なな"
+      "なな (défaut)",
+      "しち"
     ],
-    "reason": "しち en premier comme dans la source ; なな est la plus fréquente pour compter : choix de la lecture par défaut à confirmer."
+    "reason": "なな, la plus fréquente pour compter, par défaut ; しち dans quelques composés (arbitrage du lot 0)."
   },
   {
     "id": "A2-04-D0041",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_374",
@@ -496,20 +537,22 @@
   },
   {
     "id": "A2-04-D0042",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_386",
     "field": "readings",
     "kind": "decision",
-    "before": "し / よん",
+    "before": "よん / し",
     "after": [
-      "し (défaut)",
-      "よん"
+      "よん (défaut)",
+      "し"
     ],
-    "reason": "し en premier comme dans la source ; よん est la plus courante : choix de la lecture par défaut à confirmer."
+    "reason": "よん, la plus courante, par défaut ; し dans quelques composés (arbitrage du lot 0)."
   },
   {
     "id": "A2-04-D0043",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_401",
@@ -524,6 +567,7 @@
   },
   {
     "id": "A2-04-D0044",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_510",
@@ -537,6 +581,7 @@
   },
   {
     "id": "A2-04-D0045",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_559",
@@ -550,6 +595,7 @@
   },
   {
     "id": "A2-04-D0046",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_564",
@@ -563,6 +609,7 @@
   },
   {
     "id": "A2-04-D0047",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_64",
@@ -576,6 +623,7 @@
   },
   {
     "id": "A2-04-D0048",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_87",
@@ -589,6 +637,7 @@
   },
   {
     "id": "A2-04-D0049",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_226",
@@ -602,6 +651,7 @@
   },
   {
     "id": "A2-04-D0050",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_228",
@@ -615,6 +665,7 @@
   },
   {
     "id": "A2-04-D0051",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_263",
@@ -628,6 +679,7 @@
   },
   {
     "id": "A2-04-D0052",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_495",
@@ -641,6 +693,7 @@
   },
   {
     "id": "A2-04-D0053",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_420",
@@ -656,6 +709,7 @@
   },
   {
     "id": "A2-04-D0054",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_369",
@@ -669,6 +723,7 @@
   },
   {
     "id": "A2-04-D0055",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_374",
@@ -682,6 +737,7 @@
   },
   {
     "id": "A2-04-D0056",
+    "status": "proposed",
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_386",
@@ -692,5 +748,185 @@
     ],
     "after": null,
     "reason": "Redondant avec « Quatre »."
+  },
+  {
+    "id": "A2-04-D0057",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_44",
+    "field": "word",
+    "kind": "decision",
+    "before": "おなか",
+    "after": "お腹",
+    "reason": "Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : お腹 ; おなか devient une autre graphie."
+  },
+  {
+    "id": "A2-04-D0058",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_64",
+    "field": "word",
+    "kind": "decision",
+    "before": "鞄",
+    "after": "かばん",
+    "reason": "Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : かばん ; 鞄 devient une autre graphie."
+  },
+  {
+    "id": "A2-04-D0059",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_87",
+    "field": "word",
+    "kind": "decision",
+    "before": "くだもの",
+    "after": "果物",
+    "reason": "Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : 果物 ; くだもの devient une autre graphie."
+  },
+  {
+    "id": "A2-04-D0060",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_91",
+    "field": "word",
+    "kind": "decision",
+    "before": "ばんごはん",
+    "after": "晩ご飯",
+    "reason": "Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : 晩ご飯 ; ばんごはん devient une autre graphie."
+  },
+  {
+    "id": "A2-04-D0061",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_92",
+    "field": "word",
+    "kind": "decision",
+    "before": "ひるごはん",
+    "after": "昼ご飯",
+    "reason": "Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : 昼ご飯 ; ひるごはん devient une autre graphie."
+  },
+  {
+    "id": "A2-04-D0062",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_226",
+    "field": "word",
+    "kind": "decision",
+    "before": "かぎ",
+    "after": "鍵",
+    "reason": "Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : 鍵 ; かぎ devient une autre graphie."
+  },
+  {
+    "id": "A2-04-D0063",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_263",
+    "field": "word",
+    "kind": "decision",
+    "before": "くもり",
+    "after": "曇り",
+    "reason": "Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : 曇り ; くもり devient une autre graphie."
+  },
+  {
+    "id": "A2-04-D0064",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_68",
+    "field": "word",
+    "kind": "decision",
+    "before": "はく",
+    "after": "履く",
+    "reason": "Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : 履く ; はく devient une autre graphie."
+  },
+  {
+    "id": "A2-04-D0065",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_420",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "« Bon » : propriété générale, hors de la hiérarchie thématique (A2-GLOBAL §4.4). Addendum A5."
+  },
+  {
+    "id": "A2-04-D0066",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_424",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "« Beau » : appréciation esthétique générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D0067",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_495",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "« Difficile » : propriété générale ; le sens passe par la dimension facilité / difficulté. Addendum A5."
+  },
+  {
+    "id": "A2-04-D0068",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_510",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "« Vérité » : statut épistémique, porté par la dimension vrai / faux ; aucune catégorie primaire pertinente. Addendum A5."
+  },
+  {
+    "id": "A2-04-D0069",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_564",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "« Perdre (un objet) » : action générale, hors de la hiérarchie thématique (A2-GLOBAL §4.4). Addendum A5."
+  },
+  {
+    "id": "A2-04-D0070",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_44",
+    "field": "sens 1 · semantic_type",
+    "kind": "decision",
+    "before": "organisme_vivant",
+    "after": null,
+    "reason": "OUVERT : aucun type sémantique du registre ne couvre une partie du corps (organisme_vivant désigne un être vivant). À arbitrer avec A2-ST ; l'entrée reste non validée."
+  },
+  {
+    "id": "A2-04-D0071",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_363",
+    "field": "sens 1 et 2 · semantic_type",
+    "kind": "decision",
+    "before": "quantite_valeur",
+    "after": null,
+    "reason": "OUVERT : A2-ST-v1 précise qu'une unité n'est pas automatiquement une quantité ; type des sens « kilogramme » et « kilomètre » différé. L'entrée reste non validée."
   }
 ]

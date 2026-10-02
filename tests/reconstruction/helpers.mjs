@@ -41,6 +41,6 @@ export function fieldsFor(oldId, extra = {}) {
 
 export const validated = (fields, journal) => ({ status: 'validated', ...(journal ? { journal } : {}), fields });
 export const lot = (entries, extra = {}) => ({ lot: 'lot-test', title: 'Essai', entries, ...extra });
-export const journalEntry = (id, kind, entry = 'n5_v_1') => ({
-  id, date: '2026-10-02', lot: 'lot-test', entry, field: 'entrée', kind, before: null, after: null, reason: 'essai'
+export const journalEntry = (id, kind, entry = 'n5_v_1', extra = {}) => ({
+  id, status: 'validated', date: '2026-10-02', lot: 'lot-test', entry, field: 'entrée', kind, before: null, after: null, reason: 'essai', ...extra
 });

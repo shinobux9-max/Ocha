@@ -16,10 +16,11 @@ comprend la reconstruction du vocabulaire selon l'architecture sémantique A2 (p
 A2-05) et la réidentification de la grammaire (addendum A4).
 
 **Tâche en cours : A2-04 · Reconstruction du vocabulaire N5.** A2-03 est fermé (rapport final
-`docs/rapports/etape2-A2-03.md`). 5.0 validée (infrastructure). 5.1 livrée **en
-proposition** : `reconstruction/a2-04/lots/lot-00.json` (60 entrées, statut `proposed`), journal
-et rapport de relecture `reconstruction/a2-04/rapports/lot-00.md` ; points à arbitrer dans
-`docs/rapports/etape2-tache5-1-lot0.md`. Aucune décision n'est validée avant votre relecture. Le validateur lexical n'est pas
+`docs/rapports/etape2-A2-03.md`). 5.0 validée (infrastructure). Lot 0 arbitré le 2026-10-02 ;
+5.1b livrée (révision : journal à statut, forme usuelle après fusion, 大変, addendum A5 sur
+`category: null`, lectures なな et よん ; rapport `docs/rapports/etape2-tache5-1b-lot0.md`). Le lot
+reste **en proposition** : seul le type sémantique de お腹 et des deux sens de キロ reste à
+arbitrer avant de le passer en `validated`. Le validateur lexical n'est pas
 encore appliqué à `data/` (bascule à la publication d'A2-04).
 A2-02 est terminé (rapport final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
@@ -39,7 +40,7 @@ livraison, relecture, tests verts, commit.
 | 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (validée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait, A2-02 fermé (3.1 à 3.5 validées) |
 | 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | ✅ fait, A2-03 fermé (4.1 à 4.5 validées) |
 | 5 | A2-04 · 5.0 · Infrastructure | `reconstruction/a2-04/` (sources figées et empreintes, `place-tags.json`, `lots/`, `journal.json`) et `tools/reconstruction/` (règles et listes fermées, couche mécanique, contrôle des lots et du journal, assembleur partiel et complet, rapport de relecture, commandes) ; aucune décision lexicale | validée |
-| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 proposée |
+| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 arbitrée, 5.1b livrée |
 | 7 | A2-04 · 5.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
 | 8 | A2-04 · 5.17 · Publication | une seule opération : vocabulaire canonique, validateur activé, `events.js` (E1 à E4) ; l'ancienne app cesse de fonctionner sur `ocha-v2` | à faire |
 | 9 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
@@ -87,7 +88,7 @@ bloque `npm test`).
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
   `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
-  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tools/reconstruction/` et `reconstruction/a2-04/` (reconstruction du vocabulaire), `tests/` (411 tests dans Node, plus la page
+  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tools/reconstruction/` et `reconstruction/a2-04/` (reconstruction du vocabulaire), `tests/` (415 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -233,6 +234,11 @@ modifier ses parties verrouillées.
 | 2026-10-02 | A2-04 · `group` : la règle de 5.0 est la règle officielle (verbe → `ru`, `u`, `irrégulier`, `suru` ; adjectif en い → `i` ; en な → `na` ; nom → `nom` ; numéral, pronom, adverbe, déterminant, conjonction, interjection → `null`) ; elle suit le schéma verrouillé, aucun addendum ; l'arbitrage contraire du découpage est retiré | `tools/reconstruction/rules.mjs` |
 | 2026-10-02 | A2-04 · 5.1 · les entrées de journal sont proposées avec le lot qui les cite : leur statut est celui de ces entrées de lot ; une entrée de journal ne décide rien, l'assembleur n'agit que sur les décisions validées ; si une proposition change, son entrée de journal est réécrite sous le même identifiant avant la validation | `reconstruction/a2-04/journal.json` |
 | 2026-10-02 | A2-04 · 5.1 · rapport de relecture : groupes candidats réunis sous un en-tête avec la proposition du groupe, décisions du journal affichées avec leur raison, sens en tableau | `tools/reconstruction/report.mjs` |
+| 2026-10-02 | A2-04 · lot 0 arbitré : les 27 fusions, les huit découpages en sens, les corrections factuelles (おととし, 可愛い) et structurelles (furigana), et les tags de lieu retenus sont approuvés ; lectures par défaut なな (七), よん (四), きゅう (九), なに (何), まいとし, まいつき | `reconstruction/a2-04/lots/lot-00.json` |
+| 2026-10-02 | A2-04 · journal : chaque décision a son propre statut `proposed` ou `validated` ; une décision `proposed` n'a aucun effet normatif et peut être réécrite sous le même identifiant ; une décision de lot validée ne cite que du journal validé (`journal-non-valide`) | `tools/reconstruction/decisions.mjs` |
+| 2026-10-02 | A2-04 · forme usuelle : l'identifiant survivant d'une fusion (plus petit numéro) et la forme usuelle sont deux décisions indépendantes ; `word` (avec ses lectures) est décidable pour le survivant d'une fusion, et seulement pour lui | `tools/reconstruction/decisions.mjs` |
+| 2026-10-02 | A2-04 · 大変 (`n5_v_495`) ajouté aux exceptions de classe : adjectif en な, groupe `na` ; l'emploi intensifieur relève du sens et de sa fonction | `tools/reconstruction/rules.mjs` |
+| 2026-10-02 | Addendum A5 · `category: null` permis lorsqu'aucune catégorie primaire suffisamment pertinente n'existe : justifié par une fonction linguistique pour une unité grammaticale ou pragmatique ; pour un sens lexical plein, décision humaine justifiée au journal (nature `categorie-nulle`, sur le sens précis). I9 : avertissement `categorie-nulle` au lieu d'une erreur | `docs/conception/addendum-A5-category-null.md`, `tools/lexicon/sense.mjs` |
 
 ---
 
@@ -277,11 +283,14 @@ modifier ses parties verrouillées.
   (faits en 4.1) ; catégorie résolue par chemin complet (index livré en 4.1, contrôle I9 en
   4.3) ; tag de lieu reconnu par `kind` (I14, en 4.3 et 4.4) ; registres dans
   `data/registries/`.
-- **Lot 0 · points à arbitrer** (`docs/rapports/etape2-tache5-1-lot0.md`) : `category: null` pour
-  une propriété générale (I9 plus strict qu'A2 §10) ; forme usuelle des paires kana / kanji fixée
-  par le numéro survivant ; classe de 大変 ; modèle de いい / 良い ; lectures par défaut de 七 et
-  四 ; types sémantiques des parties du corps, aliments, expressions de temps et unités ; tags de
-  lieu retenus.
+- **Type sémantique d'une partie du corps et d'une unité** (lot 0, ouvert) : `A2-ST-v1` n'a aucun
+  type pour une partie du corps (お腹 : `organisme_vivant` désigne un être vivant) et précise
+  qu'une unité n'est pas automatiquement une quantité (キロ). Entrées `n5_v_44` et `n5_v_363` non
+  validables tant que ce n'est pas arbitré ; même question pour tout le vocabulaire du corps et
+  des unités dans les lots suivants.
+- **Lecture よい de いい** : le schéma attache les furigana de chaque lecture à la forme usuelle
+  (I4) ; よい, lisible seulement sur la graphie 良い, est décrite dans la nuance. Une lecture
+  propre à une graphie demanderait un changement du schéma.
 - **Identifiants de sens après publication** : ils sont générés dans l'ordre des sens jusqu'à la
   publication ; ensuite, réordonner les sens ne doit jamais les renuméroter. À protéger par
   l'audit A2-05.
@@ -360,3 +369,4 @@ modifier ses parties verrouillées.
 | 2026-10-02 | 2 · 5 (A2-04) | Découpage et arbitrage d'A2-04 (frontière mécanique / humaine, `group`, tags de lieu, ajouts, lot 0, validation partielle, journal) | — |
 | 2026-10-02 | 2 · 5.0 | Infrastructure de reconstruction : sources figées (empreintes), règles et listes fermées ancrées à leurs mots, couche mécanique, contrôle des lots et du journal, assembleur partiel et complet avec le verrou « proposer n'est pas décider », rapport de relecture, commandes ; aucune décision lexicale ; 29 nouveaux tests, 23 sabotages attrapés après comblement d'un trou (tags candidats) ; 409 tests | — |
 | 2026-10-02 | 2 · 5.1 | Lot 0 · identité **proposé** (60 entrées : 27 fusions proposées, 33 entrées gardées ; 56 décisions au journal dont 13 abandons journalisés) ; rapport de relecture regroupé ; essai à blanc : aucun problème de frontière, 5 erreurs I9 qui révèlent le conflit avec A2 §10 ; 2 nouveaux tests ; 411 tests | — |
+| 2026-10-02 | 2 · 5.1b | Révision du lot 0 après arbitrage : journal à statut, forme usuelle décidable après fusion (8 formes changées), 大変 en adjectif en な, addendum A5 et I9 en avertissement, lectures なな et よん ; 15 nouvelles décisions au journal (identifiants des 56 premières inchangés) ; essai à blanc : aucun problème de frontière, 3 erreurs `type-nul` (types ouverts) ; 4 nouveaux tests, 9 sabotages attrapés ; 415 tests | — |

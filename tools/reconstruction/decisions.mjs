@@ -18,15 +18,17 @@
 // décision par l'assembleur. Le JSON est la seule source : le rapport Markdown en est généré.
 //
 // Le journal (reconstruction/a2-04/journal.json) est une liste de décisions notables, chacune
-// avec un identifiant stable A2-04-D<nnnn>.
+// avec un identifiant stable A2-04-D<nnnn> et son propre statut (arbitrage du 2026-10-02) :
+// « proposed » n'a aucun effet normatif et peut être réécrit sous le même identifiant ;
+// « validated » seulement fait foi. Une décision de lot validée ne cite que du journal validé.
 
 import { HUMAN_FIELDS, EXCEPTION_FIELDS, CLASS_GROUPS } from './rules.mjs';
 import { numberOf, newId } from './mechanical.mjs';
 
 export const STATUSES = Object.freeze(['proposed', 'validated']);
 export const JOURNAL_ID = /^A2-04-D[0-9]{4}$/;
-export const JOURNAL_KINDS = Object.freeze(['correction', 'fusion', 'retrait', 'exception-fusion', 'abandon', 'ajout', 'decision']);
-const JOURNAL_KEYS = ['id', 'date', 'lot', 'entry', 'field', 'kind', 'before', 'after', 'reason'];
+export const JOURNAL_KINDS = Object.freeze(['correction', 'fusion', 'retrait', 'exception-fusion', 'abandon', 'ajout', 'decision', 'categorie-nulle']);
+const JOURNAL_KEYS = ['id', 'status', 'date', 'lot', 'entry', 'field', 'kind', 'before', 'after', 'reason'];
 const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
 const sameKeys = (o, keys) => Object.keys(o).sort().join(',') === [...keys].sort().join(',');
 
@@ -42,27 +44,48 @@ export function checkJournal(journal) {
     else if (byId.has(d.id)) problems.push({ code: 'journal-format', where, message: 'identifiant en double' });
     if (!/^\d{4}-\d{2}-\d{2}$/.test(String(d.date))) problems.push({ code: 'journal-format', where, message: 'date AAAA-MM-JJ attendue' });
     if (!JOURNAL_KINDS.includes(d.kind)) problems.push({ code: 'journal-format', where, message: `nature « ${d.kind} » inconnue` });
+    if (!STATUSES.includes(d.status)) problems.push({ code: 'journal-format', where, message: `statut parmi ${STATUSES.join(', ')} attendu` });
     if (typeof d.reason !== 'string' || d.reason.trim() === '') problems.push({ code: 'journal-format', where, message: 'raison manquante' });
     if (JOURNAL_ID.test(d.id) && !byId.has(d.id)) byId.set(d.id, d);
   });
   return { problems, byId };
 }
 
+const hasFunction = (s) => isObject(s.linguistic_functions)
+  && Object.values(s.linguistic_functions).some((l) => Array.isArray(l) && l.length > 0);
+
 // Le journal cité par une décision doit exister ; certaines décisions exigent une nature précise.
 function citations(problems, where, decision, journalById) {
   const cited = Array.isArray(decision.journal) ? decision.journal : [];
   if (Object.hasOwn(decision, 'journal') && !Array.isArray(decision.journal)) problems.push({ code: 'lot-format', where, message: '« journal » doit être une liste' });
-  for (const id of cited) if (!journalById.has(id)) problems.push({ code: 'journal-inconnu', where, message: `décision « ${id} » absente du journal` });
+  for (const id of cited) {
+    if (!journalById.has(id)) problems.push({ code: 'journal-inconnu', where, message: `décision « ${id} » absente du journal` });
+    else if (decision.status === 'validated' && journalById.get(id).status !== 'validated') {
+      problems.push({ code: 'journal-non-valide', where, message: `une décision validée ne cite que du journal validé (« ${id} » est « ${journalById.get(id).status} »)` });
+    }
+  }
   return cited.filter((id) => journalById.has(id)).map((id) => journalById.get(id));
 }
 
-function checkFields(problems, where, fields, pre, { addition = false } = {}) {
+// Champs décidables au-delà des champs humains : les exceptions mécaniques de l'entrée et, pour
+// le survivant d'une fusion, la forme usuelle (arbitrage du lot 0, 4.2 b : l'identifiant
+// survivant et la forme usuelle sont deux décisions indépendantes). Une forme décidée exige ses
+// lectures, dont les furigana dépendent de la forme.
+function decidable(pre, { addition, mergeTarget }) {
+  if (addition) return [...EXCEPTION_FIELDS];
+  const fields = EXCEPTION_FIELDS.filter((f) => pre.exceptions[f]);
+  if (mergeTarget) for (const f of ['word', 'readings']) if (!fields.includes(f)) fields.push(f);
+  return fields;
+}
+
+function checkFields(problems, where, fields, pre, { addition = false, mergeTarget = false, cited = [] } = {}) {
   if (!isObject(fields)) { problems.push({ code: 'lot-format', where, message: '« fields » doit être un objet' }); return; }
-  const allowed = new Set([...HUMAN_FIELDS, ...(addition ? EXCEPTION_FIELDS : EXCEPTION_FIELDS.filter((f) => pre.exceptions[f]))]);
+  const allowed = new Set([...HUMAN_FIELDS, ...decidable(pre, { addition, mergeTarget })]);
   for (const k of Object.keys(fields)) {
     if (!allowed.has(k)) problems.push({ code: 'decision-hors-frontiere', where, message: `« ${k} » est mécanique pour cette entrée : il ne se décide pas dans un lot` });
   }
   const required = [...HUMAN_FIELDS, ...(addition ? EXCEPTION_FIELDS : EXCEPTION_FIELDS.filter((f) => pre.exceptions[f]))];
+  if (Object.hasOwn(fields, 'word') && !required.includes('readings')) required.push('readings');
   for (const k of required) {
     if (!Object.hasOwn(fields, k)) problems.push({ code: 'decision-incomplete', where, message: `champ « ${k} » non décidé` });
   }
@@ -81,6 +104,14 @@ function checkFields(problems, where, fields, pre, { addition = false } = {}) {
       if (!addition && fields.senses.length === 1 && isObject(s) && Object.hasOwn(s, 'particles')) {
         problems.push({ code: 'decision-hors-frontiere', where: `${where} · sens 1`, message: 'les particules d\'un sens unique sont reprises des sources' });
       }
+      // Addendum A5 : un sens lexical sans catégorie (aucune fonction linguistique) exige une
+      // décision « categorie-nulle » du journal, sur ce sens précisément.
+      if (isObject(s) && s.category === null && !hasFunction(s)) {
+        const field = `sens ${k + 1} · category`;
+        if (!cited.some((j) => j.kind === 'categorie-nulle' && j.field === field)) {
+          problems.push({ code: 'categorie-nulle-injustifiee', where: `${where} · sens ${k + 1}`, message: `category: null pour un sens lexical : décision « categorie-nulle » du journal attendue (champ « ${field} »)` });
+        }
+      }
     });
   }
 }
@@ -94,6 +125,9 @@ function checkFields(problems, where, fields, pre, { addition = false } = {}) {
 export function checkLots(lots, prefills, journalById) {
   const problems = [];
   const decidedIn = new Map();
+  // Survivants de fusion : toute entrée qu'une décision de retrait désigne comme merged_into.
+  const mergeTargets = new Set(lots.flatMap((l) => Object.values(isObject(l?.entries) ? l.entries : {}))
+    .map((d) => d?.retire?.merged_into).filter((x) => typeof x === 'string'));
   for (const lot of lots) {
     const lw = `lot ${lot?.lot ?? '?'}`;
     if (!isObject(lot) || typeof lot.lot !== 'string' || typeof lot.title !== 'string' || !isObject(lot.entries)) {
@@ -105,7 +139,7 @@ export function checkLots(lots, prefills, journalById) {
     for (const [oldId, d] of Object.entries(lot.entries)) {
       const where = `${lw} · ${oldId}`;
       const start = problems.length;
-      checkEntryDecision(problems, where, oldId, d, lot, prefills, journalById, decidedIn);
+      checkEntryDecision(problems, where, oldId, d, lot, prefills, journalById, decidedIn, mergeTargets);
       // Chaque problème désigne l'entrée concernée : l'assembleur écarte cette entrée seule.
       for (let i = start; i < problems.length; i += 1) problems[i].entry = oldId;
     }
@@ -120,7 +154,7 @@ export function checkLots(lots, prefills, journalById) {
 }
 
 // Décision sur une entrée source : gardée (« fields ») ou retirée (« retire »).
-function checkEntryDecision(problems, where, oldId, d, lot, prefills, journalById, decidedIn) {
+function checkEntryDecision(problems, where, oldId, d, lot, prefills, journalById, decidedIn, mergeTargets) {
   const pre = prefills.get(oldId);
   if (!pre) { problems.push({ code: 'decision-inconnue', where, message: 'aucune entrée source de ce nom' }); return; }
   if (decidedIn.has(oldId)) problems.push({ code: 'decision-double', where, message: `déjà décidée dans ${decidedIn.get(oldId)}` });
@@ -132,7 +166,7 @@ function checkEntryDecision(problems, where, oldId, d, lot, prefills, journalByI
     return;
   }
   const cited = citations(problems, where, d, journalById);
-  if (keys[0] === 'fields') { checkFields(problems, where, d.fields, pre); return; }
+  if (keys[0] === 'fields') { checkFields(problems, where, d.fields, pre, { mergeTarget: mergeTargets.has(oldId), cited }); return; }
   // Retrait : fusion vers une entrée source, ou suppression sans successeur.
   const r = d.retire;
   if (!isObject(r) || !sameKeys(r, ['merged_into'])) { problems.push({ code: 'lot-format', where, message: '« retire » : { merged_into } attendu' }); return; }
@@ -157,5 +191,5 @@ function checkAddition(problems, where, a, journalById) {
   }
   const cited = citations(problems, where, a, journalById);
   if (!cited.some((j) => j.kind === 'ajout')) problems.push({ code: 'journal-requis', where, message: 'un ajout doit citer une décision « ajout » du journal' });
-  checkFields(problems, where, a.fields, { exceptions: {}, values: {} }, { addition: true });
+  checkFields(problems, where, a.fields, { exceptions: {}, values: {} }, { addition: true, cited });
 }

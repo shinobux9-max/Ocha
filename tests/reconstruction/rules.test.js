@@ -17,7 +17,8 @@ test('listes d\'exceptions : chaque identifiant désigne bien son mot', () => {
     for (const [id, w] of Object.entries(list)) assert.equal(word.get(id), w, id);
   }
   assert.equal(Object.keys(NUMERAL_IDS).length, 15);
-  assert.equal(Object.keys(CLASS_EXCEPTION_IDS).length, 45);
+  assert.equal(Object.keys(CLASS_EXCEPTION_IDS).length, 46);
+  assert.equal(CLASS_EXCEPTION_IDS.n5_v_495, '大変', 'arbitrage du lot 0');
 });
 
 test('lot 0 : 27 groupes de doublons candidats, sans chevauchement', () => {

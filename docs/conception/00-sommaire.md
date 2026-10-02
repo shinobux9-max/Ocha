@@ -23,6 +23,7 @@ référence : un comportement qui s'en écarte doit être signalé, jamais impro
 | A2 | `addendum-A2-liaison.md` | liaison avec l'architecture sémantique A2 : l'ENTRY est l'unité d'apprentissage, statut des tags |
 | A3 | `addendum-A3-modele-lexical.md` | modèle lexical d'Ocha v2 et reconstruction des données ; identifiants `v_<n>` |
 | A4 | `addendum-A4-identifiants.md` | identifiants indépendants du niveau ; grammaire en `g_<n>` |
+| A5 | `addendum-A5-category-null.md` | `category: null` pour un sens lexical, sur décision justifiée ; I9 précisé |
 | — | `schema-A2-01.md` | schéma du vocabulaire (ENTRY → SENSE) et invariants du validateur |
 | — | `registre-des-tags.md` | tags : nature, critères de création, procédure (A2-02) |
 | — | `../../REGLES-CONSTRUCTION.md` | règles opérationnelles de la branche `ocha-v2` (à la racine du dépôt) |

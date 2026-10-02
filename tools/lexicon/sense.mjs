@@ -56,10 +56,13 @@ function checkSense(report, ctx, entryWhere, entry, sense, k, ids, retired) {
     }
   }
 
-  // I9 · catégorie : chemin complet existant, ou null seulement avec une fonction linguistique
+  // I9 · catégorie : chemin complet existant, ou null (addendum A5). Pour une unité grammaticale
+  // ou pragmatique, une fonction linguistique justifie null. Pour un sens lexical plein, null est
+  // une décision humaine justifiée au journal de reconstruction, que les données canoniques ne
+  // portent pas : le validateur le signale pour l'audit, sans le refuser.
   if (Object.hasOwn(sense, 'category')) {
     if (sense.category === null) {
-      if (!hasFunction(sense)) report.error('categorie-nulle', where, 'category: null seulement pour un sens portant au moins une fonction linguistique');
+      if (!hasFunction(sense)) report.warn('categorie-nulle', where, 'category: null pour un sens lexical (sans fonction linguistique) : décision à justifier (addendum A5)');
     } else if (isObject(sense.category) && typeof sense.category.level_1 === 'string') {
       let node = null;
       try {

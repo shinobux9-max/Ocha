@@ -64,13 +64,16 @@ test('I8 : alternatives non vides, distinctes entre elles et du libellé', () =>
 
 // ── I9 · catégorie ; I10 · type sémantique ──
 
-test('I9 : chemin complet existant ; null seulement avec une fonction linguistique', () => {
+test('I9 : chemin complet existant ; null avec une fonction, ou signalé pour un sens lexical (addendum A5)', () => {
   assertErr('categorie-inconnue', (x, e, s) => { s.category = { level_1: 'temps', level_2: 'radio' }; });
   assertErr('categorie-inconnue', (x, e, s) => { s.category = { level_1: 'mois' }; }, 'identifiant de niveau 3 placé en niveau 1');
   assertErr('categorie-chemin', (x, e, s) => { s.category = { level_1: 'temps', level_3: 'mois' }; }, 'level_3 sans level_2');
   assertErr('type-invalide', (x, e, s) => { s.category = 'mois'; }, 'identifiant isolé');
-  assertErr('categorie-nulle', (x, e, s) => { s.category = null; s.semantic_type = null; });
-  assertClean((x, e, s) => { s.category = null; s.semantic_type = null; s.linguistic_functions = GRAMMATICAL; }, 'null justifié');
+  // Sens lexical sans fonction : pas une erreur, un avertissement (justification au journal).
+  assertClean((x, e, s) => { s.category = null; }, 'null lexical admis');
+  assert.ok(run((x, e, s) => { s.category = null; }).warnings.some((w) => w.code === 'categorie-nulle'));
+  assertClean((x, e, s) => { s.category = null; s.semantic_type = null; s.linguistic_functions = GRAMMATICAL; }, 'null justifié par une fonction');
+  assert.ok(!run((x, e, s) => { s.category = null; s.semantic_type = null; s.linguistic_functions = GRAMMATICAL; }).warnings.some((w) => w.code === 'categorie-nulle'));
   assertClean((x, e, s) => { s.category = { level_1: 'temps', level_2: 'calendrier', level_3: 'mois' }; }, 'mois sous calendrier');
   assertClean((x, e, s) => { s.category = { level_1: 'temps', level_2: 'unites_temporelles', level_3: 'mois' }; }, 'mois sous unités');
   assertClean((x, e, s) => { s.category = { level_1: 'temps', level_2: null, level_3: null }; }, 'niveau 1 seul');

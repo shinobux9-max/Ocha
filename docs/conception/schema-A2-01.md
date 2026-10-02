@@ -1,6 +1,8 @@
 # Ocha — Schéma A2-01 · Vocabulaire ENTRY → SENSE
 
 **Statut** : 🔒 validé le 2026-10-02 (projet A2-01). Décisions de fond : addenda A2, A3 et A4.
+Addendum A5 (`addendum-A5-category-null.md`) : I9 précisé, `category: null` permis pour un sens
+lexical sur décision justifiée (avertissement `categorie-nulle` au lieu d'une erreur).
 
 **Objet** : la forme exacte des données de vocabulaire d'Ocha v2 et les contrôles que le
 validateur (A2-03) leur applique.

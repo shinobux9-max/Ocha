@@ -187,13 +187,15 @@
     "n5_v_44": {
       "status": "proposed",
       "journal": [
-        "A2-04-D0013"
+        "A2-04-D0013",
+        "A2-04-D0057",
+        "A2-04-D0070"
       ],
       "fields": {
         "writings": [
           {
-            "form": "お腹",
-            "furigana": "お<ruby>腹<rt>なか</rt></ruby>"
+            "form": "おなか",
+            "furigana": "おなか"
           }
         ],
         "suru_compatible": false,
@@ -215,14 +217,24 @@
               "level_2": "corps",
               "level_3": "tronc"
             },
-            "semantic_type": "organisme_vivant",
+            "semantic_type": null,
             "dimensions": [],
             "relations": [],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []
             },
-            "nuance": "Souvent dans おなかがすいた (avoir faim) et おなかが痛い (avoir mal au ventre)."
+            "nuance": "Souvent dans お腹がすいた (avoir faim) et お腹が痛い (avoir mal au ventre)."
+          }
+        ],
+        "word": "お腹",
+        "readings": [
+          {
+            "kana": "おなか",
+            "romaji": "onaka",
+            "furigana": "お<ruby>腹<rt>なか</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -240,13 +252,14 @@
       "status": "proposed",
       "journal": [
         "A2-04-D0014",
-        "A2-04-D0047"
+        "A2-04-D0047",
+        "A2-04-D0058"
       ],
       "fields": {
         "writings": [
           {
-            "form": "かばん",
-            "furigana": "かばん"
+            "form": "鞄",
+            "furigana": "<ruby>鞄<rt>かばん</rt></ruby>"
           }
         ],
         "suru_compatible": false,
@@ -276,19 +289,30 @@
               "pragmatic_discourse": []
             }
           }
+        ],
+        "word": "かばん",
+        "readings": [
+          {
+            "kana": "かばん",
+            "romaji": "kaban",
+            "furigana": "かばん",
+            "default": true,
+            "note": null
+          }
         ]
       }
     },
     "n5_v_68": {
       "status": "proposed",
       "journal": [
-        "A2-04-D0025"
+        "A2-04-D0025",
+        "A2-04-D0064"
       ],
       "fields": {
         "writings": [
           {
-            "form": "履く",
-            "furigana": "<ruby>履<rt>は</rt></ruby>く"
+            "form": "はく",
+            "furigana": "はく"
           }
         ],
         "suru_compatible": false,
@@ -319,6 +343,16 @@
             },
             "nuance": "Pour le bas du corps et les pieds ; pour le haut du corps, on dit 着る (きる)."
           }
+        ],
+        "word": "履く",
+        "readings": [
+          {
+            "kana": "はく",
+            "romaji": "haku",
+            "furigana": "<ruby>履<rt>は</rt></ruby>く",
+            "default": true,
+            "note": null
+          }
         ]
       }
     },
@@ -326,13 +360,14 @@
       "status": "proposed",
       "journal": [
         "A2-04-D0015",
-        "A2-04-D0048"
+        "A2-04-D0048",
+        "A2-04-D0059"
       ],
       "fields": {
         "writings": [
           {
-            "form": "果物",
-            "furigana": "<ruby>果<rt>くだ</rt></ruby><ruby>物<rt>もの</rt></ruby>"
+            "form": "くだもの",
+            "furigana": "くだもの"
           }
         ],
         "suru_compatible": false,
@@ -361,19 +396,30 @@
               "pragmatic_discourse": []
             }
           }
+        ],
+        "word": "果物",
+        "readings": [
+          {
+            "kana": "くだもの",
+            "romaji": "kudamono",
+            "furigana": "<ruby>果<rt>くだ</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+            "default": true,
+            "note": null
+          }
         ]
       }
     },
     "n5_v_91": {
       "status": "proposed",
       "journal": [
-        "A2-04-D0016"
+        "A2-04-D0016",
+        "A2-04-D0060"
       ],
       "fields": {
         "writings": [
           {
-            "form": "晩ご飯",
-            "furigana": "<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>"
+            "form": "ばんごはん",
+            "furigana": "ばんごはん"
           }
         ],
         "suru_compatible": false,
@@ -404,19 +450,30 @@
               "pragmatic_discourse": []
             }
           }
+        ],
+        "word": "晩ご飯",
+        "readings": [
+          {
+            "kana": "ばんごはん",
+            "romaji": "bangohan",
+            "furigana": "<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>",
+            "default": true,
+            "note": null
+          }
         ]
       }
     },
     "n5_v_92": {
       "status": "proposed",
       "journal": [
-        "A2-04-D0017"
+        "A2-04-D0017",
+        "A2-04-D0061"
       ],
       "fields": {
         "writings": [
           {
-            "form": "昼ご飯",
-            "furigana": "<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>"
+            "form": "ひるごはん",
+            "furigana": "ひるごはん"
           }
         ],
         "suru_compatible": false,
@@ -446,6 +503,16 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "word": "昼ご飯",
+        "readings": [
+          {
+            "kana": "ひるごはん",
+            "romaji": "hirugohan",
+            "furigana": "<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -481,13 +548,14 @@
       "status": "proposed",
       "journal": [
         "A2-04-D0018",
-        "A2-04-D0049"
+        "A2-04-D0049",
+        "A2-04-D0062"
       ],
       "fields": {
         "writings": [
           {
-            "form": "鍵",
-            "furigana": "<ruby>鍵<rt>かぎ</rt></ruby>"
+            "form": "かぎ",
+            "furigana": "かぎ"
           }
         ],
         "suru_compatible": false,
@@ -516,7 +584,17 @@
               "grammatical": [],
               "pragmatic_discourse": []
             },
-            "nuance": "かぎをかける : fermer à clé."
+            "nuance": "鍵をかける : fermer à clé."
+          }
+        ],
+        "word": "鍵",
+        "readings": [
+          {
+            "kana": "かぎ",
+            "romaji": "kagi",
+            "furigana": "<ruby>鍵<rt>かぎ</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -596,13 +674,14 @@
       "status": "proposed",
       "journal": [
         "A2-04-D0020",
-        "A2-04-D0051"
+        "A2-04-D0051",
+        "A2-04-D0063"
       ],
       "fields": {
         "writings": [
           {
-            "form": "曇り",
-            "furigana": "<ruby>曇<rt>くも</rt></ruby>り"
+            "form": "くもり",
+            "furigana": "くもり"
           }
         ],
         "suru_compatible": false,
@@ -630,6 +709,16 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "word": "曇り",
+        "readings": [
+          {
+            "kana": "くもり",
+            "romaji": "kumori",
+            "furigana": "<ruby>曇<rt>くも</rt></ruby>り",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -801,7 +890,8 @@
     "n5_v_363": {
       "status": "proposed",
       "journal": [
-        "A2-04-D0035"
+        "A2-04-D0035",
+        "A2-04-D0071"
       ],
       "fields": {
         "writings": [],
@@ -819,7 +909,7 @@
             "category": {
               "level_1": "nombres_quantification"
             },
-            "semantic_type": "quantite_valeur",
+            "semantic_type": null,
             "dimensions": [],
             "relations": [],
             "linguistic_functions": {
@@ -836,7 +926,7 @@
               "level_1": "espace_proprietes_spatiales",
               "level_2": "distance_proximite"
             },
-            "semantic_type": "quantite_valeur",
+            "semantic_type": null,
             "dimensions": [],
             "relations": [],
             "linguistic_functions": {
@@ -882,18 +972,18 @@
         ],
         "readings": [
           {
-            "kana": "しち",
-            "romaji": "shichi",
-            "furigana": "<ruby>七<rt>しち</rt></ruby>",
+            "kana": "なな",
+            "romaji": "nana",
+            "furigana": "<ruby>七<rt>なな</rt></ruby>",
             "default": true,
             "note": null
           },
           {
-            "kana": "なな",
-            "romaji": "nana",
-            "furigana": "<ruby>七<rt>なな</rt></ruby>",
+            "kana": "しち",
+            "romaji": "shichi",
+            "furigana": "<ruby>七<rt>しち</rt></ruby>",
             "default": false,
-            "note": "Lecture japonaise, la plus fréquente pour compter et dire l'heure (七時 : しちじ)."
+            "note": "Dans 七時 (しちじ), 七月 (しちがつ) et certains composés."
           }
         ]
       }
@@ -984,18 +1074,18 @@
         ],
         "readings": [
           {
-            "kana": "し",
-            "romaji": "shi",
-            "furigana": "<ruby>四<rt>し</rt></ruby>",
+            "kana": "よん",
+            "romaji": "yon",
+            "furigana": "<ruby>四<rt>よん</rt></ruby>",
             "default": true,
             "note": null
           },
           {
-            "kana": "よん",
-            "romaji": "yon",
-            "furigana": "<ruby>四<rt>よん</rt></ruby>",
+            "kana": "し",
+            "romaji": "shi",
+            "furigana": "<ruby>四<rt>し</rt></ruby>",
             "default": false,
-            "note": "Lecture la plus courante pour compter, car し évoque 死 (mort)."
+            "note": "Dans 四月 (しがつ) ; souvent évitée ailleurs, car homophone de 死 (mort)."
           }
         ]
       }
@@ -1056,19 +1146,20 @@
       "journal": [
         "A2-04-D0036",
         "A2-04-D0037",
-        "A2-04-D0053"
+        "A2-04-D0053",
+        "A2-04-D0065"
       ],
       "fields": {
         "writings": [
           {
-            "form": "いい",
-            "furigana": "いい"
+            "form": "良い",
+            "furigana": "<ruby>良<rt>い</rt></ruby>い"
           }
         ],
         "suru_compatible": false,
         "suffix": false,
         "counter": null,
-        "nuance": "いい est la forme parlée courante ; ses formes conjuguées viennent de よい (よかった, よくない).",
+        "nuance": "Forme écrite ou soutenue : よい (良い). Les formes conjuguées viennent de よい : よかった, よくない.",
         "tags": [],
         "senses": [
           {
@@ -1090,21 +1181,14 @@
             }
           }
         ],
-        "word": "良い",
+        "word": "いい",
         "readings": [
           {
             "kana": "いい",
             "romaji": "ii",
-            "furigana": "<ruby>良<rt>い</rt></ruby>い",
+            "furigana": "いい",
             "default": true,
             "note": null
-          },
-          {
-            "kana": "よい",
-            "romaji": "yoi",
-            "furigana": "<ruby>良<rt>よ</rt></ruby>い",
-            "default": false,
-            "note": "Forme écrite ou soutenue ; base des formes conjuguées."
           }
         ]
       }
@@ -1156,7 +1240,8 @@
       "status": "proposed",
       "journal": [
         "A2-04-D0027",
-        "A2-04-D0026"
+        "A2-04-D0026",
+        "A2-04-D0066"
       ],
       "fields": {
         "writings": [
@@ -1403,7 +1488,8 @@
       "status": "proposed",
       "journal": [
         "A2-04-D0034",
-        "A2-04-D0052"
+        "A2-04-D0052",
+        "A2-04-D0067"
       ],
       "fields": {
         "writings": [],
@@ -1452,7 +1538,9 @@
             },
             "nuance": "大変です : c'est dur, c'est grave."
           }
-        ]
+        ],
+        "grammatical_class": "adjectif_na",
+        "group": "na"
       }
     },
     "n5_v_508": {
@@ -1468,7 +1556,8 @@
       "status": "proposed",
       "journal": [
         "A2-04-D0008",
-        "A2-04-D0044"
+        "A2-04-D0044",
+        "A2-04-D0068"
       ],
       "fields": {
         "writings": [],
@@ -1655,7 +1744,8 @@
       "status": "proposed",
       "journal": [
         "A2-04-D0010",
-        "A2-04-D0046"
+        "A2-04-D0046",
+        "A2-04-D0069"
       ],
       "fields": {
         "writings": [],
