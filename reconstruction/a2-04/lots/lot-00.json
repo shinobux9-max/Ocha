@@ -891,7 +891,8 @@
       "status": "proposed",
       "journal": [
         "A2-04-D0035",
-        "A2-04-D0071"
+        "A2-04-D0071",
+        "A2-04-D0072"
       ],
       "fields": {
         "writings": [],
@@ -1093,7 +1094,8 @@
     "n5_v_401": {
       "status": "proposed",
       "journal": [
-        "A2-04-D0043"
+        "A2-04-D0043",
+        "A2-04-D0073"
       ],
       "fields": {
         "writings": [],
@@ -1489,7 +1491,8 @@
       "journal": [
         "A2-04-D0034",
         "A2-04-D0052",
-        "A2-04-D0067"
+        "A2-04-D0067",
+        "A2-04-D0074"
       ],
       "fields": {
         "writings": [],

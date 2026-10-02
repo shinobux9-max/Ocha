@@ -632,7 +632,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 - **A2-04-D0013** (fusion, entrée) : Même unité lexicale que おなか ; お腹 est une autre graphie. n5_v_44 survit (plus petit numéro). — avant `null` → après `"n5_v_44"`
 - **A2-04-D0057** (decision, word) : Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : お腹 ; おなか devient une autre graphie. — avant `"おなか"` → après `"お腹"`
-- **A2-04-D0070** (decision, sens 1 · semantic_type) : OUVERT : aucun type sémantique du registre ne couvre une partie du corps (organisme_vivant désigne un être vivant). À arbitrer avec A2-ST ; l'entrée reste non validée. — avant `"organisme_vivant"` → après `null`
+- **A2-04-D0070** (type-nul, sens 1 · semantic_type) : Partie du corps : aucun type terminal d'A2-ST-v1 ne convient (organisme_vivant désigne l'être vivant, et la partie n'est pas un type sémantique). Addendum A6. — avant `"organisme_vivant"` → après `null`
 
 | Champ source | Valeur |
 |---|---|
@@ -1766,6 +1766,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - **A2-04-D0034** (fusion, entrée) : 大変 adverbe et 大変 adjectif en な sont une seule unité lexicale ; n5_v_495 survit (plus petit numéro). Classe : adjectif en な ; l'emploi intensifieur relève du sens 1. — avant `null` → après `"n5_v_495"`
 - **A2-04-D0052** (abandon, senses) : Redondant avec « Difficile » et « Pénible » (traduction du doublon n5_v_508). — avant `["Dur"]` → après `null`
 - **A2-04-D0067** (categorie-nulle, sens 2 · category) : « Difficile » : propriété générale ; le sens passe par la dimension facilité / difficulté. Addendum A5.
+- **A2-04-D0074** (type-nul, sens 1 · semantic_type) : Emploi intensifieur (très) : fonction pragmatique, aucun type terminal ne s'applique. Addendum A6.
 
 | Champ source | Valeur |
 |---|---|
@@ -1836,7 +1837,8 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Statut** : PROPOSITION, non validée
 
 - **A2-04-D0035** (fusion, entrée) : Même mot キロ : kilogramme et kilomètre sont deux sens d'une seule abréviation ; n5_v_363 survit (plus petit numéro). — avant `null` → après `"n5_v_363"`
-- **A2-04-D0071** (decision, sens 1 et 2 · semantic_type) : OUVERT : A2-ST-v1 précise qu'une unité n'est pas automatiquement une quantité ; type des sens « kilogramme » et « kilomètre » différé. L'entrée reste non validée. — avant `"quantite_valeur"` → après `null`
+- **A2-04-D0071** (type-nul, sens 1 · semantic_type) : Kilogramme, unité de mesure : la mesure est exclue des types sémantiques, et une unité n'est pas automatiquement une quantite_valeur (A2-ST-v1). Addendum A6. — avant `"quantite_valeur"` → après `null`
+- **A2-04-D0072** (type-nul, sens 2 · semantic_type) : Kilomètre, unité de mesure : la mesure est exclue des types sémantiques, et une unité n'est pas automatiquement une quantite_valeur (A2-ST-v1). Addendum A6. — avant `"quantite_valeur"` → après `null`
 
 | Champ source | Valeur |
 |---|---|
@@ -2128,6 +2130,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Statut** : PROPOSITION, non validée
 
 - **A2-04-D0043** (decision, readings) : Deux lectures d'un même sens ; la condition d'emploi de なん va dans la note de la lecture. — avant `"なん / なに"` → après `["なに (défaut)","なん"]`
+- **A2-04-D0073** (type-nul, sens 1 · semantic_type) : Unité grammaticale (interrogatif) : ni entité ni concept désigné, aucun type terminal ne s'applique. Addendum A6.
 
 | Champ source | Valeur |
 |---|---|

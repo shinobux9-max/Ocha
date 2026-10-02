@@ -912,10 +912,10 @@
     "lot": "lot-00",
     "entry": "n5_v_44",
     "field": "sens 1 · semantic_type",
-    "kind": "decision",
+    "kind": "type-nul",
     "before": "organisme_vivant",
     "after": null,
-    "reason": "OUVERT : aucun type sémantique du registre ne couvre une partie du corps (organisme_vivant désigne un être vivant). À arbitrer avec A2-ST ; l'entrée reste non validée."
+    "reason": "Partie du corps : aucun type terminal d'A2-ST-v1 ne convient (organisme_vivant désigne l'être vivant, et la partie n'est pas un type sémantique). Addendum A6."
   },
   {
     "id": "A2-04-D0071",
@@ -923,10 +923,46 @@
     "date": "2026-10-02",
     "lot": "lot-00",
     "entry": "n5_v_363",
-    "field": "sens 1 et 2 · semantic_type",
-    "kind": "decision",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
     "before": "quantite_valeur",
     "after": null,
-    "reason": "OUVERT : A2-ST-v1 précise qu'une unité n'est pas automatiquement une quantité ; type des sens « kilogramme » et « kilomètre » différé. L'entrée reste non validée."
+    "reason": "Kilogramme, unité de mesure : la mesure est exclue des types sémantiques, et une unité n'est pas automatiquement une quantite_valeur (A2-ST-v1). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0072",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_363",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": "quantite_valeur",
+    "after": null,
+    "reason": "Kilomètre, unité de mesure : la mesure est exclue des types sémantiques, et une unité n'est pas automatiquement une quantite_valeur (A2-ST-v1). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0073",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_401",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité grammaticale (interrogatif) : ni entité ni concept désigné, aucun type terminal ne s'applique. Addendum A6."
+  },
+  {
+    "id": "A2-04-D0074",
+    "status": "proposed",
+    "date": "2026-10-02",
+    "lot": "lot-00",
+    "entry": "n5_v_495",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Emploi intensifieur (très) : fonction pragmatique, aucun type terminal ne s'applique. Addendum A6."
   }
 ]

@@ -37,7 +37,7 @@ n'existe :
 |---|---|
 | Reconstruction (`tools/reconstruction/decisions.mjs`) | un sens sans catégorie ni fonction exige une décision de journal de nature `categorie-nulle`, sur ce sens précisément (champ `sens <n> · category`) ; sinon : `categorie-nulle-injustifiee`, et l'entrée n'est pas assemblée |
 | Validateur lexical (I9, `tools/lexicon/sense.mjs`) | `category: null` sans fonction n'est plus une erreur mais un **avertissement** (`categorie-nulle`) : les données canoniques ne portent pas le journal ; l'avertissement liste les cas pour l'audit A2-05 |
-| I10 | inchangé : `semantic_type: null` seulement si `category` est `null` |
+| I10 | modifié ensuite par l'addendum A6 : `semantic_type: null` est indépendant de `category` |
 
 Après la publication d'A2-04, la justification d'un nouveau sens lexical sans catégorie devra
 passer par une procédure équivalente, à définir avec le premier cas réel.

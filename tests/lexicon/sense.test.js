@@ -79,10 +79,16 @@ test('I9 : chemin complet existant ; null avec une fonction, ou signalé pour un
   assertClean((x, e, s) => { s.category = { level_1: 'temps', level_2: null, level_3: null }; }, 'niveau 1 seul');
 });
 
-test('I10 : type terminal du registre ; null seulement si category est null', () => {
+test('I10 : type terminal du registre, ou null indépendamment de category (addendum A6)', () => {
   assertErr('type-inconnu', (x, e, s) => { s.semantic_type = 'entity'; }, 'famille');
   assertErr('type-inconnu', (x, e, s) => { s.semantic_type = 'personne_generique'; });
-  assertErr('type-nul', (x, e, s) => { s.semantic_type = null; });
+  // null avec une catégorie : admis, signalé pour l'audit (sens lexical).
+  assertClean((x, e, s) => { s.semantic_type = null; }, 'type nul, catégorie présente');
+  assert.ok(run((x, e, s) => { s.semantic_type = null; }).warnings.some((w) => w.code === 'type-nul'));
+  // Une fonction linguistique le justifie : pas d'avertissement.
+  const fn = (x, e, s) => { s.category = null; s.semantic_type = null; s.linguistic_functions = GRAMMATICAL; };
+  assertClean(fn, 'unité grammaticale');
+  assert.ok(!run(fn).warnings.some((w) => w.code === 'type-nul'));
   assertClean((x, e, s) => { s.category = null; s.semantic_type = 'information_contenu'; s.linguistic_functions = GRAMMATICAL; }, 'type avec category null');
 });
 

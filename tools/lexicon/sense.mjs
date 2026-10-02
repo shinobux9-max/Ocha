@@ -78,10 +78,12 @@ function checkSense(report, ctx, entryWhere, entry, sense, k, ids, retired) {
     }
   }
 
-  // I10 · type sémantique : terminal du registre, ou null seulement si category est null
+  // I10 · type sémantique : terminal du registre, ou null (addendum A6), indépendamment de
+  // category. Sans fonction linguistique, null est une décision justifiée au journal de
+  // reconstruction, que les données canoniques ne portent pas : signalé pour l'audit.
   if (Object.hasOwn(sense, 'semantic_type')) {
     if (sense.semantic_type === null) {
-      if (sense.category !== null) report.error('type-nul', where, 'semantic_type: null seulement si category est null');
+      if (!hasFunction(sense)) report.warn('type-nul', where, 'semantic_type: null sans fonction linguistique : décision à justifier (addendum A6)');
     } else if (typeof sense.semantic_type === 'string' && sense.semantic_type !== '' && !ctx.index.isSemanticType(sense.semantic_type)) {
       report.error('type-inconnu', where, `type sémantique « ${sense.semantic_type} » : type terminal du registre attendu`);
     }

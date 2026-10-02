@@ -3,6 +3,8 @@
 **Statut** : 🔒 validé le 2026-10-02 (projet A2-01). Décisions de fond : addenda A2, A3 et A4.
 Addendum A5 (`addendum-A5-category-null.md`) : I9 précisé, `category: null` permis pour un sens
 lexical sur décision justifiée (avertissement `categorie-nulle` au lieu d'une erreur).
+Addendum A6 (`addendum-A6-semantic-type-null.md`) : I10 modifié, `semantic_type: null` permis
+quand aucun type terminal ne convient, indépendamment de `category` (avertissement `type-nul`).
 
 **Objet** : la forme exacte des données de vocabulaire d'Ocha v2 et les contrôles que le
 validateur (A2-03) leur applique.
@@ -146,8 +148,8 @@ relation.
 | `id` | texte | oui | `<id de l'ENTRY>_s<m>`, unique ; numérotation monotone |
 | `meaning.primary` | texte | oui | libellé montré par défaut |
 | `meaning.alternatives` | liste | oui, peut être vide | autres traductions du **même** sens, distinctes du libellé |
-| `category` | objet ou `null` | oui | `{ level_1, level_2, level_3 }`, `level_1` obligatoire, `level_3` seulement avec `level_2`, chemin existant ; `null` seulement pour un sens portant au moins une fonction linguistique |
-| `semantic_type` | identifiant ou `null` | oui | `null` seulement si `category` est `null` |
+| `category` | objet ou `null` | oui | `{ level_1, level_2, level_3 }`, `level_1` obligatoire, `level_3` seulement avec `level_2`, chemin existant ; `null` lorsqu'aucune catégorie primaire pertinente n'existe : justifié par une fonction linguistique, ou, pour un sens lexical, par une décision explicite (addendum A5) |
+| `semantic_type` | identifiant ou `null` | oui | type terminal du registre, ou `null` lorsqu'aucun type terminal ne décrit correctement la nature du sens, sur décision explicite (addendum A6) ; indépendant de `category` |
 | `dimensions` | liste | oui, peut être vide | `{ axis, pole }`, pôle de l'axe, un axe au plus une fois |
 | `relations` | liste | oui, peut être vide | `{ type, target }` : type de `A2-REL-v1.1`, cible = identifiant de SENSE ; une relation symétrique ou inverse n'est notée qu'une fois |
 | `linguistic_functions` | objet | oui | `{ grammatical: [], pragmatic_discourse: [] }` |
@@ -225,8 +227,8 @@ catégories.
 | I6 | `grammatical_class` dans son registre ; `group` parmi `ru`, `u`, `irrégulier`, `suru`, `i`, `na`, `nom` ou `null` ; `suru_compatible: true` seulement avec `group: nom` ; `counter_for` non vide et dans son registre |
 | I7 | Au moins un SENSE ; identifiant `<id de l'ENTRY>_s<m>`, unique, absent de `retired_sense_ids` ; chaque identifiant de `retired_sense_ids` a la forme d'un sens de cette ENTRY |
 | I8 | `meaning.primary` non vide ; alternatives non vides, distinctes entre elles et du libellé |
-| I9 | `category` : chemin existant, `level_1` présent, `level_3` seulement avec `level_2` ; `category: null` seulement si le sens porte au moins une fonction linguistique |
-| I10 | `semantic_type` dans son registre, ou `null` seulement si `category` est `null` |
+| I9 | `category` : chemin existant, `level_1` présent, `level_3` seulement avec `level_2` ; `category: null` sans fonction linguistique : avertissement `categorie-nulle` (addendum A5) |
+| I10 | `semantic_type` : type terminal du registre, ou `null`, indépendamment de `category` ; `semantic_type: null` sans fonction linguistique : avertissement `type-nul` (addendum A6) |
 | I11 | Dimension : axe et pôle dans le registre, pôle appartenant à l'axe, un axe au plus une fois par sens |
 | I12 | Relation : type de `A2-REL-v1.1` ; cible = sens existant, différent du sens porteur ; aucun doublon, y compris une relation symétrique notée des deux côtés ou une relation et son inverse |
 | I13 | Fonctions linguistiques dans le registre, chacune dans sa famille (`grammatical` ou `pragmatic_discourse`) |

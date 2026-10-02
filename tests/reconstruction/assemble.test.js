@@ -193,12 +193,35 @@ test('category null pour un sens lexical : décision « categorie-nulle » du jo
   assert.ok(codes(run([lot({ n5_v_188: nullSense() })], [journalEntry('A2-04-D0001', 'decision', 'n5_v_188')])).includes('categorie-nulle-injustifiee'));
   const jWrongSense = [journalEntry('A2-04-D0001', 'categorie-nulle', 'n5_v_188', { field: 'sens 2 · category' })];
   assert.ok(codes(run([lot({ n5_v_188: nullSense() })], jWrongSense)).includes('categorie-nulle-injustifiee'), 'sur ce sens précisément');
-  const fn = { linguistic_functions: { grammatical: ['interrogatif'], pragmatic_discourse: [] }, semantic_type: null };
-  assert.deepEqual(run([lot({ n5_v_188: validated(fieldsFor('n5_v_188', { senses: [sense({ category: null, ...fn })] })) })]).problems, [], 'une fonction suffit');
+  const fn = { linguistic_functions: { grammatical: ['interrogatif'], pragmatic_discourse: [] } };
+  assert.deepEqual(run([lot({ n5_v_188: validated(fieldsFor('n5_v_188', { senses: [sense({ category: null, ...fn })] })) })]).problems, [], 'une fonction suffit pour la catégorie');
 });
 
 test('大変 : classe et groupe décidables (exception de classe)', () => {
   const a = run([lot({ n5_v_495: validated(fieldsFor('n5_v_495', { grammatical_class: 'adjectif_na', group: 'na' })) })]);
   assert.deepEqual(a.problems, []);
   assert.equal(a.files[0].entries[0].linguistic.grammatical_class, 'adjectif_na');
+});
+
+// ── 5.1c : addendum A6, semantic_type null ──
+
+test('semantic_type null : décision « type-nul » du journal exigée, sur ce sens, même avec une catégorie', () => {
+  const typeNull = (journal) => validated(fieldsFor('n5_v_188', { senses: [sense(), sense({ semantic_type: null })] }), journal);
+  const field = (n) => ({ field: `sens ${n} · semantic_type` });
+  assert.ok(codes(run([lot({ n5_v_188: typeNull() })])).includes('type-nul-injustifie'), 'sans justification');
+  assert.ok(codes(run([lot({ n5_v_188: typeNull(['A2-04-D0001']) })], [journalEntry('A2-04-D0001', 'type-nul', 'n5_v_188', field(1))])).includes('type-nul-injustifie'), 'sur un autre sens');
+  assert.ok(codes(run([lot({ n5_v_188: typeNull(['A2-04-D0001']) })], [journalEntry('A2-04-D0001', 'decision', 'n5_v_188', field(2))])).includes('type-nul-injustifie'), 'mauvaise nature');
+  const a = run([lot({ n5_v_188: typeNull(['A2-04-D0001']) })], [journalEntry('A2-04-D0001', 'type-nul', 'n5_v_188', field(2))]);
+  assert.deepEqual(a.problems, []);
+  // Indépendant de category : catégorie présente, type nul, aucune erreur du validateur.
+  const r = validateAssembly(a, DEPS);
+  assert.deepEqual(r.errors, []);
+  assert.ok(r.warnings.some((w) => w.code === 'type-nul'));
+});
+
+test('semantic_type null : la justification est exigée aussi pour une unité grammaticale', () => {
+  const s = sense({ category: null, semantic_type: null, linguistic_functions: { grammatical: ['interrogatif'], pragmatic_discourse: [] } });
+  assert.ok(codes(run([lot({ n5_v_188: validated(fieldsFor('n5_v_188', { senses: [s] })) })])).includes('type-nul-injustifie'));
+  const j = [journalEntry('A2-04-D0001', 'type-nul', 'n5_v_188', { field: 'sens 1 · semantic_type' })];
+  assert.deepEqual(run([lot({ n5_v_188: validated(fieldsFor('n5_v_188', { senses: [s] }), ['A2-04-D0001']) })], j).problems, []);
 });

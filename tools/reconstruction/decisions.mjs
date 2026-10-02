@@ -27,7 +27,7 @@ import { numberOf, newId } from './mechanical.mjs';
 
 export const STATUSES = Object.freeze(['proposed', 'validated']);
 export const JOURNAL_ID = /^A2-04-D[0-9]{4}$/;
-export const JOURNAL_KINDS = Object.freeze(['correction', 'fusion', 'retrait', 'exception-fusion', 'abandon', 'ajout', 'decision', 'categorie-nulle']);
+export const JOURNAL_KINDS = Object.freeze(['correction', 'fusion', 'retrait', 'exception-fusion', 'abandon', 'ajout', 'decision', 'categorie-nulle', 'type-nul']);
 const JOURNAL_KEYS = ['id', 'status', 'date', 'lot', 'entry', 'field', 'kind', 'before', 'after', 'reason'];
 const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
 const sameKeys = (o, keys) => Object.keys(o).sort().join(',') === [...keys].sort().join(',');
@@ -110,6 +110,14 @@ function checkFields(problems, where, fields, pre, { addition = false, mergeTarg
         const field = `sens ${k + 1} · category`;
         if (!cited.some((j) => j.kind === 'categorie-nulle' && j.field === field)) {
           problems.push({ code: 'categorie-nulle-injustifiee', where: `${where} · sens ${k + 1}`, message: `category: null pour un sens lexical : décision « categorie-nulle » du journal attendue (champ « ${field} »)` });
+        }
+      }
+      // Addendum A6 : tout sens à semantic_type: null exige une décision « type-nul » du journal,
+      // sur ce sens précisément ; c'est une absence décidée, jamais une classification oubliée.
+      if (isObject(s) && s.semantic_type === null) {
+        const field = `sens ${k + 1} · semantic_type`;
+        if (!cited.some((j) => j.kind === 'type-nul' && j.field === field)) {
+          problems.push({ code: 'type-nul-injustifie', where: `${where} · sens ${k + 1}`, message: `semantic_type: null : décision « type-nul » du journal attendue (champ « ${field} »)` });
         }
       }
     });
