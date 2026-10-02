@@ -1,7 +1,7 @@
 # Ocha v2 — Règles de construction
 
-**Statut** : 🔒 verrouillé (version 2.3 : identifiants `v_<n>` et `g_<n>`, addenda A3 et A4 ;
-version 2.2 : commande de test corrigée pour Node 22 et plus, droits de `src/app.js` précisés).
+**Statut** : 🔒 verrouillé (version 2.2 : commande de test corrigée pour Node 22 et plus ;
+droits de `src/app.js` précisés).
 
 **S'applique à** : la branche `ocha-v2` uniquement. La branche `main` (Ocha actuel) garde son
 propre `REGLES-CONSTRUCTION.md`, qui ne s'applique **pas** ici.
@@ -15,7 +15,8 @@ consignes opérationnelles pour quiconque modifie le dépôt, humain ou agent. E
 ## 1. Avant toute tâche
 
 1. Lire `docs/conception/00-sommaire.md`, puis les parties concernées par la tâche.
-2. Lire `ETAT-ACTUEL.md` : étape de reconstruction en cours, ce qui est fait, ce qui reste.
+2. Lire `ROADMAP.md` : position globale, ordre des grands chantiers jusqu'à la version finale.
+   Puis `ETAT-ACTUEL.md` : étape de reconstruction en cours, ce qui est fait, ce qui reste.
 3. Vérifier qu'on est sur la branche `ocha-v2` :
    ```
    git branch --show-current
@@ -45,6 +46,8 @@ La reconstruction suit les étapes 0 à 7 de la partie 9 (9.9).
 - **On ne travaille pas sur l'interface avant l'étape 5**, même pour « voir le rendu ».
 - **La maquette v4 est une référence visuelle**, jamais une base de code à copier.
 - Après chaque tâche, **mettre à jour `ETAT-ACTUEL.md`** : étape, fait, reste, points ouverts.
+  `ROADMAP.md` n'est mis à jour que si l'avancement global change (règles de sa section 16) ;
+  il ne crée aucune décision de conception.
 
 ---
 
@@ -127,15 +130,8 @@ Il est lancé avant chaque commit, avec les tests.
 
 - **Les références suivent la forme `{ type, id }`** en interne (partie 2). Dans les données,
   les clés sont `grammar`, `vocab`, `kanji`, `kana`, `expression`.
-- **Ne jamais inventer un identifiant** de contenu (`v_…`, `g_…`, `ex_…`). Un contenu manquant
-  se signale, il ne se crée pas au passage.
-- **L'identité ne contient pas le niveau** (addendum A4) : vocabulaire `v_<n>`, grammaire `g_<n>`,
-  niveau dans le champ `level`. Aucun code ne déduit le niveau d'un identifiant d'élément. Un
-  identifiant retiré n'est jamais réattribué. Seules les activités gardent leur niveau dans
-  l'identifiant (`n5_m_…`, `n5_l_…`).
-  Transition : ces formes s'appliquent à la grammaire à partir de la tâche 1 bis de l'étape 2,
-  au vocabulaire à la publication des données reconstruites (A2-04) ; d'ici là, les données
-  gardent leurs identifiants actuels.
+- **Ne jamais inventer un identifiant** de contenu (`n5_v_…`, `n5_g_…`, `ex_…`, `hj_v_…`). Un
+  contenu manquant se signale, il ne se crée pas au passage.
 - **Les identifiants de questions générées** suivent `gen:<générateur>:<cible>:<variante>` et
   doivent être stables : la même question produit toujours le même identifiant.
 - **Toute modification de données** passe le validateur avant commit :
@@ -243,6 +239,7 @@ Il est lancé avant chaque commit, avec les tests.
 - [ ] Aucun `onclick` ni fonction exposée sur `window` pour l'interface.
 - [ ] Chaque événement pédagogique est attendu avant la transition d'interface qui en dépend.
 - [ ] `ETAT-ACTUEL.md` mis à jour.
+- [ ] `ROADMAP.md` mis à jour si l'avancement global a changé.
 - [ ] Aucun fichier de conception verrouillé n'a été modifié, sauf addendum explicitement
       demandé.
 - [ ] Commit sur une seule ligne.

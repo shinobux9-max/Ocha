@@ -2,9 +2,10 @@
 
 **S'applique à** : la branche `ocha-v2` uniquement.
 
-Ce fichier dit **où en est la reconstruction**. Il évolue à chaque tâche. Ce que Ocha doit
-devenir est décrit dans `docs/conception/` (verrouillé) ; comment travailler, dans
-`REGLES-CONSTRUCTION.md`.
+Ce fichier dit **où en est la reconstruction**, dans le détail technique. Il évolue à chaque
+tâche. La vue d'ensemble jusqu'à la version finale (étapes 0 à 7, grands chantiers) est dans
+`ROADMAP.md` ; ce que Ocha doit devenir, dans `docs/conception/` (verrouillé) ; comment
+travailler, dans `REGLES-CONSTRUCTION.md`.
 
 ---
 
@@ -420,3 +421,4 @@ modifier ses parties verrouillées.
 | 2026-10-02 | 2 · 5.3b | Révision du lot 02 : critère des tags de lieu formalisé ; 11 entrées modifiées (9 tags retirés, 2 alternatives retirées), 18 décisions réécrites sous leur identifiant, aucune nouvelle ; 27 tags au lieu de 37 ; essai à blanc inchangé : 123 ENTRY, 0 erreur, 0 attente ; tags des repas du lot 0 signalés à l'audit A2-05 ; 420 tests | — |
 | 2026-10-02 | 2 · 5.3 | Validation du lot 02 : 41 entrées et 80 décisions passées en `validated` sans autre changement ; assemblage réel : 123 ENTRY, 28 retraits, 0 problème, 0 erreur, 0 attente, 568 entrées encore à décider ; test d'état adapté ; 3 sabotages attrapés (le troisième refait avec le bon identifiant) ; 420 tests | — |
 | 2026-10-02 | 2 · 5.4 | Lot 03 proposé : 40 entrées (39 gardées, 掃除する fusionné dans 掃除), 72 décisions de journal proposées (D0221 à D0292) ; essai à blanc : 162 ENTRY, 29 retraits, 0 problème, 0 erreur, 0 attente, 1 `type-nul` de plus (電気 « électricité ») ; 1 nouveau test ; 421 tests | — |
+| 2026-10-03 | — | Feuille de route globale `ROADMAP.md` ajoutée à la racine, sans décision de conception nouvelle ; branchée dans `REGLES-CONSTRUCTION.md` (lecture avant toute tâche, mise à jour seulement si l'avancement global change, case de la liste de contrôle) | — |
