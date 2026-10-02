@@ -20,6 +20,8 @@ import { fileURLToPath } from 'node:url';
 import { GUIDED_CONFIG } from '../src/config.js';
 // Même contrôle du catalogue des kana que le contenu : une seule définition des règles.
 import { kanaProblems, kanaEntries } from '../src/content/index.js';
+// Liste unique des registres et de leur source, partagée avec le validateur lexical (A2-03).
+import { REGISTRY_SOURCES } from './lexicon/schema.mjs';
 
 // ── Périmètre ───────────────────────────────────────────────────────────────
 
@@ -42,8 +44,11 @@ const levelFromField = (value) => (Object.hasOwn(LEVEL_VALUES, value) ? LEVEL_VA
 // Identifiants indépendants du niveau (addendum A4) : la grammaire est `g_<n>` (contrôle I20).
 // Le niveau d'un élément n'est JAMAIS déduit de son identifiant.
 const GRAMMAR_ID = /^g_[1-9][0-9]*$/;
-// Préfixes réservés aux identifiants d'éléments (contrôle I18) ; « v_ » s'ajoutera avec A2-03.
-export const RESERVED_PREFIXES = Object.freeze(['g_']);
+// Préfixes réservés aux identifiants d'éléments (contrôle I18) : « g_ » pour la grammaire
+// (addendum A4), « v_ » pour le vocabulaire (addendum A3). Ils sont refusés dans toutes les
+// autres familles (lieux, registres de langue, personnages, activités, questions, expressions,
+// registres A2) ; les identifiants de vocabulaire eux-mêmes sont contrôlés par leur propre forme.
+export const RESERVED_PREFIXES = Object.freeze(['g_', 'v_']);
 
 // Emplacements provisoires : l'ancienne app charge encore ces fichiers ici. Ils seront
 // déplacés à l'étape 5 (concepts vers data/<niveau>/concepts.json).
@@ -509,19 +514,7 @@ function checkParticles(index, report, lvl, particles) {
 // une version de snapshot `source` et des familles.
 
 const REGISTRY_ID = /^[a-z0-9]+(_[a-z0-9]+)*$/;
-export const REGISTRY_SOURCES = Object.freeze({
-  'categories.json': 'A2-L3-v1',
-  'semantic-types.json': 'A2-ST-v1',
-  'dimensions.json': 'A2-DIM-v1',
-  'relations.json': 'A2-REL-v1.1',
-  'linguistic-functions.json': 'A2-LING-v1',
-  // Registres décidés en A2-02, et non transcrits d'un snapshot : les classes grammaticales
-  // (A2-LING-v1 nomme la propriété sans en donner les valeurs) et les compatibilités de
-  // compteur (notions d'A2-LING-v1, identifiants fixés par A2-02 sauf `small_animals`).
-  'grammatical-classes.json': 'A2-02',
-  'counters.json': 'A2-02',
-  'tags.json': 'A2-02'
-});
+export { REGISTRY_SOURCES };
 
 // Natures de tag (A2-02 · 3.4). Le validateur reconnaît un tag de lieu par ce champ explicite,
 // jamais par son identifiant (addendum A2, D2 : aucun lien déduit d'une convention de nom).
@@ -543,7 +536,10 @@ function checkRegistryNode(report, where, node, keys, what) {
     return false;
   }
   checkReservedPrefix(report, where, node.id, what);
-  if (typeof node.label !== 'string' || node.label.trim() === '') report.error('registre-format', where, `${what} « ${node.id} » : libellé manquant`);
+  // Intégrité textuelle (décision du 2026-10-02, transmise par l'audit d'A2-02) : libellé non vide,
+  // sans espace au début ni à la fin.
+  if (typeof node.label !== 'string' || node.label === '') report.error('registre-format', where, `${what} « ${node.id} » : libellé manquant`);
+  else if (node.label !== node.label.trim()) report.error('registre-format', where, `${what} « ${node.id} » : espace au début ou à la fin du libellé`);
   return true;
 }
 

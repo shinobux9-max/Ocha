@@ -585,3 +585,26 @@ test('tags : la nature est lue dans kind, jamais déduite du préfixe de l\'iden
   // Nature « lieu » sans le préfixe : accepté, rien ne l'exige.
   assert.deepEqual(errorsOf((d) => { d[REG('tags')].tags[0].id = 'pres_de_la_gare'; }), []);
 });
+
+// ── A2-03 · 4.1 : règles transmises par l'audit d'A2-02 ──
+
+test('registres : libellé sans espace au début ni à la fin', () => {
+  for (const label of [' Personne', 'Personne ', ' ']) {
+    assert.ok(codes(errorsOf((d) => { d[REG('semantic-types')].families[0].types[0].label = label; })).includes('registre-format'), JSON.stringify(label));
+  }
+  assert.ok(codes(errorsOf((d) => { d[REG('tags')].tags[0].label = 'Utile au konbini '; })).includes('registre-format'));
+  assert.ok(codes(errorsOf((d) => { d[REG('categories')].levels[0].children[0].children[0].label = 'Mois\t'; })).includes('registre-format'));
+  assert.deepEqual(errorsOf((d) => { d[REG('semantic-types')].families[0].types[0].label = 'Objet / artefact'; }), [], 'espaces internes permis');
+});
+
+test('préfixe v_ réservé hors vocabulaire (addendum A3, I18)', () => {
+  const cases = [
+    (d) => { d['lieux.json'][0].id = 'v_konbini'; d['n5/missions.json'][0].place = 'v_konbini'; },
+    (d) => { d['registres.json'].push({ id: 'v_soutenu' }); },
+    (d) => { d['n5/missions.json'][0].characters.push({ id: 'v_ken' }); },
+    (d) => { d['n5/lectures.json'][0].questions[0].id = 'v_q_1'; },
+    (d) => { d[REG('counters')].compatibilities[0].id = 'v_animals'; },
+    (d) => { d[REG('categories')].levels[0].children[0].id = 'v_unites'; }
+  ];
+  for (const [i, change] of cases.entries()) assert.ok(codes(errorsOf(change)).includes('prefixe-reserve'), `cas ${i + 1}`);
+});
