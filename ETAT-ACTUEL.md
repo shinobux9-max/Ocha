@@ -15,9 +15,9 @@ devenir est décrit dans `docs/conception/` (verrouillé) ; comment travailler, 
 comprend la reconstruction du vocabulaire selon l'architecture sémantique A2 (projets A2-01 à
 A2-05) et la réidentification de la grammaire (addendum A4).
 
-**Tâche en cours : 3 · A2-02 · Registres.** 3.1, 3.2 et 3.3 validées ; 3.4 livrée (tags,
-rapport `docs/rapports/etape2-tache3-4-tags.md`) : les huit registres existent. Prochaine
-sous-tâche : 3.5 (audit et clôture d'A2-02, sans nouveau registre), après la validation de 3.4. A2-01 est verrouillé
+**Prochaine tâche : 4 · A2-03 · Validateur du schéma lexical**, avant toute reconstruction du
+vocabulaire. A2-02 est terminé : les huit registres de `data/registries/` sont audités (rapport
+final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
 réidentifiée en `g_<n>` (tâche 1 bis) ; le catalogue minimal du contenu existe (tâche 2, G1,
 rapport `docs/rapports/etape2-tache2-G1.md`).
@@ -32,7 +32,7 @@ livraison, relecture, tests verts, commit.
 | 1 | A2-01 · Verrouillage | schéma A2-01, addenda A3 et A4, `REGLES-CONSTRUCTION.md` 2.3, mentions de statut dans les parties concernées ; documents seulement | ✅ fait |
 | 1 bis | Réidentification de la grammaire (A4) | un seul commit : `grammar.json` (`n5_g_<n>` → `g_<n>`, champ `level`), 63 références actives remappées, `events.js` (E5), validateur (I20, A4, préfixe `g_` de I18), tests ; plus aucun niveau déduit d'un identifiant `g_` ; `exemples.json` et fichiers de l'ancienne app inchangés | ✅ fait |
 | 2 | G1 · Catalogue minimal | `data/kana.json` (grille, 210 kana, non-régression), `createContent(rawData)` pur, `elementExists`, `elementsOfScope` ; ne lit que les identifiants ; niveau donné par la place du fichier ; comptes tirés des données ; test d'intégration par les surfaces publiques de `content` et `learning` | ✅ fait |
-| 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (livrée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | 3.1 à 3.3 validées, 3.4 livrée |
+| 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (livrée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait (3.1 à 3.4 validées, 3.5 audit livré) |
 | 4 | A2-03 · Validateur | I1 à I19, A1 à A3, N1 (`schema-A2-01.md`, §12) ; testés sur données d'essai, activés sur `data/` à la publication | à faire |
 | 5 | A2-04.0 · Espace de travail | sources figées, fichiers de lot, journal des corrections, table de correspondance, outil d'assemblage | à faire |
 | 6 | A2-04.1 à .15 · Lots | ~50 entrées par lot : proposition, relecture, audit, commit dans l'espace de travail | à faire |
@@ -83,7 +83,7 @@ bloque `npm test`).
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
   `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
-  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tests/` (311 tests dans Node, plus la page
+  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tests/` (315 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -201,6 +201,7 @@ modifier ses parties verrouillées.
 | 2026-10-02 | A2-02 · 3.3 · `grammatical-classes.json` : `{ source: "A2-02", classes: [{ id, label }] }`, les dix classes dans l'ordre arbitré ; `counters.json` : `{ source: "A2-02", compatibilities: [{ id, label }] }`. `source: "A2-02"` signale des registres décidés par Ocha et non transcrits d'un snapshot. Chaîne à respecter (contrôlée en A2-03) : propriété `counter` → `counter_for` → identifiant de `counters.json`. Aucune forme (一つ, 一人, 二十歳…) n'est rendue compteur par détection : au N5, seul 匹 a besoin de `counter_for` | `data/registries/` |
 | 2026-10-02 | A2-02 · 3.3 · `source: "A2-02"` et libellés des classes et des compatibilités validés ; la provenance détaillée (notions d'`A2-LING-v1`, identifiants décidés en A2-02) est tenue par le rapport et `tests/registries/decisions.test.js` | 3.3 |
 | 2026-10-02 | A2-02 · 3.4 · `tags.json` : `{ source: "A2-02", tags: [{ id, label, description, kind }] }` ; `kind` parmi `TAG_KINDS` (`lieu` seul) ; quatre tags `lieu_konbini`, `lieu_gare`, `lieu_restaurant`, `lieu_hotel`, libellés « Utile au… », descriptions d'usage ; la nature est lue dans `kind`, jamais déduite du préfixe ; aucun champ de cycle de vie ; critères et procédure dans `docs/conception/registre-des-tags.md` | `data/registries/tags.json` |
+| 2026-10-02 | A2-02 · 3.5 · audit transversal permanent (`tests/registries/audit.test.js`) : exactement huit registres et leur provenance ; aucun identifiant préfixé `v_` ni `g_` dans les registres (le validateur ne refusera `v_` qu'à partir d'A2-03) ; libellés sans espaces autour ; unicité dans chaque espace de noms lu par le schéma A2-01 ; aucune dépendance du code au préfixe `lieu_`. Seul identifiant commun à deux registres : `temps` (catégorie de niveau 1 et fonction grammaticale), légal puisque chaque champ du schéma désigne son registre | `tests/registries/audit.test.js` |
 
 ---
 
@@ -241,6 +242,11 @@ modifier ses parties verrouillées.
 - **Romaji des kana** (`–` pour っ, `di`, `du`, `wo`) : repris tels quels dans `kana.json` ;
   correction éventuelle à décider séparément.
 - **Grammaire présente dans plusieurs niveaux** : à décider à l'intégration du N4 (addendum A4).
+- **Pour A2-03** (relevé par l'audit d'A2-02) : ajouter `v_` aux préfixes réservés (I18) ;
+  résoudre une catégorie par son chemin complet (L1, L2, L3), jamais par un identifiant isolé ;
+  reconnaître un tag de lieu par `kind` (I14) ; décider s'il faut refuser les espaces autour d'un
+  libellé de registre dans `validate-data` (aujourd'hui vérifié par l'audit seulement) ; les
+  registres sont dans `data/registries/`, emplacement que `schema-A2-01.md` laissait à A2-02.
 - **Points d'audit obligatoires d'A2-04 : doublons candidats** (à vérifier un par un avant tout
   retrait d'identifiant, ce ne sont pas des fusions autorisées) : お姉さん, お母さん, お父さん,
   美味しい, 面白い, 本当, 浴びる, 無くす, 醤油 (même mot en double) ; おなか / お腹, かばん / 鞄,
@@ -299,3 +305,4 @@ modifier ses parties verrouillées.
 | 2026-10-02 | 2 · 3.2 | Catégories : `categories.json` (32 / 225 / 585, dont 56 niveaux 2 sans niveau 3), snapshot `A2-L3-v1` déposé ; intégrité de l'arbre dans `validate-data` (unicité parmi les frères seulement) ; transcription comparée à l'arbre entier du snapshot ; 6 nouveaux tests, 16 sabotages attrapés ; 304 tests | — |
 | 2026-10-02 | 2 · 3.3 | Classes grammaticales et compteurs : `grammatical-classes.json` (10 classes), `counters.json` (6 compatibilités) ; registres plats contrôlés par `validate-data` ; tests distinguant ce qui vient d'`A2-LING-v1` de ce qui a été décidé en A2-02 ; 4 nouveaux tests, 13 sabotages attrapés ; 308 tests | — |
 | 2026-10-02 | 2 · 3.4 | Tags : `tags.json` (4 tags de lieu), contrôle dans `validate-data` (nature par `kind` seulement), `docs/conception/registre-des-tags.md` (critères et procédure), sommaire ; 3 nouveaux tests, 10 sabotages attrapés ; 311 tests | — |
+| 2026-10-02 | 2 · 3.5 | Audit et clôture d'A2-02 : huit registres audités (1 011 nœuds), conformité aux décisions 1 à 11, test d'audit transversal ; aucun registre modifié ; 4 nouveaux tests, 6 sabotages attrapés ; 315 tests ; A2-02 terminé | — |
