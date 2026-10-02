@@ -1,0 +1,1884 @@
+{
+  "lot": "lot-01",
+  "title": "Personnes, famille, corps et santé",
+  "entries": {
+    "n5_v_11": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0075"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme respectueux : pour parler de membres de la famille d'autrui, ou pour s'adresser aux siens.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Grand-père",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "grands_parents_descendants"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Vieil homme",
+              "alternatives": [
+                "Personne âgée"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie",
+              "level_3": "vieillissement"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Pour désigner ou interpeller poliment un homme âgé qu'on ne connaît pas."
+          }
+        ]
+      }
+    },
+    "n5_v_12": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0077"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme respectueux : pour parler de membres de la famille d'autrui, ou pour s'adresser aux siens.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Oncle",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "parente_etendue"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Monsieur",
+              "alternatives": [
+                "Homme d'âge mûr"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie",
+              "level_3": "age_adulte"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Pour désigner un homme d'âge mûr qu'on ne connaît pas ; dans la bouche d'un enfant, « le monsieur »."
+          }
+        ]
+      }
+    },
+    "n5_v_13": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0076"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme respectueux : pour parler de membres de la famille d'autrui, ou pour s'adresser aux siens.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Grand-mère",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "grands_parents_descendants"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Vieille dame",
+              "alternatives": [
+                "Personne âgée"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie",
+              "level_3": "vieillissement"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Pour désigner ou interpeller poliment une femme âgée qu'on ne connaît pas."
+          }
+        ]
+      }
+    },
+    "n5_v_14": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0078",
+        "A2-04-D0079"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme respectueux : pour parler de membres de la famille d'autrui, ou pour s'adresser aux siens.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tante",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "parente_etendue"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Madame",
+              "alternatives": [
+                "Dame d'âge mûr"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie",
+              "level_3": "age_adulte"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Pour désigner une femme d'âge mûr qu'on ne connaît pas ; dans la bouche d'un enfant, « la dame »."
+          }
+        ]
+      }
+    },
+    "n5_v_15": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme familier et bienveillant, avec さん : le policier de quartier, du poste (交番). Forme neutre : 警官.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Policier",
+              "alternatives": [
+                "Agent de police"
+              ]
+            },
+            "category": {
+              "level_1": "droit_justice",
+              "level_2": "application_de_la_loi",
+              "level_3": "police"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_16": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0080"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme respectueux : pour parler de membres de la famille d'autrui, ou pour s'adresser aux siens. Pour son propre grand frère face à un tiers : 兄 (あに).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Grand frère",
+              "alternatives": [
+                "Frère aîné"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "fratrie"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Jeune homme",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "interactions_sociales"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Pour interpeller poliment un jeune homme qu'on ne connaît pas."
+          }
+        ]
+      }
+    },
+    "n5_v_20": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Les deux parents ensemble ; terme un peu formel, pour ses parents comme pour ceux d'autrui (ご両親, plus respectueux).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Parents",
+              "alternatives": [
+                "Père et mère"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "parents_enfants"
+            },
+            "semantic_type": "groupe_collectif",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_21": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0085"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme humble ou neutre : pour son propre grand frère face à un tiers ; pour celui d'autrui, ou pour s'adresser à lui, on dit お兄さん.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Grand frère",
+              "alternatives": [
+                "Frère aîné"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "fratrie"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_23": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0100"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Désigne un ou plusieurs amis : 達 marque à l'origine le pluriel, mais 友達 s'emploie aussi pour un seul ami.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ami",
+              "alternatives": [
+                "Copain"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "amitie_relations_interpersonnelles",
+              "level_3": "amitie"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_24": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0081",
+        "A2-04-D0082"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme neutre ou humble. Écrit 叔母 pour la sœur cadette d'un parent ou l'épouse d'un oncle cadet, 伯母 pour la sœur aînée ou l'épouse d'un oncle aîné ; la forme おば en kana évite d'avoir à choisir.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tante",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "parente_etendue"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_25": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0083",
+        "A2-04-D0084"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme neutre ou humble. Écrit 叔父 pour le frère cadet d'un parent ou l'époux d'une tante cadette, 伯父 pour le frère aîné ou l'époux d'une tante aînée ; la forme おじ en kana évite d'avoir à choisir.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Oncle",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "parente_etendue"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_27": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0101"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "外人, abréviation familière, peut sembler excluant : 外国人 est la forme neutre.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Étranger",
+              "alternatives": [
+                "Personne étrangère"
+              ]
+            },
+            "category": {
+              "level_1": "politique_institutions_publiques",
+              "level_2": "citoyennete",
+              "level_3": "nationalite"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_28": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0089"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Adulte",
+              "alternatives": [
+                "Grande personne"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie",
+              "level_3": "age_adulte"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_29": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour sa propre petite sœur ; pour celle d'autrui, 妹さん.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Petite sœur",
+              "alternatives": [
+                "Sœur cadette"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "fratrie"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_30": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme humble ou neutre : pour sa propre grande sœur face à un tiers ; pour celle d'autrui, ou pour s'adresser à elle, on dit お姉さん.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Grande sœur",
+              "alternatives": [
+                "Sœur aînée"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "fratrie"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_31": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0088"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour les enfants d'autrui, on dit aussi お子さん.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Enfant",
+              "alternatives": [
+                "Gamin"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie",
+              "level_3": "enfance"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Enfant (fils ou fille)",
+              "alternatives": [
+                "Progéniture"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "parents_enfants"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "子供がいます : avoir des enfants."
+          }
+        ]
+      }
+    },
+    "n5_v_35": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour sa propre famille ; pour celle d'autrui, ご家族.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Famille",
+              "alternatives": [
+                "Membres de la famille"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente"
+            },
+            "semantic_type": "groupe_collectif",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_36": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour son propre petit frère ; pour celui d'autrui, 弟さん.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Petit frère",
+              "alternatives": [
+                "Frère cadet"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "fratrie"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_37": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0086"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme humble ou neutre : pour sa propre mère face à un tiers ; pour celle d'autrui, ou pour s'adresser à elle, on dit お母さん.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mère",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "parents_enfants"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_39": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0090"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Garçon",
+              "alternatives": [
+                "Petit garçon"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie",
+              "level_3": "enfance"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_42": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0102"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme neutre, plus formel. Dans la conversation courante : お巡りさん.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Policier",
+              "alternatives": [
+                "Agent de police"
+              ]
+            },
+            "category": {
+              "level_1": "droit_justice",
+              "level_2": "application_de_la_loi",
+              "level_3": "police"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_46": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0104",
+        "A2-04-D0105"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "体にいい : bon pour la santé ; 体が弱い : être de santé fragile.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Corps",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_47": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Plus poli : お医者さん.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Médecin",
+              "alternatives": [
+                "Docteur"
+              ]
+            },
+            "category": {
+              "level_1": "sante_medecine",
+              "level_2": "professionnels_de_sante",
+              "level_3": "medecins"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_48": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0120",
+        "A2-04-D0121",
+        "A2-04-D0122"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Désigne aussi l'ouverture d'un objet (瓶の口, le goulot).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bouche",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "tete_visage"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_51": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0126",
+        "A2-04-D0127",
+        "A2-04-D0128"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "手を洗う : se laver les mains.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Main",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "membres"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_54": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0123",
+        "A2-04-D0140"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "歯を磨く : se brosser les dents.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dent",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "tete_visage"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_55": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0135",
+        "A2-04-D0136"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "病気になる : tomber malade ; 病気です : être malade.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Maladie",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "sante_medecine",
+              "level_2": "maladies_troubles"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_56": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0134"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "病院に行く : aller chez le médecin, à l'hôpital.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Hôpital",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "sante_medecine",
+              "level_2": "etablissements_de_sante",
+              "level_3": "hopitaux"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_57": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0114",
+        "A2-04-D0115"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "目がいい : avoir une bonne vue ; 目が悪い : avoir une mauvaise vue.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Œil",
+              "alternatives": [
+                "Yeux"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "tete_visage"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_58": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0116",
+        "A2-04-D0117"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "耳がいい : avoir l'oreille fine ; 耳が遠い : être dur d'oreille.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Oreille",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "tete_visage"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_59": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0138"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "薬を飲む : prendre un médicament (littéralement : le boire), même en comprimé.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Médicament",
+              "alternatives": [
+                "Remède"
+              ]
+            },
+            "category": {
+              "level_1": "sante_medecine",
+              "level_2": "medicaments",
+              "level_3": "medicaments"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_60": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0129",
+        "A2-04-D0130"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Désigne aussi bien le pied que la jambe entière : le japonais ne coupe pas le membre inférieur comme le français. 足が痛い : avoir mal au pied ou à la jambe.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pied",
+              "alternatives": [
+                "Jambe"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "membres"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_61": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0106",
+        "A2-04-D0107"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme soutenu ou technique (examen médical, formulaires) ; dans la conversation : 体 (からだ).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Corps",
+              "alternatives": [
+                "Organisme"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_65": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0108",
+        "A2-04-D0109",
+        "A2-04-D0110",
+        "A2-04-D0111"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tête",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "tete_visage"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Esprit",
+              "alternatives": [
+                "Intelligence"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "pensee"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "頭がいい : être intelligent ; 頭を使う : réfléchir."
+          }
+        ]
+      }
+    },
+    "n5_v_67": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0118",
+        "A2-04-D0119"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Nez",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "tete_visage"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_283": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0137"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "風邪をひく : attraper un rhume. Ne pas confondre avec 風 (かぜ, le vent).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Rhume",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "sante_medecine",
+              "level_2": "maladies_troubles",
+              "level_3": "maladies_infectieuses"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_465": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0139"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "頭が痛い : avoir mal à la tête. S'emploie seul comme exclamation : 痛い！ (aïe !).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Douloureux",
+              "alternatives": [
+                "Qui fait mal"
+              ]
+            },
+            "category": {
+              "level_1": "sante_medecine",
+              "level_2": "symptomes_douleur",
+              "level_3": "douleur"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_603": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0124",
+        "A2-04-D0125"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "髪を切る : se faire couper les cheveux. Ne pas confondre avec 紙 (papier) et 神 (dieu), homophones.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cheveux",
+              "alternatives": [
+                "Chevelure"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "apparence_presentation_personnelle",
+              "level_3": "coiffure_pilosite"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_633": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0096"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Forme neutre ; plus respectueux : 方 (かた).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Personne",
+              "alternatives": [
+                "Gens",
+                "Être humain"
+              ]
+            },
+            "category": null,
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_638": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Désigne l'ensemble des frères et sœurs, quel que soit leur sexe : 兄弟がいますか (avez-vous des frères et sœurs ?).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Frères et sœurs",
+              "alternatives": [
+                "Fratrie"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "famille_parente",
+              "level_3": "fratrie"
+            },
+            "semantic_type": "groupe_collectif",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_656": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0087"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme respectueux pour l'épouse d'autrui ; sert aussi à s'adresser à une femme mariée. Pour sa propre épouse : 家内 ou 妻.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Épouse (d'autrui)",
+              "alternatives": [
+                "Madame"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "couple_relations_intimes",
+              "level_3": "mariage"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_657": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0094",
+        "A2-04-D0095"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme direct, un peu brusque pour désigner quelqu'un ; plus poli : 女の人, 女性.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Femme",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_658": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0091"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fille",
+              "alternatives": [
+                "Petite fille",
+                "Fillette"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie",
+              "level_3": "enfance"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_660": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme humble pour sa propre épouse, face à un tiers. Pour l'épouse d'autrui : 奥さん.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ma femme",
+              "alternatives": [
+                "Mon épouse"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "couple_relations_intimes",
+              "level_3": "mariage"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_667": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0097",
+        "A2-04-D0098",
+        "A2-04-D0099"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Équivalent respectueux de 人 : あの方 (cette personne), どの方 (quelle personne).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Personne",
+              "alternatives": [
+                "Monsieur",
+                "Madame"
+              ]
+            },
+            "category": null,
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_686": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0092",
+        "A2-04-D0093"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme direct, un peu brusque pour désigner quelqu'un ; plus poli : 男の人, 男性.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Homme",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_687": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0103"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Forme respectueuse pour s'adresser à un groupe : 皆さん、こんにちは. Plus neutre : 皆 (みんな).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tout le monde",
+              "alternatives": [
+                "Vous tous",
+                "Mesdames et messieurs"
+              ]
+            },
+            "category": null,
+            "semantic_type": "groupe_collectif",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_690": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0131",
+        "A2-04-D0132",
+        "A2-04-D0133"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Taille",
+              "alternatives": [
+                "Stature"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "caracteristiques_corporelles"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "背が高い : être grand ; 背が低い : être petit."
+          },
+          {
+            "meaning": {
+              "primary": "Dos",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "tronc"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_716": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0112",
+        "A2-04-D0113"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Désigne aussi l'expression du visage : 変な顔をする (faire une drôle de tête), 顔色 (la mine).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Visage",
+              "alternatives": [
+                "Figure"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "corps",
+              "level_3": "tete_visage"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

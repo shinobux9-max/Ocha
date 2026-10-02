@@ -16,11 +16,14 @@ comprend la reconstruction du vocabulaire selon l'architecture sémantique A2 (p
 A2-05) et la réidentification de la grammaire (addendum A4).
 
 **Tâche en cours : A2-04 · Reconstruction du vocabulaire N5.** A2-03 est fermé (rapport final
-`docs/rapports/etape2-A2-03.md`). 5.0 validée (infrastructure). Lot 0 arbitré le 2026-10-02 ;
-5.1b validée (journal à statut, forme usuelle après fusion, 大変, addendum A5) ; 5.1c livrée
-(addendum A6 sur `semantic_type: null`, rapport `docs/rapports/etape2-tache5-1c-lot0.md`). Le lot
-reste **en proposition** ; l'essai à blanc donne le résultat attendu (33 ENTRY, 28 identifiants
-retirés, aucune erreur) : il peut passer entièrement en `validated` après relecture de 5.1c. Le validateur lexical n'est pas
+`docs/rapports/etape2-A2-03.md`). 5.0 validée (infrastructure). **5.1 · lot 0 « identité » validé** (rapport final
+`docs/rapports/etape2-tache5-1-lot0-valide.md`) : 60 entrées et 74 décisions du journal en
+`validated` ; assemblage réel : 33 ENTRY, 28 identifiants retirés, aucune erreur, aucune attente.
+**5.2 · lot 01 « personnes, famille, corps, santé » validé** (rapport
+`docs/rapports/etape2-tache5-2-lot01-valide.md`) : 49 entrées et 66 décisions (D0075 à D0140) en
+`validated` ; assemblage réel : 82 ENTRY, 28 retraits, 0 erreur, 0 attente. Prochaine sous-tâche :
+5.3, composition du lot thématique suivant d'abord, aucune proposition avant validation du
+périmètre. Le validateur lexical n'est pas
 encore appliqué à `data/` (bascule à la publication d'A2-04).
 A2-02 est terminé (rapport final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
@@ -40,7 +43,7 @@ livraison, relecture, tests verts, commit.
 | 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (validée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait, A2-02 fermé (3.1 à 3.5 validées) |
 | 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | ✅ fait, A2-03 fermé (4.1 à 4.5 validées) |
 | 5 | A2-04 · 5.0 · Infrastructure | `reconstruction/a2-04/` (sources figées et empreintes, `place-tags.json`, `lots/`, `journal.json`) et `tools/reconstruction/` (règles et listes fermées, couche mécanique, contrôle des lots et du journal, assembleur partiel et complet, rapport de relecture, commandes) ; aucune décision lexicale | validée |
-| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1b validée, 5.1c livrée |
+| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 (lot 0) et 5.2 (lot 01) validées ; 5.3 à composer |
 | 7 | A2-04 · 5.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
 | 8 | A2-04 · 5.17 · Publication | une seule opération : vocabulaire canonique, validateur activé, `events.js` (E1 à E4) ; l'ancienne app cesse de fonctionner sur `ocha-v2` | à faire |
 | 9 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
@@ -88,7 +91,7 @@ bloque `npm test`).
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
   `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
-  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tools/reconstruction/` et `reconstruction/a2-04/` (reconstruction du vocabulaire), `tests/` (417 tests dans Node, plus la page
+  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tools/reconstruction/` et `reconstruction/a2-04/` (reconstruction du vocabulaire), `tests/` (419 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -242,6 +245,11 @@ modifier ses parties verrouillées.
 | 2026-10-02 | A2-04 · 5.1b validée ; いい / 良い : D0037 validée (いい seule lecture, よい dans la nuance) ; une lecture propre à une graphie n'est pas nécessaire pour A2-04 | `reconstruction/a2-04/lots/lot-00.json` |
 | 2026-10-02 | Addendum A6 · `semantic_type: null` permis quand aucun type terminal d'A2-ST ne décrit correctement la nature du sens (partie du corps, unité de mesure…), indépendamment de `category` ; I10 modifié dans `schema-A2-01.md` (type terminal ou `null` ; avertissement `type-nul` sans fonction linguistique) ; en reconstruction, tout `semantic_type: null` exige une décision `type-nul` sur le sens précis ; `A2-ST-v1` inchangé | `docs/conception/addendum-A6-semantic-type-null.md`, `tools/lexicon/sense.mjs`, `tools/reconstruction/decisions.mjs` |
 | 2026-10-02 | Lot 0 : `semantic_type: null` pour お腹 (partie du corps) et pour les sens « kilogramme » et « kilomètre » de キロ (unités de mesure), justifiés D0070 à D0072 | `reconstruction/a2-04/journal.json` |
+| 2026-10-02 | A2-04 · 5.1c validée ; règle stricte maintenue : pendant A2-04, tout `semantic_type: null` exige une décision `type-nul`, même quand une fonction linguistique explique l'absence (何, 大変 « très ») ; le validateur canonique n'avertit qu'en l'absence de fonction, pour éviter le bruit sur les unités fonctionnelles ; `category: null` (aucun domaine thématique) et `semantic_type: null` (aucun type ontologique) sont deux absences indépendantes | `tools/reconstruction/decisions.mjs`, `tools/lexicon/sense.mjs` |
+| 2026-10-02 | A2-04 · 5.1 fermée : lot 0 et son journal entièrement validés ; un test permanent exige que l'espace de travail réel s'assemble sans problème, sans erreur du validateur lexical et sans attente | `reconstruction/a2-04/`, `tests/reconstruction/workspace.test.js` |
+| 2026-10-02 | A2-04 · 5.2 · périmètre du lot 01 : `personnes_famille` et `corps_sante` (49 entrées), sans 習う (au lot école) ni ハンカチ (au lot accessoires), avec 皆さん ; A6 n'est pas une règle « corps ⇒ null » : chaque `semantic_type: null` est décidé et justifié sens par sens ; 方 (personne / suffixe 〜方) et 叔母 / 伯母, 叔父 / 伯父 sont des questions d'identité exposées, pas tranchées en silence ; deux traductions ne font pas deux sens ; le report des relations à 5.16 ne reporte pas la description intrinsèque (nuances, fonctions) | `reconstruction/a2-04/lots/lot-01.json` |
+| 2026-10-02 | A2-04 · lot 01 arbitré : 方 = voie A (« personne » respectueux, `suffix: false` ; le suffixe 〜方 est une unité distincte, en attente d'un chantier sur la représentation des affixes) ; 叔母 / 叔父 sans graphie 伯母 / 伯父 (叔 / 伯 porte une information lexicale réelle) ; 頭 à deux sens ; pas de fonction `politesse` pour les termes d'adresse (nuance d'usage intrinsèque, pas d'annotation pragmatique systématique sans règle A2-LING) ; une alternative doit être équivalente au sens, jamais un terme voisin (病院 sans « clinique », 歯 sans « denture », 男 sans « garçon ») ; 足 garde « jambe » en alternative (largeur référentielle d'un même lexème) | `reconstruction/a2-04/lots/lot-01.json` |
+| 2026-10-02 | A2-04 · 5.2 fermée : lot 01 et ses 66 décisions validés ; méthode confirmée pour les lots suivants : composition du lot d'abord, proposition après validation du périmètre, révision, validation atomique (statuts seulement), commit après la validation ; les avertissements A5, A6 et 醤 restent et ne sont jamais « corrigés » pour obtenir zéro avertissement | `reconstruction/a2-04/` |
 
 ---
 
@@ -292,6 +300,8 @@ modifier ses parties verrouillées.
 - **Lecture よい de いい** : le schéma attache les furigana de chaque lecture à la forme usuelle
   (I4) ; よい, lisible seulement sur la graphie 良い, est décrite dans la nuance. Une lecture
   propre à une graphie demanderait un changement du schéma.
+- **Affixes** : la représentation des suffixes (〜方 « manière de… », 〜人, 〜さん…) n'est pas
+  définie ; aucune ENTRY d'affixe n'est créée avant un chantier dédié.
 - **Identifiants de sens après publication** : ils sont générés dans l'ordre des sens jusqu'à la
   publication ; ensuite, réordonner les sens ne doit jamais les renuméroter. À protéger par
   l'audit A2-05.
@@ -302,6 +312,9 @@ modifier ses parties verrouillées.
 - **Anomalie du dictionnaire des kanji** : `data/kanji_jouyou_fr.json` contient cinq clés qui sont
   des mots (山羊, 生活, 措置, 継続, 迅速) ; l'adaptateur du validateur lexical les écarte ; à
   corriger dans une tâche de données.
+- **醤 absent des kanji connus** (avertissement `kanji-inconnu` sur 醤油, lot 0) : signalé à juste
+  titre, non bloquant ; à reprendre avec A2-05 ou la tâche de données sur les kanji, sans ajout
+  artificiel.
 - **Points d'audit obligatoires d'A2-04 : doublons candidats** (à vérifier un par un avant tout
   retrait d'identifiant, ce ne sont pas des fusions autorisées) : お姉さん, お母さん, お父さん,
   美味しい, 面白い, 本当, 浴びる, 無くす, 醤油 (même mot en double) ; おなか / お腹, かばん / 鞄,
@@ -372,3 +385,7 @@ modifier ses parties verrouillées.
 | 2026-10-02 | 2 · 5.1 | Lot 0 · identité **proposé** (60 entrées : 27 fusions proposées, 33 entrées gardées ; 56 décisions au journal dont 13 abandons journalisés) ; rapport de relecture regroupé ; essai à blanc : aucun problème de frontière, 5 erreurs I9 qui révèlent le conflit avec A2 §10 ; 2 nouveaux tests ; 411 tests | — |
 | 2026-10-02 | 2 · 5.1b | Révision du lot 0 après arbitrage : journal à statut, forme usuelle décidable après fusion (8 formes changées), 大変 en adjectif en な, addendum A5 et I9 en avertissement, lectures なな et よん ; 15 nouvelles décisions au journal (identifiants des 56 premières inchangés) ; essai à blanc : aucun problème de frontière, 3 erreurs `type-nul` (types ouverts) ; 4 nouveaux tests, 9 sabotages attrapés ; 415 tests | — |
 | 2026-10-02 | 2 · 5.1c | Addendum A6 (`semantic_type: null`), I10 modifié dans le schéma et le validateur, justification `type-nul` en reconstruction ; lot 0 : 3 types nuls décidés, 74 décisions au journal ; essai à blanc lot et journal validés : 33 ENTRY, 28 identifiants retirés, 0 erreur, avertissements intentionnels seulement ; 2 nouveaux tests, 7 sabotages attrapés ; 417 tests | — |
+| 2026-10-02 | 2 · 5.1 | Validation du lot 0 : 60 entrées et 74 décisions du journal passées en `validated` sans autre changement ; assemblage réel : 33 ENTRY, 28 identifiants retirés, 0 problème, 0 erreur, 0 attente, avertissements intentionnels (A5 × 5, A6 × 3, 醤) ; test permanent d'assemblage réel ; 3 sabotages attrapés ; 418 tests | — |
+| 2026-10-02 | 2 · 5.2 | Lot 01 proposé : 49 entrées, 65 décisions de journal proposées (D0075 à D0139) ; essai à blanc : 82 ENTRY, 0 problème, 0 erreur, avertissements intentionnels (14 `type-nul`, 5 `categorie-nulle` de plus) ; points à arbitrer : 方, 叔 / 伯, 頭, fonction `politesse` des termes d'adresse ; 1 nouveau test ; 419 tests | — |
+| 2026-10-02 | 2 · 5.2b | Révision du lot 01 : 6 entrées modifiées (3 nuances corrigées, 3 alternatives retirées), 8 décisions réécrites sous leur identifiant, 1 nouvelle (D0140) ; essai à blanc inchangé : 82 ENTRY, 28 retraits, 0 erreur, 0 attente ; 419 tests | — |
+| 2026-10-02 | 2 · 5.2 | Validation du lot 01 : 49 entrées et 66 décisions passées en `validated` sans autre changement ; assemblage réel : 82 ENTRY, 28 retraits, 0 problème, 0 erreur, 0 attente, 609 entrées encore à décider ; test d'état adapté ; 3 sabotages attrapés ; 419 tests | — |

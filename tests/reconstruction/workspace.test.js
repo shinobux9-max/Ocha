@@ -7,7 +7,8 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { verifySources } from '../../tools/reconstruction/sources.mjs';
 import { renderLotReport } from '../../tools/reconstruction/report.mjs';
-import { ROOT, WORK, SOURCES, fieldsFor, validated, lot } from './helpers.mjs';
+import { assemble, validateAssembly } from '../../tools/reconstruction/assemble.mjs';
+import { ROOT, WORK, SOURCES, DEPS, fieldsFor, validated, lot } from './helpers.mjs';
 
 test('sources : conformes au manifeste ; une modification est détectée', () => {
   assert.deepEqual(verifySources(join(WORK, 'sources')), []);
@@ -21,14 +22,42 @@ test('sources : conformes au manifeste ; une modification est détectée', () =>
   } finally { rmSync(dir, { recursive: true, force: true }); }
 });
 
-// A2-04 · 5.1 : le lot 0 est livré en PROPOSITION. Aucune décision n'est validée avant la
-// relecture ; ce test changera quand le lot 0 sera validé.
-test('5.1 : seul le lot 0 existe, entièrement proposé, sans aucune décision validée', () => {
-  assert.deepEqual(readdirSync(join(WORK, 'lots')).filter((f) => f.endsWith('.json')), ['lot-00.json']);
+// A2-04 · 5.1 fermée : le lot 0 est entièrement validé, avec tout son journal.
+test('5.1 : le lot 0 est entièrement validé (60 entrées), sans ajout', () => {
   const lot0 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-00.json'), 'utf8'));
   assert.equal(Object.keys(lot0.entries).length, 60);
-  assert.ok(Object.values(lot0.entries).every((e) => e.status === 'proposed'));
+  assert.ok(Object.values(lot0.entries).every((e) => e.status === 'validated'));
   assert.deepEqual(lot0.additions, []);
+  const cited = new Set(Object.values(lot0.entries).flatMap((e) => e.journal ?? []));
+  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
+  assert.ok(journal.filter((j) => cited.has(j.id)).every((j) => j.status === 'validated'), 'journal du lot 0 validé');
+});
+
+// A2-04 · 5.2 fermée : le lot 01 est entièrement validé, avec tout son journal.
+test('5.2 : le lot 01 est entièrement validé (49 entrées), journal compris', () => {
+  const lot1 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-01.json'), 'utf8'));
+  assert.equal(Object.keys(lot1.entries).length, 49);
+  assert.ok(Object.values(lot1.entries).every((e) => e.status === 'validated'));
+  assert.deepEqual(lot1.additions, []);
+  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
+  const own = journal.filter((j) => j.lot === 'lot-01');
+  assert.equal(own.length, 66);
+  assert.ok(own.every((j) => j.status === 'validated'));
+});
+
+// L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du
+// validateur lexical, ni attente. Les comptes suivent les décisions validées, lot après lot.
+test('espace de travail réel : assemblage partiel sans problème ni erreur', () => {
+  const lots = readdirSync(join(WORK, 'lots')).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(WORK, 'lots', f), 'utf8')));
+  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
+  const a = assemble({ sources: SOURCES, lots, journal });
+  const r = validateAssembly(a, DEPS);
+  assert.deepEqual(a.problems, []);
+  assert.deepEqual(r.errors, []);
+  assert.deepEqual([...a.pending, ...r.pending], []);
+  const decisions = lots.flatMap((l) => Object.values(l.entries)).filter((d) => d.status === 'validated');
+  assert.equal(a.files.reduce((n, f) => n + f.entries.length, 0), decisions.filter((d) => d.fields).length);
+  assert.equal(a.retired.length, 1 + decisions.filter((d) => d.retire).length);
 });
 
 test('journal : chaque décision est citée par une entrée de lot', () => {
