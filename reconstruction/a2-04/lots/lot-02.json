@@ -3,7 +3,7 @@
   "title": "Alimentation, boissons, repas et table",
   "entries": {
     "n5_v_66": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0189"
       ],
@@ -36,7 +36,7 @@
       }
     },
     "n5_v_84": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0168",
         "A2-04-D0169",
@@ -76,7 +76,7 @@
       }
     },
     "n5_v_85": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0179",
         "A2-04-D0180"
@@ -116,7 +116,7 @@
       }
     },
     "n5_v_86": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0185"
       ],
@@ -155,7 +155,7 @@
       }
     },
     "n5_v_88": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0165",
         "A2-04-D0166",
@@ -212,7 +212,7 @@
       }
     },
     "n5_v_89": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0199",
         "A2-04-D0200"
@@ -252,7 +252,7 @@
       }
     },
     "n5_v_90": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0143",
         "A2-04-D0144"
@@ -268,9 +268,7 @@
         "suffix": false,
         "counter": null,
         "nuance": "Le poulet vivant se dit 鶏 (にわとり).",
-        "tags": [
-          "lieu_restaurant"
-        ],
+        "tags": [],
         "senses": [
           {
             "meaning": {
@@ -296,7 +294,7 @@
       }
     },
     "n5_v_93": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0204"
       ],
@@ -311,9 +309,7 @@
           {
             "meaning": {
               "primary": "Tasse",
-              "alternatives": [
-                "Gobelet"
-              ]
+              "alternatives": []
             },
             "category": {
               "level_1": "alimentation_cuisine",
@@ -332,7 +328,7 @@
       }
     },
     "n5_v_94": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0171",
         "A2-04-D0172"
@@ -343,16 +339,12 @@
         "suffix": false,
         "counter": null,
         "nuance": "Désigne d'ordinaire le curry japonais servi avec du riz (カレーライス).",
-        "tags": [
-          "lieu_restaurant"
-        ],
+        "tags": [],
         "senses": [
           {
             "meaning": {
               "primary": "Curry",
-              "alternatives": [
-                "Riz au curry"
-              ]
+              "alternatives": []
             },
             "category": {
               "level_1": "alimentation_cuisine",
@@ -371,7 +363,7 @@
       }
     },
     "n5_v_95": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0182"
       ],
@@ -408,7 +400,7 @@
       }
     },
     "n5_v_97": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0153",
         "A2-04-D0154"
@@ -445,7 +437,7 @@
       }
     },
     "n5_v_98": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0215",
         "A2-04-D0216"
@@ -482,7 +474,7 @@
       }
     },
     "n5_v_99": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0149",
         "A2-04-D0150"
@@ -493,9 +485,7 @@
         "suffix": false,
         "counter": null,
         "nuance": "Désigne d'ordinaire l'œuf de poule.",
-        "tags": [
-          "lieu_konbini"
-        ],
+        "tags": [],
         "senses": [
           {
             "meaning": {
@@ -519,7 +509,7 @@
       }
     },
     "n5_v_101": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0217",
         "A2-04-D0218"
@@ -558,7 +548,7 @@
       }
     },
     "n5_v_102": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0157",
         "A2-04-D0158"
@@ -593,7 +583,7 @@
       }
     },
     "n5_v_103": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0173",
         "A2-04-D0174"
@@ -604,9 +594,7 @@
         "suffix": false,
         "counter": null,
         "nuance": "Un peu plus neutre que 晩ご飯, courant à l'oral.",
-        "tags": [
-          "lieu_restaurant"
-        ],
+        "tags": [],
         "senses": [
           {
             "meaning": {
@@ -632,7 +620,7 @@
       }
     },
     "n5_v_104": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0175",
         "A2-04-D0176",
@@ -694,7 +682,7 @@
       }
     },
     "n5_v_108": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0183",
         "A2-04-D0184"
@@ -731,7 +719,7 @@
       }
     },
     "n5_v_109": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0145"
       ],
@@ -741,9 +729,7 @@
         "suffix": false,
         "counter": null,
         "nuance": null,
-        "tags": [
-          "lieu_restaurant"
-        ],
+        "tags": [],
         "senses": [
           {
             "meaning": {
@@ -769,7 +755,7 @@
       }
     },
     "n5_v_110": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0159",
         "A2-04-D0160"
@@ -804,7 +790,7 @@
       }
     },
     "n5_v_111": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0207",
         "A2-04-D0208"
@@ -842,7 +828,7 @@
       }
     },
     "n5_v_112": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0181"
       ],
@@ -879,7 +865,7 @@
       }
     },
     "n5_v_113": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0141",
         "A2-04-D0142"
@@ -890,9 +876,7 @@
         "suffix": false,
         "counter": null,
         "nuance": null,
-        "tags": [
-          "lieu_restaurant"
-        ],
+        "tags": [],
         "senses": [
           {
             "meaning": {
@@ -916,7 +900,7 @@
       }
     },
     "n5_v_114": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0146"
       ],
@@ -926,9 +910,7 @@
         "suffix": false,
         "counter": null,
         "nuance": null,
-        "tags": [
-          "lieu_restaurant"
-        ],
+        "tags": [],
         "senses": [
           {
             "meaning": {
@@ -954,7 +936,7 @@
       }
     },
     "n5_v_115": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0151",
         "A2-04-D0152"
@@ -989,7 +971,7 @@
       }
     },
     "n5_v_117": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0187",
         "A2-04-D0188"
@@ -1023,7 +1005,7 @@
       }
     },
     "n5_v_118": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0163",
         "A2-04-D0164"
@@ -1059,7 +1041,7 @@
       }
     },
     "n5_v_119": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0219",
         "A2-04-D0220"
@@ -1099,7 +1081,7 @@
       }
     },
     "n5_v_120": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0186"
       ],
@@ -1135,7 +1117,7 @@
       }
     },
     "n5_v_121": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0161",
         "A2-04-D0162"
@@ -1172,7 +1154,7 @@
       }
     },
     "n5_v_122": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0147",
         "A2-04-D0148"
@@ -1219,16 +1201,13 @@
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []
-            },
-            "tags": [
-              "lieu_restaurant"
-            ]
+            }
           }
         ]
       }
     },
     "n5_v_211": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0213",
         "A2-04-D0214"
@@ -1265,7 +1244,7 @@
       }
     },
     "n5_v_225": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0201",
         "A2-04-D0202",
@@ -1277,9 +1256,7 @@
         "suffix": false,
         "counter": null,
         "nuance": "Forme polie et courante ; 皿 (さら) sans お, à l'écrit et dans les composés.",
-        "tags": [
-          "lieu_restaurant"
-        ],
+        "tags": [],
         "senses": [
           {
             "meaning": {
@@ -1305,7 +1282,7 @@
       }
     },
     "n5_v_230": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0205",
         "A2-04-D0206"
@@ -1316,9 +1293,7 @@
         "suffix": false,
         "counter": null,
         "nuance": "Récipient sans anse ; la tasse se dit カップ.",
-        "tags": [
-          "lieu_restaurant"
-        ],
+        "tags": [],
         "senses": [
           {
             "meaning": {
@@ -1344,7 +1319,7 @@
       }
     },
     "n5_v_231": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0209",
         "A2-04-D0210"
@@ -1382,7 +1357,7 @@
       }
     },
     "n5_v_232": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0211",
         "A2-04-D0212"
@@ -1419,7 +1394,7 @@
       }
     },
     "n5_v_427": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0196",
         "A2-04-D0197",
@@ -1473,7 +1448,7 @@
       }
     },
     "n5_v_464": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0190",
         "A2-04-D0191",
@@ -1529,7 +1504,7 @@
       }
     },
     "n5_v_481": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0194",
         "A2-04-D0195"
@@ -1566,7 +1541,7 @@
       }
     },
     "n5_v_619": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0155",
         "A2-04-D0156"
@@ -1601,7 +1576,7 @@
       }
     },
     "n5_v_677": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0178"
       ],

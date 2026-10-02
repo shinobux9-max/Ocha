@@ -21,9 +21,10 @@ A2-05) et la réidentification de la grammaire (addendum A4).
 `validated` ; assemblage réel : 33 ENTRY, 28 identifiants retirés, aucune erreur, aucune attente.
 **5.2 · lot 01 « personnes, famille, corps, santé » validé** (rapport
 `docs/rapports/etape2-tache5-2-lot01-valide.md`) : 49 entrées et 66 décisions (D0075 à D0140) en
-`validated` ; assemblage réel : 82 ENTRY, 28 retraits, 0 erreur, 0 attente. 5.3 · lot 02 « alimentation, boissons, repas et table » : périmètre validé (41 entrées),
-**proposition** livrée (`reconstruction/a2-04/lots/lot-02.json`, rapport
-`docs/rapports/etape2-tache5-3-lot02.md`) ; aucune décision validée avant la relecture. Le validateur lexical n'est pas
+`validated` ; assemblage réel : 82 ENTRY, 28 retraits, 0 erreur, 0 attente. **5.3 · lot 02 « alimentation, boissons, repas et table » validé** (rapport
+`docs/rapports/etape2-tache5-3-lot02-valide.md`) : 41 entrées et 80 décisions (D0141 à D0220) en
+`validated` ; assemblage réel : 123 ENTRY, 28 retraits, 0 erreur, 0 attente. Prochaine sous-tâche :
+5.4, composition du lot suivant d'abord, aucune proposition avant validation du périmètre. Le validateur lexical n'est pas
 encore appliqué à `data/` (bascule à la publication d'A2-04).
 A2-02 est terminé (rapport final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
@@ -43,7 +44,7 @@ livraison, relecture, tests verts, commit.
 | 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (validée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait, A2-02 fermé (3.1 à 3.5 validées) |
 | 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | ✅ fait, A2-03 fermé (4.1 à 4.5 validées) |
 | 5 | A2-04 · 5.0 · Infrastructure | `reconstruction/a2-04/` (sources figées et empreintes, `place-tags.json`, `lots/`, `journal.json`) et `tools/reconstruction/` (règles et listes fermées, couche mécanique, contrôle des lots et du journal, assembleur partiel et complet, rapport de relecture, commandes) ; aucune décision lexicale | validée |
-| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 (lot 0) et 5.2 (lot 01) validées ; 5.3 proposée (lot 02) |
+| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.3 validées (lots 0, 01, 02) ; 5.4 à composer |
 | 7 | A2-04 · 5.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
 | 8 | A2-04 · 5.17 · Publication | une seule opération : vocabulaire canonique, validateur activé, `events.js` (E1 à E4) ; l'ancienne app cesse de fonctionner sur `ocha-v2` | à faire |
 | 9 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
@@ -251,6 +252,9 @@ modifier ses parties verrouillées.
 | 2026-10-02 | A2-04 · lot 01 arbitré : 方 = voie A (« personne » respectueux, `suffix: false` ; le suffixe 〜方 est une unité distincte, en attente d'un chantier sur la représentation des affixes) ; 叔母 / 叔父 sans graphie 伯母 / 伯父 (叔 / 伯 porte une information lexicale réelle) ; 頭 à deux sens ; pas de fonction `politesse` pour les termes d'adresse (nuance d'usage intrinsèque, pas d'annotation pragmatique systématique sans règle A2-LING) ; une alternative doit être équivalente au sens, jamais un terme voisin (病院 sans « clinique », 歯 sans « denture », 男 sans « garçon ») ; 足 garde « jambe » en alternative (largeur référentielle d'un même lexème) | `reconstruction/a2-04/lots/lot-01.json` |
 | 2026-10-02 | A2-04 · 5.2 fermée : lot 01 et ses 66 décisions validés ; méthode confirmée pour les lots suivants : composition du lot d'abord, proposition après validation du périmètre, révision, validation atomique (statuts seulement), commit après la validation ; les avertissements A5, A6 et 醤 restent et ne sont jamais « corrigés » pour obtenir zéro avertissement | `reconstruction/a2-04/` |
 | 2026-10-02 | A2-04 · 5.3 · périmètre du lot 02 : `nourriture_boissons` (26) et 15 ajouts du même domaine (飲む ; 甘い, 辛い, まずい ; vaisselle et couverts ; レストラン, 喫茶店, 食堂) ; 作る, 台所, 冷蔵庫, 八百屋, 吸う et 煙草 hors du lot ; tags décidés candidat par candidat, jamais par ancienne catégorie, une décision pouvant citer un tag du registre absent des candidats ; un tag d'ENTRY vaut pour tous ses sens ; お皿 / 皿 et お弁当 / 弁当 : retirer お change la forme lexicale, ce n'est pas une graphie ; lectures en katakana : statu quo mécanique pendant 5.3 | `reconstruction/a2-04/lots/lot-02.json` |
+| 2026-10-02 | A2-04 · critère des tags de lieu : un tag signale une association caractéristique et utile au contexte de l'Explorer (vocabulaire d'action propre au lieu : ce qu'on y achète typiquement ou ce qu'on vous y propose, ce qu'on y commande ou demande pour être servi, le nom du lieu), jamais la simple possibilité d'employer le mot dans ce lieu ; une décision antérieure (晩ご飯, lot 0) n'est pas une règle | `reconstruction/a2-04/lots/lot-02.json` |
+| 2026-10-02 | A2-04 · lot 02 arbitré : découpages (魚, ご飯, 料理, 甘い, まずい à deux sens ; お茶, お酒, 飲む, 辛い à un sens), correction 辛い / つらい (deux unités lexicales), graphies 鶏肉 et 茶碗, pas de 皿 ni de 弁当, `categorie-nulle` de 甘い et まずい validés ; « Gobelet » retiré de カップ, « Riz au curry » de カレー ; `ufs` non corrigé dans le lot (registre fermé) | `reconstruction/a2-04/lots/lot-02.json` |
+| 2026-10-02 | A2-04 · 5.3 fermée : lot 02 et ses 80 décisions validés ; le critère des tags de lieu (association caractéristique, jamais la simple possibilité d'emploi) est la référence pour la suite d'A2-04 ; `ufs` et la convention des lectures en katakana restent des points ouverts séparés | `reconstruction/a2-04/` |
 
 ---
 
@@ -310,6 +314,10 @@ modifier ses parties verrouillées.
   la règle mécanique d'A2-02 a supprimé la ligature œ. Le registre est verrouillé et
   l'identifiant figé ; une correction passerait par une décision sur le registre, pas par la
   reconstruction.
+- **Audit A2-05, tags de lieu du lot 0** : selon le critère du lot 02 (association caractéristique,
+  pas simple possibilité d'emploi), les tags `lieu_restaurant` des trois repas (晩ご飯, 昼ご飯,
+  朝ご飯), et peut-être celui de 醤油, semblent trop larges. Ils ne sont pas rouverts pendant les
+  lots ; à réexaminer à l'audit.
 - **Affixes** : la représentation des suffixes (〜方 « manière de… », 〜人, 〜さん…) n'est pas
   définie ; aucune ENTRY d'affixe n'est créée avant un chantier dédié.
 - **Identifiants de sens après publication** : ils sont générés dans l'ordre des sens jusqu'à la
@@ -400,3 +408,5 @@ modifier ses parties verrouillées.
 | 2026-10-02 | 2 · 5.2b | Révision du lot 01 : 6 entrées modifiées (3 nuances corrigées, 3 alternatives retirées), 8 décisions réécrites sous leur identifiant, 1 nouvelle (D0140) ; essai à blanc inchangé : 82 ENTRY, 28 retraits, 0 erreur, 0 attente ; 419 tests | — |
 | 2026-10-02 | 2 · 5.2 | Validation du lot 01 : 49 entrées et 66 décisions passées en `validated` sans autre changement ; assemblage réel : 82 ENTRY, 28 retraits, 0 problème, 0 erreur, 0 attente, 609 entrées encore à décider ; test d'état adapté ; 3 sabotages attrapés ; 419 tests | — |
 | 2026-10-02 | 2 · 5.3 | Lot 02 proposé : 41 entrées, 80 décisions de journal proposées (D0141 à D0220), dont 29 décisions de tags écartées des candidats ; 3 tags portés par un sens ; essai à blanc : 123 ENTRY, 0 problème, 0 erreur, 2 `categorie-nulle` de plus ; 1 nouveau test ; 420 tests | — |
+| 2026-10-02 | 2 · 5.3b | Révision du lot 02 : critère des tags de lieu formalisé ; 11 entrées modifiées (9 tags retirés, 2 alternatives retirées), 18 décisions réécrites sous leur identifiant, aucune nouvelle ; 27 tags au lieu de 37 ; essai à blanc inchangé : 123 ENTRY, 0 erreur, 0 attente ; tags des repas du lot 0 signalés à l'audit A2-05 ; 420 tests | — |
+| 2026-10-02 | 2 · 5.3 | Validation du lot 02 : 41 entrées et 80 décisions passées en `validated` sans autre changement ; assemblage réel : 123 ENTRY, 28 retraits, 0 problème, 0 erreur, 0 attente, 568 entrées encore à décider ; test d'état adapté ; 3 sabotages attrapés (le troisième refait avec le bon identifiant) ; 420 tests | — |

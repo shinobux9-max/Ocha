@@ -6,7 +6,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_66 → v_66 · 飲む
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0189** (decision, senses) : 薬を飲む garde le même sens japonais (avaler, ingérer) ; « prendre » n'est que la traduction française imposée par la collocation : repris dans la nuance. — avant `["Boire","Prendre (un médicament)"]` → après `"un seul sens"`
 
@@ -28,7 +28,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -49,7 +49,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_84 → v_84 · お弁当
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0168** (decision, tags) : Acheté couramment au konbini. lieu_restaurant écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_konbini"]`
 - **A2-04-D0169** (decision, writings) : 弁当 n'est pas ajouté comme autre graphie : retirer le préfixe お change la forme lexicale, pas seulement l'écriture (même question que お皿). Mentionné dans la nuance. — avant `null` → après `[]`
@@ -74,7 +74,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -95,7 +95,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_85 → v_85 · お茶
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0179** (decision, senses) : « Thé vert » et « thé » sont une variation d'extension du même mot, pas deux sens. — avant `["Thé vert","Thé en général","Pause thé"]` → après `"un seul sens"`
 - **A2-04-D0180** (abandon, senses) : Extension non retenue : une traduction source ne suffit pas à fonder un sens. — avant `["Pause thé"]` → après `null`
@@ -119,7 +119,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -140,7 +140,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_86 → v_86 · お酒
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0185** (decision, senses) : Le saké est une spécification du même mot (comme le thé vert pour お茶), pas un sens distinct : repris dans la nuance. — avant `["Alcool","Boisson alcoolisée","Saké (alcool de riz)"]` → après `"un seul sens"`
 
@@ -163,7 +163,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -184,9 +184,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_88 → v_88 · ご飯
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0165** (decision, tags) : Le tag ne vaut que pour le riz cuit qu'on commande (sens 1) : il est porté par ce sens. lieu_konbini écarté. (porté par un sens) — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
+- **A2-04-D0165** (decision, tags) : Au restaurant, le riz cuit fait partie de ce qu'on commande ou redemande pour être servi (ご飯のおかわり, ご飯を大盛りで) : association caractéristique. Le tag ne vaut que pour ce sens (sens 1), pas pour le repas. lieu_konbini écarté. (porté par un sens) — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
 - **A2-04-D0166** (decision, senses) : Deux sens : un aliment (le riz cuit) et un événement (le repas), deux référents et deux types sémantiques distincts. — avant `["Riz cuit","Repas","Nourriture"]` → après `["S1 Riz cuit","S2 Repas"]`
 - **A2-04-D0167** (abandon, senses) : Sens de 食べ物 ; non repris ici. — avant `["Nourriture"]` → après `null`
 
@@ -209,7 +209,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -231,7 +231,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_89 → v_89 · ちゃわん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0199** (decision, writings) : 茶碗 est la graphie en kanji de ちゃわん : même mot, même lecture, simple variante d'écriture (kana / kanji). — avant `null` → après `["茶碗"]`
 - **A2-04-D0200** (abandon, senses) : Le premier est repris dans la nuance ; le second est trop général. — avant `["Bol à thé (historiquement)","Bol en céramique"]` → après `null`
@@ -254,7 +254,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"茶碗","furigana":"<ruby>茶碗<rt>ちゃわん</rt></ruby>"}]`
 - suru_compatible : `false`
@@ -275,9 +275,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_90 → v_90 · とり肉
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0143** (decision, tags) : Commandé, demandé ou nommé au restaurant. lieu_konbini écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
+- **A2-04-D0143** (decision, tags) : Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0144** (decision, writings) : 鶏肉 est la graphie en kanji de とり肉 : même mot, même lecture, simple variante d'écriture (kana / kanji). — avant `null` → après `["鶏肉"]`
 
 | Champ source | Valeur |
@@ -299,14 +299,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"鶏肉","furigana":"<ruby>鶏肉<rt>とりにく</rt></ruby>"}]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `"Le poulet vivant se dit 鶏 (にわとり)."`
-- tags : `["lieu_restaurant"]`
+- tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
@@ -320,9 +320,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_93 → v_93 · カップ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0204** (abandon, senses) : Redondants avec « tasse » ; le mug est repris dans la nuance. — avant `["Mug","Tasse à café/thé"]` → après `null`
+- **A2-04-D0204** (abandon, senses) : « Gobelet » brouille la distinction avec コップ (récipient sans anse) ; « tasse à café ou à thé » est redondant ; le mug est repris dans la nuance. — avant `["Gobelet","Mug","Tasse à café/thé"]` → après `null`
 
 | Champ source | Valeur |
 |---|---|
@@ -342,7 +342,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -353,7 +353,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
-| 1 | **Tasse** (Gobelet) | alimentation_cuisine › vaisselle_ustensiles › vaisselle | objet_artefact |  |  |
+| 1 | **Tasse** | alimentation_cuisine › vaisselle_ustensiles › vaisselle | objet_artefact |  |  |
 
 **Contexte (anciens exemples, lecture seule)**
 
@@ -363,10 +363,10 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_94 → v_94 · カレー
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0171** (decision, tags) : Commandé, demandé ou nommé au restaurant. lieu_konbini écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
-- **A2-04-D0172** (abandon, senses) : Repris dans la nuance. — avant `["Curry japonais"]` → après `null`
+- **A2-04-D0171** (decision, tags) : Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés. Plat aussi courant à la maison qu'au restaurant. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
+- **A2-04-D0172** (abandon, senses) : Repris dans la nuance : « riz au curry » correspond à l'expression complète カレーライス, pas à un équivalent strict de カレー. — avant `["Curry japonais","Riz au curry"]` → après `null`
 
 | Champ source | Valeur |
 |---|---|
@@ -387,18 +387,18 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `"Désigne d'ordinaire le curry japonais servi avec du riz (カレーライス)."`
-- tags : `["lieu_restaurant"]`
+- tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
-| 1 | **Curry** (Riz au curry) | alimentation_cuisine › aliments › produits_prepares | substance_matiere |  |  |
+| 1 | **Curry** | alimentation_cuisine › aliments › produits_prepares | substance_matiere |  |  |
 
 **Contexte (anciens exemples, lecture seule)**
 
@@ -408,7 +408,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_95 → v_95 · コーヒー
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0182** (abandon, senses) : Redondant. — avant `["Boisson au café"]` → après `null`
 
@@ -431,7 +431,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -452,7 +452,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_97 → v_97 · パン
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0153** (decision, tags) : Acheté couramment au konbini. lieu_restaurant écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_konbini"]`
 - **A2-04-D0154** (abandon, senses) : Termes voisins, pas équivalents : une alternative doit être équivalente au sens. — avant `["Brioche","Viennoiserie"]` → après `null`
@@ -476,7 +476,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -497,7 +497,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_98 → v_98 · レストラン
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0215** (decision, tags) : lieu_gare (ancienne catégorie « lieux ») écarté ; lieu_restaurant ajouté hors des candidats : c'est le mot du lieu lui-même. — avant `["lieu_gare"]` → après `["lieu_restaurant"]`
 - **A2-04-D0216** (abandon, senses) : Redondant. — avant `["Établissement de restauration"]` → après `null`
@@ -521,7 +521,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -542,9 +542,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_99 → v_99 · 卵
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0149** (decision, tags) : Acheté couramment au konbini. lieu_restaurant écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_konbini"]`
+- **A2-04-D0149** (decision, tags) : On trouve des œufs au konbini, mais ce n'est pas un achat caractéristique de ce contexte (critère du lot 02). Candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0150** (abandon, senses) : Repris dans la nuance. — avant `["Œuf de poule"]` → après `null`
 
 | Champ source | Valeur |
@@ -566,14 +566,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `"Désigne d'ordinaire l'œuf de poule."`
-- tags : `["lieu_konbini"]`
+- tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
@@ -587,7 +587,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_101 → v_101 · 喫茶店
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0217** (decision, tags) : lieu_gare écarté ; lieu_restaurant ajouté hors des candidats : on y commande comme au restaurant. — avant `["lieu_gare"]` → après `["lieu_restaurant"]`
 - **A2-04-D0218** (abandon, senses) : Repris dans la nuance. — avant `["Coffee-shop à la japonaise"]` → après `null`
@@ -611,7 +611,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -632,7 +632,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_102 → v_102 · 塩
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0157** (decision, tags) : Vocabulaire peu utile dans les deux lieux : candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0158** (abandon, senses) : Redondant. — avant `["Sel de cuisine"]` → après `null`
@@ -656,7 +656,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -677,9 +677,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_103 → v_103 · 夕飯
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0173** (decision, tags) : Même choix que 晩ご飯 au lot 0 : lieu_restaurant gardé, lieu_konbini écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
+- **A2-04-D0173** (decision, tags) : « Dîner » désigne d'abord un repas, pas le vocabulaire propre au restaurant (critère du lot 02). Candidats écartés. La décision du lot 0 pour 晩ご飯 n'est pas une règle ; elle est signalée à l'audit A2-05. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0174** (abandon, senses) : Régional ou vieilli en français ; non repris. — avant `["Souper"]` → après `null`
 
 | Champ source | Valeur |
@@ -701,14 +701,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `"Un peu plus neutre que 晩ご飯, courant à l'oral."`
-- tags : `["lieu_restaurant"]`
+- tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
@@ -722,9 +722,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_104 → v_104 · 料理
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0175** (decision, tags) : Le tag ne vaut que pour les plats (sens 2) : il est porté par ce sens. lieu_konbini écarté. (porté par un sens) — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
+- **A2-04-D0175** (decision, tags) : Les plats sont l'objet même du service au restaurant (おすすめの料理, 料理を注文する) : association caractéristique. Le tag ne vaut que pour ce sens (sens 2), pas pour l'activité de cuisiner. lieu_konbini écarté. (porté par un sens) — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
 - **A2-04-D0176** (decision, senses) : Deux sens : une activité (cuisiner, 料理する) et son résultat (un plat), deux référents et deux types sémantiques distincts. suru_compatible : 料理する. — avant `["Cuisine","Plat","Spécialité culinaire","Action de cuisiner"]` → après `["S1 Cuisine (activité)","S2 Plat"]`
 - **A2-04-D0177** (abandon, senses) : Emploi de S2 (日本料理), repris dans sa nuance. — avant `["Spécialité culinaire"]` → après `null`
 
@@ -747,7 +747,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `true`
@@ -769,7 +769,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_108 → v_108 · 牛乳
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0183** (decision, tags) : Acheté couramment au konbini. lieu_restaurant écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_konbini"]`
 - **A2-04-D0184** (abandon, senses) : Le premier est repris dans la nuance ; le second est redondant. — avant `["Lait de vache","Lait frais"]` → après `null`
@@ -793,7 +793,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -814,9 +814,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_109 → v_109 · 牛肉
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0145** (decision, tags) : Commandé, demandé ou nommé au restaurant. lieu_konbini écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
+- **A2-04-D0145** (decision, tags) : Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 
 | Champ source | Valeur |
 |---|---|
@@ -837,14 +837,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `null`
-- tags : `["lieu_restaurant"]`
+- tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
@@ -858,7 +858,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_110 → v_110 · 砂糖
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0159** (decision, tags) : Vocabulaire peu utile dans les deux lieux : candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0160** (abandon, senses) : Redondant. — avant `["Sucre de cuisine"]` → après `null`
@@ -882,7 +882,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -903,9 +903,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_111 → v_111 · 箸
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0207** (decision, tags) : Aucun candidat hérité ; lieu_konbini et lieu_restaurant ajoutés : au konbini, on propose des baguettes avec le bento (お箸おつけしますか), et on les demande au restaurant. — avant `[]` → après `["lieu_konbini","lieu_restaurant"]`
+- **A2-04-D0207** (decision, tags) : Aucun candidat hérité ; lieu_konbini et lieu_restaurant ajoutés : association caractéristique, on vous les propose au konbini avec le bento (お箸おつけしますか) et on les demande au restaurant (お箸をください). — avant `[]` → après `["lieu_konbini","lieu_restaurant"]`
 - **A2-04-D0208** (abandon, senses) : Redondant. — avant `["Baguettes japonaises"]` → après `null`
 
 | Champ source | Valeur |
@@ -926,7 +926,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -947,7 +947,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_112 → v_112 · 紅茶
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0181** (abandon, senses) : Repris dans la nuance. — avant `["Thé rouge (traduction littérale)"]` → après `null`
 
@@ -970,7 +970,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -991,9 +991,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_113 → v_113 · 肉
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0141** (decision, tags) : Commandé, demandé ou nommé au restaurant. Peu acheté au konbini : lieu_konbini écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
+- **A2-04-D0141** (decision, tags) : Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0142** (abandon, senses) : Terme technique ; non repris. — avant `["Chair animale"]` → après `null`
 
 | Champ source | Valeur |
@@ -1015,14 +1015,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `null`
-- tags : `["lieu_restaurant"]`
+- tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
@@ -1036,9 +1036,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_114 → v_114 · 豚肉
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0146** (decision, tags) : Commandé, demandé ou nommé au restaurant. lieu_konbini écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
+- **A2-04-D0146** (decision, tags) : Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 
 | Champ source | Valeur |
 |---|---|
@@ -1059,14 +1059,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `null`
-- tags : `["lieu_restaurant"]`
+- tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
@@ -1080,7 +1080,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_115 → v_115 · 野菜
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0151** (decision, tags) : Ni acheté au konbini ni commandé comme tel au restaurant : les deux candidats sont écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0152** (abandon, senses) : Redondant. — avant `["Légumes frais"]` → après `null`
@@ -1104,7 +1104,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1125,7 +1125,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_117 → v_117 · 食べる
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0187** (decision, tags) : Verbe général, sans lieu propre : candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0188** (abandon, senses) : Redondant. — avant `["Consommer (un aliment)"]` → après `null`
@@ -1149,7 +1149,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"ru"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1170,7 +1170,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_118 → v_118 · 食べ物
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0163** (decision, tags) : Terme générique, sans lieu propre : candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0164** (abandon, senses) : Adjectif, pas une traduction du nom. — avant `["Comestible"]` → après `null`
@@ -1194,7 +1194,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1215,7 +1215,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_119 → v_119 · 食堂
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0219** (decision, tags) : lieu_gare écarté ; lieu_restaurant ajouté hors des candidats. — avant `["lieu_gare"]` → après `["lieu_restaurant"]`
 - **A2-04-D0220** (abandon, senses) : Repris dans la nuance. — avant `["Restaurant populaire"]` → après `null`
@@ -1239,7 +1239,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1260,7 +1260,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_120 → v_120 · 飲み物
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0186** (abandon, senses) : Définition, pas une traduction. — avant `["Liquide buvable"]` → après `null`
 
@@ -1283,7 +1283,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1304,7 +1304,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_121 → v_121 · 飴
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0161** (decision, tags) : Acheté couramment au konbini. lieu_restaurant écarté. — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_konbini"]`
 - **A2-04-D0162** (abandon, senses) : Variétés particulières ; « bonbon » couvre le sens. — avant `["Sucre d'orge","Caramel dur"]` → après `null`
@@ -1328,7 +1328,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1349,9 +1349,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_122 → v_122 · 魚
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0147** (decision, tags) : Le tag ne vaut que pour le poisson comme aliment (sens 2), pas pour l'animal : il est porté par ce sens. lieu_konbini écarté. (porté par un sens) — avant `["lieu_konbini","lieu_restaurant"]` → après `["lieu_restaurant"]`
+- **A2-04-D0147** (decision, tags) : Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0148** (decision, senses) : Deux sens, contrairement à 足 (lot 01) : le référent change (un animal vivant, une nourriture) et le type sémantique aussi (organisme_vivant, substance_matiere). Ce n'est pas une largeur de traduction. — avant `["Poisson","Poisson (chair ou animal)"]` → après `["S1 Poisson (animal)","S2 Poisson (aliment)"]`
 
 | Champ source | Valeur |
@@ -1373,7 +1373,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1385,7 +1385,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
 | 1 | **Poisson (animal)** | monde_naturel › animaux › poissons | organisme_vivant |  |  |
-| 2 | **Poisson (aliment)** | alimentation_cuisine › aliments › poissons_produits_marins | substance_matiere | tags lieu_restaurant |  |
+| 2 | **Poisson (aliment)** | alimentation_cuisine › aliments › poissons_produits_marins | substance_matiere |  |  |
 
 **Contexte (anciens exemples, lecture seule)**
 
@@ -1395,9 +1395,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_211 → v_211 · ナイフ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0213** (decision, tags) : Aucun candidat hérité ; lieu_restaurant ajouté : se demande au restaurant. — avant `[]` → après `["lieu_restaurant"]`
+- **A2-04-D0213** (decision, tags) : Aucun candidat hérité ; lieu_restaurant ajouté : couvert qu'on demande pour être servi, association caractéristique. — avant `[]` → après `["lieu_restaurant"]`
 - **A2-04-D0214** (abandon, senses) : Le premier est repris dans la nuance ; le second relève de 包丁. — avant `["Couteau de table","Lame de cuisine"]` → après `null`
 
 | Champ source | Valeur |
@@ -1418,7 +1418,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1439,9 +1439,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_225 → v_225 · お皿
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0201** (decision, tags) : lieu_hotel (ancienne catégorie de la maison) écarté ; lieu_restaurant ajouté hors des candidats : l'assiette se demande au restaurant. — avant `["lieu_hotel"]` → après `["lieu_restaurant"]`
+- **A2-04-D0201** (decision, tags) : lieu_hotel (ancienne catégorie de la maison) écarté ; pas de lieu_restaurant : l'assiette n'est pas d'ordinaire demandée au restaurant, l'association n'est pas caractéristique (critère du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0202** (decision, writings) : 皿 n'est pas ajouté comme autre graphie de お皿 : retirer le préfixe お change la forme lexicale elle-même, pas seulement son écriture (contrairement à ちゃわん / 茶碗). Question ouverte : 皿 pourrait être une ENTRY distincte, à décider si un lot la rencontre. Mentionné dans la nuance. — avant `null` → après `[]`
 - **A2-04-D0203** (abandon, senses) : Terme voisin, pas équivalent. — avant `["Coupelle"]` → après `null`
 
@@ -1464,14 +1464,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `"Forme polie et courante ; 皿 (さら) sans お, à l'écrit et dans les composés."`
-- tags : `["lieu_restaurant"]`
+- tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
@@ -1485,9 +1485,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_230 → v_230 · コップ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0205** (decision, tags) : lieu_hotel écarté ; lieu_restaurant ajouté hors des candidats : un verre se demande au restaurant. — avant `["lieu_hotel"]` → après `["lieu_restaurant"]`
+- **A2-04-D0205** (decision, tags) : lieu_hotel écarté ; pas de lieu_restaurant : au restaurant, on demande l'eau (お水) plutôt que le verre, l'association n'est pas caractéristique (critère du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0206** (abandon, senses) : Pas équivalent : la tasse se dit カップ. — avant `["Tasse"]` → après `null`
 
 | Champ source | Valeur |
@@ -1509,14 +1509,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `"Récipient sans anse ; la tasse se dit カップ."`
-- tags : `["lieu_restaurant"]`
+- tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
@@ -1530,9 +1530,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_231 → v_231 · スプーン
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0209** (decision, tags) : lieu_hotel écarté ; lieu_konbini et lieu_restaurant ajoutés : proposée au konbini avec un plat, demandée au restaurant. — avant `["lieu_hotel"]` → après `["lieu_konbini","lieu_restaurant"]`
+- **A2-04-D0209** (decision, tags) : lieu_hotel écarté ; lieu_konbini et lieu_restaurant ajoutés : association caractéristique, proposée au konbini avec un plat (スプーンおつけしますか), demandée au restaurant. — avant `["lieu_hotel"]` → après `["lieu_konbini","lieu_restaurant"]`
 - **A2-04-D0210** (abandon, senses) : Variétés particulières, redondantes. — avant `["Cuillère à soupe","Cuillère à café"]` → après `null`
 
 | Champ source | Valeur |
@@ -1554,7 +1554,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1575,9 +1575,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_232 → v_232 · フォーク
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0211** (decision, tags) : lieu_hotel écarté ; lieu_restaurant ajouté hors des candidats : se demande au restaurant. — avant `["lieu_hotel"]` → après `["lieu_restaurant"]`
+- **A2-04-D0211** (decision, tags) : lieu_hotel écarté ; lieu_restaurant ajouté hors des candidats : couvert qu'on demande pour être servi (フォークをください), association caractéristique. — avant `["lieu_hotel"]` → après `["lieu_restaurant"]`
 - **A2-04-D0212** (abandon, senses) : Redondant. — avant `["Fourchette de table"]` → après `null`
 
 | Champ source | Valeur |
@@ -1599,7 +1599,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1620,7 +1620,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_427 → v_427 · まずい
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0196** (decision, senses) : Deux sens : une saveur, et une situation qui tourne mal (まずいことになった), deux référents distincts. — avant `["Mauvais (goût)","Désagréable (au goût)","Impropre","Fâcheux (situation critique)"]` → après `["S1 Mauvais (au goût)","S2 Fâcheux"]`
 - **A2-04-D0197** (categorie-nulle, sens 2 · category) : Évaluation générale d'une situation : « propriété générale », sans domaine thématique propre. Addendum A5.
@@ -1644,7 +1644,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1666,7 +1666,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_464 → v_464 · 甘い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0190** (decision, senses) : Deux sens : une saveur, et une attitude trop peu exigeante envers quelqu'un ou quelque chose (子供に甘い). — avant `["Sucré","Doux (saveur)","LaXiste","Ingénu"]` → après `["S1 Sucré","S2 Indulgent"]`
 - **A2-04-D0191** (correction, senses) : Coquille de la source (anomalie déjà consignée). — avant `"LaXiste"` → après `"Laxiste"`
@@ -1691,7 +1691,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1713,7 +1713,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_481 → v_481 · 辛い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0194** (decision, senses) : Un sens, « épicé ». « Salé à l'excès » est un emploi régional, repris dans la nuance. — avant `["Épicé","Piquant","Salé à l'excès","Pénible (sens ancien)"]` → après `"un seul sens"`
 - **A2-04-D0195** (correction, senses) : Confusion de la source : « pénible » est le sens de つらい, autre lecture du même kanji, donc une autre unité lexicale (lecture différente). Ce n'est pas un sens de からい ; non repris ici. — avant `"Pénible (sens ancien)"` → après `null`
@@ -1736,7 +1736,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1757,7 +1757,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_619 → v_619 · バター
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0155** (decision, tags) : Vocabulaire peu utile dans les deux lieux : candidats écartés. — avant `["lieu_konbini","lieu_restaurant"]` → après `[]`
 - **A2-04-D0156** (abandon, senses) : Définition, pas une traduction. — avant `["Matière grasse issue du lait"]` → après `null`
@@ -1781,7 +1781,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1802,7 +1802,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_677 → v_677 · 水
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0178** (abandon, senses) : Repris dans la nuance. — avant `["Eau fraîche / froide (par opposition à l'eau chaude oyu)"]` → après `null`
 
@@ -1825,7 +1825,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`

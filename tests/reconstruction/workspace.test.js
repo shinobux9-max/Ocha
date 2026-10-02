@@ -45,14 +45,15 @@ test('5.2 : le lot 01 est entièrement validé (49 entrées), journal compris', 
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
-// A2-04 · 5.3 : le lot 02 est livré en PROPOSITION, journal compris ; aucune de ses décisions
-// n'est validée avant la relecture. Ce test changera à la validation du lot 02.
-test('5.3 : le lot 02 est entièrement proposé (41 entrées), journal compris', () => {
+// A2-04 · 5.3 fermée : le lot 02 est entièrement validé, avec tout son journal.
+test('5.3 : le lot 02 est entièrement validé (41 entrées), journal compris', () => {
   const lot2 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-02.json'), 'utf8'));
   assert.equal(Object.keys(lot2.entries).length, 41);
-  assert.ok(Object.values(lot2.entries).every((e) => e.status === 'proposed'));
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  assert.ok(journal.filter((j) => j.lot === 'lot-02').every((j) => j.status === 'proposed'));
+  assert.ok(Object.values(lot2.entries).every((e) => e.status === 'validated'));
+  assert.deepEqual(lot2.additions, []);
+  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-02');
+  assert.equal(own.length, 80);
+  assert.ok(own.every((j) => j.status === 'validated'));
 });
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du

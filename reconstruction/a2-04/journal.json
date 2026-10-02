@@ -1902,7 +1902,7 @@
   },
   {
     "id": "A2-04-D0141",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_113",
@@ -1912,14 +1912,12 @@
       "lieu_konbini",
       "lieu_restaurant"
     ],
-    "after": [
-      "lieu_restaurant"
-    ],
-    "reason": "Commandé, demandé ou nommé au restaurant. Peu acheté au konbini : lieu_konbini écarté."
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés."
   },
   {
     "id": "A2-04-D0142",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_113",
@@ -1933,7 +1931,7 @@
   },
   {
     "id": "A2-04-D0143",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_90",
@@ -1943,14 +1941,12 @@
       "lieu_konbini",
       "lieu_restaurant"
     ],
-    "after": [
-      "lieu_restaurant"
-    ],
-    "reason": "Commandé, demandé ou nommé au restaurant. lieu_konbini écarté."
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés."
   },
   {
     "id": "A2-04-D0144",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_90",
@@ -1964,7 +1960,7 @@
   },
   {
     "id": "A2-04-D0145",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_109",
@@ -1974,14 +1970,12 @@
       "lieu_konbini",
       "lieu_restaurant"
     ],
-    "after": [
-      "lieu_restaurant"
-    ],
-    "reason": "Commandé, demandé ou nommé au restaurant. lieu_konbini écarté."
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés."
   },
   {
     "id": "A2-04-D0146",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_114",
@@ -1991,14 +1985,12 @@
       "lieu_konbini",
       "lieu_restaurant"
     ],
-    "after": [
-      "lieu_restaurant"
-    ],
-    "reason": "Commandé, demandé ou nommé au restaurant. lieu_konbini écarté."
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés."
   },
   {
     "id": "A2-04-D0147",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_122",
@@ -2008,14 +2000,12 @@
       "lieu_konbini",
       "lieu_restaurant"
     ],
-    "after": [
-      "lieu_restaurant"
-    ],
-    "reason": "Le tag ne vaut que pour le poisson comme aliment (sens 2), pas pour l'animal : il est porté par ce sens. lieu_konbini écarté. (porté par un sens)"
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés."
   },
   {
     "id": "A2-04-D0148",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_122",
@@ -2033,7 +2023,7 @@
   },
   {
     "id": "A2-04-D0149",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_99",
@@ -2043,14 +2033,12 @@
       "lieu_konbini",
       "lieu_restaurant"
     ],
-    "after": [
-      "lieu_konbini"
-    ],
-    "reason": "Acheté couramment au konbini. lieu_restaurant écarté."
+    "after": [],
+    "reason": "On trouve des œufs au konbini, mais ce n'est pas un achat caractéristique de ce contexte (critère du lot 02). Candidats écartés."
   },
   {
     "id": "A2-04-D0150",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_99",
@@ -2064,7 +2052,7 @@
   },
   {
     "id": "A2-04-D0151",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_115",
@@ -2079,7 +2067,7 @@
   },
   {
     "id": "A2-04-D0152",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_115",
@@ -2093,7 +2081,7 @@
   },
   {
     "id": "A2-04-D0153",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_97",
@@ -2110,7 +2098,7 @@
   },
   {
     "id": "A2-04-D0154",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_97",
@@ -2125,7 +2113,7 @@
   },
   {
     "id": "A2-04-D0155",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_619",
@@ -2140,7 +2128,7 @@
   },
   {
     "id": "A2-04-D0156",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_619",
@@ -2154,7 +2142,7 @@
   },
   {
     "id": "A2-04-D0157",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_102",
@@ -2169,7 +2157,7 @@
   },
   {
     "id": "A2-04-D0158",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_102",
@@ -2183,7 +2171,7 @@
   },
   {
     "id": "A2-04-D0159",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_110",
@@ -2198,7 +2186,7 @@
   },
   {
     "id": "A2-04-D0160",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_110",
@@ -2212,7 +2200,7 @@
   },
   {
     "id": "A2-04-D0161",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_121",
@@ -2229,7 +2217,7 @@
   },
   {
     "id": "A2-04-D0162",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_121",
@@ -2244,7 +2232,7 @@
   },
   {
     "id": "A2-04-D0163",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_118",
@@ -2259,7 +2247,7 @@
   },
   {
     "id": "A2-04-D0164",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_118",
@@ -2273,7 +2261,7 @@
   },
   {
     "id": "A2-04-D0165",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_88",
@@ -2286,11 +2274,11 @@
     "after": [
       "lieu_restaurant"
     ],
-    "reason": "Le tag ne vaut que pour le riz cuit qu'on commande (sens 1) : il est porté par ce sens. lieu_konbini écarté. (porté par un sens)"
+    "reason": "Au restaurant, le riz cuit fait partie de ce qu'on commande ou redemande pour être servi (ご飯のおかわり, ご飯を大盛りで) : association caractéristique. Le tag ne vaut que pour ce sens (sens 1), pas pour le repas. lieu_konbini écarté. (porté par un sens)"
   },
   {
     "id": "A2-04-D0166",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_88",
@@ -2309,7 +2297,7 @@
   },
   {
     "id": "A2-04-D0167",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_88",
@@ -2323,7 +2311,7 @@
   },
   {
     "id": "A2-04-D0168",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_84",
@@ -2340,7 +2328,7 @@
   },
   {
     "id": "A2-04-D0169",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_84",
@@ -2352,7 +2340,7 @@
   },
   {
     "id": "A2-04-D0170",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_84",
@@ -2366,7 +2354,7 @@
   },
   {
     "id": "A2-04-D0171",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_94",
@@ -2376,28 +2364,27 @@
       "lieu_konbini",
       "lieu_restaurant"
     ],
-    "after": [
-      "lieu_restaurant"
-    ],
-    "reason": "Commandé, demandé ou nommé au restaurant. lieu_konbini écarté."
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu : on peut nommer le mot au restaurant, mais il n'appartient pas au vocabulaire propre à ce contexte (critère du lot 02). Candidats écartés. Plat aussi courant à la maison qu'au restaurant."
   },
   {
     "id": "A2-04-D0172",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_94",
     "field": "senses",
     "kind": "abandon",
     "before": [
-      "Curry japonais"
+      "Curry japonais",
+      "Riz au curry"
     ],
     "after": null,
-    "reason": "Repris dans la nuance."
+    "reason": "Repris dans la nuance : « riz au curry » correspond à l'expression complète カレーライス, pas à un équivalent strict de カレー."
   },
   {
     "id": "A2-04-D0173",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_103",
@@ -2407,14 +2394,12 @@
       "lieu_konbini",
       "lieu_restaurant"
     ],
-    "after": [
-      "lieu_restaurant"
-    ],
-    "reason": "Même choix que 晩ご飯 au lot 0 : lieu_restaurant gardé, lieu_konbini écarté."
+    "after": [],
+    "reason": "« Dîner » désigne d'abord un repas, pas le vocabulaire propre au restaurant (critère du lot 02). Candidats écartés. La décision du lot 0 pour 晩ご飯 n'est pas une règle ; elle est signalée à l'audit A2-05."
   },
   {
     "id": "A2-04-D0174",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_103",
@@ -2428,7 +2413,7 @@
   },
   {
     "id": "A2-04-D0175",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_104",
@@ -2441,11 +2426,11 @@
     "after": [
       "lieu_restaurant"
     ],
-    "reason": "Le tag ne vaut que pour les plats (sens 2) : il est porté par ce sens. lieu_konbini écarté. (porté par un sens)"
+    "reason": "Les plats sont l'objet même du service au restaurant (おすすめの料理, 料理を注文する) : association caractéristique. Le tag ne vaut que pour ce sens (sens 2), pas pour l'activité de cuisiner. lieu_konbini écarté. (porté par un sens)"
   },
   {
     "id": "A2-04-D0176",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_104",
@@ -2465,7 +2450,7 @@
   },
   {
     "id": "A2-04-D0177",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_104",
@@ -2479,7 +2464,7 @@
   },
   {
     "id": "A2-04-D0178",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_677",
@@ -2493,7 +2478,7 @@
   },
   {
     "id": "A2-04-D0179",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_85",
@@ -2509,7 +2494,7 @@
   },
   {
     "id": "A2-04-D0180",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_85",
@@ -2523,7 +2508,7 @@
   },
   {
     "id": "A2-04-D0181",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_112",
@@ -2537,7 +2522,7 @@
   },
   {
     "id": "A2-04-D0182",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_95",
@@ -2551,7 +2536,7 @@
   },
   {
     "id": "A2-04-D0183",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_108",
@@ -2568,7 +2553,7 @@
   },
   {
     "id": "A2-04-D0184",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_108",
@@ -2583,7 +2568,7 @@
   },
   {
     "id": "A2-04-D0185",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_86",
@@ -2599,7 +2584,7 @@
   },
   {
     "id": "A2-04-D0186",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_120",
@@ -2613,7 +2598,7 @@
   },
   {
     "id": "A2-04-D0187",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_117",
@@ -2628,7 +2613,7 @@
   },
   {
     "id": "A2-04-D0188",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_117",
@@ -2642,7 +2627,7 @@
   },
   {
     "id": "A2-04-D0189",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_66",
@@ -2657,7 +2642,7 @@
   },
   {
     "id": "A2-04-D0190",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_464",
@@ -2677,7 +2662,7 @@
   },
   {
     "id": "A2-04-D0191",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_464",
@@ -2689,7 +2674,7 @@
   },
   {
     "id": "A2-04-D0192",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_464",
@@ -2701,7 +2686,7 @@
   },
   {
     "id": "A2-04-D0193",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_464",
@@ -2715,7 +2700,7 @@
   },
   {
     "id": "A2-04-D0194",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_481",
@@ -2732,7 +2717,7 @@
   },
   {
     "id": "A2-04-D0195",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_481",
@@ -2744,7 +2729,7 @@
   },
   {
     "id": "A2-04-D0196",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_427",
@@ -2764,7 +2749,7 @@
   },
   {
     "id": "A2-04-D0197",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_427",
@@ -2776,7 +2761,7 @@
   },
   {
     "id": "A2-04-D0198",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_427",
@@ -2791,7 +2776,7 @@
   },
   {
     "id": "A2-04-D0199",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_89",
@@ -2805,7 +2790,7 @@
   },
   {
     "id": "A2-04-D0200",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_89",
@@ -2820,7 +2805,7 @@
   },
   {
     "id": "A2-04-D0201",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_225",
@@ -2829,14 +2814,12 @@
     "before": [
       "lieu_hotel"
     ],
-    "after": [
-      "lieu_restaurant"
-    ],
-    "reason": "lieu_hotel (ancienne catégorie de la maison) écarté ; lieu_restaurant ajouté hors des candidats : l'assiette se demande au restaurant."
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie de la maison) écarté ; pas de lieu_restaurant : l'assiette n'est pas d'ordinaire demandée au restaurant, l'association n'est pas caractéristique (critère du lot 02)."
   },
   {
     "id": "A2-04-D0202",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_225",
@@ -2848,7 +2831,7 @@
   },
   {
     "id": "A2-04-D0203",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_225",
@@ -2862,22 +2845,23 @@
   },
   {
     "id": "A2-04-D0204",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_93",
     "field": "senses",
     "kind": "abandon",
     "before": [
+      "Gobelet",
       "Mug",
       "Tasse à café/thé"
     ],
     "after": null,
-    "reason": "Redondants avec « tasse » ; le mug est repris dans la nuance."
+    "reason": "« Gobelet » brouille la distinction avec コップ (récipient sans anse) ; « tasse à café ou à thé » est redondant ; le mug est repris dans la nuance."
   },
   {
     "id": "A2-04-D0205",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_230",
@@ -2886,14 +2870,12 @@
     "before": [
       "lieu_hotel"
     ],
-    "after": [
-      "lieu_restaurant"
-    ],
-    "reason": "lieu_hotel écarté ; lieu_restaurant ajouté hors des candidats : un verre se demande au restaurant."
+    "after": [],
+    "reason": "lieu_hotel écarté ; pas de lieu_restaurant : au restaurant, on demande l'eau (お水) plutôt que le verre, l'association n'est pas caractéristique (critère du lot 02)."
   },
   {
     "id": "A2-04-D0206",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_230",
@@ -2907,7 +2889,7 @@
   },
   {
     "id": "A2-04-D0207",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_111",
@@ -2918,11 +2900,11 @@
       "lieu_konbini",
       "lieu_restaurant"
     ],
-    "reason": "Aucun candidat hérité ; lieu_konbini et lieu_restaurant ajoutés : au konbini, on propose des baguettes avec le bento (お箸おつけしますか), et on les demande au restaurant."
+    "reason": "Aucun candidat hérité ; lieu_konbini et lieu_restaurant ajoutés : association caractéristique, on vous les propose au konbini avec le bento (お箸おつけしますか) et on les demande au restaurant (お箸をください)."
   },
   {
     "id": "A2-04-D0208",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_111",
@@ -2936,7 +2918,7 @@
   },
   {
     "id": "A2-04-D0209",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_231",
@@ -2949,11 +2931,11 @@
       "lieu_konbini",
       "lieu_restaurant"
     ],
-    "reason": "lieu_hotel écarté ; lieu_konbini et lieu_restaurant ajoutés : proposée au konbini avec un plat, demandée au restaurant."
+    "reason": "lieu_hotel écarté ; lieu_konbini et lieu_restaurant ajoutés : association caractéristique, proposée au konbini avec un plat (スプーンおつけしますか), demandée au restaurant."
   },
   {
     "id": "A2-04-D0210",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_231",
@@ -2968,7 +2950,7 @@
   },
   {
     "id": "A2-04-D0211",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_232",
@@ -2980,11 +2962,11 @@
     "after": [
       "lieu_restaurant"
     ],
-    "reason": "lieu_hotel écarté ; lieu_restaurant ajouté hors des candidats : se demande au restaurant."
+    "reason": "lieu_hotel écarté ; lieu_restaurant ajouté hors des candidats : couvert qu'on demande pour être servi (フォークをください), association caractéristique."
   },
   {
     "id": "A2-04-D0212",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_232",
@@ -2998,7 +2980,7 @@
   },
   {
     "id": "A2-04-D0213",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_211",
@@ -3008,11 +2990,11 @@
     "after": [
       "lieu_restaurant"
     ],
-    "reason": "Aucun candidat hérité ; lieu_restaurant ajouté : se demande au restaurant."
+    "reason": "Aucun candidat hérité ; lieu_restaurant ajouté : couvert qu'on demande pour être servi, association caractéristique."
   },
   {
     "id": "A2-04-D0214",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_211",
@@ -3027,7 +3009,7 @@
   },
   {
     "id": "A2-04-D0215",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_98",
@@ -3043,7 +3025,7 @@
   },
   {
     "id": "A2-04-D0216",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_98",
@@ -3057,7 +3039,7 @@
   },
   {
     "id": "A2-04-D0217",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_101",
@@ -3073,7 +3055,7 @@
   },
   {
     "id": "A2-04-D0218",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_101",
@@ -3087,7 +3069,7 @@
   },
   {
     "id": "A2-04-D0219",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_119",
@@ -3103,7 +3085,7 @@
   },
   {
     "id": "A2-04-D0220",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-02",
     "lot": "lot-02",
     "entry": "n5_v_119",
