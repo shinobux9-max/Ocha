@@ -1,0 +1,9 @@
+{
+  "source": "docs/conception/registre-des-tags.md, §5 (A2-02 · 3.4)",
+  "places": {
+    "konbini": "lieu_konbini",
+    "gare": "lieu_gare",
+    "restaurant": "lieu_restaurant",
+    "hotel": "lieu_hotel"
+  }
+}

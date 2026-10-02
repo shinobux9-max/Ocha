@@ -1,0 +1,15 @@
+{
+  "frozen_on": "2026-10-02",
+  "from": {
+    "vocab.json": "data/n5/vocab.json",
+    "vocab-hors-jlpt.json": "data/vocab-hors-jlpt.json",
+    "lieux.json": "data/lieux.json",
+    "exemples.json": "data/n5/exemples.json"
+  },
+  "files": {
+    "vocab.json": "1f7a039630d3a547393ab0b6c8d30e66176aaa157ae94905c28110be2af738fd",
+    "vocab-hors-jlpt.json": "31198b2557c56925881330290177aee86988963ebae34549b007054b29436028",
+    "lieux.json": "265baf9520c14e5ab79133d1a68c4602d0c287e9cddea3190e8dd0f1f0c8d644",
+    "exemples.json": "a8ecf995970462b17d944ae4ccae34dc36e5ad1422fdc319d2b2c70890e65845"
+  }
+}
