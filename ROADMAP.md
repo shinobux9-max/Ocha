@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-03 (clôture du lot 05)
+**Dernière mise à jour :** 2026-10-03 (clôture du lot 06)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,11 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.7, lot 06 « École, apprentissage, langue et
-écrit ».**
+**A2-04 · reconstruction du vocabulaire N5 → 5.8, composition du lot 07.**
 
-Les lots 0 à 05 sont terminés et validés. Le périmètre du lot 06 est validé (37 entrées) ; sa
-proposition est livrée (statut `proposed`) et en relecture.
+Les lots 0 à 06 sont terminés et validés. Le prochain chantier est la composition du lot 07 : son
+périmètre doit être validé avant toute proposition lexicale.
 
 ------------------------------------------------------------------------
 
@@ -249,8 +248,9 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.4 · lot 03** | Maison, habitat et vie domestique | ✅ Terminé |
 | **5.5 · lot 04** | Ville, transports et déplacements | ✅ Terminé |
 | **5.6 · lot 05** | Achats, vêtements et objets personnels | ✅ Terminé |
-| **5.7 · lot 06** | École, apprentissage, langue et écrit | 🟡 **Proposition livrée ; en relecture** |
-| **5.8 → 5.15** | Lots thématiques suivants | ⬜ À faire |
+| **5.7 · lot 06** | École, apprentissage, langue et écrit | ✅ Terminé |
+| **5.8 · lot 07** | À composer | 🔵 **Prochain chantier** |
+| **5.9 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -263,37 +263,28 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 05
+#### État chiffré après le lot 06
 
--   **237 ENTRY validées** dans la reconstruction, dont 2 hors JLPT (`v_718`, `v_719`) ;
+-   **274 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **30 identifiants retirés** ;
--   **452 anciennes entrées encore à décider** ;
--   **409 décisions humaines validées** au journal ;
+-   **415 anciennes entrées encore à décider** ;
+-   **455 décisions humaines validées** au journal ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
-#### Lot 05 · clos
+#### Lot 06 · clos
 
-Thème : **Achats, vêtements et objets personnels** (37 anciennes entrées, aucune fusion).
+Thème : **École, apprentissage, langue et écrit** (37 anciennes entrées, aucune fusion).
 Arbitrages appliqués :
 
--   `いくら` : classe `pronom`, un sens, fonction `interrogatif`, confirmé par la source ;
--   `時計` et `荷物` : `category: null` justifié (A5) plutôt qu'une catégorie approchée ;
-    une proximité fonctionnelle ne fait pas une appartenance catégorielle ;
--   `lieu_konbini` seulement pour `レジ袋` et `ポイントカード` ; `lieu_hotel` pour `荷物`, pas
-    pour `スリッパ`.
+-   `平仮名` prend la forme usuelle `ひらがな`, par une exception humaine propre à cette entrée
+    (liste fermée `USUAL_FORM_IDS`, sans règle générale) ;
+-   `concept_abstrait` pour les langues (`英語`, le sens « langue » de `言葉`) ;
+-   audit 5.7-C : `counter` (`counter_for`) est réservé aux ENTRY qui sont des compteurs (au N5,
+    seul `匹`) ; « ce nom se compte avec » est une autre relation, non représentée ;
+    `counter: null` est correct partout.
 
-#### Lot 06 · proposition en relecture
-
-Thème : **École, apprentissage, langue et écrit** (37 anciennes entrées, aucune fusion). `平仮名`
-prend la forme usuelle `ひらがな`, par une exception humaine propre à cette entrée (liste fermée
-`USUAL_FORM_IDS`). Essai à blanc : **274 ENTRY**, **30 identifiants retirés**, 0 problème,
-0 erreur, 0 attente.
-
-Relecture faite : contenu lexical prêt. L'audit 5.7-C du champ `counter` conclut que
-`counter: null` est correct partout ; aucune reprise des lots 0 à 05.
-
-**Prochaine action immédiate :** valider le lot 06 (statuts seulement), puis composer le lot
-suivant (5.8).
+**Prochaine action immédiate :** composer le lot 07 (5.8), faire valider son périmètre, puis
+seulement produire ses décisions en statut `proposed`.
 
 ------------------------------------------------------------------------
 
@@ -561,7 +552,8 @@ Ensuite seulement :
    │   ├── Lot 03 Maison                    ✅
    │   ├── Lot 04 Ville (5.5)               ✅
    │   ├── Lot 05 Achats (5.6)              ✅
-   │   ├── Lot 06 École (5.7)               🟡
+   │   ├── Lot 06 École (5.7)               ✅
+   │   ├── Lot 07 (5.8)                     🔵
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

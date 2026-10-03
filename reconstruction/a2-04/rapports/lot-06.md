@@ -6,7 +6,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_22 → v_22 · 先生
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0416** (decision, senses) : Deux sens documentés par la source : l'enseignant, et le titre ou l'appellation de respect pour d'autres professions (médecin, auteur, maître dans un art). Même modèle que les termes d'adresse du lot 01. — avant `["Professeur","Enseignant","Maître","Médecin","Auteur / Professionnel qualifié"]` → après `["S1 Professeur","S2 Titre de respect (médecin, auteur, maître)"]`
 - **A2-04-D0417** (abandon, senses) : Le médecin se dit 医者 : 先生 n'en est que le titre de respect, repris dans le sens 2. — avant `["Médecin","Auteur / Professionnel qualifié"]` → après `null`
@@ -29,7 +29,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -51,7 +51,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_32 → v_32 · 学生
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0418** (abandon, senses) : Repris dans la nuance. — avant `["Écolier (au sens large)"]` → après `null`
 
@@ -73,7 +73,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -94,7 +94,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_38 → v_38 · 生徒
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0419** (abandon, senses) : Cas particuliers, couverts par « élève ». — avant `["Collégien","Lycéen"]` → après `null`
 
@@ -116,7 +116,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -137,7 +137,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_40 → v_40 · 留学生
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0420** (abandon, senses) : Pas équivalent : 留学生 ne suppose pas un échange. — avant `["Étudiant en échange international"]` → après `null`
 
@@ -159,7 +159,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -180,7 +180,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_41 → v_41 · 習う
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0428** (abandon, senses) : Redondant. — avant `["Étudier (auprès de quelqu'un)"]` → après `null`
 
@@ -202,7 +202,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -223,7 +223,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_123 → v_123 · クラス
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0413** (decision, senses) : Un seul sens : la source décrit « une classe d'élèves ou un groupe de cours », pas une salle. — avant `["Classe","Salle de classe","Groupe d'élèves"]` → après `"un seul sens"`
 - **A2-04-D0414** (abandon, senses) : Non documenté par la nuance de la source ; la salle se dit 教室. — avant `["Salle de classe"]` → après `null`
@@ -246,7 +246,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -267,7 +267,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_124 → v_124 · テスト
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -287,7 +287,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -308,7 +308,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_125 → v_125 · ノート
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0452** (abandon, senses) : Pas équivalent. — avant `["Bloc-notes"]` → après `null`
 
@@ -330,7 +330,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -351,7 +351,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_126 → v_126 · 大学
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0411** (abandon, senses) : Pas équivalent : désigne le niveau d'études, pas l'établissement. — avant `["Enseignement supérieur"]` → après `null`
 
@@ -373,7 +373,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -394,7 +394,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_127 → v_127 · 学校
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0410** (abandon, senses) : Redondant. — avant `["Établissement scolaire"]` → après `null`
 
@@ -416,7 +416,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -437,7 +437,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_129 → v_129 · 幼稚園
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -457,7 +457,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -478,7 +478,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_131 → v_131 · 授業
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0415** (abandon, senses) : Pas équivalent ; le groupe se dit クラス. — avant `["Classe (pédagogique)"]` → après `null`
 
@@ -500,7 +500,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -521,7 +521,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_132 → v_132 · 教える
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0429** (decision, senses) : Deux sens documentés par la source : « transmettre un savoir, enseigner une matière, ou indiquer une information ou un chemin ». Transmettre un savoir et donner une information ponctuelle sont deux actions distinctes. — avant `["Enseigner","Apprendre (quelque chose à quelqu'un)","Indiquer","Informer"]` → après `["S1 Enseigner","S2 Indiquer"]`
 - **A2-04-D0430** (abandon, senses) : Équivalent de « enseigner » dans un emploi transitif du français : redondant. — avant `["Apprendre (quelque chose à quelqu'un)"]` → après `null`
@@ -544,7 +544,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -566,7 +566,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_133 → v_133 · 教室
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0412** (abandon, senses) : Redondant. — avant `["Classe (salle physique)"]` → après `null`
 
@@ -588,7 +588,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -609,7 +609,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_134 → v_134 · 本
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0448** (decision, senses) : L'emploi de 本 comme compteur (〜本, objets longs), documenté par la source, n'est pas un sens de cette ENTRY : il relève du registre des compteurs. — avant `"Livre ; emploi comme compteur des objets longs (nuance de la source)"` → après `"un seul sens : livre"`
 - **A2-04-D0449** (abandon, senses) : Redondant. — avant `["Ouvrage"]` → après `null`
@@ -632,7 +632,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -653,7 +653,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_135 → v_135 · 知る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -673,7 +673,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -694,7 +694,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_136 → v_136 · 英語
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0438** (abandon, senses) : Redondant. — avant `["Langue anglaise"]` → après `null`
 
@@ -716,7 +716,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -737,7 +737,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_137 → v_137 · 覚える
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0431** (abandon, senses) : Redondant. — avant `["Apprendre par cœur"]` → après `null`
 
@@ -759,7 +759,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -780,7 +780,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_138 → v_138 · 言葉
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0436** (decision, senses) : Deux sens documentés par la source (« un mot, une expression, la parole ou le langage en général ») : une unité ou ce qui est dit, et un système de langue. — avant `["Mot","Langue","Parole","Vocabulaire","Terme"]` → après `["S1 Mot (paroles)","S2 Langue"]`
 - **A2-04-D0437** (abandon, senses) : Pas équivalent : l'ensemble des mots se dit 語彙. — avant `["Vocabulaire"]` → après `null`
@@ -803,7 +803,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -825,7 +825,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_139 → v_139 · 辞書
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0447** (abandon, senses) : Pas équivalent. — avant `["Lexique"]` → après `null`
 
@@ -847,7 +847,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -868,7 +868,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_140 → v_140 · 鉛筆
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -888,7 +888,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -909,7 +909,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_170 → v_170 · 字
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0442** (decision, senses) : Deux sens documentés par la source : un caractère écrit, et « le style d'écriture ou la calligraphie d'une personne » (字が上手). Un signe d'une part, une manière d'écrire d'autre part. — avant `["Caractère (écrit)","Lettre","Écriture"]` → après `["S1 Caractère","S2 Écriture (d'une personne)"]`
 
@@ -931,7 +931,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -953,7 +953,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_216 → v_216 · 宿題
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0425** (abandon, senses) : Repris dans la nuance. — avant `["Travail scolaire à la maison"]` → après `null`
 
@@ -975,7 +975,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -996,7 +996,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_513 → v_513 · 意味
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0444** (decision, senses) : Deux sens documentés par la source : « le sens d'un mot, d'une phrase, d'un symbole, ou l'intention / l'utilité derrière une action » (意味がない). — avant `["Signification","Sens","Importance","Portée"]` → après `["S1 Sens (d'un mot)","S2 Intérêt (utilité)"]`
 - **A2-04-D0445** (categorie-nulle, sens 2 · category) : Utilité ou raison d'être d'une action : « propriété générale », sans domaine thématique propre. Addendum A5.
@@ -1020,7 +1020,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1042,7 +1042,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_538 → v_538 · 分かる
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0432** (decision, senses) : Un seul sens, comprendre ; « savoir » et « connaître » relèvent de 知る. — avant `["Comprendre","Savoir","Connaître","Être clair"]` → après `"un seul sens"`
 - **A2-04-D0433** (abandon, senses) : Les deux premiers relèvent de 知る ; le troisième est un emploi de comprendre. — avant `["Savoir","Connaître","Être clair"]` → après `null`
@@ -1065,7 +1065,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1086,7 +1086,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_553 → v_553 · 忘れる
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0434** (decision, senses) : Un seul sens : oublier une information ou un objet (« omettre d'emporter ») est le même concept, en japonais comme en français. — avant `["Oublier","Laisser derrière soi","Effacer de sa mémoire"]` → après `"un seul sens"`
 - **A2-04-D0435** (abandon, senses) : Le premier est repris dans la nuance ; le second est redondant. — avant `["Laisser derrière soi","Effacer de sa mémoire"]` → après `null`
@@ -1109,7 +1109,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1130,7 +1130,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_556 → v_556 · 書く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0450** (correction, senses) : « Tracer un dessin » est le sens de 描く, même lecture (かく) mais autre graphie et autre sens : ce n'est pas un sens de 書く (comme 飛ぶ / 跳ぶ au lot 04). Non repris. — avant `"Tracer (des caractères, un dessin)"` → après `null`
 
@@ -1152,7 +1152,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1173,7 +1173,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_570 → v_570 · 練習
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0423** (decision, suru_compatible) : suru_compatible documenté par la source (« Nom (et verbe suru) »). — avant `null` → après `true`
 - **A2-04-D0424** (abandon, senses) : Traduction de 練習する, reprise dans la nuance. — avant `["S'entraîner"]` → après `null`
@@ -1196,7 +1196,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `true`
@@ -1217,7 +1217,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_574 → v_574 · 読む
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0451** (abandon, senses) : Pas équivalent. — avant `["Déchiffrer un texte"]` → après `null`
 
@@ -1239,7 +1239,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1260,7 +1260,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_604 → v_604 · 平仮名
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0440** (decision, word) : Forme usuelle ひらがな (arbitrage du lot 06) : 平仮名 devient une autre graphie. Exception humaine propre à cette ENTRY (liste fermée USUAL_FORM_IDS) ; la règle mécanique générale n'est pas modifiée, et aucune autre entrée n'est traitée ainsi. — avant `"平仮名"` → après `"ひらがな"`
 - **A2-04-D0441** (abandon, senses) : Repris dans la nuance. — avant `["Syllabaire japonais cursif"]` → après `null`
@@ -1283,7 +1283,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - word : **exception**, forme usuelle décidée (liste fermée)
 - readings : **exception**, dépend de la forme, en exception
 
-**Proposition**
+**Décision**
 
 - word : `"ひらがな"`
 - readings : `[{"kana":"ひらがな","romaji":"hiragana","furigana":"ひらがな","default":true,"note":null}]`
@@ -1306,7 +1306,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_622 → v_622 · ペン
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0453** (abandon, senses) : « Plume » relève de 万年筆 ; « Bic » est une marque. — avant `["Plume","Bic"]` → après `null`
 
@@ -1328,7 +1328,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1349,7 +1349,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_625 → v_625 · ボールペン
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0454** (abandon, senses) : Le premier est une marque ; le second est redondant. — avant `["Bic","Stylo bille"]` → après `null`
 
@@ -1371,7 +1371,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1392,7 +1392,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_629 → v_629 · 万年筆
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0455** (abandon, senses) : Redondant. — avant `["Stylo à plume"]` → après `null`
 
@@ -1414,7 +1414,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1435,7 +1435,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_636 → v_636 · 作文
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0426** (decision, suru_compatible) : suru_compatible non retenu : la source décrit 作文 comme « Nom » seulement ; aucun emploi en する n'est documenté. — avant `null` → après `false`
 - **A2-04-D0427** (abandon, senses) : Pas équivalent. — avant `["Dissertation (niveau scolaire)"]` → après `null`
@@ -1458,7 +1458,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1479,7 +1479,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_647 → v_647 · 勉強
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0421** (decision, suru_compatible) : suru_compatible documenté par la source (« Nom / verbe suru », 勉強する). — avant `null` → après `true`
 - **A2-04-D0422** (abandon, senses) : Se dit 宿題. — avant `["Devoirs"]` → après `null`
@@ -1502,7 +1502,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `true`
@@ -1523,7 +1523,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_666 → v_666 · 文章
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0443** (abandon, senses) : « Phrase » se dit 文, « composition écrite » 作文 ; « prose » n'est pas équivalent. — avant `["Phrase","Composition écrite","Prose"]` → après `null`
 
@@ -1545,7 +1545,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1566,7 +1566,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_682 → v_682 · 漢字
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0439** (abandon, senses) : Repris dans la nuance. — avant `["Caractères chinois utilisés en japonais"]` → après `null`
 
@@ -1588,7 +1588,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
