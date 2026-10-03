@@ -6,7 +6,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_69 → v_69 · コート
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0381** (abandon, senses) : Variétés particulières, pas équivalentes. — avant `["Trench-coat","Imperméable"]` → après `null`
 
@@ -28,7 +28,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -49,7 +49,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_70 → v_70 · シャツ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0384** (abandon, senses) : Termes voisins avec leurs mots propres (Tシャツ, 肌着) ; repris en partie dans la nuance. — avant `["T-shirt","Maillot de corps"]` → après `null`
 
@@ -71,7 +71,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -92,7 +92,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_71 → v_71 · スカート
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0387** (abandon, senses) : Redondant. — avant `["Jupe longue ou courte"]` → après `null`
 
@@ -114,7 +114,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -135,7 +135,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_72 → v_72 · ズボン
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0388** (abandon, senses) : Variétés particulières ; le jean se dit ジーンズ. — avant `["Pantalon de costume","Jean"]` → après `null`
 
@@ -157,7 +157,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -178,7 +178,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_73 → v_73 · ネクタイ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0392** (abandon, senses) : Trop général. — avant `["Accessoire de costume"]` → après `null`
 
@@ -200,7 +200,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -221,7 +221,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_74 → v_74 · ボタン
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0393** (decision, senses) : Deux sens documentés par la source (« à la fois un bouton de fermeture sur un vêtement et un bouton d'appareil ») : deux référents et deux domaines distincts, une fermeture et une commande. — avant `["Bouton","Bouton de vêtement","Bouton poussoir / électrique"]` → après `["S1 Bouton (de vêtement)","S2 Bouton (d'appareil)"]`
 
@@ -243,7 +243,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -265,7 +265,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_75 → v_75 · ポケット
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0394** (abandon, senses) : Pas équivalent. — avant `["Pochette de vêtement"]` → après `null`
 
@@ -287,7 +287,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -308,7 +308,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_76 → v_76 · ワイシャツ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0385** (abandon, senses) : Redondant. — avant `["Chemise (blanche ou de costume)"]` → après `null`
 
@@ -330,7 +330,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -351,7 +351,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_77 → v_77 · 上着
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0382** (abandon, senses) : Les deux premiers ne sont pas équivalents (le manteau se dit コート) ; le troisième est repris dans la nuance. — avant `["Blouson","Manteau","Vêtement du dessus"]` → après `null`
 
@@ -373,7 +373,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -394,7 +394,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_78 → v_78 · 帽子
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0391** (abandon, senses) : Variétés particulières ; 帽子 les couvre toutes, comme le dit la nuance. — avant `["Casquette","Bonnet"]` → après `null`
 
@@ -416,7 +416,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -437,7 +437,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_81 → v_81 · 眼鏡
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0397** (decision, writings) : Graphies en hiragana et en katakana documentées par la nuance de la source : variantes d'écriture du même mot. — avant `null` → après `["めがね","メガネ"]`
 - **A2-04-D0398** (abandon, senses) : Redondant. — avant `["Paire de lunettes"]` → après `null`
@@ -460,7 +460,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"めがね","furigana":"めがね"},{"form":"メガネ","furigana":"メガネ"}]`
 - suru_compatible : `false`
@@ -481,7 +481,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_83 → v_83 · 背広
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0383** (abandon, senses) : Le premier est redondant ; le second n'est pas équivalent. — avant `["Costume d'homme","Veste de costume"]` → après `null`
 
@@ -503,7 +503,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -524,7 +524,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_179 → v_179 · いくら
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0371** (decision, tags) : Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté. — avant `["lieu_konbini"]` → après `[]`
 - **A2-04-D0372** (decision, grammatical_class) : Classe pronom (arbitrage du lot 05), confirmée par la source : « mot interrogatif invariable utilisé exclusivement pour s'informer sur une valeur financière ou un montant ». L'emploi いくら…ても n'est pas documenté et ne fonde ni une autre classe ni un autre sens. group: null (pronom). — avant `"adverbe / pronom (ancien type)"` → après `"pronom"`
@@ -550,7 +550,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : **exception**, dépend de la classe, en exception
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"pronom"`
 - group : `null`
@@ -573,7 +573,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_180 → v_180 · お金
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0369** (decision, tags) : Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté. — avant `["lieu_konbini"]` → après `[]`
 - **A2-04-D0370** (abandon, senses) : La petite monnaie se dit 小銭, les fonds 資金 : termes voisins, pas équivalents. — avant `["Monnaie","Fonds"]` → après `null`
@@ -597,7 +597,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -618,7 +618,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_182 → v_182 · デパート
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0357** (decision, tags) : Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté. — avant `["lieu_konbini"]` → après `[]`
 - **A2-04-D0358** (abandon, senses) : Repris dans la nuance. — avant `["Grand magasin à plusieurs étages (department store)"]` → après `null`
@@ -642,7 +642,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -663,7 +663,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_184 → v_184 · 売る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0363** (decision, tags) : Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté. — avant `["lieu_konbini"]` → après `[]`
 - **A2-04-D0364** (abandon, senses) : Redondant. — avant `["Proposer à la vente"]` → après `null`
@@ -687,7 +687,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"u"`
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -708,7 +708,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_185 → v_185 · 安い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0375** (decision, tags) : Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté. — avant `["lieu_konbini"]` → après `[]`
 - **A2-04-D0376** (abandon, senses) : Redondant. — avant `["Peu coûteux"]` → après `null`
@@ -732,7 +732,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"i"`
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -753,7 +753,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_186 → v_186 · 店
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0355** (decision, tags) : Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté. — avant `["lieu_konbini"]` → après `[]`
 - **A2-04-D0356** (abandon, senses) : Le premier est redondant ; l'emploi pour un restaurant est repris dans la nuance. — avant `["Établissement commercial","Restaurant (parfois)"]` → après `null`
@@ -777,7 +777,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -798,7 +798,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_187 → v_187 · 買う
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0361** (decision, tags) : Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté. — avant `["lieu_konbini"]` → après `[]`
 - **A2-04-D0362** (abandon, senses) : Redondant. — avant `["Se procurer (en payant)"]` → après `null`
@@ -822,7 +822,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"u"`
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -843,7 +843,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_188 → v_188 · 高い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0377** (decision, tags) : Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté. — avant `["lieu_konbini"]` → après `[]`
 - **A2-04-D0378** (decision, senses) : Deux sens documentés par la source (« adjectif en -i possédant deux sens ») : une hauteur physique et un prix, deux dimensions distinctes avec deux contraires distincts (低い, 安い). — avant `["Haut","Cher (coûteux)","Élevé"]` → après `["S1 Haut","S2 Cher"]`
@@ -867,7 +867,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"i"`
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -889,7 +889,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_223 → v_223 · 財布
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -909,7 +909,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -930,7 +930,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_234 → v_234 · 傘
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0399** (decision, tags) : lieu_hotel (ancienne catégorie de la maison) écarté : on peut emprunter un parapluie à l'hôtel, mais le mot n'appartient pas au vocabulaire d'action propre à l'hôtel. — avant `["lieu_hotel"]` → après `[]`
 
@@ -953,7 +953,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -974,7 +974,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_566 → v_566 · 着る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0395** (abandon, senses) : Repris dans la nuance. — avant `["Enfiler (sur le haut du corps)"]` → après `null`
 
@@ -996,7 +996,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1017,7 +1017,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_572 → v_572 · 脱ぐ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0396** (abandon, senses) : Pas équivalent. — avant `["Se déshabiller (partiellement)"]` → après `null`
 
@@ -1039,7 +1039,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1060,7 +1060,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_614 → v_614 · スリッパ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0400** (decision, tags) : lieu_hotel (ancienne catégorie de la maison) écarté : on porte des chaussons à la maison, à l'école, à l'hôpital ou au bureau ; ceux qu'un hôtel fournit ne rendent pas le mot caractéristique du service hôtelier. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0401** (abandon, senses) : Redondant. — avant `["Pantoufles d'intérieur"]` → après `null`
@@ -1084,7 +1084,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1105,7 +1105,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_615 → v_615 · セーター
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0386** (abandon, senses) : Vieilli ; non repris. — avant `["Chandail"]` → après `null`
 
@@ -1127,7 +1127,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1148,7 +1148,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_618 → v_618 · ハンカチ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0402** (abandon, senses) : Redondant. — avant `["Mouchoir de poche"]` → après `null`
 
@@ -1170,7 +1170,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1191,7 +1191,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_640 → v_640 · 八百屋
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0359** (decision, tags) : lieu_gare (ancienne catégorie « lieux ») écarté : un commerce de quartier, sans lien avec la gare. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0360** (abandon, senses) : Repris dans la nuance. — avant `["Épicerie de quartier (fruits et légumes)"]` → après `null`
@@ -1215,7 +1215,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1236,10 +1236,10 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_671 → v_671 · 時計
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0403** (decision, senses) : Un seul concept documenté par la source (« aussi bien une montre portée au poignet qu'une horloge murale ») : montre et horloge en rendent la largeur, comme « jambe » pour 足. — avant `["Horloge","Montre","Pendule","Réveil"]` → après `"un seul sens"`
-- **A2-04-D0404** (decision, category) : Le registre n'a pas de catégorie d'instrument de mesure du temps : 時計 est rangé avec les unités de l'heure, qu'il sert à lire. — avant `null` → après `"temps › unites_temporelles › seconde_minute_heure"`
+- **A2-04-D0404** (categorie-nulle, sens 1 · category) : Aucune catégorie primaire pertinente : 時計 est un instrument qui indique le temps, pas une unité temporelle, et le registre n'a pas de catégorie d'instrument de mesure. Le ranger avec les unités de l'heure ferait d'une proximité fonctionnelle une appartenance (révision 5.6b). Addendum A5.
 - **A2-04-D0405** (abandon, senses) : Se dit 目覚まし時計 ; repris dans la nuance. — avant `["Réveil"]` → après `null`
 
 | Champ source | Valeur |
@@ -1260,7 +1260,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1271,7 +1271,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
-| 1 | **Horloge** (Montre, Pendule) | temps › unites_temporelles › seconde_minute_heure | objet_artefact |  |  |
+| 1 | **Horloge** (Montre, Pendule) | **null** | objet_artefact |  |  |
 
 **Contexte (anciens exemples, lecture seule)**
 
@@ -1281,7 +1281,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_673 → v_673 · 服
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0379** (abandon, senses) : Redondant (singulier). — avant `["Vêtement"]` → après `null`
 
@@ -1303,7 +1303,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1324,7 +1324,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_679 → v_679 · 洋服
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0380** (abandon, senses) : Redondant. — avant `["Habits de style occidental"]` → après `null`
 
@@ -1346,7 +1346,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1367,11 +1367,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_694 → v_694 · 荷物
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0406** (decision, tags) : Aucun candidat hérité ; lieu_hotel ajouté : à l'arrivée ou au départ, faire garder ses bagages fait partie du scénario hôtelier (荷物を預かってもらえますか). — avant `[]` → après `["lieu_hotel"]`
 - **A2-04-D0407** (decision, senses) : Un seul concept documenté par la source (« les bagages de voyage, les paquets ou les colis postaux ») : la chose qu'on porte ou fait transporter. — avant `["Bagage","Colis","Paquet","Fardeau"]` → après `"un seul sens"`
-- **A2-04-D0408** (decision, category) : Le registre n'a pas de catégorie des marchandises ou des bagages : 荷物 est rangé avec l'utilisation des transports (ce qu'on porte ou fait transporter). — avant `null` → après `"transport_mobilite › utilisation_des_transports"`
+- **A2-04-D0408** (categorie-nulle, sens 1 · category) : Aucune catégorie primaire pertinente : 荷物 est ce qui est porté ou transporté, pas une utilisation des transports, et le registre n'a pas de catégorie des bagages ni des marchandises (révision 5.6b). Le type sémantique objet_artefact reste connu. Addendum A5.
 - **A2-04-D0409** (abandon, senses) : Sens figuré, hors N5. — avant `["Fardeau"]` → après `null`
 
 | Champ source | Valeur |
@@ -1392,7 +1392,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1403,7 +1403,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
-| 1 | **Bagage** (Colis, Paquet) | transport_mobilite › utilisation_des_transports | objet_artefact |  |  |
+| 1 | **Bagage** (Colis, Paquet) | **null** | objet_artefact |  |  |
 
 **Contexte (anciens exemples, lecture seule)**
 
@@ -1413,7 +1413,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_701 → v_701 · 買い物
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0365** (decision, tags) : Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté. — avant `["lieu_konbini"]` → après `[]`
 - **A2-04-D0366** (correction, readings) : Les furigana de la source omettaient l'okurigana い : leur texte de base était 買物, pas 買い物. — avant `"<ruby>買<rt>かい</rt></ruby><ruby>物<rt>もの</rt></ruby>"` → après `"<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>"`
@@ -1439,7 +1439,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - readings : **exception**, furigana incohérents avec la forme
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"かいもの","romaji":"kaimono","furigana":"<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
@@ -1461,7 +1461,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_714 → v_714 · 靴
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0389** (abandon, senses) : Pas équivalent : se dit スニーカー. — avant `["Baskets"]` → après `null`
 
@@ -1483,7 +1483,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1504,7 +1504,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_715 → v_715 · 靴下
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0390** (abandon, senses) : Pas équivalent : les bas se disent ストッキング. — avant `["Bas"]` → après `null`
 
@@ -1526,7 +1526,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1547,7 +1547,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### hj_v_1 → v_718 · レジ袋
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -1568,7 +1568,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1583,7 +1583,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### hj_v_2 → v_719 · ポイントカード
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -1604,7 +1604,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`

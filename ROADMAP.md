@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-03 (clôture du lot 04)
+**Dernière mise à jour :** 2026-10-03 (clôture du lot 05)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,11 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.6, lot 05 « Achats, vêtements et objets
-personnels ».**
+**A2-04 · reconstruction du vocabulaire N5 → 5.7, composition du lot 06.**
 
-Les lots 0, 01, 02, 03 et 04 sont terminés et validés. Le périmètre du lot 05 est validé
-(37 entrées) ; sa proposition est livrée (statut `proposed`) et en relecture.
+Les lots 0 à 05 sont terminés et validés. Le prochain chantier est la composition du lot 06 : son
+périmètre doit être validé avant toute proposition lexicale.
 
 ------------------------------------------------------------------------
 
@@ -248,8 +247,9 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.3 · lot 02** | Alimentation, boissons, repas et table | ✅ Terminé |
 | **5.4 · lot 03** | Maison, habitat et vie domestique | ✅ Terminé |
 | **5.5 · lot 04** | Ville, transports et déplacements | ✅ Terminé |
-| **5.6 · lot 05** | Achats, vêtements et objets personnels | 🟡 **Proposition livrée ; en relecture** |
-| **5.7 → 5.15** | Lots thématiques suivants | ⬜ À faire |
+| **5.6 · lot 05** | Achats, vêtements et objets personnels | ✅ Terminé |
+| **5.7 · lot 06** | À composer | 🔵 **Prochain chantier** |
+| **5.8 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -262,34 +262,27 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 04
+#### État chiffré après le lot 05
 
--   **200 ENTRY validées** dans la reconstruction ;
--   **30 identifiants retirés** (dont `掃除する` → `掃除` et `出ます` → `出る`) ;
--   **489 anciennes entrées encore à décider** ;
+-   **237 ENTRY validées** dans la reconstruction, dont 2 hors JLPT (`v_718`, `v_719`) ;
+-   **30 identifiants retirés** ;
+-   **452 anciennes entrées encore à décider** ;
+-   **409 décisions humaines validées** au journal ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
-#### Lot 04 · clos
+#### Lot 05 · clos
 
-Thème : **Ville, transports et déplacements** (39 anciennes entrées : 38 gardées, 1 fusion).
+Thème : **Achats, vêtements et objets personnels** (37 anciennes entrées, aucune fusion).
 Arbitrages appliqués :
 
--   `出ます` est fusionné dans `出る`, en conservant `v_642` : exception justifiée à la règle du
-    plus petit numéro (une forme conjuguée tenait lieu d'ENTRY) ; `出る` a trois sens (sortir,
-    assister à, apparaître) ;
--   `図書館` est rangé parmi les espaces publics collectifs, sans créer de catégorie pour une
-    seule entrée ;
--   tags de la gare stricts : `駅`, `電車`, `地下鉄`, `切符`, `乗る` ; pas de tag pour `降りる`, verbe
-    général.
+-   `いくら` : classe `pronom`, un sens, fonction `interrogatif`, confirmé par la source ;
+-   `時計` et `荷物` : `category: null` justifié (A5) plutôt qu'une catégorie approchée ;
+    une proximité fonctionnelle ne fait pas une appartenance catégorielle ;
+-   `lieu_konbini` seulement pour `レジ袋` et `ポイントカード` ; `lieu_hotel` pour `荷物`, pas
+    pour `スリッパ`.
 
-#### Lot 05 · proposition en relecture
-
-Thème : **Achats, vêtements et objets personnels** (37 anciennes entrées, aucune fusion), dont
-les deux premiers mots hors JLPT (`v_718`, `v_719`). Essai à blanc : **237 ENTRY**, **30
-identifiants retirés**, 0 problème, 0 erreur, 0 attente.
-
-**Prochaine action immédiate :** relire et arbitrer la proposition du lot 05, la réviser si
-besoin, puis la valider avant de composer le lot suivant (5.7).
+**Prochaine action immédiate :** composer le lot 06 (5.7), faire valider son périmètre, puis
+seulement produire ses décisions en statut `proposed`.
 
 ------------------------------------------------------------------------
 
@@ -556,7 +549,8 @@ Ensuite seulement :
    │   ├── Lot 02 Alimentation              ✅
    │   ├── Lot 03 Maison                    ✅
    │   ├── Lot 04 Ville (5.5)               ✅
-   │   ├── Lot 05 Achats (5.6)              🟡
+   │   ├── Lot 05 Achats (5.6)              ✅
+   │   ├── Lot 06 (5.7)                     🔵
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜
