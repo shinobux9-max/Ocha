@@ -278,6 +278,8 @@ modifier ses parties verrouillées.
 | 2026-10-03 | A2-04 · lot 05 arbitré : une proximité fonctionnelle ne fait pas une appartenance catégorielle ; faute de catégorie pertinente dans le registre, `category: null` justifié (A5) plutôt qu'une catégorie approchée (時計 n'est pas une unité temporelle, 荷物 n'est pas une utilisation des transports), le `semantic_type` restant renseigné ; 荷物 garde `lieu_hotel` (faire garder ses bagages, action propre au parcours hôtelier) ; le reste du lot validé tel que proposé | `reconstruction/a2-04/lots/lot-05.json` |
 | 2026-10-03 | A2-04 · 5.6 fermée : lot 05 et ses 55 décisions validés ; `vocab-hors-jlpt.json` reçoit ses deux premières ENTRY (`v_718` レジ袋, `v_719` ポイントカード) | `reconstruction/a2-04/` |
 | 2026-10-03 | A2-04 · 5.7 · périmètre du lot 06 : 37 entrées (école et personnes ; apprendre et savoir, avec 分かる, 知る, 忘れる ; langue et écrit ; fournitures) ; 平仮名 : forme usuelle ひらがな, 平仮名 en graphie, comme exception humaine propre à cette ENTRY. Mise en œuvre : une liste fermée `USUAL_FORM_IDS`, distincte des graphies fautives, qui ne contient que `n5_v_604` ; la règle mécanique générale n'est pas modifiée et aucune autre entrée n'est traitée ainsi | `tools/reconstruction/rules.mjs`, `tools/reconstruction/mechanical.mjs` |
+| 2026-10-03 | A2-04 · lot 06 relu : `USUAL_FORM_IDS` et D0440 confirmés ; `concept_abstrait` confirmé pour 英語 et pour le sens « langue » de 言葉 (une langue est un système abstrait conventionnel, pas un contenu) ; validation suspendue à l'audit du champ `counter` | `reconstruction/a2-04/lots/lot-06.json` |
+| 2026-10-03 | A2-04 · 5.7-C · audit du champ `counter` (sans modification de données) : `counter` (`{ counter_for }`) est la propriété d'une ENTRY qui **est** un compteur (A2-LING §3, schéma I6 ; au N5, seul 匹 selon A2-02) ; ce que documentent les sources (« ce nom se compte avec 冊 ») est une autre relation, non représentée ; `counter: null` est correct pour les 43 noms validés concernés et pour 本, 辞書, 鉛筆, 字 ; aucune reprise des lots 0 à 05 ; les emplois de compteur de 本 (〜本) et de 人 (〜人) sont des unités distinctes, avec le chantier des affixes | `docs/rapports/etape2-tache5-7c-audit-compteurs.md` |
 
 ---
 
@@ -346,11 +348,12 @@ modifier ses parties verrouillées.
   avant 5.17, il faudra une procédure globale.
 - **Verbes en する** : la règle de fusion du lot 03 (掃除 / 掃除する) devra être appliquée cas par
   cas aux autres formes en する du corpus (散歩する, 勉強する…), selon l'identité lexicale.
-- **Compteurs (champ `counter`)** (point transversal, à trancher globalement) : 45 entrées déjà
-  validées (lots 0 à 05) ont un compteur documenté par leur source, toutes avec `counter: null`.
-  Le registre A2-02 n'a que 6 classes de compatibilité (本, 枚, 冊, 個 / つ, 回 couverts ; 台, 軒,
-  箇所, 杯, 脚, 基, 棟 sans classe). Statu quo `null` pendant les lots ; décision et rattrapage
-  uniformes à prévoir (5.16 ou audit A2-05).
+- **« Se compte avec »** (question de conception, sans urgence ; audit 5.7-C) : les sources disent
+  avec quel compteur on compte 43 noms déjà validés (本, 枚, 個, 台, 軒…). Ce n'est **pas** le champ
+  `counter`, qui porte la propriété d'une ENTRY qui *est* un compteur (`counter_for`, seul 匹 au
+  N5) : `counter: null` est correct partout. La relation « se compte avec » n'est représentée nulle
+  part. Faut-il la modéliser (propriété du nom, relation vers le compteur, ou leçons de grammaire
+  seulement) ? Les sources figées permettront de l'extraire plus tard, sans reprendre les lots.
 - **Affixes** : la représentation des suffixes (〜方 « manière de… », 〜人, 〜さん…) n'est pas
   définie ; aucune ENTRY d'affixe n'est créée avant un chantier dédié.
 - **Identifiants de sens après publication** : ils sont générés dans l'ordre des sens jusqu'à la
@@ -454,3 +457,4 @@ modifier ses parties verrouillées.
 | 2026-10-03 | 2 · 5.6b | Révision du lot 05 : 時計 et 荷物 en `category: null`, D0404 et D0408 réécrites à leur place en `categorie-nulle` ; aucune autre décision modifiée ; essai à blanc : 237 ENTRY, 30 retraits, 0 erreur, 0 attente, 2 `categorie-nulle` de plus ; refus vérifié sans justification ; 423 tests | — |
 | 2026-10-03 | 2 · 5.6 | Validation du lot 05 : 37 entrées et 55 décisions passées en `validated` sans autre changement ; journal entier validé (409 décisions) ; assemblage réel : 237 ENTRY, 30 retraits, 0 problème, 0 erreur, 0 attente, 452 entrées encore à décider ; 16 `categorie-nulle`, dont 時計 et 荷物 couverts par D0404 et D0408 ; test d'état adapté ; 3 sabotages attrapés ; `ROADMAP.md` mis à jour (5.6 ✅, 5.7 prochain chantier) ; 423 tests | — |
 | 2026-10-03 | 2 · 5.7 | Lot 06 proposé : 37 entrées, 46 décisions de journal proposées (D0410 à D0455) ; liste fermée `USUAL_FORM_IDS` (平仮名 → ひらがな), 2 tests et 2 sabotages ; essai à blanc : 274 ENTRY, 30 retraits, 0 problème, 0 erreur, 0 attente, 1 `categorie-nulle` de plus ; compteurs consignés comme point transversal ; 426 tests | — |
+| 2026-10-03 | 2 · 5.7-C | Audit du champ `counter`, sans modification de données : `counter: null` correct partout ; la relation « se compte avec » (43 noms validés) est une question de conception distincte, non bloquante ; correction de ma présentation précédente (45 → 44 mentions, dont 1 faux positif, 時計) ; le lot 06 reste proposé, prêt à valider | — |

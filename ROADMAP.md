@@ -289,8 +289,11 @@ prend la forme usuelle `ひらがな`, par une exception humaine propre à cette
 `USUAL_FORM_IDS`). Essai à blanc : **274 ENTRY**, **30 identifiants retirés**, 0 problème,
 0 erreur, 0 attente.
 
-**Prochaine action immédiate :** relire et arbitrer la proposition du lot 06, la réviser si
-besoin, puis la valider avant de composer le lot suivant (5.8).
+Relecture faite : contenu lexical prêt. L'audit 5.7-C du champ `counter` conclut que
+`counter: null` est correct partout ; aucune reprise des lots 0 à 05.
+
+**Prochaine action immédiate :** valider le lot 06 (statuts seulement), puis composer le lot
+suivant (5.8).
 
 ------------------------------------------------------------------------
 
@@ -627,9 +630,10 @@ points suivants :
 -   ordre fin entre certaines tâches du graphe, de la grammaire et du
     registre de phrases lorsque leurs dépendances seront précisées ;
 -   placement de la tâche de données sur les anomalies kanji (dictionnaire, `醤`) ;
--   compteurs (`counter`) : 45 entrées validées ont un compteur documenté par la source mais
-    `counter: null` ; le registre ne couvre qu'une partie des compteurs ; décision et rattrapage
-    uniformes à prévoir ;
+-   relation « se compte avec » (audit 5.7-C) : les sources disent avec quel compteur on compte
+    de nombreux noms ; ce n'est pas le champ `counter` (réservé aux ENTRY qui sont des compteurs,
+    comme 匹), qui est correct partout ; faut-il modéliser cette relation, et sous quelle forme ?
+    Non bloquant : les sources figées permettront de l'extraire plus tard ;
 -   migration future du N4, qui devra reprendre la méthode de
     reconstruction adaptée au format v2 avant son intégration au moteur
     guidé.
