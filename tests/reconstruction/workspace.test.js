@@ -112,14 +112,27 @@ test('5.7 : le lot 06 est entièrement validé (37 entrées), journal compris', 
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
-// A2-04 · 5.8 : le lot 07 est livré en PROPOSITION, journal compris ; aucune de ses décisions
-// n'est validée avant la relecture. Ce test changera à la validation du lot 07.
-test('5.8 : le lot 07 est entièrement proposé (34 entrées), journal compris', () => {
+// A2-04 · 5.8 fermée : le lot 07 est entièrement validé (aucune fusion ; 匹, premier compteur),
+// avec tout son journal.
+test('5.8 : le lot 07 est entièrement validé (34 entrées), journal compris', () => {
   const lot7 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-07.json'), 'utf8'));
   assert.equal(Object.keys(lot7.entries).length, 34);
-  assert.ok(Object.values(lot7.entries).every((e) => e.status === 'proposed'));
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  assert.ok(journal.filter((j) => j.lot === 'lot-07').every((j) => j.status === 'proposed'));
+  assert.ok(Object.values(lot7.entries).every((e) => e.status === 'validated'));
+  assert.ok(Object.values(lot7.entries).every((e) => !e.retire), 'aucune fusion dans le lot 07');
+  assert.deepEqual(lot7.entries.n5_v_648.fields.counter, { counter_for: ['small_animals'] });
+  assert.deepEqual(lot7.additions, []);
+  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-07');
+  assert.equal(own.length, 48);
+  assert.ok(own.every((j) => j.status === 'validated'));
+});
+
+// Audit 5.7-C : `counter` est réservé aux ENTRY qui sont elles-mêmes des compteurs. Au N5, seul 匹
+// (A2-02). Un nom compté (本, 犬, 鉛筆…) n'en porte jamais. Ajouter un compteur exige un arbitrage
+// explicite, donc une modification de cette liste.
+test('compteurs : seule 匹 porte un counter, dans tous les lots', () => {
+  const lots = readdirSync(join(WORK, 'lots')).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(WORK, 'lots', f), 'utf8')));
+  const withCounter = lots.flatMap((l) => Object.entries(l.entries)).filter(([, d]) => d.fields && d.fields.counter !== null).map(([id]) => id);
+  assert.deepEqual(withCounter, ['n5_v_648']);
 });
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du

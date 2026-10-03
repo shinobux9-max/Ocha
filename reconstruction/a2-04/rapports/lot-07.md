@@ -6,7 +6,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_7 → v_7 · 涼しい
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0478** (abandon, senses) : Redondant. — avant `["Agréablement frais (météo)"]` → après `null`
 
@@ -28,7 +28,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -49,7 +49,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_80 → v_80 · 曇る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0465** (decision, senses) : Deux sens documentés par la source (« le ciel se couvre… ou par extension qu'une surface vitrée ou des lunettes s'embuent ») : un phénomène météorologique, et un phénomène touchant un objet, avec des sujets distincts (空, めがね). À ARBITRER : on peut aussi n'en garder qu'un, l'extension allant dans la nuance. — avant `["Devenir nuageux","Se couvrir (ciel)","S'embuer (lunettes, vitre)"]` → après `["S1 Se couvrir (le ciel)","S2 S'embuer"]`
 - **A2-04-D0466** (categorie-nulle, sens 2 · category) : Une surface qui s'embue : phénomène physique général, sans domaine thématique propre. Addendum A5.
@@ -72,7 +72,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -94,7 +94,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_128 → v_128 · 川
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0484** (decision, tags) : lieu_gare (ancienne catégorie « lieux ») écarté : voir ou traverser une rivière près d'une gare ne relève pas du vocabulaire d'action propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0485** (abandon, senses) : Redondant. — avant `["Cours d'eau"]` → après `null`
@@ -118,7 +118,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -139,7 +139,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_201 → v_201 · 鳴く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0499** (abandon, senses) : Cas particuliers, couverts par le sens. — avant `["Bêler","Aboyer","Miauler"]` → après `null`
 
@@ -161,7 +161,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -182,7 +182,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_251 → v_251 · ペット
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0498** (abandon, senses) : Pas équivalent : un animal de ferme est domestique sans être de compagnie. — avant `["Animal domestique"]` → après `null`
 
@@ -204,7 +204,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -225,7 +225,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_252 → v_252 · 動物
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0493** (abandon, senses) : Pas équivalent : la faune est un ensemble. — avant `["Faune"]` → après `null`
 
@@ -247,7 +247,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -268,7 +268,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_253 → v_253 · 山
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0483** (abandon, senses) : Emploi figuré (山ほど, des tas), hors N5 et absent de la nuance de la source. — avant `["Tas (au figuré)"]` → après `null`
 
@@ -290,7 +290,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -311,7 +311,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_254 → v_254 · 木
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0490** (decision, senses) : Deux sens documentés par la source (« un arbre vivant ou le bois en tant que matériau ») : deux référents et deux types sémantiques (organisme_vivant, substance_matiere), comme 魚 au lot 02. — avant `["Arbre","Bois","Plante ligneuse"]` → après `["S1 Arbre","S2 Bois (matière)"]`
 - **A2-04-D0491** (abandon, senses) : Terme technique. — avant `["Plante ligneuse"]` → après `null`
@@ -334,7 +334,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -356,7 +356,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_256 → v_256 · 海
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0486** (abandon, senses) : Repris dans la nuance. — avant `["Bord de mer"]` → après `null`
 
@@ -378,7 +378,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -399,7 +399,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_257 → v_257 · 犬
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0494** (abandon, senses) : Terme technique. — avant `["Canidé"]` → après `null`
 
@@ -421,7 +421,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -442,7 +442,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_258 → v_258 · 猫
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0495** (abandon, senses) : Terme technique. — avant `["Félin"]` → après `null`
 
@@ -464,7 +464,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -485,7 +485,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_260 → v_260 · 空
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0488** (decision, category) : Le registre n'a pas de catégorie du ciel : 空 est rangé au niveau 1 seul (monde naturel), sans sous-catégorie forcée. — avant `null` → après `"monde_naturel"`
 - **A2-04-D0489** (abandon, senses) : Le premier est littéraire ; le second n'est pas équivalent. — avant `["Firmament","Atmosphère"]` → après `null`
@@ -508,7 +508,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -529,7 +529,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_261 → v_261 · 花
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0492** (abandon, senses) : Pas équivalent : se dit 開花. — avant `["Floraison"]` → après `null`
 
@@ -551,7 +551,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -572,7 +572,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_262 → v_262 · 鳥
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0496** (decision, senses) : Un seul sens, contrairement à 魚 (lot 02) : la nuance de la source ne décrit que l'oiseau, et la viande de volaille a sa propre ENTRY (とり肉 / 鶏肉, lot 02). — avant `["Oiseau","Volatile","Chair de volaille"]` → après `"un seul sens"`
 - **A2-04-D0497** (abandon, senses) : « Volatile » est vieilli ; la viande relève de とり肉 (鶏肉). — avant `["Volatile","Chair de volaille"]` → après `null`
@@ -595,7 +595,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -616,7 +616,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_264 → v_264 · 冬
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0459** (abandon, senses) : Redondant. — avant `["Saison froide"]` → après `null`
 - **A2-04-D0460** (decision, category) : Le registre n'a pas de catégorie des saisons : les quatre saisons sont rangées comme périodes de l'année (temps › moments et périodes, niveau 2). Type concept_abstrait, comme les repérages temporels du lot 0. Vaut pour 春, 夏, 秋, 冬. — avant `null` → après `"temps › moments_periodes"`
@@ -639,7 +639,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -660,7 +660,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_265 → v_265 · 冷たい
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0480** (decision, senses) : Deux sens documentés par la source (« Insensible (figuré) ») : une température au toucher, et une attitude envers autrui, deux référents distincts. — avant `["Froid (au toucher)","Glacé","Froid (chose ou liquide)","Insensible (figuré)"]` → après `["S1 Froid (au toucher)","S2 Froid (attitude)"]`
 - **A2-04-D0481** (categorie-nulle, sens 2 · category) : Attitude distante envers autrui : « propriété générale », sans domaine thématique propre (comme 甘い « indulgent », lot 02). Addendum A5.
@@ -684,7 +684,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -706,7 +706,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_266 → v_266 · 吹く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0471** (decision, senses) : Deux sens documentés par la source (« l'action du vent qui souffle, ou de souffler de l'air / de jouer d'un instrument à vent ») : un phénomène naturel sans agent (が), et une action humaine (を). — avant `["Souffler","Jouer d'un instrument à vent","Émettre de l'air"]` → après `["S1 Souffler (le vent)","S2 Souffler (de l'air)"]`
 - **A2-04-D0472** (categorie-nulle, sens 2 · category) : Souffler de l'air (sur une bougie, dans un instrument) : action générale, sans domaine thématique propre. Addendum A5.
@@ -730,7 +730,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -752,7 +752,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_267 → v_267 · 夏
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0457** (abandon, senses) : Redondant. — avant `["Saison chaude"]` → après `null`
 - **A2-04-D0460** (decision, category) : Le registre n'a pas de catégorie des saisons : les quatre saisons sont rangées comme périodes de l'année (temps › moments et périodes, niveau 2). Type concept_abstrait, comme les repérages temporels du lot 0. Vaut pour 春, 夏, 秋, 冬. — avant `null` → après `"temps › moments_periodes"`
@@ -775,7 +775,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -796,7 +796,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_269 → v_269 · 天気
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0461** (decision, senses) : Un seul sens, le temps qu'il fait ; « beau temps » en est un emploi, repris dans la nuance. — avant `["Météo","Temps (qu'il fait)","Climat"]` → après `"un seul sens"`
 - **A2-04-D0462** (correction, senses) : Information suspecte de la source : le climat (temps moyen d'une région) se dit 気候, pas 天気. Non repris. — avant `"Climat"` → après `null`
@@ -819,7 +819,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -840,7 +840,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_270 → v_270 · 寒い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0475** (abandon, senses) : Repris dans la nuance. — avant `["Froid (température ambiante)"]` → après `null`
 
@@ -862,7 +862,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -883,7 +883,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_271 → v_271 · 春
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0456** (abandon, senses) : Redondant. — avant `["Saison printanière"]` → après `null`
 - **A2-04-D0460** (decision, category) : Le registre n'a pas de catégorie des saisons : les quatre saisons sont rangées comme périodes de l'année (temps › moments et périodes, niveau 2). Type concept_abstrait, comme les repérages temporels du lot 0. Vaut pour 春, 夏, 秋, 冬. — avant `null` → après `"temps › moments_periodes"`
@@ -906,7 +906,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -927,7 +927,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_272 → v_272 · 晴れ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0463** (abandon, senses) : Adjectif, pas une traduction du nom. — avant `["Ensoleillé"]` → après `null`
 
@@ -949,7 +949,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -970,7 +970,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_273 → v_273 · 晴れる
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0464** (abandon, senses) : Repris dans la nuance. — avant `["Se dissiper (nuages, brouillard)"]` → après `null`
 
@@ -992,7 +992,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1013,7 +1013,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_274 → v_274 · 暑い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0474** (abandon, senses) : Repris dans la nuance. — avant `["Chaud (température atmosphérique ou climatique)"]` → après `null`
 
@@ -1035,7 +1035,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1056,7 +1056,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_275 → v_275 · 暖かい
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0476** (decision, writings) : 温かい, documentée par la nuance de la source (pour la tiédeur d'un plat), est une autre graphie du même mot あたたかい : ajoutée à writings, l'usage de chaque graphie étant décrit dans la nuance. — avant `null` → après `["温かい"]`
 - **A2-04-D0477** (abandon, senses) : Trop large : « chaud » se dit 暑い. — avant `["Chaud"]` → après `null`
@@ -1079,7 +1079,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"温かい","furigana":"<ruby>温<rt>あたた</rt></ruby>かい"}]`
 - suru_compatible : `false`
@@ -1100,7 +1100,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_277 → v_277 · 熱い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0479** (abandon, senses) : Redondant. — avant `["Chaud (liquide ou objet)"]` → après `null`
 
@@ -1122,7 +1122,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1143,7 +1143,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_278 → v_278 · 秋
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0458** (abandon, senses) : Redondant. — avant `["Saison automnale"]` → après `null`
 - **A2-04-D0460** (decision, category) : Le registre n'a pas de catégorie des saisons : les quatre saisons sont rangées comme périodes de l'année (temps › moments et périodes, niveau 2). Type concept_abstrait, comme les repérages temporels du lot 0. Vaut pour 春, 夏, 秋, 冬. — avant `null` → après `"temps › moments_periodes"`
@@ -1166,7 +1166,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1187,7 +1187,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_279 → v_279 · 降る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0470** (abandon, senses) : Pas une traduction usuelle. — avant `["Précipiter (météo)"]` → après `null`
 
@@ -1209,7 +1209,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1230,7 +1230,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_280 → v_280 · 雨
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0467** (abandon, senses) : Terme technique. — avant `["Précipitations pluvieuses"]` → après `null`
 
@@ -1252,7 +1252,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1273,7 +1273,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_281 → v_281 · 雪
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0468** (abandon, senses) : Terme technique. — avant `["Précipitations neigeuses"]` → après `null`
 
@@ -1295,7 +1295,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1316,7 +1316,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_282 → v_282 · 風
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0469** (abandon, senses) : Termes voisins, pas équivalents. — avant `["Courant d'air","Brise"]` → après `null`
 
@@ -1338,7 +1338,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1359,7 +1359,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_543 → v_543 · 咲く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -1379,7 +1379,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1400,7 +1400,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_648 → v_648 · 匹
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0500** (decision, counter) : Propriété de l'ENTRY, conformément à A2-02 et à l'audit 5.7-C : 匹 est lui-même un compteur ; il compte les petits animaux. Classe grammaticale nom (mécanique) ; aucune classe ni fonction linguistique « compteur », ce statut étant porté par counter. — avant `null` → après `{"counter_for":["small_animals"]}`
 - **A2-04-D0501** (decision, sens 1 · category) : Catégorie du sens, déterminée indépendamment de counter_for : le registre a une catégorie qui décrit exactement ce que signifie le sens (« Comptage & compteurs › animaux »). Ce n'est pas la règle écartée par A2-LING (« la présence d'un compteur dans une expression ne place pas automatiquement cette expression dans Nombres & quantification ») : ici, le sens lui-même est une unité de comptage. Alternative à arbitrer : category: null avec décision A5, si l'on juge que cette catégorie ne décrit pas assez le sens. — avant `null` → après `"nombres_quantification › comptage_compteurs › animaux"`
@@ -1425,7 +1425,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1446,7 +1446,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_678 → v_678 · 池
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0487** (abandon, senses) : Repris dans la nuance. — avant `["Bassin d'eau douce"]` → après `null`
 
@@ -1468,7 +1468,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
