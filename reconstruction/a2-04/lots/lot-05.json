@@ -1,0 +1,1379 @@
+{
+  "lot": "lot-05",
+  "title": "Achats, vêtements et objets personnels",
+  "entries": {
+    "n5_v_69": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0381"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Manteau",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements",
+              "level_3": "vetements_exterieurs"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_70": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0384"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Haut à manches en général ; le t-shirt se dit Tシャツ, la chemise de costume ワイシャツ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chemise",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements",
+              "level_3": "hauts"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_71": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0387"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec はく (履く) : スカートをはく, mettre une jupe.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Jupe",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements",
+              "level_3": "bas"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_72": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0388"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec はく ; パンツ s'emploie aussi, mais peut désigner un sous-vêtement.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pantalon",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements",
+              "level_3": "bas"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_73": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0392"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cravate",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "accessoires_vestimentaires",
+              "level_3": "cravates"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_74": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0393"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bouton (de vêtement)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "accessoires_vestimentaires"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Bouton (d'appareil)",
+              "alternatives": [
+                "Interrupteur"
+              ]
+            },
+            "category": {
+              "level_1": "technologie",
+              "level_2": "appareils_electroniques"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "ボタンを押す : appuyer sur le bouton."
+          }
+        ]
+      }
+    },
+    "n5_v_75": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0394"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Poche",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_76": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0385"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Contraction de « white shirt » : la chemise portée avec un costume.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chemise habillée",
+              "alternatives": [
+                "Chemise blanche"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements",
+              "level_3": "hauts"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_77": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0382"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Tout vêtement porté par-dessus les autres (veste, pardessus, blouson).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Veste",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements",
+              "level_3": "vetements_exterieurs"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_78": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0391"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Tout couvre-chef (casquette, bonnet…) ; on le met avec かぶる.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chapeau",
+              "alternatives": [
+                "Couvre-chef"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "accessoires_vestimentaires",
+              "level_3": "couvre_chefs"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_81": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0397",
+        "A2-04-D0398"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "めがね",
+            "furigana": "めがね"
+          },
+          {
+            "form": "メガネ",
+            "furigana": "メガネ"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Souvent écrit めがね ou メガネ au quotidien.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lunettes",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "accessoires_vestimentaires"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_83": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0383"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme un peu daté ; aujourd'hui, on dit plus souvent スーツ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Costume (d'homme)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements",
+              "level_3": "vetements_complets"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_179": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0371",
+        "A2-04-D0372",
+        "A2-04-D0373",
+        "A2-04-D0374"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour demander un prix ou un montant : いくらですか, combien est-ce ?",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Combien",
+              "alternatives": [
+                "Quel prix"
+              ]
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "prix_valeur_economique",
+              "level_3": "prix"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "pronom",
+        "group": null
+      }
+    },
+    "n5_v_180": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0369",
+        "A2-04-D0370"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Presque toujours avec le préfixe お ; 金 seul s'entend surtout dans les composés.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Argent",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "argent_monnaie"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_182": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0357",
+        "A2-04-D0358"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Grand magasin à plusieurs étages (Mitsukoshi, Takashimaya…), plus haut de gamme qu'un supermarché.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Grand magasin",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "etablissements_commerciaux",
+              "level_3": "magasins"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_184": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0363",
+        "A2-04-D0364"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Contraire : 買う.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vendre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "achat_vente",
+              "level_3": "vente"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_185": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0375",
+        "A2-04-D0376"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour un prix seulement ; une faible hauteur se dit 低い. Contraire : 高い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bon marché",
+              "alternatives": [
+                "Pas cher"
+              ]
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "prix_valeur_economique",
+              "level_3": "prix"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_186": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0355",
+        "A2-04-D0356"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Tout commerce, et parfois un restaurant ; à l'oral, souvent お店, plus poli.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Magasin",
+              "alternatives": [
+                "Boutique"
+              ]
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "etablissements_commerciaux",
+              "level_3": "magasins"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_187": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0361",
+        "A2-04-D0362"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Contraire : 売る.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Acheter",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "achat_vente",
+              "level_3": "achat"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_188": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0377",
+        "A2-04-D0378"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Haut",
+              "alternatives": [
+                "Élevé"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions",
+              "level_3": "hauteur"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Contraire : 低い."
+          },
+          {
+            "meaning": {
+              "primary": "Cher",
+              "alternatives": [
+                "Coûteux"
+              ]
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "prix_valeur_economique",
+              "level_3": "prix"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Contraire : 安い."
+          }
+        ]
+      }
+    },
+    "n5_v_223": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Portefeuille",
+              "alternatives": [
+                "Porte-monnaie"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "sacs_contenants_personnels",
+              "level_3": "portefeuilles"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_234": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0399"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Contre la pluie ou le soleil ; l'ombrelle se dit plus précisément 日傘.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Parapluie",
+              "alternatives": [
+                "Ombrelle"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "accessoires_vestimentaires"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_566": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0395"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour le haut du corps (chemise, pull, manteau) ; pour le bas, はく (履く).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mettre (un vêtement)",
+              "alternatives": [
+                "Porter"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_572": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0396"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour les vêtements comme pour les chaussures et les chaussettes : 靴を脱ぐ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Enlever (un vêtement)",
+              "alternatives": [
+                "Retirer"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_614": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0400",
+        "A2-04-D0401"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Chaussures d'intérieur, portées après avoir retiré ses chaussures au 玄関.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaussons",
+              "alternatives": [
+                "Pantoufles"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "chaussures",
+              "level_3": "chaussons"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_615": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0386"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pull",
+              "alternatives": [
+                "Pull-over"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements",
+              "level_3": "hauts"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_618": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0402"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Petit carré de tissu pour s'essuyer les mains ; le mouchoir en papier se dit ティッシュ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mouchoir (en tissu)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "accessoires_vestimentaires"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_640": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0359",
+        "A2-04-D0360"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La boutique de fruits et légumes du quartier, et par extension son marchand.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Marchand de légumes",
+              "alternatives": [
+                "Primeur"
+              ]
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "etablissements_commerciaux",
+              "level_3": "magasins"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_671": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0403",
+        "A2-04-D0404",
+        "A2-04-D0405"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Tout instrument qui donne l'heure : la montre au poignet comme l'horloge murale ; le réveil se dit 目覚まし時計.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Horloge",
+              "alternatives": [
+                "Montre",
+                "Pendule"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "unites_temporelles",
+              "level_3": "seconde_minute_heure"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_673": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0379"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vêtements",
+              "alternatives": [
+                "Habits"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_679": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0380"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Par opposition aux vêtements traditionnels japonais (和服, 着物).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vêtements occidentaux",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_694": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0406",
+        "A2-04-D0407",
+        "A2-04-D0408",
+        "A2-04-D0409"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Ce qu'on porte ou fait transporter : les bagages d'un voyage, un colis, un paquet.",
+        "tags": [
+          "lieu_hotel"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bagage",
+              "alternatives": [
+                "Colis",
+                "Paquet"
+              ]
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "utilisation_des_transports"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_701": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0365",
+        "A2-04-D0366",
+        "A2-04-D0367",
+        "A2-04-D0368"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "買い物する : faire les courses. 買い物に行く : aller faire les courses.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Courses",
+              "alternatives": [
+                "Achats",
+                "Shopping"
+              ]
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "achat_vente",
+              "level_3": "achat"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "かいもの",
+            "romaji": "kaimono",
+            "furigana": "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_714": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0389"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "On les retire à l'entrée des maisons (玄関).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaussures",
+              "alternatives": [
+                "Souliers"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "chaussures",
+              "level_3": "chaussures"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_715": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0390"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Littéralement « sous les chaussures ».",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaussettes",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "vetements",
+              "level_3": "sous_vetements"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "hj_v_1": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Payant au Japon depuis 2020 : le caissier demande presque toujours si l'on en veut un (レジ袋はご利用ですか).",
+        "tags": [
+          "lieu_konbini"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sac de caisse",
+              "alternatives": [
+                "Sac plastique"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "sacs_contenants_personnels",
+              "level_3": "sacs"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "hj_v_2": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le caissier demande souvent ポイントカードはお持ちですか : on répond いいえ, ou on la montre.",
+        "tags": [
+          "lieu_konbini"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Carte de fidélité",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "marketing_promotion"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

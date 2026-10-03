@@ -41,10 +41,11 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.6, composition du lot 05.**
+**A2-04 · reconstruction du vocabulaire N5 → 5.6, lot 05 « Achats, vêtements et objets
+personnels ».**
 
-Les lots 0, 01, 02, 03 et 04 sont terminés et validés. Le prochain chantier est la composition du
-lot 05 : son périmètre doit être validé avant toute proposition lexicale.
+Les lots 0, 01, 02, 03 et 04 sont terminés et validés. Le périmètre du lot 05 est validé
+(37 entrées) ; sa proposition est livrée (statut `proposed`) et en relecture.
 
 ------------------------------------------------------------------------
 
@@ -247,7 +248,7 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.3 · lot 02** | Alimentation, boissons, repas et table | ✅ Terminé |
 | **5.4 · lot 03** | Maison, habitat et vie domestique | ✅ Terminé |
 | **5.5 · lot 04** | Ville, transports et déplacements | ✅ Terminé |
-| **5.6 · lot 05** | À composer | 🔵 **Prochain chantier** |
+| **5.6 · lot 05** | Achats, vêtements et objets personnels | 🟡 **Proposition livrée ; en relecture** |
 | **5.7 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
@@ -281,8 +282,14 @@ Arbitrages appliqués :
 -   tags de la gare stricts : `駅`, `電車`, `地下鉄`, `切符`, `乗る` ; pas de tag pour `降りる`, verbe
     général.
 
-**Prochaine action immédiate :** composer le lot 05 (5.6), faire valider son périmètre, puis
-seulement produire ses décisions en statut `proposed`.
+#### Lot 05 · proposition en relecture
+
+Thème : **Achats, vêtements et objets personnels** (37 anciennes entrées, aucune fusion), dont
+les deux premiers mots hors JLPT (`v_718`, `v_719`). Essai à blanc : **237 ENTRY**, **30
+identifiants retirés**, 0 problème, 0 erreur, 0 attente.
+
+**Prochaine action immédiate :** relire et arbitrer la proposition du lot 05, la réviser si
+besoin, puis la valider avant de composer le lot suivant (5.7).
 
 ------------------------------------------------------------------------
 
@@ -549,7 +556,7 @@ Ensuite seulement :
    │   ├── Lot 02 Alimentation              ✅
    │   ├── Lot 03 Maison                    ✅
    │   ├── Lot 04 Ville (5.5)               ✅
-   │   ├── Lot 05 (5.6)                     🔵
+   │   ├── Lot 05 Achats (5.6)              🟡
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

@@ -5005,5 +5005,789 @@
     ],
     "after": null,
     "reason": "Confusion de la source : « sauter, bondir » est le sens de 跳ぶ, même lecture (とぶ) mais autre graphie et autre sens. Ce n'est pas un sens de 飛ぶ ; non repris ici."
+  },
+  {
+    "id": "A2-04-D0355",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_186",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_konbini"
+    ],
+    "after": [],
+    "reason": "Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté."
+  },
+  {
+    "id": "A2-04-D0356",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_186",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Établissement commercial",
+      "Restaurant (parfois)"
+    ],
+    "after": null,
+    "reason": "Le premier est redondant ; l'emploi pour un restaurant est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0357",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_182",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_konbini"
+    ],
+    "after": [],
+    "reason": "Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté."
+  },
+  {
+    "id": "A2-04-D0358",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_182",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Grand magasin à plusieurs étages (department store)"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0359",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_640",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie « lieux ») écarté : un commerce de quartier, sans lien avec la gare."
+  },
+  {
+    "id": "A2-04-D0360",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_640",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Épicerie de quartier (fruits et légumes)"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0361",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_187",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_konbini"
+    ],
+    "after": [],
+    "reason": "Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté."
+  },
+  {
+    "id": "A2-04-D0362",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_187",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Se procurer (en payant)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0363",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_184",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_konbini"
+    ],
+    "after": [],
+    "reason": "Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté."
+  },
+  {
+    "id": "A2-04-D0364",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_184",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Proposer à la vente"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0365",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_701",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_konbini"
+    ],
+    "after": [],
+    "reason": "Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté."
+  },
+  {
+    "id": "A2-04-D0366",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_701",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>買<rt>かい</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+    "after": "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>",
+    "reason": "Les furigana de la source omettaient l'okurigana い : leur texte de base était 買物, pas 買い物."
+  },
+  {
+    "id": "A2-04-D0367",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_701",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": true,
+    "reason": "suru_compatible documenté par la source (« Nom / verbe suru », 買い物する) : décision fondée sur la source, pas un enrichissement."
+  },
+  {
+    "id": "A2-04-D0368",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_701",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Faire des courses"
+    ],
+    "after": null,
+    "reason": "Traduction de 買い物する, reprise dans la nuance."
+  },
+  {
+    "id": "A2-04-D0369",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_180",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_konbini"
+    ],
+    "after": [],
+    "reason": "Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté."
+  },
+  {
+    "id": "A2-04-D0370",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_180",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Monnaie",
+      "Fonds"
+    ],
+    "after": null,
+    "reason": "La petite monnaie se dit 小銭, les fonds 資金 : termes voisins, pas équivalents."
+  },
+  {
+    "id": "A2-04-D0371",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_179",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_konbini"
+    ],
+    "after": [],
+    "reason": "Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté."
+  },
+  {
+    "id": "A2-04-D0372",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_179",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe / pronom (ancien type)",
+    "after": "pronom",
+    "reason": "Classe pronom (arbitrage du lot 05), confirmée par la source : « mot interrogatif invariable utilisé exclusivement pour s'informer sur une valeur financière ou un montant ». L'emploi いくら…ても n'est pas documenté et ne fonde ni une autre classe ni un autre sens. group: null (pronom)."
+  },
+  {
+    "id": "A2-04-D0373",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_179",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Pronom interrogatif : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何, lot 0). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0374",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_179",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Combien ça coûte"
+    ],
+    "after": null,
+    "reason": "Traduction de いくらですか, reprise dans la nuance."
+  },
+  {
+    "id": "A2-04-D0375",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_185",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_konbini"
+    ],
+    "after": [],
+    "reason": "Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté."
+  },
+  {
+    "id": "A2-04-D0376",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_185",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Peu coûteux"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0377",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_188",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_konbini"
+    ],
+    "after": [],
+    "reason": "Mot du commerce en général, pas du vocabulaire d'action propre au konbini (critère des tags de lieu du lot 02) : on peut l'employer au konbini comme dans tout magasin. Candidat écarté."
+  },
+  {
+    "id": "A2-04-D0378",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_188",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Haut",
+      "Cher (coûteux)",
+      "Élevé"
+    ],
+    "after": [
+      "S1 Haut",
+      "S2 Cher"
+    ],
+    "reason": "Deux sens documentés par la source (« adjectif en -i possédant deux sens ») : une hauteur physique et un prix, deux dimensions distinctes avec deux contraires distincts (低い, 安い)."
+  },
+  {
+    "id": "A2-04-D0379",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_673",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Vêtement"
+    ],
+    "after": null,
+    "reason": "Redondant (singulier)."
+  },
+  {
+    "id": "A2-04-D0380",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_679",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Habits de style occidental"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0381",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_69",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Trench-coat",
+      "Imperméable"
+    ],
+    "after": null,
+    "reason": "Variétés particulières, pas équivalentes."
+  },
+  {
+    "id": "A2-04-D0382",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_77",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Blouson",
+      "Manteau",
+      "Vêtement du dessus"
+    ],
+    "after": null,
+    "reason": "Les deux premiers ne sont pas équivalents (le manteau se dit コート) ; le troisième est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0383",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_83",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Costume d'homme",
+      "Veste de costume"
+    ],
+    "after": null,
+    "reason": "Le premier est redondant ; le second n'est pas équivalent."
+  },
+  {
+    "id": "A2-04-D0384",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_70",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "T-shirt",
+      "Maillot de corps"
+    ],
+    "after": null,
+    "reason": "Termes voisins avec leurs mots propres (Tシャツ, 肌着) ; repris en partie dans la nuance."
+  },
+  {
+    "id": "A2-04-D0385",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_76",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Chemise (blanche ou de costume)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0386",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_615",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Chandail"
+    ],
+    "after": null,
+    "reason": "Vieilli ; non repris."
+  },
+  {
+    "id": "A2-04-D0387",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_71",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Jupe longue ou courte"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0388",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_72",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pantalon de costume",
+      "Jean"
+    ],
+    "after": null,
+    "reason": "Variétés particulières ; le jean se dit ジーンズ."
+  },
+  {
+    "id": "A2-04-D0389",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_714",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Baskets"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : se dit スニーカー."
+  },
+  {
+    "id": "A2-04-D0390",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_715",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bas"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : les bas se disent ストッキング."
+  },
+  {
+    "id": "A2-04-D0391",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_78",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Casquette",
+      "Bonnet"
+    ],
+    "after": null,
+    "reason": "Variétés particulières ; 帽子 les couvre toutes, comme le dit la nuance."
+  },
+  {
+    "id": "A2-04-D0392",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_73",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Accessoire de costume"
+    ],
+    "after": null,
+    "reason": "Trop général."
+  },
+  {
+    "id": "A2-04-D0393",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_74",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Bouton",
+      "Bouton de vêtement",
+      "Bouton poussoir / électrique"
+    ],
+    "after": [
+      "S1 Bouton (de vêtement)",
+      "S2 Bouton (d'appareil)"
+    ],
+    "reason": "Deux sens documentés par la source (« à la fois un bouton de fermeture sur un vêtement et un bouton d'appareil ») : deux référents et deux domaines distincts, une fermeture et une commande."
+  },
+  {
+    "id": "A2-04-D0394",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_75",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pochette de vêtement"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0395",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_566",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Enfiler (sur le haut du corps)"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0396",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_572",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Se déshabiller (partiellement)"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0397",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_81",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "めがね",
+      "メガネ"
+    ],
+    "reason": "Graphies en hiragana et en katakana documentées par la nuance de la source : variantes d'écriture du même mot."
+  },
+  {
+    "id": "A2-04-D0398",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_81",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Paire de lunettes"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0399",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_234",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie de la maison) écarté : on peut emprunter un parapluie à l'hôtel, mais le mot n'appartient pas au vocabulaire d'action propre à l'hôtel."
+  },
+  {
+    "id": "A2-04-D0400",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_614",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie de la maison) écarté : on porte des chaussons à la maison, à l'école, à l'hôpital ou au bureau ; ceux qu'un hôtel fournit ne rendent pas le mot caractéristique du service hôtelier."
+  },
+  {
+    "id": "A2-04-D0401",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_614",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pantoufles d'intérieur"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0402",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_618",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Mouchoir de poche"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0403",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_671",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Horloge",
+      "Montre",
+      "Pendule",
+      "Réveil"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept documenté par la source (« aussi bien une montre portée au poignet qu'une horloge murale ») : montre et horloge en rendent la largeur, comme « jambe » pour 足."
+  },
+  {
+    "id": "A2-04-D0404",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_671",
+    "field": "category",
+    "kind": "decision",
+    "before": null,
+    "after": "temps › unites_temporelles › seconde_minute_heure",
+    "reason": "Le registre n'a pas de catégorie d'instrument de mesure du temps : 時計 est rangé avec les unités de l'heure, qu'il sert à lire."
+  },
+  {
+    "id": "A2-04-D0405",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_671",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Réveil"
+    ],
+    "after": null,
+    "reason": "Se dit 目覚まし時計 ; repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0406",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_694",
+    "field": "tags",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      "lieu_hotel"
+    ],
+    "reason": "Aucun candidat hérité ; lieu_hotel ajouté : à l'arrivée ou au départ, faire garder ses bagages fait partie du scénario hôtelier (荷物を預かってもらえますか)."
+  },
+  {
+    "id": "A2-04-D0407",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_694",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Bagage",
+      "Colis",
+      "Paquet",
+      "Fardeau"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept documenté par la source (« les bagages de voyage, les paquets ou les colis postaux ») : la chose qu'on porte ou fait transporter."
+  },
+  {
+    "id": "A2-04-D0408",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_694",
+    "field": "category",
+    "kind": "decision",
+    "before": null,
+    "after": "transport_mobilite › utilisation_des_transports",
+    "reason": "Le registre n'a pas de catégorie des marchandises ou des bagages : 荷物 est rangé avec l'utilisation des transports (ce qu'on porte ou fait transporter)."
+  },
+  {
+    "id": "A2-04-D0409",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-05",
+    "entry": "n5_v_694",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Fardeau"
+    ],
+    "after": null,
+    "reason": "Sens figuré, hors N5."
   }
 ]
