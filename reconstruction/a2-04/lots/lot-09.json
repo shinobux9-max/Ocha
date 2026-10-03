@@ -1,0 +1,718 @@
+{
+  "lot": "lot-09",
+  "title": "Loisirs, sorties et voyages",
+  "entries": {
+    "n5_v_26": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0571"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Tout pays autre que le Japon : 外国に行く, aller à l'étranger. La personne se dit 外国人.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pays étranger",
+              "alternatives": [
+                "Étranger"
+              ]
+            },
+            "category": {
+              "level_1": "territoires_lieux_geographiques",
+              "level_2": "pays_territoires",
+              "level_3": "pays"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_189": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0544"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "On en joue avec 弾く : ギターを弾く.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Guitare",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "musique",
+              "level_3": "instruments"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_190": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0548",
+        "A2-04-D0549"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "スポーツをする : faire du sport.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sport",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "sports",
+              "level_2": "pratique_sportive"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_192": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0545"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Seulement pour les cordes et les claviers (ギター, ピアノ) ; les instruments à vent se jouent avec 吹く, les percussions avec 叩く. Homophone : 引く (tirer), un autre mot.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Jouer (d'un instrument à cordes ou à clavier)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "musique",
+              "level_3": "instruments"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_193": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0556",
+        "A2-04-D0557",
+        "A2-04-D0558"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "散歩する : se promener ; 公園を散歩する, se promener dans le parc ; 犬の散歩, la promenade du chien.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Promenade",
+              "alternatives": [
+                "Balade"
+              ]
+            },
+            "category": {
+              "level_1": "loisirs_jeux",
+              "level_2": "activites_recreatives",
+              "level_3": "promenade_de_loisir"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_194": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0556"
+      ],
+      "retire": {
+        "merged_into": "n5_v_193"
+      }
+    },
+    "n5_v_195": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0566",
+        "A2-04-D0567"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "旅行する : voyager.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Voyage",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "voyage_tourisme",
+              "level_2": "voyage_deplacement_touristique"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_196": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0560"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'œuvre ; la salle se dit 映画館. 映画を見る : regarder un film.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Film",
+              "alternatives": [
+                "Cinéma"
+              ]
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "cinema_comme_creation_artistique",
+              "level_3": "film"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_197": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0543"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Souvent avec 歌 : 歌を歌う.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chanter",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "musique",
+              "level_3": "chant"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_198": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0550"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le lieu se marque avec で : プールで泳ぐ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Nager",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "sports",
+              "level_2": "disciplines_sportives",
+              "level_3": "sports_aquatiques"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_199": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0551",
+        "A2-04-D0552"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Jouer, sortir se divertir ; avec と pour la personne : 友達と遊ぶ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "S'amuser",
+              "alternatives": [
+                "Jouer"
+              ]
+            },
+            "category": {
+              "level_1": "loisirs_jeux",
+              "level_2": "loisirs"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_200": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0540"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "音楽を聞く : écouter de la musique.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Musique",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "musique"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_243": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0568",
+        "A2-04-D0569",
+        "A2-04-D0570"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pays",
+              "alternatives": [
+                "Nation"
+              ]
+            },
+            "category": {
+              "level_1": "territoires_lieux_geographiques",
+              "level_2": "pays_territoires",
+              "level_3": "pays"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Pays natal",
+              "alternatives": [
+                "Région d'origine"
+              ]
+            },
+            "category": {
+              "level_1": "territoires_lieux_geographiques"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "国に帰る : rentrer au pays."
+          }
+        ]
+      }
+    },
+    "n5_v_245": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0572",
+        "A2-04-D0573",
+        "A2-04-D0574"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "帰国する : rentrer dans son pays.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Retour au pays",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "voyage_tourisme",
+              "level_2": "sejour",
+              "level_3": "retour"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_620": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0559"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Rassemblement festif : anniversaire, réception entre amis ou collègues.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fête",
+              "alternatives": [
+                "Soirée",
+                "Réception"
+              ]
+            },
+            "category": {
+              "level_1": "culture_traditions",
+              "level_2": "fetes_celebrations",
+              "level_3": "celebrations"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_621": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0564",
+        "A2-04-D0565"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Municipale, scolaire ou privée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Piscine",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "sports",
+              "level_2": "installations_equipements_sportifs_specialises"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_669": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0561",
+        "A2-04-D0562",
+        "A2-04-D0563"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'établissement où l'on va voir des films ; l'œuvre se dit 映画.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cinéma (salle)",
+              "alternatives": [
+                "Salle de cinéma"
+              ]
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "espaces_publics",
+              "level_3": "espaces_collectifs"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "えいがかん",
+            "romaji": "eigakan",
+            "furigana": "<ruby>映<rt>えい</rt></ruby><ruby>画<rt>が</rt></ruby><ruby>館<rt>かん</rt></ruby>",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_676": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0541",
+        "A2-04-D0542"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "歌を歌う : chanter une chanson.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chanson",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "musique",
+              "level_3": "chant"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_689": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0546",
+        "A2-04-D0547"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une image dessinée ou peinte ; 絵を描く (かく) : dessiner, peindre.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dessin",
+              "alternatives": [
+                "Peinture",
+                "Image"
+              ]
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "arts_visuels"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_707": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0553",
+        "A2-04-D0554",
+        "A2-04-D0555"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "釣りをする, 釣りに行く : aller à la pêche.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pêche (à la ligne)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "loisirs_jeux",
+              "level_2": "activites_recreatives",
+              "level_3": "passe_temps"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

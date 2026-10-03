@@ -7693,5 +7693,498 @@
     ],
     "after": null,
     "reason": "Pas équivalent : l'œuvre se dit 映画, comme le précise la nuance de la source."
+  },
+  {
+    "id": "A2-04-D0540",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_200",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Art musical"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0541",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_676",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Chanson",
+      "Poème traditionnel"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la nuance de la source ne décrit que la chanson, « un morceau chanté »."
+  },
+  {
+    "id": "A2-04-D0542",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_676",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Poème traditionnel"
+    ],
+    "after": null,
+    "reason": "Absent de la nuance de la source, hors N5 (le poème traditionnel se dit 和歌). Aucun sens n'est repris de l'homophone 唄."
+  },
+  {
+    "id": "A2-04-D0543",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_197",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Interpréter une chanson"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0544",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_189",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Guitare acoustique ou électrique"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0545",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_192",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pincer",
+      "Frapper (les cordes ou touches)"
+    ],
+    "after": null,
+    "reason": "Gestes particuliers, couverts par le sens ; aucun sens n'est repris de l'homophone 引く."
+  },
+  {
+    "id": "A2-04-D0546",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_689",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Dessin",
+      "Peinture",
+      "Illustration",
+      "Tableau"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept, l'image dessinée ou peinte (« une image dessinée, une peinture ou une illustration ») : dessin et peinture en rendent la largeur."
+  },
+  {
+    "id": "A2-04-D0547",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_689",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Illustration",
+      "Tableau"
+    ],
+    "after": null,
+    "reason": "Termes voisins, couverts par le sens."
+  },
+  {
+    "id": "A2-04-D0548",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_190",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": false,
+    "reason": "suru_compatible non retenu : la source dit qu'on « l'associe directement au verbe する » (スポーツをする, faire du sport), sans établir un verbe formé avec する. Compatibilité non établie (lecture confirmée au lot 08). À CONFIRMER."
+  },
+  {
+    "id": "A2-04-D0549",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_190",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Activité sportive",
+      "Exercice physique"
+    ],
+    "after": null,
+    "reason": "Le premier est redondant ; le second n'est pas équivalent (運動)."
+  },
+  {
+    "id": "A2-04-D0550",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_198",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Se déplacer dans l'eau"
+    ],
+    "after": null,
+    "reason": "Définition, pas une traduction."
+  },
+  {
+    "id": "A2-04-D0551",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_199",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Jouer",
+      "S'amuser",
+      "Passer du bon temps",
+      "Sortir pour se divertir"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens documenté (« jouer ou sortir se divertir ») ; 遊びに行く (aller voir quelqu'un) n'est pas documenté par la source et n'est pas ajouté."
+  },
+  {
+    "id": "A2-04-D0552",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_199",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Passer du bon temps",
+      "Sortir pour se divertir"
+    ],
+    "after": null,
+    "reason": "Le premier est redondant ; le second est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0553",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_707",
+    "field": "senses",
+    "kind": "correction",
+    "before": "Monnaie rendue (selon le contexte)",
+    "after": null,
+    "reason": "« Monnaie rendue » est le sens de お釣り, un autre mot (la source le dit elle-même : « le mot homophone… otsuri ») : ce n'est pas un sens de 釣り. Non repris."
+  },
+  {
+    "id": "A2-04-D0554",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_707",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": true,
+    "reason": "suru_compatible documenté par la source (« Nom / verbe suru »)."
+  },
+  {
+    "id": "A2-04-D0555",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_707",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pêche à la ligne"
+    ],
+    "after": null,
+    "reason": "Fusionné dans le libellé."
+  },
+  {
+    "id": "A2-04-D0556",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_194",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_193",
+    "reason": "Confrontation des deux fiches (arbitrage du lot 09) : la source décrit 散歩する comme « formé par l'association du nom 散歩 et du verbe auxiliaire する », désignant « l'action d'effectuer une promenade » ; et la fiche de 散歩 dit elle-même « pour en faire le verbe se promener, on lui ajoute directement する ». La forme en する est une réalisation verbale transparente du nom, sans identité lexicale propre : fusion dans 散歩 (règle du lot 03, appliquée après examen, non par automatisme). 散歩 survit (plus petit numéro, sans exception)."
+  },
+  {
+    "id": "A2-04-D0557",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_193",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": true,
+    "reason": "suru_compatible établi par la source : la fiche de 散歩 (« on lui ajoute directement する ») et l'entrée 散歩する elle-même, fusionnée ici."
+  },
+  {
+    "id": "A2-04-D0558",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_193",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Marche de détente"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0559",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_620",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Party"
+    ],
+    "after": null,
+    "reason": "Anglicisme, redondant."
+  },
+  {
+    "id": "A2-04-D0560",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_196",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Œuvre cinématographique"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0561",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_669",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>映<rt>えいが</rt></ruby><ruby>画<rt>かん</rt></ruby><ruby>館<rt></rt></ruby>",
+    "after": "<ruby>映<rt>えい</rt></ruby><ruby>画<rt>が</rt></ruby><ruby>館<rt>かん</rt></ruby>",
+    "reason": "Furigana de la source décalés d'un kanji (えいが sur 映, かん sur 画, rien sur 館)."
+  },
+  {
+    "id": "A2-04-D0562",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_669",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie « lieux ») écarté : un cinéma n'a aucun lien avec le vocabulaire d'action propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0563",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_669",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Salle de projection"
+    ],
+    "after": null,
+    "reason": "Terme technique."
+  },
+  {
+    "id": "A2-04-D0564",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_621",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie « lieux ») écarté : une piscine n'a aucun lien avec le vocabulaire d'action propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0565",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_621",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bassin de natation"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0566",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_195",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": true,
+    "reason": "suru_compatible documenté par la source (« pour en faire le verbe voyager, on lui ajoute directement する »)."
+  },
+  {
+    "id": "A2-04-D0567",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_195",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Excursion",
+      "Déplacement touristique"
+    ],
+    "after": null,
+    "reason": "Termes voisins, pas équivalents."
+  },
+  {
+    "id": "A2-04-D0568",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_243",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Pays",
+      "Patrie",
+      "Nation",
+      "Région d'origine"
+    ],
+    "after": [
+      "S1 Pays",
+      "S2 Pays natal"
+    ],
+    "reason": "Deux sens documentés par la source (« un pays, une nation ou la région natale d'une personne ») : un État, et le lieu d'origine d'une personne (国に帰る), qui peut être une région. À ARBITRER : on peut aussi n'en garder qu'un, le pays natal allant dans la nuance."
+  },
+  {
+    "id": "A2-04-D0569",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_243",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie de la maison) écarté : un pays n'appartient pas au vocabulaire d'action propre à l'hôtel (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0570",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_243",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Patrie"
+    ],
+    "after": null,
+    "reason": "Registre soutenu, couvert par le sens 2."
+  },
+  {
+    "id": "A2-04-D0571",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_26",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie « lieux ») écarté : l'étranger n'a aucun lien avec le vocabulaire d'action propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0572",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_245",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": true,
+    "reason": "suru_compatible documenté par la source (« souvent combiné avec le verbe する pour signifier rentrer dans son pays d'origine »)."
+  },
+  {
+    "id": "A2-04-D0573",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_245",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie de la maison) écarté : le retour au pays n'appartient pas au vocabulaire d'action propre à l'hôtel (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0574",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-09",
+    "entry": "n5_v_245",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Rapatriement",
+      "Retour dans sa patrie"
+    ],
+    "after": null,
+    "reason": "Le premier n'est pas équivalent ; le second est redondant."
   }
 ]
