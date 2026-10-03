@@ -4113,5 +4113,899 @@
     ],
     "after": null,
     "reason": "Registre soutenu ; non repris."
+  },
+  {
+    "id": "A2-04-D0293",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_249",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0294",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_249",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Ville",
+      "Quartier",
+      "Bourg",
+      "Rue commerçante"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept, l'agglomération habitée ; « quartier » en rend la largeur, comme « jambe » pour 足."
+  },
+  {
+    "id": "A2-04-D0295",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_249",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bourg",
+      "Rue commerçante"
+    ],
+    "after": null,
+    "reason": "« Bourg » est redondant ; « rue commerçante » est reprise dans la nuance (quartier animé)."
+  },
+  {
+    "id": "A2-04-D0296",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_255",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0297",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_255",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Hameau",
+      "Commune rurale"
+    ],
+    "after": null,
+    "reason": "Termes voisins, pas équivalents."
+  },
+  {
+    "id": "A2-04-D0298",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_705",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0299",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_705",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Rue",
+      "Chemin",
+      "Route",
+      "Voie"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept, la voie où l'on circule ; rue, chemin et route en rendent la largeur."
+  },
+  {
+    "id": "A2-04-D0300",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_705",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Voie"
+    ],
+    "after": null,
+    "reason": "La « voie » morale ou spirituelle (武道) documentée par la nuance de la source est hors N5 : non reprise."
+  },
+  {
+    "id": "A2-04-D0301",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_674",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0302",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_674",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Passerelle"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0303",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_239",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0304",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_239",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Croisement"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0305",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_246",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0306",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_246",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>建<rt>た</rt></ruby>て<ruby>物<rt>もの</rt></ruby>",
+    "after": "<ruby>建<rt>たて</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+    "reason": "Les furigana de la source étaient ceux de la graphie 建て物, pas de la forme usuelle 建物."
+  },
+  {
+    "id": "A2-04-D0307",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_246",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Construction",
+      "Édifice"
+    ],
+    "after": null,
+    "reason": "Termes voisins ou soutenus ; non repris."
+  },
+  {
+    "id": "A2-04-D0308",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_215",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0309",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_242",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0310",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_242",
+    "field": "category",
+    "kind": "decision",
+    "before": null,
+    "after": "environnement_construit_espaces_humains › espaces_publics › espaces_collectifs",
+    "reason": "Le registre n'a pas de catégorie de bibliothèque : rangée parmi les espaces publics collectifs, comme un service public de la ville."
+  },
+  {
+    "id": "A2-04-D0311",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_242",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Médiathèque (publique ou universitaire)"
+    ],
+    "after": null,
+    "reason": "Terme voisin ; la précision est reprise dans la nuance."
+  },
+  {
+    "id": "A2-04-D0312",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_146",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0313",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_250",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0314",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_250",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Établissement bancaire"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0315",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_240",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0316",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_240",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Commissariat de quartier (Japon)",
+      "Ilot de police"
+    ],
+    "after": null,
+    "reason": "Le premier est repris dans la nuance ; le second ne correspond à rien."
+  },
+  {
+    "id": "A2-04-D0317",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_244",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0318",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_244",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Représentation diplomatique"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0319",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_624",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [
+      "lieu_hotel"
+    ],
+    "reason": "lieu_gare (ancienne catégorie « lieux ») écarté ; lieu_hotel ajouté hors des candidats : c'est le mot du lieu lui-même, comme レストラン pour le restaurant."
+  },
+  {
+    "id": "A2-04-D0320",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_624",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Établissement hôtelier"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0321",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_159",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Train électrique",
+      "Tramway"
+    ],
+    "after": null,
+    "reason": "Le premier est repris dans la nuance ; le second n'est pas équivalent (路面電車)."
+  },
+  {
+    "id": "A2-04-D0322",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_148",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. Le bus relève de son propre arrêt (バス停), pas de la gare ferroviaire."
+  },
+  {
+    "id": "A2-04-D0323",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_147",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0324",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_158",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0325",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_158",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Véhicule",
+      "Roue"
+    ],
+    "after": null,
+    "reason": "« Véhicule » est trop large ; « roue » est un sens étymologique du kanji, ni attesté comme emploi courant ni N5 : non repris."
+  },
+  {
+    "id": "A2-04-D0326",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_154",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0327",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_154",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Véhicule automobile"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0328",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_155",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0329",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_161",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés."
+  },
+  {
+    "id": "A2-04-D0330",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_161",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Aéronef"
+    ],
+    "after": null,
+    "reason": "Terme technique."
+  },
+  {
+    "id": "A2-04-D0331",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_644",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Titre de transport"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0332",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_156",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Se rendre",
+      "Partir vers"
+    ],
+    "after": null,
+    "reason": "Redondants avec « aller »."
+  },
+  {
+    "id": "A2-04-D0333",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_152",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Arriver",
+      "Se rendre vers (le locuteur)"
+    ],
+    "after": null,
+    "reason": "« Arriver » relève de 着く ; le second est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0334",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_550",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Retourner chez soi",
+      "S'en retourner"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0335",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_537",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_642",
+    "reason": "出ます n'est pas une unité lexicale : c'est la forme polie conjuguée de 出る. Fusion dans 出る (arbitrage du lot 04) ; son sens « assister à » rejoint l'ENTRY survivante."
+  },
+  {
+    "id": "A2-04-D0336",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_537",
+    "field": "entrée",
+    "kind": "exception-fusion",
+    "before": "survivant par la règle : n5_v_537",
+    "after": "survivant : n5_v_642",
+    "reason": "Exception à la règle du plus petit numéro (addendum A3) : n5_v_537 est une représentation manifestement erronée (une forme conjuguée tenant lieu d'ENTRY) ; garder son identifiant ferait survivre la représentation incorrecte au moment où elle est corrigée. v_642 (出る) est conservé."
+  },
+  {
+    "id": "A2-04-D0337",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_642",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Sortir",
+      "Quitter",
+      "Partir",
+      "Apparaître",
+      "Assister à (n5_v_537)"
+    ],
+    "after": [
+      "S1 Sortir",
+      "S2 Assister à",
+      "S3 Apparaître"
+    ],
+    "reason": "Trois sens documentés par les deux sources fusionnées : quitter un lieu (を), prendre part à quelque chose (に, documenté par 出ます), et apparaître (が). Trois référents distincts, chacun avec sa particule."
+  },
+  {
+    "id": "A2-04-D0338",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_642",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Prendre part à une activité (cours, réunion) : « action générale », sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D0339",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_642",
+    "field": "sens 3 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Apparaître, devenir visible : « action générale », sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D0340",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_213",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Entrer",
+      "Pénétrer",
+      "Contenir",
+      "Entrer (dans un bain)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens, « entrer ». « Être dedans » (入っている) est l'état qui résulte d'être entré, décrit dans la nuance."
+  },
+  {
+    "id": "A2-04-D0341",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_213",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Contenir",
+      "Entrer (dans un bain)"
+    ],
+    "after": null,
+    "reason": "« Contenir » est une traduction trompeuse : avec 入る, c'est le contenu qui « est dedans », non le contenant qui contient ; « entrer dans un bain » est un emploi, repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0342",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_53",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Se promener à pied"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : se promener se dit 散歩する."
+  },
+  {
+    "id": "A2-04-D0343",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_157",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Courir",
+      "Galoper",
+      "Rouler (pour un véhicule)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept, se déplacer rapidement ; l'emploi pour un véhicule est le même verbe, décrit dans la nuance."
+  },
+  {
+    "id": "A2-04-D0344",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_157",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Galoper",
+      "Rouler (pour un véhicule)"
+    ],
+    "after": null,
+    "reason": "Le premier n'est pas équivalent ; le second est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0345",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_563",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Passer de l'autre côté"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0346",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_565",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Atteindre (une destination)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0347",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_63",
+    "field": "tags",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      "lieu_gare"
+    ],
+    "reason": "Aucun candidat hérité ; lieu_gare ajouté : Vocabulaire d'action propre à la gare (acheter un billet, trouver le bon quai, changer de ligne), 電車を降りる (descendre du train), à la gare où l'on descend."
+  },
+  {
+    "id": "A2-04-D0348",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_63",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "下りる"
+    ],
+    "reason": "下りる, documentée par la nuance de la source, est une autre graphie du même mot (おりる), sans changement de forme lexicale : ajoutée à writings."
+  },
+  {
+    "id": "A2-04-D0349",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_63",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Sortir (d'un véhicule)"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0350",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_557",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "S'arrêter",
+      "Faire halte",
+      "Être suspendu (pour un service, un mécanisme)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept, cesser de se mouvoir ou de fonctionner ; l'emploi pour un service ou un mécanisme est décrit dans la nuance."
+  },
+  {
+    "id": "A2-04-D0351",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_557",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Faire halte",
+      "Être suspendu (pour un service, un mécanisme)"
+    ],
+    "after": null,
+    "reason": "Le premier est redondant ; le second est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0352",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_259",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Escalader"
+    ],
+    "after": null,
+    "reason": "Redondant avec « grimper »."
+  },
+  {
+    "id": "A2-04-D0353",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_160",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Voler",
+      "Sauter",
+      "Bondir"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens pour 飛ぶ : voler dans les airs."
+  },
+  {
+    "id": "A2-04-D0354",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-04",
+    "entry": "n5_v_160",
+    "field": "senses",
+    "kind": "correction",
+    "before": [
+      "Sauter",
+      "Bondir"
+    ],
+    "after": null,
+    "reason": "Confusion de la source : « sauter, bondir » est le sens de 跳ぶ, même lecture (とぶ) mais autre graphie et autre sens. Ce n'est pas un sens de 飛ぶ ; non repris ici."
   }
 ]

@@ -1,0 +1,1426 @@
+{
+  "lot": "lot-04",
+  "title": "Ville, transports et déplacements",
+  "entries": {
+    "n5_v_53": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0342"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "駅まで歩く : aller à pied jusqu'à la gare.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Marcher",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_63": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0347",
+        "A2-04-D0348",
+        "A2-04-D0349"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "下りる",
+            "furigana": "<ruby>下<rt>お</rt></ruby>りる"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Descendre d'un véhicule (電車を降りる) ou d'un lieu en hauteur ; 下りる s'emploie plutôt pour un escalier, une pente.",
+        "tags": [
+          "lieu_gare"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Descendre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement",
+              "level_3": "monter_descendre"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_146": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0312"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bureau de poste",
+              "alternatives": [
+                "La poste"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "transmission"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_147": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0323"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Taxi",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "transport_terrestre",
+              "level_3": "transport_routier"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_148": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0322"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bus",
+              "alternatives": [
+                "Autobus"
+              ]
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "transport_terrestre",
+              "level_3": "bus"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_149": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Toujours avec に : 電車に乗る, prendre le train.",
+        "tags": [
+          "lieu_gare"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Prendre (un transport)",
+              "alternatives": [
+                "Monter dans"
+              ]
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "utilisation_des_transports"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_150": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Quitter son domicile pour aller quelque part ; sortir d'un lieu se dit 出る.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sortir (de chez soi)",
+              "alternatives": [
+                "Partir"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "entree_sortie",
+              "level_3": "entrer_sortir"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_151": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_gare"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Métro",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "transport_ferroviaire",
+              "level_3": "metro"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_152": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0333"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Mouvement vers le locuteur. Verbe irrégulier : le kanji se lit く, き ou こ selon la forme (来る, 来ます, 来ない).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Venir",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement",
+              "level_3": "aller_venir"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_154": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0326",
+        "A2-04-D0327"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme formel ; dans la conversation : 車.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Automobile",
+              "alternatives": [
+                "Voiture"
+              ]
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "transport_terrestre",
+              "level_3": "automobile"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_155": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0328"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vélo",
+              "alternatives": [
+                "Bicyclette"
+              ]
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "transport_terrestre",
+              "level_3": "deux_roues"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_156": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0332"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Mouvement qui s'éloigne du locuteur, avec に, へ ou まで.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Aller",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement",
+              "level_3": "aller_venir"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_157": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0343",
+        "A2-04-D0344"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Se dit aussi d'un véhicule qui roule : 電車が走る. Verbe du groupe u malgré sa terminaison en -iru.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Courir",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_158": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0324",
+        "A2-04-D0325"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Terme courant ; plus formel : 自動車.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Voiture",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "transport_terrestre",
+              "level_3": "automobile"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_159": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0321"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Littéralement « véhicule électrique » : le train de banlieue ou de ligne classique ; le tramway se dit 路面電車.",
+        "tags": [
+          "lieu_gare"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Train",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "transport_ferroviaire",
+              "level_3": "train"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_160": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0353",
+        "A2-04-D0354"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Voler dans les airs (un oiseau, un avion).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Voler",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_161": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0329",
+        "A2-04-D0330"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Avion",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "transport_aerien",
+              "level_3": "avions"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_162": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Gare de train ou station de métro.",
+        "tags": [
+          "lieu_gare"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Gare",
+              "alternatives": [
+                "Station"
+              ]
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "reseaux_infrastructures",
+              "level_3": "gares"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_213": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0340",
+        "A2-04-D0341"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec に : 部屋に入る, entrer dans la pièce ; お風呂に入る, prendre un bain. 入っている : être dedans (箱に何が入っていますか).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Entrer",
+              "alternatives": [
+                "Pénétrer"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "entree_sortie",
+              "level_3": "entrer_sortir"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_215": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0308"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Parc",
+              "alternatives": [
+                "Jardin public"
+              ]
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "espaces_publics",
+              "level_3": "parcs_amenages"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_239": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0303",
+        "A2-04-D0304"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Carrefour",
+              "alternatives": [
+                "Intersection"
+              ]
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "voirie",
+              "level_3": "carrefours"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_240": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0315",
+        "A2-04-D0316"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le petit poste de police de quartier japonais, où l'on demande aussi son chemin ; le policier s'y appelle お巡りさん.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Poste de police",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "droit_justice",
+              "level_2": "application_de_la_loi",
+              "level_3": "police"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_242": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0309",
+        "A2-04-D0310",
+        "A2-04-D0311"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La bibliothèque publique ou universitaire ; le meuble se dit 本棚.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bibliothèque",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "espaces_publics",
+              "level_3": "espaces_collectifs"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_244": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0317",
+        "A2-04-D0318"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ambassade",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "politique_institutions_publiques",
+              "level_2": "relations_internationales_diplomatie",
+              "level_3": "ambassades"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_246": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0305",
+        "A2-04-D0306",
+        "A2-04-D0307"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bâtiment",
+              "alternatives": [
+                "Immeuble"
+              ]
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "batiments_constructions",
+              "level_3": "batiments"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "たてもの",
+            "romaji": "tatemono",
+            "furigana": "<ruby>建<rt>たて</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_249": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0293",
+        "A2-04-D0294",
+        "A2-04-D0295"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une ville, souvent petite ou moyenne (une grande ville administrative se dit 市), ou un quartier animé.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ville",
+              "alternatives": [
+                "Quartier"
+              ]
+            },
+            "category": {
+              "level_1": "territoires_lieux_geographiques",
+              "level_2": "villes_localites",
+              "level_3": "villes"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_250": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0313",
+        "A2-04-D0314"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Banque",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "banque_finance",
+              "level_3": "banque"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_255": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0296",
+        "A2-04-D0297"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Village",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "territoires_lieux_geographiques",
+              "level_2": "villes_localites",
+              "level_3": "villages"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_259": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0352"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Gravir : 山に登る, faire l'ascension d'une montagne.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Monter",
+              "alternatives": [
+                "Grimper"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement",
+              "level_3": "monter_descendre"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_537": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0335",
+        "A2-04-D0336"
+      ],
+      "retire": {
+        "merged_into": "n5_v_642"
+      }
+    },
+    "n5_v_550": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0334"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Rentrer chez soi, ou retourner à son point de départ. Verbe du groupe u malgré sa terminaison en -eru.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Rentrer",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement",
+              "level_3": "aller_venir"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_557": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0350",
+        "A2-04-D0351"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Se dit d'un véhicule, d'une machine ou d'un service : 電車が止まる, le train s'arrête.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "S'arrêter",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_563": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0345"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec を : 道を渡る, traverser la rue ; 橋を渡る, traverser le pont.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Traverser",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "parcours_trajectoire"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_565": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0346"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Arriver à destination : 駅に着く, arriver à la gare.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Arriver",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement",
+              "level_3": "aller_venir"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_624": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0319",
+        "A2-04-D0320"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [
+          "lieu_hotel"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Hôtel",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "voyage_tourisme",
+              "level_2": "hebergement_temporaire",
+              "level_3": "hotels"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_642": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0335",
+        "A2-04-D0337",
+        "A2-04-D0338",
+        "A2-04-D0339"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sortir",
+              "alternatives": [
+                "Quitter",
+                "Partir"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "entree_sortie",
+              "level_3": "entrer_sortir"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を",
+              "から"
+            ],
+            "nuance": "部屋を出る : sortir de la pièce ; 駅を出る : sortir de la gare."
+          },
+          {
+            "meaning": {
+              "primary": "Assister à",
+              "alternatives": [
+                "Participer à"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "に"
+            ],
+            "nuance": "授業に出る : assister au cours ; 会議に出る : participer à la réunion."
+          },
+          {
+            "meaning": {
+              "primary": "Apparaître",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "が"
+            ],
+            "nuance": "月が出る : la lune apparaît."
+          }
+        ]
+      }
+    },
+    "n5_v_644": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0331"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Billet de train, de métro ou de bus ; le billet de banque se dit お札, le billet d'avion チケット.",
+        "tags": [
+          "lieu_gare"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Billet",
+              "alternatives": [
+                "Ticket"
+              ]
+            },
+            "category": {
+              "level_1": "transport_mobilite",
+              "level_2": "utilisation_des_transports"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_674": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0301",
+        "A2-04-D0302"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Ne pas confondre avec 箸 (baguettes), homophone d'accentuation différente.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pont",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "batiments_constructions",
+              "level_3": "ouvrages"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_705": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0298",
+        "A2-04-D0299",
+        "A2-04-D0300"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Tout chemin où l'on circule : 道を渡る, traverser la rue ; 道に迷う, se perdre.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chemin",
+              "alternatives": [
+                "Rue",
+                "Route"
+              ]
+            },
+            "category": {
+              "level_1": "environnement_construit_espaces_humains",
+              "level_2": "voirie",
+              "level_3": "rues"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

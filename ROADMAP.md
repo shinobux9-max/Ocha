@@ -41,10 +41,11 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.5, composition du lot 04.**
+**A2-04 · reconstruction du vocabulaire N5 → 5.5, lot 04 « Ville, transports et
+déplacements ».**
 
-Les lots 0, 01, 02 et 03 sont terminés et validés. Le prochain chantier est la composition du
-lot 04 : son périmètre doit être validé avant toute proposition lexicale.
+Les lots 0, 01, 02 et 03 sont terminés et validés. Le périmètre du lot 04 est validé (39 entrées) ;
+sa proposition est livrée (statut `proposed`) et en relecture.
 
 ------------------------------------------------------------------------
 
@@ -246,7 +247,7 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.2 · lot 01** | Personnes, famille, corps et santé | ✅ Terminé |
 | **5.3 · lot 02** | Alimentation, boissons, repas et table | ✅ Terminé |
 | **5.4 · lot 03** | Maison, habitat et vie domestique | ✅ Terminé |
-| **5.5 · lot 04** | À composer | 🔵 **Prochain chantier** |
+| **5.5 · lot 04** | Ville, transports et déplacements | 🟡 **Proposition livrée ; en relecture** |
 | **5.6 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
@@ -278,8 +279,14 @@ Arbitrages appliqués :
     cas du corpus (散歩する, 勉強する…) sera examiné selon ce critère ;
 -   la lecture `うち` de `家` n'est pas ajoutée : elle reste un point d'enrichissement/audit.
 
-**Prochaine action immédiate :** composer le lot 04 (5.5), faire valider son périmètre, puis
-seulement produire ses décisions en statut `proposed`.
+#### Lot 04 · proposition en relecture
+
+Thème : **Ville, transports et déplacements** (39 anciennes entrées). 出ます est fusionné dans 出る
+en conservant `v_642` (exception à la règle du plus petit numéro). Essai à blanc : **200 ENTRY**,
+**30 identifiants retirés**, 0 problème, 0 erreur, 0 attente.
+
+**Prochaine action immédiate :** relire et arbitrer la proposition du lot 04, la réviser si
+besoin, puis la valider avant de composer le lot suivant (5.6).
 
 ------------------------------------------------------------------------
 
@@ -545,7 +552,7 @@ Ensuite seulement :
    │   ├── Lot 01 Personnes                 ✅
    │   ├── Lot 02 Alimentation              ✅
    │   ├── Lot 03 Maison                    ✅
-   │   ├── Lot 04 (5.5)                     🔵
+   │   ├── Lot 04 Ville (5.5)               🟡
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜
