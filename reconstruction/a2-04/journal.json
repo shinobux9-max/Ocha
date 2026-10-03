@@ -7156,5 +7156,542 @@
     ],
     "after": null,
     "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0504",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_176",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Exprimer",
+      "Nommer",
+      "Prononcer"
+    ],
+    "after": null,
+    "reason": "« Nommer » (〜と言う) est un emploi repris dans la nuance ; les deux autres ne sont pas équivalents."
+  },
+  {
+    "id": "A2-04-D0505",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_177",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "S'entretenir",
+      "Raconter"
+    ],
+    "after": null,
+    "reason": "Le premier est redondant ; « raconter » n'est pas équivalent (une histoire se dit 話, nom)."
+  },
+  {
+    "id": "A2-04-D0506",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_699",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Discussion",
+      "Conversation",
+      "Histoire",
+      "Parole",
+      "Récit"
+    ],
+    "after": [
+      "S1 Conversation",
+      "S2 Histoire (récit)"
+    ],
+    "reason": "Deux sens documentés par la source (« une discussion, une conversation entre plusieurs personnes ou une histoire racontée ») : un échange, et un contenu raconté."
+  },
+  {
+    "id": "A2-04-D0507",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_699",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": false,
+    "reason": "suru_compatible non retenu : la source décrit 話 comme un nom dérivé du verbe 話す, sans emploi en する documenté (même doctrine que 作文, lot 06)."
+  },
+  {
+    "id": "A2-04-D0508",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_699",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Parole"
+    ],
+    "after": null,
+    "reason": "Pas équivalent ; les paroles se disent 言葉."
+  },
+  {
+    "id": "A2-04-D0509",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_175",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Écouter",
+      "Entendre",
+      "Demander (une question ou une information)"
+    ],
+    "after": [
+      "S1 Écouter",
+      "S2 Demander"
+    ],
+    "reason": "Deux sens documentés par la source (« signifie à la fois écouter et demander ») : percevoir un son, et poser une question à quelqu'un (に), deux actions distinctes."
+  },
+  {
+    "id": "A2-04-D0510",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_174",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Donner une réponse (à une question)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0511",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_702",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": true,
+    "reason": "suru_compatible documenté par la source (« Nom / verbe suru », 質問する)."
+  },
+  {
+    "id": "A2-04-D0512",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_702",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Interrogation"
+    ],
+    "after": null,
+    "reason": "Pas équivalent (une interrogation scolaire se dit テスト)."
+  },
+  {
+    "id": "A2-04-D0513",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_169",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Appeler",
+      "Inviter",
+      "Crier pour faire venir"
+    ],
+    "after": [
+      "S1 Appeler (faire venir, inviter)",
+      "S2 Nommer"
+    ],
+    "reason": "Deux sens documentés par la source (« appeler quelqu'un à voix haute, l'inviter… ou de le nommer ») : faire venir quelqu'un (l'appeler, l'inviter), et donner un nom (〜と呼ぶ). Inviter reste dans le sens 1 : c'est faire venir à un événement."
+  },
+  {
+    "id": "A2-04-D0514",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_169",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Crier pour faire venir"
+    ],
+    "after": null,
+    "reason": "Repris par le sens 1."
+  },
+  {
+    "id": "A2-04-D0515",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_651",
+    "field": "category",
+    "kind": "decision",
+    "before": null,
+    "after": "communication_langage",
+    "reason": "Le registre n'a pas de catégorie des noms et désignations : 名前 est rangé au niveau 1 seul (communication et langage), sans sous-catégorie forcée."
+  },
+  {
+    "id": "A2-04-D0516",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_651",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Appellation"
+    ],
+    "after": null,
+    "reason": "Terme voisin, pas équivalent."
+  },
+  {
+    "id": "A2-04-D0517",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_697",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Exhiber"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0518",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_178",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Téléphone",
+      "Appel téléphonique"
+    ],
+    "after": [
+      "S1 Téléphone (appareil)",
+      "S2 Appel téléphonique"
+    ],
+    "reason": "Deux sens documentés par la source (« désignant l'appareil ou la communication ») : un objet, et un événement de communication, deux types distincts."
+  },
+  {
+    "id": "A2-04-D0519",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_178",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": false,
+    "reason": "suru_compatible non retenu : la source ne documente aucun emploi en する, seulement l'appareil et la communication (même doctrine que 作文, lot 06). L'appel se dit ici 電話をかける."
+  },
+  {
+    "id": "A2-04-D0520",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_164",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Téléphoner",
+      "Passer un appel",
+      "Mettre (des lunettes)",
+      "Accrocher"
+    ],
+    "after": [
+      "S1 Passer (un appel)",
+      "S2 Mettre (des lunettes)",
+      "S3 Accrocher"
+    ],
+    "reason": "Trois sens, et seulement ceux que la source documente : téléphoner, mettre des lunettes, accrocher. Aucun autre emploi de かける n'est ajouté. Aucune graphie en kanji : la source dit qu'il s'écrit en hiragana à ce niveau."
+  },
+  {
+    "id": "A2-04-D0521",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_164",
+    "field": "sens 3 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Accrocher, suspendre un objet : action générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D0522",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_173",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Chiffre",
+      "Numéro d'identification ou de téléphone"
+    ],
+    "after": null,
+    "reason": "« Chiffre » se dit 数字 ; le second est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0523",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_52",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Courrier postal"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0524",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_695",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Carte de correspondance"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0525",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_661",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Enveloppe pour lettre"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0526",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_643",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Timbre postal"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0527",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_172",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Journal d'actualités"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0528",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_712",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Périodique"
+    ],
+    "after": null,
+    "reason": "Terme technique."
+  },
+  {
+    "id": "A2-04-D0529",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_166",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Journal télévisé",
+      "Nouvelles (TV/Radio)"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0530",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_203",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Télévision",
+      "Téléviseur",
+      "Écran de télévision"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la nuance de la source ne distingue pas le média de l'appareil (contrairement à 電話) ; « téléviseur » en rend la largeur."
+  },
+  {
+    "id": "A2-04-D0531",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_203",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Écran de télévision"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0532",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_205",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Radiodiffusion"
+    ],
+    "after": null,
+    "reason": "Terme technique."
+  },
+  {
+    "id": "A2-04-D0533",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_206",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Lecteur enregistreur cassette radio"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0534",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_204",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Ruban adhésif",
+      "Scotch",
+      "Bande magnétique"
+    ],
+    "after": [
+      "S1 Ruban adhésif",
+      "S2 Bande magnétique"
+    ],
+    "reason": "Deux sens documentés par la source : deux objets distincts, dans deux domaines distincts (un ruban qui colle, un support d'enregistrement)."
+  },
+  {
+    "id": "A2-04-D0535",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_616",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Enregistreur à bande magnétique"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0536",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_626",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Disque vinyle",
+      "Disque phonographique",
+      "Enregistrement"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens, le disque. Le « record sportif », cité par la nuance de la source, est un autre emploi de l'emprunt, hors N5."
+  },
+  {
+    "id": "A2-04-D0537",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_626",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Disque phonographique",
+      "Enregistrement"
+    ],
+    "after": null,
+    "reason": "Le premier est redondant ; le second n'est pas équivalent."
+  },
+  {
+    "id": "A2-04-D0538",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_168",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Cliché"
+    ],
+    "after": null,
+    "reason": "Terme voisin."
+  },
+  {
+    "id": "A2-04-D0539",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-08",
+    "entry": "n5_v_167",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Film"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : l'œuvre se dit 映画, comme le précise la nuance de la source."
   }
 ]

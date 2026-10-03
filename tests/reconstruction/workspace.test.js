@@ -129,10 +129,23 @@ test('5.8 : le lot 07 est entièrement validé (34 entrées), journal compris', 
 // Audit 5.7-C : `counter` est réservé aux ENTRY qui sont elles-mêmes des compteurs. Au N5, seul 匹
 // (A2-02). Un nom compté (本, 犬, 鉛筆…) n'en porte jamais. Ajouter un compteur exige un arbitrage
 // explicite, donc une modification de cette liste.
+// Portée : la reconstruction N5 (A2-04). Ce n'est PAS une règle ontologique générale (« Ocha n'a
+// qu'un compteur ») : un futur corpus (N4…) qui introduit 枚, 冊, 個, 回… comme ENTRY-compteurs
+// fera évoluer ce test.
 test('compteurs : seule 匹 porte un counter, dans tous les lots', () => {
   const lots = readdirSync(join(WORK, 'lots')).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(WORK, 'lots', f), 'utf8')));
   const withCounter = lots.flatMap((l) => Object.entries(l.entries)).filter(([, d]) => d.fields && d.fields.counter !== null).map(([id]) => id);
   assert.deepEqual(withCounter, ['n5_v_648']);
+});
+
+// A2-04 · 5.9 : le lot 08 est livré en PROPOSITION, journal compris ; aucune de ses décisions
+// n'est validée avant la relecture. Ce test changera à la validation du lot 08.
+test('5.9 : le lot 08 est entièrement proposé (29 entrées), journal compris', () => {
+  const lot8 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-08.json'), 'utf8'));
+  assert.equal(Object.keys(lot8.entries).length, 29);
+  assert.ok(Object.values(lot8.entries).every((e) => e.status === 'proposed'));
+  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
+  assert.ok(journal.filter((j) => j.lot === 'lot-08').every((j) => j.status === 'proposed'));
 });
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du

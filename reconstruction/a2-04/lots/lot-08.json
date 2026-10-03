@@ -1,0 +1,1182 @@
+{
+  "lot": "lot-08",
+  "title": "Communication, correspondance et médias",
+  "entries": {
+    "n5_v_52": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0523"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une lettre écrite à la main ; 手紙を書く, 手紙を出す.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lettre (courrier)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "transmission"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_164": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0520",
+        "A2-04-D0521"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Verbe très polyvalent, dont le sens dépend du nom qui l'accompagne ; s'écrit d'ordinaire en hiragana à ce niveau.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Passer (un appel)",
+              "alternatives": [
+                "Téléphoner"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "contact"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "に",
+              "を"
+            ],
+            "nuance": "電話をかける : téléphoner ; 友達に電話をかける."
+          },
+          {
+            "meaning": {
+              "primary": "Mettre (des lunettes)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "accessoires_vestimentaires"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "めがねをかける : mettre ses lunettes."
+          },
+          {
+            "meaning": {
+              "primary": "Accrocher",
+              "alternatives": [
+                "Suspendre"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "に",
+              "を"
+            ],
+            "nuance": "壁に絵をかける : accrocher un tableau au mur."
+          }
+        ]
+      }
+    },
+    "n5_v_165": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Appareil photo",
+              "alternatives": [
+                "Caméra"
+              ]
+            },
+            "category": {
+              "level_1": "technologie",
+              "level_2": "appareils_electroniques",
+              "level_3": "appareils_electroniques"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_166": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0529"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Les nouvelles diffusées à la télévision, à la radio, dans les médias.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Informations",
+              "alternatives": [
+                "Actualités"
+              ]
+            },
+            "category": {
+              "level_1": "medias",
+              "level_2": "information_mediatique",
+              "level_3": "actualites"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_167": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0539"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le support de la photo ou du film ; le film qu'on regarde se dit 映画.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pellicule",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "arts_visuels"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_168": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0538"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "写真を撮る : prendre une photo.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Photo",
+              "alternatives": [
+                "Photographie"
+              ]
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "arts_visuels"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_169": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0513",
+        "A2-04-D0514"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Appeler (faire venir)",
+              "alternatives": [
+                "Inviter"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "contact"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "名前を呼ぶ : appeler quelqu'un par son nom ; 友達を呼ぶ : inviter des amis."
+          },
+          {
+            "meaning": {
+              "primary": "Nommer",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "expression"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "〜と呼ぶ : appeler, nommer ainsi."
+          }
+        ]
+      }
+    },
+    "n5_v_171": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Seulement pour les images : 写真を撮る. Prendre, attraper se dit 取る (même lecture).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Prendre (une photo)",
+              "alternatives": [
+                "Filmer"
+              ]
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "arts_visuels"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_172": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0527"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Littéralement « nouvelles fraîches » ; 新聞を読む.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Journal",
+              "alternatives": [
+                "Quotidien"
+              ]
+            },
+            "category": {
+              "level_1": "medias",
+              "level_2": "presse",
+              "level_3": "journaux"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_173": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0522"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "電話番号 : numéro de téléphone ; 部屋の番号 : numéro de chambre.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Numéro",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_174": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0510"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec に pour ce à quoi l'on répond : 質問に答える.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Répondre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "parole_conversation",
+              "level_3": "reponse"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_175": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0509"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Écouter",
+              "alternatives": [
+                "Entendre"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "sens_perception",
+              "level_3": "ouie"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "音楽を聞く : écouter de la musique."
+          },
+          {
+            "meaning": {
+              "primary": "Demander",
+              "alternatives": [
+                "Poser une question"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "parole_conversation",
+              "level_3": "question"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "に",
+              "を"
+            ],
+            "nuance": "La personne à qui l'on demande est suivie de に : 先生に聞く."
+          }
+        ]
+      }
+    },
+    "n5_v_176": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0504"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "〜と言います : s'appeler, se nommer (田中と言います). À l'oral, souvent prononcé ゆう.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dire",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "parole_conversation",
+              "level_3": "parler"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_177": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0505"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'exprimer oralement, converser ; parler une langue : 日本語を話す, 日本語で話す.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Parler",
+              "alternatives": [
+                "Discuter"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "parole_conversation",
+              "level_3": "parler"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_178": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0518",
+        "A2-04-D0519"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Littéralement « parole électrique ».",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Téléphone (appareil)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "technologie",
+              "level_2": "appareils_electroniques",
+              "level_3": "telephones"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Appel téléphonique",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "contact"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "電話をかける : passer un appel."
+          }
+        ]
+      }
+    },
+    "n5_v_203": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0530",
+        "A2-04-D0531"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "テレビを見る : regarder la télévision.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Télévision",
+              "alternatives": [
+                "Téléviseur"
+              ]
+            },
+            "category": {
+              "level_1": "medias",
+              "level_2": "television",
+              "level_3": "television"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_204": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0534"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "De l'anglais « tape ».",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ruban adhésif",
+              "alternatives": [
+                "Scotch"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "accessoires_domestiques"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Bande magnétique",
+              "alternatives": [
+                "Cassette"
+              ]
+            },
+            "category": {
+              "level_1": "technologie",
+              "level_2": "donnees",
+              "level_3": "stockage"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_205": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0532"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Radio",
+              "alternatives": [
+                "Poste de radio"
+              ]
+            },
+            "category": {
+              "level_1": "medias",
+              "level_2": "radio",
+              "level_3": "radio"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_206": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0533"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Contraction de ラジオ et カセット.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Radio-cassette",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "technologie",
+              "level_2": "appareils_electroniques",
+              "level_3": "appareils_electroniques"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_616": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0535"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Magnétophone",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "technologie",
+              "level_2": "appareils_electroniques",
+              "level_3": "appareils_electroniques"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_626": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0536",
+        "A2-04-D0537"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Disque (vinyle)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "arts_creation",
+              "level_2": "musique"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_643": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0526"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le timbre-poste qu'on colle sur l'enveloppe.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Timbre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "transmission"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_651": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0515",
+        "A2-04-D0516"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le nom d'une personne, d'un animal ou d'une chose : お名前は？, votre nom ?",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Nom",
+              "alternatives": [
+                "Prénom"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_661": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0525"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Enveloppe",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "transmission"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_695": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0524"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Carte postale",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "transmission"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_697": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0517"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec に pour la personne : 写真を友達に見せる.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Montrer",
+              "alternatives": [
+                "Faire voir"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "transmission"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_699": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0506",
+        "A2-04-D0507",
+        "A2-04-D0508"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Nom correspondant au verbe 話す.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Conversation",
+              "alternatives": [
+                "Discussion"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "parole_conversation",
+              "level_3": "conversation"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Histoire",
+              "alternatives": [
+                "Récit"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "expression"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "昔の話 : une histoire d'autrefois."
+          }
+        ]
+      }
+    },
+    "n5_v_702": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0511",
+        "A2-04-D0512"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "質問する : poser une question.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Question",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "parole_conversation",
+              "level_3": "question"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_712": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0528"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Magazine",
+              "alternatives": [
+                "Revue"
+              ]
+            },
+            "category": {
+              "level_1": "medias",
+              "level_2": "presse",
+              "level_3": "magazines"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}
