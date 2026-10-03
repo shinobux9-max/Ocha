@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-03 (clôture du lot 03)
+**Dernière mise à jour :** 2026-10-03 (clôture du lot 04)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,11 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.5, lot 04 « Ville, transports et
-déplacements ».**
+**A2-04 · reconstruction du vocabulaire N5 → 5.6, composition du lot 05.**
 
-Les lots 0, 01, 02 et 03 sont terminés et validés. Le périmètre du lot 04 est validé (39 entrées) ;
-sa proposition est livrée (statut `proposed`) et en relecture.
+Les lots 0, 01, 02, 03 et 04 sont terminés et validés. Le prochain chantier est la composition du
+lot 05 : son périmètre doit être validé avant toute proposition lexicale.
 
 ------------------------------------------------------------------------
 
@@ -247,8 +246,9 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.2 · lot 01** | Personnes, famille, corps et santé | ✅ Terminé |
 | **5.3 · lot 02** | Alimentation, boissons, repas et table | ✅ Terminé |
 | **5.4 · lot 03** | Maison, habitat et vie domestique | ✅ Terminé |
-| **5.5 · lot 04** | Ville, transports et déplacements | 🟡 **Proposition livrée ; en relecture** |
-| **5.6 → 5.15** | Lots thématiques suivants | ⬜ À faire |
+| **5.5 · lot 04** | Ville, transports et déplacements | ✅ Terminé |
+| **5.6 · lot 05** | À composer | 🔵 **Prochain chantier** |
+| **5.7 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -261,32 +261,28 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 03
+#### État chiffré après le lot 04
 
--   **162 ENTRY validées** dans la reconstruction ;
--   **29 identifiants retirés** (dont `掃除する`, fusionné dans `掃除`) ;
--   **528 anciennes entrées encore à décider** ;
+-   **200 ENTRY validées** dans la reconstruction ;
+-   **30 identifiants retirés** (dont `掃除する` → `掃除` et `出ます` → `出る`) ;
+-   **489 anciennes entrées encore à décider** ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
-#### Lot 03 · clos
+#### Lot 04 · clos
 
-Thème : **Maison, habitat et vie domestique** (40 anciennes entrées : 39 gardées, 1 fusion).
+Thème : **Ville, transports et déplacements** (39 anciennes entrées : 38 gardées, 1 fusion).
 Arbitrages appliqués :
 
--   `お風呂` et `ふろ` restent deux ENTRY distinctes, chacune à un seul sens (le bain japonais) ;
--   `掃除する` est fusionné sous `掃除` (`suru_compatible: true`) : une forme en する est
-    fusionnée avec son nom quand elle n'apporte pas d'identité lexicale propre, et chaque autre
-    cas du corpus (散歩する, 勉強する…) sera examiné selon ce critère ;
--   la lecture `うち` de `家` n'est pas ajoutée : elle reste un point d'enrichissement/audit.
+-   `出ます` est fusionné dans `出る`, en conservant `v_642` : exception justifiée à la règle du
+    plus petit numéro (une forme conjuguée tenait lieu d'ENTRY) ; `出る` a trois sens (sortir,
+    assister à, apparaître) ;
+-   `図書館` est rangé parmi les espaces publics collectifs, sans créer de catégorie pour une
+    seule entrée ;
+-   tags de la gare stricts : `駅`, `電車`, `地下鉄`, `切符`, `乗る` ; pas de tag pour `降りる`, verbe
+    général.
 
-#### Lot 04 · proposition en relecture
-
-Thème : **Ville, transports et déplacements** (39 anciennes entrées). 出ます est fusionné dans 出る
-en conservant `v_642` (exception à la règle du plus petit numéro). Essai à blanc : **200 ENTRY**,
-**30 identifiants retirés**, 0 problème, 0 erreur, 0 attente.
-
-**Prochaine action immédiate :** relire et arbitrer la proposition du lot 04, la réviser si
-besoin, puis la valider avant de composer le lot suivant (5.6).
+**Prochaine action immédiate :** composer le lot 05 (5.6), faire valider son périmètre, puis
+seulement produire ses décisions en statut `proposed`.
 
 ------------------------------------------------------------------------
 
@@ -552,7 +548,8 @@ Ensuite seulement :
    │   ├── Lot 01 Personnes                 ✅
    │   ├── Lot 02 Alimentation              ✅
    │   ├── Lot 03 Maison                    ✅
-   │   ├── Lot 04 Ville (5.5)               🟡
+   │   ├── Lot 04 Ville (5.5)               ✅
+   │   ├── Lot 05 (5.6)                     🔵
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

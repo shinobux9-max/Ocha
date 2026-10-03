@@ -6,7 +6,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_53 → v_53 · 歩く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0342** (abandon, senses) : Pas équivalent : se promener se dit 散歩する. — avant `["Se promener à pied"]` → après `null`
 
@@ -28,7 +28,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -49,9 +49,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_63 → v_63 · 降りる
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0347** (decision, tags) : Aucun candidat hérité ; lieu_gare ajouté : Vocabulaire d'action propre à la gare (acheter un billet, trouver le bon quai, changer de ligne), 電車を降りる (descendre du train), à la gare où l'on descend. — avant `[]` → après `["lieu_gare"]`
+- **A2-04-D0347** (decision, tags) : Aucun tag (révision 5.5b) : 降りる est un verbe général de descente ou de sortie d'un véhicule (電車, バス, タクシー, 車) ou d'un lieu en hauteur (階段, 山). Pouvoir dire 電車を降りる à la gare ne suffit pas : il n'appartient pas au vocabulaire d'action propre à la gare (critère des tags de lieu du lot 02). — avant `[]` → après `[]`
 - **A2-04-D0348** (decision, writings) : 下りる, documentée par la nuance de la source, est une autre graphie du même mot (おりる), sans changement de forme lexicale : ajoutée à writings. — avant `null` → après `["下りる"]`
 - **A2-04-D0349** (abandon, senses) : Repris dans la nuance. — avant `["Sortir (d'un véhicule)"]` → après `null`
 
@@ -73,14 +73,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"下りる","furigana":"<ruby>下<rt>お</rt></ruby>りる"}]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `"Descendre d'un véhicule (電車を降りる) ou d'un lieu en hauteur ; 下りる s'emploie plutôt pour un escalier, une pente."`
-- tags : `["lieu_gare"]`
+- tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
@@ -94,7 +94,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_146 → v_146 · 郵便局
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0312** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 
@@ -117,7 +117,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -138,7 +138,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_147 → v_147 · タクシー
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0323** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 
@@ -161,7 +161,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -182,7 +182,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_148 → v_148 · バス
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0322** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. Le bus relève de son propre arrêt (バス停), pas de la gare ferroviaire. — avant `["lieu_gare"]` → après `[]`
 
@@ -205,7 +205,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -226,7 +226,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_149 → v_149 · 乗る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -247,7 +247,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"u"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -268,7 +268,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_150 → v_150 · 出かける
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -288,7 +288,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -309,7 +309,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_151 → v_151 · 地下鉄
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -330,7 +330,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -351,7 +351,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_152 → v_152 · 来る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0333** (abandon, senses) : « Arriver » relève de 着く ; le second est repris dans la nuance. — avant `["Arriver","Se rendre vers (le locuteur)"]` → après `null`
 
@@ -373,7 +373,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"irrégulier"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -394,7 +394,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_154 → v_154 · 自動車
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0326** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0327** (abandon, senses) : Redondant. — avant `["Véhicule automobile"]` → après `null`
@@ -418,7 +418,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -439,7 +439,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_155 → v_155 · 自転車
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0328** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 
@@ -462,7 +462,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -483,7 +483,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_156 → v_156 · 行く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0332** (abandon, senses) : Redondants avec « aller ». — avant `["Se rendre","Partir vers"]` → après `null`
 
@@ -505,7 +505,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -526,7 +526,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_157 → v_157 · 走る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0343** (decision, senses) : Un seul concept, se déplacer rapidement ; l'emploi pour un véhicule est le même verbe, décrit dans la nuance. — avant `["Courir","Galoper","Rouler (pour un véhicule)"]` → après `"un seul sens"`
 - **A2-04-D0344** (abandon, senses) : Le premier n'est pas équivalent ; le second est repris dans la nuance. — avant `["Galoper","Rouler (pour un véhicule)"]` → après `null`
@@ -549,7 +549,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -570,7 +570,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_158 → v_158 · 車
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0324** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0325** (abandon, senses) : « Véhicule » est trop large ; « roue » est un sens étymologique du kanji, ni attesté comme emploi courant ni N5 : non repris. — avant `["Véhicule","Roue"]` → après `null`
@@ -594,7 +594,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -615,7 +615,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_159 → v_159 · 電車
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0321** (abandon, senses) : Le premier est repris dans la nuance ; le second n'est pas équivalent (路面電車). — avant `["Train électrique","Tramway"]` → après `null`
 
@@ -638,7 +638,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -659,7 +659,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_160 → v_160 · 飛ぶ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0353** (decision, senses) : Un seul sens pour 飛ぶ : voler dans les airs. — avant `["Voler","Sauter","Bondir"]` → après `"un seul sens"`
 - **A2-04-D0354** (correction, senses) : Confusion de la source : « sauter, bondir » est le sens de 跳ぶ, même lecture (とぶ) mais autre graphie et autre sens. Ce n'est pas un sens de 飛ぶ ; non repris ici. — avant `["Sauter","Bondir"]` → après `null`
@@ -682,7 +682,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -703,7 +703,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_161 → v_161 · 飛行機
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0329** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0330** (abandon, senses) : Terme technique. — avant `["Aéronef"]` → après `null`
@@ -727,7 +727,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -748,7 +748,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_162 → v_162 · 駅
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -769,7 +769,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -790,7 +790,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_213 → v_213 · 入る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0340** (decision, senses) : Un seul sens, « entrer ». « Être dedans » (入っている) est l'état qui résulte d'être entré, décrit dans la nuance. — avant `["Entrer","Pénétrer","Contenir","Entrer (dans un bain)"]` → après `"un seul sens"`
 - **A2-04-D0341** (abandon, senses) : « Contenir » est une traduction trompeuse : avec 入る, c'est le contenu qui « est dedans », non le contenant qui contient ; « entrer dans un bain » est un emploi, repris dans la nuance. — avant `["Contenir","Entrer (dans un bain)"]` → après `null`
@@ -813,7 +813,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -834,7 +834,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_215 → v_215 · 公園
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0308** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 
@@ -857,7 +857,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -878,7 +878,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_239 → v_239 · 交差点
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0303** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0304** (abandon, senses) : Redondant. — avant `["Croisement"]` → après `null`
@@ -902,7 +902,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -923,7 +923,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_240 → v_240 · 交番
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0315** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0316** (abandon, senses) : Le premier est repris dans la nuance ; le second ne correspond à rien. — avant `["Commissariat de quartier (Japon)","Ilot de police"]` → après `null`
@@ -947,7 +947,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -968,7 +968,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_242 → v_242 · 図書館
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0309** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0310** (decision, category) : Le registre n'a pas de catégorie de bibliothèque : rangée parmi les espaces publics collectifs, comme un service public de la ville. — avant `null` → après `"environnement_construit_espaces_humains › espaces_publics › espaces_collectifs"`
@@ -993,7 +993,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1014,7 +1014,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_244 → v_244 · 大使館
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0317** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0318** (abandon, senses) : Redondant. — avant `["Représentation diplomatique"]` → après `null`
@@ -1038,7 +1038,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1059,7 +1059,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_246 → v_246 · 建物
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0305** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0306** (correction, readings) : Les furigana de la source étaient ceux de la graphie 建て物, pas de la forme usuelle 建物. — avant `"<ruby>建<rt>た</rt></ruby>て<ruby>物<rt>もの</rt></ruby>"` → après `"<ruby>建<rt>たて</rt></ruby><ruby>物<rt>もの</rt></ruby>"`
@@ -1084,7 +1084,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - readings : **exception**, furigana incohérents avec la forme
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"たてもの","romaji":"tatemono","furigana":"<ruby>建<rt>たて</rt></ruby><ruby>物<rt>もの</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
@@ -1106,7 +1106,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_249 → v_249 · 町
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0293** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0294** (decision, senses) : Un seul concept, l'agglomération habitée ; « quartier » en rend la largeur, comme « jambe » pour 足. — avant `["Ville","Quartier","Bourg","Rue commerçante"]` → après `"un seul sens"`
@@ -1131,7 +1131,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1152,7 +1152,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_250 → v_250 · 銀行
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0313** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0314** (abandon, senses) : Redondant. — avant `["Établissement bancaire"]` → après `null`
@@ -1176,7 +1176,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1197,7 +1197,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_255 → v_255 · 村
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0296** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0297** (abandon, senses) : Termes voisins, pas équivalents. — avant `["Hameau","Commune rurale"]` → après `null`
@@ -1221,7 +1221,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1242,7 +1242,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_259 → v_259 · 登る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0352** (abandon, senses) : Redondant avec « grimper ». — avant `["Escalader"]` → après `null`
 
@@ -1264,7 +1264,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1285,7 +1285,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_537 → v_537 · 出ます
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0335** (fusion, entrée) : 出ます n'est pas une unité lexicale : c'est la forme polie conjuguée de 出る. Fusion dans 出る (arbitrage du lot 04) ; son sens « assister à » rejoint l'ENTRY survivante. — avant `null` → après `"n5_v_642"`
 - **A2-04-D0336** (exception-fusion, entrée) : Exception à la règle du plus petit numéro (addendum A3) : n5_v_537 est une représentation manifestement erronée (une forme conjuguée tenant lieu d'ENTRY) ; garder son identifiant ferait survivre la représentation incorrecte au moment où elle est corrigée. v_642 (出る) est conservé. — avant `"survivant par la règle : n5_v_537"` → après `"survivant : n5_v_642"`
@@ -1318,7 +1318,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_550 → v_550 · 帰る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0334** (abandon, senses) : Repris dans la nuance. — avant `["Retourner chez soi","S'en retourner"]` → après `null`
 
@@ -1340,7 +1340,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1361,7 +1361,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_557 → v_557 · 止まる
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0350** (decision, senses) : Un seul concept, cesser de se mouvoir ou de fonctionner ; l'emploi pour un service ou un mécanisme est décrit dans la nuance. — avant `["S'arrêter","Faire halte","Être suspendu (pour un service, un mécanisme)"]` → après `"un seul sens"`
 - **A2-04-D0351** (abandon, senses) : Le premier est redondant ; le second est repris dans la nuance. — avant `["Faire halte","Être suspendu (pour un service, un mécanisme)"]` → après `null`
@@ -1384,7 +1384,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1405,7 +1405,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_563 → v_563 · 渡る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0345** (abandon, senses) : Redondant. — avant `["Passer de l'autre côté"]` → après `null`
 
@@ -1427,7 +1427,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1448,7 +1448,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_565 → v_565 · 着く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0346** (abandon, senses) : Redondant. — avant `["Atteindre (une destination)"]` → après `null`
 
@@ -1470,7 +1470,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1491,7 +1491,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_624 → v_624 · ホテル
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0319** (decision, tags) : lieu_gare (ancienne catégorie « lieux ») écarté ; lieu_hotel ajouté hors des candidats : c'est le mot du lieu lui-même, comme レストラン pour le restaurant. — avant `["lieu_gare"]` → après `["lieu_hotel"]`
 - **A2-04-D0320** (abandon, senses) : Redondant. — avant `["Établissement hôtelier"]` → après `null`
@@ -1515,7 +1515,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1536,7 +1536,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_642 → v_642 · 出る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0335** (fusion, entrée) : 出ます n'est pas une unité lexicale : c'est la forme polie conjuguée de 出る. Fusion dans 出る (arbitrage du lot 04) ; son sens « assister à » rejoint l'ENTRY survivante. — avant `null` → après `"n5_v_642"`
 - **A2-04-D0337** (decision, senses) : Trois sens documentés par les deux sources fusionnées : quitter un lieu (を), prendre part à quelque chose (に, documenté par 出ます), et apparaître (が). Trois référents distincts, chacun avec sa particule. — avant `["Sortir","Quitter","Partir","Apparaître","Assister à (n5_v_537)"]` → après `["S1 Sortir","S2 Assister à","S3 Apparaître"]`
@@ -1561,7 +1561,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1584,7 +1584,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_644 → v_644 · 切符
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0331** (abandon, senses) : Redondant. — avant `["Titre de transport"]` → après `null`
 
@@ -1607,7 +1607,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1628,7 +1628,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_674 → v_674 · 橋
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0301** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0302** (abandon, senses) : Pas équivalent. — avant `["Passerelle"]` → après `null`
@@ -1652,7 +1652,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1673,7 +1673,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_705 → v_705 · 道
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0298** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut se rencontrer près du lieu ou dans celui-ci, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0299** (decision, senses) : Un seul concept, la voie où l'on circule ; rue, chemin et route en rendent la largeur. — avant `["Rue","Chemin","Route","Voie"]` → après `"un seul sens"`
@@ -1698,7 +1698,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`

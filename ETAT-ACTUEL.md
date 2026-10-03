@@ -27,9 +27,11 @@ A2-05) et la réidentification de la grammaire (addendum A4).
 `validated` ; assemblage réel : 123 ENTRY, 28 retraits, 0 erreur, 0 attente. **5.4 · lot 03 « maison, habitat et vie domestique » validé** (rapport
 `docs/rapports/etape2-tache5-4-lot03-valide.md`) : 40 entrées (39 gardées, 掃除する fusionné dans
 掃除) et 72 décisions (D0221 à D0292) en `validated` ; assemblage réel : 162 ENTRY, 29 retraits,
-0 erreur, 0 attente. 5.5 · lot 04 « ville, transports et déplacements » : périmètre validé (39 entrées),
-**proposition** livrée (`reconstruction/a2-04/lots/lot-04.json`, rapport
-`docs/rapports/etape2-tache5-5-lot04.md`) ; aucune décision validée avant la relecture. Le validateur lexical n'est pas
+0 erreur, 0 attente. **5.5 · lot 04 « ville, transports et déplacements » validé** (rapport
+`docs/rapports/etape2-tache5-5-lot04-valide.md`) : 39 entrées (38 gardées, 出ます fusionné dans
+出る) et 62 décisions (D0293 à D0354) en `validated` ; assemblage réel : 200 ENTRY, 30 retraits,
+0 erreur, 0 attente. Prochaine sous-tâche : 5.6, composition du lot 05 d'abord, aucune
+proposition avant validation du périmètre. Le validateur lexical n'est pas
 encore appliqué à `data/` (bascule à la publication d'A2-04).
 A2-02 est terminé (rapport final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
@@ -49,7 +51,7 @@ livraison, relecture, tests verts, commit.
 | 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (validée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait, A2-02 fermé (3.1 à 3.5 validées) |
 | 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | ✅ fait, A2-03 fermé (4.1 à 4.5 validées) |
 | 5 | A2-04 · 5.0 · Infrastructure | `reconstruction/a2-04/` (sources figées et empreintes, `place-tags.json`, `lots/`, `journal.json`) et `tools/reconstruction/` (règles et listes fermées, couche mécanique, contrôle des lots et du journal, assembleur partiel et complet, rapport de relecture, commandes) ; aucune décision lexicale | validée |
-| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.4 validées (lots 0 à 03) ; 5.5 proposée (lot 04) |
+| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.5 validées (lots 0 à 04) ; 5.6 à composer |
 | 7 | A2-04 · 5.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
 | 8 | A2-04 · 5.17 · Publication | une seule opération : vocabulaire canonique, validateur activé, `events.js` (E1 à E4) ; l'ancienne app cesse de fonctionner sur `ocha-v2` | à faire |
 | 9 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
@@ -266,6 +268,8 @@ modifier ses parties verrouillées.
 | 2026-10-03 | A2-04 · lot 03 arbitré : お風呂 et ふろ, deux ENTRY à un seul sens (le bain japonais, l'installation et par extension la pièce ; aucune action, portée par 入る dans お風呂に入る) ; エレベーター : `lieu_gare` seul, l'ascenseur n'étant pas caractéristique du service hôtelier ; le reste du lot validé tel que proposé (掃除 / 掃除する, 洗濯, 家 いえ seule, graphies, corrections de 窓 et ポスト, 電気 à deux sens, tags) | `reconstruction/a2-04/lots/lot-03.json` |
 | 2026-10-03 | A2-04 · 5.4 fermée : lot 03 et ses 72 décisions validés ; premier retrait par fusion d'une forme en する (`v_220 → v_219`), qui porte le total à 29 identifiants retirés | `reconstruction/a2-04/` |
 | 2026-10-03 | A2-04 · 5.5 · périmètre du lot 04 : 39 entrées (13 lieux publics, dont 7 des 9 mots urbains écartés du lot 03 ; 11 transports ; 15 verbes de déplacement) ; 国 et 帰国 reportés au lot « pays et voyage » ; 出ます fusionné dans 出る en conservant `v_642`, par une `exception-fusion` (forme conjuguée tenant lieu d'ENTRY : représentation manifestement erronée) | `reconstruction/a2-04/lots/lot-04.json` |
+| 2026-10-03 | A2-04 · lot 04 arbitré : 出ます / 出る et les trois sens de 出る confirmés (D0335 à D0339) ; 図書館 parmi les espaces publics collectifs, sans créer de catégorie pour une seule entrée ; 降りる sans tag : verbe général de descente ou de sortie d'un véhicule, non propre à la gare ; le reste du lot validé tel que proposé | `reconstruction/a2-04/lots/lot-04.json` |
+| 2026-10-03 | A2-04 · 5.5 fermée : lot 04 et ses 62 décisions validés ; une décision de tags « sans changement de valeur » (D0347, avant `[]`, après `[]`) est légitime quand elle matérialise un arbitrage humain négatif, et elle garde la stabilité des identifiants suivants | `reconstruction/a2-04/` |
 
 ---
 
@@ -431,3 +435,5 @@ modifier ses parties verrouillées.
 | 2026-10-03 | 2 · 5.4b | Révision du lot 03 : 3 entrées modifiées (お風呂 et ふろ à un sens, エレベーター sans `lieu_hotel`), 3 décisions réécrites sous leur identifiant (D0254, D0256, D0259), aucune nouvelle ; essai à blanc inchangé : 162 ENTRY, 29 retraits, 0 erreur, 0 attente ; 421 tests | — |
 | 2026-10-03 | 2 · 5.4 | Validation du lot 03 : 40 entrées et 72 décisions passées en `validated` sans autre changement ; assemblage réel : 162 ENTRY, 29 retraits, 0 problème, 0 erreur, 0 attente, 528 entrées encore à décider ; test d'état adapté ; 3 sabotages attrapés (chacun vérifié comme modifiant réellement les données) ; `ROADMAP.md` mis à jour (5.4 ✅, 5.5 prochain chantier) ; 421 tests | — |
 | 2026-10-03 | 2 · 5.5 | Lot 04 proposé : 39 entrées (38 gardées, 出ます fusionné dans 出る avec exception à la règle du plus petit numéro), 62 décisions de journal proposées (D0293 à D0354) ; essai à blanc : 200 ENTRY, 30 retraits, 0 problème, 0 erreur, 0 attente, 2 `categorie-nulle` de plus ; 1 nouveau test ; 422 tests | — |
+| 2026-10-03 | 2 · 5.5b | Révision du lot 04 : 降りる sans `lieu_gare` ; D0347 réécrite à sa place (émise explicitement pour garder les identifiants suivants), aucune autre décision modifiée ; essai à blanc inchangé : 200 ENTRY, 30 retraits, 0 erreur, 0 attente ; 422 tests | — |
+| 2026-10-03 | 2 · 5.5 | Validation du lot 04 : 39 entrées et 62 décisions passées en `validated` sans autre changement ; journal entier validé (354 décisions) ; assemblage réel : 200 ENTRY, 30 retraits (dont `v_537 → v_642`), 0 problème, 0 erreur, 0 attente, 489 entrées encore à décider ; test d'état adapté (il exige aussi l'exception à la règle du plus petit numéro) ; 3 sabotages attrapés ; `ROADMAP.md` mis à jour (5.5 ✅, 5.6 prochain chantier) ; 422 tests | — |

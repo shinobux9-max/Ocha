@@ -69,14 +69,18 @@ test('5.4 : le lot 03 est entièrement validé (40 entrées dont 1 retrait), jou
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
-// A2-04 · 5.5 : le lot 04 est livré en PROPOSITION, journal compris ; aucune de ses décisions
-// n'est validée avant la relecture. Ce test changera à la validation du lot 04.
-test('5.5 : le lot 04 est entièrement proposé (39 entrées), journal compris', () => {
+// A2-04 · 5.5 fermée : le lot 04 est entièrement validé (38 entrées gardées, 出ます fusionné dans
+// 出る avec exception à la règle du plus petit numéro), avec tout son journal.
+test('5.5 : le lot 04 est entièrement validé (39 entrées dont 1 retrait), journal compris', () => {
   const lot4 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-04.json'), 'utf8'));
   assert.equal(Object.keys(lot4.entries).length, 39);
-  assert.ok(Object.values(lot4.entries).every((e) => e.status === 'proposed'));
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  assert.ok(journal.filter((j) => j.lot === 'lot-04').every((j) => j.status === 'proposed'));
+  assert.ok(Object.values(lot4.entries).every((e) => e.status === 'validated'));
+  assert.deepEqual(Object.entries(lot4.entries).filter(([, e]) => e.retire).map(([id, e]) => [id, e.retire.merged_into]), [['n5_v_537', 'n5_v_642']]);
+  assert.deepEqual(lot4.additions, []);
+  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-04');
+  assert.equal(own.length, 62);
+  assert.ok(own.every((j) => j.status === 'validated'));
+  assert.ok(own.some((j) => j.kind === 'exception-fusion' && j.entry === 'n5_v_537'), 'exception à la règle du plus petit numéro');
 });
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du
