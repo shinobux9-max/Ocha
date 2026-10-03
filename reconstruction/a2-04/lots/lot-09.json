@@ -3,7 +3,7 @@
   "title": "Loisirs, sorties et voyages",
   "entries": {
     "n5_v_26": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0571"
       ],
@@ -39,7 +39,7 @@
       }
     },
     "n5_v_189": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0544"
       ],
@@ -73,7 +73,7 @@
       }
     },
     "n5_v_190": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0548",
         "A2-04-D0549"
@@ -107,7 +107,7 @@
       }
     },
     "n5_v_192": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0545"
       ],
@@ -141,7 +141,7 @@
       }
     },
     "n5_v_193": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0556",
         "A2-04-D0557",
@@ -179,7 +179,7 @@
       }
     },
     "n5_v_194": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0556"
       ],
@@ -188,7 +188,7 @@
       }
     },
     "n5_v_195": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0566",
         "A2-04-D0567"
@@ -222,7 +222,7 @@
       }
     },
     "n5_v_196": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0560"
       ],
@@ -258,7 +258,7 @@
       }
     },
     "n5_v_197": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0543"
       ],
@@ -292,7 +292,7 @@
       }
     },
     "n5_v_198": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0550"
       ],
@@ -326,7 +326,7 @@
       }
     },
     "n5_v_199": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0551",
         "A2-04-D0552"
@@ -362,7 +362,7 @@
       }
     },
     "n5_v_200": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0540"
       ],
@@ -395,7 +395,7 @@
       }
     },
     "n5_v_243": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0568",
         "A2-04-D0569",
@@ -406,7 +406,7 @@
         "suru_compatible": false,
         "suffix": false,
         "counter": null,
-        "nuance": null,
+        "nuance": "Désigne aussi le pays ou la région d'origine de quelqu'un : 国に帰る, rentrer au pays ; お国はどちらですか, d'où venez-vous ?",
         "tags": [],
         "senses": [
           {
@@ -428,31 +428,12 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
-          },
-          {
-            "meaning": {
-              "primary": "Pays natal",
-              "alternatives": [
-                "Région d'origine"
-              ]
-            },
-            "category": {
-              "level_1": "territoires_lieux_geographiques"
-            },
-            "semantic_type": "lieu",
-            "dimensions": [],
-            "relations": [],
-            "linguistic_functions": {
-              "grammatical": [],
-              "pragmatic_discourse": []
-            },
-            "nuance": "国に帰る : rentrer au pays."
           }
         ]
       }
     },
     "n5_v_245": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0572",
         "A2-04-D0573",
@@ -488,7 +469,7 @@
       }
     },
     "n5_v_620": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0559"
       ],
@@ -525,7 +506,7 @@
       }
     },
     "n5_v_621": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0564",
         "A2-04-D0565"
@@ -559,7 +540,7 @@
       }
     },
     "n5_v_669": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0561",
         "A2-04-D0562",
@@ -606,7 +587,7 @@
       }
     },
     "n5_v_676": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0541",
         "A2-04-D0542"
@@ -641,7 +622,7 @@
       }
     },
     "n5_v_689": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0546",
         "A2-04-D0547"
@@ -678,7 +659,7 @@
       }
     },
     "n5_v_707": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0553",
         "A2-04-D0554",
@@ -686,7 +667,7 @@
       ],
       "fields": {
         "writings": [],
-        "suru_compatible": true,
+        "suru_compatible": false,
         "suffix": false,
         "counter": null,
         "nuance": "釣りをする, 釣りに行く : aller à la pêche.",

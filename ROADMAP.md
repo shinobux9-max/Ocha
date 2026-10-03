@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-03 (clôture du lot 08)
+**Dernière mise à jour :** 2026-10-03 (clôture du lot 09)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,10 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.10, lot 09 « Loisirs, sorties et voyages ».**
+**A2-04 · reconstruction du vocabulaire N5 → 5.11, composition du lot 10.**
 
-Les lots 0 à 08 sont terminés et validés. Le périmètre du lot 09 est validé (20 entrées) ; sa
-proposition est livrée (statut `proposed`) et en relecture.
+Les lots 0 à 09 sont terminés et validés. Le prochain chantier est la composition du lot 10 : son
+périmètre doit être validé avant toute proposition lexicale.
 
 ------------------------------------------------------------------------
 
@@ -251,8 +251,9 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.7 · lot 06** | École, apprentissage, langue et écrit | ✅ Terminé |
 | **5.8 · lot 07** | Météo, saisons et nature | ✅ Terminé |
 | **5.9 · lot 08** | Communication, correspondance et médias | ✅ Terminé |
-| **5.10 · lot 09** | Loisirs, sorties et voyages | 🟡 **Proposition livrée ; en relecture** |
-| **5.11 → 5.15** | Lots thématiques suivants | ⬜ À faire |
+| **5.10 · lot 09** | Loisirs, sorties et voyages | ✅ Terminé |
+| **5.11 · lot 10** | À composer | 🔵 **Prochain chantier** |
+| **5.12 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -265,34 +266,29 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 08
+#### État chiffré après le lot 09
 
--   **337 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
--   **30 identifiants retirés** ;
--   **352 anciennes entrées encore à décider** ;
--   **539 décisions humaines validées** au journal ;
+-   **356 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **31 identifiants retirés** (dont `掃除する`, `出ます` et `散歩する`) ;
+-   **332 anciennes entrées encore à décider** ;
+-   **574 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
-#### Lot 08 · clos
+#### Lot 09 · clos
 
-Thème : **Communication, correspondance et médias** (29 anciennes entrées, aucune fusion).
-Arbitrages appliqués :
+Thème : **Loisirs, sorties et voyages** (20 anciennes entrées : 19 gardées, 1 fusion). Arbitrages
+appliqués :
 
--   `かける` à trois sens, exactement ceux documentés par la source ; `聞く`, `話`, `呼ぶ`, `電話`
-    et `テープ` à deux sens ; `撮る` sans contamination par l'homophone `取る` ;
--   `suru_compatible` : `true` seulement si la source l'établit (`質問`) ; `false` signifie
-    « non établi » (valeur par défaut), jamais une incompatibilité ;
--   `名前` au niveau général « communication et langage » ; médias dans la branche « médias ».
+-   `散歩する` fusionné dans `散歩` après confrontation des fiches (règle des formes en する du
+    lot 03, appliquée cas par cas) ;
+-   `suru_compatible: true` seulement quand la source établit la formation du verbe avec する
+    (`散歩`, `旅行`, `帰国`) ; une construction nom + を + する ne suffit pas (`スポーツ`, `釣り`) ;
+-   `国` à un sens, le pays d'origine dans la nuance ; aucun sens repris d'un homophone
+    (`お釣り`, `引く`, `唄`).
 
-#### Lot 09 · proposition en relecture
-
-Thème : **Loisirs, sorties et voyages** (20 anciennes entrées : 19 gardées, `散歩する` fusionné
-dans `散歩` après confrontation des fiches). Essai à blanc : **356 ENTRY**, **31 identifiants
-retirés**, 0 problème, 0 erreur, 0 attente ; 332 entrées restantes après le lot.
-
-**Prochaine action immédiate :** relire et arbitrer la proposition du lot 09, la réviser si
-besoin, puis la valider avant de composer le lot suivant (5.11).
+**Prochaine action immédiate :** composer le lot 10 (5.11), faire valider son périmètre, puis
+seulement produire ses décisions en statut `proposed`.
 
 ------------------------------------------------------------------------
 
@@ -563,7 +559,8 @@ Ensuite seulement :
    │   ├── Lot 06 École (5.7)               ✅
    │   ├── Lot 07 Météo, nature (5.8)       ✅
    │   ├── Lot 08 Communication (5.9)       ✅
-   │   ├── Lot 09 Loisirs, voyages (5.10)   🟡
+   │   ├── Lot 09 Loisirs, voyages (5.10)   ✅
+   │   ├── Lot 10 (5.11)                    🔵
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

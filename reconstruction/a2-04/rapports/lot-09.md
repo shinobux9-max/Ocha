@@ -6,7 +6,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_26 → v_26 · 外国
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0571** (decision, tags) : lieu_gare (ancienne catégorie « lieux ») écarté : l'étranger n'a aucun lien avec le vocabulaire d'action propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
 
@@ -29,7 +29,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -50,7 +50,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_189 → v_189 · ギター
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0544** (abandon, senses) : Redondant. — avant `["Guitare acoustique ou électrique"]` → après `null`
 
@@ -72,7 +72,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -93,7 +93,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_190 → v_190 · スポーツ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0548** (decision, suru_compatible) : suru_compatible non retenu : la source dit qu'on « l'associe directement au verbe する » (スポーツをする, faire du sport), sans établir un verbe formé avec する. Compatibilité non établie (lecture confirmée au lot 08). À CONFIRMER. — avant `null` → après `false`
 - **A2-04-D0549** (abandon, senses) : Le premier est redondant ; le second n'est pas équivalent (運動). — avant `["Activité sportive","Exercice physique"]` → après `null`
@@ -116,7 +116,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -137,7 +137,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_192 → v_192 · 弾く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0545** (abandon, senses) : Gestes particuliers, couverts par le sens ; aucun sens n'est repris de l'homophone 引く. — avant `["Pincer","Frapper (les cordes ou touches)"]` → après `null`
 
@@ -159,7 +159,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -180,7 +180,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_193 → v_193 · 散歩
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0556** (fusion, entrée) : Confrontation des deux fiches (arbitrage du lot 09) : la source décrit 散歩する comme « formé par l'association du nom 散歩 et du verbe auxiliaire する », désignant « l'action d'effectuer une promenade » ; et la fiche de 散歩 dit elle-même « pour en faire le verbe se promener, on lui ajoute directement する ». La forme en する est une réalisation verbale transparente du nom, sans identité lexicale propre : fusion dans 散歩 (règle du lot 03, appliquée après examen, non par automatisme). 散歩 survit (plus petit numéro, sans exception). — avant `null` → après `"n5_v_193"`
 - **A2-04-D0557** (decision, suru_compatible) : suru_compatible établi par la source : la fiche de 散歩 (« on lui ajoute directement する ») et l'entrée 散歩する elle-même, fusionnée ici. — avant `null` → après `true`
@@ -204,7 +204,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `true`
@@ -225,7 +225,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_194 → v_194 · 散歩する
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0556** (fusion, entrée) : Confrontation des deux fiches (arbitrage du lot 09) : la source décrit 散歩する comme « formé par l'association du nom 散歩 et du verbe auxiliaire する », désignant « l'action d'effectuer une promenade » ; et la fiche de 散歩 dit elle-même « pour en faire le verbe se promener, on lui ajoute directement する ». La forme en する est une réalisation verbale transparente du nom, sans identité lexicale propre : fusion dans 散歩 (règle du lot 03, appliquée après examen, non par automatisme). 散歩 survit (plus petit numéro, sans exception). — avant `null` → après `"n5_v_193"`
 
@@ -257,7 +257,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_195 → v_195 · 旅行
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0566** (decision, suru_compatible) : suru_compatible documenté par la source (« pour en faire le verbe voyager, on lui ajoute directement する »). — avant `null` → après `true`
 - **A2-04-D0567** (abandon, senses) : Termes voisins, pas équivalents. — avant `["Excursion","Déplacement touristique"]` → après `null`
@@ -280,7 +280,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `true`
@@ -301,7 +301,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_196 → v_196 · 映画
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0560** (abandon, senses) : Redondant. — avant `["Œuvre cinématographique"]` → après `null`
 
@@ -323,7 +323,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -344,7 +344,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_197 → v_197 · 歌う
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0543** (abandon, senses) : Redondant. — avant `["Interpréter une chanson"]` → après `null`
 
@@ -366,7 +366,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -387,7 +387,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_198 → v_198 · 泳ぐ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0550** (abandon, senses) : Définition, pas une traduction. — avant `["Se déplacer dans l'eau"]` → après `null`
 
@@ -409,7 +409,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -430,7 +430,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_199 → v_199 · 遊ぶ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0551** (decision, senses) : Un seul sens documenté (« jouer ou sortir se divertir ») ; 遊びに行く (aller voir quelqu'un) n'est pas documenté par la source et n'est pas ajouté. — avant `["Jouer","S'amuser","Passer du bon temps","Sortir pour se divertir"]` → après `"un seul sens"`
 - **A2-04-D0552** (abandon, senses) : Le premier est redondant ; le second est repris dans la nuance. — avant `["Passer du bon temps","Sortir pour se divertir"]` → après `null`
@@ -453,7 +453,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -474,7 +474,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_200 → v_200 · 音楽
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0540** (abandon, senses) : Redondant. — avant `["Art musical"]` → après `null`
 
@@ -496,7 +496,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -517,11 +517,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_243 → v_243 · 国
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0568** (decision, senses) : Deux sens documentés par la source (« un pays, une nation ou la région natale d'une personne ») : un État, et le lieu d'origine d'une personne (国に帰る), qui peut être une région. À ARBITRER : on peut aussi n'en garder qu'un, le pays natal allant dans la nuance. — avant `["Pays","Patrie","Nation","Région d'origine"]` → après `["S1 Pays","S2 Pays natal"]`
+- **A2-04-D0568** (decision, senses) : Un seul sens (révision 5.10b) : « pays natal » n'est pas une identité lexicale distincte, mais le même concept de pays, contextualisé comme lieu d'origine du sujet (国に帰る). Repris dans la nuance. — avant `["Pays","Patrie","Nation","Région d'origine"]` → après `"un seul sens"`
 - **A2-04-D0569** (decision, tags) : lieu_hotel (ancienne catégorie de la maison) écarté : un pays n'appartient pas au vocabulaire d'action propre à l'hôtel (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
-- **A2-04-D0570** (abandon, senses) : Registre soutenu, couvert par le sens 2. — avant `["Patrie"]` → après `null`
+- **A2-04-D0570** (abandon, senses) : « Patrie » est d'un registre soutenu ; « région d'origine », emploi contextuel du même sens, est reprise dans la nuance (révision 5.10b). — avant `["Patrie","Région d'origine"]` → après `null`
 
 | Champ source | Valeur |
 |---|---|
@@ -542,19 +542,18 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
-- nuance : `null`
+- nuance : `"Désigne aussi le pays ou la région d'origine de quelqu'un : 国に帰る, rentrer au pays ; お国はどちらですか, d'où venez-vous ?"`
 - tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
 | 1 | **Pays** (Nation) | territoires_lieux_geographiques › pays_territoires › pays | lieu |  |  |
-| 2 | **Pays natal** (Région d'origine) | territoires_lieux_geographiques | lieu |  | 国に帰る : rentrer au pays. |
 
 **Contexte (anciens exemples, lecture seule)**
 
@@ -564,7 +563,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_245 → v_245 · 帰国
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0572** (decision, suru_compatible) : suru_compatible documenté par la source (« souvent combiné avec le verbe する pour signifier rentrer dans son pays d'origine »). — avant `null` → après `true`
 - **A2-04-D0573** (decision, tags) : lieu_hotel (ancienne catégorie de la maison) écarté : le retour au pays n'appartient pas au vocabulaire d'action propre à l'hôtel (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
@@ -589,7 +588,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `true`
@@ -610,7 +609,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_620 → v_620 · パーティー
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0559** (abandon, senses) : Anglicisme, redondant. — avant `["Party"]` → après `null`
 
@@ -632,7 +631,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -653,7 +652,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_621 → v_621 · プール
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0564** (decision, tags) : lieu_gare (ancienne catégorie « lieux ») écarté : une piscine n'a aucun lien avec le vocabulaire d'action propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0565** (abandon, senses) : Redondant. — avant `["Bassin de natation"]` → après `null`
@@ -677,7 +676,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -698,7 +697,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_669 → v_669 · 映画館
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0561** (correction, readings) : Furigana de la source décalés d'un kanji (えいが sur 映, かん sur 画, rien sur 館). — avant `"<ruby>映<rt>えいが</rt></ruby><ruby>画<rt>かん</rt></ruby><ruby>館<rt></rt></ruby>"` → après `"<ruby>映<rt>えい</rt></ruby><ruby>画<rt>が</rt></ruby><ruby>館<rt>かん</rt></ruby>"`
 - **A2-04-D0562** (decision, tags) : lieu_gare (ancienne catégorie « lieux ») écarté : un cinéma n'a aucun lien avec le vocabulaire d'action propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
@@ -723,7 +722,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - readings : **exception**, furigana incohérents avec la forme
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"えいがかん","romaji":"eigakan","furigana":"<ruby>映<rt>えい</rt></ruby><ruby>画<rt>が</rt></ruby><ruby>館<rt>かん</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
@@ -745,7 +744,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_676 → v_676 · 歌
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0541** (decision, senses) : Un seul sens : la nuance de la source ne décrit que la chanson, « un morceau chanté ». — avant `["Chanson","Poème traditionnel"]` → après `"un seul sens"`
 - **A2-04-D0542** (abandon, senses) : Absent de la nuance de la source, hors N5 (le poème traditionnel se dit 和歌). Aucun sens n'est repris de l'homophone 唄. — avant `["Poème traditionnel"]` → après `null`
@@ -768,7 +767,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -789,7 +788,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_689 → v_689 · 絵
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0546** (decision, senses) : Un seul concept, l'image dessinée ou peinte (« une image dessinée, une peinture ou une illustration ») : dessin et peinture en rendent la largeur. — avant `["Dessin","Peinture","Illustration","Tableau"]` → après `"un seul sens"`
 - **A2-04-D0547** (abandon, senses) : Termes voisins, couverts par le sens. — avant `["Illustration","Tableau"]` → après `null`
@@ -812,7 +811,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -833,10 +832,10 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_707 → v_707 · 釣り
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0553** (correction, senses) : « Monnaie rendue » est le sens de お釣り, un autre mot (la source le dit elle-même : « le mot homophone… otsuri ») : ce n'est pas un sens de 釣り. Non repris. — avant `"Monnaie rendue (selon le contexte)"` → après `null`
-- **A2-04-D0554** (decision, suru_compatible) : suru_compatible documenté par la source (« Nom / verbe suru »). — avant `null` → après `true`
+- **A2-04-D0554** (decision, suru_compatible) : suru_compatible non retenu (révision 5.10b) : l'étiquette « Nom / verbe suru » de la source est précisée par les constructions qu'elle documente effectivement, 釣りをする et 釣りに行く, c'est-à-dire nom + を + する, et non 釣りする. Compatibilité non établie (lecture confirmée au lot 08), même doctrine que スポーツ (D0548). — avant `null` → après `false`
 - **A2-04-D0555** (abandon, senses) : Fusionné dans le libellé. — avant `["Pêche à la ligne"]` → après `null`
 
 | Champ source | Valeur |
@@ -857,10 +856,10 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
-- suru_compatible : `true`
+- suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
 - nuance : `"釣りをする, 釣りに行く : aller à la pêche."`

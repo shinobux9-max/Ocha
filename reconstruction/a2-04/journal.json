@@ -7696,7 +7696,7 @@
   },
   {
     "id": "A2-04-D0540",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_200",
@@ -7710,7 +7710,7 @@
   },
   {
     "id": "A2-04-D0541",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_676",
@@ -7725,7 +7725,7 @@
   },
   {
     "id": "A2-04-D0542",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_676",
@@ -7739,7 +7739,7 @@
   },
   {
     "id": "A2-04-D0543",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_197",
@@ -7753,7 +7753,7 @@
   },
   {
     "id": "A2-04-D0544",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_189",
@@ -7767,7 +7767,7 @@
   },
   {
     "id": "A2-04-D0545",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_192",
@@ -7782,7 +7782,7 @@
   },
   {
     "id": "A2-04-D0546",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_689",
@@ -7799,7 +7799,7 @@
   },
   {
     "id": "A2-04-D0547",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_689",
@@ -7814,7 +7814,7 @@
   },
   {
     "id": "A2-04-D0548",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_190",
@@ -7826,7 +7826,7 @@
   },
   {
     "id": "A2-04-D0549",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_190",
@@ -7841,7 +7841,7 @@
   },
   {
     "id": "A2-04-D0550",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_198",
@@ -7855,7 +7855,7 @@
   },
   {
     "id": "A2-04-D0551",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_199",
@@ -7872,7 +7872,7 @@
   },
   {
     "id": "A2-04-D0552",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_199",
@@ -7887,7 +7887,7 @@
   },
   {
     "id": "A2-04-D0553",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_707",
@@ -7899,19 +7899,19 @@
   },
   {
     "id": "A2-04-D0554",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_707",
     "field": "suru_compatible",
     "kind": "decision",
     "before": null,
-    "after": true,
-    "reason": "suru_compatible documenté par la source (« Nom / verbe suru »)."
+    "after": false,
+    "reason": "suru_compatible non retenu (révision 5.10b) : l'étiquette « Nom / verbe suru » de la source est précisée par les constructions qu'elle documente effectivement, 釣りをする et 釣りに行く, c'est-à-dire nom + を + する, et non 釣りする. Compatibilité non établie (lecture confirmée au lot 08), même doctrine que スポーツ (D0548)."
   },
   {
     "id": "A2-04-D0555",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_707",
@@ -7925,7 +7925,7 @@
   },
   {
     "id": "A2-04-D0556",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_194",
@@ -7937,7 +7937,7 @@
   },
   {
     "id": "A2-04-D0557",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_193",
@@ -7949,7 +7949,7 @@
   },
   {
     "id": "A2-04-D0558",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_193",
@@ -7963,7 +7963,7 @@
   },
   {
     "id": "A2-04-D0559",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_620",
@@ -7977,7 +7977,7 @@
   },
   {
     "id": "A2-04-D0560",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_196",
@@ -7991,7 +7991,7 @@
   },
   {
     "id": "A2-04-D0561",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_669",
@@ -8003,7 +8003,7 @@
   },
   {
     "id": "A2-04-D0562",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_669",
@@ -8017,7 +8017,7 @@
   },
   {
     "id": "A2-04-D0563",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_669",
@@ -8031,7 +8031,7 @@
   },
   {
     "id": "A2-04-D0564",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_621",
@@ -8045,7 +8045,7 @@
   },
   {
     "id": "A2-04-D0565",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_621",
@@ -8059,7 +8059,7 @@
   },
   {
     "id": "A2-04-D0566",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_195",
@@ -8071,7 +8071,7 @@
   },
   {
     "id": "A2-04-D0567",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_195",
@@ -8086,7 +8086,7 @@
   },
   {
     "id": "A2-04-D0568",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_243",
@@ -8098,15 +8098,12 @@
       "Nation",
       "Région d'origine"
     ],
-    "after": [
-      "S1 Pays",
-      "S2 Pays natal"
-    ],
-    "reason": "Deux sens documentés par la source (« un pays, une nation ou la région natale d'une personne ») : un État, et le lieu d'origine d'une personne (国に帰る), qui peut être une région. À ARBITRER : on peut aussi n'en garder qu'un, le pays natal allant dans la nuance."
+    "after": "un seul sens",
+    "reason": "Un seul sens (révision 5.10b) : « pays natal » n'est pas une identité lexicale distincte, mais le même concept de pays, contextualisé comme lieu d'origine du sujet (国に帰る). Repris dans la nuance."
   },
   {
     "id": "A2-04-D0569",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_243",
@@ -8120,21 +8117,22 @@
   },
   {
     "id": "A2-04-D0570",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_243",
     "field": "senses",
     "kind": "abandon",
     "before": [
-      "Patrie"
+      "Patrie",
+      "Région d'origine"
     ],
     "after": null,
-    "reason": "Registre soutenu, couvert par le sens 2."
+    "reason": "« Patrie » est d'un registre soutenu ; « région d'origine », emploi contextuel du même sens, est reprise dans la nuance (révision 5.10b)."
   },
   {
     "id": "A2-04-D0571",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_26",
@@ -8148,7 +8146,7 @@
   },
   {
     "id": "A2-04-D0572",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_245",
@@ -8160,7 +8158,7 @@
   },
   {
     "id": "A2-04-D0573",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_245",
@@ -8174,7 +8172,7 @@
   },
   {
     "id": "A2-04-D0574",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-09",
     "entry": "n5_v_245",

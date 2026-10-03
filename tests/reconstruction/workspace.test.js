@@ -153,14 +153,20 @@ test('5.9 : le lot 08 est entièrement validé (29 entrées), journal compris', 
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
-// A2-04 · 5.10 : le lot 09 est livré en PROPOSITION, journal compris ; aucune de ses décisions
-// n'est validée avant la relecture. Ce test changera à la validation du lot 09.
-test('5.10 : le lot 09 est entièrement proposé (20 entrées), journal compris', () => {
+// A2-04 · 5.10 fermée : le lot 09 est entièrement validé (散歩する fusionné dans 散歩), avec tout
+// son journal. suru_compatible : true seulement quand la source établit la formation du verbe avec
+// する (散歩, 旅行, 帰国) ; une construction nom + を + する (スポーツ, 釣り) ne suffit pas.
+test('5.10 : le lot 09 est entièrement validé (20 entrées dont 1 retrait), journal compris', () => {
   const lot9 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-09.json'), 'utf8'));
   assert.equal(Object.keys(lot9.entries).length, 20);
-  assert.ok(Object.values(lot9.entries).every((e) => e.status === 'proposed'));
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  assert.ok(journal.filter((j) => j.lot === 'lot-09').every((j) => j.status === 'proposed'));
+  assert.ok(Object.values(lot9.entries).every((e) => e.status === 'validated'));
+  assert.deepEqual(Object.entries(lot9.entries).filter(([, e]) => e.retire).map(([id, e]) => [id, e.retire.merged_into]), [['n5_v_194', 'n5_v_193']]);
+  const suru = Object.entries(lot9.entries).filter(([, e]) => e.fields && e.fields.suru_compatible).map(([id]) => id);
+  assert.deepEqual(suru, ['n5_v_193', 'n5_v_195', 'n5_v_245']);
+  assert.deepEqual(lot9.additions, []);
+  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-09');
+  assert.equal(own.length, 35);
+  assert.ok(own.every((j) => j.status === 'validated'));
 });
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du
