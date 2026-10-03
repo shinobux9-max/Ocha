@@ -33,8 +33,9 @@ A2-05) et la réidentification de la grammaire (addendum A4).
 0 erreur, 0 attente. **5.6 · lot 05 « achats, vêtements et objets personnels » validé** (rapport
 `docs/rapports/etape2-tache5-6-lot05-valide.md`) : 37 entrées, dont les deux premiers mots hors
 JLPT, et 55 décisions (D0355 à D0409) en `validated` ; assemblage réel : 237 ENTRY, 30 retraits,
-0 erreur, 0 attente. Prochaine sous-tâche : 5.7, composition du lot 06 d'abord, aucune
-proposition avant validation du périmètre. Le validateur lexical n'est pas
+0 erreur, 0 attente. 5.7 · lot 06 « école, apprentissage, langue et écrit » : périmètre validé (37 entrées), **proposition**
+livrée (`reconstruction/a2-04/lots/lot-06.json`, rapport `docs/rapports/etape2-tache5-7-lot06.md`) ;
+aucune décision validée avant la relecture. Le validateur lexical n'est pas
 encore appliqué à `data/` (bascule à la publication d'A2-04).
 A2-02 est terminé (rapport final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
@@ -54,7 +55,7 @@ livraison, relecture, tests verts, commit.
 | 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (validée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait, A2-02 fermé (3.1 à 3.5 validées) |
 | 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | ✅ fait, A2-03 fermé (4.1 à 4.5 validées) |
 | 5 | A2-04 · 5.0 · Infrastructure | `reconstruction/a2-04/` (sources figées et empreintes, `place-tags.json`, `lots/`, `journal.json`) et `tools/reconstruction/` (règles et listes fermées, couche mécanique, contrôle des lots et du journal, assembleur partiel et complet, rapport de relecture, commandes) ; aucune décision lexicale | validée |
-| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.6 validées (lots 0 à 05) ; 5.7 à composer |
+| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.6 validées (lots 0 à 05) ; 5.7 proposée (lot 06) |
 | 7 | A2-04 · 5.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
 | 8 | A2-04 · 5.17 · Publication | une seule opération : vocabulaire canonique, validateur activé, `events.js` (E1 à E4) ; l'ancienne app cesse de fonctionner sur `ocha-v2` | à faire |
 | 9 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
@@ -102,7 +103,7 @@ bloque `npm test`).
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
   `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
-  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tools/reconstruction/` et `reconstruction/a2-04/` (reconstruction du vocabulaire), `tests/` (423 tests dans Node, plus la page
+  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tools/reconstruction/` et `reconstruction/a2-04/` (reconstruction du vocabulaire), `tests/` (426 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -276,6 +277,7 @@ modifier ses parties verrouillées.
 | 2026-10-03 | A2-04 · 5.6 · périmètre du lot 05 : 37 entrées (achats et argent avec les deux mots hors JLPT et 八百屋 ; vêtements sans 曇る ; accessoires et objets personnels) ; いくら : classe `pronom` (identité interrogative de prix ou de quantité), sans transformer ses constructions en sens ; aucune fusion pré-arbitrée ; les mots hors JLPT suivent exactement le même modèle et la même exigence de journalisation que le N5 ; 円, absent des sources, n'est pas introduit | `reconstruction/a2-04/lots/lot-05.json` |
 | 2026-10-03 | A2-04 · lot 05 arbitré : une proximité fonctionnelle ne fait pas une appartenance catégorielle ; faute de catégorie pertinente dans le registre, `category: null` justifié (A5) plutôt qu'une catégorie approchée (時計 n'est pas une unité temporelle, 荷物 n'est pas une utilisation des transports), le `semantic_type` restant renseigné ; 荷物 garde `lieu_hotel` (faire garder ses bagages, action propre au parcours hôtelier) ; le reste du lot validé tel que proposé | `reconstruction/a2-04/lots/lot-05.json` |
 | 2026-10-03 | A2-04 · 5.6 fermée : lot 05 et ses 55 décisions validés ; `vocab-hors-jlpt.json` reçoit ses deux premières ENTRY (`v_718` レジ袋, `v_719` ポイントカード) | `reconstruction/a2-04/` |
+| 2026-10-03 | A2-04 · 5.7 · périmètre du lot 06 : 37 entrées (école et personnes ; apprendre et savoir, avec 分かる, 知る, 忘れる ; langue et écrit ; fournitures) ; 平仮名 : forme usuelle ひらがな, 平仮名 en graphie, comme exception humaine propre à cette ENTRY. Mise en œuvre : une liste fermée `USUAL_FORM_IDS`, distincte des graphies fautives, qui ne contient que `n5_v_604` ; la règle mécanique générale n'est pas modifiée et aucune autre entrée n'est traitée ainsi | `tools/reconstruction/rules.mjs`, `tools/reconstruction/mechanical.mjs` |
 
 ---
 
@@ -344,6 +346,11 @@ modifier ses parties verrouillées.
   avant 5.17, il faudra une procédure globale.
 - **Verbes en する** : la règle de fusion du lot 03 (掃除 / 掃除する) devra être appliquée cas par
   cas aux autres formes en する du corpus (散歩する, 勉強する…), selon l'identité lexicale.
+- **Compteurs (champ `counter`)** (point transversal, à trancher globalement) : 45 entrées déjà
+  validées (lots 0 à 05) ont un compteur documenté par leur source, toutes avec `counter: null`.
+  Le registre A2-02 n'a que 6 classes de compatibilité (本, 枚, 冊, 個 / つ, 回 couverts ; 台, 軒,
+  箇所, 杯, 脚, 基, 棟 sans classe). Statu quo `null` pendant les lots ; décision et rattrapage
+  uniformes à prévoir (5.16 ou audit A2-05).
 - **Affixes** : la représentation des suffixes (〜方 « manière de… », 〜人, 〜さん…) n'est pas
   définie ; aucune ENTRY d'affixe n'est créée avant un chantier dédié.
 - **Identifiants de sens après publication** : ils sont générés dans l'ordre des sens jusqu'à la
@@ -446,3 +453,4 @@ modifier ses parties verrouillées.
 | 2026-10-03 | 2 · 5.6 | Lot 05 proposé : 37 entrées, 55 décisions de journal proposées (D0355 à D0409) ; いくら en `pronom` confirmé par la source ; premières ENTRY de `vocab-hors-jlpt.json` (`v_718`, `v_719`) ; essai à blanc : 237 ENTRY, 30 retraits, 0 problème, 0 erreur, 0 attente, aucun avertissement nouveau ; 1 nouveau test ; 423 tests | — |
 | 2026-10-03 | 2 · 5.6b | Révision du lot 05 : 時計 et 荷物 en `category: null`, D0404 et D0408 réécrites à leur place en `categorie-nulle` ; aucune autre décision modifiée ; essai à blanc : 237 ENTRY, 30 retraits, 0 erreur, 0 attente, 2 `categorie-nulle` de plus ; refus vérifié sans justification ; 423 tests | — |
 | 2026-10-03 | 2 · 5.6 | Validation du lot 05 : 37 entrées et 55 décisions passées en `validated` sans autre changement ; journal entier validé (409 décisions) ; assemblage réel : 237 ENTRY, 30 retraits, 0 problème, 0 erreur, 0 attente, 452 entrées encore à décider ; 16 `categorie-nulle`, dont 時計 et 荷物 couverts par D0404 et D0408 ; test d'état adapté ; 3 sabotages attrapés ; `ROADMAP.md` mis à jour (5.6 ✅, 5.7 prochain chantier) ; 423 tests | — |
+| 2026-10-03 | 2 · 5.7 | Lot 06 proposé : 37 entrées, 46 décisions de journal proposées (D0410 à D0455) ; liste fermée `USUAL_FORM_IDS` (平仮名 → ひらがな), 2 tests et 2 sabotages ; essai à blanc : 274 ENTRY, 30 retraits, 0 problème, 0 erreur, 0 attente, 1 `categorie-nulle` de plus ; compteurs consignés comme point transversal ; 426 tests | — |

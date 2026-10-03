@@ -8,7 +8,7 @@
 import { parseFurigana } from '../lexicon/index.mjs';
 import { KANA_READING } from '../lexicon/schema.mjs';
 import {
-  HJ_IDS, TYPE_CLASS, NUMERAL_IDS, CLASS_EXCEPTION_IDS, WORD_EXCEPTION_IDS, CLASS_GROUPS, IDENTITY_GROUPS
+  HJ_IDS, TYPE_CLASS, NUMERAL_IDS, CLASS_EXCEPTION_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS, CLASS_GROUPS, IDENTITY_GROUPS
 } from './rules.mjs';
 
 /** Nouvel identifiant d'une entrée source (addendum A3) : n5_v_<n> → v_<n>, hors JLPT par table. */
@@ -55,6 +55,7 @@ export function prefill(source, { level, lieux, placeTags }) {
   // Forme usuelle
   if (String(source.word).includes('/')) exceptions.word = 'forme contenant « / »';
   else if (Object.hasOwn(WORD_EXCEPTION_IDS, source.id)) exceptions.word = 'graphie fautive connue';
+  else if (Object.hasOwn(USUAL_FORM_IDS, source.id)) exceptions.word = 'forme usuelle décidée (liste fermée)';
   else values.word = source.word;
 
   // Lectures : une seule lecture, kana valides, furigana cohérents ; sinon exception.

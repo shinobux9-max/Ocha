@@ -1,0 +1,1430 @@
+{
+  "lot": "lot-06",
+  "title": "École, apprentissage, langue et écrit",
+  "entries": {
+    "n5_v_22": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0416",
+        "A2-04-D0417"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Titre de respect : on ne l'emploie jamais pour soi-même.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Professeur",
+              "alternatives": [
+                "Enseignant"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "acteurs_de_l_education"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Maître",
+              "alternatives": [
+                "Docteur"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "interactions_sociales"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Titre de respect pour un médecin, un auteur, un maître dans un art, ou pour s'adresser à eux ; après un nom : 田中先生."
+          }
+        ]
+      }
+    },
+    "n5_v_32": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0418"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le plus souvent un étudiant du secondaire ou de l'université ; l'élève du primaire ou du secondaire se dit plutôt 生徒.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Étudiant",
+              "alternatives": [
+                "Élève"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "acteurs_de_l_education"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_38": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0419"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Surtout au primaire et au secondaire ; à l'université, 学生.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Élève",
+              "alternatives": [
+                "Écolier"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "acteurs_de_l_education"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_40": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0420"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Celui qui étudie à l'étranger, ou l'étudiant international venu étudier au Japon.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Étudiant étranger",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "acteurs_de_l_education"
+            },
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_41": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0428"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Apprendre auprès d'un professeur ; l'étude en général se dit 勉強する, la mémorisation 覚える.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Apprendre (auprès de quelqu'un)",
+              "alternatives": [
+                "Prendre des leçons"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "apprentissage",
+              "level_3": "etudier"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_123": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0413",
+        "A2-04-D0414"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le groupe d'élèves ou de participants à un cours ; la salle se dit 教室.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Classe",
+              "alternatives": [
+                "Groupe d'élèves"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "vie_scolaire_universitaire",
+              "level_3": "classe"
+            },
+            "semantic_type": "groupe_collectif",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_124": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Synonyme courant de 試験.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Examen",
+              "alternatives": [
+                "Test",
+                "Interrogation"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "evaluation_scolaire",
+              "level_3": "examens"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_125": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0452"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cahier",
+              "alternatives": [
+                "Carnet"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture",
+              "level_3": "ecrire"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_126": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0411"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Université",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "etablissements_educatifs",
+              "level_3": "universite"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_127": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0410"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'école au sens général : primaire, collège, lycée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "École",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "etablissements_educatifs",
+              "level_3": "ecole"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_129": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour les jeunes enfants, avant l'école primaire.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "École maternelle",
+              "alternatives": [
+                "Jardin d'enfants"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "etablissements_educatifs",
+              "level_3": "ecole"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_131": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0415"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le cours donné par un enseignant : 授業に出る, assister au cours.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cours",
+              "alternatives": [
+                "Leçon"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "enseignement",
+              "level_3": "cours"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_132": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0429",
+        "A2-04-D0430"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Enseigner",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "enseignement",
+              "level_3": "enseigner"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "に",
+              "を"
+            ]
+          },
+          {
+            "meaning": {
+              "primary": "Indiquer",
+              "alternatives": [
+                "Informer"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "transmission"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "に",
+              "を"
+            ],
+            "nuance": "道を教える : indiquer le chemin."
+          }
+        ]
+      }
+    },
+    "n5_v_133": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0412"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La salle physique où ont lieu les cours ; le groupe d'élèves se dit クラス.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Salle de classe",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "vie_scolaire_universitaire",
+              "level_3": "classe"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_134": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0448",
+        "A2-04-D0449"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Se compte avec 冊. Ne pas confondre avec le compteur 〜本 des objets longs.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Livre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "lecture"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_135": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "À l'affirmatif, toujours 知っている ; au négatif, 知らない (et non 知っていない).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Savoir",
+              "alternatives": [
+                "Connaître"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "pensee"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_136": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0438"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "〜語 forme le nom des langues : フランス語, 日本語.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Anglais (langue)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "langues",
+              "level_3": "langues"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_137": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0431"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'action d'enregistrer en mémoire ; l'état « se souvenir » se dit 覚えている.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mémoriser",
+              "alternatives": [
+                "Retenir"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "apprentissage",
+              "level_3": "memoriser_en_contexte_d_apprentissage"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_138": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0436",
+        "A2-04-D0437"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mot",
+              "alternatives": [
+                "Terme",
+                "Paroles"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "expression"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "先生の言葉 : les paroles du professeur."
+          },
+          {
+            "meaning": {
+              "primary": "Langue",
+              "alternatives": [
+                "Langage"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "langues",
+              "level_3": "langues"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "日本の言葉 : la langue du Japon."
+          }
+        ]
+      }
+    },
+    "n5_v_139": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0447"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "辞書を引く : chercher dans le dictionnaire.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dictionnaire",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "langues"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_140": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le crayon à papier ; le stylo se dit ペン.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Crayon",
+              "alternatives": [
+                "Crayon à papier"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture",
+              "level_3": "ecrire"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_170": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0442"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Caractère",
+              "alternatives": [
+                "Lettre"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture",
+              "level_3": "systemes_d_ecriture"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Écriture (d'une personne)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture",
+              "level_3": "ecrire"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "字が上手だ : avoir une belle écriture."
+          }
+        ]
+      }
+    },
+    "n5_v_216": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0425"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le travail donné aux élèves pour la maison.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Devoirs",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "vie_scolaire_universitaire",
+              "level_3": "devoirs"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_513": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0444",
+        "A2-04-D0445",
+        "A2-04-D0446"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sens",
+              "alternatives": [
+                "Signification"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "comprehension_linguistique"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "この言葉の意味 : le sens de ce mot."
+          },
+          {
+            "meaning": {
+              "primary": "Intérêt",
+              "alternatives": [
+                "Utilité"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "意味がない : ça ne sert à rien, ça n'a pas de sens."
+          }
+        ]
+      }
+    },
+    "n5_v_538": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0432",
+        "A2-04-D0433"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec が pour ce qui est compris : 日本語が分かる, comprendre le japonais.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Comprendre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "pensee"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_553": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0434",
+        "A2-04-D0435"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un fait comme un objet : 名前を忘れる, oublier un nom ; 傘を忘れる, oublier son parapluie.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Oublier",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "memoire"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_556": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0450"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Écrire des lettres, des caractères, un texte. Dessiner se dit 描く, même lecture.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Écrire",
+              "alternatives": [
+                "Rédiger"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture",
+              "level_3": "ecrire"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_570": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0423",
+        "A2-04-D0424"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "練習する : s'entraîner, s'exercer (sport, musique, langue).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Entraînement",
+              "alternatives": [
+                "Exercice",
+                "Pratique"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "apprentissage",
+              "level_3": "exercices"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_574": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0451"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lire",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "lecture",
+              "level_3": "lire"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_604": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0440",
+        "A2-04-D0441"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "平仮名",
+            "furigana": "<ruby>平<rt>ひら</rt></ruby><ruby>仮<rt>が</rt></ruby><ruby>名<rt>な</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'un des deux syllabaires japonais, aux tracés arrondis : grammaire, terminaisons, mots sans kanji.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Hiragana",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture",
+              "level_3": "systemes_d_ecriture"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "word": "ひらがな",
+        "readings": [
+          {
+            "kana": "ひらがな",
+            "romaji": "hiragana",
+            "furigana": "ひらがな",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_622": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0453"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Stylo à bille ou à encre, par opposition au crayon (鉛筆).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Stylo",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture",
+              "level_3": "ecrire"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_625": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0454"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Stylo à bille",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture",
+              "level_3": "ecrire"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_629": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0455"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Stylo-plume",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture",
+              "level_3": "ecrire"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_636": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0426",
+        "A2-04-D0427"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le devoir de rédaction d'un élève.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Rédaction",
+              "alternatives": [
+                "Composition écrite"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "apprentissage",
+              "level_3": "exercices"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_647": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0421",
+        "A2-04-D0422"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "勉強する : étudier ; l'étude en général, plutôt que l'apprentissage auprès d'un maître (習う).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Étude",
+              "alternatives": [
+                "Apprentissage"
+              ]
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "apprentissage",
+              "level_3": "etudier"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_666": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0443"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un texte rédigé, un passage suivi ; une phrase seule se dit 文.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Texte",
+              "alternatives": [
+                "Passage"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "lecture",
+              "level_3": "texte"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_682": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0439"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Les caractères d'origine chinoise de l'écriture japonaise.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Kanji",
+              "alternatives": [
+                "Caractère chinois"
+              ]
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture",
+              "level_3": "systemes_d_ecriture"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

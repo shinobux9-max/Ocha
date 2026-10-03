@@ -65,3 +65,12 @@ test('tags de lieu : candidats seulement, par la correspondance explicite', () =
   const s = { ...source('n5_v_188'), places: ['ecole'] };
   assert.throws(() => prefill(s, { level: 'N5', lieux: [], placeTags: SOURCES.placeTags }), /ecole/);
 });
+
+test('forme usuelle décidée : la forme et les lectures de 平仮名 deviennent des champs à décider', () => {
+  const pre = PREFILLS.get('n5_v_604');
+  assert.ok(pre.exceptions.word, 'forme en exception');
+  assert.ok(pre.exceptions.readings, 'lectures en exception (elles dépendent de la forme)');
+  assert.ok(!Object.hasOwn(pre.values, 'word'));
+  // Les autres entrées ne sont pas touchées : la règle mécanique générale reste.
+  assert.equal(PREFILLS.get('n5_v_682').values.word, '漢字');
+});

@@ -5789,5 +5789,683 @@
     ],
     "after": null,
     "reason": "Sens figuré, hors N5."
+  },
+  {
+    "id": "A2-04-D0410",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_127",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Établissement scolaire"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0411",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_126",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Enseignement supérieur"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : désigne le niveau d'études, pas l'établissement."
+  },
+  {
+    "id": "A2-04-D0412",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_133",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Classe (salle physique)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0413",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_123",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Classe",
+      "Salle de classe",
+      "Groupe d'élèves"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la source décrit « une classe d'élèves ou un groupe de cours », pas une salle."
+  },
+  {
+    "id": "A2-04-D0414",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_123",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Salle de classe"
+    ],
+    "after": null,
+    "reason": "Non documenté par la nuance de la source ; la salle se dit 教室."
+  },
+  {
+    "id": "A2-04-D0415",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_131",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Classe (pédagogique)"
+    ],
+    "after": null,
+    "reason": "Pas équivalent ; le groupe se dit クラス."
+  },
+  {
+    "id": "A2-04-D0416",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_22",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Professeur",
+      "Enseignant",
+      "Maître",
+      "Médecin",
+      "Auteur / Professionnel qualifié"
+    ],
+    "after": [
+      "S1 Professeur",
+      "S2 Titre de respect (médecin, auteur, maître)"
+    ],
+    "reason": "Deux sens documentés par la source : l'enseignant, et le titre ou l'appellation de respect pour d'autres professions (médecin, auteur, maître dans un art). Même modèle que les termes d'adresse du lot 01."
+  },
+  {
+    "id": "A2-04-D0417",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_22",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Médecin",
+      "Auteur / Professionnel qualifié"
+    ],
+    "after": null,
+    "reason": "Le médecin se dit 医者 : 先生 n'en est que le titre de respect, repris dans le sens 2."
+  },
+  {
+    "id": "A2-04-D0418",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_32",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Écolier (au sens large)"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0419",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_38",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Collégien",
+      "Lycéen"
+    ],
+    "after": null,
+    "reason": "Cas particuliers, couverts par « élève »."
+  },
+  {
+    "id": "A2-04-D0420",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_40",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Étudiant en échange international"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : 留学生 ne suppose pas un échange."
+  },
+  {
+    "id": "A2-04-D0421",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_647",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": true,
+    "reason": "suru_compatible documenté par la source (« Nom / verbe suru », 勉強する)."
+  },
+  {
+    "id": "A2-04-D0422",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_647",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Devoirs"
+    ],
+    "after": null,
+    "reason": "Se dit 宿題."
+  },
+  {
+    "id": "A2-04-D0423",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_570",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": true,
+    "reason": "suru_compatible documenté par la source (« Nom (et verbe suru) »)."
+  },
+  {
+    "id": "A2-04-D0424",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_570",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "S'entraîner"
+    ],
+    "after": null,
+    "reason": "Traduction de 練習する, reprise dans la nuance."
+  },
+  {
+    "id": "A2-04-D0425",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_216",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Travail scolaire à la maison"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0426",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_636",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": false,
+    "reason": "suru_compatible non retenu : la source décrit 作文 comme « Nom » seulement ; aucun emploi en する n'est documenté."
+  },
+  {
+    "id": "A2-04-D0427",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_636",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Dissertation (niveau scolaire)"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0428",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_41",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Étudier (auprès de quelqu'un)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0429",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_132",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Enseigner",
+      "Apprendre (quelque chose à quelqu'un)",
+      "Indiquer",
+      "Informer"
+    ],
+    "after": [
+      "S1 Enseigner",
+      "S2 Indiquer"
+    ],
+    "reason": "Deux sens documentés par la source : « transmettre un savoir, enseigner une matière, ou indiquer une information ou un chemin ». Transmettre un savoir et donner une information ponctuelle sont deux actions distinctes."
+  },
+  {
+    "id": "A2-04-D0430",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_132",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Apprendre (quelque chose à quelqu'un)"
+    ],
+    "after": null,
+    "reason": "Équivalent de « enseigner » dans un emploi transitif du français : redondant."
+  },
+  {
+    "id": "A2-04-D0431",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_137",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Apprendre par cœur"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0432",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_538",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Comprendre",
+      "Savoir",
+      "Connaître",
+      "Être clair"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens, comprendre ; « savoir » et « connaître » relèvent de 知る."
+  },
+  {
+    "id": "A2-04-D0433",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_538",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Savoir",
+      "Connaître",
+      "Être clair"
+    ],
+    "after": null,
+    "reason": "Les deux premiers relèvent de 知る ; le troisième est un emploi de comprendre."
+  },
+  {
+    "id": "A2-04-D0434",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_553",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Oublier",
+      "Laisser derrière soi",
+      "Effacer de sa mémoire"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : oublier une information ou un objet (« omettre d'emporter ») est le même concept, en japonais comme en français."
+  },
+  {
+    "id": "A2-04-D0435",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_553",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Laisser derrière soi",
+      "Effacer de sa mémoire"
+    ],
+    "after": null,
+    "reason": "Le premier est repris dans la nuance ; le second est redondant."
+  },
+  {
+    "id": "A2-04-D0436",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_138",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Mot",
+      "Langue",
+      "Parole",
+      "Vocabulaire",
+      "Terme"
+    ],
+    "after": [
+      "S1 Mot (paroles)",
+      "S2 Langue"
+    ],
+    "reason": "Deux sens documentés par la source (« un mot, une expression, la parole ou le langage en général ») : une unité ou ce qui est dit, et un système de langue."
+  },
+  {
+    "id": "A2-04-D0437",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_138",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Vocabulaire"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : l'ensemble des mots se dit 語彙."
+  },
+  {
+    "id": "A2-04-D0438",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_136",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Langue anglaise"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0439",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_682",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Caractères chinois utilisés en japonais"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0440",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_604",
+    "field": "word",
+    "kind": "decision",
+    "before": "平仮名",
+    "after": "ひらがな",
+    "reason": "Forme usuelle ひらがな (arbitrage du lot 06) : 平仮名 devient une autre graphie. Exception humaine propre à cette ENTRY (liste fermée USUAL_FORM_IDS) ; la règle mécanique générale n'est pas modifiée, et aucune autre entrée n'est traitée ainsi."
+  },
+  {
+    "id": "A2-04-D0441",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_604",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Syllabaire japonais cursif"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0442",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_170",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Caractère (écrit)",
+      "Lettre",
+      "Écriture"
+    ],
+    "after": [
+      "S1 Caractère",
+      "S2 Écriture (d'une personne)"
+    ],
+    "reason": "Deux sens documentés par la source : un caractère écrit, et « le style d'écriture ou la calligraphie d'une personne » (字が上手). Un signe d'une part, une manière d'écrire d'autre part."
+  },
+  {
+    "id": "A2-04-D0443",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_666",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Phrase",
+      "Composition écrite",
+      "Prose"
+    ],
+    "after": null,
+    "reason": "« Phrase » se dit 文, « composition écrite » 作文 ; « prose » n'est pas équivalent."
+  },
+  {
+    "id": "A2-04-D0444",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_513",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Signification",
+      "Sens",
+      "Importance",
+      "Portée"
+    ],
+    "after": [
+      "S1 Sens (d'un mot)",
+      "S2 Intérêt (utilité)"
+    ],
+    "reason": "Deux sens documentés par la source : « le sens d'un mot, d'une phrase, d'un symbole, ou l'intention / l'utilité derrière une action » (意味がない)."
+  },
+  {
+    "id": "A2-04-D0445",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_513",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Utilité ou raison d'être d'une action : « propriété générale », sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D0446",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_513",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Importance",
+      "Portée"
+    ],
+    "after": null,
+    "reason": "Termes voisins du sens 2, pas équivalents."
+  },
+  {
+    "id": "A2-04-D0447",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_139",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Lexique"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0448",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_134",
+    "field": "senses",
+    "kind": "decision",
+    "before": "Livre ; emploi comme compteur des objets longs (nuance de la source)",
+    "after": "un seul sens : livre",
+    "reason": "L'emploi de 本 comme compteur (〜本, objets longs), documenté par la source, n'est pas un sens de cette ENTRY : il relève du registre des compteurs."
+  },
+  {
+    "id": "A2-04-D0449",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_134",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Ouvrage"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0450",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_556",
+    "field": "senses",
+    "kind": "correction",
+    "before": "Tracer (des caractères, un dessin)",
+    "after": null,
+    "reason": "« Tracer un dessin » est le sens de 描く, même lecture (かく) mais autre graphie et autre sens : ce n'est pas un sens de 書く (comme 飛ぶ / 跳ぶ au lot 04). Non repris."
+  },
+  {
+    "id": "A2-04-D0451",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_574",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Déchiffrer un texte"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0452",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_125",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bloc-notes"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0453",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_622",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Plume",
+      "Bic"
+    ],
+    "after": null,
+    "reason": "« Plume » relève de 万年筆 ; « Bic » est une marque."
+  },
+  {
+    "id": "A2-04-D0454",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_625",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bic",
+      "Stylo bille"
+    ],
+    "after": null,
+    "reason": "Le premier est une marque ; le second est redondant."
+  },
+  {
+    "id": "A2-04-D0455",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-06",
+    "entry": "n5_v_629",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Stylo à plume"
+    ],
+    "after": null,
+    "reason": "Redondant."
   }
 ]

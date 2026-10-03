@@ -41,10 +41,11 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.7, composition du lot 06.**
+**A2-04 · reconstruction du vocabulaire N5 → 5.7, lot 06 « École, apprentissage, langue et
+écrit ».**
 
-Les lots 0 à 05 sont terminés et validés. Le prochain chantier est la composition du lot 06 : son
-périmètre doit être validé avant toute proposition lexicale.
+Les lots 0 à 05 sont terminés et validés. Le périmètre du lot 06 est validé (37 entrées) ; sa
+proposition est livrée (statut `proposed`) et en relecture.
 
 ------------------------------------------------------------------------
 
@@ -248,7 +249,7 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.4 · lot 03** | Maison, habitat et vie domestique | ✅ Terminé |
 | **5.5 · lot 04** | Ville, transports et déplacements | ✅ Terminé |
 | **5.6 · lot 05** | Achats, vêtements et objets personnels | ✅ Terminé |
-| **5.7 · lot 06** | À composer | 🔵 **Prochain chantier** |
+| **5.7 · lot 06** | École, apprentissage, langue et écrit | 🟡 **Proposition livrée ; en relecture** |
 | **5.8 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
@@ -281,8 +282,15 @@ Arbitrages appliqués :
 -   `lieu_konbini` seulement pour `レジ袋` et `ポイントカード` ; `lieu_hotel` pour `荷物`, pas
     pour `スリッパ`.
 
-**Prochaine action immédiate :** composer le lot 06 (5.7), faire valider son périmètre, puis
-seulement produire ses décisions en statut `proposed`.
+#### Lot 06 · proposition en relecture
+
+Thème : **École, apprentissage, langue et écrit** (37 anciennes entrées, aucune fusion). `平仮名`
+prend la forme usuelle `ひらがな`, par une exception humaine propre à cette entrée (liste fermée
+`USUAL_FORM_IDS`). Essai à blanc : **274 ENTRY**, **30 identifiants retirés**, 0 problème,
+0 erreur, 0 attente.
+
+**Prochaine action immédiate :** relire et arbitrer la proposition du lot 06, la réviser si
+besoin, puis la valider avant de composer le lot suivant (5.8).
 
 ------------------------------------------------------------------------
 
@@ -550,7 +558,7 @@ Ensuite seulement :
    │   ├── Lot 03 Maison                    ✅
    │   ├── Lot 04 Ville (5.5)               ✅
    │   ├── Lot 05 Achats (5.6)              ✅
-   │   ├── Lot 06 (5.7)                     🔵
+   │   ├── Lot 06 École (5.7)               🟡
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜
@@ -619,6 +627,9 @@ points suivants :
 -   ordre fin entre certaines tâches du graphe, de la grammaire et du
     registre de phrases lorsque leurs dépendances seront précisées ;
 -   placement de la tâche de données sur les anomalies kanji (dictionnaire, `醤`) ;
+-   compteurs (`counter`) : 45 entrées validées ont un compteur documenté par la source mais
+    `counter: null` ; le registre ne couvre qu'une partie des compteurs ; décision et rattrapage
+    uniformes à prévoir ;
 -   migration future du N4, qui devra reprendre la méthode de
     reconstruction adaptée au format v2 avant son intégration au moteur
     guidé.

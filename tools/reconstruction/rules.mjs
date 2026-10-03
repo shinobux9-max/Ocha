@@ -59,6 +59,12 @@ export const CLASS_EXCEPTION_IDS = Object.freeze({
 // Graphie fautive connue ; toute forme contenant « / » est aussi une exception.
 export const WORD_EXCEPTION_IDS = Object.freeze({ n5_v_668: '明い' });
 
+// Forme usuelle décidée par un humain, entrée par entrée (liste fermée). La forme mécanique est
+// correcte mais n'est pas la forme usuelle ; ce n'est PAS une règle générale (« la graphie kana
+// courante l'emporte ») : chaque entrée y est ajoutée par un arbitrage explicite, journalisé.
+// Arbitrage du lot 06 : 平仮名 → ひらがな (平仮名 devient une autre graphie).
+export const USUAL_FORM_IDS = Object.freeze({ n5_v_604: '平仮名' });
+
 // ── Groupe morphologique ────────────────────────────────────────────────────
 
 // Valeurs de `group` compatibles avec chaque classe (schema-A2-01.md, §6). Une classe sans
