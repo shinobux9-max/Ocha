@@ -6,7 +6,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_52 → v_52 · 手紙
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0523** (abandon, senses) : Redondant. — avant `["Courrier postal"]` → après `null`
 
@@ -28,7 +28,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -49,7 +49,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_164 → v_164 · かける
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0520** (decision, senses) : Trois sens, et seulement ceux que la source documente : téléphoner, mettre des lunettes, accrocher. Aucun autre emploi de かける n'est ajouté. Aucune graphie en kanji : la source dit qu'il s'écrit en hiragana à ce niveau. — avant `["Téléphoner","Passer un appel","Mettre (des lunettes)","Accrocher"]` → après `["S1 Passer (un appel)","S2 Mettre (des lunettes)","S3 Accrocher"]`
 - **A2-04-D0521** (categorie-nulle, sens 3 · category) : Accrocher, suspendre un objet : action générale, sans domaine thématique propre. Addendum A5.
@@ -72,7 +72,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -95,7 +95,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_165 → v_165 · カメラ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -115,7 +115,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -136,7 +136,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_166 → v_166 · ニュース
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0529** (abandon, senses) : Repris dans la nuance. — avant `["Journal télévisé","Nouvelles (TV/Radio)"]` → après `null`
 
@@ -158,7 +158,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -179,7 +179,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_167 → v_167 · フィルム
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0539** (abandon, senses) : Pas équivalent : l'œuvre se dit 映画, comme le précise la nuance de la source. — avant `["Film"]` → après `null`
 
@@ -201,7 +201,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -222,7 +222,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_168 → v_168 · 写真
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0538** (abandon, senses) : Terme voisin. — avant `["Cliché"]` → après `null`
 
@@ -244,7 +244,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -265,7 +265,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_169 → v_169 · 呼ぶ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0513** (decision, senses) : Deux sens documentés par la source (« appeler quelqu'un à voix haute, l'inviter… ou de le nommer ») : faire venir quelqu'un (l'appeler, l'inviter), et donner un nom (〜と呼ぶ). Inviter reste dans le sens 1 : c'est faire venir à un événement. — avant `["Appeler","Inviter","Crier pour faire venir"]` → après `["S1 Appeler (faire venir, inviter)","S2 Nommer"]`
 - **A2-04-D0514** (abandon, senses) : Repris par le sens 1. — avant `["Crier pour faire venir"]` → après `null`
@@ -288,7 +288,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -310,7 +310,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_171 → v_171 · 撮る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 | Champ source | Valeur |
 |---|---|
@@ -330,7 +330,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -351,7 +351,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_172 → v_172 · 新聞
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0527** (abandon, senses) : Redondant. — avant `["Journal d'actualités"]` → après `null`
 
@@ -373,7 +373,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -394,7 +394,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_173 → v_173 · 番号
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0522** (abandon, senses) : « Chiffre » se dit 数字 ; le second est repris dans la nuance. — avant `["Chiffre","Numéro d'identification ou de téléphone"]` → après `null`
 
@@ -416,7 +416,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -437,7 +437,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_174 → v_174 · 答える
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0510** (abandon, senses) : Redondant. — avant `["Donner une réponse (à une question)"]` → après `null`
 
@@ -459,7 +459,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -480,7 +480,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_175 → v_175 · 聞く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0509** (decision, senses) : Deux sens documentés par la source (« signifie à la fois écouter et demander ») : percevoir un son, et poser une question à quelqu'un (に), deux actions distinctes. — avant `["Écouter","Entendre","Demander (une question ou une information)"]` → après `["S1 Écouter","S2 Demander"]`
 
@@ -502,7 +502,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -524,7 +524,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_176 → v_176 · 言う
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0504** (abandon, senses) : « Nommer » (〜と言う) est un emploi repris dans la nuance ; les deux autres ne sont pas équivalents. — avant `["Exprimer","Nommer","Prononcer"]` → après `null`
 
@@ -546,7 +546,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -567,7 +567,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_177 → v_177 · 話す
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0505** (abandon, senses) : Le premier est redondant ; « raconter » n'est pas équivalent (une histoire se dit 話, nom). — avant `["S'entretenir","Raconter"]` → après `null`
 
@@ -589,7 +589,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -610,7 +610,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_178 → v_178 · 電話
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0518** (decision, senses) : Deux sens documentés par la source (« désignant l'appareil ou la communication ») : un objet, et un événement de communication, deux types distincts. — avant `["Téléphone","Appel téléphonique"]` → après `["S1 Téléphone (appareil)","S2 Appel téléphonique"]`
 - **A2-04-D0519** (decision, suru_compatible) : suru_compatible non retenu : la source ne documente aucun emploi en する, seulement l'appareil et la communication (même doctrine que 作文, lot 06). L'appel se dit ici 電話をかける. — avant `null` → après `false`
@@ -633,7 +633,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -655,7 +655,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_203 → v_203 · テレビ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0530** (decision, senses) : Un seul sens : la nuance de la source ne distingue pas le média de l'appareil (contrairement à 電話) ; « téléviseur » en rend la largeur. — avant `["Télévision","Téléviseur","Écran de télévision"]` → après `"un seul sens"`
 - **A2-04-D0531** (abandon, senses) : Pas équivalent. — avant `["Écran de télévision"]` → après `null`
@@ -678,7 +678,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -699,7 +699,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_204 → v_204 · テープ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0534** (decision, senses) : Deux sens documentés par la source : deux objets distincts, dans deux domaines distincts (un ruban qui colle, un support d'enregistrement). — avant `["Ruban adhésif","Scotch","Bande magnétique"]` → après `["S1 Ruban adhésif","S2 Bande magnétique"]`
 
@@ -721,7 +721,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -743,7 +743,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_205 → v_205 · ラジオ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0532** (abandon, senses) : Terme technique. — avant `["Radiodiffusion"]` → après `null`
 
@@ -765,7 +765,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -786,7 +786,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_206 → v_206 · ラジカセ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0533** (abandon, senses) : Redondant. — avant `["Lecteur enregistreur cassette radio"]` → après `null`
 
@@ -808,7 +808,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -829,7 +829,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_616 → v_616 · テープレコーダー
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0535** (abandon, senses) : Redondant. — avant `["Enregistreur à bande magnétique"]` → après `null`
 
@@ -851,7 +851,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -872,7 +872,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_626 → v_626 · レコード
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0536** (decision, senses) : Un seul sens, le disque. Le « record sportif », cité par la nuance de la source, est un autre emploi de l'emprunt, hors N5. — avant `["Disque vinyle","Disque phonographique","Enregistrement"]` → après `"un seul sens"`
 - **A2-04-D0537** (abandon, senses) : Le premier est redondant ; le second n'est pas équivalent. — avant `["Disque phonographique","Enregistrement"]` → après `null`
@@ -895,7 +895,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -916,7 +916,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_643 → v_643 · 切手
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0526** (abandon, senses) : Redondant. — avant `["Timbre postal"]` → après `null`
 
@@ -938,7 +938,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -959,7 +959,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_651 → v_651 · 名前
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0515** (decision, category) : Le registre n'a pas de catégorie des noms et désignations : 名前 est rangé au niveau 1 seul (communication et langage), sans sous-catégorie forcée. — avant `null` → après `"communication_langage"`
 - **A2-04-D0516** (abandon, senses) : Terme voisin, pas équivalent. — avant `["Appellation"]` → après `null`
@@ -982,7 +982,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1003,7 +1003,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_661 → v_661 · 封筒
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0525** (abandon, senses) : Redondant. — avant `["Enveloppe pour lettre"]` → après `null`
 
@@ -1025,7 +1025,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1046,7 +1046,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_695 → v_695 · 葉書
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0524** (abandon, senses) : Redondant. — avant `["Carte de correspondance"]` → après `null`
 
@@ -1068,7 +1068,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1089,7 +1089,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_697 → v_697 · 見せる
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0517** (abandon, senses) : Pas équivalent. — avant `["Exhiber"]` → après `null`
 
@@ -1111,7 +1111,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1132,7 +1132,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_699 → v_699 · 話
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0506** (decision, senses) : Deux sens documentés par la source (« une discussion, une conversation entre plusieurs personnes ou une histoire racontée ») : un échange, et un contenu raconté. — avant `["Discussion","Conversation","Histoire","Parole","Récit"]` → après `["S1 Conversation","S2 Histoire (récit)"]`
 - **A2-04-D0507** (decision, suru_compatible) : suru_compatible non retenu : la source décrit 話 comme un nom dérivé du verbe 話す, sans emploi en する documenté (même doctrine que 作文, lot 06). — avant `null` → après `false`
@@ -1156,7 +1156,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1178,7 +1178,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_702 → v_702 · 質問
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0511** (decision, suru_compatible) : suru_compatible documenté par la source (« Nom / verbe suru », 質問する). — avant `null` → après `true`
 - **A2-04-D0512** (abandon, senses) : Pas équivalent (une interrogation scolaire se dit テスト). — avant `["Interrogation"]` → après `null`
@@ -1201,7 +1201,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `true`
@@ -1222,7 +1222,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_712 → v_712 · 雑誌
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0528** (abandon, senses) : Terme technique. — avant `["Périodique"]` → après `null`
 
@@ -1244,7 +1244,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`

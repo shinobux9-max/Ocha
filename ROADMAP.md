@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-03 (clôture du lot 07)
+**Dernière mise à jour :** 2026-10-03 (clôture du lot 08)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,11 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.9, lot 08 « Communication, correspondance et
-médias ».**
+**A2-04 · reconstruction du vocabulaire N5 → 5.10, composition du lot 09.**
 
-Les lots 0 à 07 sont terminés et validés. Le périmètre du lot 08 est validé (29 entrées) ; sa
-proposition est livrée (statut `proposed`) et en relecture.
+Les lots 0 à 08 sont terminés et validés. Le prochain chantier est la composition du lot 09 : son
+périmètre doit être validé avant toute proposition lexicale.
 
 ------------------------------------------------------------------------
 
@@ -251,8 +250,9 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.6 · lot 05** | Achats, vêtements et objets personnels | ✅ Terminé |
 | **5.7 · lot 06** | École, apprentissage, langue et écrit | ✅ Terminé |
 | **5.8 · lot 07** | Météo, saisons et nature | ✅ Terminé |
-| **5.9 · lot 08** | Communication, correspondance et médias | 🟡 **Proposition livrée ; en relecture** |
-| **5.10 → 5.15** | Lots thématiques suivants | ⬜ À faire |
+| **5.9 · lot 08** | Communication, correspondance et médias | ✅ Terminé |
+| **5.10 · lot 09** | À composer | 🔵 **Prochain chantier** |
+| **5.11 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -265,34 +265,28 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 07
+#### État chiffré après le lot 08
 
--   **308 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **337 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **30 identifiants retirés** ;
--   **381 anciennes entrées encore à décider** ;
--   **503 décisions humaines validées** au journal ;
--   **1 compteur** (`匹`, `counter_for: small_animals`), seul `counter` du corpus ;
+-   **352 anciennes entrées encore à décider** ;
+-   **539 décisions humaines validées** au journal ;
+-   **1 compteur** (`匹`), seul `counter` du corpus ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
-#### Lot 07 · clos
-
-Thème : **Météo, saisons et nature** (34 anciennes entrées, aucune fusion). Arbitrages appliqués :
-
--   `匹` : `counter_for: small_animals` ; catégorie « comptage & compteurs › animaux », qui décrit
-    le concept désigné, indépendamment de la compatibilité ; `semantic_type: null` ; aucune
-    fonction « compteur » ;
--   `曇る`, `木`, `吹く` et `冷たい` à deux sens ; `鳥` à un sens (pas d'analogie automatique avec
-    `魚`) ;
--   saisons dans « temps › moments et périodes » ; `空` au niveau 1 « monde naturel ».
-
-#### Lot 08 · proposition en relecture
+#### Lot 08 · clos
 
 Thème : **Communication, correspondance et médias** (29 anciennes entrées, aucune fusion).
-Essai à blanc : **337 ENTRY**, **30 identifiants retirés**, 0 problème, 0 erreur, 0 attente ;
-352 entrées restantes après le lot.
+Arbitrages appliqués :
 
-**Prochaine action immédiate :** relire et arbitrer la proposition du lot 08, la réviser si
-besoin, puis la valider avant de composer le lot suivant (5.10).
+-   `かける` à trois sens, exactement ceux documentés par la source ; `聞く`, `話`, `呼ぶ`, `電話`
+    et `テープ` à deux sens ; `撮る` sans contamination par l'homophone `取る` ;
+-   `suru_compatible` : `true` seulement si la source l'établit (`質問`) ; `false` signifie
+    « non établi » (valeur par défaut), jamais une incompatibilité ;
+-   `名前` au niveau général « communication et langage » ; médias dans la branche « médias ».
+
+**Prochaine action immédiate :** composer le lot 09 (5.10), faire valider son périmètre, puis
+seulement produire ses décisions en statut `proposed`.
 
 ------------------------------------------------------------------------
 
@@ -562,7 +556,8 @@ Ensuite seulement :
    │   ├── Lot 05 Achats (5.6)              ✅
    │   ├── Lot 06 École (5.7)               ✅
    │   ├── Lot 07 Météo, nature (5.8)       ✅
-   │   ├── Lot 08 Communication (5.9)       🟡
+   │   ├── Lot 08 Communication (5.9)       ✅
+   │   ├── Lot 09 (5.10)                    🔵
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜
