@@ -36,8 +36,9 @@ JLPT, et 55 décisions (D0355 à D0409) en `validated` ; assemblage réel : 237 
 0 erreur, 0 attente. **5.7 · lot 06 « école, apprentissage, langue et écrit » validé** (rapport
 `docs/rapports/etape2-tache5-7-lot06-valide.md`), après l'audit 5.7-C du champ `counter` : 37
 entrées et 46 décisions (D0410 à D0455) en `validated` ; assemblage réel : 274 ENTRY, 30 retraits,
-0 erreur, 0 attente. Prochaine sous-tâche : 5.8, composition du lot 07 d'abord, aucune proposition
-avant validation du périmètre. Le validateur lexical n'est pas
+0 erreur, 0 attente. 5.8 · lot 07 « météo, saisons et nature » : périmètre validé (34 entrées), **proposition** livrée
+(`reconstruction/a2-04/lots/lot-07.json`, rapport `docs/rapports/etape2-tache5-8-lot07.md`) ;
+aucune décision validée avant la relecture. Le validateur lexical n'est pas
 encore appliqué à `data/` (bascule à la publication d'A2-04).
 A2-02 est terminé (rapport final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
@@ -57,7 +58,7 @@ livraison, relecture, tests verts, commit.
 | 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (validée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait, A2-02 fermé (3.1 à 3.5 validées) |
 | 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | ✅ fait, A2-03 fermé (4.1 à 4.5 validées) |
 | 5 | A2-04 · 5.0 · Infrastructure | `reconstruction/a2-04/` (sources figées et empreintes, `place-tags.json`, `lots/`, `journal.json`) et `tools/reconstruction/` (règles et listes fermées, couche mécanique, contrôle des lots et du journal, assembleur partiel et complet, rapport de relecture, commandes) ; aucune décision lexicale | validée |
-| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.7 validées (lots 0 à 06) ; 5.8 à composer |
+| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.7 validées (lots 0 à 06) ; 5.8 proposée (lot 07) |
 | 7 | A2-04 · 5.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
 | 8 | A2-04 · 5.17 · Publication | une seule opération : vocabulaire canonique, validateur activé, `events.js` (E1 à E4) ; l'ancienne app cesse de fonctionner sur `ocha-v2` | à faire |
 | 9 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
@@ -105,7 +106,7 @@ bloque `npm test`).
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
   `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
-  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tools/reconstruction/` et `reconstruction/a2-04/` (reconstruction du vocabulaire), `tests/` (426 tests dans Node, plus la page
+  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tools/reconstruction/` et `reconstruction/a2-04/` (reconstruction du vocabulaire), `tests/` (427 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -283,6 +284,7 @@ modifier ses parties verrouillées.
 | 2026-10-03 | A2-04 · lot 06 relu : `USUAL_FORM_IDS` et D0440 confirmés ; `concept_abstrait` confirmé pour 英語 et pour le sens « langue » de 言葉 (une langue est un système abstrait conventionnel, pas un contenu) ; validation suspendue à l'audit du champ `counter` | `reconstruction/a2-04/lots/lot-06.json` |
 | 2026-10-03 | A2-04 · 5.7-C · audit du champ `counter` (sans modification de données) : `counter` (`{ counter_for }`) est la propriété d'une ENTRY qui **est** un compteur (A2-LING §3, schéma I6 ; au N5, seul 匹 selon A2-02) ; ce que documentent les sources (« ce nom se compte avec 冊 ») est une autre relation, non représentée ; `counter: null` est correct pour les 43 noms validés concernés et pour 本, 辞書, 鉛筆, 字 ; aucune reprise des lots 0 à 05 ; les emplois de compteur de 本 (〜本) et de 人 (〜人) sont des unités distinctes, avec le chantier des affixes | `docs/rapports/etape2-tache5-7c-audit-compteurs.md` |
 | 2026-10-03 | A2-04 · 5.7-C clos et 5.7 fermée : distinction confirmée entre une ENTRY qui est un compteur (`counter.counter_for`) et un nom qui se compte avec un compteur (relation non représentée, question de conception non bloquante) ; `counter: null` correct partout, aucune reprise des lots 0 à 05 ; lot 06 et ses 46 décisions validés | `reconstruction/a2-04/` |
+| 2026-10-03 | A2-04 · 5.8 · périmètre du lot 07 : 34 entrées (saisons, temps qu'il fait, chaud et froid, paysages et plantes, animaux), dont 曇る, 川, 涼しい, 咲く et 匹 ; 匹 reste dans ce lot (le regroupement aide l'arbitrage, il ne fixe pas l'ontologie) : classe `nom`, `counter: { counter_for: ["small_animals"] }`, aucune classe ni fonction « compteur » ; la catégorie de son sens est déterminée indépendamment de `counter_for` ; aucune polysémie pré-validée par analogie (鳥 n'hérite pas du cas 魚) | `reconstruction/a2-04/lots/lot-07.json` |
 
 ---
 
@@ -462,3 +464,4 @@ modifier ses parties verrouillées.
 | 2026-10-03 | 2 · 5.7 | Lot 06 proposé : 37 entrées, 46 décisions de journal proposées (D0410 à D0455) ; liste fermée `USUAL_FORM_IDS` (平仮名 → ひらがな), 2 tests et 2 sabotages ; essai à blanc : 274 ENTRY, 30 retraits, 0 problème, 0 erreur, 0 attente, 1 `categorie-nulle` de plus ; compteurs consignés comme point transversal ; 426 tests | — |
 | 2026-10-03 | 2 · 5.7-C | Audit du champ `counter`, sans modification de données : `counter: null` correct partout ; la relation « se compte avec » (43 noms validés) est une question de conception distincte, non bloquante ; correction de ma présentation précédente (45 → 44 mentions, dont 1 faux positif, 時計) ; le lot 06 reste proposé, prêt à valider | — |
 | 2026-10-03 | 2 · 5.7 | Validation du lot 06 : 37 entrées et 46 décisions passées en `validated` sans autre changement ; journal entier validé (455 décisions) ; assemblage réel : 274 ENTRY, 30 retraits, 0 problème, 0 erreur, 0 attente, 415 entrées encore à décider ; test d'état adapté (forme usuelle de 平仮名, aucun `counter` sur les noms comptés) ; 3 sabotages attrapés ; `ROADMAP.md` mis à jour (5.7 ✅, 5.8 prochain chantier) ; 426 tests | — |
+| 2026-10-03 | 2 · 5.8 | Lot 07 proposé : 34 entrées, 48 décisions de journal proposées (D0456 à D0503) ; premier `counter` du corpus (匹, `small_animals`) ; essai à blanc : 308 ENTRY, 30 retraits, 0 problème, 0 erreur, 0 attente, 381 entrées restantes après le lot ; 1 nouveau test ; 427 tests | — |

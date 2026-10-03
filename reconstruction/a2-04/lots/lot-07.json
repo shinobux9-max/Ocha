@@ -1,0 +1,1281 @@
+{
+  "lot": "lot-07",
+  "title": "Météo, saisons et nature",
+  "entries": {
+    "n5_v_7": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0478"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une fraîcheur agréable, surtout du temps ou d'une brise.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Frais (agréablement)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "conditions_atmospheriques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_80": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0465",
+        "A2-04-D0466"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Se couvrir (le ciel)",
+              "alternatives": [
+                "Devenir nuageux"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "nuages"
+            },
+            "semantic_type": "processus",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "S'embuer",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "processus",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "めがねが曇る : les lunettes s'embuent."
+          }
+        ]
+      }
+    },
+    "n5_v_128": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0484",
+        "A2-04-D0485"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Tout cours d'eau ; se lit aussi -がわ dans les noms propres (隅田川).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Rivière",
+              "alternatives": [
+                "Fleuve"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "eaux_milieux_aquatiques",
+              "level_3": "rivieres"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_201": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0499"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour les animaux seulement : aboyer, miauler, chanter. Pleurer se dit 泣く (même lecture).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Crier (animal)",
+              "alternatives": [
+                "Chanter (oiseau)"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "animaux"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_251": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0498"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Animal de compagnie",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "animaux"
+            },
+            "semantic_type": "organisme_vivant",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_252": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0493"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Animal",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "animaux"
+            },
+            "semantic_type": "organisme_vivant",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_253": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0483"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "山に登る : faire l'ascension d'une montagne.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Montagne",
+              "alternatives": [
+                "Mont"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "reliefs_formations_naturelles",
+              "level_3": "montagnes"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_254": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0490",
+        "A2-04-D0491"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Arbre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "vegetation",
+              "level_3": "arbres"
+            },
+            "semantic_type": "organisme_vivant",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Bois (matière)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "matieres_materiaux",
+              "level_2": "matieres_naturelles",
+              "level_3": "bois"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "木の机 : une table en bois."
+          }
+        ]
+      }
+    },
+    "n5_v_256": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0486"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "海に行く : aller à la mer, au bord de mer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mer",
+              "alternatives": [
+                "Océan"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "eaux_milieux_aquatiques",
+              "level_3": "mers_oceans"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_257": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0494"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Se compte avec 匹.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chien",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "animaux",
+              "level_3": "mammiferes"
+            },
+            "semantic_type": "organisme_vivant",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_258": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0495"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Se compte avec 匹.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chat",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "animaux",
+              "level_3": "mammiferes"
+            },
+            "semantic_type": "organisme_vivant",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_260": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0488",
+        "A2-04-D0489"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "空が青い : le ciel est bleu.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ciel",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_261": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0492"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Homophone : 鼻 (nez), d'accentuation différente.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fleur",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "vegetation",
+              "level_3": "fleurs"
+            },
+            "semantic_type": "organisme_vivant",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_262": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0496",
+        "A2-04-D0497"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Se compte avec 羽.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Oiseau",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "animaux",
+              "level_3": "oiseaux"
+            },
+            "semantic_type": "organisme_vivant",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_264": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0459",
+        "A2-04-D0460"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La saison la plus froide.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Hiver",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_265": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0480",
+        "A2-04-D0481",
+        "A2-04-D0482"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Froid (au toucher)",
+              "alternatives": [
+                "Glacé"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "sens_perception",
+              "level_3": "toucher_sensations"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "冷たい水 : de l'eau froide. L'air froid se dit 寒い."
+          },
+          {
+            "meaning": {
+              "primary": "Froid (attitude)",
+              "alternatives": [
+                "Distant"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "冷たい人 : une personne froide, distante."
+          }
+        ]
+      }
+    },
+    "n5_v_266": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0471",
+        "A2-04-D0472",
+        "A2-04-D0473"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Souffler (le vent)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "vent"
+            },
+            "semantic_type": "processus",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "が"
+            ],
+            "nuance": "風が吹く : le vent souffle."
+          },
+          {
+            "meaning": {
+              "primary": "Souffler (de l'air)",
+              "alternatives": [
+                "Jouer d'un instrument à vent"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "笛を吹く : jouer de la flûte."
+          }
+        ]
+      }
+    },
+    "n5_v_267": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0457",
+        "A2-04-D0460"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La saison la plus chaude ; 夏休み : les vacances d'été.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Été",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_269": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0461",
+        "A2-04-D0462"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Les conditions atmosphériques ; seul, il désigne souvent le beau temps : いい天気ですね, il fait beau.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Temps (qu'il fait)",
+              "alternatives": [
+                "Météo"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "conditions_atmospheriques"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_270": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0475"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le froid de l'air ; un objet froid se dit 冷たい. Contraire : 暑い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Froid (temps)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "conditions_atmospheriques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_271": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0456",
+        "A2-04-D0460"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La saison des cerisiers en fleur (桜).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Printemps",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_272": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0463"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Forme nominale de 晴れる ; contraire : くもり, 雨.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Beau temps",
+              "alternatives": [
+                "Ciel dégagé"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "conditions_atmospheriques"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_273": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0464"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le ciel se dégage, les nuages se dissipent : 明日は晴れるでしょう.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Se dégager (le ciel)",
+              "alternatives": [
+                "Faire beau"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "conditions_atmospheriques"
+            },
+            "semantic_type": "processus",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_274": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0474"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La chaleur de l'air, du temps ; un objet chaud se dit 熱い (même lecture). Contraire : 寒い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaud (temps)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "conditions_atmospheriques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_275": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0476",
+        "A2-04-D0477"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "温かい",
+            "furigana": "<ruby>温<rt>あたた</rt></ruby>かい"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une chaleur agréable, surtout du temps ou d'une pièce ; pour un plat ou une boisson, on écrit plutôt 温かい.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Doux (agréablement chaud)",
+              "alternatives": [
+                "Tiède"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "conditions_atmospheriques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_277": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0479"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un objet, un liquide, un aliment ; l'air chaud se dit 暑い (même lecture). 猫舌 : qui ne supporte pas ce qui est trop chaud.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaud (au toucher)",
+              "alternatives": [
+                "Brûlant"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "sens_perception",
+              "level_3": "toucher_sensations"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_278": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0458",
+        "A2-04-D0460"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La saison des feuillages rouges (紅葉).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Automne",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_279": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0470"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec が : 雨が降る, il pleut. Même kanji que 降りる (descendre), mais autre mot.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tomber (pluie, neige)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "pluie"
+            },
+            "semantic_type": "processus",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_280": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0467"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "雨が降る : il pleut. L'intensité se dit par des onomatopées : ぽつぽつ, しとしと, ザーザー. Homophone : 飴 (bonbon).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pluie",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "pluie"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_281": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0468"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "雪が降る : il neige.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Neige",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "neige"
+            },
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_282": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0469"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "風が吹く : le vent souffle. Homophone : 風邪 (rhume).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vent",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "vent"
+            },
+            "semantic_type": "processus",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_543": {
+      "status": "proposed",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec が : 花が咲く, les fleurs s'ouvrent.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fleurir",
+              "alternatives": [
+                "Éclore"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "vegetation",
+              "level_3": "fleurs"
+            },
+            "semantic_type": "processus",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_648": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0500",
+        "A2-04-D0501",
+        "A2-04-D0502",
+        "A2-04-D0503"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": {
+          "counter_for": [
+            "small_animals"
+          ]
+        },
+        "nuance": "Pour compter chiens, chats, poissons, insectes. La lecture change selon le nombre : いっぴき, にひき, さんびき, ろっぴき, はっぴき, じゅっぴき.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Compteur des petits animaux",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "comptage_compteurs",
+              "level_3": "animaux"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_678": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0487"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Petit plan d'eau calme, naturel ou aménagé (jardin, parc).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Étang",
+              "alternatives": [
+                "Mare"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "eaux_milieux_aquatiques",
+              "level_3": "lacs"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

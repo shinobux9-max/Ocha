@@ -6467,5 +6467,694 @@
     ],
     "after": null,
     "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0456",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_271",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Saison printanière"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0457",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_267",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Saison chaude"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0458",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_278",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Saison automnale"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0459",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_264",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Saison froide"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0460",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_271",
+    "field": "category",
+    "kind": "decision",
+    "before": null,
+    "after": "temps › moments_periodes",
+    "reason": "Le registre n'a pas de catégorie des saisons : les quatre saisons sont rangées comme périodes de l'année (temps › moments et périodes, niveau 2). Type concept_abstrait, comme les repérages temporels du lot 0. Vaut pour 春, 夏, 秋, 冬."
+  },
+  {
+    "id": "A2-04-D0461",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_269",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Météo",
+      "Temps (qu'il fait)",
+      "Climat"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens, le temps qu'il fait ; « beau temps » en est un emploi, repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0462",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_269",
+    "field": "senses",
+    "kind": "correction",
+    "before": "Climat",
+    "after": null,
+    "reason": "Information suspecte de la source : le climat (temps moyen d'une région) se dit 気候, pas 天気. Non repris."
+  },
+  {
+    "id": "A2-04-D0463",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_272",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Ensoleillé"
+    ],
+    "after": null,
+    "reason": "Adjectif, pas une traduction du nom."
+  },
+  {
+    "id": "A2-04-D0464",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_273",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Se dissiper (nuages, brouillard)"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0465",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_80",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Devenir nuageux",
+      "Se couvrir (ciel)",
+      "S'embuer (lunettes, vitre)"
+    ],
+    "after": [
+      "S1 Se couvrir (le ciel)",
+      "S2 S'embuer"
+    ],
+    "reason": "Deux sens documentés par la source (« le ciel se couvre… ou par extension qu'une surface vitrée ou des lunettes s'embuent ») : un phénomène météorologique, et un phénomène touchant un objet, avec des sujets distincts (空, めがね). À ARBITRER : on peut aussi n'en garder qu'un, l'extension allant dans la nuance."
+  },
+  {
+    "id": "A2-04-D0466",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_80",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Une surface qui s'embue : phénomène physique général, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D0467",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_280",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Précipitations pluvieuses"
+    ],
+    "after": null,
+    "reason": "Terme technique."
+  },
+  {
+    "id": "A2-04-D0468",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_281",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Précipitations neigeuses"
+    ],
+    "after": null,
+    "reason": "Terme technique."
+  },
+  {
+    "id": "A2-04-D0469",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_282",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Courant d'air",
+      "Brise"
+    ],
+    "after": null,
+    "reason": "Termes voisins, pas équivalents."
+  },
+  {
+    "id": "A2-04-D0470",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_279",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Précipiter (météo)"
+    ],
+    "after": null,
+    "reason": "Pas une traduction usuelle."
+  },
+  {
+    "id": "A2-04-D0471",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_266",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Souffler",
+      "Jouer d'un instrument à vent",
+      "Émettre de l'air"
+    ],
+    "after": [
+      "S1 Souffler (le vent)",
+      "S2 Souffler (de l'air)"
+    ],
+    "reason": "Deux sens documentés par la source (« l'action du vent qui souffle, ou de souffler de l'air / de jouer d'un instrument à vent ») : un phénomène naturel sans agent (が), et une action humaine (を)."
+  },
+  {
+    "id": "A2-04-D0472",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_266",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Souffler de l'air (sur une bougie, dans un instrument) : action générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D0473",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_266",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Émettre de l'air"
+    ],
+    "after": null,
+    "reason": "Redondant avec le sens 2."
+  },
+  {
+    "id": "A2-04-D0474",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_274",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Chaud (température atmosphérique ou climatique)"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0475",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_270",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Froid (température ambiante)"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0476",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_275",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "温かい"
+    ],
+    "reason": "温かい, documentée par la nuance de la source (pour la tiédeur d'un plat), est une autre graphie du même mot あたたかい : ajoutée à writings, l'usage de chaque graphie étant décrit dans la nuance."
+  },
+  {
+    "id": "A2-04-D0477",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_275",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Chaud"
+    ],
+    "after": null,
+    "reason": "Trop large : « chaud » se dit 暑い."
+  },
+  {
+    "id": "A2-04-D0478",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_7",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Agréablement frais (météo)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0479",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_277",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Chaud (liquide ou objet)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0480",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_265",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Froid (au toucher)",
+      "Glacé",
+      "Froid (chose ou liquide)",
+      "Insensible (figuré)"
+    ],
+    "after": [
+      "S1 Froid (au toucher)",
+      "S2 Froid (attitude)"
+    ],
+    "reason": "Deux sens documentés par la source (« Insensible (figuré) ») : une température au toucher, et une attitude envers autrui, deux référents distincts."
+  },
+  {
+    "id": "A2-04-D0481",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_265",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Attitude distante envers autrui : « propriété générale », sans domaine thématique propre (comme 甘い « indulgent », lot 02). Addendum A5."
+  },
+  {
+    "id": "A2-04-D0482",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_265",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Froid (chose ou liquide)",
+      "Insensible (figuré)"
+    ],
+    "after": null,
+    "reason": "Le premier est redondant ; « insensible » est rendu par « distant » (sens 2)."
+  },
+  {
+    "id": "A2-04-D0483",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_253",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Tas (au figuré)"
+    ],
+    "after": null,
+    "reason": "Emploi figuré (山ほど, des tas), hors N5 et absent de la nuance de la source."
+  },
+  {
+    "id": "A2-04-D0484",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_128",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie « lieux ») écarté : voir ou traverser une rivière près d'une gare ne relève pas du vocabulaire d'action propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0485",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_128",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Cours d'eau"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0486",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_256",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bord de mer"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0487",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_678",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bassin d'eau douce"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0488",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_260",
+    "field": "category",
+    "kind": "decision",
+    "before": null,
+    "after": "monde_naturel",
+    "reason": "Le registre n'a pas de catégorie du ciel : 空 est rangé au niveau 1 seul (monde naturel), sans sous-catégorie forcée."
+  },
+  {
+    "id": "A2-04-D0489",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_260",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Firmament",
+      "Atmosphère"
+    ],
+    "after": null,
+    "reason": "Le premier est littéraire ; le second n'est pas équivalent."
+  },
+  {
+    "id": "A2-04-D0490",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_254",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Arbre",
+      "Bois",
+      "Plante ligneuse"
+    ],
+    "after": [
+      "S1 Arbre",
+      "S2 Bois (matière)"
+    ],
+    "reason": "Deux sens documentés par la source (« un arbre vivant ou le bois en tant que matériau ») : deux référents et deux types sémantiques (organisme_vivant, substance_matiere), comme 魚 au lot 02."
+  },
+  {
+    "id": "A2-04-D0491",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_254",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Plante ligneuse"
+    ],
+    "after": null,
+    "reason": "Terme technique."
+  },
+  {
+    "id": "A2-04-D0492",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_261",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Floraison"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : se dit 開花."
+  },
+  {
+    "id": "A2-04-D0493",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_252",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Faune"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : la faune est un ensemble."
+  },
+  {
+    "id": "A2-04-D0494",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_257",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Canidé"
+    ],
+    "after": null,
+    "reason": "Terme technique."
+  },
+  {
+    "id": "A2-04-D0495",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_258",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Félin"
+    ],
+    "after": null,
+    "reason": "Terme technique."
+  },
+  {
+    "id": "A2-04-D0496",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_262",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Oiseau",
+      "Volatile",
+      "Chair de volaille"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens, contrairement à 魚 (lot 02) : la nuance de la source ne décrit que l'oiseau, et la viande de volaille a sa propre ENTRY (とり肉 / 鶏肉, lot 02)."
+  },
+  {
+    "id": "A2-04-D0497",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_262",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Volatile",
+      "Chair de volaille"
+    ],
+    "after": null,
+    "reason": "« Volatile » est vieilli ; la viande relève de とり肉 (鶏肉)."
+  },
+  {
+    "id": "A2-04-D0498",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_251",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Animal domestique"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : un animal de ferme est domestique sans être de compagnie."
+  },
+  {
+    "id": "A2-04-D0499",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_201",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bêler",
+      "Aboyer",
+      "Miauler"
+    ],
+    "after": null,
+    "reason": "Cas particuliers, couverts par le sens."
+  },
+  {
+    "id": "A2-04-D0500",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_648",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "counter_for": [
+        "small_animals"
+      ]
+    },
+    "reason": "Propriété de l'ENTRY, conformément à A2-02 et à l'audit 5.7-C : 匹 est lui-même un compteur ; il compte les petits animaux. Classe grammaticale nom (mécanique) ; aucune classe ni fonction linguistique « compteur », ce statut étant porté par counter."
+  },
+  {
+    "id": "A2-04-D0501",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_648",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "nombres_quantification › comptage_compteurs › animaux",
+    "reason": "Catégorie du sens, déterminée indépendamment de counter_for : le registre a une catégorie qui décrit exactement ce que signifie le sens (« Comptage & compteurs › animaux »). Ce n'est pas la règle écartée par A2-LING (« la présence d'un compteur dans une expression ne place pas automatiquement cette expression dans Nombres & quantification ») : ici, le sens lui-même est une unité de comptage. Alternative à arbitrer : category: null avec décision A5, si l'on juge que cette catégorie ne décrit pas assez le sens."
+  },
+  {
+    "id": "A2-04-D0502",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_648",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité de comptage : la mesure est exclue des types sémantiques, et une unité n'est pas automatiquement une quantite_valeur (A2-ST-v1) ; même raison que キロ (lot 0). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0503",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-07",
+    "entry": "n5_v_648",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Compteur (chats, chiens, poissons, insectes, etc.)"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
   }
 ]

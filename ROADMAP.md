@@ -41,10 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.8, composition du lot 07.**
+**A2-04 · reconstruction du vocabulaire N5 → 5.8, lot 07 « Météo, saisons et nature ».**
 
-Les lots 0 à 06 sont terminés et validés. Le prochain chantier est la composition du lot 07 : son
-périmètre doit être validé avant toute proposition lexicale.
+Les lots 0 à 06 sont terminés et validés. Le périmètre du lot 07 est validé (34 entrées) ; sa
+proposition est livrée (statut `proposed`) et en relecture.
 
 ------------------------------------------------------------------------
 
@@ -249,7 +249,7 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.5 · lot 04** | Ville, transports et déplacements | ✅ Terminé |
 | **5.6 · lot 05** | Achats, vêtements et objets personnels | ✅ Terminé |
 | **5.7 · lot 06** | École, apprentissage, langue et écrit | ✅ Terminé |
-| **5.8 · lot 07** | À composer | 🔵 **Prochain chantier** |
+| **5.8 · lot 07** | Météo, saisons et nature | 🟡 **Proposition livrée ; en relecture** |
 | **5.9 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
@@ -283,8 +283,14 @@ Arbitrages appliqués :
     seul `匹`) ; « ce nom se compte avec » est une autre relation, non représentée ;
     `counter: null` est correct partout.
 
-**Prochaine action immédiate :** composer le lot 07 (5.8), faire valider son périmètre, puis
-seulement produire ses décisions en statut `proposed`.
+#### Lot 07 · proposition en relecture
+
+Thème : **Météo, saisons et nature** (34 anciennes entrées, aucune fusion), dont `匹`, premier
+`counter` du corpus (`counter_for: small_animals`). Essai à blanc : **308 ENTRY**, **30 identifiants
+retirés**, 0 problème, 0 erreur, 0 attente ; 381 entrées restantes après le lot.
+
+**Prochaine action immédiate :** relire et arbitrer la proposition du lot 07, la réviser si
+besoin, puis la valider avant de composer le lot suivant (5.9).
 
 ------------------------------------------------------------------------
 
@@ -553,7 +559,7 @@ Ensuite seulement :
    │   ├── Lot 04 Ville (5.5)               ✅
    │   ├── Lot 05 Achats (5.6)              ✅
    │   ├── Lot 06 École (5.7)               ✅
-   │   ├── Lot 07 (5.8)                     🔵
+   │   ├── Lot 07 Météo, nature (5.8)       🟡
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜
