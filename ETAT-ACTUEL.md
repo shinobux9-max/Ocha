@@ -306,6 +306,7 @@ modifier ses parties verrouillées.
 | 2026-10-03 | A2-04 · lot 10 arbitré : 22 rejets de `lieu_gare`, `type-nul` de 表, `concept_abstrait` des points cardinaux validés ; 前 et 近く à deux sens (un lieu et un moment), 近い et 遠い à un sens (la même échelle de distance appliquée au temps) ; 先 à deux sens, classe `nom`, le sens 2 étant « D'abord » (antériorité ou priorité dans l'ordre, 先に) et non « auparavant » ; le futur mentionné par la fiche dans la nuance générale, sans troisième sens | `reconstruction/a2-04/lots/lot-10.json` |
 | 2026-10-03 | A2-04 · 5.11 fermée : lot 10 validé (version 5.11b de 先, archive d'empreinte `a8442c3d8e80d1ee…`) ; une archive livrée est désormais identifiée par son empreinte SHA-256, pour éviter toute confusion entre deux livraisons d'un même lot | `reconstruction/a2-04/` |
 | 2026-10-03 | A2-04 · 5.12 · périmètre du lot 11 : 34 entrées vérifiées par identifiants (22 formes du système こ・そ・あ・ど, 8 autres interrogatifs, 4 pronoms personnels) ; aucune forme absente de la source n'est complétée (そんな, あんな, どんな, こう, そう, ああ) ; 5 exceptions de classe ajoutées (それ, こちら, そちら, どっち, いくつ ; liste de 46 à 51), qui rendent la classe décidable sans la décider ; la cohérence du paradigme est un contrôle, jamais une source suffisante (pas de règle « membre d'une série ⇒ même classe ») ; `deictique` et `interrogatif` attribués sens par sens, jamais par appartenance morphologique | `tools/reconstruction/rules.mjs`, `reconstruction/a2-04/lots/lot-11.json` |
+| 2026-10-03 | A2-04 · lot 11 relu : exceptions de classe, classes (それ, こちら, そちら, どっち, いくつ en `pronom` ; この, その, あの, どの, こんな en `determinant` ; どう, いかが, なぜ, どうして en `adverbe`), asymétrie du paradigme, trois sens de どちら et rejets de `lieu_gare` validés ; validation suspendue à la gouvernance de la définition de `deictique`, que 5.12a introduisait elle-même | `reconstruction/a2-04/lots/lot-11.json` |
 
 ---
 
@@ -383,9 +384,12 @@ modifier ses parties verrouillées.
 - **Lecture de `suru_compatible: false`** : valeur par défaut, « compatibilité non établie », pas
   une incompatibilité. Le schéma, verrouillé, ne le dit pas explicitement ; à reprendre si une
   évolution du schéma est décidée, et à respecter par la morphologie (étape 3).
-- **Définition de la fonction `déictique`** : A2-LING la liste sans la définir. Le lot 11
-  l'applique au sens linguistique standard (le référent dépend de la situation de parole) ; une
-  définition écrite pourrait être ajoutée si A2-LING évolue.
+- **Définition de la fonction `deictique`** (bloque la validation du lot 11) : aucune définition
+  normative n'existe (A2-LING, A2-GLOBAL, registre, schéma, addenda) ; aucune des 14 fonctions
+  d'A2-LING n'en a. Niveau requis : un addendum de conception (A7, sur le modèle d'A5 et A6), ou une
+  nouvelle version d'A2-LING ; pas un simple arbitrage A2-04. Choix à faire : inclure ou non la
+  deixis temporelle, qui toucherait des données validées (おととし, lot 0 ; 近く « prochainement »,
+  lot 10). Rapport : `docs/rapports/etape2-tache5-12-verif-deictique.md`.
 - **Affixes** : la représentation des suffixes (〜方 « manière de… », 〜人, 〜さん…) n'est pas
   définie ; aucune ENTRY d'affixe n'est créée avant un chantier dédié.
 - **Identifiants de sens après publication** : ils sont générés dans l'ordre des sens jusqu'à la
@@ -503,3 +507,4 @@ modifier ses parties verrouillées.
 | 2026-10-03 | 2 · 5.11b | Révision du lot 10 : libellé du sens 2 de 先 (« D'abord », autre traduction « Avant ») et nuance générale de l'entrée ; D0623 réécrite à sa place, aucune autre décision modifiée ; essai à blanc inchangé : 380 ENTRY, 31 retraits, 0 erreur, 0 attente, 308 entrées restantes ; 431 tests | — |
 | 2026-10-03 | 2 · 5.11 | Validation du lot 10 : 24 entrées et 56 décisions passées en `validated` sans autre changement ; journal entier validé (630 décisions) ; assemblage réel : 380 ENTRY, 31 retraits, 0 problème, 0 erreur, 0 attente, 308 entrées encore à décider ; test d'état adapté (aucun tag dans le lot, 先 en classe `nom`) ; 3 sabotages attrapés ; `ROADMAP.md` mis à jour (5.11 ✅, 5.12 prochain chantier) ; 431 tests | — |
 | 2026-10-03 | 2 · 5.12 | Lot 11 proposé : 34 entrées, 104 décisions de journal proposées (D0631 à D0734), dont 35 `type-nul` (un par sens démonstratif ou interrogatif) ; 5 exceptions de classe ajoutées, avec test et 2 sabotages ; classes : 25 pronoms, 5 déterminants, 4 adverbes ; essai à blanc : 414 ENTRY, 31 retraits, 0 problème, 0 erreur, 0 attente, 274 entrées restantes après le lot ; 433 tests | — |
+| 2026-10-03 | 2 · 5.12 | Vérification de `deictique`, sans modification de données : aucune définition normative ; niveau recommandé, un addendum A7 ; la définition candidate admet 私 et あなた et exclut l'emploi réfléchi de 自分 ; la deixis temporelle reste à trancher (effet possible sur おととし et 近く, validés) | — |
