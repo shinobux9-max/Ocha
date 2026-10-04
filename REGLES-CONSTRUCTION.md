@@ -1,7 +1,7 @@
 # Ocha v2 — Règles de construction
 
-**Statut** : 🔒 verrouillé (version 2.2 : commande de test corrigée pour Node 22 et plus ;
-droits de `src/app.js` précisés).
+**Statut** : 🔒 verrouillé (version 2.3 : identifiants `v_<n>` et `g_<n>`, addenda A3 et A4 ;
+version 2.2 : commande de test corrigée pour Node 22 et plus, droits de `src/app.js` précisés).
 
 **S'applique à** : la branche `ocha-v2` uniquement. La branche `main` (Ocha actuel) garde son
 propre `REGLES-CONSTRUCTION.md`, qui ne s'applique **pas** ici.
@@ -130,8 +130,15 @@ Il est lancé avant chaque commit, avec les tests.
 
 - **Les références suivent la forme `{ type, id }`** en interne (partie 2). Dans les données,
   les clés sont `grammar`, `vocab`, `kanji`, `kana`, `expression`.
-- **Ne jamais inventer un identifiant** de contenu (`n5_v_…`, `n5_g_…`, `ex_…`, `hj_v_…`). Un
-  contenu manquant se signale, il ne se crée pas au passage.
+- **Ne jamais inventer un identifiant** de contenu (`v_…`, `g_…`, `ex_…`). Un contenu manquant
+  se signale, il ne se crée pas au passage.
+- **L'identité ne contient pas le niveau** (addendum A4) : vocabulaire `v_<n>`, grammaire `g_<n>`,
+  niveau dans le champ `level`. Aucun code ne déduit le niveau d'un identifiant d'élément. Un
+  identifiant retiré n'est jamais réattribué. Seules les activités gardent leur niveau dans
+  l'identifiant (`n5_m_…`, `n5_l_…`).
+  Transition : ces formes s'appliquent à la grammaire à partir de la tâche 1 bis de l'étape 2,
+  au vocabulaire à la publication des données reconstruites (A2-04) ; d'ici là, les données
+  gardent leurs identifiants actuels.
 - **Les identifiants de questions générées** suivent `gen:<générateur>:<cible>:<variante>` et
   doivent être stables : la même question produit toujours le même identifiant.
 - **Toute modification de données** passe le validateur avant commit :

@@ -313,6 +313,7 @@ modifier ses parties verrouillées.
 | 2026-10-03 | Addendum A7 · définition opérationnelle de `deictique` (convention d'application Ocha, sans nouvelle version d'A2-LING) : fonction d'un SENSE dont l'interprétation référentielle ou le repérage dépend directement de la situation d'énonciation (locuteur, interlocuteur, lieu, **moment** d'énonciation) ; référence purement syntaxique (réfléchi) non déictique ; anaphore seule insuffisante ; sens à plusieurs emplois : fonction attribuée si l'emploi déictique fait partie intégrante du sens modélisé (pas de notion de « sens dominant ») ; audit rétroactif de la deixis temporelle réservé à A2-05 ; aucune autre fonction d'A2-LING n'est définie | `docs/conception/addendum-A7-deictique.md` |
 | 2026-10-03 | A2-04 · 5.12 fermée : lot 11 validé (archive 5.12b d'empreinte `5eb60a92ae46aa7b…`) ; A7 validé et devenu la référence normative des attributions de `deictique` ; la mention d'`interrogatif` dans A7 §3.3 délimite `deictique` sans définir `interrogatif` | `reconstruction/a2-04/`, `docs/conception/addendum-A7-deictique.md` |
 | 2026-10-03 | A2-04 · 5.13 · les 57 entrées de `temps_calendrier` forment deux lots : lot 12 (temps relatif, moments de la journée, fréquence ; 31 entrées) puis lot 13 (calendrier, dates, durées ; périmètre à composer par identifiants après le lot 12, éventuellement en deux) ; « être un mot temporel ≠ être déictique » : A7 appliqué sens par sens ; aucune correction rétroactive des lots clos pendant 5.13 ; aucune lecture ajoutée par connaissance externe ; seuil élevé pour `lieu_hotel` | `reconstruction/a2-04/lots/lot-12.json` |
+| 2026-10-04 | Pratique de livraison : une archive ne remplace jamais un fichier de gouvernance ou de conception à partir de la copie du Project, qui peut être périmée ; elle part de la dernière version livrée, ou ne le touche pas. Après extraction, l'assemblage réel du dépôt fait foi sur les chiffres des documents de suivi | — |
 
 ---
 
@@ -394,6 +395,17 @@ modifier ses parties verrouillées.
   tous les SENSE déjà validés susceptibles de relever de la deixis temporelle, au minimum おととし
   (lot 0) et 近く, sens 2 « prochainement » (lot 10). La règle est décidée (A7) ; seul l'audit de ses
   conséquences antérieures est reporté.
+- **Furigana contradictoires** (constat 5.13, rapport `docs/rapports/etape2-tache5-13-verif-furigana.md`) :
+  16 lectures ou graphies ont des furigana dont la lecture recomposée diffère des kana, dont 11
+  dans des lots validés (お兄さん, 大人, 風邪, ちり紙, 上着, 財布, 八百屋, 荷物, 切手, graphie 曲る, et
+  la lecture kana de スポーツ, すぷーつ). Le validateur ne le contrôle pas (I4 ne vérifie que le
+  texte de base). Lot 12 suspendu à l'arbitrage du mécanisme (liste fermée ou règle générale) et
+  du sort des entrées validées (correction immédiate ou A2-05).
+- **Contrôle externe du dépôt (2026-10-04)** : un examen du checkout réel a montré que
+  `lot-00.json` y était resté en `proposed` (archive de validation du lot 0 non appliquée ou écrasée)
+  et que `REGLES-CONSTRUCTION.md` était revenu en 2.2 (écrasé par l'archive de la feuille de route,
+  construite à tort sur la copie périmée du Project). Corrigé par une archive dédiée ; à confirmer
+  par un assemblage réel à 414 ENTRY et 31 retraits sur le dépôt.
 - **Fonctions d'A2-LING sans définition** : A7 ne définit que `deictique`. Les 13 autres fonctions
   n'ont toujours pas de définition normative ; `interrogatif` et `intensifieur` sont appliqués sur
   un sens implicite. Une définition écrite ne sera décidée que si un cas l'exige.
@@ -518,3 +530,5 @@ modifier ses parties verrouillées.
 | 2026-10-03 | 2 · 5.12b | Addendum A7 rédigé ; révision documentaire du lot 11 : 40 raisons de décision réécrites pour citer A7 (18 fonctions, 20 `type-nul`, 2 `categorie-nulle`), identifiants, valeurs et statuts inchangés, données du lot strictement identiques ; essai à blanc inchangé : 414 ENTRY, 31 retraits, 0 erreur, 0 attente ; 433 tests | — |
 | 2026-10-03 | 2 · 5.12 | Validation du lot 11 : 34 entrées et 104 décisions passées en `validated` sans autre changement ; journal entier validé (734 décisions) ; assemblage réel : 414 ENTRY, 31 retraits, 0 problème, 0 erreur, 0 attente, 274 entrées encore à décider ; test d'état adapté (application d'A7 sur 私, あなた, 自分, 誰か, 皆 ; classes du paradigme) ; 4 sabotages attrapés ; `ROADMAP.md` mis à jour (5.12 ✅, 5.13 prochain chantier) ; 433 tests | — |
 | 2026-10-03 | 2 · 5.13 | Lot 12 proposé : 31 entrées (identifiants contrôlés par script), 92 décisions de journal proposées (D0735 à D0826) ; A7 sur l'axe du temps : 20 sens déictiques, 11 refus motivés ; 31 rejets de `lieu_hotel` ; essai à blanc : 445 ENTRY, 31 retraits, 0 problème, 0 erreur, 0 attente, 243 entrées restantes après le lot, aucun avertissement nouveau ; 434 tests | — |
+| 2026-10-03 | 2 · 5.13 | Contrôle des furigana, sans modification de données : 5 lectures spéciales qualifiées par leur fiche (今朝, 昨夜, 今年 segmentés ; 今日 en bloc ; 大人, validé, segmenté et faux) ; 16 furigana contradictoires avec la lecture, dont 11 dans des lots validés ; 5.13b suspendue à l'arbitrage du mécanisme | — |
+| 2026-10-04 | — | Correction de l'état du dépôt, sans décision nouvelle : `lot-00.json` rétabli en `validated` (version de l'archive de validation du lot 0, identique au contenu relu) et son rapport de validation restauré ; `REGLES-CONSTRUCTION.md` rétabli en 2.3, avec les trois ajouts de la feuille de route ; sommaire aligné sur l'ordre fixé (A2-04, A2-05, puis G2 à G9) ; mention périmée de la feuille de route mise à jour | — |

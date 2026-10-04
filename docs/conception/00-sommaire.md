@@ -40,4 +40,5 @@ Tous les paramètres chiffrés des parties 1 à 5 sont regroupés dans une confi
 
 **Étape 2 de la reconstruction** (partie 9, 9.9), dans l'ordre fixé par `ETAT-ACTUEL.md` :
 réidentification de la grammaire, catalogue minimal, registres A2-02, validateur A2-03,
-reconstruction du vocabulaire A2-04, graphe, audit A2-05, registre de phrases.
+reconstruction du vocabulaire A2-04, audit A2-05, graphe (G2 à G9, construit sur le corpus
+audité), registre de phrases.

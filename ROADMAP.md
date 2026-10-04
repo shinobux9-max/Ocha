@@ -636,7 +636,8 @@ Après une tâche importante :
 Cette roadmap synthétise l'état actuel mais **ne tranche pas** les
 points suivants :
 
--   détail exact du découpage des futurs lots A2-04 après le lot 03 ;
+-   détail exact du découpage des lots A2-04 restants (chaque lot est composé par identifiants,
+    puis validé, avant toute proposition) ;
 -   convention globale des lectures des emprunts en katakana ;
 -   éventuelle correction de l'identifiant de catégorie `ufs` ;
 -   procédure d'enrichissement des lectures absentes des sources, par
