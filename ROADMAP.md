@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-03 (clôture du lot 09)
+**Dernière mise à jour :** 2026-10-03 (clôture du lot 10)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,12 +41,11 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.11, lot 10 « Position, direction et
-orientation ».**
+**A2-04 · reconstruction du vocabulaire N5 → 5.12, composition du lot 11 « Démonstratifs et
+interrogatifs » (こ・そ・あ・ど).**
 
-Les lots 0 à 09 sont terminés et validés. Le périmètre du lot 10 est validé (24 entrées) ; sa
-proposition est livrée (statut `proposed`) et en relecture. Le lot 11 traitera ensuite le système
-démonstratif et interrogatif (こ・そ・あ・ど).
+Les lots 0 à 10 sont terminés et validés. Le prochain chantier est la composition du lot 11 : son
+périmètre doit être validé avant toute proposition lexicale.
 
 ------------------------------------------------------------------------
 
@@ -254,8 +253,9 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.8 · lot 07** | Météo, saisons et nature | ✅ Terminé |
 | **5.9 · lot 08** | Communication, correspondance et médias | ✅ Terminé |
 | **5.10 · lot 09** | Loisirs, sorties et voyages | ✅ Terminé |
-| **5.11 · lot 10** | Position, direction et orientation | 🟡 **Proposition livrée ; en relecture** |
-| **5.12 → 5.15** | Lots thématiques suivants | ⬜ À faire |
+| **5.11 · lot 10** | Position, direction et orientation | ✅ Terminé |
+| **5.12 · lot 11** | Démonstratifs et interrogatifs (こ・そ・あ・ど), à composer | 🔵 **Prochain chantier** |
+| **5.13 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -268,35 +268,28 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 09
+#### État chiffré après le lot 10
 
--   **356 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
--   **31 identifiants retirés** (dont `掃除する`, `出ます` et `散歩する`) ;
--   **332 anciennes entrées encore à décider** ;
--   **574 décisions humaines validées** au journal ;
+-   **380 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **31 identifiants retirés** ;
+-   **308 anciennes entrées encore à décider** ;
+-   **630 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
-#### Lot 09 · clos
+#### Lot 10 · clos
 
-Thème : **Loisirs, sorties et voyages** (20 anciennes entrées : 19 gardées, 1 fusion). Arbitrages
+Thème : **Position, direction et orientation** (24 anciennes entrées, aucune fusion). Arbitrages
 appliqués :
 
--   `散歩する` fusionné dans `散歩` après confrontation des fiches (règle des formes en する du
-    lot 03, appliquée cas par cas) ;
--   `suru_compatible: true` seulement quand la source établit la formation du verbe avec する
-    (`散歩`, `旅行`, `帰国`) ; une construction nom + を + する ne suffit pas (`スポーツ`, `釣り`) ;
--   `国` à un sens, le pays d'origine dans la nuance ; aucun sens repris d'un homophone
-    (`お釣り`, `引く`, `唄`).
+-   les 22 candidats `lieu_gare` rejetés un par un, sans présomption pour les points cardinaux
+    (la signalétique 東口 / 西口 ne les rend pas propres à la gare) ;
+-   `前` et `近く` à deux sens (un lieu, un moment) ; `近い` et `遠い` à un sens (même échelle de
+    distance) ; `先` à deux sens, classe `nom` ;
+-   points cardinaux en `concept_abstrait` ; `表` en `type-nul` (une face est une partie).
 
-#### Lot 10 · proposition en relecture
-
-Thème : **Position, direction et orientation** (24 anciennes entrées, aucune fusion). Les 22
-candidats `lieu_gare` sont rejetés un par un. Essai à blanc : **380 ENTRY**, **31 identifiants
-retirés**, 0 problème, 0 erreur, 0 attente ; 308 entrées restantes après le lot.
-
-**Prochaine action immédiate :** relire et arbitrer la proposition du lot 10, la réviser si
-besoin, puis la valider avant de composer le lot 11 (5.12, démonstratifs et interrogatifs).
+**Prochaine action immédiate :** composer le lot 11 (5.12, démonstratifs et interrogatifs), faire
+valider son périmètre, puis seulement produire ses décisions en statut `proposed`.
 
 ------------------------------------------------------------------------
 
@@ -568,7 +561,8 @@ Ensuite seulement :
    │   ├── Lot 07 Météo, nature (5.8)       ✅
    │   ├── Lot 08 Communication (5.9)       ✅
    │   ├── Lot 09 Loisirs, voyages (5.10)   ✅
-   │   ├── Lot 10 Position (5.11)           🟡
+   │   ├── Lot 10 Position (5.11)           ✅
+   │   ├── Lot 11 こそあど (5.12)            🔵
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

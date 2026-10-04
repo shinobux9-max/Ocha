@@ -6,7 +6,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_43 → v_43 · 隣
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0592** (decision, senses) : Un seul concept documenté (« l'emplacement directement à côté ou voisin ») : le voisin et la maison d'à côté en sont des emplois avec の, repris dans la nuance. — avant `["À côté","Voisin","Maison d'à côté"]` → après `"un seul sens"`
 - **A2-04-D0593** (abandon, senses) : Emplois repris dans la nuance. — avant `["Voisin","Maison d'à côté"]` → après `null`
@@ -31,7 +31,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -52,7 +52,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_341 → v_341 · そば
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0595** (decision, writings) : 側, documentée par la nuance de la source, est la graphie en kanji de そば : variante kana / kanji. Rien n'est repris de l'homophone 蕎麦. — avant `null` → après `["側"]`
 - **A2-04-D0596** (abandon, senses) : Nom abstrait, pas équivalent. — avant `["Proximité"]` → après `null`
@@ -77,7 +77,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"側","furigana":"<ruby>側<rt>そば</rt></ruby>"}]`
 - suru_compatible : `false`
@@ -98,7 +98,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_345 → v_345 · 上
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0575** (decision, senses) : Un seul sens : la nuance de la source ne décrit que la position (le dessus, au-dessus). — avant `["Au-dessus","Dessus","Sur","Supérieur"]` → après `"un seul sens"`
 - **A2-04-D0576** (abandon, senses) : « Sur » est une traduction de construction (〜の上に) ; « supérieur » (rang) n'est pas documenté par la nuance. — avant `["Sur","Supérieur"]` → après `null`
@@ -123,7 +123,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -144,7 +144,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_346 → v_346 · 中
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0581** (abandon, senses) : « Dans » est une traduction de construction ; « au milieu » (真ん中) n'est pas documenté par la nuance. Aucun sens n'est repris du suffixe 〜中. — avant `["Dans","Au milieu"]` → après `null`
 - **A2-04-D0582** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
@@ -168,7 +168,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -189,9 +189,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_347 → v_347 · 先
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0623** (decision, senses) : Deux sens documentés par la nuance (« l'avant… l'extrémité d'une chose » ; « le futur proche, une priorité dans l'ordre chronologique ») : un point dans l'espace et un rang dans le temps, comme 前. À ARBITRER : on peut aussi n'en garder qu'un, si l'on juge ces emplois insuffisamment autonomes. — avant `["D'abord","Avant","En avant","Bout","Extrémité"]` → après `["S1 Avant, bout (espace)","S2 Auparavant, d'abord (temps)"]`
+- **A2-04-D0623** (decision, senses) : Deux sens documentés par la nuance (« l'avant… l'extrémité d'une chose » ; « le futur proche, une priorité dans l'ordre chronologique ») : un point dans l'espace et l'antériorité ou la priorité dans l'ordre (先に, d'abord, avant les autres), comme 前. Libellé du sens 2 précisé (révision 5.11b) : « auparavant » évoquait un moment passé ; la mention du futur va dans la nuance générale, sans troisième sens. — avant `["D'abord","Avant","En avant","Bout","Extrémité"]` → après `["S1 Avant, bout (espace)","S2 D'abord, avant (temps)"]`
 - **A2-04-D0624** (decision, grammatical_class) : Classe nom : la source l'étiquette « adverbe », mais tous ses emplois documentés sont ceux d'un nom (先に, この先, l'extrémité). L'emploi adverbial passe par la particule に (先に). — avant `"adverbe / temps (ancien type)"` → après `"nom"`
 - **A2-04-D0625** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
 
@@ -214,7 +214,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : **exception**, dépend de la classe, en exception
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"nom"`
 - group : `"nom"`
@@ -222,13 +222,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
-- nuance : `null`
+- nuance : `"Ce qui est devant : dans l'espace (plus loin, le bout) ou dans l'ordre du temps (ce qui passe en premier, ce qui est à venir)."`
 - tags : `[]`
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
 | 1 | **Avant (plus loin)** (Bout, Extrémité) | espace_proprietes_spatiales › position_localisation › devant_derriere | lieu |  | この先 : plus loin ; ペンの先 : la pointe du stylo. |
-| 2 | **Auparavant** (D'abord) | temps › chronologie › avant_apres | concept_abstrait |  | 先に : d'abord, avant (les autres) ; お先に : je vous précède. |
+| 2 | **D'abord** (Avant) | temps › chronologie › avant_apres | concept_abstrait |  | 先に : d'abord, avant les autres ; お先に : je vous précède. |
 
 **Contexte (anciens exemples, lecture seule)**
 
@@ -238,7 +238,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_348 → v_348 · 前
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0585** (decision, senses) : Deux sens documentés par la nuance de la source (« l'espace situé en face… ou un moment antérieur dans le temps ») : une position et un moment, deux référents, deux catégories, deux types. — avant `["Devant","Avant","En face de"]` → après `["S1 Devant (espace)","S2 Avant (temps)"]`
 - **A2-04-D0586** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
@@ -262,7 +262,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -284,7 +284,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_349 → v_349 · 北
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0618** (abandon, senses) : Redondant. — avant `["Direction du nord"]` → après `null`
 - **A2-04-D0619** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : les noms de sorties (東口, 西口, 南口, 北口) montrent qu'un point cardinal qualifie une sortie, sans rendre le point cardinal propre à la gare : il structure aussi les villes, les routes, les cartes, les régions (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
@@ -309,7 +309,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -330,7 +330,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_350 → v_350 · 南
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0616** (abandon, senses) : Redondant. — avant `["Direction du sud"]` → après `null`
 - **A2-04-D0617** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : les noms de sorties (東口, 西口, 南口, 北口) montrent qu'un point cardinal qualifie une sortie, sans rendre le point cardinal propre à la gare : il structure aussi les villes, les routes, les cartes, les régions (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
@@ -355,7 +355,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -376,7 +376,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_351 → v_351 · 右
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0610** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare ; indiquer la droite vaut pour toute orientation (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
 
@@ -399,7 +399,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -420,7 +420,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_352 → v_352 · 外
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0583** (abandon, senses) : Redondant. — avant `["À l'extérieur"]` → après `null`
 - **A2-04-D0584** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
@@ -444,7 +444,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -465,7 +465,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_353 → v_353 · 左
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0611** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare ; indiquer la gauche vaut pour toute orientation (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
 
@@ -488,7 +488,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -509,7 +509,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_354 → v_354 · 後ろ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0587** (abandon, senses) : Non documenté par la nuance (qui décrit l'espace à l'arrière) ; le dos se dit 背 (lot 01). — avant `["Dos"]` → après `null`
 - **A2-04-D0588** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
@@ -533,7 +533,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -554,7 +554,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_355 → v_355 · 東
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0612** (abandon, senses) : Redondant. — avant `["Direction de l'est"]` → après `null`
 - **A2-04-D0613** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : les noms de sorties (東口, 西口, 南口, 北口) montrent qu'un point cardinal qualifie une sortie, sans rendre le point cardinal propre à la gare : il structure aussi les villes, les routes, les cartes, les régions (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
@@ -579,7 +579,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -600,7 +600,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_356 → v_356 · 横
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0589** (decision, senses) : Un seul concept documenté (« le flanc ou le côté horizontal ») : « horizontal » en est la direction, reprise dans la nuance, et non un second sens. — avant `["Côté","À côté de","Latéral","Horizontal"]` → après `"un seul sens"`
 - **A2-04-D0590** (abandon, senses) : Le premier est une traduction de construction ; « latéral » est un adjectif ; « horizontal » est repris dans la nuance. — avant `["À côté de","Latéral","Horizontal"]` → après `null`
@@ -625,7 +625,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -646,7 +646,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_357 → v_357 · 西
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0614** (abandon, senses) : Redondant. — avant `["Direction de l'ouest"]` → après `null`
 - **A2-04-D0615** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : les noms de sorties (東口, 西口, 南口, 北口) montrent qu'un point cardinal qualifie une sortie, sans rendre le point cardinal propre à la gare : il structure aussi les villes, les routes, les cartes, les régions (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
@@ -671,7 +671,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -692,7 +692,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_358 → v_358 · 角
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0621** (abandon, senses) : Pas équivalent ; aucun sens n'est repris de 角 lu つの. — avant `["Virage"]` → après `null`
 - **A2-04-D0622** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare ; l'angle de rue relève de la ville (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
@@ -716,7 +716,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -737,7 +737,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_360 → v_360 · 近い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0626** (decision, senses) : Un seul sens : la nuance applique la même échelle de distance à l'espace et au temps. — avant `["Proche","Près","Avoisinant"]` → après `"un seul sens"`
 - **A2-04-D0627** (abandon, senses) : Redondant. — avant `["Avoisinant"]` → après `null`
@@ -762,7 +762,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"i"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -783,7 +783,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_362 → v_362 · 遠い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0629** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
 
@@ -806,7 +806,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"i"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -827,7 +827,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_419 → v_419 · 向こう
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0601** (decision, senses) : Un seul concept documenté : un lieu situé en vis-à-vis ou de l'autre côté. — avant `["Là-bas","En face","De l'autre côté","L'autre versant"]` → après `"un seul sens"`
 - **A2-04-D0602** (abandon, senses) : Pas équivalent. — avant `["L'autre versant"]` → après `null`
@@ -850,7 +850,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -871,7 +871,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_597 → v_597 · 縦
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0607** (decision, senses) : Un seul concept documenté (« la dimension verticale ou l'orientation de haut en bas ») : « vertical » et « sens de la longueur » en sont des traductions contextuelles. — avant `["Hauteur","Vertical","Sens de la longueur (vertical)"]` → après `"un seul sens"`
 - **A2-04-D0608** (abandon, senses) : Traductions contextuelles, reprises dans la nuance. — avant `["Vertical","Sens de la longueur (vertical)"]` → après `null`
@@ -896,7 +896,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -917,7 +917,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_630 → v_630 · 下
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0578** (decision, senses) : Un seul sens : la nuance ne décrit que la position (l'espace au-dessous). — avant `["Sous","En bas","Au-dessous","Inférieur"]` → après `"un seul sens"`
 - **A2-04-D0579** (abandon, senses) : « Sous » est une traduction de construction ; « au-dessous » est redondant ; « inférieur » (rang) n'est pas documenté par la nuance. — avant `["Sous","Au-dessous","Inférieur"]` → après `null`
@@ -942,7 +942,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -963,7 +963,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_652 → v_652 · 地図
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0630** (abandon, senses) : Le premier est redondant ; le second est un cas particulier. — avant `["Plan géographique","Carte routière"]` → après `null`
 
@@ -985,7 +985,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1006,7 +1006,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_696 → v_696 · 表
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0603** (decision, senses) : Un seul concept documenté : le côté visible ou avant d'une chose. Aucun sens n'est repris de 表 lu ひょう (tableau). — avant `["Surface","Devant","Face","Côté recto"]` → après `"un seul sens"`
 - **A2-04-D0604** (type-nul, sens 1 · semantic_type) : La face d'une chose en est une partie : la partie n'est pas un type sémantique, et aucun type terminal ne convient (comme les parties du corps, lot 01) Addendum A6.
@@ -1032,7 +1032,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1053,7 +1053,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_704 → v_704 · 近く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0598** (decision, senses) : Deux sens documentés par la source (« la proximité spatiale (près de…) ou temporelle (bientôt) ») : un lieu proche et un moment proche. À la différence de 近い (un seul sens), 近く « prochainement » désigne un moment, et non un degré de distance. — avant `["Près","Proche","Aux environs","Prochainement"]` → après `["S1 Environs (espace)","S2 Prochainement (temps)"]`
 - **A2-04-D0599** (abandon, senses) : Adjectif, relève de 近い. — avant `["Proche"]` → après `null`
@@ -1078,7 +1078,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`

@@ -3,7 +3,7 @@
   "title": "Position, direction et orientation",
   "entries": {
     "n5_v_43": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0592",
         "A2-04-D0593",
@@ -39,7 +39,7 @@
       }
     },
     "n5_v_341": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0595",
         "A2-04-D0596",
@@ -82,7 +82,7 @@
       }
     },
     "n5_v_345": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0575",
         "A2-04-D0576",
@@ -120,7 +120,7 @@
       }
     },
     "n5_v_346": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0581",
         "A2-04-D0582"
@@ -157,7 +157,7 @@
       }
     },
     "n5_v_347": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0623",
         "A2-04-D0624",
@@ -168,7 +168,7 @@
         "suru_compatible": false,
         "suffix": false,
         "counter": null,
-        "nuance": null,
+        "nuance": "Ce qui est devant : dans l'espace (plus loin, le bout) ou dans l'ordre du temps (ce qui passe en premier, ce qui est à venir).",
         "tags": [],
         "senses": [
           {
@@ -195,9 +195,9 @@
           },
           {
             "meaning": {
-              "primary": "Auparavant",
+              "primary": "D'abord",
               "alternatives": [
-                "D'abord"
+                "Avant"
               ]
             },
             "category": {
@@ -212,7 +212,7 @@
               "grammatical": [],
               "pragmatic_discourse": []
             },
-            "nuance": "先に : d'abord, avant (les autres) ; お先に : je vous précède."
+            "nuance": "先に : d'abord, avant les autres ; お先に : je vous précède."
           }
         ],
         "grammatical_class": "nom",
@@ -220,7 +220,7 @@
       }
     },
     "n5_v_348": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0585",
         "A2-04-D0586"
@@ -279,7 +279,7 @@
       }
     },
     "n5_v_349": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0618",
         "A2-04-D0619",
@@ -315,7 +315,7 @@
       }
     },
     "n5_v_350": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0616",
         "A2-04-D0617",
@@ -351,7 +351,7 @@
       }
     },
     "n5_v_351": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0610"
       ],
@@ -387,7 +387,7 @@
       }
     },
     "n5_v_352": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0583",
         "A2-04-D0584"
@@ -424,7 +424,7 @@
       }
     },
     "n5_v_353": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0611"
       ],
@@ -460,7 +460,7 @@
       }
     },
     "n5_v_354": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0587",
         "A2-04-D0588"
@@ -497,7 +497,7 @@
       }
     },
     "n5_v_355": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0612",
         "A2-04-D0613",
@@ -533,7 +533,7 @@
       }
     },
     "n5_v_356": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0589",
         "A2-04-D0590",
@@ -570,7 +570,7 @@
       }
     },
     "n5_v_357": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0614",
         "A2-04-D0615",
@@ -606,7 +606,7 @@
       }
     },
     "n5_v_358": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0621",
         "A2-04-D0622"
@@ -643,7 +643,7 @@
       }
     },
     "n5_v_360": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0626",
         "A2-04-D0627",
@@ -681,7 +681,7 @@
       }
     },
     "n5_v_362": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0629"
       ],
@@ -717,7 +717,7 @@
       }
     },
     "n5_v_419": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0601",
         "A2-04-D0602"
@@ -754,7 +754,7 @@
       }
     },
     "n5_v_597": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0607",
         "A2-04-D0608",
@@ -792,7 +792,7 @@
       }
     },
     "n5_v_630": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0578",
         "A2-04-D0579",
@@ -830,7 +830,7 @@
       }
     },
     "n5_v_652": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0630"
       ],
@@ -866,7 +866,7 @@
       }
     },
     "n5_v_696": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0603",
         "A2-04-D0604",
@@ -906,7 +906,7 @@
       }
     },
     "n5_v_704": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0598",
         "A2-04-D0599",

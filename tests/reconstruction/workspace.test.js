@@ -169,14 +169,20 @@ test('5.10 : le lot 09 est entièrement validé (20 entrées dont 1 retrait), jo
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
-// A2-04 · 5.11 : le lot 10 est livré en PROPOSITION, journal compris ; aucune de ses décisions
-// n'est validée avant la relecture. Ce test changera à la validation du lot 10.
-test('5.11 : le lot 10 est entièrement proposé (24 entrées), journal compris', () => {
+// A2-04 · 5.11 fermée : le lot 10 est entièrement validé (aucune fusion), avec tout son journal.
+// Les 22 candidats lieu_gare y ont été rejetés un par un : aucun tag dans le lot.
+test('5.11 : le lot 10 est entièrement validé (24 entrées), journal compris', () => {
   const lot10 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-10.json'), 'utf8'));
   assert.equal(Object.keys(lot10.entries).length, 24);
-  assert.ok(Object.values(lot10.entries).every((e) => e.status === 'proposed'));
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  assert.ok(journal.filter((j) => j.lot === 'lot-10').every((j) => j.status === 'proposed'));
+  assert.ok(Object.values(lot10.entries).every((e) => e.status === 'validated'));
+  assert.ok(Object.values(lot10.entries).every((e) => !e.retire), 'aucune fusion dans le lot 10');
+  const tagged = Object.entries(lot10.entries).filter(([, e]) => e.fields.tags.length || e.fields.senses.some((s) => (s.tags || []).length)).map(([id]) => id);
+  assert.deepEqual(tagged, [], 'aucun tag de lieu dans le lot 10');
+  assert.equal(lot10.entries.n5_v_347.fields.grammatical_class, 'nom', '先 : classe nom');
+  assert.deepEqual(lot10.additions, []);
+  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-10');
+  assert.equal(own.length, 56);
+  assert.ok(own.every((j) => j.status === 'validated'));
 });
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du
