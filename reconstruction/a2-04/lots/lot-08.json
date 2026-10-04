@@ -878,7 +878,8 @@
     "n5_v_643": {
       "status": "validated",
       "journal": [
-        "A2-04-D0526"
+        "A2-04-D0526",
+        "A2-04-D0838"
       ],
       "fields": {
         "writings": [],
@@ -905,6 +906,15 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "きって",
+            "romaji": "kitte",
+            "furigana": "<ruby>切<rt>きっ</rt></ruby><ruby>手<rt>て</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }

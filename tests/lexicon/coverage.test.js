@@ -25,8 +25,9 @@ export const COVERAGE = Object.freeze({
   I1: ['champ-inconnu', 'champ-manquant', 'type-invalide'],
   I2: ['entree-id', 'id-duplique', 'id-retire'],
   I3: ['niveau-fichier'],
-  I4: ['forme-invalide', 'lecture-manquante', 'lecture-defaut', 'kana-invalide', 'furigana-invalide', 'furigana-base'],
-  I5: ['graphie-doublon', 'furigana-invalide', 'furigana-base'],
+  // furigana-lecture : compléments d'I4 et d'I5 par l'addendum A8.
+  I4: ['forme-invalide', 'lecture-manquante', 'lecture-defaut', 'kana-invalide', 'furigana-invalide', 'furigana-base', 'furigana-lecture'],
+  I5: ['graphie-doublon', 'furigana-invalide', 'furigana-base', 'furigana-lecture'],
   I6: ['classe-inconnue', 'group-invalide', 'suru-compatible', 'compteur-vide', 'compteur-inconnu'],
   I7: ['sens-manquant', 'sens-id', 'id-duplique', 'id-retire', 'sens-retire-invalide'],
   I8: ['sens-libelle'],

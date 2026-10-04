@@ -30,10 +30,12 @@ faut savoir est dans le dépôt.
 
 - **Patcher par remplacement ciblé**, jamais réécrire un fichier entier existant.
 - **`node --check`** sur chaque fichier JS modifié.
-- **Fonctions appelées par `onclick`** : toujours exposées sur `window` dans `app.js` (méthode de
-  vérification : `REGLES-CONSTRUCTION.md`).
-- **Bouton retour ou FAB** : appelle toujours `history.back()`, jamais la fonction de l'écran
-  parent (cela provoque une boucle de navigation).
+- **Événements d'interface par délégation** (`REGLES-CONSTRUCTION.md` §6) : les éléments cliquables
+  portent `data-action="…"`, traité par un écouteur unique par écran. **Interdit** : `onclick` ou
+  tout autre gestionnaire écrit dans le HTML généré, et toute fonction exposée sur `window` pour
+  l'interface.
+- **Retour** : toujours `history.back()`, jamais l'appel direct à l'écran parent (cela provoque une
+  boucle de navigation). Exception : ⌂ et les onglets de la barre du bas remplacent la pile.
 - **La conception est verrouillée** (`docs/conception/`, snapshots A2) : toute évolution passe par
   un addendum explicite, validé avant d'être codé. Jamais de modification « en passant ».
 - **Une proposition ne vaut jamais validation.** Ne jamais passer quoi que ce soit en `validated`
@@ -92,26 +94,35 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-04)
 
-- **Lots 0 à 11 validés** : assemblage réel attendu, **414 ENTRY, 31 retraits, 274 entrées
-  écartées**, 734 décisions validées.
-- **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : 31 entrées et 92
-  décisions D0735 à D0826, toutes **`proposed`**. Ses arbitrages sémantiques sont acceptés, mais
-  **sa validation est suspendue** au chantier 5.13-C.
+- **Lots 0 à 12 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **445 ENTRY,
+  31 retraits, 243 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 844 décisions validées
+  (D0001 à D0844), aucune proposition en cours.
+- **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
+  97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
+  `docs/rapports/etape2-tache5-13-lot12-valide.md`).
 - **Chantier 5.13-C** (furigana) : 16 lectures ou graphies ont des furigana qui contredisent les
-  kana, dont 11 dans des lots validés. Le validateur ne le contrôle pas encore. Décisions déjà
-  prises par l'utilisateur :
-  - **(A) la segmentation d'une lecture spéciale** relève d'une liste fermée (今朝, 昨夜, 今年,
-    大人) ;
+  kana, dont **13 dans des lots validés** (11 au relevé initial, plus お巡りさん et 靴下) et 3 dans
+  le lot 12. **Chantier clos.** Décisions prises par l'utilisateur :
+  - **(A) la segmentation d'une lecture spéciale** relève d'une liste fermée ;
   - **(B) la contradiction furigana / kana** relève d'une règle générale et d'un invariant (addendum
-    A8, à écrire, complément d'I4) ;
+    A8) ;
   - **les cas validés sont corrigés maintenant**, par une réouverture contrôlée et journalisée ;
   - **近々 → ちかじか** ;
   - **スポーツ** : c'est le kana qui est faux (すぷーつ → すぽーつ).
-- **En attente d'arbitrage** : les cinq points du rapport `docs/rapports/etape2-tache5-13c-portee.md`
-  (portée d'A8 sur les graphies, 風邪, 八百屋, forme de la réouverture, ordre des identifiants).
-  **Ne rien écrire de 5.13-C avant cet arbitrage.**
-- **Ensuite** : 5.13b (corrections du lot 12), validation du lot 12, puis la composition du lot 13
-  (calendrier, dates, durées), dont le périmètre n'est pas encore figé.
+- **Addendum A8, validé et implémenté** (`docs/conception/addendum-A8-furigana.md`) : il complète
+  I4 (lectures) et I5 (graphies, contre la lecture par défaut), erreur `furigana-lecture` ; la règle
+  détecte, un humain choisit le champ à corriger ; liste A de cinq lectures dans `rules.mjs` (大人,
+  今年, 今朝, 昨夜 à corriger ; 今日 seulement protégée).
+- **13 corrections validées** (rapport `docs/rapports/etape2-tache5-13c-valide.md`) : 13 entrées des
+  lots 00, 01, 03, 05, 08 et 09 ont été rouvertes, corrigées par les décisions `correction` D0827 à
+  D0839, puis revalidées.
+- **5.13b, révision du lot 12, validée avec lui** : cinq lectures (今年, 今朝, 昨夜, 近々, 夕方 ;
+  D0840 à D0844) et la raison de D0746 (昨日), bloc par nécessité. Une décision n'invoque
+  « jukujikun » que pour une entrée de la liste fermée d'A8 ; un test le contrôle.
+- **Ensuite** : la composition du lot 13 (5.14 : calendrier, dates, durées), dont le périmètre
+  n'est pas encore figé. **Aucune décision avant la validation de ce périmètre.**
+- **Contrôle** : Claude réalise dans le dépôt, Codex relit et reproduit les chiffres sur le dépôt
+  réel, l'utilisateur arbitre.
 
 ## 6. Ce qui change avec Claude Code
 

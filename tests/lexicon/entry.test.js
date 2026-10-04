@@ -111,15 +111,44 @@ test('I4 : furigana, structure validée avant le texte de base', () => {
     const codes = errs((x, e) => { e.readings[0].furigana = f; });
     assert.ok(codes.includes('furigana-invalide') && !codes.includes('furigana-base'), `${f} : ${JSON.stringify(codes)}`);
   }
-  for (const f of ['<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>い', '<ruby>高<rt>た</rt>い<rt>い</rt></ruby>']) {
+  // Plusieurs paires dans un même <ruby>, <rp> ignoré : la lecture recomposée reste たかい (A8).
+  for (const f of ['<ruby>高<rp>(</rp><rt>たか</rt><rp>)</rp></ruby>い', '<ruby>高<rt>たか</rt>い<rt>い</rt></ruby>']) {
     assertClean((x, e) => { e.readings[0].furigana = f; }, f);
   }
 });
 
-test('parseFurigana : texte de base, et mots sans kanji', () => {
-  assert.deepEqual(parseFurigana('<ruby>日<rt>に</rt>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>'), { base: '日曜日' });
-  assert.deepEqual(parseFurigana('きれい'), { base: 'きれい' });
+test('parseFurigana : texte de base, lecture recomposée, et mots sans kanji', () => {
+  assert.deepEqual(parseFurigana('<ruby>日<rt>に</rt>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>'), { base: '日曜日', reading: 'にようび' });
+  assert.deepEqual(parseFurigana('お<ruby>兄<rp>(</rp><rt>にい</rt><rp>)</rp></ruby>さん'), { base: 'お兄さん', reading: 'おにいさん' });
+  assert.deepEqual(parseFurigana('きれい'), { base: 'きれい', reading: 'きれい' });
   assert.ok(parseFurigana('<rt>x</rt>').error);
+});
+
+// ── Addendum A8 · concordance des furigana et des kana (compléments d'I4 et d'I5) ──
+
+test('A8, I4 : la lecture recomposée des furigana d\'une lecture est égale à son kana', () => {
+  // Le texte de base est juste dans tous ces cas : seul le contenu des <rt> est en cause.
+  const only = (change) => { const codes = errs(change); assert.deepEqual(codes, ['furigana-lecture'], JSON.stringify(codes)); };
+  only((x, e) => { e.readings[0].furigana = '<ruby>高<rt>た</rt></ruby>い'; });       // syllabe manquante
+  only((x, e) => { e.readings[0].furigana = '<ruby>高<rt>だか</rt></ruby>い'; });     // voisement
+  only((x, e) => { e.readings[0].furigana = '<ruby>高<rt>た高</rt></ruby>い'; });     // kanji dans un <rt>
+  only((x, e) => { e.readings[0].kana = 'たがい'; });                                  // c'est le kana qui est faux
+  // Katakana et hiragana se valent des deux côtés ; « ー » est conservé.
+  const kata = (kana, word = 'スポーツ') => (x, e) => { e.word = word; e.readings[0] = { ...e.readings[0], kana, furigana: word }; };
+  assertClean(kata('すぽーつ'), 'forme en katakana, kana en hiragana');
+  assertClean(kata('スポーツ'), 'forme et kana en katakana');
+  only(kata('すぷーつ'));
+  only(kata('すぽおつ'));                                                              // « ー » n'est pas « お »
+});
+
+test('A8, I5 : les furigana d\'une graphie recomposent la lecture par défaut', () => {
+  assertClean((x, e) => { e.writings = [{ form: '髙い', furigana: '<ruby>髙<rt>たか</rt></ruby>い' }]; }, 'graphie concordante');
+  const codes = errs((x, e) => { e.writings = [{ form: '髙い', furigana: '<ruby>髙<rt>た</rt></ruby>い' }]; });
+  assert.deepEqual(codes, ['furigana-lecture']);
+  // Contre la lecture par défaut, et elle seule (schema-A2-01, §5).
+  const second = { kana: 'こうい', romaji: 'koui', furigana: '<ruby>高<rt>こう</rt></ruby>い', default: false, note: null };
+  assertClean((x, e) => { e.readings.push(second); e.writings = [{ form: '髙い', furigana: '<ruby>髙<rt>たか</rt></ruby>い' }]; }, 'lecture par défaut');
+  assertErr('furigana-lecture', (x, e) => { e.readings.push(second); e.writings = [{ form: '髙い', furigana: '<ruby>髙<rt>こう</rt></ruby>い' }]; }, 'autre lecture');
 });
 
 // ── I5 · autres formes ──

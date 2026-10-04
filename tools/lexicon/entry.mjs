@@ -20,10 +20,15 @@ import { checkSenses } from './sense.mjs';
 
 const TOKEN = /<\/?(?:ruby|rt|rp)>|<[^>]*>?|>|[^<>]+/g;
 
-/** @returns {{ base: string } | { error: string }} */
+/**
+ * `base` : texte de base hors <rt> ; `reading` : lecture recomposée (addendum A8, §2.1), soit le
+ * texte hors <ruby> tel quel et le contenu de chaque <rt> à la place de sa base.
+ * @returns {{ base: string, reading: string } | { error: string }}
+ */
 export function parseFurigana(text) {
   const tokens = text.match(TOKEN) || [];
   let base = '';
+  let reading = '';
   let i = 0;
   const next = () => tokens[i++];
   const isTag = (t) => t !== undefined && t.startsWith('<');
@@ -49,6 +54,7 @@ export function parseFurigana(text) {
         if (rt.error) return rt;
         if (tokens[i] === '<rp>') { i += 1; const rp = readText('rp'); if (rp.error) return rp; }
         base += b;
+        reading += rt.text;
         pairs += 1;
       }
       if (pairs === 0) return { error: '<ruby> vide' };
@@ -56,15 +62,30 @@ export function parseFurigana(text) {
       return { error: `balise non admise : « ${t} »` };
     } else {
       base += t;
+      reading += t;
     }
   }
-  return { base };
+  return { base, reading };
 }
 
-function checkFurigana(report, where, furigana, form, label) {
+/** Clé de comparaison de kana (addendum A8, §2.1) : katakana → hiragana, « ー » conservé. */
+export const kanaKey = (text) => [...text].map((c) => {
+  const code = c.codePointAt(0);
+  return code >= 0x30A1 && code <= 0x30F6 ? String.fromCodePoint(code - 0x60) : c;
+}).join('');
+
+/** Addendum A8 : la lecture recomposée des furigana est-elle celle des kana ? */
+export const furiganaMatchesKana = (reading, kana) => kanaKey(reading) === kanaKey(kana);
+
+// `kana` : lecture que les furigana doivent recomposer (addendum A8) ; absente, la concordance
+// n'est pas contrôlée (lecture par défaut introuvable, déjà signalée par I4).
+function checkFurigana(report, where, furigana, form, label, kana) {
   const parsed = parseFurigana(furigana);
   if (parsed.error) { report.error('furigana-invalide', where, `${label} : ${parsed.error}`); return; }
   if (parsed.base !== form) report.error('furigana-base', where, `${label} : texte de base « ${parsed.base} » au lieu de « ${form} »`);
+  if (typeof kana === 'string' && kana !== '' && !furiganaMatchesKana(parsed.reading, kana)) {
+    report.error('furigana-lecture', where, `${label} : lecture recomposée « ${parsed.reading} » au lieu de « ${kana} » (addendum A8)`);
+  }
 }
 
 /** Kanji d'un mot, calculés à partir de sa forme : distincts, dans l'ordre. Jamais stockés. */
@@ -99,20 +120,22 @@ function checkEntry(report, ctx, file, entry, i) {
     entry.readings.forEach((r, k) => {
       const rWhere = `${where} · readings[${k}]`;
       if (usable(r, 'kana', 'text') && !KANA_READING.test(r.kana)) report.error('kana-invalide', rWhere, `« ${r.kana} » n'est pas en kana seulement`);
-      if (usable(r, 'furigana', 'text') && word !== null) checkFurigana(report, rWhere, r.furigana, word, 'furigana de la lecture');
+      if (usable(r, 'furigana', 'text') && word !== null) checkFurigana(report, rWhere, r.furigana, word, 'furigana de la lecture', usable(r, 'kana', 'text') ? r.kana : undefined);
       if (usable(r, 'romaji', 'text') && MACRON.test(r.romaji)) report.warn('romaji-macron', rWhere, `romaji avec macron : « ${r.romaji} »`); // A1
     });
   }
 
-  // I5 · autres formes graphiques
+  // I5 · autres formes graphiques ; leurs furigana recomposent la lecture par défaut (A8)
   if (usable(entry, 'writings', 'list')) {
     const forms = new Set(word !== null ? [word] : []);
+    const defaults = usable(entry, 'readings', 'list') ? entry.readings.filter((r) => r?.default === true) : [];
+    const defaultKana = defaults.length === 1 && usable(defaults[0], 'kana', 'text') ? defaults[0].kana : undefined;
     entry.writings.forEach((w, k) => {
       const wWhere = `${where} · writings[${k}]`;
       if (!usable(w, 'form', 'text')) return;
       if (forms.has(w.form)) report.error('graphie-doublon', wWhere, `forme « ${w.form} » déjà présente`);
       forms.add(w.form);
-      if (usable(w, 'furigana', 'text')) checkFurigana(report, wWhere, w.furigana, w.form, 'furigana de la forme');
+      if (usable(w, 'furigana', 'text')) checkFurigana(report, wWhere, w.furigana, w.form, 'furigana de la forme', defaultKana);
     });
   }
 

@@ -893,6 +893,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 - **A2-04-D0281** (decision, tags) : Association pas assez caractéristique du lieu (critère des tags de lieu du lot 02) : le mot peut s'y employer, mais il n'appartient pas au vocabulaire d'action propre à ce contexte. Candidats écartés. — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0282** (abandon, senses) : Redondant. — avant `["Papier toilette"]` → après `null`
+- **A2-04-D0832** (correction, readings) : Addendum A8 (I4) : les furigana se lisaient ちりかみ au lieu de ちりがみ (voisement perdu ; romaji de la fiche : chirigami). — avant `"ちり<ruby>紙<rt>かみ</rt></ruby>"` → après `"ちり<ruby>紙<rt>がみ</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -908,13 +909,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"ちり紙"`
-- readings : `[{"kana":"ちりがみ","romaji":"chirigami","furigana":"ちり<ruby>紙<rt>かみ</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
 **Décision**
 
+- readings : `[{"kana":"ちりがみ","romaji":"chirigami","furigana":"ちり<ruby>紙<rt>がみ</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`

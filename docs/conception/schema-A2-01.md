@@ -5,6 +5,8 @@ Addendum A5 (`addendum-A5-category-null.md`) : I9 précisé, `category: null` pe
 lexical sur décision justifiée (avertissement `categorie-nulle` au lieu d'une erreur).
 Addendum A6 (`addendum-A6-semantic-type-null.md`) : I10 modifié, `semantic_type: null` permis
 quand aucun type terminal ne convient, indépendamment de `category` (avertissement `type-nul`).
+Addendum A8 (`addendum-A8-furigana.md`) : I4 et I5 complétés, la lecture recomposée des furigana
+est égale aux kana (erreur `furigana-lecture`).
 
 **Objet** : la forme exacte des données de vocabulaire d'Ocha v2 et les contrôles que le
 validateur (A2-03) leur applique.
@@ -120,7 +122,7 @@ relation.
 |---|---|---|
 | `kana` | texte | en kana seulement, sans « / » |
 | `romaji` | texte | sans macron (GUIDE-CONTENU) |
-| `furigana` | texte | furigana de la forme usuelle pour cette lecture ; texte de base hors `<rt>` égal à `word` |
+| `furigana` | texte | furigana de la forme usuelle pour cette lecture ; texte de base hors `<rt>` égal à `word` ; lecture recomposée égale à `kana` (addendum A8) |
 | `default` | booléen | exactement une lecture vaut `true` |
 | `note` | texte ou `null` | condition d'emploi de cette lecture |
 
@@ -129,7 +131,7 @@ relation.
 | Champ | Type | Règle |
 |---|---|---|
 | `form` | texte | différente de `word` et des autres formes |
-| `furigana` | texte | pour la lecture par défaut ; texte de base hors `<rt>` égal à `form` |
+| `furigana` | texte | pour la lecture par défaut ; texte de base hors `<rt>` égal à `form` ; lecture recomposée égale au `kana` de la lecture par défaut (addendum A8) |
 
 ## 6. Propriétés linguistiques
 
@@ -222,8 +224,8 @@ catégories.
 | I1 | **Schéma strict** : tout champ hors schéma, à n'importe quel niveau (ENTRY, lecture, forme, propriétés linguistiques, SENSE, sous-objets), est une erreur |
 | I2 | Identifiant d'ENTRY de forme `v_<n>`, unique dans tous les fichiers de vocabulaire, absent de `vocab-retired.json` |
 | I3 | `level` parmi `N5` à `N1` et `hors_jlpt`, égal au niveau du fichier |
-| I4 | `word` sans « / » ; au moins une lecture, exactement une `default: true` ; `kana` en kana seulement, sans « / » ; texte de base des furigana hors `<rt>` égal à `word` |
-| I5 | `writings` : chaque `form` différente de `word` et des autres formes ; texte de base des furigana hors `<rt>` égal à `form` |
+| I4 | `word` sans « / » ; au moins une lecture, exactement une `default: true` ; `kana` en kana seulement, sans « / » ; texte de base des furigana hors `<rt>` égal à `word` ; lecture recomposée des furigana égale au `kana` de la lecture (addendum A8) |
+| I5 | `writings` : chaque `form` différente de `word` et des autres formes ; texte de base des furigana hors `<rt>` égal à `form` ; lecture recomposée des furigana égale au `kana` de la lecture par défaut (addendum A8) |
 | I6 | `grammatical_class` dans son registre ; `group` parmi `ru`, `u`, `irrégulier`, `suru`, `i`, `na`, `nom` ou `null` ; `suru_compatible: true` seulement avec `group: nom` ; `counter_for` non vide et dans son registre |
 | I7 | Au moins un SENSE ; identifiant `<id de l'ENTRY>_s<m>`, unique, absent de `retired_sense_ids` ; chaque identifiant de `retired_sense_ids` a la forme d'un sens de cette ENTRY |
 | I8 | `meaning.primary` non vide ; alternatives non vides, distinctes entre elles et du libellé |

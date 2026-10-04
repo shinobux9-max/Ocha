@@ -3,7 +3,7 @@
   "title": "Temps relatif, moments de la journée et fréquence",
   "entries": {
     "n5_v_284": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0748",
         "A2-04-D0749",
@@ -47,7 +47,7 @@
       }
     },
     "n5_v_286": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0792",
         "A2-04-D0793",
@@ -85,7 +85,7 @@
       }
     },
     "n5_v_290": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0752",
         "A2-04-D0753",
@@ -129,7 +129,7 @@
       }
     },
     "n5_v_298": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0735",
         "A2-04-D0736"
@@ -169,11 +169,12 @@
       }
     },
     "n5_v_299": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0783",
         "A2-04-D0784",
-        "A2-04-D0785"
+        "A2-04-D0785",
+        "A2-04-D0840"
       ],
       "fields": {
         "writings": [],
@@ -203,11 +204,20 @@
               "pragmatic_discourse": []
             }
           }
+        ],
+        "readings": [
+          {
+            "kana": "ことし",
+            "romaji": "kotoshi",
+            "furigana": "<ruby>今年<rt>ことし</rt></ruby>",
+            "default": true,
+            "note": null
+          }
         ]
       }
     },
     "n5_v_300": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0737",
         "A2-04-D0738",
@@ -245,7 +255,7 @@
       }
     },
     "n5_v_301": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0759",
         "A2-04-D0760",
@@ -285,7 +295,7 @@
       }
     },
     "n5_v_302": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0774",
         "A2-04-D0775",
@@ -323,11 +333,12 @@
       }
     },
     "n5_v_303": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0756",
         "A2-04-D0757",
-        "A2-04-D0758"
+        "A2-04-D0758",
+        "A2-04-D0841"
       ],
       "fields": {
         "writings": [],
@@ -357,11 +368,20 @@
               "pragmatic_discourse": []
             }
           }
+        ],
+        "readings": [
+          {
+            "kana": "けさ",
+            "romaji": "kesa",
+            "furigana": "<ruby>今朝<rt>けさ</rt></ruby>",
+            "default": true,
+            "note": null
+          }
         ]
       }
     },
     "n5_v_304": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0765",
         "A2-04-D0766",
@@ -399,7 +419,7 @@
       }
     },
     "n5_v_305": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0777",
         "A2-04-D0778",
@@ -437,7 +457,7 @@
       }
     },
     "n5_v_306": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0768",
         "A2-04-D0769",
@@ -475,7 +495,7 @@
       }
     },
     "n5_v_310": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0812",
         "A2-04-D0813",
@@ -513,7 +533,7 @@
       }
     },
     "n5_v_312": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0786",
         "A2-04-D0787",
@@ -551,7 +571,7 @@
       }
     },
     "n5_v_315": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0809",
         "A2-04-D0810",
@@ -589,7 +609,7 @@
       }
     },
     "n5_v_318": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0740",
         "A2-04-D0741",
@@ -628,11 +648,12 @@
       }
     },
     "n5_v_319": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0762",
         "A2-04-D0763",
-        "A2-04-D0764"
+        "A2-04-D0764",
+        "A2-04-D0842"
       ],
       "fields": {
         "writings": [
@@ -673,11 +694,20 @@
               "pragmatic_discourse": []
             }
           }
+        ],
+        "readings": [
+          {
+            "kana": "ゆうべ",
+            "romaji": "yuube",
+            "furigana": "<ruby>昨夜<rt>ゆうべ</rt></ruby>",
+            "default": true,
+            "note": null
+          }
         ]
       }
     },
     "n5_v_320": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0744",
         "A2-04-D0745",
@@ -725,7 +755,7 @@
       }
     },
     "n5_v_322": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0806",
         "A2-04-D0807",
@@ -763,7 +793,7 @@
       }
     },
     "n5_v_324": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0797",
         "A2-04-D0798"
@@ -800,7 +830,7 @@
       }
     },
     "n5_v_326": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0789",
         "A2-04-D0790",
@@ -838,7 +868,7 @@
       }
     },
     "n5_v_327": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0780",
         "A2-04-D0781",
@@ -876,7 +906,7 @@
       }
     },
     "n5_v_328": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0771",
         "A2-04-D0772",
@@ -914,7 +944,7 @@
       }
     },
     "n5_v_330": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0818",
         "A2-04-D0819"
@@ -951,7 +981,7 @@
       }
     },
     "n5_v_331": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0822",
         "A2-04-D0823",
@@ -989,7 +1019,7 @@
       }
     },
     "n5_v_333": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0820",
         "A2-04-D0821"
@@ -1026,7 +1056,7 @@
       }
     },
     "n5_v_334": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0824",
         "A2-04-D0825"
@@ -1063,10 +1093,11 @@
       }
     },
     "n5_v_359": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0795",
-        "A2-04-D0796"
+        "A2-04-D0796",
+        "A2-04-D0843"
       ],
       "fields": {
         "writings": [],
@@ -1099,15 +1130,25 @@
               "pragmatic_discourse": []
             }
           }
+        ],
+        "readings": [
+          {
+            "kana": "ちかじか",
+            "romaji": "chikajika",
+            "furigana": "<ruby>近<rt>ちか</rt></ruby><ruby>々<rt>じか</rt></ruby>",
+            "default": true,
+            "note": null
+          }
         ]
       }
     },
     "n5_v_439": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0803",
         "A2-04-D0804",
-        "A2-04-D0805"
+        "A2-04-D0805",
+        "A2-04-D0844"
       ],
       "fields": {
         "writings": [],
@@ -1137,11 +1178,20 @@
               "pragmatic_discourse": []
             }
           }
+        ],
+        "readings": [
+          {
+            "kana": "ゆうがた",
+            "romaji": "yuugata",
+            "furigana": "<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>がた</rt></ruby>",
+            "default": true,
+            "note": null
+          }
         ]
       }
     },
     "n5_v_649": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0815",
         "A2-04-D0816",
@@ -1177,7 +1227,7 @@
       }
     },
     "n5_v_670": {
-      "status": "proposed",
+      "status": "validated",
       "journal": [
         "A2-04-D0799",
         "A2-04-D0800",

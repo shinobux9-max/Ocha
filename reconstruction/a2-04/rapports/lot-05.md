@@ -354,6 +354,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Statut** : décision validée
 
 - **A2-04-D0382** (abandon, senses) : Les deux premiers ne sont pas équivalents (le manteau se dit コート) ; le troisième est repris dans la nuance. — avant `["Blouson","Manteau","Vêtement du dessus"]` → après `null`
+- **A2-04-D0833** (correction, readings) : Addendum A8 (I4) : les furigana se lisaient うえぎ au lieu de うわぎ (romaji de la fiche : uwagi). — avant `"<ruby>上<rt>うえ</rt></ruby><ruby>着<rt>ぎ</rt></ruby>"` → après `"<ruby>上<rt>うわ</rt></ruby><ruby>着<rt>ぎ</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -369,12 +370,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"上着"`
-- readings : `[{"kana":"うわぎ","romaji":"uwagi","furigana":"<ruby>上<rt>うえ</rt></ruby><ruby>着<rt>ぎ</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Décision**
 
+- readings : `[{"kana":"うわぎ","romaji":"uwagi","furigana":"<ruby>上<rt>うわ</rt></ruby><ruby>着<rt>ぎ</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -891,6 +893,8 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 **Statut** : décision validée
 
+- **A2-04-D0834** (correction, readings) : Addendum A8 (I4) : les furigana se lisaient ざいふ au lieu de さいふ (romaji de la fiche : saifu). — avant `"<ruby>財<rt>ざい</rt></ruby><ruby>布<rt>ふ</rt></ruby>"` → après `"<ruby>財<rt>さい</rt></ruby><ruby>布<rt>ふ</rt></ruby>"`
+
 | Champ source | Valeur |
 |---|---|
 | mot, lecture | 財布 · さいふ · saifu |
@@ -905,12 +909,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"財布"`
-- readings : `[{"kana":"さいふ","romaji":"saifu","furigana":"<ruby>財<rt>ざい</rt></ruby><ruby>布<rt>ふ</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Décision**
 
+- readings : `[{"kana":"さいふ","romaji":"saifu","furigana":"<ruby>財<rt>さい</rt></ruby><ruby>布<rt>ふ</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -1195,6 +1200,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 - **A2-04-D0359** (decision, tags) : lieu_gare (ancienne catégorie « lieux ») écarté : un commerce de quartier, sans lien avec la gare. — avant `["lieu_gare"]` → après `[]`
 - **A2-04-D0360** (abandon, senses) : Repris dans la nuance. — avant `["Épicerie de quartier (fruits et légumes)"]` → après `null`
+- **A2-04-D0835** (correction, readings) : Addendum A8 (I4) : les furigana se lisaient やおおや au lieu de やおや (romaji de la fiche : yaoya). Correction minimale : 八百 porte やお, 屋 garde や ; pas de bloc sur le mot entier. — avant `"<ruby>八<rt>やお</rt></ruby><ruby>百<rt>お</rt></ruby><ruby>屋<rt>や</rt></ruby>"` → après `"<ruby>八百<rt>やお</rt></ruby><ruby>屋<rt>や</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -1210,13 +1216,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"八百屋"`
-- readings : `[{"kana":"やおや","romaji":"yaoya","furigana":"<ruby>八<rt>やお</rt></ruby><ruby>百<rt>お</rt></ruby><ruby>屋<rt>や</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 - tags de lieu candidats (à confirmer) : lieu_gare
 
 **Décision**
 
+- readings : `[{"kana":"やおや","romaji":"yaoya","furigana":"<ruby>八百<rt>やお</rt></ruby><ruby>屋<rt>や</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -1373,6 +1380,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - **A2-04-D0407** (decision, senses) : Un seul concept documenté par la source (« les bagages de voyage, les paquets ou les colis postaux ») : la chose qu'on porte ou fait transporter. — avant `["Bagage","Colis","Paquet","Fardeau"]` → après `"un seul sens"`
 - **A2-04-D0408** (categorie-nulle, sens 1 · category) : Aucune catégorie primaire pertinente : 荷物 est ce qui est porté ou transporté, pas une utilisation des transports, et le registre n'a pas de catégorie des bagages ni des marchandises (révision 5.6b). Le type sémantique objet_artefact reste connu. Addendum A5.
 - **A2-04-D0409** (abandon, senses) : Sens figuré, hors N5. — avant `["Fardeau"]` → après `null`
+- **A2-04-D0836** (correction, readings) : Addendum A8 (I4) : les furigana se lisaient にもの au lieu de にもつ (romaji de la fiche : nimotsu). — avant `"<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もの</rt></ruby>"` → après `"<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もつ</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -1388,12 +1396,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"荷物"`
-- readings : `[{"kana":"にもつ","romaji":"nimotsu","furigana":"<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もの</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Décision**
 
+- readings : `[{"kana":"にもつ","romaji":"nimotsu","furigana":"<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もつ</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -1507,6 +1516,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Statut** : décision validée
 
 - **A2-04-D0390** (abandon, senses) : Pas équivalent : les bas se disent ストッキング. — avant `["Bas"]` → après `null`
+- **A2-04-D0837** (correction, readings) : Addendum A8 (I4) : un kanji dans le <rt> (下) ; la lecture recomposée donnait くつ下 au lieu de くつした (romaji de la fiche : kutsushita). — avant `"<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>下</rt></ruby>"` → après `"<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>した</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -1522,12 +1532,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"靴下"`
-- readings : `[{"kana":"くつした","romaji":"kutsushita","furigana":"<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>下</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Décision**
 
+- readings : `[{"kana":"くつした","romaji":"kutsushita","furigana":"<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>した</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`

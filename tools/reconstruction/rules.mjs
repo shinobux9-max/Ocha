@@ -69,6 +69,20 @@ export const WORD_EXCEPTION_IDS = Object.freeze({ n5_v_668: '明い' });
 // Arbitrage du lot 06 : 平仮名 → ひらがな (平仮名 devient une autre graphie).
 export const USUAL_FORM_IDS = Object.freeze({ n5_v_604: '平仮名' });
 
+// ── Lectures ────────────────────────────────────────────────────────────────
+
+// Lectures spéciales (addendum A8, §4, règle A) : transcription de la liste fermée normative. La
+// fiche source qualifie elle-même la lecture de spéciale ; les furigana s'écrivent en bloc, un
+// seul <ruby> sur le mot entier. Toute entrée de la liste est PROTÉGÉE (une lecture décidée doit
+// être le bloc) ; elle n'est À CORRIGER, donc décidable, que si les furigana de la source sont
+// segmentés (今日, déjà en bloc, reste mécanique). Ce n'est PAS une règle générale (« toute
+// lecture irrégulière s'écrit en bloc ») : chaque entrée y entre par un arbitrage explicite.
+export const SPECIAL_READING_IDS = Object.freeze({
+  n5_v_28: '大人', n5_v_299: '今年', n5_v_300: '今日', n5_v_303: '今朝', n5_v_319: '昨夜'
+});
+/** Furigana en bloc d'une lecture spéciale. */
+export const blockFurigana = (word, kana) => `<ruby>${word}<rt>${kana}</rt></ruby>`;
+
 // ── Groupe morphologique ────────────────────────────────────────────────────
 
 // Valeurs de `group` compatibles avec chaque classe (schema-A2-01.md, §6). Une classe sans

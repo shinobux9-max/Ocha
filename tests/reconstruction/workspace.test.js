@@ -10,6 +10,37 @@ import { renderLotReport } from '../../tools/reconstruction/report.mjs';
 import { assemble, validateAssembly } from '../../tools/reconstruction/assemble.mjs';
 import { ROOT, WORK, SOURCES, DEPS, fieldsFor, validated, lot } from './helpers.mjs';
 
+// A2-04 · 5.13-C (addendum A8), fermée : 13 entrées déjà validées avaient des furigana qui
+// contredisaient les kana. Elles ont été rouvertes, corrigées par une décision « correction »
+// chacune (D0827 à D0839), puis revalidées. Leurs lots sont de nouveau ENTIÈREMENT validés : aucune
+// entrée n'y est tolérée en « proposed ». Leur journal compte une décision de plus par entrée
+// corrigée, en plus des décisions historiques, dont le nombre n'a pas changé.
+const CORRECTED_513C = Object.freeze({
+  'lot-00': ['n5_v_555'],
+  'lot-01': ['n5_v_15', 'n5_v_16', 'n5_v_28', 'n5_v_283'],
+  'lot-03': ['n5_v_229'],
+  'lot-05': ['n5_v_77', 'n5_v_223', 'n5_v_640', 'n5_v_694', 'n5_v_715'],
+  'lot-08': ['n5_v_643'],
+  'lot-09': ['n5_v_190']
+});
+const FIRST_CORRECTION = 'A2-04-D0827';
+const readJournal = () => JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
+const readLots = () => readdirSync(join(WORK, 'lots')).filter((f) => f.endsWith('.json')).sort().map((f) => JSON.parse(readFileSync(join(WORK, 'lots', f), 'utf8')));
+// Un lot clos est entièrement validé : aucune entrée proposée, sans exception.
+const assertAllValidated = (l) => assert.deepEqual(
+  Object.entries(l.entries).filter(([, e]) => e.status !== 'validated').map(([id]) => id), [], `${l.lot} : entièrement validé`);
+// Journal d'un lot clos : ses décisions historiques, en nombre attendu ; une correction 5.13-C par
+// entrée corrigée, et rien d'autre ; toutes validées.
+function assertLotJournal(name, historic) {
+  const own = readJournal().filter((j) => j.lot === name);
+  const before = own.filter((j) => j.id < FIRST_CORRECTION);
+  const after = own.filter((j) => j.id >= FIRST_CORRECTION);
+  assert.equal(before.length, historic, `${name} : décisions historiques`);
+  assert.deepEqual(after.map((j) => j.entry).sort(), [...(CORRECTED_513C[name] ?? [])].sort(), `${name} : une correction par entrée corrigée`);
+  assert.ok(after.every((j) => j.kind === 'correction'), `${name} : corrections 5.13-C`);
+  assert.ok(own.every((j) => j.status === 'validated'), `${name} : journal entièrement validé`);
+}
+
 test('sources : conformes au manifeste ; une modification est détectée', () => {
   assert.deepEqual(verifySources(join(WORK, 'sources')), []);
   const dir = mkdtempSync(join(tmpdir(), 'ocha-sources-'));
@@ -26,23 +57,18 @@ test('sources : conformes au manifeste ; une modification est détectée', () =>
 test('5.1 : le lot 0 est entièrement validé (60 entrées), sans ajout', () => {
   const lot0 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-00.json'), 'utf8'));
   assert.equal(Object.keys(lot0.entries).length, 60);
-  assert.ok(Object.values(lot0.entries).every((e) => e.status === 'validated'));
+  assertAllValidated(lot0);
   assert.deepEqual(lot0.additions, []);
-  const cited = new Set(Object.values(lot0.entries).flatMap((e) => e.journal ?? []));
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  assert.ok(journal.filter((j) => cited.has(j.id)).every((j) => j.status === 'validated'), 'journal du lot 0 validé');
+  assertLotJournal('lot-00', 74);
 });
 
 // A2-04 · 5.2 fermée : le lot 01 est entièrement validé, avec tout son journal.
 test('5.2 : le lot 01 est entièrement validé (49 entrées), journal compris', () => {
   const lot1 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-01.json'), 'utf8'));
   assert.equal(Object.keys(lot1.entries).length, 49);
-  assert.ok(Object.values(lot1.entries).every((e) => e.status === 'validated'));
+  assertAllValidated(lot1);
   assert.deepEqual(lot1.additions, []);
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  const own = journal.filter((j) => j.lot === 'lot-01');
-  assert.equal(own.length, 66);
-  assert.ok(own.every((j) => j.status === 'validated'));
+  assertLotJournal('lot-01', 66);
 });
 
 // A2-04 · 5.3 fermée : le lot 02 est entièrement validé, avec tout son journal.
@@ -61,12 +87,10 @@ test('5.3 : le lot 02 est entièrement validé (41 entrées), journal compris', 
 test('5.4 : le lot 03 est entièrement validé (40 entrées dont 1 retrait), journal compris', () => {
   const lot3 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-03.json'), 'utf8'));
   assert.equal(Object.keys(lot3.entries).length, 40);
-  assert.ok(Object.values(lot3.entries).every((e) => e.status === 'validated'));
+  assertAllValidated(lot3);
   assert.deepEqual(Object.entries(lot3.entries).filter(([, e]) => e.retire).map(([id, e]) => [id, e.retire.merged_into]), [['n5_v_220', 'n5_v_219']]);
   assert.deepEqual(lot3.additions, []);
-  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-03');
-  assert.equal(own.length, 72);
-  assert.ok(own.every((j) => j.status === 'validated'));
+  assertLotJournal('lot-03', 72);
 });
 
 // A2-04 · 5.5 fermée : le lot 04 est entièrement validé (38 entrées gardées, 出ます fusionné dans
@@ -88,13 +112,11 @@ test('5.5 : le lot 04 est entièrement validé (39 entrées dont 1 retrait), jou
 test('5.6 : le lot 05 est entièrement validé (37 entrées), journal compris', () => {
   const lot5 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-05.json'), 'utf8'));
   assert.equal(Object.keys(lot5.entries).length, 37);
-  assert.ok(Object.values(lot5.entries).every((e) => e.status === 'validated'));
+  assertAllValidated(lot5);
   assert.ok(Object.values(lot5.entries).every((e) => !e.retire), 'aucune fusion dans le lot 05');
   assert.ok(['hj_v_1', 'hj_v_2'].every((id) => lot5.entries[id]), 'les deux mots hors JLPT');
   assert.deepEqual(lot5.additions, []);
-  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-05');
-  assert.equal(own.length, 55);
-  assert.ok(own.every((j) => j.status === 'validated'));
+  assertLotJournal('lot-05', 55);
 });
 
 // A2-04 · 5.7 fermée : le lot 06 est entièrement validé (aucune fusion ; 平仮名 → ひらがな par la
@@ -143,14 +165,12 @@ test('compteurs : seule 匹 porte un counter, dans tous les lots', () => {
 test('5.9 : le lot 08 est entièrement validé (29 entrées), journal compris', () => {
   const lot8 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-08.json'), 'utf8'));
   assert.equal(Object.keys(lot8.entries).length, 29);
-  assert.ok(Object.values(lot8.entries).every((e) => e.status === 'validated'));
+  assertAllValidated(lot8);
   assert.ok(Object.values(lot8.entries).every((e) => !e.retire), 'aucune fusion dans le lot 08');
   const suru = Object.entries(lot8.entries).filter(([, e]) => e.fields.suru_compatible).map(([id]) => id);
   assert.deepEqual(suru, ['n5_v_702'], 'seul 質問 a une compatibilité avec する établie par la source');
   assert.deepEqual(lot8.additions, []);
-  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-08');
-  assert.equal(own.length, 36);
-  assert.ok(own.every((j) => j.status === 'validated'));
+  assertLotJournal('lot-08', 36);
 });
 
 // A2-04 · 5.10 fermée : le lot 09 est entièrement validé (散歩する fusionné dans 散歩), avec tout
@@ -159,14 +179,12 @@ test('5.9 : le lot 08 est entièrement validé (29 entrées), journal compris', 
 test('5.10 : le lot 09 est entièrement validé (20 entrées dont 1 retrait), journal compris', () => {
   const lot9 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-09.json'), 'utf8'));
   assert.equal(Object.keys(lot9.entries).length, 20);
-  assert.ok(Object.values(lot9.entries).every((e) => e.status === 'validated'));
+  assertAllValidated(lot9);
   assert.deepEqual(Object.entries(lot9.entries).filter(([, e]) => e.retire).map(([id, e]) => [id, e.retire.merged_into]), [['n5_v_194', 'n5_v_193']]);
   const suru = Object.entries(lot9.entries).filter(([, e]) => e.fields && e.fields.suru_compatible).map(([id]) => id);
   assert.deepEqual(suru, ['n5_v_193', 'n5_v_195', 'n5_v_245']);
   assert.deepEqual(lot9.additions, []);
-  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-09');
-  assert.equal(own.length, 35);
-  assert.ok(own.every((j) => j.status === 'validated'));
+  assertLotJournal('lot-09', 35);
 });
 
 // A2-04 · 5.11 fermée : le lot 10 est entièrement validé (aucune fusion), avec tout son journal.
@@ -206,23 +224,83 @@ test('5.12 : le lot 11 est entièrement validé (34 entrées), journal compris',
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
-// A2-04 · 5.13 : le lot 12 est livré en PROPOSITION, journal compris ; aucune de ses décisions
-// n'est validée avant la relecture. Ce test changera à la validation du lot 12. Il ne vérifie que
-// le lot 12 : il n'impose pas l'axe temporel d'A7 aux lots déjà clos (réservation A2-05).
-test('5.13 : le lot 12 est entièrement proposé (31 entrées), journal compris', () => {
+// A2-04 · 5.13 fermée : le lot 12 est entièrement validé (aucune fusion, aucun tag de lieu), avec
+// tout son journal : 92 décisions initiales (D0735 à D0826) et 5 lectures de la révision 5.13b
+// (D0840 à D0844). Premier lot de l'axe temporel d'A7 : 20 sens déictiques, appliqués sens par sens
+// (« être un mot temporel ≠ être déictique »), dans 20 entrées ; 11 entrées n'en portent pas. Ce
+// test ne vérifie que le lot 12 : il n'impose pas l'axe temporel d'A7 aux lots clos avant lui
+// (réservation A2-05).
+test('5.13 : le lot 12 est entièrement validé (31 entrées), journal compris', () => {
   const lot12 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-12.json'), 'utf8'));
   assert.equal(Object.keys(lot12.entries).length, 31);
-  assert.ok(Object.values(lot12.entries).every((e) => e.status === 'proposed'));
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  assert.ok(journal.filter((j) => j.lot === 'lot-12').every((j) => j.status === 'proposed'));
+  assertAllValidated(lot12);
+  assert.ok(Object.values(lot12.entries).every((e) => !e.retire), 'aucune fusion dans le lot 12');
+  const tagged = Object.entries(lot12.entries).filter(([, e]) => e.fields.tags.length || e.fields.senses.some((s) => (s.tags || []).length)).map(([id]) => id);
+  assert.deepEqual(tagged, [], 'aucun tag de lieu dans le lot 12');
+  const deictic = (e) => e.fields.senses.filter((s) => s.linguistic_functions.grammatical.includes('deictique')).length;
+  const entries = Object.values(lot12.entries);
+  assert.equal(entries.reduce((n, e) => n + deictic(e), 0), 20, 'sens déictiques (A7, axe du temps)');
+  assert.equal(entries.filter((e) => deictic(e) === 0).length, 11, 'entrées sans fonction déictique');
+  assert.deepEqual(lot12.additions, []);
+  const own = readJournal().filter((j) => j.lot === 'lot-12');
+  assert.equal(own.length, 97);
+  assert.ok(own.every((j) => j.status === 'validated'));
+});
+
+// A2-04 · 5.13b, révision du lot 12 : l'addendum A8 rend décidables cinq lectures, 今年, 今朝, 昨夜
+// (liste A, en bloc), 近々 et 夕方 (contradictions), avec une décision « correction » chacune
+// (D0840 à D0844) ; les 92 décisions initiales du lot (D0735 à D0826) gardent leur identifiant et
+// leur place.
+test('5.13b : cinq lectures du lot 12 décidées (D0840 à D0844), et elles seules', () => {
+  const lot12 = readLots().find((l) => l.lot === 'lot-12');
+  const journal = readJournal();
+  const own = journal.filter((j) => j.lot === 'lot-12');
+  assert.deepEqual(own.slice(0, 92).map((j) => j.id), Array.from({ length: 92 }, (_, k) => `A2-04-D${String(735 + k).padStart(4, '0')}`));
+  const added = own.slice(92);
+  assert.deepEqual(added.map((j) => [j.id, j.entry, j.field, j.kind, j.status]), [
+    ['A2-04-D0840', 'n5_v_299', 'readings', 'correction', 'validated'],
+    ['A2-04-D0841', 'n5_v_303', 'readings', 'correction', 'validated'],
+    ['A2-04-D0842', 'n5_v_319', 'readings', 'correction', 'validated'],
+    ['A2-04-D0843', 'n5_v_359', 'readings', 'correction', 'validated'],
+    ['A2-04-D0844', 'n5_v_439', 'readings', 'correction', 'validated']
+  ]);
+  // 昨日 (n5_v_320) décidait déjà sa lecture dans la proposition initiale (D0746, furigana source
+  // invalides) : sa lecture n'est pas touchée par 5.13b.
+  const all = Object.entries(lot12.entries).filter(([, e]) => Object.hasOwn(e.fields, 'readings'));
+  assert.deepEqual(all.map(([id]) => id).sort(), ['n5_v_320', ...added.map((j) => j.entry)].sort());
+  const decided = all.filter(([id]) => id !== 'n5_v_320');
+  const furigana = Object.fromEntries(decided.map(([id, e]) => [id, e.fields.readings.map((r) => [r.kana, r.furigana])]));
+  assert.deepEqual(furigana, {
+    n5_v_299: [['ことし', '<ruby>今年<rt>ことし</rt></ruby>']],
+    n5_v_303: [['けさ', '<ruby>今朝<rt>けさ</rt></ruby>']],
+    n5_v_319: [['ゆうべ', '<ruby>昨夜<rt>ゆうべ</rt></ruby>']],
+    n5_v_359: [['ちかじか', '<ruby>近<rt>ちか</rt></ruby><ruby>々<rt>じか</rt></ruby>']],
+    n5_v_439: [['ゆうがた', '<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>がた</rt></ruby>']]
+  });
+  for (const [id, e] of decided) assert.equal(e.journal.at(-1), added.find((j) => j.entry === id).id, `${id} : cite sa correction`);
+  // 昨日 : bloc par nécessité (A8, §3), décidé par D0746, à sa place et sous le même identifiant.
+  const d746 = journal.find((j) => j.id === 'A2-04-D0746');
+  assert.deepEqual([d746.entry, d746.field, d746.kind, d746.status, d746.after], ['n5_v_320', 'readings', 'correction', 'validated', '<ruby>昨日<rt>きのう</rt></ruby>']);
+  assert.match(d746.reason, /Bloc par nécessité \(addendum A8/);
+});
+
+// La fiche source décide : une décision n'attribue une lecture « spéciale » ou « jukujikun » qu'à
+// une entrée de la liste fermée d'A8, la seule dont la fiche le dit. Ailleurs, un bloc se justifie
+// par la nécessité, pas par une connaissance externe.
+test('journal : « jukujikun » n\'est invoqué que pour une entrée de la liste fermée d\'A8', () => {
+  const special = ['n5_v_28', 'n5_v_299', 'n5_v_300', 'n5_v_303', 'n5_v_319'];
+  const claims = readJournal().filter((j) => /jukujikun/i.test(j.reason) && !special.includes(j.entry));
+  assert.deepEqual(claims.map((j) => `${j.id} ${j.entry}`), []);
 });
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du
 // validateur lexical, ni attente. Les comptes suivent les décisions validées, lot après lot.
+// Après la validation du lot 12 : 445 ENTRY, 31 retraits, 243 entrées écartées ; le complément
+// d'I4 et d'I5 (addendum A8) passe sur toutes les ENTRY assemblées. Aucune proposition n'est en
+// cours : toutes les entrées décidées et tout le journal sont validés.
 test('espace de travail réel : assemblage partiel sans problème ni erreur', () => {
-  const lots = readdirSync(join(WORK, 'lots')).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(WORK, 'lots', f), 'utf8')));
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  const a = assemble({ sources: SOURCES, lots, journal });
+  const lots = readLots();
+  const a = assemble({ sources: SOURCES, lots, journal: readJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
@@ -230,6 +308,57 @@ test('espace de travail réel : assemblage partiel sans problème ni erreur', ()
   const decisions = lots.flatMap((l) => Object.values(l.entries)).filter((d) => d.status === 'validated');
   assert.equal(a.files.reduce((n, f) => n + f.entries.length, 0), decisions.filter((d) => d.fields).length);
   assert.equal(a.retired.length, 1 + decisions.filter((d) => d.retire).length);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [445, 31, 243]);
+  assert.ok(a.excluded.every((x) => x.reason === 'non décidée'), 'aucune proposition en cours');
+  assert.ok(lots.every((l) => Object.values(l.entries).every((d) => d.status === 'validated')), 'toutes les entrées décidées sont validées');
+});
+
+// 5.13-C fermée : les 13 corrections sont VALIDÉES. Chacune porte sur le seul champ en cause, cite
+// sa décision de correction, et ne touche pas aux décisions historiques de l'entrée.
+test('5.13-C : 13 entrées corrigées et revalidées, une correction validée chacune (D0827 à D0839)', () => {
+  const journal = readJournal();
+  const byId = new Map(journal.map((j) => [j.id, j]));
+  const corrections = journal.filter((j) => j.id >= FIRST_CORRECTION && j.lot !== 'lot-12');
+  assert.deepEqual(corrections.map((j) => j.id), Array.from({ length: 13 }, (_, k) => `A2-04-D${String(827 + k).padStart(4, '0')}`));
+  assert.ok(corrections.every((j) => j.status === 'validated' && j.kind === 'correction'));
+  // Tout le journal est validé : 844 décisions, D0001 à D0844, sans trou.
+  assert.ok(journal.every((j) => j.status === 'validated'));
+  assert.deepEqual(journal.map((j) => j.id), Array.from({ length: 844 }, (_, k) => `A2-04-D${String(k + 1).padStart(4, '0')}`));
+  const lots = new Map(readLots().map((l) => [l.lot, l]));
+  const expected = {
+    n5_v_555: ['writings', '<ruby>曲<rt>まが</rt></ruby>る'],
+    n5_v_15: ['おまわりさん', 'お<ruby>巡<rt>まわ</rt></ruby>りさん'],
+    n5_v_16: ['おにいさん', 'お<ruby>兄<rt>にい</rt></ruby>さん'],
+    n5_v_28: ['おとな', '<ruby>大人<rt>おとな</rt></ruby>'],
+    n5_v_283: ['かぜ', '<ruby>風邪<rt>かぜ</rt></ruby>'],
+    n5_v_229: ['ちりがみ', 'ちり<ruby>紙<rt>がみ</rt></ruby>'],
+    n5_v_77: ['うわぎ', '<ruby>上<rt>うわ</rt></ruby><ruby>着<rt>ぎ</rt></ruby>'],
+    n5_v_223: ['さいふ', '<ruby>財<rt>さい</rt></ruby><ruby>布<rt>ふ</rt></ruby>'],
+    n5_v_640: ['やおや', '<ruby>八百<rt>やお</rt></ruby><ruby>屋<rt>や</rt></ruby>'],
+    n5_v_694: ['にもつ', '<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もつ</rt></ruby>'],
+    n5_v_715: ['くつした', '<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>した</rt></ruby>'],
+    n5_v_643: ['きって', '<ruby>切<rt>きっ</rt></ruby><ruby>手<rt>て</rt></ruby>'],
+    n5_v_190: ['すぽーつ', 'スポーツ']
+  };
+  for (const [name, ids] of Object.entries(CORRECTED_513C)) {
+    for (const id of ids) {
+      const d = lots.get(name).entries[id];
+      assert.equal(d.status, 'validated', id);
+      const added = d.journal.map((j) => byId.get(j)).filter((j) => j.id >= FIRST_CORRECTION);
+      assert.equal(added.length, 1, `${id} : une seule correction`);
+      assert.deepEqual([added[0].lot, added[0].entry, added[0].status, added[0].kind], [name, id, 'validated', 'correction']);
+      // 曲がる : la graphie 曲る ; les autres : la lecture, devenue décidable par A8.
+      if (id === 'n5_v_555') {
+        assert.equal(added[0].field, 'writings');
+        assert.ok(!Object.hasOwn(d.fields, 'readings'));
+        assert.deepEqual(d.fields.writings, [{ form: '曲る', furigana: expected[id][1] }]);
+      } else {
+        assert.equal(added[0].field, 'readings', id);
+        assert.deepEqual(d.fields.readings.map((r) => [r.kana, r.furigana]), [expected[id]], id);
+      }
+    }
+  }
+  assert.equal(Object.values(CORRECTED_513C).flat().length, 13);
 });
 
 test('journal : chaque décision est citée par une entrée de lot', () => {

@@ -10,7 +10,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_17 → v_17 · お姉さん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0001** (fusion, entrée) : Doublon exact de お姉さん (même mot, même lecture, mêmes sens) ; n5_v_17 survit (plus petit numéro), ses furigana sont valides. — avant `null` → après `"n5_v_17"`
 
@@ -32,7 +32,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -48,7 +48,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_591 → v_591 · お姉さん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0001** (fusion, entrée) : Doublon exact de お姉さん (même mot, même lecture, mêmes sens) ; n5_v_17 survit (plus petit numéro), ses furigana sont valides. — avant `null` → après `"n5_v_17"`
 
@@ -78,7 +78,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_18 → v_18 · お母さん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0002** (fusion, entrée) : Doublon exact de お母さん ; n5_v_18 survit (plus petit numéro). — avant `null` → après `"n5_v_18"`
 
@@ -100,7 +100,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -115,7 +115,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_592 → v_592 · お母さん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0002** (fusion, entrée) : Doublon exact de お母さん ; n5_v_18 survit (plus petit numéro). — avant `null` → après `"n5_v_18"`
 
@@ -145,7 +145,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_19 → v_19 · お父さん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0003** (fusion, entrée) : Doublon exact de お父さん ; n5_v_19 survit (plus petit numéro). — avant `null` → après `"n5_v_19"`
 
@@ -167,7 +167,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -182,7 +182,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_590 → v_590 · お父さん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0003** (fusion, entrée) : Doublon exact de お父さん ; n5_v_19 survit (plus petit numéro). — avant `null` → après `"n5_v_19"`
 
@@ -212,7 +212,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_474 → v_474 · 美味しい
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0004** (fusion, entrée) : Doublon exact de 美味しい ; n5_v_474 survit (plus petit numéro). — avant `null` → après `"n5_v_474"`
 - **A2-04-D0005** (correction, readings) : Furigana source incohérents : le texte de base donnait 美しい au lieu de 美味しい. — avant `"<ruby>美<rt>おい</rt></ruby>しい"` → après `"<ruby>美味<rt>おい</rt></ruby>しい"`
@@ -235,7 +235,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"i"`
 - readings : **exception**, furigana incohérents avec la forme
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"おいしい","romaji":"oishii","furigana":"<ruby>美味<rt>おい</rt></ruby>しい","default":true,"note":null}]`
 - writings : `[]`
@@ -251,7 +251,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_587 → v_587 · 美味しい
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0004** (fusion, entrée) : Doublon exact de 美味しい ; n5_v_474 survit (plus petit numéro). — avant `null` → après `"n5_v_474"`
 
@@ -281,7 +281,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_10 → v_10 · 面白い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0006** (fusion, entrée) : Doublon exact de 面白い ; n5_v_10 survit (plus petit numéro). — avant `null` → après `"n5_v_10"`
 - **A2-04-D0007** (decision, senses) : Deux sens exploitables : ce qui captive l'esprit, et ce qui divertit ou fait rire. — avant `["Intéressant","Amusant","Divertissant","Drôle"]` → après `["S1 Intéressant","S2 Amusant (divertissant, drôle)"]`
@@ -304,7 +304,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -320,7 +320,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_588 → v_588 · 面白い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0006** (fusion, entrée) : Doublon exact de 面白い ; n5_v_10 survit (plus petit numéro). — avant `null` → après `"n5_v_10"`
 
@@ -350,7 +350,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_510 → v_510 · 本当
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0008** (fusion, entrée) : Doublon exact de 本当 ; n5_v_510 survit (plus petit numéro). — avant `null` → après `"n5_v_510"`
 - **A2-04-D0044** (abandon, senses) : Traduction trop éloignée du sens « vérité » ; l'emploi « sérieusement » relève de 本当に, décrit dans la nuance. — avant `["Sérieux"]` → après `null`
@@ -374,7 +374,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -389,7 +389,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_514 → v_514 · 本当
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0008** (fusion, entrée) : Doublon exact de 本当 ; n5_v_510 survit (plus petit numéro). — avant `null` → après `"n5_v_510"`
 
@@ -419,7 +419,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_559 → v_559 · 浴びる
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0009** (fusion, entrée) : Doublon exact de 浴びる ; n5_v_559 survit (plus petit numéro). — avant `null` → après `"n5_v_559"`
 - **A2-04-D0045** (abandon, senses) : Traduction redondante avec « S'asperger ». — avant `["S'arroser"]` → après `null`
@@ -442,7 +442,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"ru"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -458,7 +458,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_582 → v_582 · 浴びる
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0009** (fusion, entrée) : Doublon exact de 浴びる ; n5_v_559 survit (plus petit numéro). — avant `null` → après `"n5_v_559"`
 
@@ -488,7 +488,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_564 → v_564 · 無くす
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0010** (fusion, entrée) : Doublon exact de 無くす ; n5_v_564 survit (plus petit numéro). — avant `null` → après `"n5_v_564"`
 - **A2-04-D0046** (abandon, senses) : Sens de 無くす au sens de « supprimer » (無くす = faire disparaître) : hors N5, non repris ; à rouvrir si un lot le juge utile. — avant `["Se débarrasser de"]` → après `null`
@@ -512,7 +512,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -527,7 +527,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_601 → v_601 · 無くす
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0010** (fusion, entrée) : Doublon exact de 無くす ; n5_v_564 survit (plus petit numéro). — avant `null` → après `"n5_v_564"`
 
@@ -557,7 +557,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_594 → v_594 · 醤油
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0011** (fusion, entrée) : Doublon exact de 醤油 ; n5_v_594 survit (plus petit numéro). — avant `null` → après `"n5_v_594"`
 - **A2-04-D0012** (correction, readings) : Furigana source invalides (ruby imbriqué), ceux du doublon aussi (油 répété). — avant `"<ruby>醤<ruby>油<rt>しょうゆ</rt></ruby></ruby>"` → après `"<ruby>醤油<rt>しょうゆ</rt></ruby>"`
@@ -581,7 +581,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - readings : **exception**, furigana incohérents avec la forme
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"しょうゆ","romaji":"shouyu","furigana":"<ruby>醤油<rt>しょうゆ</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
@@ -597,7 +597,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_706 → v_706 · 醤油
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0011** (fusion, entrée) : Doublon exact de 醤油 ; n5_v_594 survit (plus petit numéro). — avant `null` → après `"n5_v_594"`
 
@@ -628,7 +628,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_44 → v_44 · おなか
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0013** (fusion, entrée) : Même unité lexicale que おなか ; お腹 est une autre graphie. n5_v_44 survit (plus petit numéro). — avant `null` → après `"n5_v_44"`
 - **A2-04-D0057** (decision, word) : Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : お腹 ; おなか devient une autre graphie. — avant `"おなか"` → après `"お腹"`
@@ -652,7 +652,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - word : `"お腹"`
 - readings : `[{"kana":"おなか","romaji":"onaka","furigana":"お<ruby>腹<rt>なか</rt></ruby>","default":true,"note":null}]`
@@ -669,7 +669,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_45 → v_45 · お腹
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0013** (fusion, entrée) : Même unité lexicale que おなか ; お腹 est une autre graphie. n5_v_44 survit (plus petit numéro). — avant `null` → après `"n5_v_44"`
 
@@ -699,7 +699,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_64 → v_64 · 鞄
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0014** (fusion, entrée) : Même unité lexicale que 鞄 ; かばん est une autre graphie. n5_v_64 survit (plus petit numéro). — avant `null` → après `"n5_v_64"`
 - **A2-04-D0047** (abandon, senses) : Une valise se dit スーツケース ; « sac, cartable, sacoche » couvrent le sens. — avant `["Valise"]` → après `null`
@@ -723,7 +723,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - word : `"かばん"`
 - readings : `[{"kana":"かばん","romaji":"kaban","furigana":"かばん","default":true,"note":null}]`
@@ -740,7 +740,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_227 → v_227 · かばん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0014** (fusion, entrée) : Même unité lexicale que 鞄 ; かばん est une autre graphie. n5_v_64 survit (plus petit numéro). — avant `null` → après `"n5_v_64"`
 
@@ -771,7 +771,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_87 → v_87 · くだもの
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0015** (fusion, entrée) : Même unité lexicale que くだもの ; 果物 est une autre graphie. n5_v_87 survit (plus petit numéro). — avant `null` → après `"n5_v_87"`
 - **A2-04-D0048** (abandon, senses) : Redondant avec « Fruit ». — avant `["Fruits frais"]` → après `null`
@@ -796,7 +796,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - word : `"果物"`
 - readings : `[{"kana":"くだもの","romaji":"kudamono","furigana":"<ruby>果<rt>くだ</rt></ruby><ruby>物<rt>もの</rt></ruby>","default":true,"note":null}]`
@@ -813,7 +813,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_107 → v_107 · 果物
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0015** (fusion, entrée) : Même unité lexicale que くだもの ; 果物 est une autre graphie. n5_v_87 survit (plus petit numéro). — avant `null` → après `"n5_v_87"`
 
@@ -844,7 +844,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_91 → v_91 · ばんごはん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0016** (fusion, entrée) : Même unité lexicale que ばんごはん ; 晩ご飯 est une autre graphie. n5_v_91 survit (plus petit numéro). — avant `null` → après `"n5_v_91"`
 - **A2-04-D0060** (decision, word) : Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : 晩ご飯 ; ばんごはん devient une autre graphie. — avant `"ばんごはん"` → après `"晩ご飯"`
@@ -868,7 +868,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - word : `"晩ご飯"`
 - readings : `[{"kana":"ばんごはん","romaji":"bangohan","furigana":"<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>","default":true,"note":null}]`
@@ -885,7 +885,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_106 → v_106 · 晩ご飯
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0016** (fusion, entrée) : Même unité lexicale que ばんごはん ; 晩ご飯 est une autre graphie. n5_v_91 survit (plus petit numéro). — avant `null` → après `"n5_v_91"`
 
@@ -916,7 +916,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_92 → v_92 · ひるごはん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0017** (fusion, entrée) : Même unité lexicale que ひるごはん ; 昼ご飯 est une autre graphie. n5_v_92 survit (plus petit numéro). — avant `null` → après `"n5_v_92"`
 - **A2-04-D0061** (decision, word) : Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : 昼ご飯 ; ひるごはん devient une autre graphie. — avant `"ひるごはん"` → après `"昼ご飯"`
@@ -940,7 +940,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - word : `"昼ご飯"`
 - readings : `[{"kana":"ひるごはん","romaji":"hirugohan","furigana":"<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>","default":true,"note":null}]`
@@ -957,7 +957,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_105 → v_105 · 昼ご飯
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0017** (fusion, entrée) : Même unité lexicale que ひるごはん ; 昼ご飯 est une autre graphie. n5_v_92 survit (plus petit numéro). — avant `null` → après `"n5_v_92"`
 
@@ -988,7 +988,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_226 → v_226 · かぎ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0018** (fusion, entrée) : Même unité lexicale que かぎ ; 鍵 est une autre graphie. n5_v_226 survit (plus petit numéro). — avant `null` → après `"n5_v_226"`
 - **A2-04-D0049** (abandon, senses) : Emploi informatique hors N5, non repris comme sens ; à rouvrir si nécessaire. — avant `["Mot de passe (informatique)"]` → après `null`
@@ -1013,7 +1013,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - word : `"鍵"`
 - readings : `[{"kana":"かぎ","romaji":"kagi","furigana":"<ruby>鍵<rt>かぎ</rt></ruby>","default":true,"note":null}]`
@@ -1030,7 +1030,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_238 → v_238 · 鍵
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0018** (fusion, entrée) : Même unité lexicale que かぎ ; 鍵 est une autre graphie. n5_v_226 survit (plus petit numéro). — avant `null` → après `"n5_v_226"`
 
@@ -1061,7 +1061,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_228 → v_228 · せっけん
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0019** (fusion, entrée) : Même unité lexicale que せっけん ; 石鹸 est une autre graphie. n5_v_228 survit (plus petit numéro). — avant `null` → après `"n5_v_228"`
 - **A2-04-D0050** (abandon, senses) : Redondant avec « Savon » et « Savonnette ». — avant `["Pain de savon"]` → après `null`
@@ -1085,7 +1085,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"石鹸","furigana":"<ruby>石鹸<rt>せっけん</rt></ruby>"}]`
 - suru_compatible : `false`
@@ -1100,7 +1100,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_235 → v_235 · 石鹸
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0019** (fusion, entrée) : Même unité lexicale que せっけん ; 石鹸 est une autre graphie. n5_v_228 survit (plus petit numéro). — avant `null` → après `"n5_v_228"`
 
@@ -1131,7 +1131,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_263 → v_263 · くもり
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0020** (fusion, entrée) : Même unité lexicale que くもり ; 曇り est une autre graphie. n5_v_263 survit (plus petit numéro). — avant `null` → après `"n5_v_263"`
 - **A2-04-D0051** (abandon, senses) : Le nuage se dit 雲 (くも) ; くもり désigne le temps nuageux. — avant `["Nuage"]` → après `null`
@@ -1155,7 +1155,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - word : `"曇り"`
 - readings : `[{"kana":"くもり","romaji":"kumori","furigana":"<ruby>曇<rt>くも</rt></ruby>り","default":true,"note":null}]`
@@ -1172,7 +1172,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_276 → v_276 · 曇り
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0020** (fusion, entrée) : Même unité lexicale que くもり ; 曇り est une autre graphie. n5_v_263 survit (plus petit numéro). — avant `null` → après `"n5_v_263"`
 
@@ -1202,7 +1202,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_285 → v_285 · おととし
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0022** (fusion, entrée) : Même unité lexicale que おととし ; 一昨年 est une autre graphie. n5_v_285 survit (plus petit numéro). — avant `null` → après `"n5_v_285"`
 - **A2-04-D0021** (correction, senses) : Sens principal source erroné : おととし désigne l'année d'avant l'an dernier, pas l'an dernier (去年). — avant `"L'année dernière"` → après `"Il y a deux ans"`
@@ -1226,7 +1226,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"一昨年","furigana":"<ruby>一昨年<rt>おととし</rt></ruby>"}]`
 - suru_compatible : `false`
@@ -1241,7 +1241,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_289 → v_289 · 一昨年
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0022** (fusion, entrée) : Même unité lexicale que おととし ; 一昨年 est une autre graphie. n5_v_285 survit (plus petit numéro). — avant `null` → après `"n5_v_285"`
 
@@ -1272,7 +1272,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_423 → v_423 · かわいい
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0023** (fusion, entrée) : Même unité lexicale que かわいい ; 可愛い est une autre graphie. n5_v_423 survit (plus petit numéro). — avant `null` → après `"n5_v_423"`
 - **A2-04-D0024** (correction, writings) : Furigana source de 可愛い (n5_v_437) erronés : ils se lisaient かあいい au lieu de かわいい. — avant `"<ruby>可<rt>か</rt></ruby><ruby>愛<rt>あい</rt></ruby>い"` → après `"<ruby>可<rt>か</rt></ruby><ruby>愛<rt>わい</rt></ruby>い"`
@@ -1295,7 +1295,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"可愛い","furigana":"<ruby>可<rt>か</rt></ruby><ruby>愛<rt>わい</rt></ruby>い"}]`
 - suru_compatible : `false`
@@ -1310,7 +1310,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_437 → v_437 · 可愛い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0023** (fusion, entrée) : Même unité lexicale que かわいい ; 可愛い est une autre graphie. n5_v_423 survit (plus petit numéro). — avant `null` → après `"n5_v_423"`
 
@@ -1328,9 +1328,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"可愛い"`
-- readings : `[{"kana":"かわいい","romaji":"kawaii","furigana":"<ruby>可<rt>か</rt></ruby><ruby>愛<rt>あい</rt></ruby>い","default":true,"note":null}]`
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Retrait** : fusion dans n5_v_423
 
@@ -1340,7 +1340,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_68 → v_68 · はく
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0025** (fusion, entrée) : Même unité lexicale que はく ; 履く est une autre graphie. n5_v_68 survit (plus petit numéro). — avant `null` → après `"n5_v_68"`
 - **A2-04-D0064** (decision, word) : Forme usuelle décidée à la fusion (arbitrage du lot 0, 4.2 b) : 履く ; はく devient une autre graphie. — avant `"はく"` → après `"履く"`
@@ -1363,7 +1363,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
 - word : `"履く"`
 - readings : `[{"kana":"はく","romaji":"haku","furigana":"<ruby>履<rt>は</rt></ruby>く","default":true,"note":null}]`
@@ -1380,7 +1380,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_549 → v_549 · 履く
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0025** (fusion, entrée) : Même unité lexicale que はく ; 履く est une autre graphie. n5_v_68 survit (plus petit numéro). — avant `null` → après `"n5_v_68"`
 
@@ -1410,7 +1410,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_424 → v_424 · きれい
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0027** (fusion, entrée) : Même unité lexicale que きれい ; 綺麗 est une autre graphie. n5_v_424 survit (plus petit numéro). — avant `null` → après `"n5_v_424"`
 - **A2-04-D0026** (decision, senses) : Deux sens exploitables : la beauté visuelle et la propreté. — avant `["Joli","Propre","Beau","Net"]` → après `["S1 Beau (joli)","S2 Propre (net)"]`
@@ -1434,7 +1434,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_na"`
 - group : `"na"`
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"綺麗","furigana":"<ruby>綺<rt>き</rt></ruby><ruby>麗<rt>れい</rt></ruby>"}]`
 - suru_compatible : `false`
@@ -1450,7 +1450,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_472 → v_472 · 綺麗
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0027** (fusion, entrée) : Même unité lexicale que きれい ; 綺麗 est une autre graphie. n5_v_424 survit (plus petit numéro). — avant `null` → après `"n5_v_424"`
 
@@ -1480,7 +1480,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_420 → v_420 · いい / 良い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0036** (fusion, entrée) : 良い et いい / 良い sont la même unité ; n5_v_420 survit (plus petit numéro). — avant `null` → après `"n5_v_420"`
 - **A2-04-D0037** (decision, word) : La forme source contenait deux formes. Forme usuelle いい ; 良い devient une autre graphie. La lecture よい n'est pas une lecture structurée : ses furigana devraient avoir いい pour texte de base (I4), ce qui est impossible ; elle est décrite dans la nuance de l'ENTRY. — avant `"いい / 良い"` → après `"いい"`
@@ -1505,7 +1505,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - word : **exception**, forme contenant « / »
 - readings : **exception**, dépend de la forme, en exception
 
-**Proposition**
+**Décision**
 
 - word : `"いい"`
 - readings : `[{"kana":"いい","romaji":"ii","furigana":"いい","default":true,"note":null}]`
@@ -1522,7 +1522,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_583 → v_583 · 良い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0036** (fusion, entrée) : 良い et いい / 良い sont la même unité ; n5_v_420 survit (plus petit numéro). — avant `null` → après `"n5_v_420"`
 
@@ -1540,7 +1540,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"良い"`
-- readings : `[{"kana":"いい","romaji":"ii","furigana":"<ruby>良<rt>よ</rt></ruby>い","default":true,"note":null}]`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 - grammatical_class : **exception**, ancien type « adjectif » sans classe par défaut
 - group : **exception**, dépend de la classe, en exception
 
@@ -1552,7 +1552,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_459 → v_459 · 朝ご飯
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0028** (fusion, entrée) : Même unité lexicale que 朝ご飯 ; 朝御飯 est une autre graphie. n5_v_459 survit (plus petit numéro). — avant `null` → après `"n5_v_459"`
 
@@ -1575,7 +1575,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_konbini, lieu_restaurant
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"朝御飯","furigana":"<ruby>朝<rt>あさ</rt></ruby><ruby>御<rt>ご</rt></ruby><ruby>飯<rt>はん</rt></ruby>"}]`
 - suru_compatible : `false`
@@ -1590,7 +1590,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_460 → v_460 · 朝御飯
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0028** (fusion, entrée) : Même unité lexicale que 朝ご飯 ; 朝御飯 est une autre graphie. n5_v_459 survit (plus petit numéro). — avant `null` → après `"n5_v_459"`
 
@@ -1621,10 +1621,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_555 → v_555 · 曲がる
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0030** (fusion, entrée) : Même unité lexicale que 曲がる ; 曲る est une autre graphie. n5_v_555 survit (plus petit numéro). 曲る est une variante ancienne d'okurigana. — avant `null` → après `"n5_v_555"`
 - **A2-04-D0029** (decision, senses) : Deux sens exploitables : changer de direction, et être tordu ou incurvé. — avant `["Tourner","Prendre un virage","Être courbé","Ployer"]` → après `["S1 Tourner","S2 Être courbé"]`
+- **A2-04-D0827** (correction, writings) : Addendum A8 (I5) : les furigana de la graphie 曲る se lisaient まる au lieu de まがる, la lecture par défaut (romaji de la fiche : magaru). — avant `"<ruby>曲<rt>ま</rt></ruby>る"` → après `"<ruby>曲<rt>まが</rt></ruby>る"`
 
 | Champ source | Valeur |
 |---|---|
@@ -1644,9 +1645,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"verbe"`
 - group : `"u"`
 
-**Proposition**
+**Décision**
 
-- writings : `[{"form":"曲る","furigana":"<ruby>曲<rt>ま</rt></ruby>る"}]`
+- writings : `[{"form":"曲る","furigana":"<ruby>曲<rt>まが</rt></ruby>る"}]`
 - suru_compatible : `false`
 - suffix : `false`
 - counter : `null`
@@ -1660,7 +1661,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_672 → v_672 · 曲る
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0030** (fusion, entrée) : Même unité lexicale que 曲がる ; 曲る est une autre graphie. n5_v_555 survit (plus petit numéro). 曲る est une variante ancienne d'okurigana. — avant `null` → après `"n5_v_555"`
 
@@ -1678,9 +1679,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"曲る"`
-- readings : `[{"kana":"まがる","romaji":"magaru","furigana":"<ruby>曲<rt>ま</rt></ruby>る","default":true,"note":null}]`
 - grammatical_class : `"verbe"`
 - group : `"u"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Retrait** : fusion dans n5_v_555
 
@@ -1690,7 +1691,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_455 → v_455 · 明るい
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0031** (fusion, entrée) : 明い est une graphie fautive de 明るい (okurigana incomplet) : l'entrée est absorbée, sans devenir une autre graphie. — avant `null` → après `"n5_v_455"`
 - **A2-04-D0032** (correction, readings) : Furigana source incohérents : le texte de base donnait 明い au lieu de 明るい. — avant `"<ruby>明<rt>あかる</rt></ruby>い"` → après `"<ruby>明<rt>あか</rt></ruby>るい"`
@@ -1714,7 +1715,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"i"`
 - readings : **exception**, furigana incohérents avec la forme
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"あかるい","romaji":"akarui","furigana":"<ruby>明<rt>あか</rt></ruby>るい","default":true,"note":null}]`
 - writings : `[]`
@@ -1731,7 +1732,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_668 → v_668 · 明い
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0031** (fusion, entrée) : 明い est une graphie fautive de 明るい (okurigana incomplet) : l'entrée est absorbée, sans devenir une autre graphie. — avant `null` → après `"n5_v_455"`
 
@@ -1761,7 +1762,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_495 → v_495 · 大変
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0034** (fusion, entrée) : 大変 adverbe et 大変 adjectif en な sont une seule unité lexicale ; n5_v_495 survit (plus petit numéro). Classe : adjectif en な ; l'emploi intensifieur relève du sens 1. — avant `null` → après `"n5_v_495"`
 - **A2-04-D0052** (abandon, senses) : Redondant avec « Difficile » et « Pénible » (traduction du doublon n5_v_508). — avant `["Dur"]` → après `null`
@@ -1786,7 +1787,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : **exception**, classe à décider (liste consignée)
 - group : **exception**, dépend de la classe, en exception
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"adjectif_na"`
 - group : `"na"`
@@ -1804,7 +1805,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_508 → v_508 · 大変
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0034** (fusion, entrée) : 大変 adverbe et 大変 adjectif en な sont une seule unité lexicale ; n5_v_495 survit (plus petit numéro). Classe : adjectif en な ; l'emploi intensifieur relève du sens 1. — avant `null` → après `"n5_v_495"`
 
@@ -1834,7 +1835,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_363 → v_363 · キロ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0035** (fusion, entrée) : Même mot キロ : kilogramme et kilomètre sont deux sens d'une seule abréviation ; n5_v_363 survit (plus petit numéro). — avant `null` → après `"n5_v_363"`
 - **A2-04-D0071** (type-nul, sens 1 · semantic_type) : Kilogramme, unité de mesure : la mesure est exclue des types sémantiques, et une unité n'est pas automatiquement une quantite_valeur (A2-ST-v1). Addendum A6. — avant `"quantite_valeur"` → après `null`
@@ -1858,7 +1859,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"nom"`
 - group : `"nom"`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1874,7 +1875,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_610 → v_610 · キロ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0035** (fusion, entrée) : Même mot キロ : kilogramme et kilomètre sont deux sens d'une seule abréviation ; n5_v_363 survit (plus petit numéro). — avant `null` → après `"n5_v_363"`
 
@@ -1902,7 +1903,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_329 → v_329 · 毎年
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0038** (decision, readings) : Deux lectures d'un même sens ; まいとし, plus courante à l'oral, par défaut. — avant `"まいとし / まいねん"` → après `["まいとし (défaut)","まいねん"]`
 
@@ -1925,7 +1926,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - readings : **exception**, lecture contenant « / » (aucun découpage automatique)
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"まいとし","romaji":"maitoshi","furigana":"<ruby>毎<rt>まい</rt></ruby><ruby>年<rt>とし</rt></ruby>","default":true,"note":null},{"kana":"まいねん","romaji":"mainen","furigana":"<ruby>毎<rt>まい</rt></ruby><ruby>年<rt>ねん</rt></ruby>","default":false,"note":"Lecture sino-japonaise, un peu plus soutenue."}]`
 - writings : `[]`
@@ -1947,7 +1948,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_332 → v_332 · 毎月
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0039** (decision, readings) : Deux lectures d'un même sens ; まいつき, courante, par défaut. — avant `"まいつき / まいげつ"` → après `["まいつき (défaut)","まいげつ"]`
 
@@ -1970,7 +1971,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - readings : **exception**, lecture contenant « / » (aucun découpage automatique)
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"まいつき","romaji":"maitsuki","furigana":"<ruby>毎<rt>まい</rt></ruby><ruby>月<rt>つき</rt></ruby>","default":true,"note":null},{"kana":"まいげつ","romaji":"maigetsu","furigana":"<ruby>毎<rt>まい</rt></ruby><ruby>月<rt>げつ</rt></ruby>","default":false,"note":"Lecture sino-japonaise, plus soutenue."}]`
 - writings : `[]`
@@ -1992,7 +1993,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_369 → v_369 · 七
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0040** (decision, readings) : なな, la plus fréquente pour compter, par défaut ; しち dans quelques composés (arbitrage du lot 0). — avant `"なな / しち"` → après `["なな (défaut)","しち"]`
 - **A2-04-D0054** (abandon, senses) : Redondant avec « Sept ». — avant `["Le chiffre 7"]` → après `null`
@@ -2015,7 +2016,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `null`
 - readings : **exception**, lecture contenant « / » (aucun découpage automatique)
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"なな","romaji":"nana","furigana":"<ruby>七<rt>なな</rt></ruby>","default":true,"note":null},{"kana":"しち","romaji":"shichi","furigana":"<ruby>七<rt>しち</rt></ruby>","default":false,"note":"Dans 七時 (しちじ), 七月 (しちがつ) et certains composés."}]`
 - writings : `[]`
@@ -2037,7 +2038,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_374 → v_374 · 九
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0041** (decision, readings) : きゅう par défaut, comme dans la source ; く dans quelques composés. — avant `"きゅう / く"` → après `["きゅう (défaut)","く"]`
 - **A2-04-D0055** (abandon, senses) : Redondant avec « Neuf ». — avant `["Le chiffre 9"]` → après `null`
@@ -2060,7 +2061,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `null`
 - readings : **exception**, lecture contenant « / » (aucun découpage automatique)
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"きゅう","romaji":"kyuu","furigana":"<ruby>九<rt>きゅう</rt></ruby>","default":true,"note":null},{"kana":"く","romaji":"ku","furigana":"<ruby>九<rt>く</rt></ruby>","default":false,"note":"Dans quelques composés (九時 : くじ, 九月 : くがつ)."}]`
 - writings : `[]`
@@ -2082,7 +2083,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_386 → v_386 · 四
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0042** (decision, readings) : よん, la plus courante, par défaut ; し dans quelques composés (arbitrage du lot 0). — avant `"よん / し"` → après `["よん (défaut)","し"]`
 - **A2-04-D0056** (abandon, senses) : Redondant avec « Quatre ». — avant `["Le chiffre 4"]` → après `null`
@@ -2105,7 +2106,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `null`
 - readings : **exception**, lecture contenant « / » (aucun découpage automatique)
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"よん","romaji":"yon","furigana":"<ruby>四<rt>よん</rt></ruby>","default":true,"note":null},{"kana":"し","romaji":"shi","furigana":"<ruby>四<rt>し</rt></ruby>","default":false,"note":"Dans 四月 (しがつ) ; souvent évitée ailleurs, car homophone de 死 (mort)."}]`
 - writings : `[]`
@@ -2127,7 +2128,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_401 → v_401 · 何
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0043** (decision, readings) : Deux lectures d'un même sens ; la condition d'emploi de なん va dans la note de la lecture. — avant `"なん / なに"` → après `["なに (défaut)","なん"]`
 - **A2-04-D0073** (type-nul, sens 1 · semantic_type) : Unité grammaticale (interrogatif) : ni entité ni concept désigné, aucun type terminal ne s'applique. Addendum A6.
@@ -2150,7 +2151,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `null`
 - readings : **exception**, lecture contenant « / » (aucun découpage automatique)
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"なに","romaji":"nani","furigana":"<ruby>何<rt>なに</rt></ruby>","default":true,"note":null},{"kana":"なん","romaji":"nan","furigana":"<ruby>何<rt>なん</rt></ruby>","default":false,"note":"Devant t, d, n, devant un compteur et devant です."}]`
 - writings : `[]`

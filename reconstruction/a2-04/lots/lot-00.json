@@ -1617,13 +1617,14 @@
       "status": "validated",
       "journal": [
         "A2-04-D0030",
-        "A2-04-D0029"
+        "A2-04-D0029",
+        "A2-04-D0827"
       ],
       "fields": {
         "writings": [
           {
             "form": "曲る",
-            "furigana": "<ruby>曲<rt>ま</rt></ruby>る"
+            "furigana": "<ruby>曲<rt>まが</rt></ruby>る"
           }
         ],
         "suru_compatible": false,

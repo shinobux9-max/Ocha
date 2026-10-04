@@ -76,7 +76,8 @@
       "status": "validated",
       "journal": [
         "A2-04-D0548",
-        "A2-04-D0549"
+        "A2-04-D0549",
+        "A2-04-D0839"
       ],
       "fields": {
         "writings": [],
@@ -102,6 +103,15 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "すぽーつ",
+            "romaji": "supootsu",
+            "furigana": "スポーツ",
+            "default": true,
+            "note": null
           }
         ]
       }

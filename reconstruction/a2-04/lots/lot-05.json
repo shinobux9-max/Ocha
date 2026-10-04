@@ -297,7 +297,8 @@
     "n5_v_77": {
       "status": "validated",
       "journal": [
-        "A2-04-D0382"
+        "A2-04-D0382",
+        "A2-04-D0833"
       ],
       "fields": {
         "writings": [],
@@ -324,6 +325,15 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "うわぎ",
+            "romaji": "uwagi",
+            "furigana": "<ruby>上<rt>うわ</rt></ruby><ruby>着<rt>ぎ</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -758,7 +768,9 @@
     },
     "n5_v_223": {
       "status": "validated",
-      "journal": [],
+      "journal": [
+        "A2-04-D0834"
+      ],
       "fields": {
         "writings": [],
         "suru_compatible": false,
@@ -786,6 +798,15 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "さいふ",
+            "romaji": "saifu",
+            "furigana": "<ruby>財<rt>さい</rt></ruby><ruby>布<rt>ふ</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -1005,7 +1026,8 @@
       "status": "validated",
       "journal": [
         "A2-04-D0359",
-        "A2-04-D0360"
+        "A2-04-D0360",
+        "A2-04-D0835"
       ],
       "fields": {
         "writings": [],
@@ -1034,6 +1056,15 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "やおや",
+            "romaji": "yaoya",
+            "furigana": "<ruby>八百<rt>やお</rt></ruby><ruby>屋<rt>や</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -1147,7 +1178,8 @@
         "A2-04-D0406",
         "A2-04-D0407",
         "A2-04-D0408",
-        "A2-04-D0409"
+        "A2-04-D0409",
+        "A2-04-D0836"
       ],
       "fields": {
         "writings": [],
@@ -1175,6 +1207,15 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "にもつ",
+            "romaji": "nimotsu",
+            "furigana": "<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もつ</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -1267,7 +1308,8 @@
     "n5_v_715": {
       "status": "validated",
       "journal": [
-        "A2-04-D0390"
+        "A2-04-D0390",
+        "A2-04-D0837"
       ],
       "fields": {
         "writings": [],
@@ -1294,6 +1336,15 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "くつした",
+            "romaji": "kutsushita",
+            "furigana": "<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>した</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }

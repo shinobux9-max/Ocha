@@ -97,14 +97,62 @@ de spéciale et dont les furigana sont segmentés (今日, la cinquième, est d�
    - **Lots validés** : l'entrée concernée repasse en `proposed`, sa décision reçoit les lectures
      corrigées (ou la graphie, pour 曲る), et une nouvelle décision de journal `correction` est
      ajoutée après D0826, en `proposed`. Les décisions historiques restent intactes et validées.
-   - **Assemblage réel pendant la revue** : les 10 entrées rouvertes en sortent (pas 曲がる, dont
-     seule la graphie change). Il redescend donc de 414 à 405 ENTRY. Après validation, il revient
-     à 414.
-   - **Tests d'état** : les lots 00, 01, 03, 05, 08 et 09 tolèrent pendant la revue les entrées
-     rouvertes listées, et seulement elles.
+   - **Assemblage réel pendant la revue** : les 11 entrées rouvertes en sortent, 曲がる comprise. Sa
+     graphie 曲る est portée par la décision d'entrée de `n5_v_555` (`fields.writings`) : la
+     corriger rouvre l'entrée entière. La fusion `n5_v_672 → n5_v_555` (lot 0) perd alors sa cible
+     et passe en attente. État attendu pendant la revue : **403 ENTRY, 30 retraits, 285 entrées
+     écartées, 1 attente**, liée uniquement à cette fusion. Après validation : 414 ENTRY, 31
+     retraits, 274 entrées écartées, 0 attente.
+   - **Tests d'état** : les lots 00, 01, 03, 05, 08 et 09 tolèrent pendant la revue les 11 entrées
+     rouvertes listées, et seulement elles. Le lot 00 tolère en plus une seule attente, la fusion
+     `n5_v_672 → n5_v_555`. Toute autre entrée rouverte et toute autre attente font échouer les
+     tests.
+   - **Rectification du 2026-10-04** : la version initiale de ce point annonçait 405 ENTRY et le
+     maintien de 曲がる dans l'assemblage. Les deux étaient faux : 414 − 10 = 404, et 曲がる ne peut
+     pas rester validée si sa graphie change. Les chiffres ci-dessus viennent d'une simulation en
+     mémoire sur l'assembleur réel, sans écriture.
 5. **L'ordre des identifiants** : les décisions de 5.13-C viendraient à partir de D0827, avant
    celles de 5.13b. 5.13b ajouterait ensuite ses propres décisions de correction pour le lot 12, ou
    réécrirait à leur place celles qui existent déjà (aucune ne porte aujourd'hui sur les lectures de
    ces cinq entrées). À confirmer.
+
+## 4. Complément du 2026-10-04 : deux cas omis par le relevé
+
+**Le constat.** En appliquant la règle B à l'assemblage réel (simulation en mémoire, sans
+écriture), on obtient **13** contradictions dans les lots validés, et non 11. Les deux cas
+supplémentaires ont un kanji dans un `<rt>` :
+
+| # | ENTRY | Lot | Champ | Kana | Furigana actuel | Recomposé | Romaji | Nature | Correction proposée |
+|---|---|---|---|---|---|---|---|---|---|
+| 19 | お巡りさん `n5_v_15` | 01 | lecture | おまわりさん | お`<ruby>巡<rt>ま和</rt></ruby>`りさん | おま和りさん | omawarisan | B | お`<ruby>巡<rt>まわ</rt></ruby>`りさん |
+| 20 | 靴下 `n5_v_715` | 05 | lecture | くつした | `<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>下</rt></ruby>` | くつ下 | kutsushita | B | `<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>した</rt></ruby>` |
+
+**La cause.** La section 1 exclut « les recompositions qui contiennent encore un kanji, déjà
+refusées par une exception de lectures ». C'est vrai de dix des douze fiches sources concernées :
+cinq sont retirées par fusion, une a ses lectures décidées (お手洗い), quatre ont des balises
+cassées et seront des exceptions dans leur lot (もう一度, 作る, 一人, 一緒). Ce n'est pas vrai de ces
+deux-là : leur texte de base est juste, la couche mécanique les a donc acceptées, et elles sont
+validées avec une lecture fausse.
+
+**Les totaux corrigés** : 13 cas validés (11 B, 1 A+B, 1 K), 5 cas proposés, 2 cas futurs, soit
+**20 cas**.
+
+**Sixième point à arbitrer.** Si le complément d'I4 devient bloquant (projet d'A8), ces deux
+entrées doivent être corrigées avec les autres : sinon l'assemblage échouerait sur elles. La
+réouverture porterait alors sur **13 entrées**, dans les mêmes lots (00, 01, 03, 05, 08, 09) :
+
+| Réouverture | ENTRY | Retraits | Écartées | Attente |
+|---|---|---|---|---|
+| 11 entrées (point 4) | 403 | 30 | 285 | 1 |
+| **13 entrées** (avec お巡りさん et 靴下) | **401** | 30 | **287** | 1 |
+
+L'attente reste unique dans les deux cas : la fusion `n5_v_672 → n5_v_555`. Après validation,
+l'assemblage revient à 414 ENTRY, 31 retraits, 274 entrées écartées, 0 attente.
+
+**Orientation retenue le 2026-10-04**, après reproduction indépendante de ces chiffres par Codex :
+la réouverture porte sur les **13 entrées** (401 ENTRY, 30 retraits, 287 écartées, 1 attente), et
+le kanji dans un `<rt>` est traité par la règle B. La liste A du projet d'A8 compte cinq lectures :
+les quatre à corriger de la section 2, et 今日, seulement protégée, qui n'est pas rouverte. Ces
+orientations ne deviennent des décisions qu'à la validation d'A8.
 
 **Aucune donnée n'est modifiée par ce rapport.**

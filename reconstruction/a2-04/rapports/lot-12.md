@@ -6,7 +6,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_284 → v_284 · あさって
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0748** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0749** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : le jour qui suit demain, à partir du moment de l'énonciation. — avant `null` → après `["deictique"]`
@@ -32,7 +32,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"明後日","furigana":"<ruby>明後日<rt>あさって</rt></ruby>"}]`
 - suru_compatible : `false`
@@ -53,7 +53,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_286 → v_286 · さ来年
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0792** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0793** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : l'année qui suit l'année prochaine, à partir du moment de l'énonciation. — avant `null` → après `["deictique"]`
@@ -78,7 +78,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -99,7 +99,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_290 → v_290 · 一昨日
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0752** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0753** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : le jour qui précède hier, à partir du moment de l'énonciation. — avant `null` → après `["deictique"]`
@@ -125,7 +125,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"おととい","furigana":"おととい"}]`
 - suru_compatible : `false`
@@ -146,7 +146,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_298 → v_298 · 今
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0735** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0736** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : le moment présent, c'est-à-dire celui de l'énonciation. — avant `null` → après `["deictique"]`
@@ -170,7 +170,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -191,11 +191,12 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_299 → v_299 · 今年
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0783** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0784** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : l'année en cours au moment de l'énonciation. — avant `null` → après `["deictique"]`
 - **A2-04-D0785** (abandon, senses) : Redondant. — avant `["L'année en cours"]` → après `null`
+- **A2-04-D0840** (correction, readings) : Addendum A8, règles A et B : lecture spéciale selon la fiche (jukujikun), segmentée et contradictoire (こととし au lieu de ことし) ; furigana en bloc (liste fermée). — avant `"<ruby>今<rt>こと</rt></ruby><ruby>年<rt>とし</rt></ruby>"` → après `"<ruby>今年<rt>ことし</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -211,13 +212,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"今年"`
-- readings : `[{"kana":"ことし","romaji":"kotoshi","furigana":"<ruby>今<rt>こと</rt></ruby><ruby>年<rt>とし</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
+- readings : `[{"kana":"ことし","romaji":"kotoshi","furigana":"<ruby>今年<rt>ことし</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -237,7 +239,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_300 → v_300 · 今日
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0737** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0738** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : le jour actuel, repéré par rapport au moment de l'énonciation. — avant `null` → après `["deictique"]`
@@ -262,7 +264,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -283,7 +285,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_301 → v_301 · 今晩
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0759** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0760** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : la soirée du jour de l'énonciation. — avant `null` → après `["deictique"]`
@@ -308,7 +310,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -329,7 +331,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_302 → v_302 · 今月
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0774** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0775** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : le mois en cours au moment de l'énonciation. — avant `null` → après `["deictique"]`
@@ -354,7 +356,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -375,11 +377,12 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_303 → v_303 · 今朝
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0756** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0757** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : la matinée du jour de l'énonciation. — avant `null` → après `["deictique"]`
 - **A2-04-D0758** (abandon, senses) : Redondant. — avant `["La matinée d'aujourd'hui"]` → après `null`
+- **A2-04-D0841** (correction, readings) : Addendum A8, règle A : lecture spéciale selon la fiche (jukujikun), répartie artificiellement entre les kanji (け + さ) ; furigana en bloc (liste fermée). — avant `"<ruby>今<rt>け</rt></ruby><ruby>朝<rt>さ</rt></ruby>"` → après `"<ruby>今朝<rt>けさ</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -395,13 +398,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"今朝"`
-- readings : `[{"kana":"けさ","romaji":"kesa","furigana":"<ruby>今<rt>け</rt></ruby><ruby>朝<rt>さ</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, lecture spéciale segmentée, à écrire en bloc (addendum A8, liste fermée)
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
+- readings : `[{"kana":"けさ","romaji":"kesa","furigana":"<ruby>今朝<rt>けさ</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -421,7 +425,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_304 → v_304 · 今週
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0765** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0766** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : la semaine en cours au moment de l'énonciation. — avant `null` → après `["deictique"]`
@@ -446,7 +450,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -467,7 +471,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_305 → v_305 · 先月
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0777** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0778** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : le mois qui précède celui de l'énonciation. — avant `null` → après `["deictique"]`
@@ -492,7 +496,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -513,7 +517,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_306 → v_306 · 先週
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0768** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0769** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : la semaine qui précède celle de l'énonciation. — avant `null` → après `["deictique"]`
@@ -538,7 +542,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -559,7 +563,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_310 → v_310 · 午前
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0812** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0813** (decision, sens 1 · linguistic_functions) : Pas de fonction deictique (A7) : 午前 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas. — avant `null` → après `[]`
@@ -584,7 +588,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -605,7 +609,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_312 → v_312 · 去年
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0786** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0787** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : l'année qui précède celle de l'énonciation. — avant `null` → après `["deictique"]`
@@ -630,7 +634,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -651,7 +655,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_315 → v_315 · 夜
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0809** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0810** (decision, sens 1 · linguistic_functions) : Pas de fonction deictique (A7) : 夜 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas. — avant `null` → après `[]`
@@ -676,7 +680,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -697,7 +701,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_318 → v_318 · 明日
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0740** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0741** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : le jour qui suit celui de l'énonciation. — avant `null` → après `["deictique"]`
@@ -723,7 +727,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -744,11 +748,12 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_319 → v_319 · 昨夜
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0762** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0763** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : la soirée de la veille du jour de l'énonciation. — avant `null` → après `["deictique"]`
 - **A2-04-D0764** (decision, writings) : ゆうべ et 夕べ, documentées par la fiche (« peut aussi s'écrire en hiragana yuube ou avec les kanji 夕べ »), sont d'autres graphies du même mot : ajoutées à writings. — avant `null` → après `["ゆうべ","夕べ"]`
+- **A2-04-D0842** (correction, readings) : Addendum A8, règle A : lecture spéciale selon la fiche (jukujikun), répartie artificiellement entre les kanji (ゆう + べ) ; furigana en bloc (liste fermée). — avant `"<ruby>昨<rt>ゆう</rt></ruby><ruby>夜<rt>べ</rt></ruby>"` → après `"<ruby>昨夜<rt>ゆうべ</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -764,13 +769,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"昨夜"`
-- readings : `[{"kana":"ゆうべ","romaji":"yuube","furigana":"<ruby>昨<rt>ゆう</rt></ruby><ruby>夜<rt>べ</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, lecture spéciale segmentée, à écrire en bloc (addendum A8, liste fermée)
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
+- readings : `[{"kana":"ゆうべ","romaji":"yuube","furigana":"<ruby>昨夜<rt>ゆうべ</rt></ruby>","default":true,"note":null}]`
 - writings : `[{"form":"ゆうべ","furigana":"ゆうべ"},{"form":"夕べ","furigana":"<ruby>夕<rt>ゆう</rt></ruby>べ"}]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -790,11 +796,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_320 → v_320 · 昨日
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0744** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0745** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : le jour qui précède celui de l'énonciation. — avant `null` → après `["deictique"]`
-- **A2-04-D0746** (correction, readings) : Furigana de la source invalides (toute la lecture sur 昨, rien sur 日) : lecture spéciale (jukujikun), portée par les deux kanji ensemble. — avant `"<ruby>昨<rt>きのう</rt></ruby><ruby>日<rt></rt></ruby>"` → après `"<ruby>昨日<rt>きのう</rt></ruby>"`
+- **A2-04-D0746** (correction, readings) : Furigana de la source invalides : toute la lecture est portée par 昨, et le <rt> de 日 est vide. Bloc par nécessité (addendum A8, §3) : la fiche donne きのう pour le mot entier (romaji : kinou) et ne répartit pas la lecture entre les kanji ; aucune segmentation admissible n'est établie par la source. Hors liste des lectures spéciales : la fiche ne qualifie pas cette lecture de spéciale. — avant `"<ruby>昨<rt>きのう</rt></ruby><ruby>日<rt></rt></ruby>"` → après `"<ruby>昨日<rt>きのう</rt></ruby>"`
 - **A2-04-D0747** (abandon, senses) : Pas équivalent : « la veille » se repère par rapport à un autre jour. — avant `["La veille"]` → après `null`
 
 | Champ source | Valeur |
@@ -816,7 +822,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - readings : **exception**, furigana incohérents avec la forme
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - readings : `[{"kana":"きのう","romaji":"kinou","furigana":"<ruby>昨日<rt>きのう</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
@@ -838,7 +844,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_322 → v_322 · 晩
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0806** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0807** (decision, sens 1 · linguistic_functions) : Pas de fonction deictique (A7) : 晩 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas. — avant `null` → après `[]`
@@ -863,7 +869,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -884,7 +890,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_324 → v_324 · 朝
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0797** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0798** (decision, sens 1 · linguistic_functions) : Pas de fonction deictique (A7) : 朝 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas. — avant `null` → après `[]`
@@ -908,7 +914,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -929,7 +935,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_326 → v_326 · 来年
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0789** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0790** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : l'année qui suit celle de l'énonciation. — avant `null` → après `["deictique"]`
@@ -954,7 +960,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -975,7 +981,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_327 → v_327 · 来月
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0780** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0781** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : le mois qui suit celui de l'énonciation. — avant `null` → après `["deictique"]`
@@ -1000,7 +1006,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1021,7 +1027,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_328 → v_328 · 来週
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0771** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0772** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : la semaine qui suit celle de l'énonciation. — avant `null` → après `["deictique"]`
@@ -1046,7 +1052,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1067,7 +1073,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_330 → v_330 · 毎日
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0818** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0819** (decision, sens 1 · linguistic_functions) : Pas de fonction deictique (A7) : une récurrence, sans repérage par rapport au moment de l'énonciation. Même traitement que 毎年 et 毎月 (lot 0) : temps › fréquence › fréquent, concept_abstrait. — avant `null` → après `[]`
@@ -1091,7 +1097,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1112,7 +1118,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_331 → v_331 · 毎晩
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0822** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0823** (decision, sens 1 · linguistic_functions) : Pas de fonction deictique (A7) : une récurrence, sans repérage par rapport au moment de l'énonciation. Même traitement que 毎年 et 毎月 (lot 0) : temps › fréquence › fréquent, concept_abstrait. — avant `null` → après `[]`
@@ -1137,7 +1143,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1158,7 +1164,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_333 → v_333 · 毎朝
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0820** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0821** (decision, sens 1 · linguistic_functions) : Pas de fonction deictique (A7) : une récurrence, sans repérage par rapport au moment de l'énonciation. Même traitement que 毎年 et 毎月 (lot 0) : temps › fréquence › fréquent, concept_abstrait. — avant `null` → après `[]`
@@ -1182,7 +1188,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1203,7 +1209,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_334 → v_334 · 毎週
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0824** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0825** (decision, sens 1 · linguistic_functions) : Pas de fonction deictique (A7) : une récurrence, sans repérage par rapport au moment de l'énonciation. Même traitement que 毎年 et 毎月 (lot 0) : temps › fréquence › fréquent, concept_abstrait. — avant `null` → après `[]`
@@ -1227,7 +1233,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1248,10 +1254,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_359 → v_359 · 近々
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0795** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0796** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7, axe du temps : un futur proche, repéré à partir du moment de l'énonciation. — avant `null` → après `["deictique"]`
+- **A2-04-D0843** (correction, readings) : Addendum A8 (I4) : les furigana se lisaient ちかぢか au lieu de ちかじか, le kana de la fiche (romaji : chikajika). Arbitrage : ちかじか, le kana et le romaji de la fiche concordent, seuls les furigana différaient. Segmentation conservée : la fiche ne qualifie pas la lecture de spéciale. — avant `"<ruby>近<rt>ちか</rt></ruby><ruby>々<rt>ぢか</rt></ruby>"` → après `"<ruby>近<rt>ちか</rt></ruby><ruby>々<rt>じか</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -1267,13 +1274,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"近々"`
-- readings : `[{"kana":"ちかじか","romaji":"chikajika","furigana":"<ruby>近<rt>ちか</rt></ruby><ruby>々<rt>ぢか</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"adverbe"`
 - group : `null`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
+- readings : `[{"kana":"ちかじか","romaji":"chikajika","furigana":"<ruby>近<rt>ちか</rt></ruby><ruby>々<rt>じか</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -1293,11 +1301,12 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_439 → v_439 · 夕方
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0803** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0804** (decision, sens 1 · linguistic_functions) : Pas de fonction deictique (A7) : 夕方 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas. — avant `null` → après `[]`
 - **A2-04-D0805** (abandon, senses) : Terme voisin, pas équivalent. — avant `["Crépuscule"]` → après `null`
+- **A2-04-D0844** (correction, readings) : Addendum A8 (I4) : les furigana se lisaient ゆうかた au lieu de ゆうがた (voisement perdu ; romaji de la fiche : yuugata). — avant `"<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>かた</rt></ruby>"` → après `"<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>がた</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -1313,13 +1322,14 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"夕方"`
-- readings : `[{"kana":"ゆうがた","romaji":"yuugata","furigana":"<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>かた</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
+- readings : `[{"kana":"ゆうがた","romaji":"yuugata","furigana":"<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>がた</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -1339,7 +1349,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_649 → v_649 · 午後
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0815** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0816** (decision, sens 1 · linguistic_functions) : Pas de fonction deictique (A7) : 午後 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas. — avant `null` → après `[]`
@@ -1364,7 +1374,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1385,7 +1395,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_670 → v_670 · 昼
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0799** (decision, tags) : lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02). — avant `["lieu_hotel"]` → après `[]`
 - **A2-04-D0800** (decision, senses) : Deux sens documentés par la fiche (« la période diurne…, le milieu de la journée (midi), ou par extension le repas du midi ») : une période du jour, et un repas. La journée et midi restent un seul sens (la période diurne et son milieu). Le repas est un autre référent et un autre type (evenement), comme le sens « repas » de ご飯 (lot 02). — avant `["Midi","Journée","Heure du déjeuner"]` → après `["S1 Midi, journée (période)","S2 Déjeuner (repas)"]`
@@ -1411,7 +1421,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : `"nom"`
 - tags de lieu candidats (à confirmer) : lieu_hotel
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`

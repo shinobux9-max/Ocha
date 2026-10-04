@@ -5,10 +5,11 @@
 // Aucune donnée n'est inventée : pas de sens, pas de classification, pas de tag canonique (les
 // tags de lieu ne sont que des CANDIDATS proposés à la décision humaine).
 
-import { parseFurigana } from '../lexicon/index.mjs';
+import { parseFurigana, furiganaMatchesKana } from '../lexicon/index.mjs';
 import { KANA_READING } from '../lexicon/schema.mjs';
 import {
-  HJ_IDS, TYPE_CLASS, NUMERAL_IDS, CLASS_EXCEPTION_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS, CLASS_GROUPS, IDENTITY_GROUPS
+  HJ_IDS, TYPE_CLASS, NUMERAL_IDS, CLASS_EXCEPTION_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS, CLASS_GROUPS, IDENTITY_GROUPS,
+  SPECIAL_READING_IDS, blockFurigana
 } from './rules.mjs';
 
 /** Nouvel identifiant d'une entrée source (addendum A3) : n5_v_<n> → v_<n>, hors JLPT par table. */
@@ -65,6 +66,13 @@ export function prefill(source, { level, lieux, placeTags }) {
   else {
     const furigana = mechanicalFurigana(source.word_furigana, source.word);
     if (furigana === null) exceptions.readings = 'furigana incohérents avec la forme';
+    // Addendum A8, règle B : la contradiction est détectée ici, jamais corrigée. Le champ fautif
+    // (furigana ou kana) se choisit dans un lot, sur la fiche.
+    else if (!furiganaMatchesKana(parseFurigana(furigana).reading, source.reading)) exceptions.readings = 'furigana contredisant les kana (addendum A8)';
+    // Addendum A8, règle A : lecture spéciale de la liste fermée, segmentée dans la source.
+    else if (Object.hasOwn(SPECIAL_READING_IDS, source.id) && furigana !== blockFurigana(source.word, source.reading)) {
+      exceptions.readings = 'lecture spéciale segmentée, à écrire en bloc (addendum A8, liste fermée)';
+    }
     else values.readings = [{ kana: source.reading, romaji: source.romaji, furigana, default: true, note: null }];
   }
 

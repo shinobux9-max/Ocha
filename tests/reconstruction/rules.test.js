@@ -5,10 +5,12 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   HJ_IDS, RESERVED_RETIRED, TYPE_CLASS, NUMERAL_IDS, CLASS_EXCEPTION_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS, CLASS_GROUPS,
-  IDENTITY_GROUPS, HUMAN_FIELDS, EXCEPTION_FIELDS
+  IDENTITY_GROUPS, HUMAN_FIELDS, EXCEPTION_FIELDS, SPECIAL_READING_IDS, blockFurigana
 } from '../../tools/reconstruction/rules.mjs';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { GROUP_VALUES } from '../../tools/lexicon/schema.mjs';
-import { SOURCES, DEPS } from './helpers.mjs';
+import { ROOT, SOURCES, DEPS } from './helpers.mjs';
 
 const word = new Map([...SOURCES.vocab, ...SOURCES.hj].map((s) => [s.id, s.word]));
 
@@ -54,6 +56,22 @@ test('forme usuelle décidée : liste fermée, une seule entrée (平仮名, arb
   assert.deepEqual(Object.keys(USUAL_FORM_IDS), ['n5_v_604']);
   assert.equal(USUAL_FORM_IDS.n5_v_604, '平仮名');
   assert.ok(!Object.keys(USUAL_FORM_IDS).some((id) => Object.hasOwn(WORD_EXCEPTION_IDS, id)), 'distincte des graphies fautives');
+});
+
+// Addendum A8, §4 (règle A) : la liste de rules.mjs est la transcription de la liste normative de
+// l'addendum. Une entrée n'y entre que si sa fiche qualifie elle-même la lecture de spéciale.
+test('lectures spéciales (addendum A8) : liste fermée de cinq lectures, conforme à l\'addendum', () => {
+  assert.deepEqual({ ...SPECIAL_READING_IDS }, { n5_v_28: '大人', n5_v_299: '今年', n5_v_300: '今日', n5_v_303: '今朝', n5_v_319: '昨夜' });
+  const a8 = readFileSync(join(ROOT, 'docs', 'conception', 'addendum-A8-furigana.md'), 'utf8');
+  const rows = a8.split(/\r?\n/).filter((l) => /^\| `n5_v_[0-9]+` \|/.test(l));
+  assert.equal(rows.length, Object.keys(SPECIAL_READING_IDS).length, 'autant de lignes dans l\'addendum que dans la liste');
+  for (const [id, w] of Object.entries(SPECIAL_READING_IDS)) {
+    const s = SOURCES.vocab.find((x) => x.id === id);
+    assert.equal(s.word, w, id);
+    assert.match(s.nuance, /jukujikun/, `${id} : la fiche qualifie la lecture de spéciale`);
+    assert.ok(rows.some((l) => l.startsWith(`| \`${id}\` | ${w} | ${s.reading} | \`${blockFurigana(w, s.reading)}\` |`)), `${id} : ligne de l'addendum`);
+  }
+  assert.equal(blockFurigana('今日', 'きょう'), '<ruby>今日<rt>きょう</rt></ruby>');
 });
 
 test('exceptions de classe du lot 11 : それ, こちら, そちら, どっち, いくつ (classe décidable, liste fermée)', () => {

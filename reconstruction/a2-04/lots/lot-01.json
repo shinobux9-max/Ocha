@@ -225,7 +225,9 @@
     },
     "n5_v_15": {
       "status": "validated",
-      "journal": [],
+      "journal": [
+        "A2-04-D0828"
+      ],
       "fields": {
         "writings": [],
         "suru_compatible": false,
@@ -254,13 +256,23 @@
               "pragmatic_discourse": []
             }
           }
+        ],
+        "readings": [
+          {
+            "kana": "おまわりさん",
+            "romaji": "omawarisan",
+            "furigana": "お<ruby>巡<rt>まわ</rt></ruby>りさん",
+            "default": true,
+            "note": null
+          }
         ]
       }
     },
     "n5_v_16": {
       "status": "validated",
       "journal": [
-        "A2-04-D0080"
+        "A2-04-D0080",
+        "A2-04-D0829"
       ],
       "fields": {
         "writings": [],
@@ -307,6 +319,15 @@
               "pragmatic_discourse": []
             },
             "nuance": "Pour interpeller poliment un jeune homme qu'on ne connaît pas."
+          }
+        ],
+        "readings": [
+          {
+            "kana": "おにいさん",
+            "romaji": "oniisan",
+            "furigana": "お<ruby>兄<rt>にい</rt></ruby>さん",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -526,7 +547,8 @@
     "n5_v_28": {
       "status": "validated",
       "journal": [
-        "A2-04-D0089"
+        "A2-04-D0089",
+        "A2-04-D0830"
       ],
       "fields": {
         "writings": [],
@@ -555,6 +577,15 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "おとな",
+            "romaji": "otona",
+            "furigana": "<ruby>大人<rt>おとな</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -1377,7 +1408,8 @@
     "n5_v_283": {
       "status": "validated",
       "journal": [
-        "A2-04-D0137"
+        "A2-04-D0137",
+        "A2-04-D0831"
       ],
       "fields": {
         "writings": [],
@@ -1404,6 +1436,15 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "かぜ",
+            "romaji": "kaze",
+            "furigana": "<ruby>風邪<rt>かぜ</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }

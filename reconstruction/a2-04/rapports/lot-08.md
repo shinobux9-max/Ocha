@@ -919,6 +919,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Statut** : décision validée
 
 - **A2-04-D0526** (abandon, senses) : Redondant. — avant `["Timbre postal"]` → après `null`
+- **A2-04-D0838** (correction, readings) : Addendum A8 (I4) : les furigana se lisaient きて au lieu de きって (petit っ perdu ; romaji de la fiche : kitte). — avant `"<ruby>切<rt>き</rt></ruby><ruby>手<rt>て</rt></ruby>"` → après `"<ruby>切<rt>きっ</rt></ruby><ruby>手<rt>て</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -934,12 +935,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"切手"`
-- readings : `[{"kana":"きって","romaji":"kitte","furigana":"<ruby>切<rt>き</rt></ruby><ruby>手<rt>て</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Décision**
 
+- readings : `[{"kana":"きって","romaji":"kitte","furigana":"<ruby>切<rt>きっ</rt></ruby><ruby>手<rt>て</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`

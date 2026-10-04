@@ -185,6 +185,8 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 **Statut** : décision validée
 
+- **A2-04-D0828** (correction, readings) : Addendum A8 (I4) : un kanji dans le <rt> (ま和) ; la lecture recomposée donnait おま和りさん au lieu de おまわりさん (romaji de la fiche : omawarisan). — avant `"お<ruby>巡<rt>ま和</rt></ruby>りさん"` → après `"お<ruby>巡<rt>まわ</rt></ruby>りさん"`
+
 | Champ source | Valeur |
 |---|---|
 | mot, lecture | お巡りさん · おまわりさん · omawarisan |
@@ -199,12 +201,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"お巡りさん"`
-- readings : `[{"kana":"おまわりさん","romaji":"omawarisan","furigana":"お<ruby>巡<rt>ま和</rt></ruby>りさん","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Décision**
 
+- readings : `[{"kana":"おまわりさん","romaji":"omawarisan","furigana":"お<ruby>巡<rt>まわ</rt></ruby>りさん","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -227,6 +230,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Statut** : décision validée
 
 - **A2-04-D0080** (decision, senses) : Même modèle que お姉さん (lot 0) : le lien de parenté, et l'interpellation d'un jeune homme. — avant `["Grand frère","Jeune homme","Frère aîné (d'autrui ou en s'adressant à lui)"]` → après `["S1 Grand frère","S2 Jeune homme"]`
+- **A2-04-D0829** (correction, readings) : Addendum A8 (I4) : les furigana se lisaient おにさん au lieu de おにいさん (romaji de la fiche : oniisan). — avant `"お<ruby>兄<rt>に</rt></ruby>さん"` → après `"お<ruby>兄<rt>にい</rt></ruby>さん"`
 
 | Champ source | Valeur |
 |---|---|
@@ -242,12 +246,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"お兄さん"`
-- readings : `[{"kana":"おにいさん","romaji":"oniisan","furigana":"お<ruby>兄<rt>に</rt></ruby>さん","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Décision**
 
+- readings : `[{"kana":"おにいさん","romaji":"oniisan","furigana":"お<ruby>兄<rt>にい</rt></ruby>さん","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -529,6 +534,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Statut** : décision validée
 
 - **A2-04-D0089** (abandon, senses) : « Majeur » relève du statut juridique (成人) ; « grande personne » rend mieux l'emploi courant. — avant `["Personne majeure"]` → après `null`
+- **A2-04-D0830** (correction, readings) : Addendum A8, règles A et B : lecture spéciale selon la fiche (jukujikun), segmentée et contradictoire (おとおとな au lieu de おとな) ; furigana en bloc (liste fermée). — avant `"<ruby>大<rt>おと</rt></ruby><ruby>人<rt>おとな</rt></ruby>"` → après `"<ruby>大人<rt>おとな</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -544,12 +550,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"大人"`
-- readings : `[{"kana":"おとな","romaji":"otona","furigana":"<ruby>大<rt>おと</rt></ruby><ruby>人<rt>おとな</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Décision**
 
+- readings : `[{"kana":"おとな","romaji":"otona","furigana":"<ruby>大人<rt>おとな</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`
@@ -1525,6 +1532,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Statut** : décision validée
 
 - **A2-04-D0137** (abandon, senses) : Redondant avec « Rhume ». — avant `["Maladie (refroidissement)"]` → après `null`
+- **A2-04-D0831** (correction, readings) : Addendum A8 (I4) : les furigana se lisaient かぜじゃ au lieu de かぜ (romaji de la fiche : kaze). Bloc par nécessité : 邪 ne porte aucune part de la lecture, aucune segmentation admissible ne recompose かぜ. Hors liste des lectures spéciales. — avant `"<ruby>風<rt>かぜ</rt></ruby><ruby>邪<rt>じゃ</rt></ruby>"` → après `"<ruby>風邪<rt>かぜ</rt></ruby>"`
 
 | Champ source | Valeur |
 |---|---|
@@ -1540,12 +1548,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"風邪"`
-- readings : `[{"kana":"かぜ","romaji":"kaze","furigana":"<ruby>風<rt>かぜ</rt></ruby><ruby>邪<rt>じゃ</rt></ruby>","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Décision**
 
+- readings : `[{"kana":"かぜ","romaji":"kaze","furigana":"<ruby>風邪<rt>かぜ</rt></ruby>","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`

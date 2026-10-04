@@ -97,6 +97,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 - **A2-04-D0548** (decision, suru_compatible) : suru_compatible non retenu : la source dit qu'on « l'associe directement au verbe する » (スポーツをする, faire du sport), sans établir un verbe formé avec する. Compatibilité non établie (lecture confirmée au lot 08). À CONFIRMER. — avant `null` → après `false`
 - **A2-04-D0549** (abandon, senses) : Le premier est redondant ; le second n'est pas équivalent (運動). — avant `["Activité sportive","Exercice physique"]` → après `null`
+- **A2-04-D0839** (correction, readings) : Addendum A8 (I4) : contradiction entre les furigana (スポーツ, soit すぽーつ) et le kana de la source (すぷーつ). C'est le kana qui est fautif, coquille de la source : la forme et le romaji de la fiche (supootsu) donnent すぽーつ. Furigana inchangés. — avant `"すぷーつ"` → après `"すぽーつ"`
 
 | Champ source | Valeur |
 |---|---|
@@ -112,12 +113,13 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 **Mécanique**
 
 - word : `"スポーツ"`
-- readings : `[{"kana":"すぷーつ","romaji":"supootsu","furigana":"スポーツ","default":true,"note":null}]`
 - grammatical_class : `"nom"`
 - group : `"nom"`
+- readings : **exception**, furigana contredisant les kana (addendum A8)
 
 **Décision**
 
+- readings : `[{"kana":"すぽーつ","romaji":"supootsu","furigana":"スポーツ","default":true,"note":null}]`
 - writings : `[]`
 - suru_compatible : `false`
 - suffix : `false`

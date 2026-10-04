@@ -26,6 +26,7 @@ référence : un comportement qui s'en écarte doit être signalé, jamais impro
 | A5 | `addendum-A5-category-null.md` | `category: null` pour un sens lexical, sur décision justifiée ; I9 précisé |
 | A6 | `addendum-A6-semantic-type-null.md` | `semantic_type: null` quand aucun type terminal ne convient, indépendant de `category` ; I10 modifié |
 | A7 | `addendum-A7-deictique.md` | définition opérationnelle de la fonction `deictique` (personne, espace, temps) ; audit rétroactif de la deixis temporelle réservé à A2-05 |
+| A8 | `addendum-A8-furigana.md` | concordance des furigana et des kana : la lecture recomposée des furigana est égale aux kana (I4 et I5 complétés) ; liste fermée des lectures spéciales écrites en bloc |
 | — | `schema-A2-01.md` | schéma du vocabulaire (ENTRY → SENSE) et invariants du validateur |
 | — | `registre-des-tags.md` | tags : nature, critères de création, procédure (A2-02) |
 | — | `../../REGLES-CONSTRUCTION.md` | règles opérationnelles de la branche `ocha-v2` (à la racine du dépôt) |

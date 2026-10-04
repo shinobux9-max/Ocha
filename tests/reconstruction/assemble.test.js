@@ -171,6 +171,22 @@ test('journal : statut obligatoire ; une décision validée ne cite que du journ
   assert.ok(codes(run([], [journalEntry('A2-04-D0003', 'decision', 'n5_v_1', { status: 'vu' })])).includes('journal-format'));
 });
 
+// Addendum A8 : la contradiction rend la lecture décidable (règle B) ; une lecture spéciale de la
+// liste fermée se décide en bloc, et une lecture protégée déjà juste reste mécanique (règle A).
+test('A8 : lecture à décider en cas de contradiction ; lecture spéciale décidée en bloc', () => {
+  const { readings, ...noReadings } = fieldsFor('n5_v_16');
+  assert.deepEqual(codes(run([lot({ n5_v_16: validated(noReadings) })])), ['decision-incomplete'], 'お兄さん : lecture à décider');
+  const otona = (furigana) => lot({ n5_v_28: validated(fieldsFor('n5_v_28', { readings: [{ kana: 'おとな', romaji: 'otona', furigana, default: true, note: null }] })) });
+  const a = run([otona('<ruby>大人<rt>おとな</rt></ruby>')]);
+  assert.deepEqual(a.problems, []);
+  assert.deepEqual(validateAssembly(a, DEPS).errors, []);
+  // Segmentation concordante (おと + な) : le validateur lexical ne peut pas la refuser, la liste fermée si.
+  assert.deepEqual(codes(run([otona('<ruby>大<rt>おと</rt></ruby><ruby>人<rt>な</rt></ruby>')])), ['lecture-speciale']);
+  // 今日 : protégée, déjà en bloc dans la source ; sa lecture ne se décide pas dans un lot.
+  const kyou = [{ kana: 'きょう', romaji: 'kyou', furigana: '<ruby>今日<rt>きょう</rt></ruby>', default: true, note: null }];
+  assert.deepEqual(codes(run([lot({ n5_v_300: validated(fieldsFor('n5_v_300', { readings: kyou })) })])), ['decision-hors-frontiere']);
+});
+
 test('forme usuelle : décidable pour le survivant d\'une fusion seulement, avec ses lectures', () => {
   const j = [journalEntry('A2-04-D0001', 'fusion', 'n5_v_227')];
   const kaban = { word: 'かばん', readings: [{ kana: 'かばん', romaji: 'kaban', furigana: 'かばん', default: true, note: null }],

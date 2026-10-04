@@ -732,7 +732,8 @@
       "status": "validated",
       "journal": [
         "A2-04-D0281",
-        "A2-04-D0282"
+        "A2-04-D0282",
+        "A2-04-D0832"
       ],
       "fields": {
         "writings": [],
@@ -760,6 +761,15 @@
               "grammatical": [],
               "pragmatic_discourse": []
             }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "ちりがみ",
+            "romaji": "chirigami",
+            "furigana": "ちり<ruby>紙<rt>がみ</rt></ruby>",
+            "default": true,
+            "note": null
           }
         ]
       }

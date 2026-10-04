@@ -10416,7 +10416,7 @@
   },
   {
     "id": "A2-04-D0735",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_298",
@@ -10430,7 +10430,7 @@
   },
   {
     "id": "A2-04-D0736",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_298",
@@ -10444,7 +10444,7 @@
   },
   {
     "id": "A2-04-D0737",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_300",
@@ -10458,7 +10458,7 @@
   },
   {
     "id": "A2-04-D0738",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_300",
@@ -10472,7 +10472,7 @@
   },
   {
     "id": "A2-04-D0739",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_300",
@@ -10486,7 +10486,7 @@
   },
   {
     "id": "A2-04-D0740",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_318",
@@ -10500,7 +10500,7 @@
   },
   {
     "id": "A2-04-D0741",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_318",
@@ -10514,7 +10514,7 @@
   },
   {
     "id": "A2-04-D0742",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_318",
@@ -10526,7 +10526,7 @@
   },
   {
     "id": "A2-04-D0743",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_318",
@@ -10540,7 +10540,7 @@
   },
   {
     "id": "A2-04-D0744",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_320",
@@ -10554,7 +10554,7 @@
   },
   {
     "id": "A2-04-D0745",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_320",
@@ -10568,7 +10568,7 @@
   },
   {
     "id": "A2-04-D0746",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_320",
@@ -10576,11 +10576,11 @@
     "kind": "correction",
     "before": "<ruby>昨<rt>きのう</rt></ruby><ruby>日<rt></rt></ruby>",
     "after": "<ruby>昨日<rt>きのう</rt></ruby>",
-    "reason": "Furigana de la source invalides (toute la lecture sur 昨, rien sur 日) : lecture spéciale (jukujikun), portée par les deux kanji ensemble."
+    "reason": "Furigana de la source invalides : toute la lecture est portée par 昨, et le <rt> de 日 est vide. Bloc par nécessité (addendum A8, §3) : la fiche donne きのう pour le mot entier (romaji : kinou) et ne répartit pas la lecture entre les kanji ; aucune segmentation admissible n'est établie par la source. Hors liste des lectures spéciales : la fiche ne qualifie pas cette lecture de spéciale."
   },
   {
     "id": "A2-04-D0747",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_320",
@@ -10594,7 +10594,7 @@
   },
   {
     "id": "A2-04-D0748",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_284",
@@ -10608,7 +10608,7 @@
   },
   {
     "id": "A2-04-D0749",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_284",
@@ -10622,7 +10622,7 @@
   },
   {
     "id": "A2-04-D0750",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_284",
@@ -10636,7 +10636,7 @@
   },
   {
     "id": "A2-04-D0751",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_284",
@@ -10650,7 +10650,7 @@
   },
   {
     "id": "A2-04-D0752",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_290",
@@ -10664,7 +10664,7 @@
   },
   {
     "id": "A2-04-D0753",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_290",
@@ -10678,7 +10678,7 @@
   },
   {
     "id": "A2-04-D0754",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_290",
@@ -10692,7 +10692,7 @@
   },
   {
     "id": "A2-04-D0755",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_290",
@@ -10707,7 +10707,7 @@
   },
   {
     "id": "A2-04-D0756",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_303",
@@ -10721,7 +10721,7 @@
   },
   {
     "id": "A2-04-D0757",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_303",
@@ -10735,7 +10735,7 @@
   },
   {
     "id": "A2-04-D0758",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_303",
@@ -10749,7 +10749,7 @@
   },
   {
     "id": "A2-04-D0759",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_301",
@@ -10763,7 +10763,7 @@
   },
   {
     "id": "A2-04-D0760",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_301",
@@ -10777,7 +10777,7 @@
   },
   {
     "id": "A2-04-D0761",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_301",
@@ -10791,7 +10791,7 @@
   },
   {
     "id": "A2-04-D0762",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_319",
@@ -10805,7 +10805,7 @@
   },
   {
     "id": "A2-04-D0763",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_319",
@@ -10819,7 +10819,7 @@
   },
   {
     "id": "A2-04-D0764",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_319",
@@ -10834,7 +10834,7 @@
   },
   {
     "id": "A2-04-D0765",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_304",
@@ -10848,7 +10848,7 @@
   },
   {
     "id": "A2-04-D0766",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_304",
@@ -10862,7 +10862,7 @@
   },
   {
     "id": "A2-04-D0767",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_304",
@@ -10876,7 +10876,7 @@
   },
   {
     "id": "A2-04-D0768",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_306",
@@ -10890,7 +10890,7 @@
   },
   {
     "id": "A2-04-D0769",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_306",
@@ -10904,7 +10904,7 @@
   },
   {
     "id": "A2-04-D0770",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_306",
@@ -10918,7 +10918,7 @@
   },
   {
     "id": "A2-04-D0771",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_328",
@@ -10932,7 +10932,7 @@
   },
   {
     "id": "A2-04-D0772",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_328",
@@ -10946,7 +10946,7 @@
   },
   {
     "id": "A2-04-D0773",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_328",
@@ -10960,7 +10960,7 @@
   },
   {
     "id": "A2-04-D0774",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_302",
@@ -10974,7 +10974,7 @@
   },
   {
     "id": "A2-04-D0775",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_302",
@@ -10988,7 +10988,7 @@
   },
   {
     "id": "A2-04-D0776",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_302",
@@ -11002,7 +11002,7 @@
   },
   {
     "id": "A2-04-D0777",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_305",
@@ -11016,7 +11016,7 @@
   },
   {
     "id": "A2-04-D0778",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_305",
@@ -11030,7 +11030,7 @@
   },
   {
     "id": "A2-04-D0779",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_305",
@@ -11044,7 +11044,7 @@
   },
   {
     "id": "A2-04-D0780",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_327",
@@ -11058,7 +11058,7 @@
   },
   {
     "id": "A2-04-D0781",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_327",
@@ -11072,7 +11072,7 @@
   },
   {
     "id": "A2-04-D0782",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_327",
@@ -11086,7 +11086,7 @@
   },
   {
     "id": "A2-04-D0783",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_299",
@@ -11100,7 +11100,7 @@
   },
   {
     "id": "A2-04-D0784",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_299",
@@ -11114,7 +11114,7 @@
   },
   {
     "id": "A2-04-D0785",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_299",
@@ -11128,7 +11128,7 @@
   },
   {
     "id": "A2-04-D0786",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_312",
@@ -11142,7 +11142,7 @@
   },
   {
     "id": "A2-04-D0787",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_312",
@@ -11156,7 +11156,7 @@
   },
   {
     "id": "A2-04-D0788",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_312",
@@ -11170,7 +11170,7 @@
   },
   {
     "id": "A2-04-D0789",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_326",
@@ -11184,7 +11184,7 @@
   },
   {
     "id": "A2-04-D0790",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_326",
@@ -11198,7 +11198,7 @@
   },
   {
     "id": "A2-04-D0791",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_326",
@@ -11212,7 +11212,7 @@
   },
   {
     "id": "A2-04-D0792",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_286",
@@ -11226,7 +11226,7 @@
   },
   {
     "id": "A2-04-D0793",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_286",
@@ -11240,7 +11240,7 @@
   },
   {
     "id": "A2-04-D0794",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_286",
@@ -11254,7 +11254,7 @@
   },
   {
     "id": "A2-04-D0795",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_359",
@@ -11268,7 +11268,7 @@
   },
   {
     "id": "A2-04-D0796",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_359",
@@ -11282,7 +11282,7 @@
   },
   {
     "id": "A2-04-D0797",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_324",
@@ -11296,7 +11296,7 @@
   },
   {
     "id": "A2-04-D0798",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_324",
@@ -11308,7 +11308,7 @@
   },
   {
     "id": "A2-04-D0799",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_670",
@@ -11322,7 +11322,7 @@
   },
   {
     "id": "A2-04-D0800",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_670",
@@ -11341,7 +11341,7 @@
   },
   {
     "id": "A2-04-D0801",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_670",
@@ -11353,7 +11353,7 @@
   },
   {
     "id": "A2-04-D0802",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_670",
@@ -11367,7 +11367,7 @@
   },
   {
     "id": "A2-04-D0803",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_439",
@@ -11381,7 +11381,7 @@
   },
   {
     "id": "A2-04-D0804",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_439",
@@ -11393,7 +11393,7 @@
   },
   {
     "id": "A2-04-D0805",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_439",
@@ -11407,7 +11407,7 @@
   },
   {
     "id": "A2-04-D0806",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_322",
@@ -11421,7 +11421,7 @@
   },
   {
     "id": "A2-04-D0807",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_322",
@@ -11433,7 +11433,7 @@
   },
   {
     "id": "A2-04-D0808",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_322",
@@ -11447,7 +11447,7 @@
   },
   {
     "id": "A2-04-D0809",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_315",
@@ -11461,7 +11461,7 @@
   },
   {
     "id": "A2-04-D0810",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_315",
@@ -11473,7 +11473,7 @@
   },
   {
     "id": "A2-04-D0811",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_315",
@@ -11487,7 +11487,7 @@
   },
   {
     "id": "A2-04-D0812",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_310",
@@ -11501,7 +11501,7 @@
   },
   {
     "id": "A2-04-D0813",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_310",
@@ -11513,7 +11513,7 @@
   },
   {
     "id": "A2-04-D0814",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_310",
@@ -11528,7 +11528,7 @@
   },
   {
     "id": "A2-04-D0815",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_649",
@@ -11542,7 +11542,7 @@
   },
   {
     "id": "A2-04-D0816",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_649",
@@ -11554,7 +11554,7 @@
   },
   {
     "id": "A2-04-D0817",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_649",
@@ -11569,7 +11569,7 @@
   },
   {
     "id": "A2-04-D0818",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_330",
@@ -11583,7 +11583,7 @@
   },
   {
     "id": "A2-04-D0819",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_330",
@@ -11595,7 +11595,7 @@
   },
   {
     "id": "A2-04-D0820",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_333",
@@ -11609,7 +11609,7 @@
   },
   {
     "id": "A2-04-D0821",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_333",
@@ -11621,7 +11621,7 @@
   },
   {
     "id": "A2-04-D0822",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_331",
@@ -11635,7 +11635,7 @@
   },
   {
     "id": "A2-04-D0823",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_331",
@@ -11647,7 +11647,7 @@
   },
   {
     "id": "A2-04-D0824",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_334",
@@ -11661,7 +11661,7 @@
   },
   {
     "id": "A2-04-D0825",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_334",
@@ -11673,7 +11673,7 @@
   },
   {
     "id": "A2-04-D0826",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-12",
     "entry": "n5_v_331",
@@ -11684,5 +11684,221 @@
     ],
     "after": null,
     "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0827",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-00",
+    "entry": "n5_v_555",
+    "field": "writings",
+    "kind": "correction",
+    "before": "<ruby>曲<rt>ま</rt></ruby>る",
+    "after": "<ruby>曲<rt>まが</rt></ruby>る",
+    "reason": "Addendum A8 (I5) : les furigana de la graphie 曲る se lisaient まる au lieu de まがる, la lecture par défaut (romaji de la fiche : magaru)."
+  },
+  {
+    "id": "A2-04-D0828",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-01",
+    "entry": "n5_v_15",
+    "field": "readings",
+    "kind": "correction",
+    "before": "お<ruby>巡<rt>ま和</rt></ruby>りさん",
+    "after": "お<ruby>巡<rt>まわ</rt></ruby>りさん",
+    "reason": "Addendum A8 (I4) : un kanji dans le <rt> (ま和) ; la lecture recomposée donnait おま和りさん au lieu de おまわりさん (romaji de la fiche : omawarisan)."
+  },
+  {
+    "id": "A2-04-D0829",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-01",
+    "entry": "n5_v_16",
+    "field": "readings",
+    "kind": "correction",
+    "before": "お<ruby>兄<rt>に</rt></ruby>さん",
+    "after": "お<ruby>兄<rt>にい</rt></ruby>さん",
+    "reason": "Addendum A8 (I4) : les furigana se lisaient おにさん au lieu de おにいさん (romaji de la fiche : oniisan)."
+  },
+  {
+    "id": "A2-04-D0830",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-01",
+    "entry": "n5_v_28",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>大<rt>おと</rt></ruby><ruby>人<rt>おとな</rt></ruby>",
+    "after": "<ruby>大人<rt>おとな</rt></ruby>",
+    "reason": "Addendum A8, règles A et B : lecture spéciale selon la fiche (jukujikun), segmentée et contradictoire (おとおとな au lieu de おとな) ; furigana en bloc (liste fermée)."
+  },
+  {
+    "id": "A2-04-D0831",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-01",
+    "entry": "n5_v_283",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>風<rt>かぜ</rt></ruby><ruby>邪<rt>じゃ</rt></ruby>",
+    "after": "<ruby>風邪<rt>かぜ</rt></ruby>",
+    "reason": "Addendum A8 (I4) : les furigana se lisaient かぜじゃ au lieu de かぜ (romaji de la fiche : kaze). Bloc par nécessité : 邪 ne porte aucune part de la lecture, aucune segmentation admissible ne recompose かぜ. Hors liste des lectures spéciales."
+  },
+  {
+    "id": "A2-04-D0832",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-03",
+    "entry": "n5_v_229",
+    "field": "readings",
+    "kind": "correction",
+    "before": "ちり<ruby>紙<rt>かみ</rt></ruby>",
+    "after": "ちり<ruby>紙<rt>がみ</rt></ruby>",
+    "reason": "Addendum A8 (I4) : les furigana se lisaient ちりかみ au lieu de ちりがみ (voisement perdu ; romaji de la fiche : chirigami)."
+  },
+  {
+    "id": "A2-04-D0833",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-05",
+    "entry": "n5_v_77",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>上<rt>うえ</rt></ruby><ruby>着<rt>ぎ</rt></ruby>",
+    "after": "<ruby>上<rt>うわ</rt></ruby><ruby>着<rt>ぎ</rt></ruby>",
+    "reason": "Addendum A8 (I4) : les furigana se lisaient うえぎ au lieu de うわぎ (romaji de la fiche : uwagi)."
+  },
+  {
+    "id": "A2-04-D0834",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-05",
+    "entry": "n5_v_223",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>財<rt>ざい</rt></ruby><ruby>布<rt>ふ</rt></ruby>",
+    "after": "<ruby>財<rt>さい</rt></ruby><ruby>布<rt>ふ</rt></ruby>",
+    "reason": "Addendum A8 (I4) : les furigana se lisaient ざいふ au lieu de さいふ (romaji de la fiche : saifu)."
+  },
+  {
+    "id": "A2-04-D0835",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-05",
+    "entry": "n5_v_640",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>八<rt>やお</rt></ruby><ruby>百<rt>お</rt></ruby><ruby>屋<rt>や</rt></ruby>",
+    "after": "<ruby>八百<rt>やお</rt></ruby><ruby>屋<rt>や</rt></ruby>",
+    "reason": "Addendum A8 (I4) : les furigana se lisaient やおおや au lieu de やおや (romaji de la fiche : yaoya). Correction minimale : 八百 porte やお, 屋 garde や ; pas de bloc sur le mot entier."
+  },
+  {
+    "id": "A2-04-D0836",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-05",
+    "entry": "n5_v_694",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もの</rt></ruby>",
+    "after": "<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もつ</rt></ruby>",
+    "reason": "Addendum A8 (I4) : les furigana se lisaient にもの au lieu de にもつ (romaji de la fiche : nimotsu)."
+  },
+  {
+    "id": "A2-04-D0837",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-05",
+    "entry": "n5_v_715",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>下</rt></ruby>",
+    "after": "<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>した</rt></ruby>",
+    "reason": "Addendum A8 (I4) : un kanji dans le <rt> (下) ; la lecture recomposée donnait くつ下 au lieu de くつした (romaji de la fiche : kutsushita)."
+  },
+  {
+    "id": "A2-04-D0838",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-08",
+    "entry": "n5_v_643",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>切<rt>き</rt></ruby><ruby>手<rt>て</rt></ruby>",
+    "after": "<ruby>切<rt>きっ</rt></ruby><ruby>手<rt>て</rt></ruby>",
+    "reason": "Addendum A8 (I4) : les furigana se lisaient きて au lieu de きって (petit っ perdu ; romaji de la fiche : kitte)."
+  },
+  {
+    "id": "A2-04-D0839",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-09",
+    "entry": "n5_v_190",
+    "field": "readings",
+    "kind": "correction",
+    "before": "すぷーつ",
+    "after": "すぽーつ",
+    "reason": "Addendum A8 (I4) : contradiction entre les furigana (スポーツ, soit すぽーつ) et le kana de la source (すぷーつ). C'est le kana qui est fautif, coquille de la source : la forme et le romaji de la fiche (supootsu) donnent すぽーつ. Furigana inchangés."
+  },
+  {
+    "id": "A2-04-D0840",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-12",
+    "entry": "n5_v_299",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>今<rt>こと</rt></ruby><ruby>年<rt>とし</rt></ruby>",
+    "after": "<ruby>今年<rt>ことし</rt></ruby>",
+    "reason": "Addendum A8, règles A et B : lecture spéciale selon la fiche (jukujikun), segmentée et contradictoire (こととし au lieu de ことし) ; furigana en bloc (liste fermée)."
+  },
+  {
+    "id": "A2-04-D0841",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-12",
+    "entry": "n5_v_303",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>今<rt>け</rt></ruby><ruby>朝<rt>さ</rt></ruby>",
+    "after": "<ruby>今朝<rt>けさ</rt></ruby>",
+    "reason": "Addendum A8, règle A : lecture spéciale selon la fiche (jukujikun), répartie artificiellement entre les kanji (け + さ) ; furigana en bloc (liste fermée)."
+  },
+  {
+    "id": "A2-04-D0842",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-12",
+    "entry": "n5_v_319",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>昨<rt>ゆう</rt></ruby><ruby>夜<rt>べ</rt></ruby>",
+    "after": "<ruby>昨夜<rt>ゆうべ</rt></ruby>",
+    "reason": "Addendum A8, règle A : lecture spéciale selon la fiche (jukujikun), répartie artificiellement entre les kanji (ゆう + べ) ; furigana en bloc (liste fermée)."
+  },
+  {
+    "id": "A2-04-D0843",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-12",
+    "entry": "n5_v_359",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>近<rt>ちか</rt></ruby><ruby>々<rt>ぢか</rt></ruby>",
+    "after": "<ruby>近<rt>ちか</rt></ruby><ruby>々<rt>じか</rt></ruby>",
+    "reason": "Addendum A8 (I4) : les furigana se lisaient ちかぢか au lieu de ちかじか, le kana de la fiche (romaji : chikajika). Arbitrage : ちかじか, le kana et le romaji de la fiche concordent, seuls les furigana différaient. Segmentation conservée : la fiche ne qualifie pas la lecture de spéciale."
+  },
+  {
+    "id": "A2-04-D0844",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-12",
+    "entry": "n5_v_439",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>かた</rt></ruby>",
+    "after": "<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>がた</rt></ruby>",
+    "reason": "Addendum A8 (I4) : les furigana se lisaient ゆうかた au lieu de ゆうがた (voisement perdu ; romaji de la fiche : yuugata)."
   }
 ]

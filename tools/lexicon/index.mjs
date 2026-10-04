@@ -20,7 +20,7 @@ import { checkRelations, checkReferences, checkExpressionTags, checkPlaces } fro
 
 export { buildRegistryIndex, readRegistries } from './registries.mjs';
 export { REGISTRY_SOURCES, REGISTRY_FILES, LEXICON_LEVELS } from './schema.mjs';
-export { parseFurigana, kanjiOf } from './entry.mjs';
+export { parseFurigana, kanjiOf, kanaKey, furiganaMatchesKana } from './entry.mjs';
 export { REFERENCE_SHAPE } from './references.mjs';
 
 const INPUT_KEYS = ['files', 'registries', 'retired', 'knownKanji', 'particles', 'references', 'expressions', 'lieux'];

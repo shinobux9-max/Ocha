@@ -22,7 +22,7 @@
 // « proposed » n'a aucun effet normatif et peut être réécrit sous le même identifiant ;
 // « validated » seulement fait foi. Une décision de lot validée ne cite que du journal validé.
 
-import { HUMAN_FIELDS, EXCEPTION_FIELDS, CLASS_GROUPS } from './rules.mjs';
+import { HUMAN_FIELDS, EXCEPTION_FIELDS, CLASS_GROUPS, SPECIAL_READING_IDS, blockFurigana } from './rules.mjs';
 import { numberOf, newId } from './mechanical.mjs';
 
 export const STATUSES = Object.freeze(['proposed', 'validated']);
@@ -96,6 +96,15 @@ function checkFields(problems, where, fields, pre, { addition = false, mergeTarg
     if (groups && !(groups.length === 0 ? fields.group === null : groups.includes(fields.group))) {
       problems.push({ code: 'decision-groupe', where, message: `group « ${fields.group} » incompatible avec la classe « ${cls} » (${groups.length ? groups.join(', ') : 'null'})` });
     }
+  }
+  // Addendum A8, règle A : une lecture décidée d'une entrée de la liste fermée est en bloc.
+  if (Object.hasOwn(SPECIAL_READING_IDS, pre?.oldId ?? '') && Array.isArray(fields.readings)) {
+    const word = fields.word ?? pre.values.word;
+    fields.readings.forEach((r, k) => {
+      if (isObject(r) && typeof r.kana === 'string' && r.furigana !== blockFurigana(word, r.kana)) {
+        problems.push({ code: 'lecture-speciale', where: `${where} · lecture ${k + 1}`, message: `lecture spéciale (addendum A8, liste fermée) : furigana en bloc attendus, « ${blockFurigana(word, r.kana)} »` });
+      }
+    });
   }
   // Sens : identifiants et particules d'un sens unique sont mécaniques.
   if (Array.isArray(fields.senses)) {

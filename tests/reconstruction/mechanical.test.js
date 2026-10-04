@@ -39,6 +39,27 @@ test('furigana : espaces retirés seulement si la forme est retrouvée exactemen
   assert.match(PREFILLS.get('n5_v_455').exceptions.readings, /furigana/); // 明るい
 });
 
+// Addendum A8 : la couche mécanique DÉTECTE, elle ne corrige rien. Une contradiction ou une
+// lecture spéciale segmentée devient une lecture à décider dans un lot.
+test('A8 : furigana contredisant les kana, lectures spéciales segmentées : lectures à décider', () => {
+  const reason = (id) => PREFILLS.get(id).exceptions.readings ?? '';
+  // Règle B : syllabe perdue, kanji dans un <rt>, kana fautif (スポーツ), voisement, okurigana doublé.
+  for (const id of ['n5_v_16', 'n5_v_15', 'n5_v_715', 'n5_v_190', 'n5_v_439', 'n5_v_552']) {
+    assert.match(reason(id), /contredisant les kana/, id);
+    assert.ok(!Object.hasOwn(PREFILLS.get(id).values, 'readings'), `${id} : aucune lecture mécanique, aucune correction`);
+  }
+  // Règle A : la lecture recomposée est juste, seule la liste fermée la rend décidable.
+  for (const id of ['n5_v_303', 'n5_v_319']) assert.match(reason(id), /lecture spéciale segmentée/, id);
+  // 今日 : dans la liste, déjà en bloc ; protégée, elle reste mécanique.
+  assert.equal(PREFILLS.get('n5_v_300').values.readings[0].furigana, '<ruby>今日<rt>きょう</rt></ruby>');
+  // Une lecture concordante hors liste reste mécanique.
+  assert.ok(PREFILLS.get('n5_v_39').values.readings, '男の子');
+  // Portée exacte sur les 718 sources : 20 contradictions et 2 lectures spéciales seulement segmentées.
+  const flagged = [...PREFILLS.values()].filter((p) => /addendum A8/.test(p.exceptions.readings ?? ''));
+  assert.equal(flagged.filter((p) => /contredisant/.test(p.exceptions.readings)).length, 20);
+  assert.deepEqual(flagged.filter((p) => /segmentée/.test(p.exceptions.readings)).map((p) => p.oldId), ['n5_v_303', 'n5_v_319']);
+});
+
 test('classe : nombres par liste, jamais par détection ; types sans classe en exception', () => {
   assert.equal(PREFILLS.get('n5_v_367').values.grammatical_class, 'numeral'); // 一
   const mannenhitsu = [...SOURCES.vocab].find((s) => s.word === '万年筆');

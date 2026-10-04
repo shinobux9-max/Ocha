@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-03 (clôture du lot 11)
+**Dernière mise à jour :** 2026-10-04 (clôture du lot 12)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,12 +41,12 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.13, lot 12 « Temps relatif, moments de la journée
-et fréquence ».**
+**A2-04 · reconstruction du vocabulaire N5 → 5.14, lot 13 « Calendrier, dates et durées ».**
 
-Les lots 0 à 11 sont terminés et validés. Le périmètre du lot 12 est validé (31 entrées) ; sa
-proposition est livrée (statut `proposed`) et en relecture. Le lot 13 traitera ensuite le
-calendrier, les dates et les durées, son périmètre restant à composer.
+Les lots 0 à 12 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
+y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
+entrées validées concernées sont corrigées et revalidées. Le lot 13 traitera le calendrier, les
+dates et les durées ; son périmètre reste à composer.
 
 ------------------------------------------------------------------------
 
@@ -256,8 +256,10 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.10 · lot 09** | Loisirs, sorties et voyages | ✅ Terminé |
 | **5.11 · lot 10** | Position, direction et orientation | ✅ Terminé |
 | **5.12 · lot 11** | Démonstratifs, interrogatifs et pronoms (こ・そ・あ・ど) | ✅ Terminé |
-| **5.13 · lot 12** | Temps relatif, moments de la journée et fréquence | 🟡 **Proposition livrée ; en relecture** |
-| **5.14 → 5.15** | Lots thématiques suivants | ⬜ À faire |
+| **5.13 · lot 12** | Temps relatif, moments de la journée et fréquence | ✅ Terminé |
+| **5.13-C** | Chantier transversal des furigana : addendum A8, correction des entrées validées | ✅ Terminé |
+| **5.14 · lot 13** | Calendrier, dates et durées | 🟡 **Périmètre à composer** |
+| **5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -270,12 +272,12 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 11
+#### État chiffré après le lot 12
 
--   **414 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **445 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **31 identifiants retirés** ;
--   **274 anciennes entrées encore à décider** ;
--   **734 décisions humaines validées** au journal ;
+-   **243 anciennes entrées encore à décider** ;
+-   **844 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -292,15 +294,28 @@ traité comme un système. Arbitrages appliqués :
 -   paradigme asymétrique assumé (les fiches ne sont pas symétriques) ; `どちら` à trois sens ;
     aucune forme absente complétée.
 
-#### Lot 12 · proposition en relecture
+#### Chantier 5.13-C · furigana · clos
+
+Le contrôle du lot 12 a montré que des furigana contredisaient les kana, y compris dans des lots
+validés, et que le validateur ne le contrôlait pas.
+
+-   **Addendum A8** (`docs/conception/addendum-A8-furigana.md`) : la lecture recomposée des
+    furigana est égale aux kana (I4 et I5 complétés, erreur bloquante) ; les lectures spéciales
+    d'une liste fermée s'écrivent en bloc. Le validateur et la reconstruction l'appliquent.
+-   **13 entrées validées corrigées** (lots 00, 01, 03, 05, 08, 09) : rouvertes, corrigées par 13
+    décisions nouvelles (D0827 à D0839), puis revalidées. Les décisions historiques sont intactes.
+    Rapport : `docs/rapports/etape2-tache5-13c-valide.md`.
+
+#### Lot 12 · clos
 
 Thème : **Temps relatif, moments de la journée et fréquence** (31 anciennes entrées, aucune
-fusion), premier lot de l'axe temporel d'A7 : 20 sens déictiques, 11 non. Essai à blanc :
-**445 ENTRY**, **31 identifiants retirés**, 0 problème, 0 erreur, 0 attente ; 243 entrées
-restantes après le lot.
+fusion, aucun tag de lieu), premier lot de l'axe temporel d'A7 : 20 sens déictiques, dans 20
+entrées ; 11 entrées sans fonction déictique. La révision 5.13b y a décidé cinq lectures rendues
+décidables par A8 (今年, 今朝, 昨夜 en bloc ; 近々 ; 夕方) et fondé le bloc de 昨日 sur la nécessité.
+97 décisions (D0735 à D0826, D0840 à D0844).
 
-**Prochaine action immédiate :** relire et arbitrer la proposition du lot 12, la réviser si
-besoin, puis la valider avant de composer le lot 13 (5.14, calendrier, dates et durées).
+**Prochaine action immédiate :** composer le périmètre du lot 13 (5.14, calendrier, dates et
+durées), par identifiants, puis le faire valider avant toute proposition.
 
 ------------------------------------------------------------------------
 
@@ -577,7 +592,8 @@ Ensuite seulement :
    │   ├── Lot 09 Loisirs, voyages (5.10)   ✅
    │   ├── Lot 10 Position (5.11)           ✅
    │   ├── Lot 11 こそあど (5.12)            ✅
-   │   ├── Lot 12 Temps relatif (5.13)      🟡
+   │   ├── Lot 12 Temps relatif (5.13)      ✅
+   │   ├── 5.13-C Furigana (A8)             ✅
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜
