@@ -44,8 +44,9 @@ entrées et 46 décisions (D0410 à D0455) en `validated` ; assemblage réel : 2
 `validated` ; assemblage réel : 337 ENTRY, 30 retraits, 0 erreur, 0 attente. **5.10 · lot 09 « loisirs, sorties et voyages » validé** (rapport
 `docs/rapports/etape2-tache5-10-lot09-valide.md`) : 20 entrées (19 gardées, 散歩する fusionné dans
 散歩) et 35 décisions (D0540 à D0574) en `validated` ; assemblage réel : 356 ENTRY, 31 retraits,
-0 erreur, 0 attente. Prochaine sous-tâche : 5.11, composition du lot 10 d'abord, aucune proposition
-avant validation du périmètre. Le validateur lexical n'est pas
+0 erreur, 0 attente. 5.11 · lot 10 « position, direction et orientation » : périmètre validé (24 entrées), **proposition**
+livrée (`reconstruction/a2-04/lots/lot-10.json`, rapport `docs/rapports/etape2-tache5-11-lot10.md`) ;
+aucune décision validée avant la relecture. Le validateur lexical n'est pas
 encore appliqué à `data/` (bascule à la publication d'A2-04).
 A2-02 est terminé (rapport final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
@@ -65,7 +66,7 @@ livraison, relecture, tests verts, commit.
 | 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (validée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait, A2-02 fermé (3.1 à 3.5 validées) |
 | 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | ✅ fait, A2-03 fermé (4.1 à 4.5 validées) |
 | 5 | A2-04 · 5.0 · Infrastructure | `reconstruction/a2-04/` (sources figées et empreintes, `place-tags.json`, `lots/`, `journal.json`) et `tools/reconstruction/` (règles et listes fermées, couche mécanique, contrôle des lots et du journal, assembleur partiel et complet, rapport de relecture, commandes) ; aucune décision lexicale | validée |
-| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.10 validées (lots 0 à 09) ; 5.11 à composer |
+| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.10 validées (lots 0 à 09) ; 5.11 proposée (lot 10) |
 | 7 | A2-04 · 5.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
 | 8 | A2-04 · 5.17 · Publication | une seule opération : vocabulaire canonique, validateur activé, `events.js` (E1 à E4) ; l'ancienne app cesse de fonctionner sur `ocha-v2` | à faire |
 | 9 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
@@ -113,7 +114,7 @@ bloque `npm test`).
   mémoire, schéma et migrations, IndexedDB), `src/learning/` (`index.js`, `record.js`, `srs.js`, `state.js`,
   `weakness.js`, `events.js`, `effects.js`, `journal.js`, `budget.js`,
   `dates.js`), `src/content/` (`index.js`, `catalog.js`, `kana.js`, `errors.js`), `tools/check-layers.mjs`,
-  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tools/reconstruction/` et `reconstruction/a2-04/` (reconstruction du vocabulaire), `tests/` (430 tests dans Node, plus la page
+  `tools/validate-data.mjs`, `data/registries/` (registres A2), `docs/conception/a2/` (snapshots A2 figés), `tools/lexicon/` (validateur lexical), `tools/lexicon-adapter.mjs` (son adaptateur), `tools/reconstruction/` et `reconstruction/a2-04/` (reconstruction du vocabulaire), `tests/` (431 tests dans Node, plus la page
   `tests/browser/store-contract.html`), `docs/conception/`, `docs/rapports/`, `package.json` (modules ESM).
   Les autres dossiers de `src/` sont vides pour l'instant.
 - **Conception** : addenda A3 (modèle lexical et reconstruction) et A4 (identifiants
@@ -299,6 +300,7 @@ modifier ses parties verrouillées.
 | 2026-10-03 | A2-04 · 5.10 · périmètre du lot 09 : 20 entrées (musique, chant, image ; activités et sorties ; piscine ; pays et voyages), dont 映画館, プール, 国, 帰国 et 旅行 ; la position et la direction (27 entrées, avec les démonstratifs) forment un lot à part ; 散歩 / 散歩する : candidat à la fusion, décidé après confrontation des fiches, le précédent 掃除 / 掃除する fournissant le critère, pas le résultat ; aucun nombre de sens pré-validé ; aucun sens repris d'un homophone (お釣り, 引く, 唄) ; chaque ancien candidat de lieu rejeté explicitement | `reconstruction/a2-04/lots/lot-09.json` |
 | 2026-10-03 | A2-04 · lot 09 arbitré : fusion 散歩する → 散歩 validée (散歩 `suru_compatible: true`) ; `suru_compatible: true` seulement quand la source établit la **formation** du verbe avec する (散歩, 旅行, 帰国), jamais pour une construction nom + を + する (スポーツ, 釣り : `false`), même si la source porte l'étiquette « Nom / verbe suru » ; 国 à un sens, le pays natal étant le même concept contextualisé (nuance) ; le reste du lot validé tel que proposé | `reconstruction/a2-04/lots/lot-09.json` |
 | 2026-10-03 | A2-04 · 5.10 fermée : lot 09 validé ; la distinction « formation Nする » / « construction Nをする » est une clarification opérationnelle d'A2-04 pour décider `suru_compatible` d'après la source, et non une affirmation qu'une construction Nをする interdirait linguistiquement Nする | `reconstruction/a2-04/` |
+| 2026-10-03 | A2-04 · 5.11 · séquençage : lot 10 = espace lexical (position, direction, distance, orientation, 24 entrées dont 向こう et 地図) ; lot 11 = système démonstratif et interrogatif (こ・そ・あ・ど) ; 次 avec l'ordre et le temps. Tags de la gare : aucune présomption pour les points cardinaux, la signalétique 東口 / 西口 ne les rendant pas propres à la gare ; chaque candidat examiné individuellement. Aucun découpage pré-validé (前, 後ろ, 隣, 向こう, 表, 縦, 横, 先) ; aucun sens repris d'un homographe (中 suffixal, 表 ひょう, 角 つの, 蕎麦) | `reconstruction/a2-04/lots/lot-10.json` |
 
 ---
 
@@ -489,3 +491,4 @@ modifier ses parties verrouillées.
 | 2026-10-03 | 2 · 5.10 | Lot 09 proposé : 20 entrées (19 gardées, 散歩する fusionné dans 散歩 après confrontation des fiches), 35 décisions de journal proposées (D0540 à D0574) ; essai à blanc : 356 ENTRY, 31 retraits, 0 problème, 0 erreur, 0 attente, 332 entrées restantes après le lot ; 1 nouveau test ; 430 tests | — |
 | 2026-10-03 | 2 · 5.10b | Révision du lot 09 : 釣り en `suru_compatible: false`, 国 à un sens ; D0554, D0568 et D0570 réécrites à leur place, aucune nouvelle décision ; essai à blanc inchangé : 356 ENTRY, 31 retraits, 0 erreur, 0 attente, 332 entrées restantes ; 430 tests | — |
 | 2026-10-03 | 2 · 5.10 | Validation du lot 09 : 20 entrées et 35 décisions passées en `validated` sans autre changement ; journal entier validé (574 décisions) ; assemblage réel : 356 ENTRY, 31 retraits (dont `v_194 → v_193`), 0 problème, 0 erreur, 0 attente, 332 entrées encore à décider ; test d'état adapté (fusion de 散歩する ; `suru_compatible: true` seulement pour 散歩, 旅行, 帰国 dans le lot) ; 3 sabotages attrapés ; `ROADMAP.md` mis à jour (5.10 ✅, 5.11 prochain chantier) ; 430 tests | — |
+| 2026-10-03 | 2 · 5.11 | Lot 10 proposé : 24 entrées, 56 décisions de journal proposées (D0575 à D0630), dont 22 rejets de `lieu_gare` motivés un par un ; 先 en classe `nom` ; essai à blanc : 380 ENTRY, 31 retraits, 0 problème, 0 erreur, 0 attente, 308 entrées restantes après le lot ; 1 nouveau test ; 431 tests | — |

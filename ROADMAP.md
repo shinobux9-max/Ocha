@@ -41,10 +41,12 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.11, composition du lot 10.**
+**A2-04 · reconstruction du vocabulaire N5 → 5.11, lot 10 « Position, direction et
+orientation ».**
 
-Les lots 0 à 09 sont terminés et validés. Le prochain chantier est la composition du lot 10 : son
-périmètre doit être validé avant toute proposition lexicale.
+Les lots 0 à 09 sont terminés et validés. Le périmètre du lot 10 est validé (24 entrées) ; sa
+proposition est livrée (statut `proposed`) et en relecture. Le lot 11 traitera ensuite le système
+démonstratif et interrogatif (こ・そ・あ・ど).
 
 ------------------------------------------------------------------------
 
@@ -252,7 +254,7 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.8 · lot 07** | Météo, saisons et nature | ✅ Terminé |
 | **5.9 · lot 08** | Communication, correspondance et médias | ✅ Terminé |
 | **5.10 · lot 09** | Loisirs, sorties et voyages | ✅ Terminé |
-| **5.11 · lot 10** | À composer | 🔵 **Prochain chantier** |
+| **5.11 · lot 10** | Position, direction et orientation | 🟡 **Proposition livrée ; en relecture** |
 | **5.12 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
@@ -287,8 +289,14 @@ appliqués :
 -   `国` à un sens, le pays d'origine dans la nuance ; aucun sens repris d'un homophone
     (`お釣り`, `引く`, `唄`).
 
-**Prochaine action immédiate :** composer le lot 10 (5.11), faire valider son périmètre, puis
-seulement produire ses décisions en statut `proposed`.
+#### Lot 10 · proposition en relecture
+
+Thème : **Position, direction et orientation** (24 anciennes entrées, aucune fusion). Les 22
+candidats `lieu_gare` sont rejetés un par un. Essai à blanc : **380 ENTRY**, **31 identifiants
+retirés**, 0 problème, 0 erreur, 0 attente ; 308 entrées restantes après le lot.
+
+**Prochaine action immédiate :** relire et arbitrer la proposition du lot 10, la réviser si
+besoin, puis la valider avant de composer le lot 11 (5.12, démonstratifs et interrogatifs).
 
 ------------------------------------------------------------------------
 
@@ -560,7 +568,7 @@ Ensuite seulement :
    │   ├── Lot 07 Météo, nature (5.8)       ✅
    │   ├── Lot 08 Communication (5.9)       ✅
    │   ├── Lot 09 Loisirs, voyages (5.10)   ✅
-   │   ├── Lot 10 (5.11)                    🔵
+   │   ├── Lot 10 Position (5.11)           🟡
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

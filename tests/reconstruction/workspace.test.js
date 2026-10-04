@@ -169,6 +169,16 @@ test('5.10 : le lot 09 est entièrement validé (20 entrées dont 1 retrait), jo
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
+// A2-04 · 5.11 : le lot 10 est livré en PROPOSITION, journal compris ; aucune de ses décisions
+// n'est validée avant la relecture. Ce test changera à la validation du lot 10.
+test('5.11 : le lot 10 est entièrement proposé (24 entrées), journal compris', () => {
+  const lot10 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-10.json'), 'utf8'));
+  assert.equal(Object.keys(lot10.entries).length, 24);
+  assert.ok(Object.values(lot10.entries).every((e) => e.status === 'proposed'));
+  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
+  assert.ok(journal.filter((j) => j.lot === 'lot-10').every((j) => j.status === 'proposed'));
+});
+
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du
 // validateur lexical, ni attente. Les comptes suivent les décisions validées, lot après lot.
 test('espace de travail réel : assemblage partiel sans problème ni erreur', () => {

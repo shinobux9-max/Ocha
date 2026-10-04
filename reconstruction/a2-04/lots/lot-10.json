@@ -1,0 +1,974 @@
+{
+  "lot": "lot-10",
+  "title": "Position, direction et orientation",
+  "entries": {
+    "n5_v_43": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0592",
+        "A2-04-D0593",
+        "A2-04-D0594"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'emplacement immédiatement voisin : 隣の人, le voisin ; 隣の家, la maison d'à côté ; 隣の席, la place d'à côté.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "À côté",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "distance_proximite",
+              "level_3": "proximite"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_341": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0595",
+        "A2-04-D0596",
+        "A2-04-D0597"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "側",
+            "furigana": "<ruby>側<rt>そば</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Tout près de quelqu'un ou de quelque chose : 駅のそば. Homophone : 蕎麦 (les nouilles soba), un autre mot.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Près",
+              "alternatives": [
+                "À côté"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "distance_proximite",
+              "level_3": "proximite"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_345": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0575",
+        "A2-04-D0576",
+        "A2-04-D0577"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec の et に : 机の上に, sur le bureau.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dessus",
+              "alternatives": [
+                "Au-dessus"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation",
+              "level_3": "dessus_dessous"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_346": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0581",
+        "A2-04-D0582"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec の et に : 箱の中に, dans la boîte. Lu ちゅう ou じゅう, 〜中 est un suffixe, une autre unité.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Intérieur",
+              "alternatives": [
+                "Dedans"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation",
+              "level_3": "interieur_exterieur"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_347": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0623",
+        "A2-04-D0624",
+        "A2-04-D0625"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Avant (plus loin)",
+              "alternatives": [
+                "Bout",
+                "Extrémité"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation",
+              "level_3": "devant_derriere"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "この先 : plus loin ; ペンの先 : la pointe du stylo."
+          },
+          {
+            "meaning": {
+              "primary": "Auparavant",
+              "alternatives": [
+                "D'abord"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "chronologie",
+              "level_3": "avant_apres"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "先に : d'abord, avant (les autres) ; お先に : je vous précède."
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_348": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0585",
+        "A2-04-D0586"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Devant",
+              "alternatives": [
+                "En face"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation",
+              "level_3": "devant_derriere"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "駅の前 : devant la gare."
+          },
+          {
+            "meaning": {
+              "primary": "Avant (dans le temps)",
+              "alternatives": [
+                "Auparavant"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "chronologie",
+              "level_3": "avant_apres"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "三年前 : il y a trois ans ; 食べる前に : avant de manger."
+          }
+        ]
+      }
+    },
+    "n5_v_349": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0618",
+        "A2-04-D0619",
+        "A2-04-D0620"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Exemple : 北口, la sortie nord.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Nord",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "directions_cardinales"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_350": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0616",
+        "A2-04-D0617",
+        "A2-04-D0620"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Exemple : 南口, la sortie sud.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sud",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "directions_cardinales"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_351": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0610"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "右に曲がる : tourner à droite.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Droite",
+              "alternatives": [
+                "Côté droit"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "gauche_droite"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_352": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0583",
+        "A2-04-D0584"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Par opposition à l'intérieur (中) : 外で遊ぶ, jouer dehors.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Extérieur",
+              "alternatives": [
+                "Dehors"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation",
+              "level_3": "interieur_exterieur"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_353": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0611"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "左に曲がる : tourner à gauche.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Gauche",
+              "alternatives": [
+                "Côté gauche"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "gauche_droite"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_354": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0587",
+        "A2-04-D0588"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec の : 家の後ろ, derrière la maison.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Derrière",
+              "alternatives": [
+                "Arrière"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation",
+              "level_3": "devant_derriere"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_355": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0612",
+        "A2-04-D0613",
+        "A2-04-D0620"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Exemples : 東口, la sortie est ; 東京, la « capitale de l'est ».",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Est",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "directions_cardinales"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_356": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0589",
+        "A2-04-D0590",
+        "A2-04-D0591"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'espace juste à côté ou le flanc : 横に置く ; aussi le sens horizontal, par opposition à 縦.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Côté",
+              "alternatives": [
+                "Flanc"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_357": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0614",
+        "A2-04-D0615",
+        "A2-04-D0620"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Exemple : 西口, la sortie ouest.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ouest",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "directions_cardinales"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_358": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0621",
+        "A2-04-D0622"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'angle de deux rues ou le coin d'un bâtiment : 次の角を右に曲がる, tourner à droite au prochain coin. Lu つの, 角 (la corne) est un autre mot.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Coin",
+              "alternatives": [
+                "Angle"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "forme",
+              "level_3": "angulaire"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_360": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0626",
+        "A2-04-D0627",
+        "A2-04-D0628"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une distance courte, dans l'espace ou dans le temps : 駅に近い, près de la gare.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Proche",
+              "alternatives": [
+                "Près"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "distance_proximite",
+              "level_3": "proximite"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_362": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0629"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une grande distance, dans l'espace ou dans le temps : 駅から遠い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Loin",
+              "alternatives": [
+                "Éloigné"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "distance_proximite",
+              "level_3": "eloignement"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_419": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0601",
+        "A2-04-D0602"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un lieu situé en face, de l'autre côté d'une rue, ou au loin : 道の向こう.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "En face",
+              "alternatives": [
+                "Là-bas",
+                "L'autre côté"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_597": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0607",
+        "A2-04-D0608",
+        "A2-04-D0609"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La dimension de haut en bas, ou le sens de la longueur ; contraire : 横 (l'horizontale, la largeur). 縦に書く : écrire verticalement.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sens vertical",
+              "alternatives": [
+                "Hauteur"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions",
+              "level_3": "hauteur"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_630": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0578",
+        "A2-04-D0579",
+        "A2-04-D0580"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avec に : 机の下に, sous le bureau.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dessous",
+              "alternatives": [
+                "En bas"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation",
+              "level_3": "dessus_dessous"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_652": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0630"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Carte géographique ou plan de ville, pour se repérer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Carte",
+              "alternatives": [
+                "Plan"
+              ]
+            },
+            "category": {
+              "level_1": "territoires_lieux_geographiques",
+              "level_2": "representation_geographique",
+              "level_3": "cartes"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_696": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0603",
+        "A2-04-D0604",
+        "A2-04-D0605",
+        "A2-04-D0606"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le côté visible, la face avant, le recto, l'extérieur d'un bâtiment ; contraire : 裏 (l'envers). Lu ひょう, 表 (tableau) est un autre mot.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Face",
+              "alternatives": [
+                "Recto",
+                "Devant"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation",
+              "level_3": "devant_derriere"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_704": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0598",
+        "A2-04-D0599",
+        "A2-04-D0600"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Environs",
+              "alternatives": [
+                "Près"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "distance_proximite",
+              "level_3": "proximite"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "に",
+              "の"
+            ],
+            "nuance": "駅の近くに : près de la gare."
+          },
+          {
+            "meaning": {
+              "primary": "Prochainement",
+              "alternatives": [
+                "Bientôt"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "futur"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "近く結婚します : il se marie prochainement."
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

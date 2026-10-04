@@ -8184,5 +8184,831 @@
     ],
     "after": null,
     "reason": "Le premier n'est pas équivalent ; le second est redondant."
+  },
+  {
+    "id": "A2-04-D0575",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_345",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Au-dessus",
+      "Dessus",
+      "Sur",
+      "Supérieur"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la nuance de la source ne décrit que la position (le dessus, au-dessus)."
+  },
+  {
+    "id": "A2-04-D0576",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_345",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Sur",
+      "Supérieur"
+    ],
+    "after": null,
+    "reason": "« Sur » est une traduction de construction (〜の上に) ; « supérieur » (rang) n'est pas documenté par la nuance."
+  },
+  {
+    "id": "A2-04-D0577",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_345",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0578",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_630",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Sous",
+      "En bas",
+      "Au-dessous",
+      "Inférieur"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la nuance ne décrit que la position (l'espace au-dessous)."
+  },
+  {
+    "id": "A2-04-D0579",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_630",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Sous",
+      "Au-dessous",
+      "Inférieur"
+    ],
+    "after": null,
+    "reason": "« Sous » est une traduction de construction ; « au-dessous » est redondant ; « inférieur » (rang) n'est pas documenté par la nuance."
+  },
+  {
+    "id": "A2-04-D0580",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_630",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0581",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_346",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Dans",
+      "Au milieu"
+    ],
+    "after": null,
+    "reason": "« Dans » est une traduction de construction ; « au milieu » (真ん中) n'est pas documenté par la nuance. Aucun sens n'est repris du suffixe 〜中."
+  },
+  {
+    "id": "A2-04-D0582",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_346",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0583",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_352",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "À l'extérieur"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0584",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_352",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0585",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_348",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Devant",
+      "Avant",
+      "En face de"
+    ],
+    "after": [
+      "S1 Devant (espace)",
+      "S2 Avant (temps)"
+    ],
+    "reason": "Deux sens documentés par la nuance de la source (« l'espace situé en face… ou un moment antérieur dans le temps ») : une position et un moment, deux référents, deux catégories, deux types."
+  },
+  {
+    "id": "A2-04-D0586",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_348",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0587",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_354",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Dos"
+    ],
+    "after": null,
+    "reason": "Non documenté par la nuance (qui décrit l'espace à l'arrière) ; le dos se dit 背 (lot 01)."
+  },
+  {
+    "id": "A2-04-D0588",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_354",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0589",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_356",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Côté",
+      "À côté de",
+      "Latéral",
+      "Horizontal"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept documenté (« le flanc ou le côté horizontal ») : « horizontal » en est la direction, reprise dans la nuance, et non un second sens."
+  },
+  {
+    "id": "A2-04-D0590",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_356",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "À côté de",
+      "Latéral",
+      "Horizontal"
+    ],
+    "after": null,
+    "reason": "Le premier est une traduction de construction ; « latéral » est un adjectif ; « horizontal » est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0591",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_356",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0592",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_43",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "À côté",
+      "Voisin",
+      "Maison d'à côté"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept documenté (« l'emplacement directement à côté ou voisin ») : le voisin et la maison d'à côté en sont des emplois avec の, repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0593",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_43",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Voisin",
+      "Maison d'à côté"
+    ],
+    "after": null,
+    "reason": "Emplois repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0594",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_43",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare ; même 隣の駅 (la station voisine) reste un emploi général (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0595",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_341",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "側"
+    ],
+    "reason": "側, documentée par la nuance de la source, est la graphie en kanji de そば : variante kana / kanji. Rien n'est repris de l'homophone 蕎麦."
+  },
+  {
+    "id": "A2-04-D0596",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_341",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Proximité"
+    ],
+    "after": null,
+    "reason": "Nom abstrait, pas équivalent."
+  },
+  {
+    "id": "A2-04-D0597",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_341",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0598",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_704",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Près",
+      "Proche",
+      "Aux environs",
+      "Prochainement"
+    ],
+    "after": [
+      "S1 Environs (espace)",
+      "S2 Prochainement (temps)"
+    ],
+    "reason": "Deux sens documentés par la source (« la proximité spatiale (près de…) ou temporelle (bientôt) ») : un lieu proche et un moment proche. À la différence de 近い (un seul sens), 近く « prochainement » désigne un moment, et non un degré de distance."
+  },
+  {
+    "id": "A2-04-D0599",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_704",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Proche"
+    ],
+    "after": null,
+    "reason": "Adjectif, relève de 近い."
+  },
+  {
+    "id": "A2-04-D0600",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_704",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0601",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_419",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Là-bas",
+      "En face",
+      "De l'autre côté",
+      "L'autre versant"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept documenté : un lieu situé en vis-à-vis ou de l'autre côté."
+  },
+  {
+    "id": "A2-04-D0602",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_419",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "L'autre versant"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0603",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_696",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Surface",
+      "Devant",
+      "Face",
+      "Côté recto"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept documenté : le côté visible ou avant d'une chose. Aucun sens n'est repris de 表 lu ひょう (tableau)."
+  },
+  {
+    "id": "A2-04-D0604",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_696",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "La face d'une chose en est une partie : la partie n'est pas un type sémantique, et aucun type terminal ne convient (comme les parties du corps, lot 01) Addendum A6."
+  },
+  {
+    "id": "A2-04-D0605",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_696",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Surface"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : la surface se dit 表面."
+  },
+  {
+    "id": "A2-04-D0606",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_696",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0607",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_597",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Hauteur",
+      "Vertical",
+      "Sens de la longueur (vertical)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul concept documenté (« la dimension verticale ou l'orientation de haut en bas ») : « vertical » et « sens de la longueur » en sont des traductions contextuelles."
+  },
+  {
+    "id": "A2-04-D0608",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_597",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Vertical",
+      "Sens de la longueur (vertical)"
+    ],
+    "after": null,
+    "reason": "Traductions contextuelles, reprises dans la nuance."
+  },
+  {
+    "id": "A2-04-D0609",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_597",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0610",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_351",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare ; indiquer la droite vaut pour toute orientation (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0611",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_353",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare ; indiquer la gauche vaut pour toute orientation (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0612",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_355",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Direction de l'est"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0613",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_355",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : les noms de sorties (東口, 西口, 南口, 北口) montrent qu'un point cardinal qualifie une sortie, sans rendre le point cardinal propre à la gare : il structure aussi les villes, les routes, les cartes, les régions (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0614",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_357",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Direction de l'ouest"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0615",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_357",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : les noms de sorties (東口, 西口, 南口, 北口) montrent qu'un point cardinal qualifie une sortie, sans rendre le point cardinal propre à la gare : il structure aussi les villes, les routes, les cartes, les régions (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0616",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_350",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Direction du sud"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0617",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_350",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : les noms de sorties (東口, 西口, 南口, 北口) montrent qu'un point cardinal qualifie une sortie, sans rendre le point cardinal propre à la gare : il structure aussi les villes, les routes, les cartes, les régions (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0618",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_349",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Direction du nord"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0619",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_349",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : les noms de sorties (東口, 西口, 南口, 北口) montrent qu'un point cardinal qualifie une sortie, sans rendre le point cardinal propre à la gare : il structure aussi les villes, les routes, les cartes, les régions (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0620",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_355",
+    "field": "sens 1 · semantic_type",
+    "kind": "decision",
+    "before": null,
+    "after": "concept_abstrait",
+    "reason": "Un point cardinal est une direction, ni un lieu ni un objet : concept non matériel qui ne relève pas plus précisément d'un autre type (A2-ST-v1). Vaut pour 東, 西, 南, 北."
+  },
+  {
+    "id": "A2-04-D0621",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_358",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Virage"
+    ],
+    "after": null,
+    "reason": "Pas équivalent ; aucun sens n'est repris de 角 lu つの."
+  },
+  {
+    "id": "A2-04-D0622",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_358",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare ; l'angle de rue relève de la ville (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0623",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_347",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "D'abord",
+      "Avant",
+      "En avant",
+      "Bout",
+      "Extrémité"
+    ],
+    "after": [
+      "S1 Avant, bout (espace)",
+      "S2 Auparavant, d'abord (temps)"
+    ],
+    "reason": "Deux sens documentés par la nuance (« l'avant… l'extrémité d'une chose » ; « le futur proche, une priorité dans l'ordre chronologique ») : un point dans l'espace et un rang dans le temps, comme 前. À ARBITRER : on peut aussi n'en garder qu'un, si l'on juge ces emplois insuffisamment autonomes."
+  },
+  {
+    "id": "A2-04-D0624",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_347",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe / temps (ancien type)",
+    "after": "nom",
+    "reason": "Classe nom : la source l'étiquette « adverbe », mais tous ses emplois documentés sont ceux d'un nom (先に, この先, l'extrémité). L'emploi adverbial passe par la particule に (先に)."
+  },
+  {
+    "id": "A2-04-D0625",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_347",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0626",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_360",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Proche",
+      "Près",
+      "Avoisinant"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la nuance applique la même échelle de distance à l'espace et au temps."
+  },
+  {
+    "id": "A2-04-D0627",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_360",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Avoisinant"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0628",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_360",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0629",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_362",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : mot d'espace général, qui s'emploie partout ; pouvoir le dire dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0630",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-10",
+    "entry": "n5_v_652",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Plan géographique",
+      "Carte routière"
+    ],
+    "after": null,
+    "reason": "Le premier est redondant ; le second est un cas particulier."
   }
 ]
