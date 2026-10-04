@@ -11900,5 +11900,1490 @@
     "before": "<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>かた</rt></ruby>",
     "after": "<ruby>夕<rt>ゆう</rt></ruby><ruby>方<rt>がた</rt></ruby>",
     "reason": "Addendum A8 (I4) : les furigana se lisaient ゆうかた au lieu de ゆうがた (voisement perdu ; romaji de la fiche : yuugata)."
+  },
+  {
+    "id": "A2-04-D0845",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_268",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "temps › moments_periodes",
+    "reason": "Même catégorie et même type que 休み, décidé dans ce lot : une période de l'année pendant laquelle on ne travaille ou n'étudie pas (temps › moments et périodes, niveau 2 ; concept_abstrait, comme les saisons du lot 07). La fiche parle de vacances « scolaires ou professionnelles » : éducation › vacances scolaires serait trop étroit, travail › congés aussi."
+  },
+  {
+    "id": "A2-04-D0846",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_268",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une période de l'année en général, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0847",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_268",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Congés estivaux"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0848",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_287",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : objet d'usage général, sans lien caractéristique avec le contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0849",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_287",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Aucune catégorie primaire pertinente : カレンダー est un objet qui présente les jours et les mois, pas une notion du calendrier. Le ranger dans temps › calendrier ferait d'une proximité fonctionnelle une appartenance ; le registre n'a pas de catégorie pour ce type d'objet. Même traitement que 時計 (lot 05, révision 5.6b). Addendum A5."
+  },
+  {
+    "id": "A2-04-D0850",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_288",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0851",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_288",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 一日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0852",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_288",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Une journée",
+      "Tout au long de la journée",
+      "Pendant une journée entière"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens documenté par la fiche (« une durée d'une journée entière ») ; « toute la journée » en est l'emploi adverbial, non un autre sens. La lecture ついたち (le premier jour du mois), que la fiche signale comme à ne pas confondre, n'est ni une lecture ni un sens de cette entrée : rien n'est ajouté. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité."
+  },
+  {
+    "id": "A2-04-D0853",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_288",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0854",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_288",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pendant une journée entière"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Toute la journée »."
+  },
+  {
+    "id": "A2-04-D0855",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_291",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0856",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_291",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 一月 comme un « Nom temporel ». Composé d'un nombre et de 月, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0857",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_291",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Un mois (durée)",
+      "Une période d'un mois"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens documenté par la fiche (« une durée d'un mois »). いちがつ (janvier), que la fiche signale comme à ne pas confondre, n'est ni une lecture ni un sens de cette entrée : rien n'est ajouté. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité."
+  },
+  {
+    "id": "A2-04-D0858",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_291",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0859",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_291",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Une période d'un mois"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0860",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_292",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0861",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_292",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 七日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0862",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_292",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "7 jours (durée)",
+      "Le 7 du mois"
+    ],
+    "after": [
+      "S1 Sept jours (durée)",
+      "S2 Le 7 du mois (date)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« soit une durée de sept jours, soit le septième jour d'un mois ») : une date du calendrier et une durée, deux référents, deux catégories, deux types. La date : temps › calendrier › dates, concept_abstrait, comme les repères temporels des lots 0 et 12. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité. Ordre des sens : celui de la fiche."
+  },
+  {
+    "id": "A2-04-D0863",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_292",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date du calendrier, repérée dans le mois et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0864",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_292",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0865",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_293",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0866",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_293",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 三日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0867",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_293",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Le 3 (du mois)",
+      "Trois jours (durée)"
+    ],
+    "after": [
+      "S1 Le 3 du mois (date)",
+      "S2 Trois jours (durée)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« soit le troisième jour d'un mois, soit une durée de trois jours ») : une date du calendrier et une durée, deux référents, deux catégories, deux types. La date : temps › calendrier › dates, concept_abstrait, comme les repères temporels des lots 0 et 12. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité. Ordre des sens : celui de la fiche, qui donne ici la date en premier (seule fiche du paradigme dans ce cas)."
+  },
+  {
+    "id": "A2-04-D0868",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_293",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date du calendrier, repérée dans le mois et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0869",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_293",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0870",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_294",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0871",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_294",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 九日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0872",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_294",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "9 jours",
+      "Le 9 (du mois)"
+    ],
+    "after": [
+      "S1 Neuf jours (durée)",
+      "S2 Le 9 du mois (date)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« soit une durée de neuf jours, soit le neuvième jour d'un mois ») : une date du calendrier et une durée, deux référents, deux catégories, deux types. La date : temps › calendrier › dates, concept_abstrait, comme les repères temporels des lots 0 et 12. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité. Ordre des sens : celui de la fiche."
+  },
+  {
+    "id": "A2-04-D0873",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_294",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date du calendrier, repérée dans le mois et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0874",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_294",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0875",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_295",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0876",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_295",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 二十日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0877",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_295",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "20 jours",
+      "Le 20 (du mois)"
+    ],
+    "after": [
+      "S1 Vingt jours (durée)",
+      "S2 Le 20 du mois (date)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« soit une durée de vingt jours, soit le vingtième jour d'un mois ») : une date du calendrier et une durée, deux référents, deux catégories, deux types. La date : temps › calendrier › dates, concept_abstrait, comme les repères temporels des lots 0 et 12. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité. Ordre des sens : celui de la fiche."
+  },
+  {
+    "id": "A2-04-D0878",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_295",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date du calendrier, repérée dans le mois et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0879",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_295",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0880",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_296",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0881",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_296",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 二日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0882",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_296",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Deux jours (durée)",
+      "Le 2 (du mois)"
+    ],
+    "after": [
+      "S1 Deux jours (durée)",
+      "S2 Le 2 du mois (date)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« soit une durée de deux jours, soit le deuxième jour d'un mois ») : une date du calendrier et une durée, deux référents, deux catégories, deux types. La date : temps › calendrier › dates, concept_abstrait, comme les repères temporels des lots 0 et 12. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité. Ordre des sens : celui de la fiche."
+  },
+  {
+    "id": "A2-04-D0883",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_296",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date du calendrier, repérée dans le mois et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0884",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_296",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0885",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_297",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0886",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_297",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 五日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0887",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_297",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "5 jours",
+      "Le 5 (du mois)"
+    ],
+    "after": [
+      "S1 Cinq jours (durée)",
+      "S2 Le 5 du mois (date)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« soit une durée de cinq jours, soit le cinquième jour d'un mois ») : une date du calendrier et une durée, deux référents, deux catégories, deux types. La date : temps › calendrier › dates, concept_abstrait, comme les repères temporels des lots 0 et 12. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité. Ordre des sens : celui de la fiche."
+  },
+  {
+    "id": "A2-04-D0888",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_297",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date du calendrier, repérée dans le mois et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0889",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_297",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0890",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_307",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0891",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_307",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 八日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0892",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_307",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "8 jours",
+      "Le 8 (du mois)"
+    ],
+    "after": [
+      "S1 Huit jours (durée)",
+      "S2 Le 8 du mois (date)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« soit une durée de huit jours, soit le huitième jour d'un mois ») : une date du calendrier et une durée, deux référents, deux catégories, deux types. La date : temps › calendrier › dates, concept_abstrait, comme les repères temporels des lots 0 et 12. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité. Ordre des sens : celui de la fiche."
+  },
+  {
+    "id": "A2-04-D0893",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_307",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date du calendrier, repérée dans le mois et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0894",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_307",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0895",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_308",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0896",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_308",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 六日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0897",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_308",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "6 jours",
+      "Le 6 (du mois)"
+    ],
+    "after": [
+      "S1 Six jours (durée)",
+      "S2 Le 6 du mois (date)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« soit une durée de six jours, soit le sixième jour d'un mois ») : une date du calendrier et une durée, deux référents, deux catégories, deux types. La date : temps › calendrier › dates, concept_abstrait, comme les repères temporels des lots 0 et 12. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité. Ordre des sens : celui de la fiche."
+  },
+  {
+    "id": "A2-04-D0898",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_308",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date du calendrier, repérée dans le mois et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0899",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_308",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0900",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_309",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0901",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_309",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 十日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0902",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_309",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "10 jours (durée)",
+      "Le 10 (du mois)"
+    ],
+    "after": [
+      "S1 Dix jours (durée)",
+      "S2 Le 10 du mois (date)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« soit une durée de dix jours, soit le dixième jour d'un mois ») : une date du calendrier et une durée, deux référents, deux catégories, deux types. La date : temps › calendrier › dates, concept_abstrait, comme les repères temporels des lots 0 et 12. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité. Ordre des sens : celui de la fiche."
+  },
+  {
+    "id": "A2-04-D0903",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_309",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date du calendrier, repérée dans le mois et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0904",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_309",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0905",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_311",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0906",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_311",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Moitié",
+      "Et demie (pour les heures)"
+    ],
+    "after": [
+      "S1 Moitié (d'une quantité)",
+      "S2 Et demie (après une heure)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« désignant la moitié d'une quantité ou employé après une heure pour indiquer la demi-heure ») : une fraction, et la demi-heure qui s'ajoute à une heure ; deux référents, deux catégories. Type quantite_valeur pour les deux : une quantité (la moitié, une demi-heure), non une unité."
+  },
+  {
+    "id": "A2-04-D0907",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_311",
+    "field": "suffix",
+    "kind": "decision",
+    "before": false,
+    "after": true,
+    "reason": "suffix : true. La fiche décrit 半 comme « Nom suffixe ou nominal » et donne son emploi suffixé (三時半). C'est la propriété « suffixe » d'A2-LING-v1, portée par le champ suffix du schéma ; première ENTRY du corpus à la porter. Cette décision ne crée aucune ENTRY d'affixe et ne préjuge pas de la représentation des affixes (point ouvert)."
+  },
+  {
+    "id": "A2-04-D0908",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_311",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une précision d'heure, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0909",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_313",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0910",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_313",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 四日 comme un « Nom temporel ». Composé d'un nombre et de 日, ce n'est pas un numéral simple (liste des quinze nombres) ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D0911",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_313",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "4 jours",
+      "Le 4 (du mois)"
+    ],
+    "after": [
+      "S1 Quatre jours (durée)",
+      "S2 Le 4 du mois (date)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« soit une durée de quatre jours, soit le quatrième jour d'un mois ») : une date du calendrier et une durée, deux référents, deux catégories, deux types. La date : temps › calendrier › dates, concept_abstrait, comme les repères temporels des lots 0 et 12. La durée : temps › durée, quantite_valeur (« valeur quantitative, quantité ou grandeur conceptualisée abstraitement », A2-ST-v1) : c'est une quantité de temps, et non une unité. Ordre des sens : celui de la fiche."
+  },
+  {
+    "id": "A2-04-D0912",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_313",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date du calendrier, repérée dans le mois et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0913",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_313",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0914",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_314",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0915",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_314",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 土曜日 est un jour de la semaine, repère du calendrier, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0916",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_314",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le jour de Saturne"
+    ],
+    "after": null,
+    "reason": "Glose étymologique des kanji du mot, donnée par la fiche : ni un sens, ni une traduction."
+  },
+  {
+    "id": "A2-04-D0917",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_316",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0918",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_316",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Année",
+      "Âge",
+      "An"
+    ],
+    "after": [
+      "S1 Année, an (calendrier)",
+      "S2 Âge (d'une personne)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« une année calendaire ou l'âge d'une personne ») : une période du calendrier et une caractéristique d'une personne, deux référents, deux catégories, deux types. L'année : temps › calendrier › années, concept_abstrait. L'âge : être humain › cycle de vie (niveau 2, le registre n'a pas de niveau 3 pour l'âge), propriete (caractéristique attribuable à une entité, A2-ST-v1)."
+  },
+  {
+    "id": "A2-04-D0919",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_316",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : l'année en général, sans repérage par rapport au moment de l'énonciation ; ce repérage est porté par 今年 (lot 12)."
+  },
+  {
+    "id": "A2-04-D0920",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_317",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0921",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_317",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 日曜日 est un jour de la semaine, repère du calendrier, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0922",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_317",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le jour du Soleil"
+    ],
+    "after": null,
+    "reason": "Glose étymologique des kanji du mot, donnée par la fiche : ni un sens, ni une traduction."
+  },
+  {
+    "id": "A2-04-D0923",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_321",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0924",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_321",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Temps",
+      "Heure (durée)"
+    ],
+    "after": [
+      "S1 Temps, durée",
+      "S2 Heure (unité de durée)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« désignant une durée ou le temps global disponible », puis « Compteur spécifique : 時間 … pour les heures ») : le temps comme durée, et l'heure comme unité de durée ; deux référents, deux catégories. S1 : temps › durée, concept_abstrait (la notion de durée, non une quantité déterminée)."
+  },
+  {
+    "id": "A2-04-D0925",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_321",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null, faute de pouvoir faire autrement. La fiche dit que 時間 sert de compteur pour les heures ; mais counter_for exige au moins une compatibilité du registre des compteurs (A2-02), qui n'en a que six (petits animaux, objets plats, objets longs, livres et volumes, unités génériques, occurrences), aucune pour une durée. Aucune compatibilité n'est inventée. L'emploi est décrit dans la nuance du sens 2. Blocage de modèle signalé à la relecture."
+  },
+  {
+    "id": "A2-04-D0926",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_321",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Heure, unité de durée : la mesure est exclue des types sémantiques, et une unité n'est pas automatiquement une quantite_valeur (A2-ST-v1) ; même raison que キロ (lot 0) et 匹 (lot 07). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0927",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_321",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : le temps comme durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0928",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_321",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une unité de durée, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0929",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_323",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0930",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_323",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 月曜日 est un jour de la semaine, repère du calendrier, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0931",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_323",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le jour de la Lune"
+    ],
+    "after": null,
+    "reason": "Glose étymologique des kanji du mot, donnée par la fiche : ni un sens, ni une traduction."
+  },
+  {
+    "id": "A2-04-D0932",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_325",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0933",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_325",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 木曜日 est un jour de la semaine, repère du calendrier, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0934",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_325",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le jour de Jupiter (de l'arbre)"
+    ],
+    "after": null,
+    "reason": "Glose étymologique des kanji du mot, donnée par la fiche : ni un sens, ni une traduction."
+  },
+  {
+    "id": "A2-04-D0935",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_335",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0936",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_335",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 水曜日 est un jour de la semaine, repère du calendrier, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0937",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_335",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le jour de l'eau"
+    ],
+    "after": null,
+    "reason": "Glose étymologique des kanji du mot, donnée par la fiche : ni un sens, ni une traduction."
+  },
+  {
+    "id": "A2-04-D0938",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_336",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0939",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_336",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 火曜日 est un jour de la semaine, repère du calendrier, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0940",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_336",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le jour du feu"
+    ],
+    "after": null,
+    "reason": "Glose étymologique des kanji du mot, donnée par la fiche : ni un sens, ni une traduction."
+  },
+  {
+    "id": "A2-04-D0941",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_337",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0942",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_337",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une date propre à une personne, repérée dans le calendrier et non par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0943",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_338",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0944",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_338",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 金曜日 est un jour de la semaine, repère du calendrier, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0945",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_338",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le jour de l'or / du métal"
+    ],
+    "after": null,
+    "reason": "Glose étymologique des kanji du mot, donnée par la fiche : ni un sens, ni une traduction."
+  },
+  {
+    "id": "A2-04-D0946",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_634",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0947",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_634",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Repos",
+      "Vacances",
+      "Congé",
+      "Jour férié",
+      "Pause"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche décrit une seule notion, la période pendant laquelle on ne travaille ou n'étudie pas (« une période de pause, un jour de congé, les vacances scolaires ou professionnelles »). Pause, congé et vacances en rendent la durée variable, comme montre et horloge pour 時計 ; ce sont des traductions, non des sens. Catégorie : temps › moments et périodes (niveau 2), la fiche couvrant à la fois l'école et le travail ; ni éducation › vacances scolaires, ni travail › congés ne conviennent seuls. Type concept_abstrait, comme les saisons (lot 07)."
+  },
+  {
+    "id": "A2-04-D0948",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_634",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une période de repos en général, sans repérage par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0949",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_634",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Jour férié"
+    ],
+    "after": null,
+    "reason": "La fiche parle d'« un jour de congé », non d'un jour férié : cas particulier, couvert par « Congé »."
+  },
+  {
+    "id": "A2-04-D0950",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_663",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0951",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_663",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Après",
+      "Plus tard",
+      "Derrière",
+      "Le reste"
+    ],
+    "after": [
+      "S1 Après, plus tard (temps)",
+      "S2 Derrière (espace)",
+      "S3 Le reste (sens candidat)"
+    ],
+    "reason": "Trois sens. Deux sont documentés par la description de la fiche (« ce qui vient après dans le temps ou ce qui se trouve à l'arrière ») : un moment et une position, deux référents, deux catégories, deux types, comme 前 et 先 (lot 10). Le troisième, « Le reste », n'est attesté que par les traductions de la fiche : il est conservé comme sens candidat (voir D0953). Les particules de la source (で, に) vont au sens temporel, que la fiche illustre par あとで. Révision 5.14b."
+  },
+  {
+    "id": "A2-04-D0952",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_663",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps. La fiche donne « Plus tard » parmi les traductions du sens et dit que あと est « souvent utilisé avec la particule de (あとで) pour signifier plus tard » : cet emploi, repéré par rapport au moment où l'on parle, fait partie intégrante du sens tel qu'il est modélisé (A7, §4) ; il n'est ni marginal ni une simple traduction contextuelle. L'autre emploi, la postériorité par rapport à un repère quelconque (un événement, une action), n'est pas déictique : il est décrit dans la nuance. La référence est A7, §4 (sens à plusieurs emplois : la fonction est attribuée dès que l'emploi déictique fait partie intégrante du sens modélisé) ; le §3.2, qui traite de l'anaphore, ne s'applique pas ici. Révision 5.14b : la version précédente refusait la fonction tout en gardant « Plus tard » dans le sens, ce qui était incohérent."
+  },
+  {
+    "id": "A2-04-D0953",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-13",
+    "entry": "n5_v_663",
+    "field": "sens 3 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "nombres_quantification › totalite_partie › reste",
+    "reason": "Sens candidat, à arbitrer. « Le reste » figure dans les traductions de la source ; sa description (nuance) ne le mentionne pas, mais cette absence ne suffit pas à l'écarter. C'est un troisième référent (ce qui reste d'un tout), distinct d'un moment et d'une position : il ne peut pas être une traduction des deux autres sens. Catégorie et type tirés du seul libellé, sans information extérieure : nombres et quantification › totalité et partie › reste ; concept_abstrait. Aucune nuance, aucun exemple, aucune particule n'est ajouté. Révision 5.14b : la version précédente l'abandonnait."
   }
 ]

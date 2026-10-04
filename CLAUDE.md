@@ -94,9 +94,9 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-04)
 
-- **Lots 0 à 12 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **445 ENTRY,
-  31 retraits, 243 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 844 décisions validées
-  (D0001 à D0844), aucune proposition en cours.
+- **Lots 0 à 13 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **472 ENTRY,
+  31 retraits, 216 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 953 décisions validées
+  (D0001 à D0953), aucune proposition en cours.
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -119,8 +119,13 @@ faut savoir est dans le dépôt.
 - **5.13b, révision du lot 12, validée avec lui** : cinq lectures (今年, 今朝, 昨夜, 近々, 夕方 ;
   D0840 à D0844) et la raison de D0746 (昨日), bloc par nécessité. Une décision n'invoque
   « jukujikun » que pour une entrée de la liste fermée d'A8 ; un test le contrôle.
-- **Ensuite** : la composition du lot 13 (5.14 : calendrier, dates, durées), dont le périmètre
-  n'est pas encore figé. **Aucune décision avant la validation de ce périmètre.**
+- **Lot 13** (5.14, « calendrier, dates et durées ») : validé, 27 entrées et 109 décisions D0845 à
+  D0953 (rapport `docs/rapports/etape2-tache5-14-lot13-valide.md`). 半 est la seule ENTRY à porter
+  `suffix`. **Restent ouverts** : le registre des compteurs n'a aucune compatibilité pour une durée
+  (時間 est validé avec `counter: null`) ; les sens temporels de 前 et 先 (lot 10) sont joints à
+  l'audit A2-05 de la deixis temporelle.
+- **Ensuite** : choix du thème du lot 14 (5.15) parmi les 216 entrées restantes, puis composition de
+  son périmètre. **Aucune décision avant la validation de ce périmètre.**
 - **Contrôle** : Claude réalise dans le dépôt, Codex relit et reproduit les chiffres sur le dépôt
   réel, l'utilisateur arbitre.
 

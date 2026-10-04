@@ -1,0 +1,1306 @@
+{
+  "lot": "lot-13",
+  "title": "Calendrier, dates et durées",
+  "entries": {
+    "n5_v_268": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0845",
+        "A2-04-D0846",
+        "A2-04-D0847"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vacances d'été",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_287": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0848",
+        "A2-04-D0849"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Calendrier",
+              "alternatives": [
+                "Éphéméride"
+              ]
+            },
+            "category": null,
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_288": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0850",
+        "A2-04-D0851",
+        "A2-04-D0852",
+        "A2-04-D0853",
+        "A2-04-D0854"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Durée d'une journée entière. À ne pas confondre avec ついたち, le premier jour du mois.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Une journée",
+              "alternatives": [
+                "Toute la journée"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_291": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0855",
+        "A2-04-D0856",
+        "A2-04-D0857",
+        "A2-04-D0858",
+        "A2-04-D0859"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise (ひとつき), pour la durée. À ne pas confondre avec いちがつ, janvier.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Un mois",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_292": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0860",
+        "A2-04-D0861",
+        "A2-04-D0862",
+        "A2-04-D0863",
+        "A2-04-D0864"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise traditionnelle (なのか), la même pour la date et pour la durée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sept jours",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Le 7 (du mois)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_293": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0865",
+        "A2-04-D0866",
+        "A2-04-D0867",
+        "A2-04-D0868",
+        "A2-04-D0869"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise traditionnelle (みっか), la même pour la date et pour la durée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Le 3 (du mois)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Trois jours",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_294": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0870",
+        "A2-04-D0871",
+        "A2-04-D0872",
+        "A2-04-D0873",
+        "A2-04-D0874"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise traditionnelle (ここのか), la même pour la date et pour la durée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Neuf jours",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Le 9 (du mois)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_295": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0875",
+        "A2-04-D0876",
+        "A2-04-D0877",
+        "A2-04-D0878",
+        "A2-04-D0879"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise traditionnelle (はつか), la même pour la date et pour la durée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vingt jours",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Le 20 (du mois)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_296": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0880",
+        "A2-04-D0881",
+        "A2-04-D0882",
+        "A2-04-D0883",
+        "A2-04-D0884"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise traditionnelle (ふつか), la même pour la date et pour la durée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Deux jours",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Le 2 (du mois)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_297": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0885",
+        "A2-04-D0886",
+        "A2-04-D0887",
+        "A2-04-D0888",
+        "A2-04-D0889"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise traditionnelle (いつか), la même pour la date et pour la durée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cinq jours",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Le 5 (du mois)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_307": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0890",
+        "A2-04-D0891",
+        "A2-04-D0892",
+        "A2-04-D0893",
+        "A2-04-D0894"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise traditionnelle (ようか), la même pour la date et pour la durée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Huit jours",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Le 8 (du mois)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_308": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0895",
+        "A2-04-D0896",
+        "A2-04-D0897",
+        "A2-04-D0898",
+        "A2-04-D0899"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise traditionnelle (むいか), la même pour la date et pour la durée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Six jours",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Le 6 (du mois)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_309": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0900",
+        "A2-04-D0901",
+        "A2-04-D0902",
+        "A2-04-D0903",
+        "A2-04-D0904"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise traditionnelle (とおか), la même pour la date et pour la durée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dix jours",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Le 10 (du mois)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_311": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0905",
+        "A2-04-D0906",
+        "A2-04-D0907",
+        "A2-04-D0908"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": true,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Moitié",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "proportions",
+              "level_3": "fraction"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Et demie (heure)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "unites_temporelles",
+              "level_3": "seconde_minute_heure"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Après une heure : 三時半, trois heures et demie."
+          }
+        ]
+      }
+    },
+    "n5_v_313": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0909",
+        "A2-04-D0910",
+        "A2-04-D0911",
+        "A2-04-D0912",
+        "A2-04-D0913"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture japonaise traditionnelle (よっか), la même pour la date et pour la durée.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Quatre jours",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Le 4 (du mois)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_314": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0914",
+        "A2-04-D0915",
+        "A2-04-D0916"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Samedi",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "jours"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_316": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0917",
+        "A2-04-D0918",
+        "A2-04-D0919"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Année",
+              "alternatives": [
+                "An"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "annees"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Âge",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_317": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0920",
+        "A2-04-D0921",
+        "A2-04-D0922"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dimanche",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "jours"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_321": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0923",
+        "A2-04-D0924",
+        "A2-04-D0925",
+        "A2-04-D0926",
+        "A2-04-D0927",
+        "A2-04-D0928"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Temps",
+              "alternatives": [
+                "Durée"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Heure (durée)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "unites_temporelles",
+              "level_3": "seconde_minute_heure"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Sert à compter les heures."
+          }
+        ]
+      }
+    },
+    "n5_v_323": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0929",
+        "A2-04-D0930",
+        "A2-04-D0931"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lundi",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "jours"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_325": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0932",
+        "A2-04-D0933",
+        "A2-04-D0934"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Jeudi",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "jours"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_335": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0935",
+        "A2-04-D0936",
+        "A2-04-D0937"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mercredi",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "jours"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_336": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0938",
+        "A2-04-D0939",
+        "A2-04-D0940"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mardi",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "jours"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_337": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0941",
+        "A2-04-D0942"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Anniversaire",
+              "alternatives": [
+                "Jour de naissance"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "dates"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_338": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0943",
+        "A2-04-D0944",
+        "A2-04-D0945"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vendredi",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "calendrier",
+              "level_3": "jours"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_634": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0946",
+        "A2-04-D0947",
+        "A2-04-D0948",
+        "A2-04-D0949"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Dérivé du verbe 休む, se reposer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Repos",
+              "alternatives": [
+                "Pause",
+                "Congé",
+                "Vacances"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_663": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0950",
+        "A2-04-D0951",
+        "A2-04-D0952",
+        "A2-04-D0953"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Après",
+              "alternatives": [
+                "Plus tard"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "chronologie",
+              "level_3": "avant_apres"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "で",
+              "に"
+            ],
+            "nuance": "Ce qui vient après un événement ou une action. あとで : plus tard, par rapport au moment où l'on parle."
+          },
+          {
+            "meaning": {
+              "primary": "Derrière",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation",
+              "level_3": "devant_derriere"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Le reste",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "totalite_partie",
+              "level_3": "reste"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

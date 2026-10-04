@@ -295,7 +295,7 @@ test('journal : « jukujikun » n\'est invoqué que pour une entrée de la liste
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du
 // validateur lexical, ni attente. Les comptes suivent les décisions validées, lot après lot.
-// Après la validation du lot 12 : 445 ENTRY, 31 retraits, 243 entrées écartées ; le complément
+// Après la validation du lot 13 : 472 ENTRY, 31 retraits, 216 entrées écartées ; le complément
 // d'I4 et d'I5 (addendum A8) passe sur toutes les ENTRY assemblées. Aucune proposition n'est en
 // cours : toutes les entrées décidées et tout le journal sont validés.
 test('espace de travail réel : assemblage partiel sans problème ni erreur', () => {
@@ -308,9 +308,73 @@ test('espace de travail réel : assemblage partiel sans problème ni erreur', ()
   const decisions = lots.flatMap((l) => Object.values(l.entries)).filter((d) => d.status === 'validated');
   assert.equal(a.files.reduce((n, f) => n + f.entries.length, 0), decisions.filter((d) => d.fields).length);
   assert.equal(a.retired.length, 1 + decisions.filter((d) => d.retire).length);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [445, 31, 243]);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [472, 31, 216]);
   assert.ok(a.excluded.every((x) => x.reason === 'non décidée'), 'aucune proposition en cours');
   assert.ok(lots.every((l) => Object.values(l.entries).every((d) => d.status === 'validated')), 'toutes les entrées décidées sont validées');
+});
+
+// A2-04 · 5.14 fermée : le lot 13 est entièrement validé (aucune fusion, aucun tag de lieu), avec
+// tout son journal (109 décisions, D0845 à D0953), dans sa version révisée par 5.14b. Périmètre
+// arbitré : les 26 entrées de temps_calendrier restantes et 夏休み. Choix arbitrés : jours du mois à
+// deux sens, dans l'ordre de chaque fiche ; durées en quantite_valeur ; 半 suffixe ; 時間 sans
+// counter (lacune du registre, ouverte) ; カレンダー sans catégorie, comme 時計.
+test('5.14 : le lot 13 est entièrement validé (27 entrées), journal compris', () => {
+  const lot13 = readLots().find((l) => l.lot === 'lot-13');
+  assert.equal(lot13.title, 'Calendrier, dates et durées');
+  assert.equal(Object.keys(lot13.entries).length, 27);
+  assertAllValidated(lot13);
+  assert.ok(Object.values(lot13.entries).every((e) => e.fields && !e.retire), 'aucune fusion dans le lot 13');
+  assert.deepEqual(lot13.additions, []);
+  const E = lot13.entries;
+  const all = Object.entries(E);
+  assert.equal(all.reduce((n, [, e]) => n + e.fields.senses.length, 0), 42, 'sens du lot');
+  assert.deepEqual(all.filter(([, e]) => e.fields.tags.length || e.fields.senses.some((s) => (s.tags || []).length)).map(([id]) => id), [], 'aucun tag de lieu dans le lot 13');
+  // Jours du mois : deux sens, la durée (quantite_valeur) et la date ; seule 三日 met la date en premier.
+  const DAYS = ['n5_v_292', 'n5_v_293', 'n5_v_294', 'n5_v_295', 'n5_v_296', 'n5_v_297', 'n5_v_307', 'n5_v_308', 'n5_v_309', 'n5_v_313'];
+  const shape = (id) => E[id].fields.senses.map((s) => `${s.category.level_2}${s.category.level_3 ? `/${s.category.level_3}` : ''}:${s.semantic_type}`);
+  for (const id of DAYS) {
+    const expected = id === 'n5_v_293' ? ['calendrier/dates:concept_abstrait', 'duree:quantite_valeur'] : ['duree:quantite_valeur', 'calendrier/dates:concept_abstrait'];
+    assert.deepEqual(shape(id), expected, id);
+  }
+  // 一日 et 一月 : un seul sens, une durée, donc quantite_valeur comme les durées des jours du mois.
+  for (const id of ['n5_v_288', 'n5_v_291']) assert.deepEqual(shape(id), ['duree:quantite_valeur'], id);
+  // 半 : une fraction et une demi-heure, deux quantités.
+  assert.deepEqual(shape('n5_v_311'), ['proportions/fraction:quantite_valeur', 'unites_temporelles/seconde_minute_heure:quantite_valeur']);
+  // Jours de la semaine et 誕生日 : repères du calendrier, un sens, concept_abstrait.
+  for (const id of ['n5_v_314', 'n5_v_317', 'n5_v_323', 'n5_v_325', 'n5_v_335', 'n5_v_336', 'n5_v_338']) assert.deepEqual(shape(id), ['calendrier/jours:concept_abstrait'], id);
+  assert.deepEqual(shape('n5_v_337'), ['calendrier/dates:concept_abstrait']);
+  // Classe décidée (nom) pour les douze composés numéraux, et pour eux seuls.
+  assert.deepEqual(all.filter(([, e]) => Object.hasOwn(e.fields, 'grammatical_class')).map(([id]) => id).sort(), [...DAYS, 'n5_v_288', 'n5_v_291'].sort());
+  assert.ok([...DAYS, 'n5_v_288', 'n5_v_291'].every((id) => E[id].fields.grammatical_class === 'nom' && E[id].fields.group === 'nom'));
+  // 半 : seule ENTRY du lot à porter suffix ; 時間 : pas de counter, type nul sur le sens « heure ».
+  assert.deepEqual(all.filter(([, e]) => e.fields.suffix).map(([id]) => id), ['n5_v_311']);
+  assert.ok(all.every(([, e]) => e.fields.counter === null));
+  assert.deepEqual(E.n5_v_321.fields.senses.map((s) => s.semantic_type), ['concept_abstrait', null]);
+  assert.deepEqual(E.n5_v_316.fields.senses.map((s) => [s.meaning.primary, s.semantic_type]), [['Année', 'concept_abstrait'], ['Âge', 'propriete']]);
+  assert.equal(E.n5_v_287.fields.senses[0].category, null, 'カレンダー : catégorie nulle (A5)');
+  assert.deepEqual([E.n5_v_634, E.n5_v_268].map((e) => [e.fields.senses.length, e.fields.senses[0].category.level_2]), [[1, 'moments_periodes'], [1, 'moments_periodes']]);
+  const byId = new Map([...SOURCES.vocab, ...SOURCES.hj].map((s) => [s.id, s]));
+  const outside = Object.keys(lot13.entries).filter((id) => byId.get(id).category !== 'temps_calendrier');
+  assert.deepEqual(outside, ['n5_v_268'], 'seule 夏休み vient d\'une autre ancienne catégorie');
+  const own = readJournal().filter((j) => j.lot === 'lot-13');
+  assert.deepEqual(own.map((j) => j.id), Array.from({ length: 109 }, (_, k) => `A2-04-D${String(845 + k).padStart(4, '0')}`));
+  assert.ok(own.every((j) => j.status === 'validated'));
+  const cited = new Set(Object.values(lot13.entries).flatMap((e) => e.journal));
+  assert.deepEqual([...cited].sort(), own.map((j) => j.id), 'le lot cite exactement ses décisions');
+  // Révision 5.14b, limitée à 後 : le sens temporel garde « Plus tard » ET porte deictique (A7, §4) ;
+  // « Le reste », attesté par les traductions de la source, est conservé comme sens candidat.
+  const ato = lot13.entries.n5_v_663.fields.senses;
+  assert.deepEqual(ato.map((s) => [s.meaning.primary, ...s.meaning.alternatives]), [['Après', 'Plus tard'], ['Derrière'], ['Le reste']]);
+  assert.deepEqual(ato.map((s) => s.linguistic_functions.grammatical), [['deictique'], [], []]);
+  // Seul sens déictique du lot : les jours, les dates et les durées sont des repères du calendrier.
+  const deictic = Object.entries(lot13.entries).filter(([, e]) => e.fields.senses.some((s) => s.linguistic_functions.grammatical.includes('deictique'))).map(([id]) => id);
+  assert.deepEqual(deictic, ['n5_v_663']);
+  // Un sens qui garde une traduction ne la retrouve pas dans une décision d'abandon.
+  for (const [id, e] of Object.entries(lot13.entries)) {
+    const kept = new Set(e.fields.senses.flatMap((s) => [s.meaning.primary, ...s.meaning.alternatives]));
+    const dropped = own.filter((j) => j.entry === id && j.kind === 'abandon').flatMap((j) => j.before);
+    assert.deepEqual(dropped.filter((t) => kept.has(t)), [], `${id} : traduction à la fois gardée et abandonnée`);
+  }
 });
 
 // 5.13-C fermée : les 13 corrections sont VALIDÉES. Chacune porte sur le seul champ en cause, cite
@@ -318,12 +382,12 @@ test('espace de travail réel : assemblage partiel sans problème ni erreur', ()
 test('5.13-C : 13 entrées corrigées et revalidées, une correction validée chacune (D0827 à D0839)', () => {
   const journal = readJournal();
   const byId = new Map(journal.map((j) => [j.id, j]));
-  const corrections = journal.filter((j) => j.id >= FIRST_CORRECTION && j.lot !== 'lot-12');
+  const corrections = journal.filter((j) => j.id >= FIRST_CORRECTION && Object.hasOwn(CORRECTED_513C, j.lot));
   assert.deepEqual(corrections.map((j) => j.id), Array.from({ length: 13 }, (_, k) => `A2-04-D${String(827 + k).padStart(4, '0')}`));
   assert.ok(corrections.every((j) => j.status === 'validated' && j.kind === 'correction'));
-  // Tout le journal est validé : 844 décisions, D0001 à D0844, sans trou.
+  // Tout le journal est validé : 953 décisions, D0001 à D0953, sans trou.
+  assert.deepEqual(journal.map((j) => j.id), Array.from({ length: 953 }, (_, k) => `A2-04-D${String(k + 1).padStart(4, '0')}`));
   assert.ok(journal.every((j) => j.status === 'validated'));
-  assert.deepEqual(journal.map((j) => j.id), Array.from({ length: 844 }, (_, k) => `A2-04-D${String(k + 1).padStart(4, '0')}`));
   const lots = new Map(readLots().map((l) => [l.lot, l]));
   const expected = {
     n5_v_555: ['writings', '<ruby>曲<rt>まが</rt></ruby>る'],
