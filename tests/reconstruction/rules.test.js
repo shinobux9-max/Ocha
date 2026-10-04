@@ -17,7 +17,7 @@ test('listes d\'exceptions : chaque identifiant désigne bien son mot', () => {
     for (const [id, w] of Object.entries(list)) assert.equal(word.get(id), w, id);
   }
   assert.equal(Object.keys(NUMERAL_IDS).length, 15);
-  assert.equal(Object.keys(CLASS_EXCEPTION_IDS).length, 46);
+  assert.equal(Object.keys(CLASS_EXCEPTION_IDS).length, 51);
   assert.equal(CLASS_EXCEPTION_IDS.n5_v_495, '大変', 'arbitrage du lot 0');
 });
 
@@ -54,4 +54,10 @@ test('forme usuelle décidée : liste fermée, une seule entrée (平仮名, arb
   assert.deepEqual(Object.keys(USUAL_FORM_IDS), ['n5_v_604']);
   assert.equal(USUAL_FORM_IDS.n5_v_604, '平仮名');
   assert.ok(!Object.keys(USUAL_FORM_IDS).some((id) => Object.hasOwn(WORD_EXCEPTION_IDS, id)), 'distincte des graphies fautives');
+});
+
+test('exceptions de classe du lot 11 : それ, こちら, そちら, どっち, いくつ (classe décidable, liste fermée)', () => {
+  for (const [id, word] of [['n5_v_342', 'それ'], ['n5_v_339', 'こちら'], ['n5_v_340', 'そちら'], ['n5_v_343', 'どっち'], ['n5_v_585', 'いくつ']]) {
+    assert.equal(CLASS_EXCEPTION_IDS[id], word);
+  }
 });

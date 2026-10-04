@@ -48,6 +48,10 @@ export const CLASS_EXCEPTION_IDS = Object.freeze({
   n5_v_602: 'など', n5_v_628: '一緒', n5_v_639: '全部',
   // Arbitrage du lot 0 : 大変 est un adjectif en な, son emploi intensifieur relève du sens.
   n5_v_495: '大変',
+  // Arbitrage du lot 11 : classe à décider pour la cohérence du paradigme こ・そ・あ・ど (それ, こちら,
+  // そちら, どっち, typés « nom » par l'ancien rangement) et pour いくつ (« adverbe » hérité, comme いくら).
+  // L'exception rend la classe décidable ; la décision elle-même est prise entrée par entrée.
+  n5_v_342: 'それ', n5_v_339: 'こちら', n5_v_340: 'そちら', n5_v_343: 'どっち', n5_v_585: 'いくつ',
   n5_v_288: '一日', n5_v_291: '一月', n5_v_292: '七日', n5_v_293: '三日', n5_v_294: '九日', n5_v_295: '二十日',
   n5_v_296: '二日', n5_v_297: '五日', n5_v_307: '八日', n5_v_308: '六日', n5_v_309: '十日', n5_v_313: '四日',
   n5_v_368: '一つ', n5_v_370: '七つ', n5_v_373: '三つ', n5_v_375: '九つ', n5_v_377: '二つ', n5_v_379: '五つ',

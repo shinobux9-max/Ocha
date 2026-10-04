@@ -9010,5 +9010,1408 @@
     ],
     "after": null,
     "reason": "Le premier est redondant ; le second est un cas particulier."
+  },
+  {
+    "id": "A2-04-D0631",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_411",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0632",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_411",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). これ désigne une chose située près du locuteur : la fonction est portée par ce sens."
+  },
+  {
+    "id": "A2-04-D0633",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_411",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Ce truc-ci"
+    ],
+    "after": null,
+    "reason": "Familier, redondant."
+  },
+  {
+    "id": "A2-04-D0634",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_342",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0635",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_342",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (mécanique, d'après l'ancien type)",
+    "after": "pronom",
+    "reason": "Classe mécanique insuffisante : l'ancien rangement (position_direction) l'avait typé « nom », alors que la fiche le décrit comme « pronom démonstratif de la série So », employé seul pour désigner une chose. La cohérence du paradigme (これ, あれ, どれ : pronom) sert de contrôle, non de source. group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0636",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_342",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). それ désigne une chose proche de l'interlocuteur ; son emploi anaphorique (« dont on vient de parler »), documenté par la fiche, reste dans la nuance, faute de fonction dédiée dans A2-LING."
+  },
+  {
+    "id": "A2-04-D0637",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_342",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : démonstratif ou interrogatif d'usage général, qui s'emploie partout ; l'indiquer dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0638",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_407",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0639",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_407",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あれ désigne une chose éloignée des deux interlocuteurs."
+  },
+  {
+    "id": "A2-04-D0640",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_407",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Ce truc-là"
+    ],
+    "after": null,
+    "reason": "Familier, redondant."
+  },
+  {
+    "id": "A2-04-D0641",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_399",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0642",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_399",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Lesquels (parmi trois choix ou plus)"
+    ],
+    "after": null,
+    "reason": "Précision reprise dans la nuance."
+  },
+  {
+    "id": "A2-04-D0643",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_408",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0644",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_408",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). ここ désigne l'endroit du locuteur. Catégorie de domaine (position, localisation), comme いくら a reçu celle des prix : le sens désigne un lieu."
+  },
+  {
+    "id": "A2-04-D0645",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_408",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Cet endroit (proche du locuteur)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0646",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_392",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0647",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_392",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). そこ désigne un endroit proche de l'interlocuteur."
+  },
+  {
+    "id": "A2-04-D0648",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_392",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Cet endroit",
+      "Là-bas (près de la personne à qui l'on parle)"
+    ],
+    "after": null,
+    "reason": "Redondants ; la position est reprise dans la nuance."
+  },
+  {
+    "id": "A2-04-D0649",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_403",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0650",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_403",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あそこ désigne un endroit éloigné des deux interlocuteurs."
+  },
+  {
+    "id": "A2-04-D0651",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_403",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Cet endroit-là (lointain des deux interlocuteurs)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0652",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_395",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0653",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_395",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Quel endroit"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0654",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_410",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0655",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_410",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif / démonstratif (ancien type, exception de classe)",
+    "after": "determinant",
+    "reason": "Classe mécanique inapplicable (exception) : la fiche dit que この « précède obligatoirement un nom » ; il ne s'emploie jamais seul. C'est le comportement d'un déterminant, et non d'un adjectif (il ne se conjugue pas, ne s'emploie pas en prédicat). group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0656",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_410",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). この désigne ce qui est proche du locuteur."
+  },
+  {
+    "id": "A2-04-D0657",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_415",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0658",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_415",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif / démonstratif (ancien type, exception de classe)",
+    "after": "determinant",
+    "reason": "Classe mécanique inapplicable (exception) : la fiche dit que その « précède obligatoirement un nom » ; il ne s'emploie jamais seul. C'est le comportement d'un déterminant, et non d'un adjectif (il ne se conjugue pas, ne s'emploie pas en prédicat). group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0659",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_415",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). その désigne ce qui est proche de l'interlocuteur, ou dont on vient de parler."
+  },
+  {
+    "id": "A2-04-D0660",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_406",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0661",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_406",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif / démonstratif (ancien type, exception de classe)",
+    "after": "determinant",
+    "reason": "Classe mécanique inapplicable (exception) : la fiche dit que あの « précède obligatoirement un nom » ; il ne s'emploie jamais seul. C'est le comportement d'un déterminant, et non d'un adjectif (il ne se conjugue pas, ne s'emploie pas en prédicat). group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0662",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_406",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あの désigne ce qui est éloigné des deux interlocuteurs."
+  },
+  {
+    "id": "A2-04-D0663",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_415",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Cette ; Ces"
+    ],
+    "after": null,
+    "reason": "Formes de genre et de nombre du français, reprises en autres traductions."
+  },
+  {
+    "id": "A2-04-D0664",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_398",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0665",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_398",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif / interrogatif (ancien type, exception de classe)",
+    "after": "determinant",
+    "reason": "Classe mécanique inapplicable (exception) : la fiche dit que どの « se place devant un nom » ; il ne s'emploie jamais seul. Déterminant interrogatif, comme この, その, あの sont des déterminants démonstratifs. group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0666",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_398",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Parmi plusieurs, lequel..."
+    ],
+    "after": null,
+    "reason": "Repris par « Lequel »."
+  },
+  {
+    "id": "A2-04-D0667",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_339",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0668",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_339",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0669",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_339",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (mécanique, d'après l'ancien type)",
+    "after": "pronom",
+    "reason": "Classe mécanique insuffisante : l'ancien rangement l'avait typé « nom », alors que la fiche le décrit comme « pronom démonstratif de la série Ko », désignant une direction, un lieu, ou le locuteur. La cohérence du paradigme (あちら : pronom) sert de contrôle, non de source. group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0670",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_339",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Par ici",
+      "Cette direction",
+      "Ce côté-ci",
+      "Voici (poli)"
+    ],
+    "after": [
+      "S1 Par ici (direction)",
+      "S2 Moi, nous (poli)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« indiquant une direction, un lieu proche ou servant de forme polie pour désigner sa propre personne ») : une direction, et le locuteur lui-même, deux référents distincts. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques."
+  },
+  {
+    "id": "A2-04-D0671",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_339",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Voici (poli)"
+    ],
+    "after": null,
+    "reason": "Traduction d'un emploi de présentation (こちらは〜です), reprise dans la nuance du sens 2."
+  },
+  {
+    "id": "A2-04-D0672",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_339",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : démonstratif ou interrogatif d'usage général, qui s'emploie partout ; l'indiquer dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0673",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_340",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0674",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_340",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (mécanique, d'après l'ancien type)",
+    "after": "pronom",
+    "reason": "Classe mécanique insuffisante : l'ancien rangement l'avait typé « nom », alors que la fiche le décrit comme « pronom démonstratif de la série So ». La cohérence du paradigme sert de contrôle, non de source. group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0675",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_340",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Par là",
+      "Cette direction-là",
+      "Ce côté-là (près de l'interlocuteur)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche ne documente que la direction ou l'endroit proche de l'interlocuteur. Aucun emploi pour la personne n'est ajouté par analogie avec こちら."
+  },
+  {
+    "id": "A2-04-D0676",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_340",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). そちら désigne une direction proche de l'interlocuteur."
+  },
+  {
+    "id": "A2-04-D0677",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_340",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : démonstratif ou interrogatif d'usage général, qui s'emploie partout ; l'indiquer dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0678",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_404",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0679",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_404",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0680",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_404",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Là-bas (poli)",
+      "Cette direction-là",
+      "Cette personne-là (poli)"
+    ],
+    "after": [
+      "S1 Là-bas (poli)",
+      "S2 Cette personne-là (poli)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« de lieu ou de direction poli… Il sert aussi à désigner poliment une personne ») : un lieu, et une personne. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques."
+  },
+  {
+    "id": "A2-04-D0681",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_396",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0682",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_396",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0683",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_396",
+    "field": "sens 3 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0684",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_396",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Lequel (entre deux)",
+      "Où (poli)",
+      "Vers où",
+      "Qui (poli)"
+    ],
+    "after": [
+      "S1 Lequel (des deux)",
+      "S2 Où (poli)",
+      "S3 Qui (poli)"
+    ],
+    "reason": "Trois sens documentés par la fiche, qui les énumère (« choisir entre deux options, désigner une direction polie, ou demander l'origine / l'identité de quelqu'un ») : un choix, un lieu, une personne. Les trois sont interrogatifs. À ARBITRER : nombre de sens."
+  },
+  {
+    "id": "A2-04-D0685",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_396",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Vers où"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Où »."
+  },
+  {
+    "id": "A2-04-D0686",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_409",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0687",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_409",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0688",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_409",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Par ici",
+      "De ce côté-ci (familier)",
+      "Ici",
+      "Moi / de mon côté"
+    ],
+    "after": [
+      "S1 Par ici",
+      "S2 Moi, mon camp"
+    ],
+    "reason": "Deux sens documentés par la fiche (« de lieu ou de direction… Il peut aussi désigner le locuteur ou son camp ») : une direction, et le locuteur ou son groupe. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques."
+  },
+  {
+    "id": "A2-04-D0689",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_409",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Ici"
+    ],
+    "after": null,
+    "reason": "Relève de ここ."
+  },
+  {
+    "id": "A2-04-D0690",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_414",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0691",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_414",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0692",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_414",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Par là",
+      "De ce côté-là (près de l'interlocuteur)",
+      "Ton côté / ton camp"
+    ],
+    "after": [
+      "S1 Par là",
+      "S2 Toi, ton camp"
+    ],
+    "reason": "Deux sens documentés par la fiche (« un endroit proche de l'interlocuteur ou le camp de ce dernier ») : une direction, et l'interlocuteur ou son groupe. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques."
+  },
+  {
+    "id": "A2-04-D0693",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_405",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0694",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_405",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Par là",
+      "De ce côté-là (familier)",
+      "Là-bas"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche ne documente que le lieu ou la direction. Aucun emploi pour une personne n'est ajouté par analogie avec あちら."
+  },
+  {
+    "id": "A2-04-D0695",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_405",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あっち désigne une direction éloignée des deux interlocuteurs."
+  },
+  {
+    "id": "A2-04-D0696",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_343",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0697",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_343",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (mécanique, d'après l'ancien type)",
+    "after": "pronom",
+    "reason": "Classe mécanique insuffisante : l'ancien rangement l'avait typé « nom », alors que la fiche le décrit comme « pronom interrogatif familier de la série Do ». La cohérence du paradigme (どちら, どれ : pronom) sert de contrôle, non de source. group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0698",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_343",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Lequel (familier)",
+      "Par où",
+      "Quel côté (entre deux options)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche présente une seule notion, « un choix entre deux directions ou deux éléments », contrairement à どちら dont la fiche énumère des emplois distincts."
+  },
+  {
+    "id": "A2-04-D0699",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_343",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Quel côté (entre deux options)"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0700",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_343",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare (ancienne catégorie position_direction) écarté : démonstratif ou interrogatif d'usage général, qui s'emploie partout ; l'indiquer dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0701",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_412",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0702",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_412",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif / démonstratif (ancien type, exception de classe)",
+    "after": "determinant",
+    "reason": "Classe mécanique inapplicable (exception) : la fiche dit que こんな « précède un nom pour qualifier… ». Déterminant démonstratif de qualité, et non adjectif en な : la seule présence de な ne suffit pas, et la fiche ne documente aucun emploi d'adjectif (prédicat, こんなだ). group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0703",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_412",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). こんな renvoie à ce qui est proche du locuteur."
+  },
+  {
+    "id": "A2-04-D0704",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_412",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Tellement (de ce type)"
+    ],
+    "after": null,
+    "reason": "Emploi de こんなに, non documenté par la nuance."
+  },
+  {
+    "id": "A2-04-D0705",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_393",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0706",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_393",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Comment",
+      "De quelle manière",
+      "De quel avis"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : manière, état et avis sont des emplois du même « comment », énumérés par la fiche comme objets de la question."
+  },
+  {
+    "id": "A2-04-D0707",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_393",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "De quel avis"
+    ],
+    "after": null,
+    "reason": "Repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0708",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_402",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0709",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_402",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Laquelle de ces personnes"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0710",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_397",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0711",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_397",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Laquelle de ces personnes"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0712",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_391",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0713",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_391",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "pronom / nom (ancien type, exception de classe)",
+    "after": "pronom",
+    "reason": "Classe mécanique inapplicable (exception) : la fiche le décrit comme « pronom interrogatif temporel », comme 何 et いくら. group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0714",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_400",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0715",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_400",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pour quelle raison"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0716",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_394",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0717",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_394",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pour quelle raison"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0718",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_390",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0719",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_390",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Comment ça va ?",
+      "De quelle manière"
+    ],
+    "after": null,
+    "reason": "Traductions d'emplois, reprises dans la nuance."
+  },
+  {
+    "id": "A2-04-D0720",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_585",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0721",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_585",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (mécanique, d'après l'ancien type)",
+    "after": "pronom",
+    "reason": "Classe mécanique insuffisante : l'ancien type « adverbe » ne correspond pas à la fiche, qui le décrit comme « pronom interrogatif » demandant une quantité ou un âge ; même décision que いくら (lot 05). group: null (A2-02)."
+  },
+  {
+    "id": "A2-04-D0722",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_585",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Combien",
+      "Quel âge",
+      "Combien de pièces (objets généraux)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : l'âge est un nombre d'années, la question reste « combien » ; repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0723",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_585",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Quel âge",
+      "Combien de pièces (objets généraux)"
+    ],
+    "after": null,
+    "reason": "Emplois repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0724",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_700",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Personne indéterminée : « personne générique », hors de la hiérarchie thématique (A2-GLOBAL §4.4) ; pas de fonction interrogative (誰か n'interroge pas), ni déictique Addendum A5."
+  },
+  {
+    "id": "A2-04-D0725",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_688",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). 私 désigne le locuteur : deixis de personne."
+  },
+  {
+    "id": "A2-04-D0726",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_688",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Mon / Ma (en tant que préfixe possessif implicite)"
+    ],
+    "after": null,
+    "reason": "Emploi avec の, repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0727",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_581",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あなた désigne l'interlocuteur : deixis de personne."
+  },
+  {
+    "id": "A2-04-D0728",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_581",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Vous",
+      "Tu",
+      "Mon chéri / Ma chérie (par un conjoint)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : l'emploi entre époux est un usage du même pronom de la deuxième personne (« très courant de la part d'un conjoint pour s'adresser à son partenaire »), pas un sens distinct ; repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0729",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_581",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Mon chéri / Ma chérie (par un conjoint)"
+    ],
+    "after": null,
+    "reason": "Traduction d'un emploi, reprise dans la nuance."
+  },
+  {
+    "id": "A2-04-D0730",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_691",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Pronom réfléchi : « personne générique », sans domaine thématique ; pas de fonction déictique (il renvoie au sujet de la phrase, non à la situation de parole) Addendum A5."
+  },
+  {
+    "id": "A2-04-D0731",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_691",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Moi-même",
+      "Personnellement"
+    ],
+    "after": null,
+    "reason": "Le premier est repris dans la nuance ; le second n'est pas équivalent."
+  },
+  {
+    "id": "A2-04-D0732",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_606",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Ensemble de personnes : « personne générique », hors de la hiérarchie thématique, comme 皆さん (lot 01) Addendum A5."
+  },
+  {
+    "id": "A2-04-D0733",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_606",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "みんな"
+    ],
+    "reason": "みんな, documentée par la fiche (« s'écrit très fréquemment en hiragana »), est une variante d'écriture : ajoutée à writings. La forme usuelle n'est pas changée (aucune liste USUAL_FORM_IDS pour cette entrée)."
+  },
+  {
+    "id": "A2-04-D0734",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-11",
+    "entry": "n5_v_606",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Ensemble"
+    ],
+    "after": null,
+    "reason": "Emploi adverbial, non documenté comme sens par la nuance."
   }
 ]

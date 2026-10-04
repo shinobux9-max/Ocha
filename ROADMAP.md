@@ -41,11 +41,11 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.12, composition du lot 11 « Démonstratifs et
-interrogatifs » (こ・そ・あ・ど).**
+**A2-04 · reconstruction du vocabulaire N5 → 5.12, lot 11 « Démonstratifs, interrogatifs et
+pronoms » (こ・そ・あ・ど).**
 
-Les lots 0 à 10 sont terminés et validés. Le prochain chantier est la composition du lot 11 : son
-périmètre doit être validé avant toute proposition lexicale.
+Les lots 0 à 10 sont terminés et validés. Le périmètre du lot 11 est validé (34 entrées) ; sa
+proposition est livrée (statut `proposed`) et en relecture.
 
 ------------------------------------------------------------------------
 
@@ -254,7 +254,7 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.9 · lot 08** | Communication, correspondance et médias | ✅ Terminé |
 | **5.10 · lot 09** | Loisirs, sorties et voyages | ✅ Terminé |
 | **5.11 · lot 10** | Position, direction et orientation | ✅ Terminé |
-| **5.12 · lot 11** | Démonstratifs et interrogatifs (こ・そ・あ・ど), à composer | 🔵 **Prochain chantier** |
+| **5.12 · lot 11** | Démonstratifs, interrogatifs et pronoms (こ・そ・あ・ど) | 🟡 **Proposition livrée ; en relecture** |
 | **5.13 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
@@ -288,8 +288,15 @@ appliqués :
     distance) ; `先` à deux sens, classe `nom` ;
 -   points cardinaux en `concept_abstrait` ; `表` en `type-nul` (une face est une partie).
 
-**Prochaine action immédiate :** composer le lot 11 (5.12, démonstratifs et interrogatifs), faire
-valider son périmètre, puis seulement produire ses décisions en statut `proposed`.
+#### Lot 11 · proposition en relecture
+
+Thème : **Démonstratifs, interrogatifs et pronoms** (34 anciennes entrées, aucune fusion), traité
+comme un système. 5 exceptions de classe ajoutées (それ, こちら, そちら, どっち, いくつ). Essai à
+blanc : **414 ENTRY**, **31 identifiants retirés**, 0 problème, 0 erreur, 0 attente ; 274 entrées
+restantes après le lot.
+
+**Prochaine action immédiate :** relire et arbitrer la proposition du lot 11, la réviser si
+besoin, puis la valider avant de composer le lot suivant (5.13).
 
 ------------------------------------------------------------------------
 
@@ -562,7 +569,7 @@ Ensuite seulement :
    │   ├── Lot 08 Communication (5.9)       ✅
    │   ├── Lot 09 Loisirs, voyages (5.10)   ✅
    │   ├── Lot 10 Position (5.11)           ✅
-   │   ├── Lot 11 こそあど (5.12)            🔵
+   │   ├── Lot 11 こそあど (5.12)            🟡
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

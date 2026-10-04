@@ -1,0 +1,1418 @@
+{
+  "lot": "lot-11",
+  "title": "Démonstratifs, interrogatifs et pronoms",
+  "entries": {
+    "n5_v_339": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0667",
+        "A2-04-D0668",
+        "A2-04-D0669",
+        "A2-04-D0670",
+        "A2-04-D0671",
+        "A2-04-D0672"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Par ici",
+              "alternatives": [
+                "Ce côté-ci"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "orientation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Forme polie de こっち : こちらへどうぞ, par ici, je vous prie."
+          },
+          {
+            "meaning": {
+              "primary": "Moi, nous (poli)",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "こちらこそ : c'est moi qui vous remercie ; au téléphone, こちらは田中です."
+          }
+        ],
+        "grammatical_class": "pronom",
+        "group": null
+      }
+    },
+    "n5_v_340": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0673",
+        "A2-04-D0674",
+        "A2-04-D0675",
+        "A2-04-D0676",
+        "A2-04-D0677"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Par là",
+              "alternatives": [
+                "Ce côté-là"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "orientation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Forme polie de そっち : une direction ou un endroit proche de l'interlocuteur."
+          }
+        ],
+        "grammatical_class": "pronom",
+        "group": null
+      }
+    },
+    "n5_v_342": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0634",
+        "A2-04-D0635",
+        "A2-04-D0636",
+        "A2-04-D0637"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cela",
+              "alternatives": [
+                "Ça"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une chose proche de l'interlocuteur, ou dont on vient de parler."
+          }
+        ],
+        "grammatical_class": "pronom",
+        "group": null
+      }
+    },
+    "n5_v_343": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0696",
+        "A2-04-D0697",
+        "A2-04-D0698",
+        "A2-04-D0699",
+        "A2-04-D0700"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lequel (des deux)",
+              "alternatives": [
+                "Par où"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Familier ; plus poli : どちら. Pour deux éléments comme pour deux directions."
+          }
+        ],
+        "grammatical_class": "pronom",
+        "group": null
+      }
+    },
+    "n5_v_390": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0718",
+        "A2-04-D0719"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Comment (poli)",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Forme polie de どう : いかがですか, comment allez-vous ?, qu'en pensez-vous ? Aussi pour proposer : お茶はいかがですか."
+          }
+        ]
+      }
+    },
+    "n5_v_391": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0712",
+        "A2-04-D0713"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Quand",
+              "alternatives": [
+                "À quel moment"
+              ]
+            },
+            "category": {
+              "level_1": "temps"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "pronom",
+        "group": null
+      }
+    },
+    "n5_v_392": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0646",
+        "A2-04-D0647",
+        "A2-04-D0648"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Là",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Un endroit proche de l'interlocuteur, ou dont on vient de parler."
+          }
+        ]
+      }
+    },
+    "n5_v_393": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0705",
+        "A2-04-D0706",
+        "A2-04-D0707"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Comment",
+              "alternatives": [
+                "De quelle manière"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "La manière, l'état, l'avis : どうですか, comment est-ce ?, qu'en pensez-vous ? Plus poli : いかが."
+          }
+        ]
+      }
+    },
+    "n5_v_394": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0716",
+        "A2-04-D0717"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pourquoi",
+              "alternatives": [
+                "Comment se fait-il que"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Courant à l'oral ; la réponse explique souvent avec から."
+          }
+        ]
+      }
+    },
+    "n5_v_395": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0652",
+        "A2-04-D0653"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Où",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "トイレはどこですか : où sont les toilettes ?"
+          }
+        ]
+      }
+    },
+    "n5_v_396": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0681",
+        "A2-04-D0682",
+        "A2-04-D0683",
+        "A2-04-D0684",
+        "A2-04-D0685"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Forme polie ; plus familier : どっち, どれ, どこ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lequel (des deux)",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Pour choisir entre deux : コーヒーと紅茶とどちらがいいですか."
+          },
+          {
+            "meaning": {
+              "primary": "Où (poli)",
+              "alternatives": [
+                "Quelle direction"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "orientation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Forme polie de どこ : お国はどちらですか, d'où venez-vous ?"
+          },
+          {
+            "meaning": {
+              "primary": "Qui (poli)",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "どちら様ですか : à qui ai-je l'honneur ?"
+          }
+        ]
+      }
+    },
+    "n5_v_397": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0710",
+        "A2-04-D0711"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Qui (poli)",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Forme polie de 誰."
+          }
+        ]
+      }
+    },
+    "n5_v_398": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0664",
+        "A2-04-D0665",
+        "A2-04-D0666"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Quel …",
+              "alternatives": [
+                "Lequel"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Toujours devant un nom : どの本ですか, quel livre ?"
+          }
+        ],
+        "grammatical_class": "determinant",
+        "group": null
+      }
+    },
+    "n5_v_399": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0641",
+        "A2-04-D0642"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lequel",
+              "alternatives": [
+                "Laquelle"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Parmi trois éléments ou plus ; entre deux, どちら ou どっち."
+          }
+        ]
+      }
+    },
+    "n5_v_400": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0714",
+        "A2-04-D0715"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pourquoi",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Un peu plus formel ou écrit que どうして."
+          }
+        ]
+      }
+    },
+    "n5_v_402": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0708",
+        "A2-04-D0709"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Qui",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Plus poli : どなた."
+          }
+        ]
+      }
+    },
+    "n5_v_403": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0649",
+        "A2-04-D0650",
+        "A2-04-D0651"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Là-bas",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Un endroit éloigné des deux interlocuteurs."
+          }
+        ]
+      }
+    },
+    "n5_v_404": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0678",
+        "A2-04-D0679",
+        "A2-04-D0680"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Là-bas (poli)",
+              "alternatives": [
+                "Cette direction-là"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "orientation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Forme polie d'あそこ et d'あっち."
+          },
+          {
+            "meaning": {
+              "primary": "Cette personne-là (poli)",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "あちらは田中さんです : voici M. Tanaka (en le montrant)."
+          }
+        ]
+      }
+    },
+    "n5_v_405": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0693",
+        "A2-04-D0694",
+        "A2-04-D0695"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Par là-bas",
+              "alternatives": [
+                "De ce côté-là"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "orientation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Familier ; plus poli : あちら."
+          }
+        ]
+      }
+    },
+    "n5_v_406": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0660",
+        "A2-04-D0661",
+        "A2-04-D0662"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ce … là-bas",
+              "alternatives": [
+                "Cette",
+                "Ces"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Toujours devant un nom : あの本. Désigne ce qui est éloigné des deux interlocuteurs."
+          }
+        ],
+        "grammatical_class": "determinant",
+        "group": null
+      }
+    },
+    "n5_v_407": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0638",
+        "A2-04-D0639",
+        "A2-04-D0640"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cela (là-bas)",
+              "alternatives": [
+                "Ça"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une chose éloignée à la fois du locuteur et de l'interlocuteur."
+          }
+        ]
+      }
+    },
+    "n5_v_408": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0643",
+        "A2-04-D0644",
+        "A2-04-D0645"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ici",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "L'endroit où se trouve le locuteur."
+          }
+        ]
+      }
+    },
+    "n5_v_409": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0686",
+        "A2-04-D0687",
+        "A2-04-D0688",
+        "A2-04-D0689"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Par ici",
+              "alternatives": [
+                "Ce côté-ci"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "orientation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Familier ; plus poli : こちら."
+          },
+          {
+            "meaning": {
+              "primary": "Moi, mon camp",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "こっちの話 : notre affaire, de notre côté."
+          }
+        ]
+      }
+    },
+    "n5_v_410": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0654",
+        "A2-04-D0655",
+        "A2-04-D0656"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ce … -ci",
+              "alternatives": [
+                "Cette",
+                "Ces"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Toujours devant un nom : この本. Désigne ce qui est proche du locuteur."
+          }
+        ],
+        "grammatical_class": "determinant",
+        "group": null
+      }
+    },
+    "n5_v_411": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0631",
+        "A2-04-D0632",
+        "A2-04-D0633"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ceci",
+              "alternatives": [
+                "Ça"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une chose proche du locuteur."
+          }
+        ]
+      }
+    },
+    "n5_v_412": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0701",
+        "A2-04-D0702",
+        "A2-04-D0703",
+        "A2-04-D0704"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ce genre de",
+              "alternatives": [
+                "De cette sorte"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Toujours devant un nom : こんな本, ce genre de livre ; ce qui ressemble à ce qui est proche du locuteur."
+          }
+        ],
+        "grammatical_class": "determinant",
+        "group": null
+      }
+    },
+    "n5_v_414": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0690",
+        "A2-04-D0691",
+        "A2-04-D0692"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Par là",
+              "alternatives": [
+                "Ce côté-là"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "direction_orientation",
+              "level_3": "orientation"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Familier ; plus poli : そちら."
+          },
+          {
+            "meaning": {
+              "primary": "Toi, ton camp",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "そっちはどう？ : et de ton côté ?"
+          }
+        ]
+      }
+    },
+    "n5_v_415": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0657",
+        "A2-04-D0658",
+        "A2-04-D0659",
+        "A2-04-D0663"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ce … -là",
+              "alternatives": [
+                "Cette",
+                "Ces"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Toujours devant un nom : その本. Désigne ce qui est proche de l'interlocuteur, ou dont on vient de parler."
+          }
+        ],
+        "grammatical_class": "determinant",
+        "group": null
+      }
+    },
+    "n5_v_581": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0727",
+        "A2-04-D0728",
+        "A2-04-D0729"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vous",
+              "alternatives": [
+                "Tu"
+              ]
+            },
+            "category": null,
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "À employer avec précaution : on lui préfère le nom de la personne suivi de さん. Courant en revanche entre époux."
+          }
+        ]
+      }
+    },
+    "n5_v_585": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0720",
+        "A2-04-D0721",
+        "A2-04-D0722",
+        "A2-04-D0723"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Combien",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "interrogatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Pour un nombre d'objets, avec le compteur général 〜つ ; aussi pour l'âge : おいくつですか, quel âge avez-vous ?"
+          }
+        ],
+        "grammatical_class": "pronom",
+        "group": null
+      }
+    },
+    "n5_v_606": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0732",
+        "A2-04-D0733",
+        "A2-04-D0734"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "みんな",
+            "furigana": "みんな"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tout le monde",
+              "alternatives": [
+                "Tous"
+              ]
+            },
+            "category": null,
+            "semantic_type": "groupe_collectif",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Souvent écrit みんな. Plus respectueux, pour s'adresser à un groupe : 皆さん."
+          }
+        ]
+      }
+    },
+    "n5_v_688": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0725",
+        "A2-04-D0726"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Je",
+              "alternatives": [
+                "Moi"
+              ]
+            },
+            "category": null,
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Neutre et poli, pour tous ; plus formel : わたくし. Possessif : 私の本, mon livre."
+          }
+        ]
+      }
+    },
+    "n5_v_691": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0730",
+        "A2-04-D0731"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Soi-même",
+              "alternatives": [
+                "Soi"
+              ]
+            },
+            "category": null,
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Sa propre personne ; s'emploie aussi pour « moi, je » : 自分でやります, je le fais moi-même."
+          }
+        ]
+      }
+    },
+    "n5_v_700": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0724"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Quelqu'un",
+              "alternatives": [
+                "N'importe qui"
+              ]
+            },
+            "category": null,
+            "semantic_type": "personne",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Formé de 誰 et de か : une personne indéterminée. 誰かいますか : il y a quelqu'un ?"
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}
