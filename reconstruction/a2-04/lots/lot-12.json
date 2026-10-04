@@ -1,0 +1,1240 @@
+{
+  "lot": "lot-12",
+  "title": "Temps relatif, moments de la journée et fréquence",
+  "entries": {
+    "n5_v_284": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0748",
+        "A2-04-D0749",
+        "A2-04-D0750",
+        "A2-04-D0751"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "明後日",
+            "furigana": "<ruby>明後日<rt>あさって</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Après-demain",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "futur"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_286": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0792",
+        "A2-04-D0793",
+        "A2-04-D0794"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le préfixe さ marque un cran d'éloignement de plus que 来年.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dans deux ans",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "futur"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_290": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0752",
+        "A2-04-D0753",
+        "A2-04-D0754",
+        "A2-04-D0755"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "おととい",
+            "furigana": "おととい"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Avant-hier",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "passe"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_298": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0735",
+        "A2-04-D0736"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Maintenant",
+              "alternatives": [
+                "À présent",
+                "Actuellement"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "present"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_299": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0783",
+        "A2-04-D0784",
+        "A2-04-D0785"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture spéciale (ことし).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cette année",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "present"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_300": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0737",
+        "A2-04-D0738",
+        "A2-04-D0739"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture spéciale (きょう) : le jour où l'on parle.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Aujourd'hui",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "present"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_301": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0759",
+        "A2-04-D0760",
+        "A2-04-D0761"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ce soir",
+              "alternatives": [
+                "Cette nuit"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "parties_de_la_journee"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_302": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0774",
+        "A2-04-D0775",
+        "A2-04-D0776"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ce mois-ci",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "present"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_303": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0756",
+        "A2-04-D0757",
+        "A2-04-D0758"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture spéciale (けさ).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ce matin",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "parties_de_la_journee"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_304": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0765",
+        "A2-04-D0766",
+        "A2-04-D0767"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cette semaine",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "present"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_305": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0777",
+        "A2-04-D0778",
+        "A2-04-D0779"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Le mois dernier",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "passe"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_306": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0768",
+        "A2-04-D0769",
+        "A2-04-D0770"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "La semaine dernière",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "passe"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_310": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0812",
+        "A2-04-D0813",
+        "A2-04-D0814"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Aussi devant une heure : 午前十時, dix heures du matin. Contraire : 午後.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Matin (avant midi)",
+              "alternatives": [
+                "Matinée"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "parties_de_la_journee"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_312": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0786",
+        "A2-04-D0787",
+        "A2-04-D0788"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Plus courant que おととし (il y a deux ans).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "L'année dernière",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "passe"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_315": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0809",
+        "A2-04-D0810",
+        "A2-04-D0811"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La période après le coucher du soleil.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Nuit",
+              "alternatives": [
+                "Soirée"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "parties_de_la_journee"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_318": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0740",
+        "A2-04-D0741",
+        "A2-04-D0742",
+        "A2-04-D0743"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Se lit aussi あす dans un registre plus formel (lecture documentée par la fiche, non reprise comme lecture structurée).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Demain",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "futur"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_319": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0762",
+        "A2-04-D0763",
+        "A2-04-D0764"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "ゆうべ",
+            "furigana": "ゆうべ"
+          },
+          {
+            "form": "夕べ",
+            "furigana": "<ruby>夕<rt>ゆう</rt></ruby>べ"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture spéciale (ゆうべ).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Hier soir",
+              "alternatives": [
+                "La nuit dernière"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "parties_de_la_journee"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_320": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0744",
+        "A2-04-D0745",
+        "A2-04-D0746",
+        "A2-04-D0747"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Hier",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "passe"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "きのう",
+            "romaji": "kinou",
+            "furigana": "<ruby>昨日<rt>きのう</rt></ruby>",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_322": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0806",
+        "A2-04-D0807",
+        "A2-04-D0808"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La fin de la journée, le début de la soirée ; la nuit se dit plutôt 夜.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Soir",
+              "alternatives": [
+                "Soirée"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "parties_de_la_journee"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_324": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0797",
+        "A2-04-D0798"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Matin",
+              "alternatives": [
+                "Matinée"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "parties_de_la_journee"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_326": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0789",
+        "A2-04-D0790",
+        "A2-04-D0791"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "L'année prochaine",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "futur"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_327": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0780",
+        "A2-04-D0781",
+        "A2-04-D0782"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Le mois prochain",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "futur"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_328": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0771",
+        "A2-04-D0772",
+        "A2-04-D0773"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "La semaine prochaine",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "futur"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_330": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0818",
+        "A2-04-D0819"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaque jour",
+              "alternatives": [
+                "Tous les jours"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "frequent"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_331": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0822",
+        "A2-04-D0823",
+        "A2-04-D0826"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaque soir",
+              "alternatives": [
+                "Tous les soirs"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "frequent"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_333": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0820",
+        "A2-04-D0821"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaque matin",
+              "alternatives": [
+                "Tous les matins"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "frequent"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_334": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0824",
+        "A2-04-D0825"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaque semaine",
+              "alternatives": [
+                "Toutes les semaines"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "frequent"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_359": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0795",
+        "A2-04-D0796"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un futur proche, à partir du moment où l'on parle ; s'écrit avec le signe de répétition 々.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bientôt",
+              "alternatives": [
+                "Prochainement",
+                "Sous peu"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "futur"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "deictique"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_439": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0803",
+        "A2-04-D0804",
+        "A2-04-D0805"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le moment où le jour baisse, entre l'après-midi et la nuit.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fin d'après-midi",
+              "alternatives": [
+                "Soirée"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "parties_de_la_journee"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_649": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0815",
+        "A2-04-D0816",
+        "A2-04-D0817"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Aussi devant une heure : 午後三時, trois heures de l'après-midi. Contraire : 午前.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Après-midi",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "parties_de_la_journee"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_670": {
+      "status": "proposed",
+      "journal": [
+        "A2-04-D0799",
+        "A2-04-D0800",
+        "A2-04-D0801",
+        "A2-04-D0802"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Midi",
+              "alternatives": [
+                "Journée"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "moments_periodes",
+              "level_3": "parties_de_la_journee"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "La période du jour, par opposition à la nuit (夜), et son milieu (midi)."
+          },
+          {
+            "meaning": {
+              "primary": "Déjeuner (repas)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "repas",
+              "level_3": "dejeuner"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "昼にする : faire la pause déjeuner ; le repas se dit aussi 昼ご飯."
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

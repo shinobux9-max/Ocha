@@ -206,6 +206,17 @@ test('5.12 : le lot 11 est entièrement validé (34 entrées), journal compris',
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
+// A2-04 · 5.13 : le lot 12 est livré en PROPOSITION, journal compris ; aucune de ses décisions
+// n'est validée avant la relecture. Ce test changera à la validation du lot 12. Il ne vérifie que
+// le lot 12 : il n'impose pas l'axe temporel d'A7 aux lots déjà clos (réservation A2-05).
+test('5.13 : le lot 12 est entièrement proposé (31 entrées), journal compris', () => {
+  const lot12 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-12.json'), 'utf8'));
+  assert.equal(Object.keys(lot12.entries).length, 31);
+  assert.ok(Object.values(lot12.entries).every((e) => e.status === 'proposed'));
+  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
+  assert.ok(journal.filter((j) => j.lot === 'lot-12').every((j) => j.status === 'proposed'));
+});
+
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du
 // validateur lexical, ni attente. Les comptes suivent les décisions validées, lot après lot.
 test('espace de travail réel : assemblage partiel sans problème ni erreur', () => {

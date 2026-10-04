@@ -10413,5 +10413,1276 @@
     ],
     "after": null,
     "reason": "Emploi adverbial, non documenté comme sens par la nuance."
+  },
+  {
+    "id": "A2-04-D0735",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_298",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0736",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_298",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : le moment présent, c'est-à-dire celui de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0737",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_300",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0738",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_300",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : le jour actuel, repéré par rapport au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0739",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_300",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le jour présent"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0740",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_318",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0741",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_318",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : le jour qui suit celui de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0742",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_318",
+    "field": "readings",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "La lecture あす, documentée par la nuance de la fiche, n'est pas ajoutée à readings : ce serait une exception de lecture absente de la mécanique (doctrine du lot 03, 家 / うち). Elle reste dans la nuance."
+  },
+  {
+    "id": "A2-04-D0743",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_318",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le jour suivant"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : « le jour suivant » se repère par rapport à un autre jour, pas au moment de la parole."
+  },
+  {
+    "id": "A2-04-D0744",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_320",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0745",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_320",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : le jour qui précède celui de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0746",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_320",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>昨<rt>きのう</rt></ruby><ruby>日<rt></rt></ruby>",
+    "after": "<ruby>昨日<rt>きのう</rt></ruby>",
+    "reason": "Furigana de la source invalides (toute la lecture sur 昨, rien sur 日) : lecture spéciale (jukujikun), portée par les deux kanji ensemble."
+  },
+  {
+    "id": "A2-04-D0747",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_320",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "La veille"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : « la veille » se repère par rapport à un autre jour."
+  },
+  {
+    "id": "A2-04-D0748",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_284",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0749",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_284",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : le jour qui suit demain, à partir du moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0750",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_284",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "明後日"
+    ],
+    "reason": "明後日, documentée par la fiche (« peut s'écrire occasionnellement avec les kanji 明後日 »), est une autre graphie du même mot : ajoutée à writings."
+  },
+  {
+    "id": "A2-04-D0751",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_284",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le surlendemain"
+    ],
+    "after": null,
+    "reason": "Pas équivalent : le surlendemain se repère par rapport à un autre jour."
+  },
+  {
+    "id": "A2-04-D0752",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_290",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0753",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_290",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : le jour qui précède hier, à partir du moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0754",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_290",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "おととい"
+    ],
+    "reason": "おととい, documentée par la fiche (« peut s'écrire également en hiragana »), est une autre graphie du même mot : ajoutée à writings."
+  },
+  {
+    "id": "A2-04-D0755",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_290",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le surlendemain d'hier",
+      "Il y a deux jours"
+    ],
+    "after": null,
+    "reason": "Le premier est erroné (avant-hier est la veille d'hier) ; le second est redondant."
+  },
+  {
+    "id": "A2-04-D0756",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_303",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0757",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_303",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : la matinée du jour de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0758",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_303",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "La matinée d'aujourd'hui"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0759",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_301",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0760",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_301",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : la soirée du jour de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0761",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_301",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "La nuit prochaine"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0762",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_319",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0763",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_319",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : la soirée de la veille du jour de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0764",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_319",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "ゆうべ",
+      "夕べ"
+    ],
+    "reason": "ゆうべ et 夕べ, documentées par la fiche (« peut aussi s'écrire en hiragana yuube ou avec les kanji 夕べ »), sont d'autres graphies du même mot : ajoutées à writings."
+  },
+  {
+    "id": "A2-04-D0765",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_304",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0766",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_304",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : la semaine en cours au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0767",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_304",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "La semaine en cours"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0768",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_306",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0769",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_306",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : la semaine qui précède celle de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0770",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_306",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "La semaine précédente"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0771",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_328",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0772",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_328",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : la semaine qui suit celle de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0773",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_328",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "La semaine suivante"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0774",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_302",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0775",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_302",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : le mois en cours au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0776",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_302",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le mois en cours"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0777",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_305",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0778",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_305",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : le mois qui précède celui de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0779",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_305",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le mois précédent"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0780",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_327",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0781",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_327",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : le mois qui suit celui de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0782",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_327",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le mois suivant"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0783",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_299",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0784",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_299",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : l'année en cours au moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0785",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_299",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "L'année en cours"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0786",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_312",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0787",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_312",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : l'année qui précède celle de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0788",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_312",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "L'année passée"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0789",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_326",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0790",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_326",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : l'année qui suit celle de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0791",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_326",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "L'an prochain"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0792",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_286",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0793",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_286",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : l'année qui suit l'année prochaine, à partir du moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0794",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_286",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "L'année prochaine de l'année prochaine"
+    ],
+    "after": null,
+    "reason": "Glose littérale, reprise dans la nuance."
+  },
+  {
+    "id": "A2-04-D0795",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_359",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0796",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_359",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "deictique"
+    ],
+    "reason": "Fonction deictique selon l'addendum A7, axe du temps : un futur proche, repéré à partir du moment de l'énonciation."
+  },
+  {
+    "id": "A2-04-D0797",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_324",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0798",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_324",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 朝 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0799",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_670",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0800",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_670",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Midi",
+      "Journée",
+      "Heure du déjeuner"
+    ],
+    "after": [
+      "S1 Midi, journée (période)",
+      "S2 Déjeuner (repas)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« la période diurne…, le milieu de la journée (midi), ou par extension le repas du midi ») : une période du jour, et un repas. La journée et midi restent un seul sens (la période diurne et son milieu). Le repas est un autre référent et un autre type (evenement), comme le sens « repas » de ご飯 (lot 02)."
+  },
+  {
+    "id": "A2-04-D0801",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_670",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 昼 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0802",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_670",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Heure du déjeuner"
+    ],
+    "after": null,
+    "reason": "Repris par le sens 2."
+  },
+  {
+    "id": "A2-04-D0803",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_439",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0804",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_439",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 夕方 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0805",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_439",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Crépuscule"
+    ],
+    "after": null,
+    "reason": "Terme voisin, pas équivalent."
+  },
+  {
+    "id": "A2-04-D0806",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_322",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0807",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_322",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 晩 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0808",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_322",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Nuit"
+    ],
+    "after": null,
+    "reason": "Relève de 夜 ; la fiche de 晩 décrit la fin de la journée et le début de la soirée."
+  },
+  {
+    "id": "A2-04-D0809",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_315",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0810",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_315",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 夜 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0811",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_315",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Tombée de la nuit"
+    ],
+    "after": null,
+    "reason": "Pas équivalent."
+  },
+  {
+    "id": "A2-04-D0812",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_310",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0813",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_310",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 午前 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0814",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_310",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Avant midi",
+      "AM"
+    ],
+    "after": null,
+    "reason": "Le premier est repris dans le libellé ; le second est une abréviation anglaise."
+  },
+  {
+    "id": "A2-04-D0815",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_649",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0816",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_649",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : 午後 désigne une partie de la journée en général, sans repérage par rapport au moment de l'énonciation. Être un mot temporel ne suffit pas."
+  },
+  {
+    "id": "A2-04-D0817",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_649",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "P.M.",
+      "De l'après-midi"
+    ],
+    "after": null,
+    "reason": "Le premier est une abréviation anglaise ; le second est repris dans la nuance."
+  },
+  {
+    "id": "A2-04-D0818",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_330",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0819",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_330",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une récurrence, sans repérage par rapport au moment de l'énonciation. Même traitement que 毎年 et 毎月 (lot 0) : temps › fréquence › fréquent, concept_abstrait."
+  },
+  {
+    "id": "A2-04-D0820",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_333",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0821",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_333",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une récurrence, sans repérage par rapport au moment de l'énonciation. Même traitement que 毎年 et 毎月 (lot 0) : temps › fréquence › fréquent, concept_abstrait."
+  },
+  {
+    "id": "A2-04-D0822",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_331",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0823",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_331",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une récurrence, sans repérage par rapport au moment de l'énonciation. Même traitement que 毎年 et 毎月 (lot 0) : temps › fréquence › fréquent, concept_abstrait."
+  },
+  {
+    "id": "A2-04-D0824",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_334",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_hotel"
+    ],
+    "after": [],
+    "reason": "lieu_hotel (ancienne catégorie temps_calendrier) écarté : mot de temps d'usage général. Pouvoir l'employer à l'hôtel (horaires, réservation) ne le rend pas caractéristique du contexte hôtelier (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D0825",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_334",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Pas de fonction deictique (A7) : une récurrence, sans repérage par rapport au moment de l'énonciation. Même traitement que 毎年 et 毎月 (lot 0) : temps › fréquence › fréquent, concept_abstrait."
+  },
+  {
+    "id": "A2-04-D0826",
+    "status": "proposed",
+    "date": "2026-10-03",
+    "lot": "lot-12",
+    "entry": "n5_v_331",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Chaque nuit"
+    ],
+    "after": null,
+    "reason": "Redondant."
   }
 ]

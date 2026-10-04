@@ -41,10 +41,12 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.13, composition du lot 12.**
+**A2-04 · reconstruction du vocabulaire N5 → 5.13, lot 12 « Temps relatif, moments de la journée
+et fréquence ».**
 
-Les lots 0 à 11 sont terminés et validés. Le prochain chantier est la composition du lot 12 : son
-périmètre doit être validé avant toute proposition lexicale.
+Les lots 0 à 11 sont terminés et validés. Le périmètre du lot 12 est validé (31 entrées) ; sa
+proposition est livrée (statut `proposed`) et en relecture. Le lot 13 traitera ensuite le
+calendrier, les dates et les durées, son périmètre restant à composer.
 
 ------------------------------------------------------------------------
 
@@ -254,7 +256,7 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.10 · lot 09** | Loisirs, sorties et voyages | ✅ Terminé |
 | **5.11 · lot 10** | Position, direction et orientation | ✅ Terminé |
 | **5.12 · lot 11** | Démonstratifs, interrogatifs et pronoms (こ・そ・あ・ど) | ✅ Terminé |
-| **5.13 · lot 12** | À composer | 🔵 **Prochain chantier** |
+| **5.13 · lot 12** | Temps relatif, moments de la journée et fréquence | 🟡 **Proposition livrée ; en relecture** |
 | **5.14 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
@@ -290,8 +292,15 @@ traité comme un système. Arbitrages appliqués :
 -   paradigme asymétrique assumé (les fiches ne sont pas symétriques) ; `どちら` à trois sens ;
     aucune forme absente complétée.
 
-**Prochaine action immédiate :** composer le lot 12 (5.13), faire valider son périmètre, puis
-seulement produire ses décisions en statut `proposed`.
+#### Lot 12 · proposition en relecture
+
+Thème : **Temps relatif, moments de la journée et fréquence** (31 anciennes entrées, aucune
+fusion), premier lot de l'axe temporel d'A7 : 20 sens déictiques, 11 non. Essai à blanc :
+**445 ENTRY**, **31 identifiants retirés**, 0 problème, 0 erreur, 0 attente ; 243 entrées
+restantes après le lot.
+
+**Prochaine action immédiate :** relire et arbitrer la proposition du lot 12, la réviser si
+besoin, puis la valider avant de composer le lot 13 (5.14, calendrier, dates et durées).
 
 ------------------------------------------------------------------------
 
@@ -568,7 +577,7 @@ Ensuite seulement :
    │   ├── Lot 09 Loisirs, voyages (5.10)   ✅
    │   ├── Lot 10 Position (5.11)           ✅
    │   ├── Lot 11 こそあど (5.12)            ✅
-   │   ├── Lot 12 (5.13)                    🔵
+   │   ├── Lot 12 Temps relatif (5.13)      🟡
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜
