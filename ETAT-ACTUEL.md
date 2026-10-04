@@ -46,9 +46,11 @@ entrées et 46 décisions (D0410 à D0455) en `validated` ; assemblage réel : 2
 散歩) et 35 décisions (D0540 à D0574) en `validated` ; assemblage réel : 356 ENTRY, 31 retraits,
 0 erreur, 0 attente. **5.11 · lot 10 « position, direction et orientation » validé** (rapport
 `docs/rapports/etape2-tache5-11-lot10-valide.md`) : 24 entrées et 56 décisions (D0575 à D0630) en
-`validated` ; assemblage réel : 380 ENTRY, 31 retraits, 0 erreur, 0 attente. 5.12 · lot 11 « démonstratifs, interrogatifs et pronoms » : périmètre validé (34 entrées),
-**proposition** livrée (`reconstruction/a2-04/lots/lot-11.json`, rapport
-`docs/rapports/etape2-tache5-12-lot11.md`) ; aucune décision validée avant la relecture. Le validateur lexical n'est pas
+`validated` ; assemblage réel : 380 ENTRY, 31 retraits, 0 erreur, 0 attente. **5.12 · lot 11 « démonstratifs, interrogatifs et pronoms » validé** (rapport
+`docs/rapports/etape2-tache5-12-lot11-valide.md`) : 34 entrées et 104 décisions (D0631 à D0734) en
+`validated` ; assemblage réel : 414 ENTRY, 31 retraits, 0 erreur, 0 attente ; l'addendum A7 est la
+référence normative de `deictique`. Prochaine sous-tâche : 5.13, composition du lot 12 d'abord,
+aucune proposition avant validation du périmètre. Le validateur lexical n'est pas
 encore appliqué à `data/` (bascule à la publication d'A2-04).
 A2-02 est terminé (rapport final `docs/rapports/etape2-A2-02.md`). A2-01 est verrouillé
 (`docs/conception/schema-A2-01.md`, addenda A3 et A4, règles v2.3) ; la grammaire est
@@ -68,7 +70,7 @@ livraison, relecture, tests verts, commit.
 | 3 | A2-02 · Registres | dans `data/registries/`, une sous-tâche par groupe de registres, chacune autorisée explicitement avant toute création de fichier : 3.1 registres fermés (types sémantiques, dimensions, relations, fonctions linguistiques) et snapshots dans `docs/conception/a2/` (validée) ; 3.2 catégories (validée) ; 3.3 (validée) ; 3.4 (validée) ; 3.5 (validée) 3.3 classes grammaticales et compteurs ; 3.4 tags ; 3.5 audit et verrouillage | ✅ fait, A2-02 fermé (3.1 à 3.5 validées) |
 | 4 | A2-03 · Validateur | module `tools/lexicon/`, fonction pure `validateLexicon` testée sur des jeux d'essai, appelée par l'outil d'assemblage d'A2-04 puis par `validate-data` à la publication ; sous-tâches autorisées une à une : 4.1 socle (index des registres, règles transmises) ; 4.2 schéma strict et ENTRY (I1 à I6, I16, I17, A1 à A3, N1) ; 4.3 SENSE (I7 à I11, I13 à I15) ; 4.4 références transversales (I12, I19, I14 des expressions, futur format de `lieux.json` sur jeu d'essai) ; 4.5 point d'entrée et clôture | ✅ fait, A2-03 fermé (4.1 à 4.5 validées) |
 | 5 | A2-04 · 5.0 · Infrastructure | `reconstruction/a2-04/` (sources figées et empreintes, `place-tags.json`, `lots/`, `journal.json`) et `tools/reconstruction/` (règles et listes fermées, couche mécanique, contrôle des lots et du journal, assembleur partiel et complet, rapport de relecture, commandes) ; aucune décision lexicale | validée |
-| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.11 validées (lots 0 à 10) ; 5.12 proposée (lot 11) |
+| 6 | A2-04 · 5.1 à 5.15 · Lots | 5.1 lot 0 · identité (60 entrées : 27 groupes de doublons candidats, formes et lectures avec « / »), avant tout lot thématique ; puis lots thématiques regroupés par ancienne catégorie (environ 50 entrées, cible indicative) : proposition, relecture sur le rapport généré, validation, commit dans l'espace de travail | 5.1 à 5.12 validées (lots 0 à 11) ; 5.13 à composer |
 | 7 | A2-04 · 5.16 · Passe finale | fusions, relations, tags de lieu, `vocab-retired.json`, remappage des références | à faire |
 | 8 | A2-04 · 5.17 · Publication | une seule opération : vocabulaire canonique, validateur activé, `events.js` (E1 à E4) ; l'ancienne app cesse de fonctionner sur `ocha-v2` | à faire |
 | 9 | A2-05 · Audit | échantillon relu, statistiques, cohérence, rapport | à faire |
@@ -307,6 +309,8 @@ modifier ses parties verrouillées.
 | 2026-10-03 | A2-04 · 5.11 fermée : lot 10 validé (version 5.11b de 先, archive d'empreinte `a8442c3d8e80d1ee…`) ; une archive livrée est désormais identifiée par son empreinte SHA-256, pour éviter toute confusion entre deux livraisons d'un même lot | `reconstruction/a2-04/` |
 | 2026-10-03 | A2-04 · 5.12 · périmètre du lot 11 : 34 entrées vérifiées par identifiants (22 formes du système こ・そ・あ・ど, 8 autres interrogatifs, 4 pronoms personnels) ; aucune forme absente de la source n'est complétée (そんな, あんな, どんな, こう, そう, ああ) ; 5 exceptions de classe ajoutées (それ, こちら, そちら, どっち, いくつ ; liste de 46 à 51), qui rendent la classe décidable sans la décider ; la cohérence du paradigme est un contrôle, jamais une source suffisante (pas de règle « membre d'une série ⇒ même classe ») ; `deictique` et `interrogatif` attribués sens par sens, jamais par appartenance morphologique | `tools/reconstruction/rules.mjs`, `reconstruction/a2-04/lots/lot-11.json` |
 | 2026-10-03 | A2-04 · lot 11 relu : exceptions de classe, classes (それ, こちら, そちら, どっち, いくつ en `pronom` ; この, その, あの, どの, こんな en `determinant` ; どう, いかが, なぜ, どうして en `adverbe`), asymétrie du paradigme, trois sens de どちら et rejets de `lieu_gare` validés ; validation suspendue à la gouvernance de la définition de `deictique`, que 5.12a introduisait elle-même | `reconstruction/a2-04/lots/lot-11.json` |
+| 2026-10-03 | Addendum A7 · définition opérationnelle de `deictique` (convention d'application Ocha, sans nouvelle version d'A2-LING) : fonction d'un SENSE dont l'interprétation référentielle ou le repérage dépend directement de la situation d'énonciation (locuteur, interlocuteur, lieu, **moment** d'énonciation) ; référence purement syntaxique (réfléchi) non déictique ; anaphore seule insuffisante ; sens à plusieurs emplois : fonction attribuée si l'emploi déictique fait partie intégrante du sens modélisé (pas de notion de « sens dominant ») ; audit rétroactif de la deixis temporelle réservé à A2-05 ; aucune autre fonction d'A2-LING n'est définie | `docs/conception/addendum-A7-deictique.md` |
+| 2026-10-03 | A2-04 · 5.12 fermée : lot 11 validé (archive 5.12b d'empreinte `5eb60a92ae46aa7b…`) ; A7 validé et devenu la référence normative des attributions de `deictique` ; la mention d'`interrogatif` dans A7 §3.3 délimite `deictique` sans définir `interrogatif` | `reconstruction/a2-04/`, `docs/conception/addendum-A7-deictique.md` |
 
 ---
 
@@ -384,12 +388,13 @@ modifier ses parties verrouillées.
 - **Lecture de `suru_compatible: false`** : valeur par défaut, « compatibilité non établie », pas
   une incompatibilité. Le schéma, verrouillé, ne le dit pas explicitement ; à reprendre si une
   évolution du schéma est décidée, et à respecter par la morphologie (étape 3).
-- **Définition de la fonction `deictique`** (bloque la validation du lot 11) : aucune définition
-  normative n'existe (A2-LING, A2-GLOBAL, registre, schéma, addenda) ; aucune des 14 fonctions
-  d'A2-LING n'en a. Niveau requis : un addendum de conception (A7, sur le modèle d'A5 et A6), ou une
-  nouvelle version d'A2-LING ; pas un simple arbitrage A2-04. Choix à faire : inclure ou non la
-  deixis temporelle, qui toucherait des données validées (おととし, lot 0 ; 近く « prochainement »,
-  lot 10). Rapport : `docs/rapports/etape2-tache5-12-verif-deictique.md`.
+- **Audit A2-05, deixis temporelle (réservation de l'addendum A7)** : auditer toutes les ENTRY et
+  tous les SENSE déjà validés susceptibles de relever de la deixis temporelle, au minimum おととし
+  (lot 0) et 近く, sens 2 « prochainement » (lot 10). La règle est décidée (A7) ; seul l'audit de ses
+  conséquences antérieures est reporté.
+- **Fonctions d'A2-LING sans définition** : A7 ne définit que `deictique`. Les 13 autres fonctions
+  n'ont toujours pas de définition normative ; `interrogatif` et `intensifieur` sont appliqués sur
+  un sens implicite. Une définition écrite ne sera décidée que si un cas l'exige.
 - **Affixes** : la représentation des suffixes (〜方 « manière de… », 〜人, 〜さん…) n'est pas
   définie ; aucune ENTRY d'affixe n'est créée avant un chantier dédié.
 - **Identifiants de sens après publication** : ils sont générés dans l'ordre des sens jusqu'à la
@@ -508,3 +513,5 @@ modifier ses parties verrouillées.
 | 2026-10-03 | 2 · 5.11 | Validation du lot 10 : 24 entrées et 56 décisions passées en `validated` sans autre changement ; journal entier validé (630 décisions) ; assemblage réel : 380 ENTRY, 31 retraits, 0 problème, 0 erreur, 0 attente, 308 entrées encore à décider ; test d'état adapté (aucun tag dans le lot, 先 en classe `nom`) ; 3 sabotages attrapés ; `ROADMAP.md` mis à jour (5.11 ✅, 5.12 prochain chantier) ; 431 tests | — |
 | 2026-10-03 | 2 · 5.12 | Lot 11 proposé : 34 entrées, 104 décisions de journal proposées (D0631 à D0734), dont 35 `type-nul` (un par sens démonstratif ou interrogatif) ; 5 exceptions de classe ajoutées, avec test et 2 sabotages ; classes : 25 pronoms, 5 déterminants, 4 adverbes ; essai à blanc : 414 ENTRY, 31 retraits, 0 problème, 0 erreur, 0 attente, 274 entrées restantes après le lot ; 433 tests | — |
 | 2026-10-03 | 2 · 5.12 | Vérification de `deictique`, sans modification de données : aucune définition normative ; niveau recommandé, un addendum A7 ; la définition candidate admet 私 et あなた et exclut l'emploi réfléchi de 自分 ; la deixis temporelle reste à trancher (effet possible sur おととし et 近く, validés) | — |
+| 2026-10-03 | 2 · 5.12b | Addendum A7 rédigé ; révision documentaire du lot 11 : 40 raisons de décision réécrites pour citer A7 (18 fonctions, 20 `type-nul`, 2 `categorie-nulle`), identifiants, valeurs et statuts inchangés, données du lot strictement identiques ; essai à blanc inchangé : 414 ENTRY, 31 retraits, 0 erreur, 0 attente ; 433 tests | — |
+| 2026-10-03 | 2 · 5.12 | Validation du lot 11 : 34 entrées et 104 décisions passées en `validated` sans autre changement ; journal entier validé (734 décisions) ; assemblage réel : 414 ENTRY, 31 retraits, 0 problème, 0 erreur, 0 attente, 274 entrées encore à décider ; test d'état adapté (application d'A7 sur 私, あなた, 自分, 誰か, 皆 ; classes du paradigme) ; 4 sabotages attrapés ; `ROADMAP.md` mis à jour (5.12 ✅, 5.13 prochain chantier) ; 433 tests | — |

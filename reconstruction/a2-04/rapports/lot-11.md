@@ -6,12 +6,12 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_339 → v_339 · こちら
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0667** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0668** (type-nul, sens 2 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0667** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0668** (type-nul, sens 2 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0669** (decision, grammatical_class) : Classe mécanique insuffisante : l'ancien rangement l'avait typé « nom », alors que la fiche le décrit comme « pronom démonstratif de la série Ko », désignant une direction, un lieu, ou le locuteur. La cohérence du paradigme (あちら : pronom) sert de contrôle, non de source. group: null (A2-02). — avant `"nom (mécanique, d'après l'ancien type)"` → après `"pronom"`
-- **A2-04-D0670** (decision, senses) : Deux sens documentés par la fiche (« indiquant une direction, un lieu proche ou servant de forme polie pour désigner sa propre personne ») : une direction, et le locuteur lui-même, deux référents distincts. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques. — avant `["Par ici","Cette direction","Ce côté-ci","Voici (poli)"]` → après `["S1 Par ici (direction)","S2 Moi, nous (poli)"]`
+- **A2-04-D0670** (decision, senses) : Deux sens documentés par la fiche (« indiquant une direction, un lieu proche ou servant de forme polie pour désigner sa propre personne ») : une direction, et le locuteur lui-même, deux référents distincts. Fonction deictique selon l'addendum A7 (révision 5.12b). Les deux sens sont déictiques. — avant `["Par ici","Cette direction","Ce côté-ci","Voici (poli)"]` → après `["S1 Par ici (direction)","S2 Moi, nous (poli)"]`
 - **A2-04-D0671** (abandon, senses) : Traduction d'un emploi de présentation (こちらは〜です), reprise dans la nuance du sens 2. — avant `["Voici (poli)"]` → après `null`
 - **A2-04-D0672** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : démonstratif ou interrogatif d'usage général, qui s'emploie partout ; l'indiquer dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
 
@@ -34,7 +34,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : **exception**, dépend de la classe, en exception
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"pronom"`
 - group : `null`
@@ -58,12 +58,12 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_340 → v_340 · そちら
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0673** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0673** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0674** (decision, grammatical_class) : Classe mécanique insuffisante : l'ancien rangement l'avait typé « nom », alors que la fiche le décrit comme « pronom démonstratif de la série So ». La cohérence du paradigme sert de contrôle, non de source. group: null (A2-02). — avant `"nom (mécanique, d'après l'ancien type)"` → après `"pronom"`
 - **A2-04-D0675** (decision, senses) : Un seul sens : la fiche ne documente que la direction ou l'endroit proche de l'interlocuteur. Aucun emploi pour la personne n'est ajouté par analogie avec こちら. — avant `["Par là","Cette direction-là","Ce côté-là (près de l'interlocuteur)"]` → après `"un seul sens"`
-- **A2-04-D0676** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). そちら désigne une direction proche de l'interlocuteur. — avant `null` → après `["deictique"]`
+- **A2-04-D0676** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). そちら désigne une direction proche de l'interlocuteur. — avant `null` → après `["deictique"]`
 - **A2-04-D0677** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : démonstratif ou interrogatif d'usage général, qui s'emploie partout ; l'indiquer dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
 
 | Champ source | Valeur |
@@ -85,7 +85,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : **exception**, dépend de la classe, en exception
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"pronom"`
 - group : `null`
@@ -108,11 +108,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_342 → v_342 · それ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0634** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0634** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0635** (decision, grammatical_class) : Classe mécanique insuffisante : l'ancien rangement (position_direction) l'avait typé « nom », alors que la fiche le décrit comme « pronom démonstratif de la série So », employé seul pour désigner une chose. La cohérence du paradigme (これ, あれ, どれ : pronom) sert de contrôle, non de source. group: null (A2-02). — avant `"nom (mécanique, d'après l'ancien type)"` → après `"pronom"`
-- **A2-04-D0636** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). それ désigne une chose proche de l'interlocuteur ; son emploi anaphorique (« dont on vient de parler »), documenté par la fiche, reste dans la nuance, faute de fonction dédiée dans A2-LING. — avant `null` → après `["deictique"]`
+- **A2-04-D0636** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). それ désigne une chose proche de l'interlocuteur (axe de l'espace) ; son emploi anaphorique (« dont on vient de parler »), documenté par la fiche, ne suffirait pas seul (A7, §3.2) et reste dans la nuance. — avant `null` → après `["deictique"]`
 - **A2-04-D0637** (decision, tags) : lieu_gare (ancienne catégorie position_direction) écarté : démonstratif ou interrogatif d'usage général, qui s'emploie partout ; l'indiquer dans une gare ne le rend pas propre à la gare (critère des tags de lieu du lot 02). — avant `["lieu_gare"]` → après `[]`
 
 | Champ source | Valeur |
@@ -134,7 +134,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : **exception**, dépend de la classe, en exception
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"pronom"`
 - group : `null`
@@ -157,7 +157,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_343 → v_343 · どっち
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0696** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0697** (decision, grammatical_class) : Classe mécanique insuffisante : l'ancien rangement l'avait typé « nom », alors que la fiche le décrit comme « pronom interrogatif familier de la série Do ». La cohérence du paradigme (どちら, どれ : pronom) sert de contrôle, non de source. group: null (A2-02). — avant `"nom (mécanique, d'après l'ancien type)"` → après `"pronom"`
@@ -184,7 +184,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - group : **exception**, dépend de la classe, en exception
 - tags de lieu candidats (à confirmer) : lieu_gare
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"pronom"`
 - group : `null`
@@ -207,7 +207,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_390 → v_390 · いかが
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0718** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0719** (abandon, senses) : Traductions d'emplois, reprises dans la nuance. — avant `["Comment ça va ?","De quelle manière"]` → après `null`
@@ -230,7 +230,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adverbe"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -251,7 +251,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_391 → v_391 · いつ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0712** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0713** (decision, grammatical_class) : Classe mécanique inapplicable (exception) : la fiche le décrit comme « pronom interrogatif temporel », comme 何 et いくら. group: null (A2-02). — avant `"pronom / nom (ancien type, exception de classe)"` → après `"pronom"`
@@ -274,7 +274,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : **exception**, classe à décider (liste consignée)
 - group : **exception**, dépend de la classe, en exception
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"pronom"`
 - group : `null`
@@ -297,10 +297,10 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_392 → v_392 · そこ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0646** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0647** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). そこ désigne un endroit proche de l'interlocuteur. — avant `null` → après `["deictique"]`
+- **A2-04-D0646** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0647** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). そこ désigne un endroit proche de l'interlocuteur. — avant `null` → après `["deictique"]`
 - **A2-04-D0648** (abandon, senses) : Redondants ; la position est reprise dans la nuance. — avant `["Cet endroit","Là-bas (près de la personne à qui l'on parle)"]` → après `null`
 
 | Champ source | Valeur |
@@ -321,7 +321,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -342,7 +342,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_393 → v_393 · どう
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0705** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0706** (decision, senses) : Un seul sens : manière, état et avis sont des emplois du même « comment », énumérés par la fiche comme objets de la question. — avant `["Comment","De quelle manière","De quel avis"]` → après `"un seul sens"`
@@ -366,7 +366,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adverbe"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -387,7 +387,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_394 → v_394 · どうして
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0716** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0717** (abandon, senses) : Redondant. — avant `["Pour quelle raison"]` → après `null`
@@ -410,7 +410,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adverbe"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -431,7 +431,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_395 → v_395 · どこ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0652** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0653** (abandon, senses) : Redondant. — avant `["Quel endroit"]` → après `null`
@@ -454,7 +454,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -475,7 +475,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_396 → v_396 · どちら
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0681** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0682** (type-nul, sens 2 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
@@ -501,7 +501,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -524,7 +524,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_397 → v_397 · どなた
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0710** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0711** (abandon, senses) : Redondant. — avant `["Laquelle de ces personnes"]` → après `null`
@@ -547,7 +547,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -568,7 +568,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_398 → v_398 · どの
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0664** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0665** (decision, grammatical_class) : Classe mécanique inapplicable (exception) : la fiche dit que どの « se place devant un nom » ; il ne s'emploie jamais seul. Déterminant interrogatif, comme この, その, あの sont des déterminants démonstratifs. group: null (A2-02). — avant `"adjectif / interrogatif (ancien type, exception de classe)"` → après `"determinant"`
@@ -592,7 +592,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : **exception**, ancien type « adjectif » sans classe par défaut
 - group : **exception**, dépend de la classe, en exception
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"determinant"`
 - group : `null`
@@ -615,7 +615,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_399 → v_399 · どれ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0641** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0642** (abandon, senses) : Précision reprise dans la nuance. — avant `["Lesquels (parmi trois choix ou plus)"]` → après `null`
@@ -638,7 +638,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -659,7 +659,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_400 → v_400 · なぜ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0714** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0715** (abandon, senses) : Redondant. — avant `["Pour quelle raison"]` → après `null`
@@ -682,7 +682,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adverbe"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -703,7 +703,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_402 → v_402 · 誰
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0708** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0709** (abandon, senses) : Redondant. — avant `["Laquelle de ces personnes"]` → après `null`
@@ -726,7 +726,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -747,10 +747,10 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_403 → v_403 · あそこ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0649** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0650** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あそこ désigne un endroit éloigné des deux interlocuteurs. — avant `null` → après `["deictique"]`
+- **A2-04-D0649** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0650** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). あそこ désigne un endroit éloigné des deux interlocuteurs. — avant `null` → après `["deictique"]`
 - **A2-04-D0651** (abandon, senses) : Redondant. — avant `["Cet endroit-là (lointain des deux interlocuteurs)"]` → après `null`
 
 | Champ source | Valeur |
@@ -771,7 +771,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -792,11 +792,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_404 → v_404 · あちら
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0678** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0679** (type-nul, sens 2 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0680** (decision, senses) : Deux sens documentés par la fiche (« de lieu ou de direction poli… Il sert aussi à désigner poliment une personne ») : un lieu, et une personne. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques. — avant `["Là-bas (poli)","Cette direction-là","Cette personne-là (poli)"]` → après `["S1 Là-bas (poli)","S2 Cette personne-là (poli)"]`
+- **A2-04-D0678** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0679** (type-nul, sens 2 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0680** (decision, senses) : Deux sens documentés par la fiche (« de lieu ou de direction poli… Il sert aussi à désigner poliment une personne ») : un lieu, et une personne. Fonction deictique selon l'addendum A7 (révision 5.12b). Les deux sens sont déictiques. — avant `["Là-bas (poli)","Cette direction-là","Cette personne-là (poli)"]` → après `["S1 Là-bas (poli)","S2 Cette personne-là (poli)"]`
 
 | Champ source | Valeur |
 |---|---|
@@ -816,7 +816,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -838,11 +838,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_405 → v_405 · あっち
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0693** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0693** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0694** (decision, senses) : Un seul sens : la fiche ne documente que le lieu ou la direction. Aucun emploi pour une personne n'est ajouté par analogie avec あちら. — avant `["Par là","De ce côté-là (familier)","Là-bas"]` → après `"un seul sens"`
-- **A2-04-D0695** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あっち désigne une direction éloignée des deux interlocuteurs. — avant `null` → après `["deictique"]`
+- **A2-04-D0695** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). あっち désigne une direction éloignée des deux interlocuteurs. — avant `null` → après `["deictique"]`
 
 | Champ source | Valeur |
 |---|---|
@@ -862,7 +862,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -883,11 +883,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_406 → v_406 · あの
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0660** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0660** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0661** (decision, grammatical_class) : Classe mécanique inapplicable (exception) : la fiche dit que あの « précède obligatoirement un nom » ; il ne s'emploie jamais seul. C'est le comportement d'un déterminant, et non d'un adjectif (il ne se conjugue pas, ne s'emploie pas en prédicat). group: null (A2-02). — avant `"adjectif / démonstratif (ancien type, exception de classe)"` → après `"determinant"`
-- **A2-04-D0662** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あの désigne ce qui est éloigné des deux interlocuteurs. — avant `null` → après `["deictique"]`
+- **A2-04-D0662** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). あの désigne ce qui est éloigné des deux interlocuteurs. — avant `null` → après `["deictique"]`
 
 | Champ source | Valeur |
 |---|---|
@@ -907,7 +907,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : **exception**, ancien type « adjectif » sans classe par défaut
 - group : **exception**, dépend de la classe, en exception
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"determinant"`
 - group : `null`
@@ -930,10 +930,10 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_407 → v_407 · あれ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0638** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0639** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あれ désigne une chose éloignée des deux interlocuteurs. — avant `null` → après `["deictique"]`
+- **A2-04-D0638** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0639** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). あれ désigne une chose éloignée des deux interlocuteurs. — avant `null` → après `["deictique"]`
 - **A2-04-D0640** (abandon, senses) : Familier, redondant. — avant `["Ce truc-là"]` → après `null`
 
 | Champ source | Valeur |
@@ -954,7 +954,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -975,10 +975,10 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_408 → v_408 · ここ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0643** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0644** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). ここ désigne l'endroit du locuteur. Catégorie de domaine (position, localisation), comme いくら a reçu celle des prix : le sens désigne un lieu. — avant `null` → après `["deictique"]`
+- **A2-04-D0643** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0644** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). ここ désigne l'endroit du locuteur. Catégorie de domaine (position, localisation), comme いくら a reçu celle des prix : le sens désigne un lieu. — avant `null` → après `["deictique"]`
 - **A2-04-D0645** (abandon, senses) : Redondant. — avant `["Cet endroit (proche du locuteur)"]` → après `null`
 
 | Champ source | Valeur |
@@ -999,7 +999,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1020,11 +1020,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_409 → v_409 · こっち
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0686** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0687** (type-nul, sens 2 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0688** (decision, senses) : Deux sens documentés par la fiche (« de lieu ou de direction… Il peut aussi désigner le locuteur ou son camp ») : une direction, et le locuteur ou son groupe. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques. — avant `["Par ici","De ce côté-ci (familier)","Ici","Moi / de mon côté"]` → après `["S1 Par ici","S2 Moi, mon camp"]`
+- **A2-04-D0686** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0687** (type-nul, sens 2 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0688** (decision, senses) : Deux sens documentés par la fiche (« de lieu ou de direction… Il peut aussi désigner le locuteur ou son camp ») : une direction, et le locuteur ou son groupe. Fonction deictique selon l'addendum A7 (révision 5.12b). Les deux sens sont déictiques. — avant `["Par ici","De ce côté-ci (familier)","Ici","Moi / de mon côté"]` → après `["S1 Par ici","S2 Moi, mon camp"]`
 - **A2-04-D0689** (abandon, senses) : Relève de ここ. — avant `["Ici"]` → après `null`
 
 | Champ source | Valeur |
@@ -1045,7 +1045,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1067,11 +1067,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_410 → v_410 · この
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0654** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0654** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0655** (decision, grammatical_class) : Classe mécanique inapplicable (exception) : la fiche dit que この « précède obligatoirement un nom » ; il ne s'emploie jamais seul. C'est le comportement d'un déterminant, et non d'un adjectif (il ne se conjugue pas, ne s'emploie pas en prédicat). group: null (A2-02). — avant `"adjectif / démonstratif (ancien type, exception de classe)"` → après `"determinant"`
-- **A2-04-D0656** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). この désigne ce qui est proche du locuteur. — avant `null` → après `["deictique"]`
+- **A2-04-D0656** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). この désigne ce qui est proche du locuteur. — avant `null` → après `["deictique"]`
 
 | Champ source | Valeur |
 |---|---|
@@ -1091,7 +1091,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : **exception**, ancien type « adjectif » sans classe par défaut
 - group : **exception**, dépend de la classe, en exception
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"determinant"`
 - group : `null`
@@ -1114,10 +1114,10 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_411 → v_411 · これ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0631** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0632** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). これ désigne une chose située près du locuteur : la fonction est portée par ce sens. — avant `null` → après `["deictique"]`
+- **A2-04-D0631** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0632** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). これ désigne une chose située près du locuteur : la fonction est portée par ce sens. — avant `null` → après `["deictique"]`
 - **A2-04-D0633** (abandon, senses) : Familier, redondant. — avant `["Ce truc-ci"]` → après `null`
 
 | Champ source | Valeur |
@@ -1138,7 +1138,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1159,11 +1159,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_412 → v_412 · こんな
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0701** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0701** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0702** (decision, grammatical_class) : Classe mécanique inapplicable (exception) : la fiche dit que こんな « précède un nom pour qualifier… ». Déterminant démonstratif de qualité, et non adjectif en な : la seule présence de な ne suffit pas, et la fiche ne documente aucun emploi d'adjectif (prédicat, こんなだ). group: null (A2-02). — avant `"adjectif / démonstratif (ancien type, exception de classe)"` → après `"determinant"`
-- **A2-04-D0703** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). こんな renvoie à ce qui est proche du locuteur. — avant `null` → après `["deictique"]`
+- **A2-04-D0703** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). こんな renvoie à ce qui est proche du locuteur. — avant `null` → après `["deictique"]`
 - **A2-04-D0704** (abandon, senses) : Emploi de こんなに, non documenté par la nuance. — avant `["Tellement (de ce type)"]` → après `null`
 
 | Champ source | Valeur |
@@ -1184,7 +1184,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : **exception**, ancien type « adjectif » sans classe par défaut
 - group : **exception**, dépend de la classe, en exception
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"determinant"`
 - group : `null`
@@ -1207,11 +1207,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_414 → v_414 · そっち
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0690** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0691** (type-nul, sens 2 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
-- **A2-04-D0692** (decision, senses) : Deux sens documentés par la fiche (« un endroit proche de l'interlocuteur ou le camp de ce dernier ») : une direction, et l'interlocuteur ou son groupe. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques. — avant `["Par là","De ce côté-là (près de l'interlocuteur)","Ton côté / ton camp"]` → après `["S1 Par là","S2 Toi, ton camp"]`
+- **A2-04-D0690** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0691** (type-nul, sens 2 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0692** (decision, senses) : Deux sens documentés par la fiche (« un endroit proche de l'interlocuteur ou le camp de ce dernier ») : une direction, et l'interlocuteur ou son groupe. Fonction deictique selon l'addendum A7 (révision 5.12b). Les deux sens sont déictiques. — avant `["Par là","De ce côté-là (près de l'interlocuteur)","Ton côté / ton camp"]` → après `["S1 Par là","S2 Toi, ton camp"]`
 
 | Champ source | Valeur |
 |---|---|
@@ -1231,7 +1231,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1253,11 +1253,11 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_415 → v_415 · その
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0657** (type-nul, sens 1 · semantic_type) : Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
+- **A2-04-D0657** (type-nul, sens 1 · semantic_type) : Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0658** (decision, grammatical_class) : Classe mécanique inapplicable (exception) : la fiche dit que その « précède obligatoirement un nom » ; il ne s'emploie jamais seul. C'est le comportement d'un déterminant, et non d'un adjectif (il ne se conjugue pas, ne s'emploie pas en prédicat). group: null (A2-02). — avant `"adjectif / démonstratif (ancien type, exception de classe)"` → après `"determinant"`
-- **A2-04-D0659** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). その désigne ce qui est proche de l'interlocuteur, ou dont on vient de parler. — avant `null` → après `["deictique"]`
+- **A2-04-D0659** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). その désigne ce qui est proche de l'interlocuteur, ou dont on vient de parler. — avant `null` → après `["deictique"]`
 - **A2-04-D0663** (abandon, senses) : Formes de genre et de nombre du français, reprises en autres traductions. — avant `["Cette ; Ces"]` → après `null`
 
 | Champ source | Valeur |
@@ -1278,7 +1278,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : **exception**, ancien type « adjectif » sans classe par défaut
 - group : **exception**, dépend de la classe, en exception
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"determinant"`
 - group : `null`
@@ -1301,9 +1301,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_581 → v_581 · あなた
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0727** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あなた désigne l'interlocuteur : deixis de personne. — avant `null` → après `["deictique"]`
+- **A2-04-D0727** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). あなた désigne l'interlocuteur : deixis de personne. — avant `null` → après `["deictique"]`
 - **A2-04-D0728** (decision, senses) : Un seul sens : l'emploi entre époux est un usage du même pronom de la deuxième personne (« très courant de la part d'un conjoint pour s'adresser à son partenaire »), pas un sens distinct ; repris dans la nuance. — avant `["Vous","Tu","Mon chéri / Ma chérie (par un conjoint)"]` → après `"un seul sens"`
 - **A2-04-D0729** (abandon, senses) : Traduction d'un emploi, reprise dans la nuance. — avant `["Mon chéri / Ma chérie (par un conjoint)"]` → après `null`
 
@@ -1325,7 +1325,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1346,7 +1346,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_585 → v_585 · いくつ
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0720** (type-nul, sens 1 · semantic_type) : Unité interrogative : ni entité ni concept désigné, aucun type terminal ne s'applique (comme 何 et いくら, lots 0 et 05). Addendum A6.
 - **A2-04-D0721** (decision, grammatical_class) : Classe mécanique insuffisante : l'ancien type « adverbe » ne correspond pas à la fiche, qui le décrit comme « pronom interrogatif » demandant une quantité ou un âge ; même décision que いくら (lot 05). group: null (A2-02). — avant `"adverbe (mécanique, d'après l'ancien type)"` → après `"pronom"`
@@ -1371,7 +1371,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : **exception**, classe à décider (liste consignée)
 - group : **exception**, dépend de la classe, en exception
 
-**Proposition**
+**Décision**
 
 - grammatical_class : `"pronom"`
 - group : `null`
@@ -1394,7 +1394,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_606 → v_606 · 皆
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
 - **A2-04-D0732** (categorie-nulle, sens 1 · category) : Ensemble de personnes : « personne générique », hors de la hiérarchie thématique, comme 皆さん (lot 01) Addendum A5.
 - **A2-04-D0733** (decision, writings) : みんな, documentée par la fiche (« s'écrit très fréquemment en hiragana »), est une variante d'écriture : ajoutée à writings. La forme usuelle n'est pas changée (aucune liste USUAL_FORM_IDS pour cette entrée). — avant `null` → après `["みんな"]`
@@ -1418,7 +1418,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[{"form":"みんな","furigana":"みんな"}]`
 - suru_compatible : `false`
@@ -1439,9 +1439,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_688 → v_688 · 私
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0725** (decision, sens 1 · linguistic_functions) : Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). 私 désigne le locuteur : deixis de personne. — avant `null` → après `["deictique"]`
+- **A2-04-D0725** (decision, sens 1 · linguistic_functions) : Fonction deictique selon l'addendum A7 (révision 5.12b). 私 désigne le locuteur : deixis de personne. — avant `null` → après `["deictique"]`
 - **A2-04-D0726** (abandon, senses) : Emploi avec の, repris dans la nuance. — avant `["Mon / Ma (en tant que préfixe possessif implicite)"]` → après `null`
 
 | Champ source | Valeur |
@@ -1462,7 +1462,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1483,9 +1483,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_691 → v_691 · 自分
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0730** (categorie-nulle, sens 1 · category) : Pronom réfléchi : « personne générique », sans domaine thématique ; pas de fonction déictique (il renvoie au sujet de la phrase, non à la situation de parole) Addendum A5.
+- **A2-04-D0730** (categorie-nulle, sens 1 · category) : Pronom réfléchi : « personne générique », sans domaine thématique ; pas de fonction deictique (A7 : référence déterminée par la syntaxe, §3.1 ; l'emploi « je », conservé en nuance, ne fait pas partie intégrante du sens modélisé, §4) Addendum A5.
 - **A2-04-D0731** (abandon, senses) : Le premier est repris dans la nuance ; le second n'est pas équivalent. — avant `["Moi-même","Personnellement"]` → après `null`
 
 | Champ source | Valeur |
@@ -1506,7 +1506,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`
@@ -1527,9 +1527,9 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 ### n5_v_700 → v_700 · 誰か
 
-**Statut** : PROPOSITION, non validée
+**Statut** : décision validée
 
-- **A2-04-D0724** (categorie-nulle, sens 1 · category) : Personne indéterminée : « personne générique », hors de la hiérarchie thématique (A2-GLOBAL §4.4) ; pas de fonction interrogative (誰か n'interroge pas), ni déictique Addendum A5.
+- **A2-04-D0724** (categorie-nulle, sens 1 · category) : Personne indéterminée : « personne générique », hors de la hiérarchie thématique (A2-GLOBAL §4.4) ; pas de fonction interrogative (誰か n'interroge pas), ni deictique (référent indéterminé, non repéré par la situation d'énonciation, A7) Addendum A5.
 
 | Champ source | Valeur |
 |---|---|
@@ -1549,7 +1549,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"pronom"`
 - group : `null`
 
-**Proposition**
+**Décision**
 
 - writings : `[]`
 - suru_compatible : `false`

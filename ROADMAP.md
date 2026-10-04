@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-03 (clôture du lot 10)
+**Dernière mise à jour :** 2026-10-03 (clôture du lot 11)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,11 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → 5.12, lot 11 « Démonstratifs, interrogatifs et
-pronoms » (こ・そ・あ・ど).**
+**A2-04 · reconstruction du vocabulaire N5 → 5.13, composition du lot 12.**
 
-Les lots 0 à 10 sont terminés et validés. Le périmètre du lot 11 est validé (34 entrées) ; sa
-proposition est livrée (statut `proposed`) et en relecture.
+Les lots 0 à 11 sont terminés et validés. Le prochain chantier est la composition du lot 12 : son
+périmètre doit être validé avant toute proposition lexicale.
 
 ------------------------------------------------------------------------
 
@@ -254,8 +253,9 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.9 · lot 08** | Communication, correspondance et médias | ✅ Terminé |
 | **5.10 · lot 09** | Loisirs, sorties et voyages | ✅ Terminé |
 | **5.11 · lot 10** | Position, direction et orientation | ✅ Terminé |
-| **5.12 · lot 11** | Démonstratifs, interrogatifs et pronoms (こ・そ・あ・ど) | 🟡 **Proposition livrée ; en relecture** |
-| **5.13 → 5.15** | Lots thématiques suivants | ⬜ À faire |
+| **5.12 · lot 11** | Démonstratifs, interrogatifs et pronoms (こ・そ・あ・ど) | ✅ Terminé |
+| **5.13 · lot 12** | À composer | 🔵 **Prochain chantier** |
+| **5.14 → 5.15** | Lots thématiques suivants | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -268,35 +268,30 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 10
+#### État chiffré après le lot 11
 
--   **380 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **414 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **31 identifiants retirés** ;
--   **308 anciennes entrées encore à décider** ;
--   **630 décisions humaines validées** au journal ;
+-   **274 anciennes entrées encore à décider** ;
+-   **734 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
-#### Lot 10 · clos
+#### Lot 11 · clos
 
-Thème : **Position, direction et orientation** (24 anciennes entrées, aucune fusion). Arbitrages
-appliqués :
+Thème : **Démonstratifs, interrogatifs et pronoms** (34 anciennes entrées, aucune fusion),
+traité comme un système. Arbitrages appliqués :
 
--   les 22 candidats `lieu_gare` rejetés un par un, sans présomption pour les points cardinaux
-    (la signalétique 東口 / 西口 ne les rend pas propres à la gare) ;
--   `前` et `近く` à deux sens (un lieu, un moment) ; `近い` et `遠い` à un sens (même échelle de
-    distance) ; `先` à deux sens, classe `nom` ;
--   points cardinaux en `concept_abstrait` ; `表` en `type-nul` (une face est une partie).
+-   5 exceptions de classe ajoutées ; classes décidées sur les fiches, la cohérence du paradigme
+    servant de contrôle : 25 pronoms, 5 déterminants (dont `こんな`), 4 adverbes ;
+-   **addendum A7** : définition opérationnelle de `deictique` (personne, espace, temps) ; `私`
+    et `あなた` la portent, pas `自分` (réfléchi), `誰か` ni `皆` ; audit rétroactif de la deixis
+    temporelle réservé à A2-05 ;
+-   paradigme asymétrique assumé (les fiches ne sont pas symétriques) ; `どちら` à trois sens ;
+    aucune forme absente complétée.
 
-#### Lot 11 · proposition en relecture
-
-Thème : **Démonstratifs, interrogatifs et pronoms** (34 anciennes entrées, aucune fusion), traité
-comme un système. 5 exceptions de classe ajoutées (それ, こちら, そちら, どっち, いくつ). Essai à
-blanc : **414 ENTRY**, **31 identifiants retirés**, 0 problème, 0 erreur, 0 attente ; 274 entrées
-restantes après le lot.
-
-**Prochaine action immédiate :** relire et arbitrer la proposition du lot 11, la réviser si
-besoin, puis la valider avant de composer le lot suivant (5.13).
+**Prochaine action immédiate :** composer le lot 12 (5.13), faire valider son périmètre, puis
+seulement produire ses décisions en statut `proposed`.
 
 ------------------------------------------------------------------------
 
@@ -323,6 +318,9 @@ Points déjà réservés pour cet audit :
     jamais les renuméroter ;
 -   recoupement des avertissements `categorie-nulle` (A5) et `type-nul` (A6) avec leurs
     justifications au journal ;
+-   **audit rétroactif de la deixis temporelle** (réservation de l'addendum A7) : tous les sens
+    déjà validés susceptibles de relever de `deictique` sur l'axe du temps, au minimum `おととし`
+    (lot 0) et `近く` « prochainement » (lot 10) ;
 -   anomalies de données kanji : `醤` absent des kanji connus, cinq clés du dictionnaire qui
     sont des mots (山羊, 生活, 措置, 継続, 迅速) ;
 -   anomalies ou décisions transversales découvertes pendant les lots.
@@ -569,7 +567,8 @@ Ensuite seulement :
    │   ├── Lot 08 Communication (5.9)       ✅
    │   ├── Lot 09 Loisirs, voyages (5.10)   ✅
    │   ├── Lot 10 Position (5.11)           ✅
-   │   ├── Lot 11 こそあど (5.12)            🟡
+   │   ├── Lot 11 こそあど (5.12)            ✅
+   │   ├── Lot 12 (5.13)                    🔵
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

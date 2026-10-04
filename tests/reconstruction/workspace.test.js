@@ -185,14 +185,25 @@ test('5.11 : le lot 10 est entièrement validé (24 entrées), journal compris',
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
-// A2-04 · 5.12 : le lot 11 est livré en PROPOSITION, journal compris ; aucune de ses décisions
-// n'est validée avant la relecture. Ce test changera à la validation du lot 11.
-test('5.12 : le lot 11 est entièrement proposé (34 entrées), journal compris', () => {
+// A2-04 · 5.12 fermée : le lot 11 est entièrement validé (aucune fusion), avec tout son journal.
+// Addendum A7 : 私 et あなた portent deictique (deixis de personne) ; 自分 (réfléchi), 誰か
+// (indéterminé) et 皆 n'en portent pas. Classes du paradigme décidées sur les fiches.
+test('5.12 : le lot 11 est entièrement validé (34 entrées), journal compris', () => {
   const lot11 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-11.json'), 'utf8'));
   assert.equal(Object.keys(lot11.entries).length, 34);
-  assert.ok(Object.values(lot11.entries).every((e) => e.status === 'proposed'));
-  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-  assert.ok(journal.filter((j) => j.lot === 'lot-11').every((j) => j.status === 'proposed'));
+  assert.ok(Object.values(lot11.entries).every((e) => e.status === 'validated'));
+  assert.ok(Object.values(lot11.entries).every((e) => !e.retire), 'aucune fusion dans le lot 11');
+  const fn = (id) => lot11.entries[id].fields.senses.flatMap((s) => s.linguistic_functions.grammatical);
+  assert.deepEqual(fn('n5_v_688'), ['deictique'], '私');
+  assert.deepEqual(fn('n5_v_581'), ['deictique'], 'あなた');
+  for (const id of ['n5_v_691', 'n5_v_700', 'n5_v_606']) assert.deepEqual(fn(id), [], `${id} : pas de deictique (A7)`);
+  const cls = (id) => lot11.entries[id].fields.grammatical_class;
+  for (const id of ['n5_v_342', 'n5_v_339', 'n5_v_340', 'n5_v_343', 'n5_v_585']) assert.equal(cls(id), 'pronom', id);
+  for (const id of ['n5_v_410', 'n5_v_415', 'n5_v_406', 'n5_v_398', 'n5_v_412']) assert.equal(cls(id), 'determinant', id);
+  assert.deepEqual(lot11.additions, []);
+  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-11');
+  assert.equal(own.length, 104);
+  assert.ok(own.every((j) => j.status === 'validated'));
 });
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du

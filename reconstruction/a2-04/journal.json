@@ -9013,7 +9013,7 @@
   },
   {
     "id": "A2-04-D0631",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_411",
@@ -9021,11 +9021,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0632",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_411",
@@ -9035,11 +9035,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). これ désigne une chose située près du locuteur : la fonction est portée par ce sens."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). これ désigne une chose située près du locuteur : la fonction est portée par ce sens."
   },
   {
     "id": "A2-04-D0633",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_411",
@@ -9053,7 +9053,7 @@
   },
   {
     "id": "A2-04-D0634",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_342",
@@ -9061,11 +9061,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0635",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_342",
@@ -9077,7 +9077,7 @@
   },
   {
     "id": "A2-04-D0636",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_342",
@@ -9087,11 +9087,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). それ désigne une chose proche de l'interlocuteur ; son emploi anaphorique (« dont on vient de parler »), documenté par la fiche, reste dans la nuance, faute de fonction dédiée dans A2-LING."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). それ désigne une chose proche de l'interlocuteur (axe de l'espace) ; son emploi anaphorique (« dont on vient de parler »), documenté par la fiche, ne suffirait pas seul (A7, §3.2) et reste dans la nuance."
   },
   {
     "id": "A2-04-D0637",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_342",
@@ -9105,7 +9105,7 @@
   },
   {
     "id": "A2-04-D0638",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_407",
@@ -9113,11 +9113,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0639",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_407",
@@ -9127,11 +9127,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あれ désigne une chose éloignée des deux interlocuteurs."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). あれ désigne une chose éloignée des deux interlocuteurs."
   },
   {
     "id": "A2-04-D0640",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_407",
@@ -9145,7 +9145,7 @@
   },
   {
     "id": "A2-04-D0641",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_399",
@@ -9157,7 +9157,7 @@
   },
   {
     "id": "A2-04-D0642",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_399",
@@ -9171,7 +9171,7 @@
   },
   {
     "id": "A2-04-D0643",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_408",
@@ -9179,11 +9179,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0644",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_408",
@@ -9193,11 +9193,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). ここ désigne l'endroit du locuteur. Catégorie de domaine (position, localisation), comme いくら a reçu celle des prix : le sens désigne un lieu."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). ここ désigne l'endroit du locuteur. Catégorie de domaine (position, localisation), comme いくら a reçu celle des prix : le sens désigne un lieu."
   },
   {
     "id": "A2-04-D0645",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_408",
@@ -9211,7 +9211,7 @@
   },
   {
     "id": "A2-04-D0646",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_392",
@@ -9219,11 +9219,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0647",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_392",
@@ -9233,11 +9233,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). そこ désigne un endroit proche de l'interlocuteur."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). そこ désigne un endroit proche de l'interlocuteur."
   },
   {
     "id": "A2-04-D0648",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_392",
@@ -9252,7 +9252,7 @@
   },
   {
     "id": "A2-04-D0649",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_403",
@@ -9260,11 +9260,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0650",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_403",
@@ -9274,11 +9274,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あそこ désigne un endroit éloigné des deux interlocuteurs."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). あそこ désigne un endroit éloigné des deux interlocuteurs."
   },
   {
     "id": "A2-04-D0651",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_403",
@@ -9292,7 +9292,7 @@
   },
   {
     "id": "A2-04-D0652",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_395",
@@ -9304,7 +9304,7 @@
   },
   {
     "id": "A2-04-D0653",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_395",
@@ -9318,7 +9318,7 @@
   },
   {
     "id": "A2-04-D0654",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_410",
@@ -9326,11 +9326,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0655",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_410",
@@ -9342,7 +9342,7 @@
   },
   {
     "id": "A2-04-D0656",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_410",
@@ -9352,11 +9352,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). この désigne ce qui est proche du locuteur."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). この désigne ce qui est proche du locuteur."
   },
   {
     "id": "A2-04-D0657",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_415",
@@ -9364,11 +9364,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0658",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_415",
@@ -9380,7 +9380,7 @@
   },
   {
     "id": "A2-04-D0659",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_415",
@@ -9390,11 +9390,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). その désigne ce qui est proche de l'interlocuteur, ou dont on vient de parler."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). その désigne ce qui est proche de l'interlocuteur, ou dont on vient de parler."
   },
   {
     "id": "A2-04-D0660",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_406",
@@ -9402,11 +9402,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0661",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_406",
@@ -9418,7 +9418,7 @@
   },
   {
     "id": "A2-04-D0662",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_406",
@@ -9428,11 +9428,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あの désigne ce qui est éloigné des deux interlocuteurs."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). あの désigne ce qui est éloigné des deux interlocuteurs."
   },
   {
     "id": "A2-04-D0663",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_415",
@@ -9446,7 +9446,7 @@
   },
   {
     "id": "A2-04-D0664",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_398",
@@ -9458,7 +9458,7 @@
   },
   {
     "id": "A2-04-D0665",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_398",
@@ -9470,7 +9470,7 @@
   },
   {
     "id": "A2-04-D0666",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_398",
@@ -9484,7 +9484,7 @@
   },
   {
     "id": "A2-04-D0667",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_339",
@@ -9492,11 +9492,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0668",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_339",
@@ -9504,11 +9504,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0669",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_339",
@@ -9520,7 +9520,7 @@
   },
   {
     "id": "A2-04-D0670",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_339",
@@ -9536,11 +9536,11 @@
       "S1 Par ici (direction)",
       "S2 Moi, nous (poli)"
     ],
-    "reason": "Deux sens documentés par la fiche (« indiquant une direction, un lieu proche ou servant de forme polie pour désigner sa propre personne ») : une direction, et le locuteur lui-même, deux référents distincts. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques."
+    "reason": "Deux sens documentés par la fiche (« indiquant une direction, un lieu proche ou servant de forme polie pour désigner sa propre personne ») : une direction, et le locuteur lui-même, deux référents distincts. Fonction deictique selon l'addendum A7 (révision 5.12b). Les deux sens sont déictiques."
   },
   {
     "id": "A2-04-D0671",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_339",
@@ -9554,7 +9554,7 @@
   },
   {
     "id": "A2-04-D0672",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_339",
@@ -9568,7 +9568,7 @@
   },
   {
     "id": "A2-04-D0673",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_340",
@@ -9576,11 +9576,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0674",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_340",
@@ -9592,7 +9592,7 @@
   },
   {
     "id": "A2-04-D0675",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_340",
@@ -9608,7 +9608,7 @@
   },
   {
     "id": "A2-04-D0676",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_340",
@@ -9618,11 +9618,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). そちら désigne une direction proche de l'interlocuteur."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). そちら désigne une direction proche de l'interlocuteur."
   },
   {
     "id": "A2-04-D0677",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_340",
@@ -9636,7 +9636,7 @@
   },
   {
     "id": "A2-04-D0678",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_404",
@@ -9644,11 +9644,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0679",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_404",
@@ -9656,11 +9656,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0680",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_404",
@@ -9675,11 +9675,11 @@
       "S1 Là-bas (poli)",
       "S2 Cette personne-là (poli)"
     ],
-    "reason": "Deux sens documentés par la fiche (« de lieu ou de direction poli… Il sert aussi à désigner poliment une personne ») : un lieu, et une personne. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques."
+    "reason": "Deux sens documentés par la fiche (« de lieu ou de direction poli… Il sert aussi à désigner poliment une personne ») : un lieu, et une personne. Fonction deictique selon l'addendum A7 (révision 5.12b). Les deux sens sont déictiques."
   },
   {
     "id": "A2-04-D0681",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_396",
@@ -9691,7 +9691,7 @@
   },
   {
     "id": "A2-04-D0682",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_396",
@@ -9703,7 +9703,7 @@
   },
   {
     "id": "A2-04-D0683",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_396",
@@ -9715,7 +9715,7 @@
   },
   {
     "id": "A2-04-D0684",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_396",
@@ -9736,7 +9736,7 @@
   },
   {
     "id": "A2-04-D0685",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_396",
@@ -9750,7 +9750,7 @@
   },
   {
     "id": "A2-04-D0686",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_409",
@@ -9758,11 +9758,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0687",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_409",
@@ -9770,11 +9770,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0688",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_409",
@@ -9790,11 +9790,11 @@
       "S1 Par ici",
       "S2 Moi, mon camp"
     ],
-    "reason": "Deux sens documentés par la fiche (« de lieu ou de direction… Il peut aussi désigner le locuteur ou son camp ») : une direction, et le locuteur ou son groupe. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques."
+    "reason": "Deux sens documentés par la fiche (« de lieu ou de direction… Il peut aussi désigner le locuteur ou son camp ») : une direction, et le locuteur ou son groupe. Fonction deictique selon l'addendum A7 (révision 5.12b). Les deux sens sont déictiques."
   },
   {
     "id": "A2-04-D0689",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_409",
@@ -9808,7 +9808,7 @@
   },
   {
     "id": "A2-04-D0690",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_414",
@@ -9816,11 +9816,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0691",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_414",
@@ -9828,11 +9828,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0692",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_414",
@@ -9847,11 +9847,11 @@
       "S1 Par là",
       "S2 Toi, ton camp"
     ],
-    "reason": "Deux sens documentés par la fiche (« un endroit proche de l'interlocuteur ou le camp de ce dernier ») : une direction, et l'interlocuteur ou son groupe. Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). Les deux sens sont déictiques."
+    "reason": "Deux sens documentés par la fiche (« un endroit proche de l'interlocuteur ou le camp de ce dernier ») : une direction, et l'interlocuteur ou son groupe. Fonction deictique selon l'addendum A7 (révision 5.12b). Les deux sens sont déictiques."
   },
   {
     "id": "A2-04-D0693",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_405",
@@ -9859,11 +9859,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0694",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_405",
@@ -9879,7 +9879,7 @@
   },
   {
     "id": "A2-04-D0695",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_405",
@@ -9889,11 +9889,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あっち désigne une direction éloignée des deux interlocuteurs."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). あっち désigne une direction éloignée des deux interlocuteurs."
   },
   {
     "id": "A2-04-D0696",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_343",
@@ -9905,7 +9905,7 @@
   },
   {
     "id": "A2-04-D0697",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_343",
@@ -9917,7 +9917,7 @@
   },
   {
     "id": "A2-04-D0698",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_343",
@@ -9933,7 +9933,7 @@
   },
   {
     "id": "A2-04-D0699",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_343",
@@ -9947,7 +9947,7 @@
   },
   {
     "id": "A2-04-D0700",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_343",
@@ -9961,7 +9961,7 @@
   },
   {
     "id": "A2-04-D0701",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_412",
@@ -9969,11 +9969,11 @@
     "kind": "type-nul",
     "before": null,
     "after": null,
-    "reason": "Unité déictique : son référent dépend de la situation de parole, et aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
+    "reason": "Unité déictique (addendum A7) : aucun type terminal ne s'applique au mot lui-même (comme 何 et いくら, lots 0 et 05). Addendum A6."
   },
   {
     "id": "A2-04-D0702",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_412",
@@ -9985,7 +9985,7 @@
   },
   {
     "id": "A2-04-D0703",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_412",
@@ -9995,11 +9995,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). こんな renvoie à ce qui est proche du locuteur."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). こんな renvoie à ce qui est proche du locuteur."
   },
   {
     "id": "A2-04-D0704",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_412",
@@ -10013,7 +10013,7 @@
   },
   {
     "id": "A2-04-D0705",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_393",
@@ -10025,7 +10025,7 @@
   },
   {
     "id": "A2-04-D0706",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_393",
@@ -10041,7 +10041,7 @@
   },
   {
     "id": "A2-04-D0707",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_393",
@@ -10055,7 +10055,7 @@
   },
   {
     "id": "A2-04-D0708",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_402",
@@ -10067,7 +10067,7 @@
   },
   {
     "id": "A2-04-D0709",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_402",
@@ -10081,7 +10081,7 @@
   },
   {
     "id": "A2-04-D0710",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_397",
@@ -10093,7 +10093,7 @@
   },
   {
     "id": "A2-04-D0711",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_397",
@@ -10107,7 +10107,7 @@
   },
   {
     "id": "A2-04-D0712",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_391",
@@ -10119,7 +10119,7 @@
   },
   {
     "id": "A2-04-D0713",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_391",
@@ -10131,7 +10131,7 @@
   },
   {
     "id": "A2-04-D0714",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_400",
@@ -10143,7 +10143,7 @@
   },
   {
     "id": "A2-04-D0715",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_400",
@@ -10157,7 +10157,7 @@
   },
   {
     "id": "A2-04-D0716",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_394",
@@ -10169,7 +10169,7 @@
   },
   {
     "id": "A2-04-D0717",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_394",
@@ -10183,7 +10183,7 @@
   },
   {
     "id": "A2-04-D0718",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_390",
@@ -10195,7 +10195,7 @@
   },
   {
     "id": "A2-04-D0719",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_390",
@@ -10210,7 +10210,7 @@
   },
   {
     "id": "A2-04-D0720",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_585",
@@ -10222,7 +10222,7 @@
   },
   {
     "id": "A2-04-D0721",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_585",
@@ -10234,7 +10234,7 @@
   },
   {
     "id": "A2-04-D0722",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_585",
@@ -10250,7 +10250,7 @@
   },
   {
     "id": "A2-04-D0723",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_585",
@@ -10265,7 +10265,7 @@
   },
   {
     "id": "A2-04-D0724",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_700",
@@ -10273,11 +10273,11 @@
     "kind": "categorie-nulle",
     "before": null,
     "after": null,
-    "reason": "Personne indéterminée : « personne générique », hors de la hiérarchie thématique (A2-GLOBAL §4.4) ; pas de fonction interrogative (誰か n'interroge pas), ni déictique Addendum A5."
+    "reason": "Personne indéterminée : « personne générique », hors de la hiérarchie thématique (A2-GLOBAL §4.4) ; pas de fonction interrogative (誰か n'interroge pas), ni deictique (référent indéterminé, non repéré par la situation d'énonciation, A7) Addendum A5."
   },
   {
     "id": "A2-04-D0725",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_688",
@@ -10287,11 +10287,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). 私 désigne le locuteur : deixis de personne."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). 私 désigne le locuteur : deixis de personne."
   },
   {
     "id": "A2-04-D0726",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_688",
@@ -10305,7 +10305,7 @@
   },
   {
     "id": "A2-04-D0727",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_581",
@@ -10315,11 +10315,11 @@
     "after": [
       "deictique"
     ],
-    "reason": "Fonction deictique : A2-LING-v1 liste la fonction sans la définir ; elle est appliquée au sens linguistique standard (le référent dépend de la situation de parole : le locuteur, l'interlocuteur, leur position). あなた désigne l'interlocuteur : deixis de personne."
+    "reason": "Fonction deictique selon l'addendum A7 (révision 5.12b). あなた désigne l'interlocuteur : deixis de personne."
   },
   {
     "id": "A2-04-D0728",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_581",
@@ -10335,7 +10335,7 @@
   },
   {
     "id": "A2-04-D0729",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_581",
@@ -10349,7 +10349,7 @@
   },
   {
     "id": "A2-04-D0730",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_691",
@@ -10357,11 +10357,11 @@
     "kind": "categorie-nulle",
     "before": null,
     "after": null,
-    "reason": "Pronom réfléchi : « personne générique », sans domaine thématique ; pas de fonction déictique (il renvoie au sujet de la phrase, non à la situation de parole) Addendum A5."
+    "reason": "Pronom réfléchi : « personne générique », sans domaine thématique ; pas de fonction deictique (A7 : référence déterminée par la syntaxe, §3.1 ; l'emploi « je », conservé en nuance, ne fait pas partie intégrante du sens modélisé, §4) Addendum A5."
   },
   {
     "id": "A2-04-D0731",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_691",
@@ -10376,7 +10376,7 @@
   },
   {
     "id": "A2-04-D0732",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_606",
@@ -10388,7 +10388,7 @@
   },
   {
     "id": "A2-04-D0733",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_606",
@@ -10402,7 +10402,7 @@
   },
   {
     "id": "A2-04-D0734",
-    "status": "proposed",
+    "status": "validated",
     "date": "2026-10-03",
     "lot": "lot-11",
     "entry": "n5_v_606",
