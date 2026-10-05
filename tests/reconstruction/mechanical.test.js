@@ -81,6 +81,21 @@ test('classe : nombres par liste, jamais par détection ; types sans classe en e
   assert.ok(PREFILLS.get('n5_v_368').exceptions.grammatical_class, '一つ, composé à décider');
 });
 
+// Arbitrage du périmètre du lot 15 : la classe et le groupe de 小さな deviennent à décider, comme
+// ceux de 大きな. La couche mécanique n'attribue aucune classe, et ne touche à rien d'autre.
+test('exception de classe : 小さな à décider comme 大きな, sans classe attribuée', () => {
+  for (const id of ['n5_v_441', 'n5_v_446']) {
+    const pre = PREFILLS.get(id);
+    assert.match(pre.exceptions.grammatical_class, /classe à décider/, id);
+    assert.match(pre.exceptions.group, /dépend de la classe/, id);
+    assert.ok(!Object.hasOwn(pre.values, 'grammatical_class') && !Object.hasOwn(pre.values, 'group'), `${id} : aucune classe mécanique`);
+    assert.ok(pre.values.word && pre.values.readings, `${id} : forme et lecture restent mécaniques`);
+  }
+  // Les adjectifs en い correspondants gardent leur classe mécanique ; la source n'est pas modifiée.
+  for (const id of ['n5_v_440', 'n5_v_445']) assert.equal(PREFILLS.get(id).values.grammatical_class, 'adjectif_i', id);
+  assert.equal(source('n5_v_446').type, 'adjectif en na');
+});
+
 test('group : repris s\'il est compatible avec la classe, null pour une classe sans groupe', () => {
   const byClass = (c) => [...PREFILLS.values()].filter((p) => p.values.grammatical_class === c);
   assert.ok(byClass('nom').every((p) => p.values.group === 'nom'));

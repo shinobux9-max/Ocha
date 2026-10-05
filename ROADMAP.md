@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-04 (clôture du lot 14)
+**Dernière mise à jour :** 2026-10-05 (périmètre du lot 15 arbitré)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,8 +41,8 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot 15, dont le thème et le périmètre restent à
-arbitrer.**
+**A2-04 · reconstruction du vocabulaire N5 → lot 15 « Couleurs, formes, dimensions et poids » :
+périmètre arbitré (29 entrées), proposition lexicale à écrire.**
 
 Les lots 0 à 14 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
@@ -260,9 +260,14 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.13-C** | Chantier transversal des furigana : addendum A8, correction des entrées validées | ✅ Terminé |
 | **5.14 · lot 13** | Calendrier, dates et durées | ✅ Terminé |
 | **5.15 · lot 14** | Nombres, compteurs et mesures | ✅ Terminé |
-| **Lots suivants** | Lots thématiques restants (lot 15 : thème et périmètre à arbitrer) | ⬜ À faire |
+| **Lot 15** | Couleurs, formes, dimensions et poids (29 entrées ; périmètre arbitré, proposition à écrire) | 🔵 En cours |
+| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 16, etc.) | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
+
+**Numérotation** (arbitrage du 2026-10-05) : à partir du lot 15, un lot est désigné par son numéro
+(« A2-04 · lot 15 »), sans nouveau numéro de sous-tâche. **5.16** reste la passe finale et **5.17**
+la publication, quel que soit le nombre de lots.
 
 **Contenu de la publication 5.17** (plan écrit dans `docs/rapports/etape2-A2-03.md`, section 4,
 rien de nouveau ici) :
@@ -340,8 +345,9 @@ décisions (D0954 à D1025). Arbitrages appliqués :
     elle est corrigée en ここのつ dans le lot, sans toucher aux sources ;
 -   unités en type nul ; aucun `counter` ; aucune forme ni lecture absente complétée.
 
-**Prochaine action immédiate :** choisir le thème du lot 15 parmi les 187 entrées restantes,
-composer son périmètre par identifiants, puis le faire valider avant toute proposition.
+**Prochaine action immédiate :** écrire la proposition lexicale du lot 15 « Couleurs, formes,
+dimensions et poids » (29 entrées, périmètre arbitré le 2026-10-05, rapport
+`docs/rapports/etape2-A2-04-lot15-perimetre.md`), puis la faire relire avant toute validation.
 
 ------------------------------------------------------------------------
 
@@ -622,6 +628,7 @@ Ensuite seulement :
    │   ├── 5.13-C Furigana (A8)             ✅
    │   ├── Lot 13 Calendrier (5.14)         ✅
    │   ├── Lot 14 Nombres (5.15)            ✅
+   │   ├── Lot 15 Couleurs, dimensions      🔵
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

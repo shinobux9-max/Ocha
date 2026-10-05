@@ -19,7 +19,7 @@ test('listes d\'exceptions : chaque identifiant désigne bien son mot', () => {
     for (const [id, w] of Object.entries(list)) assert.equal(word.get(id), w, id);
   }
   assert.equal(Object.keys(NUMERAL_IDS).length, 15);
-  assert.equal(Object.keys(CLASS_EXCEPTION_IDS).length, 51);
+  assert.equal(Object.keys(CLASS_EXCEPTION_IDS).length, 52);
   assert.equal(CLASS_EXCEPTION_IDS.n5_v_495, '大変', 'arbitrage du lot 0');
 });
 
@@ -89,5 +89,16 @@ test('lecture fautive connue : liste fermée, une seule entrée (九つ)', () =>
 test('exceptions de classe du lot 11 : それ, こちら, そちら, どっち, いくつ (classe décidable, liste fermée)', () => {
   for (const [id, word] of [['n5_v_342', 'それ'], ['n5_v_339', 'こちら'], ['n5_v_340', 'そちら'], ['n5_v_343', 'どっち'], ['n5_v_585', 'いくつ']]) {
     assert.equal(CLASS_EXCEPTION_IDS[id], word);
+  }
+});
+
+// Arbitrage du périmètre du lot 15 : 小さな entre dans la liste parce que sa propre fiche la dit
+// adnominale, comme celle de 大きな. L'entrée rend la classe décidable ; elle ne la décide pas.
+test('exception de classe du lot 15 : 小さな, adnominale d\'après sa fiche, comme 大きな', () => {
+  for (const [id, w] of [['n5_v_441', '大きな'], ['n5_v_446', '小さな']]) {
+    assert.equal(CLASS_EXCEPTION_IDS[id], w);
+    const s = SOURCES.vocab.find((x) => x.id === id);
+    assert.equal(s.type, 'adjectif en na', `${id} : ancien type, qui donnerait adjectif_na`);
+    assert.match(s.nuance, /Adjectif adnominal/, `${id} : la fiche justifie l'exception`);
   }
 });

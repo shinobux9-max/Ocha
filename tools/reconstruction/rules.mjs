@@ -55,7 +55,11 @@ export const CLASS_EXCEPTION_IDS = Object.freeze({
   n5_v_288: '一日', n5_v_291: '一月', n5_v_292: '七日', n5_v_293: '三日', n5_v_294: '九日', n5_v_295: '二十日',
   n5_v_296: '二日', n5_v_297: '五日', n5_v_307: '八日', n5_v_308: '六日', n5_v_309: '十日', n5_v_313: '四日',
   n5_v_368: '一つ', n5_v_370: '七つ', n5_v_373: '三つ', n5_v_375: '九つ', n5_v_377: '二つ', n5_v_379: '五つ',
-  n5_v_381: '八つ', n5_v_383: '六つ', n5_v_387: '四つ', n5_v_627: '一人', n5_v_631: '二人', n5_v_632: '二十歳'
+  n5_v_381: '八つ', n5_v_383: '六つ', n5_v_387: '四つ', n5_v_627: '一人', n5_v_631: '二人', n5_v_632: '二十歳',
+  // Arbitrage du périmètre du lot 15 : la fiche de 小さな la dit « adjectif adnominal », comme celle de
+  // 大きな, alors que son ancien type donnait mécaniquement `adjectif_na`. L'exception rend la classe et
+  // le groupe décidables ; elle n'attribue aucune classe.
+  n5_v_446: '小さな'
 });
 
 // ── Forme usuelle ───────────────────────────────────────────────────────────

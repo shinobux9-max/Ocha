@@ -95,7 +95,7 @@ faut savoir est dans le dépôt.
   décidable ; aucune correction automatique, sources figées intactes ; le romaji n'est pas une
   règle générale.
 
-## 5. Où l'on en est (au 2026-10-04)
+## 5. Où l'on en est (au 2026-10-05)
 
 - **Lots 0 à 14 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **501 ENTRY,
   31 retraits, 187 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 025 décisions validées
@@ -131,10 +131,16 @@ faut savoir est dans le dépôt.
   D1025 (rapport `docs/rapports/etape2-tache5-15-lot14-valide.md`). Un emploi avec compteur ne
   produit pas automatiquement un sens : les sens suivent les fiches. **Reste ouvert** : l'écart de
   catégorie entre メートル et le sens « kilomètre » de キロ, pour l'audit A2-05.
-- **Ensuite** : choix du thème du lot 15 parmi les 187 entrées restantes, puis composition de son
-  périmètre ; un lot « quantité et degré » est réservé, précédé de la question des fonctions
-  `quantificateur`, `comparatif` et `intensifieur`. **Aucune décision avant la validation d'un
-  périmètre.**
+- **Lot 15** (« couleurs, formes, dimensions et poids ») : **périmètre arbitré le 2026-10-05**, 29
+  entrées, sans scission ni élargissement (rapport `docs/rapports/etape2-A2-04-lot15-perimetre.md`).
+  小さな est entrée dans `CLASS_EXCEPTION_IDS` : sa classe et son groupe sont décidables, **aucune
+  classe n'est attribuée**. Les cas sensibles du rapport (§5) ne sont pas tranchés.
+- **Numérotation** : à partir du lot 15, un lot est désigné par son numéro (« A2-04 · lot 15 », puis
+  lot 16, etc.), sans nouveau numéro de sous-tâche ; **5.16 reste la passe finale et 5.17 la
+  publication**. Les rapports se nomment `etape2-A2-04-lot<NN>-<objet>.md`.
+- **Ensuite** : proposition lexicale du lot 15, en `proposed`, pour relecture. Un lot « quantité et
+  degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et
+  `intensifieur`. **Aucune décision avant la validation d'un périmètre.**
 - **Contrôle** : Claude réalise dans le dépôt, Codex relit et reproduit les chiffres sur le dépôt
   réel, l'utilisateur arbitre.
 
