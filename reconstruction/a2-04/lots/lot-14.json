@@ -1,0 +1,1243 @@
+{
+  "lot": "lot-14",
+  "title": "Nombres, compteurs et mesures",
+  "entries": {
+    "n5_v_364": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0954"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Souvent abrégé en キロ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Kilogramme",
+              "alternatives": [
+                "Kilo"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_365": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0955"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Emprunt ; s'emploie comme 零 (れい) pour dire le chiffre zéro. La source donne aussi la traduction « néant », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Zéro",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_366": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0956",
+        "A2-04-D0957",
+        "A2-04-D0958"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mètre",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions",
+              "level_3": "longueur"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_367": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0959"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Un",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_368": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0960",
+        "A2-04-D0961",
+        "A2-04-D0962",
+        "A2-04-D0963"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Numéral japonais traditionnel, pour compter des objets sans compteur particulier.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Un (objet)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_370": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0964",
+        "A2-04-D0965",
+        "A2-04-D0966",
+        "A2-04-D0967"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Numéral japonais traditionnel, pour compter des objets sans compteur particulier.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sept (objets)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Sept ans (âge)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_371": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0968"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Les grands nombres se comptent par tranches de dix mille.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dix mille",
+              "alternatives": [
+                "Myriade"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_372": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0969"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Trois",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_373": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0970",
+        "A2-04-D0971",
+        "A2-04-D0972",
+        "A2-04-D0973"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Numéral japonais traditionnel, pour compter des objets sans compteur particulier.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Trois (objets)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Trois ans (âge)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_375": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0974",
+        "A2-04-D0975",
+        "A2-04-D0976",
+        "A2-04-D0977",
+        "A2-04-D0978"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Numéral japonais traditionnel, pour compter des objets sans compteur particulier.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Neuf (objets)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Neuf ans (âge)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom",
+        "readings": [
+          {
+            "kana": "ここのつ",
+            "romaji": "kokonotsu",
+            "furigana": "<ruby>九<rt>ここの</rt></ruby>つ",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_376": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0979"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Deux",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_377": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0980",
+        "A2-04-D0981",
+        "A2-04-D0982",
+        "A2-04-D0983"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Numéral japonais traditionnel, pour compter des objets sans compteur particulier.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Deux (objets)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Deux ans (âge)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_378": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0984"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cinq",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_379": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0985",
+        "A2-04-D0986",
+        "A2-04-D0987",
+        "A2-04-D0988"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Numéral japonais traditionnel, pour compter des objets sans compteur particulier.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cinq (objets)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Cinq ans (âge)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_380": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0989"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Huit",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_381": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0990",
+        "A2-04-D0991",
+        "A2-04-D0992",
+        "A2-04-D0993"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Numéral japonais traditionnel, pour compter des objets sans compteur particulier.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Huit (objets)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Huit ans (âge)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_382": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0994"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Six",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_383": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0995",
+        "A2-04-D0996",
+        "A2-04-D0997",
+        "A2-04-D0998"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Numéral japonais traditionnel, pour compter des objets sans compteur particulier.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Six (objets)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Six ans (âge)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_384": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D0999"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dix",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_385": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1000"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mille",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_387": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1001",
+        "A2-04-D1002",
+        "A2-04-D1003",
+        "A2-04-D1004"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Numéral japonais traditionnel, pour compter des objets sans compteur particulier.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Quatre (objets)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Quatre ans (âge)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_388": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1005"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cent",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_389": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1006",
+        "A2-04-D1007"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Surtout dans les contextes formels ou scientifiques, pour les températures et les chiffres après la virgule. La source donne aussi la traduction « néant », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Zéro",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "cardinaux"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_611": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1008",
+        "A2-04-D1009"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Gramme",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_623": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1010",
+        "A2-04-D1011"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Page",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "lecture"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_627": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1012",
+        "A2-04-D1013",
+        "A2-04-D1014",
+        "A2-04-D1015",
+        "A2-04-D1016"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Une personne",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "comptage_compteurs",
+              "level_3": "personnes"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Seul",
+              "alternatives": [
+                "Tout seul"
+              ]
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "一人で : seul, sans compagnie."
+          }
+        ],
+        "readings": [
+          {
+            "kana": "ひとり",
+            "romaji": "hitori",
+            "furigana": "<ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></ruby>",
+            "default": true,
+            "note": null
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_631": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1017",
+        "A2-04-D1018",
+        "A2-04-D1019"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "二人で : à deux.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Deux personnes",
+              "alternatives": [
+                "Tous les deux",
+                "Un couple (par extension)"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "comptage_compteurs",
+              "level_3": "personnes"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_632": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1020",
+        "A2-04-D1021",
+        "A2-04-D1022",
+        "A2-04-D1023"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Lecture propre à cet âge ; les autres âges se forment avec 歳.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vingt ans (âge)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "はたち",
+            "romaji": "hatachi",
+            "furigana": "<ruby>二十歳<rt>はたち</rt></ruby>",
+            "default": true,
+            "note": null
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_650": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1024",
+        "A2-04-D1025"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Moitié",
+              "alternatives": [
+                "Demi"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "proportions",
+              "level_3": "fraction"
+            },
+            "semantic_type": "quantite_valeur",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

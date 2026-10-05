@@ -295,7 +295,7 @@ test('journal : « jukujikun » n\'est invoqué que pour une entrée de la liste
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du
 // validateur lexical, ni attente. Les comptes suivent les décisions validées, lot après lot.
-// Après la validation du lot 13 : 472 ENTRY, 31 retraits, 216 entrées écartées ; le complément
+// Après la validation du lot 14 : 501 ENTRY, 31 retraits, 187 entrées écartées ; le complément
 // d'I4 et d'I5 (addendum A8) passe sur toutes les ENTRY assemblées. Aucune proposition n'est en
 // cours : toutes les entrées décidées et tout le journal sont validés.
 test('espace de travail réel : assemblage partiel sans problème ni erreur', () => {
@@ -308,9 +308,79 @@ test('espace de travail réel : assemblage partiel sans problème ni erreur', ()
   const decisions = lots.flatMap((l) => Object.values(l.entries)).filter((d) => d.status === 'validated');
   assert.equal(a.files.reduce((n, f) => n + f.entries.length, 0), decisions.filter((d) => d.fields).length);
   assert.equal(a.retired.length, 1 + decisions.filter((d) => d.retire).length);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [472, 31, 216]);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [501, 31, 187]);
   assert.ok(a.excluded.every((x) => x.reason === 'non décidée'), 'aucune proposition en cours');
   assert.ok(lots.every((l) => Object.values(l.entries).every((d) => d.status === 'validated')), 'toutes les entrées décidées sont validées');
+});
+
+// A2-04 · 5.15 fermée : le lot 14 est entièrement validé (aucune fusion, aucun tag), avec tout son
+// journal (72 décisions, D0954 à D1025), dans sa version révisée par 5.15b. Périmètre : les 29
+// entrées de nombres_quantites restantes. Trois lectures y sont décidées : 九つ (lecture fautive
+// connue, liste fermée), 一人 et 二十歳 (furigana de la source invalides). Choix arbitrés : série en
+// つ en classe nom, à deux sens (objets, âge) sauf 一つ ; âge chiffré en quantite_valeur ; unités en
+// type nul ; aucun counter. Ce n'est PAS une règle générale (« un emploi avec compteur fait un
+// sens ») : les sens suivent les fiches de ce lot.
+test('5.15 : le lot 14 est entièrement validé (29 entrées), journal compris', () => {
+  const lot14 = readLots().find((l) => l.lot === 'lot-14');
+  assert.equal(lot14.title, 'Nombres, compteurs et mesures');
+  assert.equal(Object.keys(lot14.entries).length, 29);
+  assertAllValidated(lot14);
+  assert.ok(Object.values(lot14.entries).every((e) => e.fields && !e.retire), 'aucune fusion dans le lot 14');
+  assert.deepEqual(lot14.additions, []);
+  const E = lot14.entries;
+  const shape = (id) => E[id].fields.senses.map((s) => `${s.category ? Object.values(s.category).join('/') : 'null'}:${s.semantic_type}`);
+  assert.equal(Object.values(E).reduce((n, e) => n + e.fields.senses.length, 0), 38, 'sens du lot');
+  // Série en つ : classe nom ; deux sens (objets, âge) de 二つ à 九つ, un seul pour 一つ.
+  const TSU = ['n5_v_370', 'n5_v_373', 'n5_v_375', 'n5_v_377', 'n5_v_379', 'n5_v_381', 'n5_v_383', 'n5_v_387'];
+  for (const id of TSU) assert.deepEqual(shape(id), ['nombres_quantification/nombres/cardinaux:quantite_valeur', 'etre_humain/cycle_de_vie:quantite_valeur'], id);
+  assert.deepEqual(shape('n5_v_368'), ['nombres_quantification/nombres/cardinaux:quantite_valeur'], '一つ : un seul sens');
+  const NAMED = [...TSU, 'n5_v_368', 'n5_v_627', 'n5_v_631', 'n5_v_632'];
+  assert.deepEqual(Object.keys(E).filter((id) => Object.hasOwn(E[id].fields, 'grammatical_class')).sort(), [...NAMED].sort());
+  assert.ok(NAMED.every((id) => E[id].fields.grammatical_class === 'nom' && E[id].fields.group === 'nom'));
+  // Nombres simples : un sens cardinal ; classe numeral mécanique, donc non décidée ici.
+  for (const id of ['n5_v_365', 'n5_v_367', 'n5_v_371', 'n5_v_372', 'n5_v_376', 'n5_v_378', 'n5_v_380', 'n5_v_382', 'n5_v_384', 'n5_v_385', 'n5_v_388', 'n5_v_389']) {
+    assert.deepEqual(shape(id), ['nombres_quantification/nombres/cardinaux:quantite_valeur'], id);
+  }
+  assert.deepEqual(E.n5_v_371.fields.senses[0].meaning, { primary: 'Dix mille', alternatives: ['Myriade'] });
+  // Personnes et âge ; unités en type nul ; 半分 comme le sens « moitié » de 半 ; ページ comme un nom.
+  assert.deepEqual(shape('n5_v_627'), ['nombres_quantification/comptage_compteurs/personnes:quantite_valeur', 'null:etat']);
+  assert.deepEqual(shape('n5_v_631'), ['nombres_quantification/comptage_compteurs/personnes:quantite_valeur']);
+  assert.deepEqual(shape('n5_v_632'), ['etre_humain/cycle_de_vie:quantite_valeur']);
+  assert.deepEqual(['n5_v_364', 'n5_v_611', 'n5_v_366'].map((id) => shape(id)[0]), ['nombres_quantification:null', 'nombres_quantification:null', 'espace_proprietes_spatiales/dimensions/longueur:null']);
+  assert.deepEqual(shape('n5_v_650'), ['nombres_quantification/proportions/fraction:quantite_valeur']);
+  assert.deepEqual(shape('n5_v_623'), ['communication_langage/lecture:objet_artefact']);
+  const byId = new Map([...SOURCES.vocab, ...SOURCES.hj].map((s) => [s.id, s]));
+  assert.ok(Object.keys(lot14.entries).every((id) => byId.get(id).category === 'nombres_quantites'), 'périmètre : nombres_quantites seulement');
+  const own = readJournal().filter((j) => j.lot === 'lot-14');
+  assert.deepEqual(own.map((j) => j.id), Array.from({ length: 72 }, (_, k) => `A2-04-D${String(954 + k).padStart(4, '0')}`));
+  assert.ok(own.every((j) => j.status === 'validated'));
+  const cited = new Set(Object.values(lot14.entries).flatMap((e) => e.journal));
+  assert.deepEqual([...cited].sort(), own.map((j) => j.id), 'le lot cite exactement ses décisions');
+  // Lectures décidées : ces trois-là, et aucune autre. Celle de 九つ est corrigée dans le lot, pas
+  // dans la source.
+  const decided = Object.entries(lot14.entries).filter(([, e]) => Object.hasOwn(e.fields, 'readings'));
+  assert.deepEqual(Object.fromEntries(decided.map(([id, e]) => [id, e.fields.readings.map((r) => [r.kana, r.furigana])])), {
+    n5_v_375: [['ここのつ', '<ruby>九<rt>ここの</rt></ruby>つ']],
+    n5_v_627: [['ひとり', '<ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></ruby>']],
+    n5_v_632: [['はたち', '<ruby>二十歳<rt>はたち</rt></ruby>']]
+  });
+  assert.equal(byId.get('n5_v_375').reading, 'ここなつ', 'source figée inchangée');
+  // Révision 5.15b : « Néant » n'est pas une traduction du sens numérique de ゼロ et de 零 ; il est
+  // signalé en nuance comme traduction de la source non développée. « Un couple » garde, pour 二人,
+  // la qualification de la source.
+  for (const id of ['n5_v_365', 'n5_v_389']) {
+    assert.deepEqual(lot14.entries[id].fields.senses.map((s) => s.meaning), [{ primary: 'Zéro', alternatives: [] }], id);
+    assert.match(lot14.entries[id].fields.nuance, /La source donne aussi la traduction « néant », sans la développer\.$/, id);
+  }
+  assert.deepEqual(lot14.entries.n5_v_631.fields.senses[0].meaning, { primary: 'Deux personnes', alternatives: ['Tous les deux', 'Un couple (par extension)'] });
+  // Aucun compteur, aucun suffixe, aucun tag : seule 匹 porte counter dans le corpus.
+  assert.ok(Object.values(lot14.entries).every((e) => e.fields.counter === null && e.fields.suffix === false && e.fields.tags.length === 0));
+  // Une traduction gardée dans un sens n'est pas aussi abandonnée au journal.
+  for (const [id, e] of Object.entries(lot14.entries)) {
+    const kept = new Set(e.fields.senses.flatMap((s) => [s.meaning.primary, ...s.meaning.alternatives]));
+    const dropped = own.filter((j) => j.entry === id && j.kind === 'abandon').flatMap((j) => j.before);
+    assert.deepEqual(dropped.filter((t) => kept.has(t)), [], `${id} : traduction à la fois gardée et abandonnée`);
+  }
 });
 
 // A2-04 · 5.14 fermée : le lot 13 est entièrement validé (aucune fusion, aucun tag de lieu), avec
@@ -385,8 +455,8 @@ test('5.13-C : 13 entrées corrigées et revalidées, une correction validée ch
   const corrections = journal.filter((j) => j.id >= FIRST_CORRECTION && Object.hasOwn(CORRECTED_513C, j.lot));
   assert.deepEqual(corrections.map((j) => j.id), Array.from({ length: 13 }, (_, k) => `A2-04-D${String(827 + k).padStart(4, '0')}`));
   assert.ok(corrections.every((j) => j.status === 'validated' && j.kind === 'correction'));
-  // Tout le journal est validé : 953 décisions, D0001 à D0953, sans trou.
-  assert.deepEqual(journal.map((j) => j.id), Array.from({ length: 953 }, (_, k) => `A2-04-D${String(k + 1).padStart(4, '0')}`));
+  // Tout le journal est validé : 1 025 décisions, D0001 à D1025, sans trou.
+  assert.deepEqual(journal.map((j) => j.id), Array.from({ length: 1025 }, (_, k) => `A2-04-D${String(k + 1).padStart(4, '0')}`));
   assert.ok(journal.every((j) => j.status === 'validated'));
   const lots = new Map(readLots().map((l) => [l.lot, l]));
   const expected = {

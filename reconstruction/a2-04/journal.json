@@ -13385,5 +13385,1000 @@
     "before": null,
     "after": "nombres_quantification › totalite_partie › reste",
     "reason": "Sens candidat, à arbitrer. « Le reste » figure dans les traductions de la source ; sa description (nuance) ne le mentionne pas, mais cette absence ne suffit pas à l'écarter. C'est un troisième référent (ce qui reste d'un tout), distinct d'un moment et d'une position : il ne peut pas être une traduction des deux autres sens. Catégorie et type tirés du seul libellé, sans information extérieure : nombres et quantification › totalité et partie › reste ; concept_abstrait. Aucune nuance, aucun exemple, aucune particule n'est ajouté. Révision 5.14b : la version précédente l'abandonnait."
+  },
+  {
+    "id": "A2-04-D0954",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_364",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Kilogramme, unité de mesure : la mesure est exclue des types sémantiques, et une unité n'est pas automatiquement une quantite_valeur (A2-ST-v1) ; même raison que キロ (lot 0). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0955",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_365",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Zéro",
+      "Néant"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche décrit « la valeur zéro ». « Néant », que la source donne comme seconde traduction, n'est pas repris dans le sens numérique : la fiche ne le développe pas, et l'assimiler sans explication à une valeur numérique serait fragile. Il n'est pas abandonné pour autant : il est signalé dans la nuance comme traduction de la source non développée. La fiche cite aussi 丸 (まる), qui n'est pas dans les sources : rien n'est ajouté. Pas de fusion avec 零, autre mot pour la même valeur. Révision 5.15b."
+  },
+  {
+    "id": "A2-04-D0956",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_366",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "espace_proprietes_spatiales › dimensions › longueur",
+    "reason": "La fiche dit « l'unité de mesure de longueur » : espace › dimensions › longueur. Le sens « kilomètre » de キロ (lot 0) est rangé dans espace › distance et proximité : les deux unités n'ont pas la même catégorie, à réexaminer à l'audit A2-05 si elles doivent la partager."
+  },
+  {
+    "id": "A2-04-D0957",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_366",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Mètre, unité de mesure : la mesure est exclue des types sémantiques, et une unité n'est pas automatiquement une quantite_valeur (A2-ST-v1) ; même raison que キロ (lot 0). Addendum A6."
+  },
+  {
+    "id": "A2-04-D0958",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_366",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Unité de mesure de longueur"
+    ],
+    "after": null,
+    "reason": "Description de l'unité, non une traduction."
+  },
+  {
+    "id": "A2-04-D0959",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_367",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le chiffre 1"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Un »."
+  },
+  {
+    "id": "A2-04-D0960",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_368",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 一つ comme un « Nom numéral traditionnel ». Ce n'est pas un des quinze nombres simples (classe numeral, par liste explicite) : c'est un nombre déjà associé à つ, qui s'emploie comme un nom. Même choix que pour les jours du mois (lot 13). group : nom. Alternative à arbitrer : numeral."
+  },
+  {
+    "id": "A2-04-D0961",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_368",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Un (objet)",
+      "Une unité",
+      "Un (général)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens documenté par la fiche (« dénombrer un objet de forme indéfinie ou pour les nombres de 1 à 10 ») : compter un objet. Contrairement aux huit autres fiches de la série, celle de 一つ ne mentionne pas l'âge : aucun sens n'est ajouté par symétrie. Nombres › nombres › cardinaux, quantite_valeur, comme les nombres du lot 0."
+  },
+  {
+    "id": "A2-04-D0962",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_368",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche parle de « compteur général », mais 一つ est un nombre déjà compté (un nombre et つ), non un mot qui sert à compter une classe d'objets ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D0963",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_368",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Une unité",
+      "Un (général)"
+    ],
+    "after": null,
+    "reason": "Redondants : la fiche ne décrit qu'un emploi, compter un objet."
+  },
+  {
+    "id": "A2-04-D0964",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_370",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 七つ comme un « Nom numéral traditionnel ». Ce n'est pas un des quinze nombres simples (classe numeral, par liste explicite) : c'est un nombre déjà associé à つ, qui s'emploie comme un nom. Même choix que pour les jours du mois (lot 13). group : nom. Alternative à arbitrer : numeral."
+  },
+  {
+    "id": "A2-04-D0965",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_370",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Sept (7 objets)",
+      "Sept unités",
+      "7 ans (âge)"
+    ],
+    "after": [
+      "S1 Sept (objets)",
+      "S2 Sept ans (âge)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« dénombrer exactement sept objets de forme indéfinie ou pour exprimer l'âge de 7 ans ») : une quantité d'objets et l'âge d'une personne, deux référents, deux catégories. La quantité : nombres › nombres › cardinaux, quantite_valeur, comme les nombres du lot 0. L'âge : être humain › cycle de vie (niveau 2), quantite_valeur (un nombre d'années, non la notion d'âge, que 年 porte en propriete)."
+  },
+  {
+    "id": "A2-04-D0966",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_370",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche parle de « compteur général », mais 七つ est un nombre déjà compté (un nombre et つ), non un mot qui sert à compter une classe d'objets ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D0967",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_370",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Sept unités"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0968",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_371",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche dit « Nom ou compteur numérique », mais 万 est un nombre (dix mille), non un mot qui sert à compter une classe d'objets ; aucune compatibilité du registre ne lui correspond. Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D0969",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_372",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le chiffre 3"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Trois »."
+  },
+  {
+    "id": "A2-04-D0970",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_373",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 三つ comme un « Nom numéral traditionnel ». Ce n'est pas un des quinze nombres simples (classe numeral, par liste explicite) : c'est un nombre déjà associé à つ, qui s'emploie comme un nom. Même choix que pour les jours du mois (lot 13). group : nom. Alternative à arbitrer : numeral."
+  },
+  {
+    "id": "A2-04-D0971",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_373",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Trois (objets)",
+      "Trois unités",
+      "3 ans (âge)"
+    ],
+    "after": [
+      "S1 Trois (objets)",
+      "S2 Trois ans (âge)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« dénombrer exactement trois objets de forme indéfinie ou pour exprimer l'âge de 3 ans ») : une quantité d'objets et l'âge d'une personne, deux référents, deux catégories. La quantité : nombres › nombres › cardinaux, quantite_valeur, comme les nombres du lot 0. L'âge : être humain › cycle de vie (niveau 2), quantite_valeur (un nombre d'années, non la notion d'âge, que 年 porte en propriete)."
+  },
+  {
+    "id": "A2-04-D0972",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_373",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche parle de « compteur général », mais 三つ est un nombre déjà compté (un nombre et つ), non un mot qui sert à compter une classe d'objets ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D0973",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_373",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Trois unités"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0974",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_375",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 九つ comme un « Nom numéral traditionnel ». Ce n'est pas un des quinze nombres simples (classe numeral, par liste explicite) : c'est un nombre déjà associé à つ, qui s'emploie comme un nom. Même choix que pour les jours du mois (lot 13). group : nom. Alternative à arbitrer : numeral."
+  },
+  {
+    "id": "A2-04-D0975",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_375",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Neuf (objets)",
+      "Neuf unités",
+      "9 ans (âge)"
+    ],
+    "after": [
+      "S1 Neuf (objets)",
+      "S2 Neuf ans (âge)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« dénombrer exactement neuf objets de forme indéfinie ou pour exprimer l'âge de 9 ans ») : une quantité d'objets et l'âge d'une personne, deux référents, deux catégories. La quantité : nombres › nombres › cardinaux, quantite_valeur, comme les nombres du lot 0. L'âge : être humain › cycle de vie (niveau 2), quantite_valeur (un nombre d'années, non la notion d'âge, que 年 porte en propriete)."
+  },
+  {
+    "id": "A2-04-D0976",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_375",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche parle de « compteur général », mais 九つ est un nombre déjà compté (un nombre et つ), non un mot qui sert à compter une classe d'objets ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D0977",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_375",
+    "field": "readings",
+    "kind": "correction",
+    "before": "ここなつ",
+    "after": "ここのつ",
+    "reason": "Lecture fautive de la source (liste fermée des lectures fautives connues) : elle donne ここなつ, en kana comme en furigana, alors que le romaji de la même fiche dit kokonotsu. Lecture corrigée en ここのつ, furigana ここの sur 九. Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D0978",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_375",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Neuf unités"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0979",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_376",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le chiffre 2"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Deux »."
+  },
+  {
+    "id": "A2-04-D0980",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_377",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 二つ comme un « Nom numéral traditionnel ». Ce n'est pas un des quinze nombres simples (classe numeral, par liste explicite) : c'est un nombre déjà associé à つ, qui s'emploie comme un nom. Même choix que pour les jours du mois (lot 13). group : nom. Alternative à arbitrer : numeral."
+  },
+  {
+    "id": "A2-04-D0981",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_377",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Deux (objets)",
+      "Deux unités",
+      "2 ans (âge)"
+    ],
+    "after": [
+      "S1 Deux (objets)",
+      "S2 Deux ans (âge)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« dénombrer exactement deux objets de forme indéfinie ou pour exprimer l'âge de 2 ans ») : une quantité d'objets et l'âge d'une personne, deux référents, deux catégories. La quantité : nombres › nombres › cardinaux, quantite_valeur, comme les nombres du lot 0. L'âge : être humain › cycle de vie (niveau 2), quantite_valeur (un nombre d'années, non la notion d'âge, que 年 porte en propriete)."
+  },
+  {
+    "id": "A2-04-D0982",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_377",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche parle de « compteur général », mais 二つ est un nombre déjà compté (un nombre et つ), non un mot qui sert à compter une classe d'objets ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D0983",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_377",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Deux unités"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0984",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_378",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le chiffre 5"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Cinq »."
+  },
+  {
+    "id": "A2-04-D0985",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_379",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 五つ comme un « Nom numéral traditionnel ». Ce n'est pas un des quinze nombres simples (classe numeral, par liste explicite) : c'est un nombre déjà associé à つ, qui s'emploie comme un nom. Même choix que pour les jours du mois (lot 13). group : nom. Alternative à arbitrer : numeral."
+  },
+  {
+    "id": "A2-04-D0986",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_379",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Cinq (objets)",
+      "Cinq unités",
+      "5 ans (âge)"
+    ],
+    "after": [
+      "S1 Cinq (objets)",
+      "S2 Cinq ans (âge)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« dénombrer exactement cinq objets de forme indéfinie ou pour exprimer l'âge de 5 ans ») : une quantité d'objets et l'âge d'une personne, deux référents, deux catégories. La quantité : nombres › nombres › cardinaux, quantite_valeur, comme les nombres du lot 0. L'âge : être humain › cycle de vie (niveau 2), quantite_valeur (un nombre d'années, non la notion d'âge, que 年 porte en propriete)."
+  },
+  {
+    "id": "A2-04-D0987",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_379",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche parle de « compteur général », mais 五つ est un nombre déjà compté (un nombre et つ), non un mot qui sert à compter une classe d'objets ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D0988",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_379",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Cinq unités"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0989",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_380",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le chiffre 8"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Huit »."
+  },
+  {
+    "id": "A2-04-D0990",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_381",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 八つ comme un « Nom numéral traditionnel ». Ce n'est pas un des quinze nombres simples (classe numeral, par liste explicite) : c'est un nombre déjà associé à つ, qui s'emploie comme un nom. Même choix que pour les jours du mois (lot 13). group : nom. Alternative à arbitrer : numeral."
+  },
+  {
+    "id": "A2-04-D0991",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_381",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Huit (objets)",
+      "Huit unités",
+      "8 ans (âge)"
+    ],
+    "after": [
+      "S1 Huit (objets)",
+      "S2 Huit ans (âge)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« dénombrer exactement huit objets de forme indéfinie ou pour exprimer l'âge de 8 ans ») : une quantité d'objets et l'âge d'une personne, deux référents, deux catégories. La quantité : nombres › nombres › cardinaux, quantite_valeur, comme les nombres du lot 0. L'âge : être humain › cycle de vie (niveau 2), quantite_valeur (un nombre d'années, non la notion d'âge, que 年 porte en propriete)."
+  },
+  {
+    "id": "A2-04-D0992",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_381",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche parle de « compteur général », mais 八つ est un nombre déjà compté (un nombre et つ), non un mot qui sert à compter une classe d'objets ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D0993",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_381",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Huit unités"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0994",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_382",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le chiffre 6"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Six »."
+  },
+  {
+    "id": "A2-04-D0995",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_383",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 六つ comme un « Nom numéral traditionnel ». Ce n'est pas un des quinze nombres simples (classe numeral, par liste explicite) : c'est un nombre déjà associé à つ, qui s'emploie comme un nom. Même choix que pour les jours du mois (lot 13). group : nom. Alternative à arbitrer : numeral."
+  },
+  {
+    "id": "A2-04-D0996",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_383",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Six (objets)",
+      "Six unités",
+      "6 ans (âge)"
+    ],
+    "after": [
+      "S1 Six (objets)",
+      "S2 Six ans (âge)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« dénombrer exactement six objets de forme indéfinie ou pour exprimer l'âge de 6 ans ») : une quantité d'objets et l'âge d'une personne, deux référents, deux catégories. La quantité : nombres › nombres › cardinaux, quantite_valeur, comme les nombres du lot 0. L'âge : être humain › cycle de vie (niveau 2), quantite_valeur (un nombre d'années, non la notion d'âge, que 年 porte en propriete)."
+  },
+  {
+    "id": "A2-04-D0997",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_383",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche parle de « compteur général », mais 六つ est un nombre déjà compté (un nombre et つ), non un mot qui sert à compter une classe d'objets ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D0998",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_383",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Six unités"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D0999",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_384",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le chiffre 10"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Dix »."
+  },
+  {
+    "id": "A2-04-D1000",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_385",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le nombre 1 000"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Mille »."
+  },
+  {
+    "id": "A2-04-D1001",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_387",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 四つ comme un « Nom numéral traditionnel ». Ce n'est pas un des quinze nombres simples (classe numeral, par liste explicite) : c'est un nombre déjà associé à つ, qui s'emploie comme un nom. Même choix que pour les jours du mois (lot 13). group : nom. Alternative à arbitrer : numeral."
+  },
+  {
+    "id": "A2-04-D1002",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_387",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Quatre (objets)",
+      "Quatre unités",
+      "4 ans (âge)"
+    ],
+    "after": [
+      "S1 Quatre (objets)",
+      "S2 Quatre ans (âge)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« dénombrer exactement quatre objets de forme indéfinie ou pour exprimer l'âge de 4 ans ») : une quantité d'objets et l'âge d'une personne, deux référents, deux catégories. La quantité : nombres › nombres › cardinaux, quantite_valeur, comme les nombres du lot 0. L'âge : être humain › cycle de vie (niveau 2), quantite_valeur (un nombre d'années, non la notion d'âge, que 年 porte en propriete)."
+  },
+  {
+    "id": "A2-04-D1003",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_387",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche parle de « compteur général », mais 四つ est un nombre déjà compté (un nombre et つ), non un mot qui sert à compter une classe d'objets ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D1004",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_387",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Quatre unités"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1005",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_388",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Le nombre 100"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Cent »."
+  },
+  {
+    "id": "A2-04-D1006",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_389",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Zéro",
+      "Néant",
+      "Zéro (scientifique / formel)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche décrit « la valeur zéro ». « Néant », que la source donne comme seconde traduction, n'est pas repris dans le sens numérique : la fiche ne le développe pas. Il est signalé dans la nuance comme traduction de la source non développée. Pas de fusion avec ゼロ, autre mot pour la même valeur : la fiche les distingue par le registre. Révision 5.15b."
+  },
+  {
+    "id": "A2-04-D1007",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_389",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Zéro (scientifique / formel)"
+    ],
+    "after": null,
+    "reason": "Précision de registre, reprise dans la nuance ; ce n'est pas un autre sens."
+  },
+  {
+    "id": "A2-04-D1008",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_611",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Gramme, unité de mesure : la mesure est exclue des types sémantiques, et une unité n'est pas automatiquement une quantite_valeur (A2-ST-v1) ; même raison que キロ (lot 0). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1009",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_611",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Unité de mesure de masse (g)"
+    ],
+    "after": null,
+    "reason": "Description de l'unité, non une traduction."
+  },
+  {
+    "id": "A2-04-D1010",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_623",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "communication_langage › lecture",
+    "reason": "L'ancien rangement en faisait un compteur ; la fiche le décrit comme un nom désignant « une page dans un livre, un cahier, un magazine ou sur un site web ». Communication et langage › lecture (niveau 2), objet_artefact, comme 本 (lot 06). counter reste null : la fiche ne dit pas que ページ sert à compter."
+  },
+  {
+    "id": "A2-04-D1011",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_623",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Page d'un livre ou d'un document"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1012",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_627",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></guasubi>",
+    "after": "<ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></ruby>",
+    "reason": "Furigana de la source invalides (balise fermante cassée). Leur contenu est repris tel quel : ひと sur 一, り sur 人, comme 二人 dans la source ; la lecture recomposée est ひとり."
+  },
+  {
+    "id": "A2-04-D1013",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_627",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 一人 comme « Compteur / nom spécial ». Ce n'est pas un des quinze nombres simples ; il s'emploie comme un nom (一人で). group : nom."
+  },
+  {
+    "id": "A2-04-D1014",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_627",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Une personne",
+      "Tout seul",
+      "Seul(e)"
+    ],
+    "after": [
+      "S1 Une personne (nombre)",
+      "S2 Seul (sans compagnie)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« désignant soit une seule personne, soit le fait d'être seul sans compagnie ») : un nombre de personnes, et un état ; deux référents, deux types. Le nombre : nombres › comptage et compteurs › personnes, quantite_valeur."
+  },
+  {
+    "id": "A2-04-D1015",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_627",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Aucune catégorie primaire pertinente : « être seul, sans compagnie » est un état d'une personne, que le registre ne range ni dans les relations sociales (il s'agit de l'absence de compagnie, non d'une relation) ni dans les états physiques ou psychologiques. Type etat. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1016",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_627",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche dit « Compteur / nom spécial », mais 一人 est un nombre de personnes déjà compté, non le compteur 人 lui-même ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D1017",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_631",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 二人 comme « Compteur / nom spécial ». Ce n'est pas un des quinze nombres simples ; il s'emploie comme un nom (二人で). group : nom."
+  },
+  {
+    "id": "A2-04-D1018",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_631",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Deux personnes",
+      "Tous les deux",
+      "Un couple (par extension)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche décrit « un groupe de deux personnes, ou l'action de faire quelque chose à deux ». Le second emploi désigne les mêmes deux personnes, agissant ensemble : il est décrit dans la nuance. « Tous les deux » reste une traduction de ce groupe. « Un couple » garde la qualification de la source, « par extension » : ce n'est pas une traduction équivalente dans tous les contextes. Contrairement à 一人, la fiche ne décrit aucun état distinct. Nombres › comptage et compteurs › personnes, quantite_valeur. Révision 5.15b."
+  },
+  {
+    "id": "A2-04-D1019",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_631",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche dit « Compteur / nom spécial », mais 二人 est un nombre de personnes déjà compté, non le compteur 人 lui-même ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D1020",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_632",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>二<rt>はた</rt></ruby><ruby>歳<rt>ち</rt></ruby>",
+    "after": "<ruby>二十歳<rt>はたち</rt></ruby>",
+    "reason": "Furigana de la source incohérents avec la forme (texte de base 二歳 au lieu de 二十歳). Bloc par nécessité (addendum A8, §3) : la fiche donne はたち pour le mot entier, et aucune segmentation admissible entre les trois kanji n'est établie par la source. Hors liste des lectures spéciales : la fiche qualifie de « spécial » le compteur d'âge, et dit la lecture « traditionnelle »."
+  },
+  {
+    "id": "A2-04-D1021",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_632",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "nom (ancien type ; exception de classe : composé numéral)",
+    "after": "nom",
+    "reason": "Classe nom : la fiche décrit 二十歳 comme un « Compteur d'âge spécial » désignant un âge. Ce n'est pas un des quinze nombres simples ; il s'emploie comme un nom. group : nom."
+  },
+  {
+    "id": "A2-04-D1022",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_632",
+    "field": "counter",
+    "kind": "decision",
+    "before": null,
+    "after": null,
+    "reason": "counter : null. La fiche dit « Compteur d'âge spécial », mais 二十歳 est un âge déjà compté (vingt ans), non le compteur 歳 lui-même ; le champ est réservé aux ENTRY qui sont elles-mêmes des compteurs (audit 5.7-C). Aucune compatibilité n'est inventée."
+  },
+  {
+    "id": "A2-04-D1023",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_632",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Vingt ans (âge de la majorité traditionnelle)"
+    ],
+    "after": null,
+    "reason": "Redondant ; la précision sur la majorité n'est pas un autre sens."
+  },
+  {
+    "id": "A2-04-D1024",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_650",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Moitié",
+      "Partie égale",
+      "Demi"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens documenté par la fiche (« exactement 50 % ou une part égale divisée en deux ») : nombres › proportions › fraction, quantite_valeur, comme le sens « moitié » de 半 (lot 13). 半 et 半分 sont deux entrées distinctes : la proximité de leurs sens n'impose ni fusion ni suppression."
+  },
+  {
+    "id": "A2-04-D1025",
+    "status": "validated",
+    "date": "2026-10-04",
+    "lot": "lot-14",
+    "entry": "n5_v_650",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Partie égale"
+    ],
+    "after": null,
+    "reason": "La fiche parle d'« une part égale divisée en deux », ce que « Moitié » dit déjà ; isolée, la traduction est imprécise."
   }
 ]

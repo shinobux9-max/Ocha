@@ -60,6 +60,19 @@ test('A8 : furigana contredisant les kana, lectures spéciales segmentées : lec
   assert.deepEqual(flagged.filter((p) => /segmentée/.test(p.exceptions.readings)).map((p) => p.oldId), ['n5_v_303', 'n5_v_319']);
 });
 
+// Lecture fautive connue (liste fermée) : la lecture de 九つ devient à décider. La couche mécanique
+// ne la corrige pas, et la liste ne s'étend à aucune autre entrée.
+test('lecture fautive connue : 九つ à décider, sans correction, et elle seule', () => {
+  const pre = PREFILLS.get('n5_v_375');
+  assert.match(pre.exceptions.readings, /lecture fautive connue/);
+  assert.ok(!Object.hasOwn(pre.values, 'readings'), 'aucune lecture mécanique : ni ここなつ, ni une correction');
+  const listed = [...PREFILLS.values()].filter((p) => /lecture fautive connue/.test(p.exceptions.readings ?? '')).map((p) => p.oldId);
+  assert.deepEqual(listed, ['n5_v_375']);
+  // Le reste de la série en つ garde sa lecture mécanique ; la source n'est pas modifiée.
+  assert.equal(PREFILLS.get('n5_v_381').values.readings[0].kana, 'やっつ');
+  assert.equal(source('n5_v_375').reading, 'ここなつ');
+});
+
 test('classe : nombres par liste, jamais par détection ; types sans classe en exception', () => {
   assert.equal(PREFILLS.get('n5_v_367').values.grammatical_class, 'numeral'); // 一
   const mannenhitsu = [...SOURCES.vocab].find((s) => s.word === '万年筆');

@@ -5,7 +5,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   HJ_IDS, RESERVED_RETIRED, TYPE_CLASS, NUMERAL_IDS, CLASS_EXCEPTION_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS, CLASS_GROUPS,
-  IDENTITY_GROUPS, HUMAN_FIELDS, EXCEPTION_FIELDS, SPECIAL_READING_IDS, blockFurigana
+  IDENTITY_GROUPS, HUMAN_FIELDS, EXCEPTION_FIELDS, SPECIAL_READING_IDS, blockFurigana, READING_EXCEPTION_IDS
 } from '../../tools/reconstruction/rules.mjs';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -15,7 +15,7 @@ import { ROOT, SOURCES, DEPS } from './helpers.mjs';
 const word = new Map([...SOURCES.vocab, ...SOURCES.hj].map((s) => [s.id, s.word]));
 
 test('listes d\'exceptions : chaque identifiant désigne bien son mot', () => {
-  for (const list of [NUMERAL_IDS, CLASS_EXCEPTION_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS]) {
+  for (const list of [NUMERAL_IDS, CLASS_EXCEPTION_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS, READING_EXCEPTION_IDS]) {
     for (const [id, w] of Object.entries(list)) assert.equal(word.get(id), w, id);
   }
   assert.equal(Object.keys(NUMERAL_IDS).length, 15);
@@ -72,6 +72,18 @@ test('lectures spéciales (addendum A8) : liste fermée de cinq lectures, confor
     assert.ok(rows.some((l) => l.startsWith(`| \`${id}\` | ${w} | ${s.reading} | \`${blockFurigana(w, s.reading)}\` |`)), `${id} : ligne de l'addendum`);
   }
   assert.equal(blockFurigana('今日', 'きょう'), '<ruby>今日<rt>きょう</rt></ruby>');
+});
+
+// Arbitrage du lot 14 : une seule lecture fautive connue, celle de 九つ. La liste rend la lecture
+// décidable sans la corriger ; elle ne s'étend pas par détection.
+test('lecture fautive connue : liste fermée, une seule entrée (九つ)', () => {
+  assert.deepEqual({ ...READING_EXCEPTION_IDS }, { n5_v_375: '九つ' });
+  const s = SOURCES.vocab.find((x) => x.id === 'n5_v_375');
+  assert.equal(s.word, '九つ');
+  // Le défaut qui justifie l'entrée : kana et furigana concordent sur ここなつ, le romaji dit kokonotsu.
+  assert.deepEqual([s.reading, s.word_furigana, s.romaji], ['ここなつ', '<ruby>九<rt>ここな</rt></ruby>つ', 'kokonotsu']);
+  // Distincte des autres listes : ni lecture spéciale (A8), ni graphie fautive, ni forme usuelle décidée.
+  for (const list of [SPECIAL_READING_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS]) assert.ok(!Object.hasOwn(list, 'n5_v_375'));
 });
 
 test('exceptions de classe du lot 11 : それ, こちら, そちら, どっち, いくつ (classe décidable, liste fermée)', () => {

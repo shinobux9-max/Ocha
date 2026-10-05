@@ -9,7 +9,7 @@ import { parseFurigana, furiganaMatchesKana } from '../lexicon/index.mjs';
 import { KANA_READING } from '../lexicon/schema.mjs';
 import {
   HJ_IDS, TYPE_CLASS, NUMERAL_IDS, CLASS_EXCEPTION_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS, CLASS_GROUPS, IDENTITY_GROUPS,
-  SPECIAL_READING_IDS, blockFurigana
+  SPECIAL_READING_IDS, blockFurigana, READING_EXCEPTION_IDS
 } from './rules.mjs';
 
 /** Nouvel identifiant d'une entrée source (addendum A3) : n5_v_<n> → v_<n>, hors JLPT par table. */
@@ -62,6 +62,8 @@ export function prefill(source, { level, lieux, placeTags }) {
   // Lectures : une seule lecture, kana valides, furigana cohérents ; sinon exception.
   if (exceptions.word) exceptions.readings = 'dépend de la forme, en exception';
   else if (String(source.reading).includes('/')) exceptions.readings = 'lecture contenant « / » (aucun découpage automatique)';
+  // Lecture fautive connue : à décider dans un lot, jamais corrigée ici.
+  else if (Object.hasOwn(READING_EXCEPTION_IDS, source.id)) exceptions.readings = 'lecture fautive connue (liste fermée)';
   else if (!KANA_READING.test(String(source.reading))) exceptions.readings = `lecture « ${source.reading} » hors kana`;
   else {
     const furigana = mechanicalFurigana(source.word_furigana, source.word);

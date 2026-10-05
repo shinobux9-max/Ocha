@@ -90,13 +90,16 @@ faut savoir est dans le dépôt.
 - **absences justifiées** : `category: null` (addendum A5), `semantic_type: null` (addendum A6) ;
 - **`deictique`** : la définition de l'addendum A7 (personne, espace, temps), appliquée sens par
   sens ;
-- **lectures des mots en katakana** : statu quo mécanique pendant les lots.
+- **lectures des mots en katakana** : statu quo mécanique pendant les lots ;
+- **lecture fautive connue** : liste fermée (`READING_EXCEPTION_IDS`, 九つ seule) qui rend la lecture
+  décidable ; aucune correction automatique, sources figées intactes ; le romaji n'est pas une
+  règle générale.
 
 ## 5. Où l'on en est (au 2026-10-04)
 
-- **Lots 0 à 13 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **472 ENTRY,
-  31 retraits, 216 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 953 décisions validées
-  (D0001 à D0953), aucune proposition en cours.
+- **Lots 0 à 14 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **501 ENTRY,
+  31 retraits, 187 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 025 décisions validées
+  (D0001 à D1025), aucune proposition en cours.
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -124,8 +127,14 @@ faut savoir est dans le dépôt.
   `suffix`. **Restent ouverts** : le registre des compteurs n'a aucune compatibilité pour une durée
   (時間 est validé avec `counter: null`) ; les sens temporels de 前 et 先 (lot 10) sont joints à
   l'audit A2-05 de la deixis temporelle.
-- **Ensuite** : choix du thème du lot 14 (5.15) parmi les 216 entrées restantes, puis composition de
-  son périmètre. **Aucune décision avant la validation de ce périmètre.**
+- **Lot 14** (5.15, « nombres, compteurs et mesures ») : validé, 29 entrées et 72 décisions D0954 à
+  D1025 (rapport `docs/rapports/etape2-tache5-15-lot14-valide.md`). Un emploi avec compteur ne
+  produit pas automatiquement un sens : les sens suivent les fiches. **Reste ouvert** : l'écart de
+  catégorie entre メートル et le sens « kilomètre » de キロ, pour l'audit A2-05.
+- **Ensuite** : choix du thème du lot 15 parmi les 187 entrées restantes, puis composition de son
+  périmètre ; un lot « quantité et degré » est réservé, précédé de la question des fonctions
+  `quantificateur`, `comparatif` et `intensifieur`. **Aucune décision avant la validation d'un
+  périmètre.**
 - **Contrôle** : Claude réalise dans le dépôt, Codex relit et reproduit les chiffres sur le dépôt
   réel, l'utilisateur arbitre.
 

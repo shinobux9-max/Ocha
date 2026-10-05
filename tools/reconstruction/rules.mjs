@@ -71,6 +71,15 @@ export const USUAL_FORM_IDS = Object.freeze({ n5_v_604: '平仮名' });
 
 // ── Lectures ────────────────────────────────────────────────────────────────
 
+// Lecture fautive connue (liste fermée, arbitrage du lot 14). La source donne ここなつ pour 九つ, en
+// kana comme en furigana ; le romaji de la fiche dit kokonotsu. Les deux champs concordant, A8 ne
+// détecte rien : sans cette liste, la lecture resterait mécanique et ne pourrait pas être corrigée.
+// La liste rend la lecture DÉCIDABLE ; elle ne corrige rien d'elle-même et ne touche pas aux
+// sources figées : la correction se décide dans un lot et se journalise. Ce n'est PAS une règle
+// générale (« le romaji fait foi ») : chaque entrée y entre par un arbitrage explicite. Distincte
+// des lectures spéciales ci-dessous, qui sont justes et seulement à écrire en bloc.
+export const READING_EXCEPTION_IDS = Object.freeze({ n5_v_375: '九つ' });
+
 // Lectures spéciales (addendum A8, §4, règle A) : transcription de la liste fermée normative. La
 // fiche source qualifie elle-même la lecture de spéciale ; les furigana s'écrivent en bloc, un
 // seul <ruby> sur le mot entier. Toute entrée de la liste est PROTÉGÉE (une lecture décidée doit
