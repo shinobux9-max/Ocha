@@ -1,0 +1,769 @@
+{
+  "lot": "lot-17",
+  "title": "États et propriétés descriptives",
+  "entries": {
+    "n5_v_436": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1129",
+        "A2-04-D1130"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un objet, un bâtiment ou une notion qui date de longtemps ou qui est usé. Ne se dit généralement pas de l'âge d'une personne.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vieux",
+              "alternatives": [
+                "Ancien"
+              ]
+            },
+            "category": {
+              "level_1": "temps"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_453": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1131"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Ce qui vient d'être acquis ou fabriqué, ou qui est récent. Contraire : 古い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Nouveau",
+              "alternatives": [
+                "Neuf",
+                "Récent"
+              ]
+            },
+            "category": {
+              "level_1": "temps"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_476": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1132",
+        "A2-04-D1133"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'âge peu avancé d'une personne ; par extension, l'énergie et l'apparence de la jeunesse.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Jeune",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_451": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1134",
+        "A2-04-D1135",
+        "A2-04-D1136"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La force physique, la robustesse ou l'intensité : あめが強いです (la pluie est forte). Contraire : 弱い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fort",
+              "alternatives": [
+                "Puissant",
+                "Résistant"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_449": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1137",
+        "A2-04-D1138",
+        "A2-04-D1139"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un manque de force physique, de résistance ou d'intensité : かぜが弱いです (le vent est faible). Contraire : 強い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Faible",
+              "alternatives": [
+                "Fragile"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_428": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1140",
+        "A2-04-D1141"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Solide",
+              "alternatives": [
+                "Robuste",
+                "Résistant"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Un objet solide, durable : このかばんは丈夫です (ce sac est solide)."
+          },
+          {
+            "meaning": {
+              "primary": "En bonne santé",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "sante_medecine",
+              "level_2": "sante_etats_pathologiques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "La santé robuste d'une personne."
+          }
+        ]
+      }
+    },
+    "n5_v_482": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1142"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La vitesse d'un déplacement, ou l'exécution prompte d'une action. S'écrit avec un autre kanji que l'adjectif de même lecture signifiant « tôt ».",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Rapide",
+              "alternatives": [
+                "Prompt"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "vitesse"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_483": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1143",
+        "A2-04-D1144"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La fiche donne はやい pour contraire, pour la vitesse comme pour l'heure.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lent",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "vitesse"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une vitesse de déplacement lente : きょうはでんしゃが遅いです (le train est lent aujourd'hui)."
+          },
+          {
+            "meaning": {
+              "primary": "En retard",
+              "alternatives": [
+                "Tardif"
+              ]
+            },
+            "category": {
+              "level_1": "temps"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une action faite tardivement, ou le fait d'être en retard."
+          }
+        ]
+      }
+    },
+    "n5_v_461": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1145",
+        "A2-04-D1146",
+        "A2-04-D1147"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sale",
+              "alternatives": [
+                "Crasseux"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "entretien_domestique",
+              "level_3": "nettoyage"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Un endroit ou un objet qui manque de propreté. Contraire : きれい, au sens de « propre »."
+          },
+          {
+            "meaning": {
+              "primary": "Grossier (langage)",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Un langage grossier, ou une action malhonnête."
+          }
+        ]
+      }
+    },
+    "n5_v_462": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1148",
+        "A2-04-D1149",
+        "A2-04-D1150"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pur",
+              "alternatives": [
+                "Limpide"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Ce qui est physiquement pur : de l'eau claire."
+          },
+          {
+            "meaning": {
+              "primary": "Pur (moralement)",
+              "alternatives": [
+                "Innocent",
+                "Honnête"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Ce qui est moralement pur et intègre : une conscience, un cœur. かれは清いこころを持っています (il a un cœur pur)."
+          }
+        ]
+      }
+    },
+    "n5_v_422": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1151",
+        "A2-04-D1152",
+        "A2-04-D1153"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bruyant",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "sens_perception",
+              "level_3": "ouie"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Un bruit excessif et désagréable."
+          },
+          {
+            "meaning": {
+              "primary": "Agaçant",
+              "alternatives": [
+                "Embêtant"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une personne insistante ou ennuyeuse."
+          }
+        ]
+      }
+    },
+    "n5_v_478": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1154",
+        "A2-04-D1155"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un endroit plein de vie, de monde, d'animation ou d'agitation joyeuse : une rue commerçante, une fête.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Animé",
+              "alternatives": [
+                "Joyeux (lieu)"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_489": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1156",
+        "A2-04-D1157",
+        "A2-04-D1158"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un endroit sans bruit ni agitation, ou une atmosphère paisible et sereine. Contraire : 賑やか.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Calme",
+              "alternatives": [
+                "Tranquille",
+                "Silencieux"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_8": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1128",
+        "A2-04-D1159",
+        "A2-04-D1160",
+        "A2-04-D1161",
+        "A2-04-D1162"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "暖かい",
+            "furigana": "<ruby>暖<rt>あたた</rt></ruby>かい"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "温かい s'écrit pour l'eau, un objet, un plat ou une boisson ; 暖かい, pour le temps, le climat ou une pièce. La source donne aussi la traduction « chaleureux » pour l'accueil, sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chaud",
+              "alternatives": [
+                "Tiède"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "sens_perception",
+              "level_3": "toucher_sensations"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une température douce et agréable : 温かい御茶 (un thé chaud)."
+          },
+          {
+            "meaning": {
+              "primary": "Doux (agréablement chaud)",
+              "alternatives": [
+                "Tiède"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "conditions_atmospheriques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Le temps, le climat ou l'ambiance d'un lieu ; s'écrit alors souvent 暖かい."
+          }
+        ]
+      }
+    },
+    "n5_v_681": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1163",
+        "A2-04-D1164"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un liquide ou un aliment ni chaud ni froid : de l'eau tiède, un thé qui a refroidi. La source donne aussi les traductions « fadasse » et « laxiste (par extension) », sans les développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tiède",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "sens_perception",
+              "level_3": "toucher_sensations"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "adjectif_i",
+        "group": "i"
+      }
+    },
+    "n5_v_1": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1165"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Frais",
+              "alternatives": [
+                "Rafraîchissant",
+                "Agréable"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "conditions_atmospheriques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une sensation de fraîcheur agréable : le temps, la brise."
+          },
+          {
+            "meaning": {
+              "primary": "Vif",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "etats_psychologiques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une personnalité franche, souriante et pleine de vitalité."
+          }
+        ]
+      }
+    },
+    "n5_v_4": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1166",
+        "A2-04-D1167"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sombre",
+              "alternatives": [
+                "Obscur"
+              ]
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "teintes_nuances",
+              "level_3": "clair_fonce"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Un lieu sans lumière : 部屋が暗い (la pièce est sombre)."
+          },
+          {
+            "meaning": {
+              "primary": "Triste",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "etats_psychologiques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une personnalité ou une ambiance ; se dit aussi d'un avenir incertain."
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

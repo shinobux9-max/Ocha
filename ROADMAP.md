@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-05 (clôture du lot 16)
+**Dernière mise à jour :** 2026-10-06 (clôture du lot 17)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,10 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot 17, dont le thème et le périmètre restent à
+**A2-04 · reconstruction du vocabulaire N5 → lot 18, dont le thème et le périmètre restent à
 arbitrer.**
 
-Les lots 0 à 16 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
+Les lots 0 à 17 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
 entrées validées concernées sont corrigées et revalidées.
 
@@ -262,7 +262,8 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.15 · lot 14** | Nombres, compteurs et mesures | ✅ Terminé |
 | **Lot 15** | Couleurs, formes, dimensions et poids | ✅ Terminé |
 | **Lot 16** | Préférences, appréciations et états de la personne | ✅ Terminé |
-| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 17 : thème et périmètre à arbitrer) | ⬜ À faire |
+| **Lot 17** | États et propriétés descriptives | ✅ Terminé |
+| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 18 : thème et périmètre à arbitrer) | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -279,12 +280,12 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 16
+#### État chiffré après le lot 17
 
--   **551 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
--   **31 identifiants retirés** ;
--   **137 anciennes entrées encore à décider** ;
--   **1 126 décisions humaines validées** au journal ;
+-   **567 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **32 identifiants retirés** ;
+-   **120 anciennes entrées encore à décider** ;
+-   **1 167 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **1 suffixe** (`半`), seul `suffix` du corpus ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -372,7 +373,21 @@ décisions (D1076 à D1126). Arbitrages appliqués :
 -   emplois d'adresse conservés en nuance (`嫌`, `悪い`, `危ない`) ; douze catégories nulles (A5) ;
 -   `立派` à deux sens ; la nuance de `好き` suit son exemple (が avant 好き), contre la source.
 
-**Prochaine action immédiate :** choisir le thème du lot 17 parmi les 137 entrées restantes,
+#### Lot 17 · clos
+
+Thème : **États et propriétés descriptives** (17 anciennes entrées, toutes des adjectifs ; aucun
+tag) : âge, force et solidité, vitesse, propreté, bruit et animation, température, lumière. 25
+sens, 41 décisions (D1127 à D1167). Arbitrages appliqués :
+
+-   **`暖かい` (lot 07, validée) rouverte et fusionnée dans `温かい`** : même unité lexicale (A3, L3) ;
+    le plus petit numéro survit (A3, L2), sans exception. La réouverture est explicite et
+    journalisée ; les décisions historiques ne sont pas modifiées. L'ENTRY survivante porte les deux
+    graphies et deux sens, un par fiche ;
+-   deux sens lorsque la fiche décrit deux référents (`丈夫`, `遅い`, `汚い`, `清い`, `うるさい`,
+    `爽やか`, `暗い`) ; un seul pour `強い`, `弱い` et `若い`, l'intensité étant conservée en nuance ;
+-   `古い` et `新しい` dans le temps ; neuf catégories nulles (A5) ; aucune dimension.
+
+**Prochaine action immédiate :** choisir le thème du lot 18 parmi les 120 entrées restantes,
 composer son périmètre par identifiants, puis le faire valider avant toute proposition.
 
 ------------------------------------------------------------------------
@@ -656,6 +671,7 @@ Ensuite seulement :
    │   ├── Lot 14 Nombres (5.15)            ✅
    │   ├── Lot 15 Couleurs, dimensions      ✅
    │   ├── Lot 16 Préférences, états        ✅
+   │   ├── Lot 17 États, propriétés         ✅
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

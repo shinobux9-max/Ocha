@@ -15825,5 +15825,648 @@
     ],
     "after": null,
     "reason": "Deux autres emplois que la fiche ne développe pas : ce ne sont pas des traductions de ce sens. Signalés en nuance comme traductions de la source non développées."
+  },
+  {
+    "id": "A2-04-D1127",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_275",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-07",
+      "status": "validated",
+      "journal": [
+        "A2-04-D0476",
+        "A2-04-D0477"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "温かい",
+            "furigana": "<ruby>温<rt>あたた</rt></ruby>かい"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une chaleur agréable, surtout du temps ou d'une pièce ; pour un plat ou une boisson, on écrit plutôt 温かい.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Doux (agréablement chaud)",
+              "alternatives": [
+                "Tiède"
+              ]
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "meteo",
+              "level_3": "conditions_atmospheriques"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "after": "rouverte : ENTRY retirée par fusion dans n5_v_8 (décision suivante)",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre du lot 17, issue C). 暖かい (n5_v_275), validée au lot 07, et 温かい (n5_v_8), entrée source non décidée, sont deux graphies de la même unité lexicale あたたかい : la fiche de 暖かい dit qu'on écrit « alors souvent 温かい » pour un plat, celle de 温かい qu'elle « s'écrit aussi 暖かい » pour la météo ou le climat, et D0476, validée, avait déjà qualifié 温かい d'« autre graphie du même mot あたたかい ». La paire n'était pas dans les doublons candidats du lot 0, les deux formes étant différentes. Une unité lexicale n'existe qu'une fois (A3, L3). L'état validé de l'ENTRY est conservé en entier dans le champ « avant » de cette décision. D0476 et D0477 ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée ; ce qu'elles décidaient est repris dans l'ENTRY survivante (graphie, sens météorologique, abandon de « Chaud » pour ce sens)."
+  },
+  {
+    "id": "A2-04-D1128",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_275",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_8",
+    "reason": "暖かい est fusionnée dans 温かい : même unité lexicale, même lecture あたたかい, deux graphies selon l'usage. La règle normale d'A3 (L2) s'applique sans exception : le plus petit numéro survit, donc n5_v_8 ; n5_v_275 est retirée avec merged_into. Aucune exception-fusion : n5_v_8 n'est ni une représentation erronée ni une autre unité lexicale. 暖かい devient une autre graphie de l'ENTRY survivante, qui se construit à partir des deux fiches."
+  },
+  {
+    "id": "A2-04-D1129",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_436",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "temps",
+    "reason": "Catégorie temps, au seul niveau 1 : la fiche décrit ce qui « date de longtemps ou qui est usé », une propriété directement temporelle. A5 ne permet category: null que si aucune catégorie primaire suffisamment pertinente n'existe ; le domaine Temps existe et convient. Aucune sous-catégorie du registre (unités, moments et périodes, calendrier, chronologie, durée, fréquence, relations temporelles) ne nomme l'ancienneté ni la nouveauté : le niveau 1 suffit, sans fabriquer une précision absente des références. Le cycle de vie du registre concerne les personnes. Révision après relecture : la première proposition laissait ce sens sans catégorie."
+  },
+  {
+    "id": "A2-04-D1130",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_436",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Vétuste",
+      "Périmé"
+    ],
+    "after": null,
+    "reason": "Plus étroits que ce que décrit la fiche (ce qui date de longtemps ou qui est usé) ; « usé » est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1131",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_453",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "temps",
+    "reason": "Catégorie temps, au seul niveau 1 : la fiche décrit ce qui « vient d'être acquis, fabriqué ou qui est récent », une propriété directement temporelle. A5 ne permet category: null que si aucune catégorie primaire suffisamment pertinente n'existe ; le domaine Temps existe et convient. Aucune sous-catégorie du registre (unités, moments et périodes, calendrier, chronologie, durée, fréquence, relations temporelles) ne nomme l'ancienneté ni la nouveauté : le niveau 1 suffit, sans fabriquer une précision absente des références. Le cycle de vie du registre concerne les personnes. Révision après relecture : la première proposition laissait ce sens sans catégorie."
+  },
+  {
+    "id": "A2-04-D1132",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_476",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Jeune",
+      "De jeunesse"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : l'âge peu avancé d'une personne ; l'extension à l'énergie et à l'apparence de la jeunesse, que la nuance décrit, est conservée en nuance. Être humain › cycle de vie, au niveau 2, comme le sens « âge » de 年 (lot 13) : aucune sous-catégorie ne nomme la jeunesse (naissance, enfance, âge adulte, vieillissement, mort). Alternative laissée à l'arbitrage : un second sens pour l'extension."
+  },
+  {
+    "id": "A2-04-D1133",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_476",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "De jeunesse"
+    ],
+    "after": null,
+    "reason": "Rattaché à l'extension, reprise en nuance."
+  },
+  {
+    "id": "A2-04-D1134",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_451",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Fort",
+      "Puissant",
+      "Résistant",
+      "Robuste"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : la fiche réunit dans une même description « une force physique importante, de la robustesse ou une forte intensité », avec un seul contraire (弱い) ; son exemple porte sur l'intensité (« la pluie est forte »), conservée en nuance avec lui. Alternative laissée à l'arbitrage : un second sens pour l'intensité."
+  },
+  {
+    "id": "A2-04-D1135",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_451",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La force, la robustesse ou l'intensité : propriété générale d'une chose, sans domaine thématique propre ; la fiche l'applique aussi bien à une personne qu'à un phénomène (la pluie). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1136",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_451",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Robuste"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Résistant »."
+  },
+  {
+    "id": "A2-04-D1137",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_449",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Faible",
+      "Fragile",
+      "Peu résistant",
+      "Vulnérable"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé, examiné sur sa propre fiche avec le même critère que 強い : la fiche réunit « un manque de force physique, de résistance ou d'intensité », avec un seul contraire (強い) ; son exemple porte sur l'intensité (« le vent est faible »), conservée en nuance avec lui. Alternative laissée à l'arbitrage : un second sens pour l'intensité."
+  },
+  {
+    "id": "A2-04-D1138",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_449",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Le manque de force, de résistance ou d'intensité : propriété générale d'une chose, sans domaine thématique propre, comme 強い. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1139",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_449",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Peu résistant",
+      "Vulnérable"
+    ],
+    "after": null,
+    "reason": "Redondants avec « Fragile »."
+  },
+  {
+    "id": "A2-04-D1140",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_428",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Solide",
+      "Robuste",
+      "Résistant",
+      "En bonne santé"
+    ],
+    "after": [
+      "S1 Solide (objet)",
+      "S2 En bonne santé (personne)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« la robustesse physique d'un objet (solide, durable) ou la robustesse de la santé d'une personne ») : la solidité d'une chose, que l'exemple illustre (un sac), et la santé d'une personne ; deux référents. Le second : santé et médecine › santé et états pathologiques ; type propriete, une constitution robuste étant une caractéristique attribuée à la personne, à la différence de 元気 (lot 16, etat). Sens 2 candidat ; alternative : un seul sens."
+  },
+  {
+    "id": "A2-04-D1141",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_428",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La solidité d'un objet : propriété générale d'une chose, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1142",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_482",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Vite"
+    ],
+    "after": null,
+    "reason": "Un adverbe, pour un adjectif ; redondant avec « Rapide »."
+  },
+  {
+    "id": "A2-04-D1143",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_483",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Lent",
+      "Tardif",
+      "En retard"
+    ],
+    "after": [
+      "S1 Lent (vitesse)",
+      "S2 En retard (heure)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« une vitesse de déplacement lente, une action effectuée tardivement, ou le fait d'être en retard »), qui leur donne deux contraires : はやい « pour la vitesse et l'heure », soit deux mots dans les sources. Une vitesse et un moment : deux référents, comme les deux sens de 高い (lot 05). L'exemple (« le train est lent (ou en retard) ») admet les deux lectures. Sens 2 candidat ; alternative : un seul sens, le retard passant en nuance."
+  },
+  {
+    "id": "A2-04-D1144",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_483",
+    "field": "sens 2 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "temps",
+    "reason": "Catégorie au seul niveau 1 (temps) : le retard n'est aucune des sous-catégories du registre (unités, moments et périodes, calendrier, chronologie, durée, fréquence, relations temporelles). Aucune fonction deictique : A7 vise le repérage par la situation d'énonciation, non le fait d'être en retard."
+  },
+  {
+    "id": "A2-04-D1145",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_461",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Sale",
+      "Immonde",
+      "Crasseux",
+      "Grossier (langage)"
+    ],
+    "after": [
+      "S1 Sale",
+      "S2 Grossier (langage)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« un manque de propreté physique d'un endroit ou d'un objet, ou par extension un langage grossier ou une action malhonnête ») : la saleté d'une chose, et la conduite d'une personne ; deux référents, comme les deux sens de 重い (lot 15). Le premier est dans la catégorie du sens « propre » de きれい (lot 0), que la fiche donne pour contraire. Sens 2 candidat ; alternative : un seul sens, l'extension passant en nuance."
+  },
+  {
+    "id": "A2-04-D1146",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_461",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Un langage grossier ou une action malhonnête : évaluation générale d'une conduite, « propriété générale », sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1147",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_461",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Immonde"
+    ],
+    "after": null,
+    "reason": "Redondant, et plus fort que ce que décrit la fiche."
+  },
+  {
+    "id": "A2-04-D1148",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_462",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Pur",
+      "Limpide",
+      "Innocent",
+      "Honnête"
+    ],
+    "after": [
+      "S1 Pur (physiquement)",
+      "S2 Pur (moralement)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« ce qui est physiquement pur (comme l'eau claire) ou moralement pur et intègre (comme une conscience ou un cœur) ») : une chose, et la conduite ou le cœur d'une personne ; deux référents. L'exemple de la fiche porte sur le sens moral (« il a un cœur pur ») ; il est conservé en nuance. L'ordre suit les traductions de la source. Sens 2 candidat ; alternative : un seul sens."
+  },
+  {
+    "id": "A2-04-D1149",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_462",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La pureté physique d'une chose : propriété générale d'une chose, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1150",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_462",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La pureté morale : évaluation générale d'une conduite, « propriété générale », sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1151",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_422",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Bruyant",
+      "Agaçant",
+      "Embêtant",
+      "Chicanier"
+    ],
+    "after": [
+      "S1 Bruyant",
+      "S2 Agaçant (personne)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« un bruit excessif et désagréable, ou par extension une personne insistante ou ennuyeuse ») : un bruit, et le comportement d'une personne ; deux référents. Le premier : sens et perception › ouïe. L'exemple porte sur le bruit (« la chambre d'à côté est bruyante »). Sens 2 candidat ; alternative : un seul sens, l'extension passant en nuance."
+  },
+  {
+    "id": "A2-04-D1152",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_422",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Le comportement insistant ou ennuyeux d'une personne : évaluation générale d'une conduite, « propriété générale », sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1153",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_422",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Chicanier"
+    ],
+    "after": null,
+    "reason": "Rattaché par la proposition à l'extension (une personne insistante) ; plus étroit que ce que décrit la fiche."
+  },
+  {
+    "id": "A2-04-D1154",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_478",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "L'animation ou le calme d'un lieu : propriété générale d'un endroit ou d'une atmosphère, sans domaine thématique propre ; la fiche parle de vie, de monde et d'agitation autant que de bruit, ce que « ouïe » ne couvrirait qu'en partie. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1155",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_478",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bruyant",
+      "Populeux"
+    ],
+    "after": null,
+    "reason": "La fiche décrit une animation joyeuse, non un bruit désagréable (うるさい) ; « plein de monde » est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1156",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_489",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "L'animation ou le calme d'un lieu : propriété générale d'un endroit ou d'une atmosphère, sans domaine thématique propre ; la fiche parle de vie, de monde et d'agitation autant que de bruit, ce que « ouïe » ne couvrirait qu'en partie. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1157",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_489",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Paisible"
+    ],
+    "after": null,
+    "reason": "Redondant ; repris en nuance."
+  },
+  {
+    "id": "A2-04-D1158",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_489",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "exemple de la source : « この としばこ は いつも 静か です » (« cette bibliothèque est toujours calme »)",
+    "after": null,
+    "reason": "Anomalie de la source : l'exemple dit としばこ pour « bibliothèque », qui se dit としょかん (図書館, lot 04). L'exemple n'est repris dans aucune nuance ; les exemples ne sont pas migrés, et l'anomalie est signalée pour le registre de phrases. Aucune information lexicale n'en est tirée."
+  },
+  {
+    "id": "A2-04-D1159",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_8",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "暖かい"
+    ],
+    "reason": "暖かい, forme de l'entrée fusionnée (n5_v_275), devient une autre graphie de l'ENTRY survivante. Elle est documentée par les deux fiches : celle de 温かい (« s'écrit aussi 暖かい lorsqu'il s'agit de la météo ou d'un climat », avec ses furigana) et celle de 暖かい. Forme usuelle : 温かい, celle de l'entrée survivante, mécanique ; l'identifiant survivant et la forme usuelle sont deux décisions indépendantes (arbitrage du lot 0), et l'alternative est 暖かい en forme usuelle. D0476, validée au lot 07, faisait de 温かい une autre graphie de 暖かい : le lien entre les deux graphies est conservé, dans l'autre sens. L'usage de chaque graphie est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1160",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_8",
+    "field": "senses",
+    "kind": "decision",
+    "before": {
+      "温かい (n5_v_8)": [
+        "Chaud",
+        "Tiède",
+        "Chaleureux (climat, plat, ou accueil)"
+      ],
+      "暖かい (n5_v_275)": [
+        "Chaud",
+        "Doux (météo, climat)",
+        "Tiède (température ambiante ou d'une pièce)"
+      ]
+    },
+    "after": [
+      "S1 Chaud (une chose)",
+      "S2 Doux (le temps, un lieu)"
+    ],
+    "reason": "Deux sens, chacun documenté par une fiche et par son exemple. Sens 1, de la fiche de 温かい : la température douce et agréable de l'eau, d'un objet ou d'un plat (exemple : « je bois du thé chaud »). Sens 2, de la fiche de 暖かい : le temps, le climat ou l'ambiance d'un lieu (exemple : « il a fait doux ») ; il reprend à l'identique le sens validé au lot 07 (traductions, catégorie, type). D0477, validée, abandonnait « Chaud » pour ce sens météorologique (« chaud » se dit 暑い) : il n'y est toujours pas ; « Chaud » est la traduction principale du sens 1, d'après la fiche de 温かい et son exemple. Le corpus sépare déjà la température de l'air de celle d'une chose (寒い et 冷たい, 暑い et 熱い, lot 07). L'ordre suit la fiche de l'entrée survivante. Rien n'est ajouté par connaissance externe. Alternative laissée à l'arbitrage : un seul sens, « une température douce et agréable »."
+  },
+  {
+    "id": "A2-04-D1161",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_8",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "etre_humain › sens_perception › toucher_sensations",
+    "reason": "La température d'une chose, au toucher ou en bouche : même catégorie que 熱い « chaud (au toucher) » et 冷たい « froid (au toucher) » (lot 07). Le sens 2 garde la catégorie validée de 暖かい, monde naturel › météo › conditions atmosphériques."
+  },
+  {
+    "id": "A2-04-D1162",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_8",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Chaleureux (climat, plat, ou accueil)"
+    ],
+    "after": null,
+    "reason": "La parenthèse réunit trois emplois : le climat et le plat sont couverts par les deux sens ; l'accueil, figuré, n'est pas développé par la fiche. Signalé en nuance comme traduction de la source non développée, comme pour 厚い (lot 15)."
+  },
+  {
+    "id": "A2-04-D1163",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_681",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif (ancien type sans classe par défaut)",
+    "after": "adjectif_i",
+    "reason": "Classe adjectif_i : la fiche dit « adjectif en -i », et l'ancien group est i. group : i."
+  },
+  {
+    "id": "A2-04-D1164",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_681",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Fadasse",
+      "Laxiste (par extension)"
+    ],
+    "after": null,
+    "reason": "Deux emplois que la fiche ne développe pas (sa nuance ne décrit que la tiédeur d'un liquide ou d'un aliment) : ce ne sont pas des traductions de ce sens. Signalés en nuance comme traductions de la source non développées."
+  },
+  {
+    "id": "A2-04-D1165",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_1",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Frais",
+      "Rafraîchissant",
+      "Agréable",
+      "Vif"
+    ],
+    "after": [
+      "S1 Frais (temps, brise)",
+      "S2 Vif (personnalité)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« une sensation de fraîcheur agréable (temps, brise) ou une personnalité franche, souriante et pleine de vitalité ») : une sensation, que l'exemple illustre (« un vent frais souffle »), et le caractère d'une personne ; deux référents. Catégories de 涼しい (lot 07) pour le premier, du sens « enjoué » de 明るい (lot 0) pour le second. Sens 2 candidat ; alternative : un seul sens."
+  },
+  {
+    "id": "A2-04-D1166",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_4",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Sombre",
+      "Obscur",
+      "Triste (personnalité, ambiance)"
+    ],
+    "after": [
+      "S1 Sombre (lieu)",
+      "S2 Triste (personnalité, ambiance)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« l'obscurité physique d'un lieu ou la noirceur d'une personnalité ») : la lumière d'un lieu, que l'exemple illustre (« la pièce est sombre »), et le caractère d'une personne ; deux référents. Catégories des deux sens de 明るい (lot 0), « lumineux » et « enjoué » ; la fiche ne donne pas 明るい pour contraire, et rien n'est ajouté. Sens 2 candidat ; alternative : un seul sens."
+  },
+  {
+    "id": "A2-04-D1167",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-17",
+    "entry": "n5_v_4",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "commentaire culturel de la source sur le kanji 暗 (association de l'obscurité à la tristesse, « secret inavouable »)",
+    "after": null,
+    "reason": "Une grande part de la nuance de la source est un commentaire culturel sur le kanji : ce n'est pas un emploi du mot. Sont repris les emplois qu'elle donne : une pièce sombre, une personnalité, un avenir incertain."
   }
 ]

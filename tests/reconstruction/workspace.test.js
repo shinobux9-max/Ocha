@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import { readFileSync, readdirSync, mkdtempSync, cpSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+import { createHash } from 'node:crypto';
 import { verifySources } from '../../tools/reconstruction/sources.mjs';
 import { renderLotReport } from '../../tools/reconstruction/report.mjs';
 import { assemble, validateAssembly } from '../../tools/reconstruction/assemble.mjs';
@@ -134,18 +135,44 @@ test('5.7 : le lot 06 est entièrement validé (37 entrées), journal compris', 
   assert.ok(own.every((j) => j.status === 'validated'));
 });
 
-// A2-04 · 5.8 fermée : le lot 07 est entièrement validé (aucune fusion ; 匹, premier compteur),
-// avec tout son journal.
-test('5.8 : le lot 07 est entièrement validé (34 entrées), journal compris', () => {
+// A2-04 · 5.8 fermée : le lot 07 est validé (匹, premier compteur), avec tout son journal.
+// Une entrée y est ROUVERTE par l'arbitrage du périmètre du lot 17 : 暖かい (n5_v_275), même unité
+// lexicale que 温かい (n5_v_8), est retirée par fusion dans celle-ci (A3, L2 et L3 : le plus petit
+// numéro survit, sans exception). La réouverture est VALIDÉE, avec le lot 17 : l'entrée cite ses deux
+// décisions historiques, intactes, puis la réouverture et la fusion, ajoutées à la fin du journal.
+test('5.8 : le lot 07 est validé (34 entrées), dont 暖かい, retirée par fusion dans 温かい', () => {
   const lot7 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-07.json'), 'utf8'));
   assert.equal(Object.keys(lot7.entries).length, 34);
-  assert.ok(Object.values(lot7.entries).every((e) => e.status === 'validated'));
-  assert.ok(Object.values(lot7.entries).every((e) => !e.retire), 'aucune fusion dans le lot 07');
+  const others = Object.entries(lot7.entries).filter(([id]) => id !== 'n5_v_275');
+  assert.ok(others.every(([, e]) => e.status === 'validated' && e.fields && !e.retire), 'les 33 autres entrées : validées, aucune fusion');
+  assert.deepEqual(lot7.entries.n5_v_275, { status: 'validated', journal: ['A2-04-D0476', 'A2-04-D0477', 'A2-04-D1127', 'A2-04-D1128'], retire: { merged_into: 'n5_v_8' } });
   assert.deepEqual(lot7.entries.n5_v_648.fields.counter, { counter_for: ['small_animals'] });
   assert.deepEqual(lot7.additions, []);
-  const own = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8')).filter((j) => j.lot === 'lot-07');
+  const journal = JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
+  // Le journal historique du lot 07 n'est pas touché : 48 décisions validées, dont D0476 et D0477.
+  const own = journal.filter((j) => j.lot === 'lot-07');
   assert.equal(own.length, 48);
   assert.ok(own.every((j) => j.status === 'validated'));
+  const byId = new Map(journal.map((j) => [j.id, j]));
+  assert.deepEqual(['A2-04-D0476', 'A2-04-D0477'].map((id) => [byId.get(id).entry, byId.get(id).field, byId.get(id).kind, byId.get(id).status, JSON.stringify(byId.get(id).after)]), [
+    ['n5_v_275', 'writings', 'decision', 'validated', '["温かい"]'],
+    ['n5_v_275', 'senses', 'abandon', 'validated', 'null']
+  ]);
+  // D0476 et D0477 ne sont pas modifiées en silence : l'empreinte de leur contenu ENTIER (tous les
+  // champs, raison comprise) est celle de leur état validé au lot 07.
+  const print = (id) => createHash('sha256').update(JSON.stringify(byId.get(id))).digest('hex');
+  assert.equal(print('A2-04-D0476'), '0aa6efc8bb43cfcdb254ae7aa1fa017d8a7ec7a593f29868aa0c27ab000a421d', 'D0476 non modifiée');
+  assert.equal(print('A2-04-D0477'), '7b73d11879d1202b5437ff7b43ef4cd6c58731a0b31fb6d60fe30348c9d1c876', 'D0477 non modifiée');
+  assert.equal(byId.get('A2-04-D0477').reason, 'Trop large : « chaud » se dit 暑い.');
+  // La réouverture garde en entier l'état validé de l'ENTRY ; la fusion suit la règle normale.
+  const reopen = byId.get('A2-04-D1127');
+  assert.deepEqual([reopen.lot, reopen.entry, reopen.field, reopen.kind, reopen.status], ['lot-17', 'n5_v_275', 'entrée', 'decision', 'validated']);
+  assert.deepEqual([reopen.before.lot, reopen.before.status, reopen.before.journal], ['lot-07', 'validated', ['A2-04-D0476', 'A2-04-D0477']]);
+  assert.deepEqual(reopen.before.fields.writings, [{ form: '温かい', furigana: '<ruby>温<rt>あたた</rt></ruby>かい' }]);
+  assert.deepEqual(reopen.before.fields.senses.map((s) => [s.meaning.primary, ...s.meaning.alternatives, Object.values(s.category).join('/'), s.semantic_type]), [['Doux (agréablement chaud)', 'Tiède', 'monde_naturel/meteo/conditions_atmospheriques', 'propriete']]);
+  const fusion = byId.get('A2-04-D1128');
+  assert.deepEqual([fusion.lot, fusion.entry, fusion.field, fusion.kind, fusion.status, fusion.after], ['lot-17', 'n5_v_275', 'entrée', 'fusion', 'validated', 'n5_v_8']);
+  assert.deepEqual(journal.filter((j) => j.kind === 'exception-fusion').map((j) => j.id), ['A2-04-D0336'], 'aucune exception-fusion nouvelle : le plus petit numéro survit');
 });
 
 // Audit 5.7-C : `counter` est réservé aux ENTRY qui sont elles-mêmes des compteurs. Au N5, seul 匹
@@ -295,9 +322,9 @@ test('journal : « jukujikun » n\'est invoqué que pour une entrée de la liste
 
 // L'espace de travail réel s'assemble sans erreur : ni problème de décision, ni erreur du
 // validateur lexical, ni attente. Les comptes suivent les décisions validées, lot après lot.
-// Après la validation du lot 16 : 551 ENTRY, 31 retraits, 137 entrées écartées ; le complément
+// Après la validation du lot 17 : 567 ENTRY, 32 retraits, 120 entrées écartées ; le complément
 // d'I4 et d'I5 (addendum A8) passe sur toutes les ENTRY assemblées. Aucune proposition n'est en
-// cours : toutes les entrées décidées et tout le journal sont validés (lots 0 à 16).
+// cours : toutes les entrées décidées et tout le journal sont validés (lots 0 à 17).
 test('espace de travail réel : assemblage partiel sans problème ni erreur', () => {
   const lots = readLots();
   const a = assemble({ sources: SOURCES, lots, journal: readJournal() });
@@ -308,16 +335,125 @@ test('espace de travail réel : assemblage partiel sans problème ni erreur', ()
   const decisions = lots.flatMap((l) => Object.values(l.entries)).filter((d) => d.status === 'validated');
   assert.equal(a.files.reduce((n, f) => n + f.entries.length, 0), decisions.filter((d) => d.fields).length);
   assert.equal(a.retired.length, 1 + decisions.filter((d) => d.retire).length);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [551, 31, 137]);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [567, 32, 120]);
   assert.ok(a.excluded.every((x) => x.reason === 'non décidée'), 'aucune proposition en cours');
   assert.ok(lots.every((l) => Object.values(l.entries).every((d) => d.status === 'validated')), 'toutes les entrées décidées sont validées');
-  // Avertissements : 66, tous justifiés au journal ; les trois du lot 15 et les douze du lot 16 sont
-  // leurs catégories nulles.
-  assert.equal(r.warnings.length, 66);
+  // Avertissements : 75, tous justifiés au journal ; les trois du lot 15, les douze du lot 16 et les
+  // neuf du lot 17 sont leurs catégories nulles.
+  assert.equal(r.warnings.length, 75);
   const nullOf = (re) => r.warnings.filter((w) => w.code === 'categorie-nulle' && re.test(w.where)).map((w) => w.where.split(' · ').at(-1)).sort();
   assert.deepEqual(nullOf(/· (v_484|v_62) ·/), ['v_484_s1', 'v_484_s2', 'v_62_s1']);
   assert.deepEqual(nullOf(/· (v_144|v_432|v_434|v_442|v_452|v_456|v_457|v_458|v_486|v_512|v_609) ·/),
     ['v_144_s1', 'v_432_s1', 'v_434_s1', 'v_442_s1', 'v_452_s1', 'v_456_s1', 'v_457_s1', 'v_458_s1', 'v_486_s1', 'v_512_s1', 'v_609_s1', 'v_609_s2']);
+  assert.deepEqual(nullOf(/· (v_422|v_428|v_449|v_451|v_461|v_462|v_478|v_489) ·/),
+    ['v_422_s2', 'v_428_s1', 'v_449_s1', 'v_451_s1', 'v_461_s2', 'v_462_s1', 'v_462_s2', 'v_478_s1', 'v_489_s1']);
+});
+
+// A2-04 · lot 17 fermé : « États et propriétés descriptives », entièrement validé (17 adjectifs,
+// aucun tag, aucune lecture décidée), avec tout son journal (41 décisions, D1127 à D1167), dans sa
+// version révisée après relecture. Quatorze choix arbitrés, dont : 暖かい (lot 07) rouverte et
+// fusionnée dans 温かい, ENTRY survivante construite à partir des deux fiches (forme usuelle 温かい,
+// deux sens) ; deux sens lorsque la fiche décrit deux référents ; un seul pour 強い, 弱い et 若い ;
+// 古い et 新しい dans le temps ; neuf catégories nulles. Ce ne sont PAS des règles générales : chaque
+// sens suit sa fiche, exemple compris.
+test('lot 17 : entièrement validé (17 entrées, 25 sens), journal compris ; 暖かい fusionnée dans 温かい', () => {
+  const lot17 = readLots().find((l) => l.lot === 'lot-17');
+  assert.equal(lot17.title, 'États et propriétés descriptives');
+  const E = lot17.entries;
+  assert.deepEqual(Object.keys(E).sort(), [1, 4, 8, 422, 428, 436, 449, 451, 453, 461, 462, 476, 478, 482, 483, 489, 681].map((n) => `n5_v_${n}`).sort(), 'périmètre arbitré : 17 entrées');
+  assertAllValidated(lot17);
+  assert.ok(Object.values(E).every((e) => e.fields && !e.retire), 'aucune entrée du lot n\'est retirée');
+  assert.deepEqual(lot17.additions, []);
+  const show = (s) => `${[s.meaning.primary, ...s.meaning.alternatives].join(' | ')} @ ${s.category ? Object.values(s.category).join('/') : 'null'}`;
+  // Traductions et catégories exactes de chaque sens : rien n'y entre sans décision. Tous les sens
+  // sont des propriétés, sans dimension (aucun axe d'A2-DIM ne décrit directement ces sens).
+  assert.deepEqual(Object.fromEntries(Object.entries(E).map(([id, e]) => [id.replace('n5_v_', ''), e.fields.senses.map(show)])), {
+    436: ['Vieux | Ancien @ temps'], 453: ['Nouveau | Neuf | Récent @ temps'], 476: ['Jeune @ etre_humain/cycle_de_vie'],
+    451: ['Fort | Puissant | Résistant @ null'], 449: ['Faible | Fragile @ null'],
+    428: ['Solide | Robuste | Résistant @ null', 'En bonne santé @ sante_medecine/sante_etats_pathologiques'],
+    482: ['Rapide | Prompt @ espace_proprietes_spatiales/vitesse'],
+    483: ['Lent @ espace_proprietes_spatiales/vitesse', 'En retard | Tardif @ temps'],
+    461: ['Sale | Crasseux @ habitat_vie_domestique/entretien_domestique/nettoyage', 'Grossier (langage) @ null'],
+    462: ['Pur | Limpide @ null', 'Pur (moralement) | Innocent | Honnête @ null'],
+    422: ['Bruyant @ etre_humain/sens_perception/ouie', 'Agaçant | Embêtant @ null'],
+    478: ['Animé | Joyeux (lieu) @ null'], 489: ['Calme | Tranquille | Silencieux @ null'],
+    8: ['Chaud | Tiède @ etre_humain/sens_perception/toucher_sensations', 'Doux (agréablement chaud) | Tiède @ monde_naturel/meteo/conditions_atmospheriques'],
+    681: ['Tiède @ etre_humain/sens_perception/toucher_sensations'],
+    1: ['Frais | Rafraîchissant | Agréable @ monde_naturel/meteo/conditions_atmospheriques', 'Vif @ etre_humain/psychologie_esprit/etats_psychologiques'],
+    4: ['Sombre | Obscur @ couleurs/teintes_nuances/clair_fonce', 'Triste @ etre_humain/psychologie_esprit/etats_psychologiques']
+  });
+  const senses = Object.values(E).flatMap((e) => e.fields.senses);
+  assert.equal(senses.length, 25, 'sens du lot');
+  assert.ok(senses.every((s) => s.semantic_type === 'propriete' && s.dimensions.length === 0 && s.relations.length === 0 && !Object.hasOwn(s, 'particles')
+    && s.linguistic_functions.grammatical.length === 0 && s.linguistic_functions.pragmatic_discourse.length === 0));
+  // 温かい, survivante de la fusion : sa forme et sa lecture restent mécaniques ; 暖かい devient une
+  // autre graphie ; le sens 2 reprend à l'identique le sens validé de 暖かい (lot 07).
+  assert.deepEqual(E.n5_v_8.fields.writings, [{ form: '暖かい', furigana: '<ruby>暖<rt>あたた</rt></ruby>かい' }]);
+  assert.ok(!Object.hasOwn(E.n5_v_8.fields, 'word') && !Object.hasOwn(E.n5_v_8.fields, 'readings'));
+  const byId = new Map(readJournal().map((j) => [j.id, j]));
+  const before = byId.get('A2-04-D1127').before.fields.senses[0];
+  const s2 = E.n5_v_8.fields.senses[1];
+  assert.deepEqual([s2.meaning, s2.category, s2.semantic_type], [before.meaning, before.category, before.semantic_type], 'sens 2 : celui de 暖かい, à l\'identique');
+  assert.ok(!E.n5_v_8.fields.senses[1].meaning.alternatives.includes('Chaud') && s2.meaning.primary !== 'Chaud', 'D0477 respectée : « Chaud » n\'entre pas dans le sens météorologique');
+  assert.equal(E.n5_v_8.journal[0], 'A2-04-D1128', 'la survivante cite la fusion');
+  assert.match(E.n5_v_8.fields.nuance, /^温かい s'écrit pour l'eau, un objet, un plat ou une boisson ; 暖かい, pour le temps, le climat ou une pièce\./);
+  // Les exemples des fiches sont conservés là où ils portent un emploi (intensité, sens moral).
+  for (const [id, ex] of [['n5_v_451', 'あめが強いです'], ['n5_v_449', 'かぜが弱いです']]) assert.ok(E[id].fields.nuance.includes(ex), id);
+  assert.ok(E.n5_v_462.fields.senses[1].nuance.includes('清いこころ'));
+  // 静か : l'exemple fautif de la source (としばこ) n'entre dans aucune nuance du lot.
+  assert.ok(!JSON.stringify(lot17).includes('としばこ') || !JSON.stringify(Object.values(E).map((e) => [e.fields.nuance, e.fields.senses.map((s) => s.nuance)])).includes('としばこ'));
+  // Classes : seule 温い était décidable ; aucune lecture, aucune forme, aucun compteur, suffixe ni tag.
+  assert.deepEqual(Object.keys(E).filter((id) => Object.hasOwn(E[id].fields, 'grammatical_class')), ['n5_v_681']);
+  assert.deepEqual([E.n5_v_681.fields.grammatical_class, E.n5_v_681.fields.group], ['adjectif_i', 'i']);
+  assert.ok(Object.values(E).every((e) => !Object.hasOwn(e.fields, 'readings') && !Object.hasOwn(e.fields, 'word')
+    && e.fields.counter === null && e.fields.suffix === false && e.fields.tags.length === 0 && e.fields.suru_compatible === false));
+  assert.deepEqual(Object.keys(E).filter((id) => E[id].fields.writings.length), ['n5_v_8'], 'une seule graphie décidée');
+  // Journal : 41 décisions validées. Le lot cite les siennes, sauf la réouverture, que cite la seule
+  // entrée rouverte du lot 07 ; la fusion est citée des deux côtés.
+  const own = readJournal().filter((j) => j.lot === 'lot-17');
+  assert.deepEqual(own.map((j) => j.id), Array.from({ length: 41 }, (_, k) => `A2-04-D${String(1127 + k).padStart(4, '0')}`));
+  assert.ok(own.every((j) => j.status === 'validated' && j.date === '2026-10-05'));
+  const cited = new Set(Object.values(E).flatMap((e) => e.journal));
+  assert.deepEqual(own.map((j) => j.id).filter((id) => !cited.has(id)), ['A2-04-D1127'], 'seule la réouverture n\'est pas citée par une entrée du lot 17');
+  assert.deepEqual([...cited].filter((id) => !own.some((j) => j.id === id)), [], 'le lot 17 ne cite que ses décisions');
+  assert.deepEqual(own.filter((j) => j.entry === 'n5_v_275').map((j) => j.id), ['A2-04-D1127', 'A2-04-D1128']);
+  assert.deepEqual(Object.keys(E).filter((id) => E[id].journal.length === 0), [], 'chaque entrée du lot a au moins une décision');
+  const count = (kind, field) => own.filter((j) => j.kind === kind && field.test(j.field)).length;
+  assert.deepEqual([count('abandon', /^senses$/), count('categorie-nulle', / · category$/), count('decision', /^senses$/), count('decision', / · category$/), count('abandon', /^nuance$/),
+    count('decision', /^grammatical_class$/), count('decision', /^writings$/), count('decision', /^entrée$/), count('fusion', /^entrée$/)], [11, 9, 11, 4, 2, 1, 1, 1, 1]);
+  // Une traduction gardée dans un sens n'est pas aussi abandonnée au journal.
+  for (const [id, e] of Object.entries(E)) {
+    const kept = new Set(e.fields.senses.flatMap((s) => [s.meaning.primary, ...s.meaning.alternatives]));
+    const dropped = own.filter((j) => j.entry === id && j.kind === 'abandon' && j.field === 'senses').flatMap((j) => j.before);
+    assert.deepEqual(dropped.filter((t) => kept.has(t)), [], `${id} : traduction à la fois gardée et abandonnée`);
+  }
+});
+
+// Identité de 温かい et de 暖かい dans l'assemblage RÉEL (l'essai à blanc d'avant la validation en est
+// devenu l'état réel) : v_275 n'existe plus, son identifiant est retiré vers v_8 et ne sera jamais
+// réattribué ; une seule ENTRY porte les deux graphies.
+test('lot 17 : dans l\'assemblage réel, v_275 (暖かい) est fusionnée dans v_8 (温かい)', () => {
+  const lots = readLots();
+  const journal = readJournal();
+  const a = assemble({ sources: SOURCES, lots, journal });
+  const r = validateAssembly(a, DEPS);
+  assert.deepEqual(a.problems, []);
+  assert.deepEqual(r.errors, []);
+  assert.deepEqual([...a.pending, ...r.pending], []);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [567, 32, 120]);
+  assert.ok(a.excluded.every((x) => x.reason === 'non décidée'));
+  // L'identité : v_275 n'existe plus, son identifiant est retiré vers v_8 et n'est pas réattribué.
+  const all = a.files.flatMap((f) => f.entries);
+  assert.ok(!all.some((e) => e.id === 'v_275'));
+  assert.deepEqual(a.retired.find((x) => x.id === 'v_275'), { id: 'v_275', merged_into: 'v_8' });
+  assert.equal(a.idMap.n5_v_275, 'v_8');
+  const v8 = all.find((e) => e.id === 'v_8');
+  assert.deepEqual([v8.word, v8.writings.map((w) => w.form), v8.readings.map((x) => x.kana), v8.senses.map((s) => s.id)], ['温かい', ['暖かい'], ['あたたかい'], ['v_8_s1', 'v_8_s2']]);
+  assert.equal(all.filter((e) => [e.word, ...e.writings.map((w) => w.form)].some((f) => f === '温かい' || f === '暖かい')).length, 1, 'une seule ENTRY porte ces deux graphies');
+  // Le lot 07 garde 33 ENTRY et un retrait ; aucune exception-fusion n'a été nécessaire.
+  const lot7 = lots.find((l) => l.lot === 'lot-07');
+  assert.deepEqual([Object.values(lot7.entries).filter((e) => e.fields).length, Object.values(lot7.entries).filter((e) => e.retire).length], [33, 1]);
+  assert.deepEqual(journal.filter((j) => j.kind === 'exception-fusion').map((j) => j.id), ['A2-04-D0336']);
 });
 
 // A2-04 · lot 16 fermé : « Préférences, appréciations et états de la personne », entièrement validé
@@ -667,8 +803,8 @@ test('5.13-C : 13 entrées corrigées et revalidées, une correction validée ch
   const corrections = journal.filter((j) => j.id >= FIRST_CORRECTION && Object.hasOwn(CORRECTED_513C, j.lot));
   assert.deepEqual(corrections.map((j) => j.id), Array.from({ length: 13 }, (_, k) => `A2-04-D${String(827 + k).padStart(4, '0')}`));
   assert.ok(corrections.every((j) => j.status === 'validated' && j.kind === 'correction'));
-  // Tout le journal est validé : 1 126 décisions, D0001 à D1126, sans trou.
-  assert.deepEqual(journal.map((j) => j.id), Array.from({ length: 1126 }, (_, k) => `A2-04-D${String(k + 1).padStart(4, '0')}`));
+  // Tout le journal est validé : 1 167 décisions, D0001 à D1167, sans trou.
+  assert.deepEqual(journal.map((j) => j.id), Array.from({ length: 1167 }, (_, k) => `A2-04-D${String(k + 1).padStart(4, '0')}`));
   assert.ok(journal.every((j) => j.status === 'validated'));
   const lots = new Map(readLots().map((l) => [l.lot, l]));
   const expected = {

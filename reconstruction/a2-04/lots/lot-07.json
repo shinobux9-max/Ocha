@@ -921,42 +921,12 @@
       "status": "validated",
       "journal": [
         "A2-04-D0476",
-        "A2-04-D0477"
+        "A2-04-D0477",
+        "A2-04-D1127",
+        "A2-04-D1128"
       ],
-      "fields": {
-        "writings": [
-          {
-            "form": "温かい",
-            "furigana": "<ruby>温<rt>あたた</rt></ruby>かい"
-          }
-        ],
-        "suru_compatible": false,
-        "suffix": false,
-        "counter": null,
-        "nuance": "Une chaleur agréable, surtout du temps ou d'une pièce ; pour un plat ou une boisson, on écrit plutôt 温かい.",
-        "tags": [],
-        "senses": [
-          {
-            "meaning": {
-              "primary": "Doux (agréablement chaud)",
-              "alternatives": [
-                "Tiède"
-              ]
-            },
-            "category": {
-              "level_1": "monde_naturel",
-              "level_2": "meteo",
-              "level_3": "conditions_atmospheriques"
-            },
-            "semantic_type": "propriete",
-            "dimensions": [],
-            "relations": [],
-            "linguistic_functions": {
-              "grammatical": [],
-              "pragmatic_discourse": []
-            }
-          }
-        ]
+      "retire": {
+        "merged_into": "n5_v_8"
       }
     },
     "n5_v_277": {

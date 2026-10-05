@@ -1060,6 +1060,8 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 - **A2-04-D0476** (decision, writings) : 温かい, documentée par la nuance de la source (pour la tiédeur d'un plat), est une autre graphie du même mot あたたかい : ajoutée à writings, l'usage de chaque graphie étant décrit dans la nuance. — avant `null` → après `["温かい"]`
 - **A2-04-D0477** (abandon, senses) : Trop large : « chaud » se dit 暑い. — avant `["Chaud"]` → après `null`
+- **A2-04-D1127** (decision, entrée) : Réouverture explicite d'une ENTRY validée (arbitrage du périmètre du lot 17, issue C). 暖かい (n5_v_275), validée au lot 07, et 温かい (n5_v_8), entrée source non décidée, sont deux graphies de la même unité lexicale あたたかい : la fiche de 暖かい dit qu'on écrit « alors souvent 温かい » pour un plat, celle de 温かい qu'elle « s'écrit aussi 暖かい » pour la météo ou le climat, et D0476, validée, avait déjà qualifié 温かい d'« autre graphie du même mot あたたかい ». La paire n'était pas dans les doublons candidats du lot 0, les deux formes étant différentes. Une unité lexicale n'existe qu'une fois (A3, L3). L'état validé de l'ENTRY est conservé en entier dans le champ « avant » de cette décision. D0476 et D0477 ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée ; ce qu'elles décidaient est repris dans l'ENTRY survivante (graphie, sens météorologique, abandon de « Chaud » pour ce sens). — avant `{"lot":"lot-07","status":"validated","journal":["A2-04-D0476","A2-04-D0477"],"fields":{"writings":[{"form":"温かい","furigana":"<ruby>温<rt>あたた</rt></ruby>かい"}],"suru_compatible":false,"suffix":false,"counter":null,"nuance":"Une chaleur agréable, surtout du temps ou d'une pièce ; pour un plat ou une boisson, on écrit plutôt 温かい.","tags":[],"senses":[{"meaning":{"primary":"Doux (agréablement chaud)","alternatives":["Tiède"]},"category":{"level_1":"monde_naturel","level_2":"meteo","level_3":"conditions_atmospheriques"},"semantic_type":"propriete","dimensions":[],"relations":[],"linguistic_functions":{"grammatical":[],"pragmatic_discourse":[]}}]}}` → après `"rouverte : ENTRY retirée par fusion dans n5_v_8 (décision suivante)"`
+- **A2-04-D1128** (fusion, entrée) : 暖かい est fusionnée dans 温かい : même unité lexicale, même lecture あたたかい, deux graphies selon l'usage. La règle normale d'A3 (L2) s'applique sans exception : le plus petit numéro survit, donc n5_v_8 ; n5_v_275 est retirée avec merged_into. Aucune exception-fusion : n5_v_8 n'est ni une représentation erronée ni une autre unité lexicale. 暖かい devient une autre graphie de l'ENTRY survivante, qui se construit à partir des deux fiches. — avant `null` → après `"n5_v_8"`
 
 | Champ source | Valeur |
 |---|---|
@@ -1079,18 +1081,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 - grammatical_class : `"adjectif_i"`
 - group : `"i"`
 
-**Décision**
-
-- writings : `[{"form":"温かい","furigana":"<ruby>温<rt>あたた</rt></ruby>かい"}]`
-- suru_compatible : `false`
-- suffix : `false`
-- counter : `null`
-- nuance : `"Une chaleur agréable, surtout du temps ou d'une pièce ; pour un plat ou une boisson, on écrit plutôt 温かい."`
-- tags : `[]`
-
-| # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
-|---|---|---|---|---|---|
-| 1 | **Doux (agréablement chaud)** (Tiède) | monde_naturel › meteo › conditions_atmospheriques | propriete |  |  |
+**Retrait** : fusion dans n5_v_8
 
 **Contexte (anciens exemples, lecture seule)**
 

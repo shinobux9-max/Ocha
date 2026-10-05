@@ -97,9 +97,9 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-05)
 
-- **Lots 0 à 16 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **551 ENTRY,
-  31 retraits, 137 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 126 décisions validées
-  (D0001 à D1126), aucune proposition en cours.
+- **Lots 0 à 17 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **567 ENTRY,
+  32 retraits, 120 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 167 décisions validées
+  (D0001 à D1167), aucune proposition en cours.
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -150,12 +150,30 @@ faut savoir est dans le dépôt.
   dite. Les emplois d'adresse (refus, excuse, avertissement) sont conservés en nuance, sans sens ni
   fonction. **Restent ouverts** : les fiches « adjectif en na (et nom) », le schéma ne portant
   qu'une classe ; les douze catégories nulles du lot, pour l'audit A2-05.
-- **Ensuite** : choix du thème du lot 17 parmi les 137 entrées restantes, puis composition de son
-  périmètre. Un lot voisin du lot 16 réunirait 17 adjectifs des choses et des lieux. Un lot « quantité et
+- **Lot 17** (« états et propriétés descriptives ») : **périmètre arbitré le 2026-10-05**, 17
+  adjectifs (rapport `docs/rapports/etape2-A2-04-lot17-perimetre.md`, §8). **Issue C arbitrée pour
+  温かい et 暖かい** : même unité lexicale (A3, L3) ; `n5_v_8` 温かい survit, `n5_v_275` 暖かい,
+  validée au lot 07, est rouverte et retirée par fusion, selon la règle normale du plus petit numéro
+  (A3, L2), sans `exception-fusion`. **Lot validé** (rapport
+  `docs/rapports/etape2-A2-04-lot17-valide.md`) : 17 entrées (25 sens) et 41 décisions D1127 à D1167,
+  sur quatorze choix arbitrés ; la réouverture (D1127) et la fusion (D1128) sont validées avec lui ;
+  D0476 et D0477 ne sont pas modifiées. Le lot 07 garde 33 ENTRY et un retrait ; `v_275` est retirée
+  vers `v_8`, qui porte les deux graphies et deux sens, un par fiche.
+- **Réouverture d'une ENTRY validée** (précédents : 5.13-C, puis 暖かい) : l'entrée repasse en
+  `proposed` dans son lot, ses décisions historiques restent intactes et citées, les décisions
+  nouvelles s'ajoutent à la fin du journal, et l'état validé est gardé en entier dans le champ
+  « avant » de la décision de réouverture. La validation se fait avec le lot qui l'a décidée.
+- **Ensuite** : choix du thème du lot 18 parmi les 120 entrées restantes (5 adjectifs, 57 verbes,
+  16 noms, 42 autres mots), puis composition de son périmètre. Un lot « quantité et
   degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et
   `intensifieur`. **Aucune décision avant la validation d'un périmètre.**
-- **Contrôle** : Claude réalise dans le dépôt, Codex relit et reproduit les chiffres sur le dépôt
-  réel, l'utilisateur arbitre.
+- **Contrôle** : Claude réalise dans le dépôt, un relecteur relit, l'utilisateur arbitre. Depuis le
+  2026-10-05, le relecteur est ChatGPT, **sans accès au dépôt** (Codex, auparavant, reproduisait
+  les chiffres sur le dépôt réel). Il relit un export : `node tools/export-relecture.mjs --lot
+  lot-NN --ref <commit>` régénère les dix fichiers de `chatgpt-relecture/` (dossier non suivi, à ne
+  jamais committer sans accord) ; la note de relais `docs/relecture/note-relais.md` se met à jour à
+  la main avant chaque export. Son avis ne vaut ni validation, ni accord de commit, ni accord de
+  push : ce sont trois accords explicites et distincts de l'utilisateur.
 
 ## 6. Ce qui change avec Claude Code
 
