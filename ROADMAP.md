@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-05 (périmètre du lot 15 arbitré)
+**Dernière mise à jour :** 2026-10-05 (clôture du lot 15)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,10 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot 15 « Couleurs, formes, dimensions et poids » :
-périmètre arbitré (29 entrées), proposition lexicale à écrire.**
+**A2-04 · reconstruction du vocabulaire N5 → lot 16, dont le thème et le périmètre restent à
+arbitrer.**
 
-Les lots 0 à 14 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
+Les lots 0 à 15 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
 entrées validées concernées sont corrigées et revalidées.
 
@@ -260,8 +260,8 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.13-C** | Chantier transversal des furigana : addendum A8, correction des entrées validées | ✅ Terminé |
 | **5.14 · lot 13** | Calendrier, dates et durées | ✅ Terminé |
 | **5.15 · lot 14** | Nombres, compteurs et mesures | ✅ Terminé |
-| **Lot 15** | Couleurs, formes, dimensions et poids (29 entrées ; périmètre arbitré, proposition à écrire) | 🔵 En cours |
-| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 16, etc.) | ⬜ À faire |
+| **Lot 15** | Couleurs, formes, dimensions et poids | ✅ Terminé |
+| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 16 : thème et périmètre à arbitrer) | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -278,12 +278,12 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 14
+#### État chiffré après le lot 15
 
--   **501 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **530 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **31 identifiants retirés** ;
--   **187 anciennes entrées encore à décider** ;
--   **1 025 décisions humaines validées** au journal ;
+-   **158 anciennes entrées encore à décider** ;
+-   **1 075 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **1 suffixe** (`半`), seul `suffix` du corpus ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -345,9 +345,21 @@ décisions (D0954 à D1025). Arbitrages appliqués :
     elle est corrigée en ここのつ dans le lot, sans toucher aux sources ;
 -   unités en type nul ; aucun `counter` ; aucune forme ni lecture absente complétée.
 
-**Prochaine action immédiate :** écrire la proposition lexicale du lot 15 « Couleurs, formes,
-dimensions et poids » (29 entrées, périmètre arbitré le 2026-10-05, rapport
-`docs/rapports/etape2-A2-04-lot15-perimetre.md`), puis la faire relire avant toute validation.
+#### Lot 15 · clos
+
+Thème : **Couleurs, formes, dimensions et poids** (29 anciennes entrées, aucune fusion, aucun tag) :
+13 couleurs, 4 de taille, 9 dimensions, 3 de forme et de poids. 36 sens, 50 décisions (D1026 à
+D1075). Arbitrages appliqués :
+
+-   `大きな` et `小さな` en classe `determinant`, chacune sur sa fiche ; `色` sans `suffix` ;
+-   seconds sens de `青`, `青い` et `緑` (la verdure en `groupe_collectif`) ; `薄い` à trois sens ;
+-   un seul sens pour `長い`, `短い`, `低い` et `大きな` : la durée, le prix et la voix, attestés par les
+    fiches, sont conservés en nuance ; ce n'est pas une règle générale, et aucune symétrie n'est
+    imposée entre deux entrées ;
+-   le poids sans catégorie (A5) ; aucune relation, aucune forme ni lecture absente complétée.
+
+**Prochaine action immédiate :** choisir le thème du lot 16 parmi les 158 entrées restantes,
+composer son périmètre par identifiants, puis le faire valider avant toute proposition.
 
 ------------------------------------------------------------------------
 
@@ -628,7 +640,7 @@ Ensuite seulement :
    │   ├── 5.13-C Furigana (A8)             ✅
    │   ├── Lot 13 Calendrier (5.14)         ✅
    │   ├── Lot 14 Nombres (5.15)            ✅
-   │   ├── Lot 15 Couleurs, dimensions      🔵
+   │   ├── Lot 15 Couleurs, dimensions      ✅
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

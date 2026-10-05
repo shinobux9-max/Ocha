@@ -97,9 +97,9 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-05)
 
-- **Lots 0 à 14 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **501 ENTRY,
-  31 retraits, 187 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 025 décisions validées
-  (D0001 à D1025), aucune proposition en cours.
+- **Lots 0 à 15 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **530 ENTRY,
+  31 retraits, 158 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 075 décisions validées
+  (D0001 à D1075), aucune proposition en cours.
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -131,14 +131,19 @@ faut savoir est dans le dépôt.
   D1025 (rapport `docs/rapports/etape2-tache5-15-lot14-valide.md`). Un emploi avec compteur ne
   produit pas automatiquement un sens : les sens suivent les fiches. **Reste ouvert** : l'écart de
   catégorie entre メートル et le sens « kilomètre » de キロ, pour l'audit A2-05.
-- **Lot 15** (« couleurs, formes, dimensions et poids ») : **périmètre arbitré le 2026-10-05**, 29
-  entrées, sans scission ni élargissement (rapport `docs/rapports/etape2-A2-04-lot15-perimetre.md`).
-  小さな est entrée dans `CLASS_EXCEPTION_IDS` : sa classe et son groupe sont décidables, **aucune
-  classe n'est attribuée**. Les cas sensibles du rapport (§5) ne sont pas tranchés.
+- **Lot 15** (« couleurs, formes, dimensions et poids ») : validé, 29 entrées (36 sens) et 50
+  décisions D1026 à D1075 (rapport `docs/rapports/etape2-A2-04-lot15-valide.md`), sur dix-sept choix
+  arbitrés. 大きな et 小さな sont en `determinant` (小さな était entrée dans `CLASS_EXCEPTION_IDS` à
+  l'arbitrage du périmètre) ; 色 reste sans `suffix` ; le poids est sans catégorie (A5). **La fiche
+  entière décide, exemple compris** : les emplois attestés par un exemple (低い et le prix, 大きな et
+  la voix) sont conservés en nuance, sans seuil ni symétrie imposés. **Restent ouverts** : la
+  catégorie du poids, et les sous-catégories absentes d'espace › dimensions (superficie,
+  circonférence, épaisseur).
 - **Numérotation** : à partir du lot 15, un lot est désigné par son numéro (« A2-04 · lot 15 », puis
   lot 16, etc.), sans nouveau numéro de sous-tâche ; **5.16 reste la passe finale et 5.17 la
   publication**. Les rapports se nomment `etape2-A2-04-lot<NN>-<objet>.md`.
-- **Ensuite** : proposition lexicale du lot 15, en `proposed`, pour relecture. Un lot « quantité et
+- **Ensuite** : choix du thème du lot 16 parmi les 158 entrées restantes, puis composition de son
+  périmètre. Un lot « quantité et
   degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et
   `intensifieur`. **Aucune décision avant la validation d'un périmètre.**
 - **Contrôle** : Claude réalise dans le dépôt, Codex relit et reproduit les chiffres sur le dépôt

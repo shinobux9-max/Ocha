@@ -1,0 +1,1161 @@
+{
+  "lot": "lot-15",
+  "title": "Couleurs, formes, dimensions et poids",
+  "entries": {
+    "n5_v_475": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1026",
+        "A2-04-D1027"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'emploie aussi en composé pour nommer une teinte, comme dans 茶色 et 黄色.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Couleur",
+              "alternatives": [
+                "Teinte"
+              ]
+            },
+            "category": {
+              "level_1": "couleurs"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_466": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1028"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'oppose à 黒, le noir.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Blanc",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "noir_blanc_gris",
+              "level_3": "blanc"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_467": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1029"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Adjectif correspondant au nom 白.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Blanc",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "noir_blanc_gris",
+              "level_3": "blanc"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_479": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1030"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Rouge",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "couleurs_chromatiques",
+              "level_3": "rouge"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_480": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1031"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Adjectif correspondant au nom 赤.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Rouge",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "couleurs_chromatiques",
+              "level_3": "rouge"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_487": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1032",
+        "A2-04-D1033"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bleu",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "couleurs_chromatiques",
+              "level_3": "bleu"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Vert (par extension)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "couleurs_chromatiques",
+              "level_3": "vert"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Par extension traditionnelle, pour certains éléments : les feux de circulation, la verdure."
+          }
+        ]
+      }
+    },
+    "n5_v_488": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1034",
+        "A2-04-D1035"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bleu",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "couleurs_chromatiques",
+              "level_3": "bleu"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Vert",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "couleurs_chromatiques",
+              "level_3": "vert"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Dans certains contextes : les fruits non mûrs, les légumes feuillus."
+          }
+        ]
+      }
+    },
+    "n5_v_490": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1036"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Composé de 黄 (jaune) et de 色 (couleur).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Jaune",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "couleurs_chromatiques",
+              "level_3": "jaune"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_491": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1037"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Adjectif correspondant au nom 黄色.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Jaune",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "couleurs_chromatiques",
+              "level_3": "jaune"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_492": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1038"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'oppose à 白, le blanc.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Noir",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "noir_blanc_gris",
+              "level_3": "noir"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_493": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1039",
+        "A2-04-D1040"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Adjectif correspondant au nom 黒.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Noir",
+              "alternatives": [
+                "Sombre"
+              ]
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "noir_blanc_gris",
+              "level_3": "noir"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_473": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1041",
+        "A2-04-D1042"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Souvent suivi de の pour qualifier un nom : 緑の色.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vert",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "couleurs_chromatiques",
+              "level_3": "vert"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          },
+          {
+            "meaning": {
+              "primary": "Verdure",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "monde_naturel",
+              "level_2": "vegetation"
+            },
+            "semantic_type": "groupe_collectif",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_693": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1043"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Littéralement « couleur de thé ». S'emploie avec の devant un nom.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Marron",
+              "alternatives": [
+                "Brun"
+              ]
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "couleurs_chromatiques",
+              "level_3": "brun"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_440": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1044"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une taille, un volume ou une superficie. Contraire : 小さい.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Grand",
+              "alternatives": [
+                "Gros",
+                "Vaste"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions",
+              "level_3": "taille"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_441": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1045",
+        "A2-04-D1046",
+        "A2-04-D1075"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Toujours placé directement devant un nom, sans ajout de la particule な. Dérivé de 大きい. L'exemple source l'emploie aussi pour une voix forte : 大きなこえ. La source donne aussi la traduction « important », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Grand",
+              "alternatives": [
+                "Vaste"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions",
+              "level_3": "taille"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "determinant",
+        "group": null
+      }
+    },
+    "n5_v_445": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1047"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une taille, un volume ou une superficie. Contraire : 大きい.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Petit",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions",
+              "level_3": "taille"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_446": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1048",
+        "A2-04-D1049",
+        "A2-04-D1050"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Toujours placé directement devant un nom, sans ajout de la particule な. Dérivé de 小さい. La source donne aussi la traduction « modeste », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Petit",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions",
+              "level_3": "taille"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "determinant",
+        "group": null
+      }
+    },
+    "n5_v_485": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1051",
+        "A2-04-D1052"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une longueur dans l'espace (une route, des cheveux) ou une durée. Contraire : 短い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Long",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions",
+              "level_3": "longueur"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_468": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1053"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une longueur dans l'espace (une corde, des cheveux) ou une durée. Contraire : 長い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Court",
+              "alternatives": [
+                "Bref"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions",
+              "level_3": "longueur"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_448": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1054",
+        "A2-04-D1055"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une grande superficie, une pièce spacieuse, un espace étendu. Contraire : 狭い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Spacieux",
+              "alternatives": [
+                "Vaste",
+                "Large"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_463": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1056",
+        "A2-04-D1057"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une superficie restreinte, un passage étroit, une pièce exiguë. Contraire : 広い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Étroit",
+              "alternatives": [
+                "Exigu"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_443": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1058",
+        "A2-04-D1059"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un objet allongé ou cylindrique de forte circonférence : un tronc d'arbre, une jambe, une corde. Contraire : 細い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Gros",
+              "alternatives": [
+                "Épais"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_469": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1060",
+        "A2-04-D1061"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un objet allongé ou un membre de faible circonférence ou épaisseur ; aussi un chemin étroit (このみちは細いです). Contraire : 太い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mince",
+              "alternatives": [
+                "Fin",
+                "Étroit"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_435": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1062",
+        "A2-04-D1063",
+        "A2-04-D1064"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'épaisseur d'un objet plat ou volumineux : un livre, un manteau, une planche. Contraire : 薄い. La source donne aussi la traduction « chaleureux (pour l'accueil) », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Épais",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_477": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1065",
+        "A2-04-D1066",
+        "A2-04-D1067"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mince",
+              "alternatives": [
+                "Fin"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Un objet plat de faible épaisseur : une feuille de papier. Contraire : 厚い."
+          },
+          {
+            "meaning": {
+              "primary": "Pâle",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "couleurs",
+              "level_2": "teintes_nuances",
+              "level_3": "intensite"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une couleur claire et peu intense."
+          },
+          {
+            "meaning": {
+              "primary": "Léger (goût)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "gouts_alimentaires"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Un liquide dilué."
+          }
+        ]
+      }
+    },
+    "n5_v_183": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1068"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une faible hauteur ou un niveau peu élevé : une température, une note, une voix, un prix (値段は低くありません). Pour dire « bon marché », on emploie plutôt 安い. Contraire : 高い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bas",
+              "alternatives": [
+                "Peu élevé"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "dimensions",
+              "level_3": "hauteur"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_431": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Rond",
+              "alternatives": [
+                "Circulaire",
+                "Sphérique"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "forme",
+              "level_3": "rond"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_484": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1069",
+        "A2-04-D1070",
+        "A2-04-D1071"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lourd",
+              "alternatives": [
+                "Pesant"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Contraire : 軽い."
+          },
+          {
+            "meaning": {
+              "primary": "Grave",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une situation, une responsabilité, une atmosphère, une charge morale."
+          }
+        ]
+      }
+    },
+    "n5_v_62": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1072",
+        "A2-04-D1073",
+        "A2-04-D1074"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Léger",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Contraire : 重い."
+          },
+          {
+            "meaning": {
+              "primary": "Bénin",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "sante_medecine",
+              "level_2": "maladies_troubles"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une maladie ou un symptôme sans gravité."
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

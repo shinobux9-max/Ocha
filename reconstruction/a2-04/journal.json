@@ -14380,5 +14380,718 @@
     ],
     "after": null,
     "reason": "La fiche parle d'« une part égale divisée en deux », ce que « Moitié » dit déjà ; isolée, la traduction est imprécise."
+  },
+  {
+    "id": "A2-04-D1026",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_475",
+    "field": "suffix",
+    "kind": "decision",
+    "before": false,
+    "after": false,
+    "reason": "suffix : false. La fiche dit que 色 est « utilisé en suffixe/composé pour qualifier les différentes teintes », sans le décrire comme un suffixe ni donner d'emploi suffixé, à la différence de 半 (« Nom suffixe ou nominal », 三時半, lot 13). Les composés présents dans les sources, 茶色 et 黄色, sont des entrées à part entière. L'emploi en composé est décrit en nuance. Cette décision ne crée aucune ENTRY d'affixe et ne préjuge pas de la représentation des affixes (point ouvert)."
+  },
+  {
+    "id": "A2-04-D1027",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_475",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "couleurs",
+    "reason": "Catégorie au seul niveau 1 : 色 désigne la couleur en général ; aucune sous-catégorie du registre (couleurs chromatiques, noir, blanc et gris, teintes et nuances, propriétés chromatiques) ne la restreint. Type propriete, comme les noms de couleur du lot."
+  },
+  {
+    "id": "A2-04-D1028",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_466",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Couleur blanche"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1029",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_467",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "De couleur blanche"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1030",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_479",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Couleur rouge"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1031",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_480",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "De couleur rouge"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1032",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_487",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Bleu",
+      "Couleur bleue",
+      "Vert (par extension traditionnelle pour certains éléments naturels comme les feux de circulation ou la verdure)"
+    ],
+    "after": [
+      "S1 Bleu",
+      "S2 Vert (par extension)"
+    ],
+    "reason": "Deux sens : la couleur bleue, et, « par extension traditionnelle », le vert de certains éléments. La traduction de la source dit elle-même à quoi s'applique l'extension (feux de circulation, verdure) ; la nuance de la fiche ne parle que du bleu. Ce sont deux teintes que le registre distingue (bleu, vert), donc deux référents. Sens 2 candidat ; alternative : un seul sens, l'extension passant en nuance."
+  },
+  {
+    "id": "A2-04-D1033",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_487",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Couleur bleue"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1034",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_488",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Bleu",
+      "De couleur bleue",
+      "Vert (jeune, immature)"
+    ],
+    "after": [
+      "S1 Bleu",
+      "S2 Vert (certains contextes)"
+    ],
+    "reason": "Deux sens : le bleu, et le vert de certains contextes, que la nuance de la fiche décrit (« fruits non mûrs », « légumes feuillus »). La traduction « Vert (jeune, immature) » est ramenée à « Vert » : la fiche ne développe que la couleur de ce qui n'est pas mûr ; une portée figurée (une personne immature) n'y est pas décrite et n'est pas ajoutée. Sens 2 candidat ; alternative : un seul sens, le vert passant en nuance."
+  },
+  {
+    "id": "A2-04-D1035",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_488",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "De couleur bleue"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1036",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_490",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Couleur jaune"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1037",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_491",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "De couleur jaune"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1038",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_492",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Couleur noire"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1039",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_493",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Noir",
+      "De couleur noire",
+      "Sombre"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la couleur noire. « Sombre » est gardé comme autre traduction de ce sens (une couleur très foncée) ; la fiche ne décrit aucun autre emploi, et aucun sens n'est créé pour lui."
+  },
+  {
+    "id": "A2-04-D1040",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_493",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "De couleur noire"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1041",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_473",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Vert",
+      "Verdure",
+      "Couleur verte"
+    ],
+    "after": [
+      "S1 Vert (couleur)",
+      "S2 Verdure"
+    ],
+    "reason": "Deux sens documentés par la fiche : sa nuance dit « désignant la couleur verte ou la verdure de la nature », et son exemple porte sur la végétation (こうえんに緑がたくさんあります, « il y a beaucoup de verdure dans le parc »). Une couleur, et la végétation : deux référents, deux types. La verdure : monde naturel › végétation, au niveau 2 (aucune sous-catégorie ne convient : arbres, fleurs, herbes, plantes sauvages). Type groupe_collectif : la verdure est un ensemble de plantes considéré collectivement (A2-ST, « ensemble de personnes ou d'entités considéré collectivement »), non un être vivant particulier ; organisme_vivant, retenu pour 木 et 花 (lot 07), désigne une plante, pas la végétation d'un lieu. Sens 2 candidat ; alternative : un seul sens, « verdure » passant en nuance."
+  },
+  {
+    "id": "A2-04-D1042",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_473",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Couleur verte"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1043",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_693",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Couleur thé"
+    ],
+    "after": null,
+    "reason": "Glose littérale du composé (茶, thé ; 色, couleur), et non une traduction : reprise en nuance."
+  },
+  {
+    "id": "A2-04-D1044",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_440",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Volumineux"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Gros »."
+  },
+  {
+    "id": "A2-04-D1045",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_441",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif en na (ancien type ; exception de classe)",
+    "after": "determinant",
+    "reason": "Classe mécanique inapplicable (exception) : la fiche décrit 大きな comme un « adjectif adnominal », qui « se place obligatoirement directement devant un nom sans prendre la particule na (contrairement aux adjectifs en na classiques) ». Il ne se conjugue pas et ne s'emploie pas en prédicat : c'est le comportement d'un déterminant, comme この (lot 11), et non celui d'un adjectif en な. group : null (A2-02)."
+  },
+  {
+    "id": "A2-04-D1046",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_441",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Important"
+    ],
+    "after": null,
+    "reason": "Emploi figuré que la fiche ne développe pas (sa nuance ne décrit que la place devant le nom) : ce n'est ni un sens, ni une traduction du sens de taille. Signalé en nuance comme traduction de la source non développée, comme « néant » pour ゼロ (lot 14)."
+  },
+  {
+    "id": "A2-04-D1047",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_445",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Réduit",
+      "Minime"
+    ],
+    "after": null,
+    "reason": "Redondants : la fiche ne décrit que de faibles dimensions physiques."
+  },
+  {
+    "id": "A2-04-D1048",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_446",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif en na (ancien type ; exception de classe, arbitrage du périmètre du lot 15)",
+    "after": "determinant",
+    "reason": "Classe mécanique inapplicable (exception) : la fiche décrit 小さな comme un « adjectif adnominal », qui « se place obligatoirement directement devant un nom sans prendre la particule na ». Il ne se conjugue pas et ne s'emploie pas en prédicat : c'est le comportement d'un déterminant, comme この (lot 11). Décidé sur sa propre fiche ; la même classe que 大きな en résulte. group : null (A2-02)."
+  },
+  {
+    "id": "A2-04-D1049",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_446",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Modeste"
+    ],
+    "after": null,
+    "reason": "Emploi figuré que la fiche ne développe pas (sa nuance ne décrit que la place devant le nom) : ce n'est ni un sens, ni une traduction du sens de taille. Signalé en nuance comme traduction de la source non développée."
+  },
+  {
+    "id": "A2-04-D1050",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_446",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "De petite taille"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1051",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_485",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Long",
+      "De longue durée"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : la fiche applique la même échelle à « une longueur physique » et à « une durée temporelle prolongée », avec un seul contraire (短い), comme 近い pour l'espace et le temps (lot 10). La durée est bien attestée : par la traduction, par la nuance et par l'exemple de la fiche (なつやすみは長いです, « les vacances d'été sont longues ») ; elle est conservée, en nuance. Alternative laissée à l'arbitrage : un second sens, temps › durée."
+  },
+  {
+    "id": "A2-04-D1052",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_485",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "De longue durée"
+    ],
+    "after": null,
+    "reason": "Emploi temporel du même sens, repris en nuance."
+  },
+  {
+    "id": "A2-04-D1053",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_468",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Court",
+      "Bref"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens, examiné sur sa propre fiche avec le même critère que 長い : la fiche applique la même échelle à « une longueur physique réduite » et à « une durée brève », avec un seul contraire (長い). « Bref » est gardé comme autre traduction ; la durée est dite en nuance. Alternative : un second sens, temps › durée."
+  },
+  {
+    "id": "A2-04-D1054",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_448",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "espace_proprietes_spatiales › dimensions",
+    "reason": "Catégorie au niveau 2 (espace › dimensions) : la fiche parle d'une superficie, d'une pièce et d'un espace, que les sous-catégories du registre (longueur, largeur, hauteur, profondeur, taille) ne détaillent pas ; « largeur » ne conviendrait qu'à une partie des emplois."
+  },
+  {
+    "id": "A2-04-D1055",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_448",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Grand (superficie)"
+    ],
+    "after": null,
+    "reason": "Redondant ; la superficie est dite en nuance."
+  },
+  {
+    "id": "A2-04-D1056",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_463",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "espace_proprietes_spatiales › dimensions",
+    "reason": "Catégorie au niveau 2 (espace › dimensions) : la fiche parle d'une superficie, d'une pièce et d'un espace, que les sous-catégories du registre (longueur, largeur, hauteur, profondeur, taille) ne détaillent pas ; « largeur » ne conviendrait qu'à une partie des emplois."
+  },
+  {
+    "id": "A2-04-D1057",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_463",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Resserré",
+      "Petit (espace)"
+    ],
+    "after": null,
+    "reason": "Redondants."
+  },
+  {
+    "id": "A2-04-D1058",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_443",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "espace_proprietes_spatiales › dimensions",
+    "reason": "Catégorie au niveau 2 (espace › dimensions) : la fiche parle de la circonférence ou de l'épaisseur d'un objet allongé, que les sous-catégories du registre (longueur, largeur, hauteur, profondeur, taille) ne détaillent pas."
+  },
+  {
+    "id": "A2-04-D1059",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_443",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Large (pour un objet cylindrique ou allongé)"
+    ],
+    "after": null,
+    "reason": "La précision est reprise en nuance ; « large » seul serait imprécis."
+  },
+  {
+    "id": "A2-04-D1060",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_469",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "espace_proprietes_spatiales › dimensions",
+    "reason": "Catégorie au niveau 2 (espace › dimensions) : la fiche parle de la circonférence ou de l'épaisseur d'un objet allongé, que les sous-catégories du registre (longueur, largeur, hauteur, profondeur, taille) ne détaillent pas."
+  },
+  {
+    "id": "A2-04-D1061",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_469",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Étroit (allongé)"
+    ],
+    "after": "Étroit",
+    "reason": "« Étroit » est gardé comme autre traduction, sans sa parenthèse : l'exemple de la fiche l'atteste pour un chemin (このみちは細いです, « ce chemin est étroit / fin »). La précision « allongé » est reprise en nuance. Un seul sens : la faible largeur d'un objet allongé, que la fiche ne distingue pas de sa minceur."
+  },
+  {
+    "id": "A2-04-D1062",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_435",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "espace_proprietes_spatiales › dimensions",
+    "reason": "Catégorie au niveau 2 (espace › dimensions) : l'épaisseur n'est aucune des sous-catégories du registre (longueur, largeur, hauteur, profondeur, taille)."
+  },
+  {
+    "id": "A2-04-D1063",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_435",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Volumineux"
+    ],
+    "after": null,
+    "reason": "La fiche dit qu'on qualifie l'épaisseur d'un objet « plat ou volumineux » : c'est l'objet qui est volumineux, ce n'est pas le sens du mot."
+  },
+  {
+    "id": "A2-04-D1064",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_435",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Chaleureux (pour l'accueil)"
+    ],
+    "after": null,
+    "reason": "Emploi figuré que la nuance de la fiche ne développe pas : ce n'est ni un sens, ni une traduction du sens d'épaisseur. Signalé en nuance comme traduction de la source non développée, comme « néant » pour ゼロ (lot 14)."
+  },
+  {
+    "id": "A2-04-D1065",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_477",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Mince",
+      "Fin",
+      "Pale (couleur)",
+      "Léger (goût)"
+    ],
+    "after": [
+      "S1 Mince (épaisseur)",
+      "S2 Pâle (couleur)",
+      "S3 Léger (goût)"
+    ],
+    "reason": "Trois sens, que la fiche énumère (« un objet plat de faible épaisseur », « un liquide dilué », « une couleur claire et peu intense ») : une épaisseur, l'intensité d'une couleur, la force d'un goût ; trois référents, trois domaines du registre. Le goût : alimentation › goûts alimentaires, au niveau 2 (aucune saveur du registre ne convient). Sens 2 et 3 candidats ; alternative : un seul sens, la couleur et le goût passant en nuance."
+  },
+  {
+    "id": "A2-04-D1066",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_477",
+    "field": "senses",
+    "kind": "correction",
+    "before": "Pale (couleur)",
+    "after": "Pâle",
+    "reason": "Coquille de la source (accent manquant)."
+  },
+  {
+    "id": "A2-04-D1067",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_477",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "espace_proprietes_spatiales › dimensions",
+    "reason": "Catégorie au niveau 2 (espace › dimensions) : l'épaisseur n'est aucune des sous-catégories du registre (longueur, largeur, hauteur, profondeur, taille)."
+  },
+  {
+    "id": "A2-04-D1068",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_183",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Bas",
+      "Peu élevé (en parlant d'une hauteur, d'un prix ou d'une voix)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : une faible hauteur ou un niveau peu élevé, dans la même catégorie que le sens « haut » de 高い (lot 05). L'emploi pour un prix est attesté par la fiche entière : sa traduction le cite (« en parlant d'une hauteur, d'un prix ou d'une voix ») et son exemple porte sur des prix (値段は…低くありません, « les prix … ne sont pas très bas »). Sa nuance dit qu'on utilise « plutôt » 安い pour un prix bas : c'est une préférence, qui n'écarte pas l'emploi. Il est donc conservé, dans le sens unique et en nuance : le prix y est un niveau sur la même échelle (bas, élevé), comme la température ou la note. Alternative laissée à l'arbitrage : un second sens, économie › prix, comme le sens « cher » de 高い ; la symétrie avec 高い n'est imposée ni dans un sens ni dans l'autre. « Peu élevé » est gardé sans sa parenthèse, reprise en nuance."
+  },
+  {
+    "id": "A2-04-D1069",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_484",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Lourd",
+      "Pesant",
+      "Grave (situation, responsabilité)"
+    ],
+    "after": [
+      "S1 Lourd (poids)",
+      "S2 Grave"
+    ],
+    "reason": "Deux sens documentés par la fiche (« un poids physique important … ou par extension une atmosphère, une responsabilité ou une charge morale pesante ») : une propriété physique, et la gravité d'une situation ; deux référents. Alternative : un seul sens, l'extension passant en nuance."
+  },
+  {
+    "id": "A2-04-D1070",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_484",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Aucune catégorie primaire pertinente : le poids est une propriété physique générale d'un objet, que le registre ne range nulle part (espace › dimensions ne couvre que longueur, largeur, hauteur, profondeur et taille ; sciences › physique désigne la discipline, non la propriété d'un objet du quotidien). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1071",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_484",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Gravité d'une situation, d'une responsabilité ou d'une atmosphère : « propriété générale », sans domaine thématique propre (comme 甘い « indulgent », lot 02). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1072",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_62",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Léger",
+      "Peu lourd",
+      "Bénin (maladie)"
+    ],
+    "after": [
+      "S1 Léger (poids)",
+      "S2 Bénin (maladie)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« signifie \"léger\" … et qualifie aussi une maladie ou un symptôme sans gravité ») : une propriété physique, et la faible gravité d'une maladie ; deux référents. Le second : santé › maladies et troubles, au niveau 2. Décidé sur sa propre fiche : le second sens n'est pas celui de 重い, dont la fiche parle d'une charge morale. Alternative : un seul sens, la maladie passant en nuance."
+  },
+  {
+    "id": "A2-04-D1073",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_62",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Aucune catégorie primaire pertinente : le poids est une propriété physique générale d'un objet, que le registre ne range nulle part (espace › dimensions ne couvre que longueur, largeur, hauteur, profondeur et taille ; sciences › physique désigne la discipline, non la propriété d'un objet du quotidien). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1074",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_62",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Peu lourd"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1075",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-15",
+    "entry": "n5_v_441",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Grand",
+      "Vaste",
+      "Important"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé, classé en taille (espace › dimensions › taille). L'exemple de la fiche emploie 大きな pour une voix (大きなこえ, « une grande voix (fort) ») : un emploi non spatial, que ni les traductions ni la nuance de la fiche ne développent. L'exemple atteste l'emploi pour une voix forte. La proposition le conserve comme extension du sens unique en nuance ; sa séparation en un second sens reste soumise à l'arbitrage. Alternative : un second sens pour l'intensité (une voix forte), comme les extensions de 低い et de 長い, elles aussi laissées à l'arbitrage."
   }
 ]
