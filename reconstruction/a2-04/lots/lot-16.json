@@ -1,0 +1,797 @@
+{
+  "lot": "lot-16",
+  "title": "Préférences, appréciations et états de la personne",
+  "entries": {
+    "n5_v_444": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1076",
+        "A2-04-D1077",
+        "A2-04-D1078"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Ce qu'on aime est marqué par が, avant 好き : りんごが好きです (j'aime les pommes).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Aimer",
+              "alternatives": [
+                "Aimé",
+                "Préféré"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "preferences"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_2": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1079"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un degré très élevé de 好き, pour une personne, un plat ou une chose.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Adorer",
+              "alternatives": [
+                "Aimer beaucoup"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "preferences"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_3": {
+      "status": "validated",
+      "journal": [],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'emploie directement, sans détour, au quotidien.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Détester",
+              "alternatives": [
+                "Ne pas aimer"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "preferences"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_659": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1080",
+        "A2-04-D1081",
+        "A2-04-D1082",
+        "A2-04-D1083"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'aversion ou le désagrément. Sert aussi, familièrement, à refuser nettement : « non, je ne veux pas ».",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Désagréable",
+              "alternatives": [
+                "Détestable"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "preferences"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "adjectif_na",
+        "group": "na"
+      }
+    },
+    "n5_v_6": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1084",
+        "A2-04-D1085"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le désir d'obtenir un objet.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Vouloir",
+              "alternatives": [
+                "Désirer"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "etats_psychologiques"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_5": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1086"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un moment, une situation ou une activité qui procure du plaisir.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Amusant",
+              "alternatives": [
+                "Agréable"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "emotions_sentiments",
+              "level_3": "joie_plaisir"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_426": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1087",
+        "A2-04-D1088"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Ce qui manque d'intérêt : un contenu, un livre, une situation. Se dit aussi par modestie, en offrant un petit cadeau (« sans valeur »).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ennuyeux",
+              "alternatives": [
+                "Inintéressant"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "attention"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_429": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1089"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'activité est souvent marquée par が : えが上手です (être doué en dessin).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Doué",
+              "alternatives": [
+                "Habile",
+                "Bon (dans un domaine)"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "capacites_aptitudes",
+              "level_3": "habilete"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_430": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1090"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le manque d'habileté dans une activité : りょうりが下手です (cuisiner mal). Contraire : 上手.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Maladroit",
+              "alternatives": [
+                "Nul",
+                "Mauvais (en pratique)"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "capacites_aptitudes",
+              "level_3": "habilete"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_456": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1091",
+        "A2-04-D1092",
+        "A2-04-D1093"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une tâche, un exercice ou une épreuve sans difficulté. Même lecture que l'adjectif signifiant « aimable, gentil », qui s'écrit autrement.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Facile",
+              "alternatives": [
+                "Simple"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [
+              {
+                "axis": "facilite_difficulte",
+                "pole": "facilite"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_486": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1094",
+        "A2-04-D1095",
+        "A2-04-D1096"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une tâche, une question ou une situation qui demande de l'effort ou de la réflexion. Contraire : 易しい.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Difficile",
+              "alternatives": [
+                "Compliqué"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [
+              {
+                "axis": "facilite_difficulte",
+                "pole": "difficulte"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_452": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1097",
+        "A2-04-D1098",
+        "A2-04-D1099",
+        "A2-04-D1100"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Moralement ou physiquement mauvais, ou de mauvaise qualité : めが悪いです (avoir une mauvaise vue). Sert aussi, familièrement, à s'excuser : « c'est ma faute, désolé ».",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mauvais",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_442": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1101",
+        "A2-04-D1102",
+        "A2-04-D1103",
+        "A2-04-D1104"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Ce qui a de la valeur ou de l'importance, ou à quoi l'on tient : une personne, un objet, une notion.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Important",
+              "alternatives": [
+                "Précieux",
+                "Cher"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [
+              {
+                "axis": "importance_insignifiance",
+                "pole": "importance"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_609": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1105",
+        "A2-04-D1106",
+        "A2-04-D1107",
+        "A2-04-D1108"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Magnifique",
+              "alternatives": [
+                "Superbe",
+                "Splendide"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une chose grande, impressionnante ou élégante : un bâtiment."
+          },
+          {
+            "meaning": {
+              "primary": "Remarquable",
+              "alternatives": [
+                "Digne"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Une personne au comportement admirable."
+          }
+        ],
+        "grammatical_class": "adjectif_na",
+        "group": "na"
+      }
+    },
+    "n5_v_432": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1109",
+        "A2-04-D1110"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un objet, un service ou un endroit qui facilite la vie.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pratique",
+              "alternatives": [
+                "Commode",
+                "Utile"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [
+              {
+                "axis": "utilite_inutilite",
+                "pole": "utilite"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_458": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1111",
+        "A2-04-D1112"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une personne, un lieu ou une chose qui jouit d'une grande notoriété.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Célèbre",
+              "alternatives": [
+                "Connu"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_434": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1113",
+        "A2-04-D1114",
+        "A2-04-D1115",
+        "A2-04-D1116"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une situation qui présente un risque ou un danger. S'emploie seul pour avertir : « Attention ! ».",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dangereux",
+              "alternatives": [
+                "Risqué"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_433": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1117",
+        "A2-04-D1118"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'énergie, la bonne santé ou le dynamisme d'une personne. La source donne aussi la traduction « joyeux », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "En forme",
+              "alternatives": [
+                "En bonne santé",
+                "Vigoureux"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "etats_besoins_physiques",
+              "level_3": "fatigue_energie_physique"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_457": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1119",
+        "A2-04-D1120",
+        "A2-04-D1121"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Avoir du temps libre, ne pas être pris par le travail ou des obligations.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Libre",
+              "alternatives": [
+                "Temps libre"
+              ]
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_144": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1122",
+        "A2-04-D1123"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un emploi du temps chargé, par le travail ou les tâches.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Occupé",
+              "alternatives": [
+                "Pris",
+                "Débordé"
+              ]
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_512": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1124",
+        "A2-04-D1125",
+        "A2-04-D1126"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'emploie souvent seul, pour rassurer ou dire que tout est en ordre. La source donne aussi les traductions « en sécurité » et « correct », sans les développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ça va",
+              "alternatives": [
+                "Pas de problème",
+                "Tout va bien"
+              ]
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

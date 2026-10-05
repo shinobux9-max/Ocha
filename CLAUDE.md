@@ -97,9 +97,9 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-05)
 
-- **Lots 0 à 15 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **530 ENTRY,
-  31 retraits, 158 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 075 décisions validées
-  (D0001 à D1075), aucune proposition en cours.
+- **Lots 0 à 16 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **551 ENTRY,
+  31 retraits, 137 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 126 décisions validées
+  (D0001 à D1126), aucune proposition en cours.
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -142,8 +142,16 @@ faut savoir est dans le dépôt.
 - **Numérotation** : à partir du lot 15, un lot est désigné par son numéro (« A2-04 · lot 15 », puis
   lot 16, etc.), sans nouveau numéro de sous-tâche ; **5.16 reste la passe finale et 5.17 la
   publication**. Les rapports se nomment `etape2-A2-04-lot<NN>-<objet>.md`.
-- **Ensuite** : choix du thème du lot 16 parmi les 158 entrées restantes, puis composition de son
-  périmètre. Un lot « quantité et
+- **Lot 16** (« préférences, appréciations et états de la personne ») : validé, 21 adjectifs (22
+  sens) et 51 décisions D1076 à D1126 (rapport `docs/rapports/etape2-A2-04-lot16-valide.md`), sur
+  dix-huit choix arbitrés. Deux principes arbitrés avec le périmètre : **un axe d'A2-DIM est employé
+  lorsqu'il décrit directement le sens**, et seulement alors ; **une traduction française naturelle**
+  (« aimer », « vouloir », « libre ») **lorsque la fiche l'atteste**, la classe japonaise restant
+  dite. Les emplois d'adresse (refus, excuse, avertissement) sont conservés en nuance, sans sens ni
+  fonction. **Restent ouverts** : les fiches « adjectif en na (et nom) », le schéma ne portant
+  qu'une classe ; les douze catégories nulles du lot, pour l'audit A2-05.
+- **Ensuite** : choix du thème du lot 17 parmi les 137 entrées restantes, puis composition de son
+  périmètre. Un lot voisin du lot 16 réunirait 17 adjectifs des choses et des lieux. Un lot « quantité et
   degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et
   `intensifieur`. **Aucune décision avant la validation d'un périmètre.**
 - **Contrôle** : Claude réalise dans le dépôt, Codex relit et reproduit les chiffres sur le dépôt

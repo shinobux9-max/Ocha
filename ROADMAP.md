@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-05 (clôture du lot 15)
+**Dernière mise à jour :** 2026-10-05 (clôture du lot 16)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,10 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot 16, dont le thème et le périmètre restent à
+**A2-04 · reconstruction du vocabulaire N5 → lot 17, dont le thème et le périmètre restent à
 arbitrer.**
 
-Les lots 0 à 15 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
+Les lots 0 à 16 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
 entrées validées concernées sont corrigées et revalidées.
 
@@ -261,7 +261,8 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **5.14 · lot 13** | Calendrier, dates et durées | ✅ Terminé |
 | **5.15 · lot 14** | Nombres, compteurs et mesures | ✅ Terminé |
 | **Lot 15** | Couleurs, formes, dimensions et poids | ✅ Terminé |
-| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 16 : thème et périmètre à arbitrer) | ⬜ À faire |
+| **Lot 16** | Préférences, appréciations et états de la personne | ✅ Terminé |
+| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 17 : thème et périmètre à arbitrer) | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -278,12 +279,12 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 15
+#### État chiffré après le lot 16
 
--   **530 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **551 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **31 identifiants retirés** ;
--   **158 anciennes entrées encore à décider** ;
--   **1 075 décisions humaines validées** au journal ;
+-   **137 anciennes entrées encore à décider** ;
+-   **1 126 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **1 suffixe** (`半`), seul `suffix` du corpus ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -358,7 +359,20 @@ D1075). Arbitrages appliqués :
     imposée entre deux entrées ;
 -   le poids sans catégorie (A5) ; aucune relation, aucune forme ni lecture absente complétée.
 
-**Prochaine action immédiate :** choisir le thème du lot 16 parmi les 158 entrées restantes,
+#### Lot 16 · clos
+
+Thème : **Préférences, appréciations et états de la personne** (21 anciennes entrées, toutes des
+adjectifs ; aucune fusion, aucun tag) : 5 préférences et désirs, 2 de plaisir et d'intérêt, 4 de
+compétence et de difficulté, 6 d'appréciation et de valeur, 4 états de la personne. 22 sens, 51
+décisions (D1076 à D1126). Arbitrages appliqués :
+
+-   traductions françaises naturelles lorsque la fiche les atteste (`好き` « Aimer », `欲しい`
+    « Vouloir », `暇` « Libre »), sans toucher à la classe japonaise ;
+-   un axe d'A2-DIM lorsqu'il décrit directement le sens : `易しい`, `難しい`, `大切`, `便利` ;
+-   emplois d'adresse conservés en nuance (`嫌`, `悪い`, `危ない`) ; douze catégories nulles (A5) ;
+-   `立派` à deux sens ; la nuance de `好き` suit son exemple (が avant 好き), contre la source.
+
+**Prochaine action immédiate :** choisir le thème du lot 17 parmi les 137 entrées restantes,
 composer son périmètre par identifiants, puis le faire valider avant toute proposition.
 
 ------------------------------------------------------------------------
@@ -641,6 +655,7 @@ Ensuite seulement :
    │   ├── Lot 13 Calendrier (5.14)         ✅
    │   ├── Lot 14 Nombres (5.15)            ✅
    │   ├── Lot 15 Couleurs, dimensions      ✅
+   │   ├── Lot 16 Préférences, états        ✅
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

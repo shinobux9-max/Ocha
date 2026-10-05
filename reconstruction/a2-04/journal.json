@@ -15093,5 +15093,737 @@
     ],
     "after": "un seul sens",
     "reason": "Un seul sens proposé, classé en taille (espace › dimensions › taille). L'exemple de la fiche emploie 大きな pour une voix (大きなこえ, « une grande voix (fort) ») : un emploi non spatial, que ni les traductions ni la nuance de la fiche ne développent. L'exemple atteste l'emploi pour une voix forte. La proposition le conserve comme extension du sens unique en nuance ; sa séparation en un second sens reste soumise à l'arbitrage. Alternative : un second sens pour l'intensité (une voix forte), comme les extensions de 低い et de 長い, elles aussi laissées à l'arbitrage."
+  },
+  {
+    "id": "A2-04-D1076",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_444",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Aimé",
+      "Préféré",
+      "Que l'on aime",
+      "Favori"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : l'affection ou la préférence pour quelqu'un ou quelque chose. Traduction principale « Aimer », forme naturelle en français, attestée par l'exemple de la fiche (りんごが好きです, « j'aime les pommes ») ; « Aimé » et « Préféré », traductions de la source, sont gardées. 好き reste un adjectif en な (classe mécanique) : la traduction par un verbe ne change pas sa classe. La fiche dit « adjectif en na (et nom) » ; le schéma ne porte qu'une classe, rien n'est ajouté. Psychologie › préférences ; type propriete (A2-ST : « caractéristique attribuable à une entité, indépendamment du fait qu'elle soit permanente ou variable ») : aimer quelque chose est une caractéristique que l'on attribue à la personne, non la condition où elle se trouve dans une situation donnée. Alternative : garder « Aimé » en traduction principale."
+  },
+  {
+    "id": "A2-04-D1077",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_444",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Que l'on aime",
+      "Favori"
+    ],
+    "after": null,
+    "reason": "Redondants."
+  },
+  {
+    "id": "A2-04-D1078",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_444",
+    "field": "nuance",
+    "kind": "correction",
+    "before": "généralement suivi de la particule ga pour l'objet aimé",
+    "after": "が marque ce qu'on aime, avant 好き",
+    "reason": "Confusion de la source : sa nuance dit 好き « suivi de » が, alors que son exemple place が avant 好き, après l'objet aimé (りんごが好きです). La nuance rédigée suit l'exemple. Le champ mécanique des particules de la fiche, vide, n'est pas complété."
+  },
+  {
+    "id": "A2-04-D1079",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_2",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Être très friand de"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1080",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_659",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif (ancien type sans classe par défaut)",
+    "after": "adjectif_na",
+    "reason": "Classe adjectif_na : la fiche dit « adjectif en -na », et l'ancien group est na. group : na."
+  },
+  {
+    "id": "A2-04-D1081",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_659",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Désagréable",
+      "Détestable",
+      "Répugnant",
+      "Refus (non merci)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : ce qui déplaît, que l'exemple de la fiche traduit « c'est désagréable (je n'aime pas) ». L'emploi de refus (« non, je ne veux pas »), que la nuance décrit, est un emploi d'adresse : il est conservé en nuance, comme l'exclamation de 痛い (lot 01), sans créer de sens ni de fonction pragmatique (les fonctions d'A2-LING n'ont pas de définition normative). 嫌 et 嫌い sont deux mots distincts, sans fusion. Alternative laissée à l'arbitrage : un second sens pour le refus."
+  },
+  {
+    "id": "A2-04-D1082",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_659",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Répugnant"
+    ],
+    "after": null,
+    "reason": "Redondant, et plus fort que ce que décrit la fiche."
+  },
+  {
+    "id": "A2-04-D1083",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_659",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Refus (non merci)"
+    ],
+    "after": null,
+    "reason": "Emploi d'adresse, repris en nuance."
+  },
+  {
+    "id": "A2-04-D1084",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_6",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "etre_humain › psychologie_esprit › etats_psychologiques",
+    "reason": "Psychologie et esprit › états psychologiques : la fiche décrit « le désir d'obtenir un objet », un état psychologique de la personne ; « préférences » dit ce qu'on aime, non ce qu'on veut avoir. Type etat (A2-ST : « condition dans laquelle se trouve momentanément ou contextuellement une entité ») : vouloir un objet est la condition d'une personne dans une situation donnée, comme l'exemple de la fiche (« je veux une nouvelle voiture »). Traduction par un verbe, comme la source ; 欲しい reste un adjectif en い (classe mécanique)."
+  },
+  {
+    "id": "A2-04-D1085",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_6",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Souhaiter (avoir quelque chose)"
+    ],
+    "after": null,
+    "reason": "Redondant ; la précision est reprise en nuance."
+  },
+  {
+    "id": "A2-04-D1086",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_5",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Joyeux",
+      "Gai"
+    ],
+    "after": null,
+    "reason": "La fiche décrit ce qui procure du plaisir (une situation, un moment, une activité), et son exemple un voyage : non l'humeur d'une personne."
+  },
+  {
+    "id": "A2-04-D1087",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_426",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Ennuyeux",
+      "Inintéressant",
+      "Sans valeur",
+      "Trivial"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : ce qui manque d'intérêt, dans la catégorie du sens « intéressant » de 面白い (lot 0). L'emploi de modestie en offrant un cadeau, que la nuance décrit, est conservé en nuance. Alternative laissée à l'arbitrage : un second sens, « sans valeur »."
+  },
+  {
+    "id": "A2-04-D1088",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_426",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Sans valeur",
+      "Trivial"
+    ],
+    "after": null,
+    "reason": "La fiche ne rattache pas explicitement ces deux traductions à un emploi. Le choix proposé les rapproche de l'emploi de modestie que sa nuance décrit (« utilisé par modestie pour offrir un petit cadeau »), où l'on dit du cadeau qu'il est sans valeur ; elles ne sont pas gardées dans le sens « ennuyeux », et l'emploi est repris en nuance."
+  },
+  {
+    "id": "A2-04-D1089",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_429",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Expert"
+    ],
+    "after": null,
+    "reason": "Plus fort que ce que décrit la fiche (de l'habileté ou du talent pour une activité)."
+  },
+  {
+    "id": "A2-04-D1090",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_430",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "etre_humain › capacites_aptitudes › habilete",
+    "reason": "Catégorie « habileté », comme 上手 : la fiche décrit « le manque d'habileté ou de maîtrise dans une activité », un degré sur la même échelle, non l'impossibilité de faire (« incapacité »)."
+  },
+  {
+    "id": "A2-04-D1091",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_456",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Propriété générale d'une tâche, sans domaine thématique propre ; le sens passe par la dimension facilité / difficulté, comme le sens « difficile » de 大変 (lot 0). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1092",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_456",
+    "field": "sens 1 · dimensions",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "axis": "facilite_difficulte",
+        "pole": "facilite"
+      }
+    ],
+    "reason": "Dimension facilité / difficulté, pôle facilité : l'axe d'A2-DIM décrit directement le sens (« qui ne présente pas de difficulté »). Arbitrage du périmètre du lot 16 : un axe existant est employé lorsqu'il décrit directement le sens ; cohérent avec 大変 « difficile » (lot 0). L'homophone « aimable, gentil » que cite la fiche n'est pas dans les sources : aucun sens ni aucune graphie n'est ajouté."
+  },
+  {
+    "id": "A2-04-D1093",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_456",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Aisé"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1094",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_486",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Propriété générale d'une tâche, sans domaine thématique propre ; le sens passe par la dimension facilité / difficulté, comme le sens « difficile » de 大変 (lot 0). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1095",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_486",
+    "field": "sens 1 · dimensions",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "axis": "facilite_difficulte",
+        "pole": "difficulte"
+      }
+    ],
+    "reason": "Dimension facilité / difficulté, pôle difficulté : l'axe d'A2-DIM décrit directement le sens (« qui demande beaucoup d'effort ou de réflexion »), comme pour 大変 « difficile » (lot 0). L'axe simplicité / complexité n'est pas ajouté : « Compliqué » est ici une autre traduction du même sens."
+  },
+  {
+    "id": "A2-04-D1096",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_486",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Ardu",
+      "Problématique"
+    ],
+    "after": null,
+    "reason": "Redondants."
+  },
+  {
+    "id": "A2-04-D1097",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_452",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Mauvais",
+      "Néfaste",
+      "Coupable",
+      "Désolé (formule polie)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : l'évaluation négative, que la fiche applique au moral, au physique et à la qualité, et son exemple à la vue (めが悪い) ; même traitement que いい « bon » (lot 0). L'emploi d'excuse, que la nuance décrit, est un emploi d'adresse : il est conservé en nuance. Alternative laissée à l'arbitrage : un second sens pour l'excuse."
+  },
+  {
+    "id": "A2-04-D1098",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_452",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Évaluation générale : « propriété générale », hors de la hiérarchie thématique, comme いい (lot 0). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1099",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_452",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Néfaste"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1100",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_452",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Coupable",
+      "Désolé (formule polie)"
+    ],
+    "after": null,
+    "reason": "Rattachés à l'emploi d'excuse, repris en nuance. La traduction de la source dit « formule polie », sa nuance « familièrement » : la nuance, qui développe l'emploi (« c'est ma faute / désolé »), est suivie."
+  },
+  {
+    "id": "A2-04-D1101",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_442",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Important",
+      "Précieux",
+      "Cher",
+      "Essentiel"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : la fiche réunit « ce qui a de la valeur, de l'importance ou qui est cher à notre cœur » dans une même description, pour les personnes, les objets et les notions ; son exemple porte sur un document important. Alternative laissée à l'arbitrage : un second sens pour l'attachement (« précieux, cher »)."
+  },
+  {
+    "id": "A2-04-D1102",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_442",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Évaluation générale de l'importance d'une chose : « propriété générale », sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1103",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_442",
+    "field": "sens 1 · dimensions",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "axis": "importance_insignifiance",
+        "pole": "importance"
+      }
+    ],
+    "reason": "Dimension importance / insignifiance, pôle importance : l'axe d'A2-DIM décrit directement le sens (« ce qui a de la valeur, de l'importance »). Arbitrage du périmètre du lot 16."
+  },
+  {
+    "id": "A2-04-D1104",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_442",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Essentiel"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1105",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_609",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif (ancien type sans classe par défaut)",
+    "after": "adjectif_na",
+    "reason": "Classe adjectif_na : la fiche dit « adjectif en -na », et l'ancien group est na. group : na."
+  },
+  {
+    "id": "A2-04-D1106",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_609",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Magnifique",
+      "Superbe",
+      "Splendide",
+      "Remarquable",
+      "Digne"
+    ],
+    "after": [
+      "S1 Magnifique (chose)",
+      "S2 Remarquable (personne)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« qualifiant quelque chose de grand, d'impressionnant, d'élégant, ou une personne qui fait preuve d'un comportement admirable et remarquable ») : l'aspect d'une chose, que l'exemple illustre (un bâtiment), et la conduite d'une personne ; deux référents. Sens 2 candidat ; alternative : un seul sens."
+  },
+  {
+    "id": "A2-04-D1107",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_609",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Appréciation générale de l'aspect d'une chose : « propriété générale », sans domaine thématique propre, comme きれい « beau » (lot 0). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1108",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_609",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Appréciation générale de la conduite d'une personne : « propriété générale », sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1109",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_432",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Évaluation générale de l'utilité d'une chose : « propriété générale », sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1110",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_432",
+    "field": "sens 1 · dimensions",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "axis": "utilite_inutilite",
+        "pole": "utilite"
+      }
+    ],
+    "reason": "Dimension utilité / inutilité, pôle utilité : l'axe d'A2-DIM décrit directement le sens (« qui facilite la vie ou rend un service appréciable »). Arbitrage du périmètre du lot 16."
+  },
+  {
+    "id": "A2-04-D1111",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_458",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La notoriété est une caractéristique générale d'une personne, d'un lieu ou d'une chose, sans domaine thématique propre ; aucun axe d'A2-DIM ne la décrit, aucune dimension n'est donc portée. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1112",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_458",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Renommé"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1113",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_434",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Dangereux",
+      "Périlleux",
+      "Risqué",
+      "Attention !"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : ce qui présente un risque ou un danger. L'emploi d'avertissement (« Attention ! »), que la nuance décrit (« utilisé comme interjection »), est un emploi d'adresse : il est conservé en nuance, comme l'exclamation de 痛い (lot 01), sans créer de sens ni de fonction pragmatique. Alternative laissée à l'arbitrage : un second sens pour l'avertissement."
+  },
+  {
+    "id": "A2-04-D1114",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_434",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Évaluation générale du risque d'une situation : « propriété générale », sans domaine thématique propre ; aucun axe d'A2-DIM ne décrit le danger. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1115",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_434",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Périlleux"
+    ],
+    "after": null,
+    "reason": "Redondant."
+  },
+  {
+    "id": "A2-04-D1116",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_434",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Attention !"
+    ],
+    "after": null,
+    "reason": "Emploi d'adresse, repris en nuance."
+  },
+  {
+    "id": "A2-04-D1117",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_433",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "En forme",
+      "En bonne santé",
+      "Vigoureux",
+      "Joyeux"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche décrit ensemble « l'énergie vitale, la bonne santé ou le dynamisme d'une personne », et son exemple porte sur la santé (« mon père est en forme »). États et besoins physiques › fatigue et énergie physique ; type etat : la condition du moment d'une personne, comme 病気 (lot 01). La fiche dit « adjectif en na (et nom) » ; la classe est mécanique, rien n'est ajouté."
+  },
+  {
+    "id": "A2-04-D1118",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_433",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Joyeux"
+    ],
+    "after": null,
+    "reason": "La fiche décrit l'énergie, la santé et le dynamisme, non la joie : ce n'est pas une traduction de ce sens. Signalé en nuance comme traduction de la source non développée."
+  },
+  {
+    "id": "A2-04-D1119",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_457",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Temps libre",
+      "Libre",
+      "Dispo",
+      "Oisif"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : le fait d'avoir du temps libre. « Libre » passe en traduction principale : l'exemple de la fiche emploie 暇 en prédicat (きょうのごごは暇です, « je suis libre cet après-midi »). « Temps libre », traduction principale de la source, est gardé : la fiche dit « adjectif en na (et nom) ». La classe est mécanique (adjectif_na), rien n'est ajouté. Type etat. Alternative : garder « Temps libre » en tête."
+  },
+  {
+    "id": "A2-04-D1120",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_457",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Aucune catégorie primaire pertinente : avoir ou non du temps devant soi est l'état d'une personne, que le registre ne range ni dans le temps (qui porte les notions de temps), ni dans le travail (la fiche parle du travail « ou » d'autres obligations). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1121",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_457",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Dispo",
+      "Oisif"
+    ],
+    "after": null,
+    "reason": "Le premier est une abréviation familière, redondante ; le second, péjoratif, n'est pas développé par la fiche."
+  },
+  {
+    "id": "A2-04-D1122",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_144",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Aucune catégorie primaire pertinente : la fiche décrit « un emploi du temps chargé », l'état d'une personne quant à son temps. Le registre ne le range ni dans le temps (qui porte les notions de temps), ni dans le seul travail : la traduction de la source dit « par le travail ou les tâches ». Addendum A5."
+  },
+  {
+    "id": "A2-04-D1123",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_144",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "explication du kanji 忙 (心 « cœur » et 亡 « perte »)",
+    "after": null,
+    "reason": "La nuance de la source est presque entièrement une explication de la composition du kanji : ce n'est pas un emploi du mot. Seule sa première phrase, « un emploi du temps chargé », décrit le sens ; elle est reprise. « Débordé » est gardé sans sa parenthèse (« par le travail ou les tâches »), reprise en nuance. Type etat."
+  },
+  {
+    "id": "A2-04-D1124",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_512",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Ça va",
+      "Pas de problème",
+      "En sécurité",
+      "Correct",
+      "Tout va bien"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : « tout est en ordre, il n'y a pas lieu de s'inquiéter », que l'exemple de la fiche emploie pour rassurer (« ne t'inquiète pas, ça va »). La fiche dit « adjectif en na (utilisé comme expression autonome) » : l'emploi autonome est dit en nuance ; la classe est mécanique. Type etat. Arbitrage du périmètre : 大丈夫 reste dans ce lot."
+  },
+  {
+    "id": "A2-04-D1125",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_512",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Aucune catégorie primaire pertinente : « tout va bien » est l'état général d'une personne ou d'une situation, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1126",
+    "status": "validated",
+    "date": "2026-10-05",
+    "lot": "lot-16",
+    "entry": "n5_v_512",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "En sécurité",
+      "Correct"
+    ],
+    "after": null,
+    "reason": "Deux autres emplois que la fiche ne développe pas : ce ne sont pas des traductions de ce sens. Signalés en nuance comme traductions de la source non développées."
   }
 ]
