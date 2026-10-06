@@ -100,9 +100,9 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-06)
 
-- **Lots 0 à 19 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **616 ENTRY,
-  32 retraits, 71 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 301 décisions validées
-  (D0001 à D1301), aucune proposition en cours.
+- **Lots 0 à 20 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **638 ENTRY,
+  32 retraits, 49 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 369 décisions validées
+  (D0001 à D1369), aucune proposition en cours. **Il ne reste aucun verbe à décider.**
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -193,9 +193,23 @@ faut savoir est dans le dépôt.
   `processus` ; **une catégorie ne s'impose pas quand la fiche déborde son domaine** (死ぬ, sans
   catégorie, sa fiche portant aussi sur un animal) ; **deux référents de types différents font deux
   sens** (煙草 : la cigarette, un objet ; le tabac, une matière).
-- **Ensuite** : commit du lot 19, sur accord explicite ; puis choix du thème du lot 20 et
+- **Lot 19 commité** : `9e75c99`, sur l'accord explicite de ChatGPT ; rien n'est poussé.
+- **Lot 20** (« existence, possession, action et déroulement ») : **validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot20-valide.md`) ; périmètre arbitré le même jour (rapport `docs/rapports/etape2-A2-04-lot20-perimetre.md`, §7), 22 entrées : les 14 derniers verbes (ある, 居る, する, なる,
+  出来る…) et 8 noms ; 他 et 大勢 hors du lot, **« quantité et degré » reste fermé**. **Aucune
+  fonction linguistique sans définition normative** : seule `deictique` en a une (A7), et elle
+  n'est pas posée pour 次, une succession dans une séquence ne dépendant pas de la situation
+  d'énonciation. Relations reportées à 5.16 (candidates : する / やる, やる / 上げる).
+  `suffix: true` pour 辺, deuxième ENTRY à le porter après 半. **Une graphie s'ajoute si la fiche
+  de l'entrée la documente** (掛かる pour かかる, en bloc), non si une autre fiche la cite (いる
+  pour 居る). **22 entrées, 30 sens, 68 décisions D1302 à D1369** (rapport `docs/rapports/etape2-A2-04-lot20-proposition.md`). **Ses 25
+  choix sont arbitrés** (§9 du rapport), avec des corrections : « Y avoir » en traduction
+  principale de ある et de 居る ; **le type `resultat`** pour « être achevé » (出来る) ; **le type
+  `propriete`** pour un prix ou un coût (する, かかる) ; **aucune catégorie n'est cherchée pour
+  réduire les avertissements** (次, 声) ; trois dimensions (要る, 出来る, 違う) ; 声 sans type (A6).
+- **Ensuite** : commit du lot 20, sur accord explicite ; puis choix du thème du lot 21 et
   composition de son périmètre. Il
-  reste 71 entrées (14 verbes, 42 adverbes et mots de liaison, 10 noms, 5
+  reste 49 entrées (aucun verbe, 42 adverbes et mots de liaison, 2 noms, 5
   adjectifs). Un lot « quantité et
   degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et
   `intensifieur`. **Aucune décision avant la validation d'un périmètre.**

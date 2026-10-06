@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-06 (clôture du lot 19)
+**Dernière mise à jour :** 2026-10-06 (clôture du lot 20)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,10 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot 20, dont le thème et le périmètre restent à
-arbitrer.**
+**A2-04 · reconstruction du vocabulaire N5 → lot 21, dont le thème et le périmètre restent à
+arbitrer. Il reste 49 entrées, sans aucun verbe.**
 
-Les lots 0 à 19 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
+Les lots 0 à 20 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
 entrées validées concernées sont corrigées et revalidées.
 
@@ -265,7 +265,8 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **Lot 17** | États et propriétés descriptives | ✅ Terminé |
 | **Lot 18** | Actions sur les objets | ✅ Terminé |
 | **Lot 19** | Vie quotidienne, travail et échanges | ✅ Terminé |
-| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 20 : thème et périmètre à arbitrer ; 71 entrées) | ⬜ À faire |
+| **Lot 20** | Existence, possession, action et déroulement | ✅ Terminé |
+| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 21 : thème et périmètre à arbitrer ; 49 entrées, sans aucun verbe) | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -282,13 +283,13 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 19
+#### État chiffré après le lot 20
 
--   **616 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **638 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **32 identifiants retirés** ;
--   **71 anciennes entrées encore à décider** ;
--   **1 301 décisions humaines validées** au journal ;
--   **1 compteur** (`匹`), seul `counter` du corpus ; **1 suffixe** (`半`), seul `suffix` du corpus ;
+-   **49 anciennes entrées encore à décider**, dont aucun verbe ;
+-   **1 369 décisions humaines validées** au journal ;
+-   **1 compteur** (`匹`), seul `counter` du corpus ; **2 suffixes** (`半`, `辺`) ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
 #### Lot 11 · clos
@@ -418,8 +419,24 @@ décisions** (D1241 à D1301).
 -   deux lectures corrigées (`借りる`, `待つ`) ; les furigana de `頼む` restent à traiter à la
     passe finale, avant publication.
 
-**Prochaine action immédiate :** choisir le thème du lot 20 parmi les 71 entrées restantes,
-composer son périmètre par identifiants, puis le faire arbitrer avant toute proposition.
+#### Lot 20 · clos
+
+« Existence, possession, action et déroulement » : **22 entrées (les 14 derniers verbes et 8
+noms), 30 sens, 68 décisions** (D1302 à D1369).
+
+-   **aucune fonction linguistique** sans définition normative (ni `modalite`, ni `aspect`, ni
+    `deictique` pour `次`) ; **aucune relation**, les candidates à 5.16 étant `する` / `やる`
+    et `やる` / `上げる` ;
+-   « Y avoir » en traduction principale de `ある` et de `居る`, deux mots distincts de `要る` ;
+-   `resultat` pour « être achevé » (`出来る`), `propriete` pour un prix ou un coût (`する`,
+    `かかる`) ; trois dimensions (`要る`, `出来る`, `違う`) ; `声` sans type ;
+-   `suffix` pour `辺` ; la graphie `掛かる` pour `かかる` ; 20 catégories nulles, aucune
+    n'étant cherchée pour réduire les avertissements ;
+-   le lot « quantité et degré » reste fermé (`他` et `大勢` hors du lot).
+
+**Prochaine action immédiate :** choisir le thème du lot 21 parmi les 49 entrées restantes,
+composer son périmètre par identifiants, puis le faire arbitrer avant toute proposition. Une part
+importante de ces entrées dépend de fonctions linguistiques sans définition normative.
 
 ------------------------------------------------------------------------
 

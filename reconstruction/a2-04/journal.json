@@ -18313,5 +18313,968 @@
     "before": null,
     "after": null,
     "reason": "Le tabac : aucune catégorie du registre ne le nomme ; il n'est ni un aliment ni une matière de construction ou de fabrication. Matière sans domaine thématique propre, comme le sens 1. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1302",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_516",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Exister",
+      "Y avoir",
+      "Posséder",
+      "Se trouver (pour les objets inanimés)"
+    ],
+    "after": [
+      "S1 Y avoir, exister",
+      "S2 Posséder"
+    ],
+    "reason": "Deux sens, sur la fiche (« l'existence, la présence ou la possession de choses inanimées ») : une chose qui existe ou se trouve quelque part, ce que l'exemple illustre, et une chose que quelqu'un possède ; deux référents. Pour le sens 1, « Y avoir » passe en traduction principale, devant « Exister », que la source donne en premier (arbitrage des choix du lot 20) : l'exemple de la fiche traduit ある par « il y a », formulation plus naturelle pour un débutant francophone et directement attestée ; aucune traduction n'est ajoutée ni retirée, seul l'ordre change. Type etat pour les deux : la fiche parle d'existence, de présence et de possession, non d'une action ni d'un changement ; comme 知る et 分かる (lot 06). Particules de la fiche : が et に pour l'existence (la chose, le lieu), が pour la possession."
+  },
+  {
+    "id": "A2-04-D1303",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_516",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "L'existence ou la présence d'une chose : état général, sans domaine thématique propre ; aucune catégorie du registre ne nomme l'existence. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1304",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_516",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La possession d'une chose : état général, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1305",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_516",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique (arbitrage du périmètre du lot 20) : le registre A2-LING n'a aucune fonction pour l'existence, et aucune n'est inventée pour ある ni pour 居る. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1306",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_548",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Être",
+      "Se trouver",
+      "Y avoir (pour les êtres vivants)"
+    ],
+    "after": "un seul sens ; « Y avoir (pour les êtres vivants) » en traduction principale",
+    "reason": "Un seul sens : la fiche décrit « l'existence ou la présence d'êtres animés », sans la possession que celle de ある ajoute. Chaque fiche décide pour elle-même. Type etat, comme le sens 1 de ある. « Y avoir (pour les êtres vivants) » passe en traduction principale, devant « Être », que la source donne en premier (arbitrage des choix du lot 20) : l'exemple de la fiche est précisément « il y a un enfant dans la pièce ». Aucune traduction n'est ajoutée ni retirée, seul l'ordre change. Le contraste avec ある reste dit en nuance."
+  },
+  {
+    "id": "A2-04-D1307",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_548",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "L'existence ou la présence d'un être vivant : état général, sans domaine thématique propre, comme ある. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1308",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_548",
+    "field": "writings",
+    "kind": "decision",
+    "before": "graphie いる, citée par la fiche de 要る (« homophone parfait de 居る et いる (exister) »)",
+    "after": [],
+    "reason": "Aucune graphie n'est ajoutée (arbitrage du périmètre du lot 20) : la fiche de 居る ne donne pas いる comme autre graphie ; elle n'est citée que par la fiche de 要る, pour expliquer l'homophonie, ce qui ne suffit pas à créer une graphie sur une autre ENTRY. La forme usuelle, 居る, est mécanique et reste celle de la source ; signalée pour la passe finale."
+  },
+  {
+    "id": "A2-04-D1309",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_665",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Tenir",
+      "Porter (en main)",
+      "Posséder",
+      "Avoir sur soi"
+    ],
+    "after": [
+      "S1 Tenir, porter",
+      "S2 Posséder"
+    ],
+    "reason": "Deux sens proposés, sur la fiche (« l'action physique de tenir ou de porter quelque chose dans ses mains, ou par extension de posséder un objet ou un sentiment ») : une chose que l'on a en main, ce que l'exemple illustre, et une chose ou un sentiment que l'on a ; deux référents, et deux types : une action, et un état, comme le sens « posséder » proposé pour ある. « Avoir sur soi » est rattaché au sens 1. Particule を de la fiche pour chacun. Sens 2 candidat ; alternative laissée à l'arbitrage : un seul sens, l'extension passant en nuance."
+  },
+  {
+    "id": "A2-04-D1310",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_665",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Tenir ou porter quelque chose dans ses mains : action générale, sans domaine thématique propre, comme 取る (lot 18). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1311",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_665",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Posséder un objet ou avoir un sentiment : état général, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1312",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_573",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Avoir besoin de",
+      "Être nécessaire",
+      "Falloir"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la nécessité ou le besoin de quelque chose. Type etat : la fiche décrit une nécessité, non une action. 要る et 居る sont deux mots de même lecture, que la fiche distingue (« homophone parfait de 居る ») : aucune fusion, et leurs classes mécaniques diffèrent (groupe u pour 要る, ru pour 居る). Le renvoi est conservé en nuance."
+  },
+  {
+    "id": "A2-04-D1313",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_573",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Avoir besoin de quelque chose : état général, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1314",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_573",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "exemple de la source : « あたらしい ぱソコン が 要り ます » (« J'ai besoin d'un nouvel ordinateur »)",
+    "after": null,
+    "reason": "Anomalie de la source : l'exemple écrit ぱソコン, en mêlant hiragana et katakana. L'exemple n'est repris dans aucune nuance ; les exemples ne sont pas migrés, et l'anomalie est signalée pour le registre de phrases. Aucune information lexicale n'en est tirée."
+  },
+  {
+    "id": "A2-04-D1315",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_523",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>出<rt>で</rt></ruby>きる",
+    "after": "<ruby>出来<rt>でき</rt></ruby>る",
+    "reason": "Furigana de la source incohérents avec la forme : leur texte de base est 出きる, sans le 来 de 出来る (で sur 出, puis きる en kana). La lecture できる et le romaji dekiru de la fiche sont repris tels quels. Bloc par nécessité (addendum A8, §3) : la fiche ne répartit pas でき entre 出 et 来, et aucune segmentation n'est établie par elle ; でき est porté par 出来 en bloc, る est l'okurigana de la forme. C'est aussi ce que montre un ancien exemple de la fiche (出来ます, でき sur 出来). Hors liste des lectures spéciales, que ce lot ne modifie pas. L'exemple de la fiche a le même défaut ; la nuance l'écrit avec la forme de l'entrée. Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1316",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_523",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Pouvoir",
+      "Être capable de",
+      "Réussir",
+      "Être achevé / prêt"
+    ],
+    "after": [
+      "S1 Pouvoir, être capable de",
+      "S2 Être achevé, prêt"
+    ],
+    "reason": "Deux sens documentés par la fiche (« la capacité ou la possibilité physique/mentale de faire quelque chose (…), ou le fait qu'une chose soit terminée ou fabriquée ») : ce que quelqu'un sait ou peut faire, que l'exemple illustre, et une chose qui est achevée ; deux référents. Types : etat pour la capacité, comme 分かる (lot 06) ; resultat pour l'achèvement (arbitrage des choix du lot 20) : A2-ST définit ce type comme une entité ou un état conceptualisé principalement comme l'aboutissement d'une action, d'un processus ou d'un événement, ce qui convient à une chose « terminée ou fabriquée » mieux qu'evenement. Particule が de la fiche pour chacun. Le sens 1 : être humain › capacités et aptitudes › aptitude."
+  },
+  {
+    "id": "A2-04-D1317",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_523",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Une chose terminée ou fabriquée : résultat général, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1318",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_523",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Réussir"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne décrit que la capacité et l'achèvement. Signalée en nuance comme traduction de la source non développée (principe retenu au lot 18)."
+  },
+  {
+    "id": "A2-04-D1319",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_523",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique (arbitrage du périmètre du lot 20) : pas de modalite pour 出来る : cette fonction du registre A2-LING n'a pas de définition normative. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1320",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_524",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Devenir",
+      "Se transformer en",
+      "Prendre forme"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : un changement d'état, de condition, de statut ou de temps. Type evenement : un changement qui survient, comme 開く (lot 18). La particule de ce sens unique est celle de la fiche (に), mécaniquement ; « ku », que la nuance cite pour les adjectifs, n'est pas une particule du champ de la fiche : rien n'est ajouté, la mention reste en nuance."
+  },
+  {
+    "id": "A2-04-D1321",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_524",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Devenir, changer d'état : événement général, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1322",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_524",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Prendre forme"
+    ],
+    "after": null,
+    "reason": "Plus étroit que ce que décrit la fiche (un changement d'état, de condition, de statut ou de temps)."
+  },
+  {
+    "id": "A2-04-D1323",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_524",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique (arbitrage du périmètre du lot 20) : pas d'aspect pour なる : cette fonction du registre A2-LING n'a pas de définition normative. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1324",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_361",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Être différent",
+      "Se tromper",
+      "C'est faux",
+      "Être incorrect"
+    ],
+    "after": [
+      "S1 Être différent",
+      "S2 Être incorrect"
+    ],
+    "reason": "Deux sens documentés par la fiche (« la différence entre deux éléments, ou signifiant qu'une information est erronée ») : deux choses qui diffèrent, et une information qui est fausse ; deux référents. L'exemple se traduit des deux façons (« c'est différent (ou : ce n'est pas exact) ») ; il est conservé en nuance. Type etat pour les deux. La fiche ne donne aucune particule : aucune n'est établie. Sens 2 candidat ; alternative laissée à l'arbitrage : un seul sens."
+  },
+  {
+    "id": "A2-04-D1325",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_361",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La différence entre deux éléments : état général, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1326",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_361",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Une information erronée : état général, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1327",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_361",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "C'est faux"
+    ],
+    "after": null,
+    "reason": "Une réplique, non une traduction du verbe : l'emploi d'adresse (« c'est faux », « non, ce n'est pas ça ») est conservé en nuance, sans sens ni fonction, comme les emplois d'adresse du lot 16."
+  },
+  {
+    "id": "A2-04-D1328",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_544",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Avoir des ennuis",
+      "Être embarrassé",
+      "Être dans l'embarras",
+      "Être en difficulté"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : être dans une situation délicate. Type etat : toutes les traductions de la source disent un état (« être embarrassé », « être en difficulté »), et la fiche décrit « une situation », non un changement. Ce n'est pas le cas de 疲れる (lot 19), dont la traduction principale dit le changement : ici, aucun événement n'est à distinguer de son état résultant. Catégorie : être humain › psychologie et esprit › états psychologiques, comme 欲しい (lot 16). Alternative laissée à l'arbitrage : le type evenement, et l'état dit en nuance par la forme en ている."
+  },
+  {
+    "id": "A2-04-D1329",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_544",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Être dans l'embarras"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Être embarrassé » ; repris en nuance."
+  },
+  {
+    "id": "A2-04-D1330",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_181",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Faire",
+      "Coûter (pour un prix)",
+      "Valoir"
+    ],
+    "after": [
+      "S1 Faire",
+      "S2 Coûter (après un montant)"
+    ],
+    "reason": "Deux sens documentés par la fiche : « son sens principal de faire », et le sens qu'il prend « lorsqu'il est placé immédiatement après un montant financier pour indiquer le prix ou la valeur qu'affiche un objet », que l'exemple illustre ; une chose que l'on fait, et un prix ; deux référents, et deux types : une action, et une propriete (arbitrage des choix du lot 20) : le prix ou la valeur qu'affiche un objet est une caractéristique que l'on attribue à cet objet, au sens d'A2-ST, plutôt qu'une condition dans laquelle il se trouve ; comme le sens « cher » de 高い (lot 05), dont il partage la catégorie. Particules : を, celle de la fiche, pour « faire » ; aucune pour le prix, que la fiche dit placé directement après le montant, sans particule. L'ordre suit les traductions de la source. Les noms à suru_compatible et コピーする (lot 19) ne sont pas touchés."
+  },
+  {
+    "id": "A2-04-D1331",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_181",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Faire : action la plus générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1332",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_181",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 20, report intégral à la passe finale 5.16). La paire する / やる est inscrite comme candidate explicite à l'audit des relations de 5.16 : la fiche de やる nomme expressément « suru » comme son synonyme familier pour « faire ». L'autre membre est n5_v_608 (やる), dans ce lot. Le type exact de la relation sera décidé à 5.16, sens par sens, parmi les relations officielles du registre A2-REL ; une relation ne servira pas à représenter le registre familier de やる."
+  },
+  {
+    "id": "A2-04-D1333",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_608",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Faire",
+      "Donner (à des plantes, des animaux)",
+      "Jouer (à un jeu, un sport)"
+    ],
+    "after": [
+      "S1 Faire (familier)",
+      "S2 Donner (à une plante, un animal)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« synonyme familier de suru (faire) ou ageru (donner à quelqu'un d'inférieur, un animal ou une plante) ») : une activité que l'on fait, et une chose que l'on donne ; deux référents. « Jouer (à un jeu, un sport) » est rattaché au sens 1 : la fiche parle de « s'adonner à une activité », et son exemple se traduit « je fais (joue au) tennis ». Particule を de la fiche pour chacun. Le registre familier est dit en nuance. Sens 2 candidat ; alternative laissée à l'arbitrage : un troisième sens pour « jouer »."
+  },
+  {
+    "id": "A2-04-D1334",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_608",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Faire, s'adonner à une activité : action la plus générale, sans domaine thématique propre, comme する. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1335",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_608",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Donner à un animal ou à une plante : action générale, sans domaine thématique propre ; la fiche ne la rattache ni au jardin ni à l'élevage. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1336",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_608",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 20, report intégral à la passe finale 5.16). La paire する / やる est inscrite comme candidate explicite à l'audit des relations de 5.16 : la fiche de やる nomme expressément « suru » comme synonyme familier pour « faire » (sens 1). L'autre membre est n5_v_181 (する), dans ce lot. Le type exact de la relation sera décidé à 5.16, sens par sens, parmi les relations officielles du registre A2-REL ; une relation ne servira pas à représenter le registre familier de やる."
+  },
+  {
+    "id": "A2-04-D1337",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_608",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 20, report intégral à la passe finale 5.16). La paire やる / 上げる est inscrite comme candidate explicite à l'audit des relations de 5.16 : la fiche de やる nomme expressément « ageru » pour l'emploi « donner » (sens 2). L'autre membre est n5_v_527 (上げる), validée au lot 19 et non modifiée. Le type exact de la relation sera décidé à 5.16, sens par sens, parmi les relations officielles du registre A2-REL ; une relation ne servira pas à représenter le registre familier de やる."
+  },
+  {
+    "id": "A2-04-D1338",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_698",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Voir",
+      "Regarder",
+      "Examiner",
+      "Observer"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : la fiche réunit dans une même description porter son regard, regarder un spectacle et examiner attentivement, un même geste pour plusieurs objets. Un emploi avec un objet ne produit pas automatiquement un sens (lot 14). Type action : la fiche dit « l'action fondamentale de porter son regard » ; comme le sens « écouter » de 聞く (lot 08). Catégorie : être humain › sens et perception › vue. Alternative laissée à l'arbitrage : un second sens pour « examiner »."
+  },
+  {
+    "id": "A2-04-D1339",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_547",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Commencer (intransitif)",
+      "Débuter"
+    ],
+    "after": "un seul sens ; « Commencer », sans la parenthèse",
+    "reason": "Un seul sens. La traduction principale de la source est « Commencer (intransitif) » : la parenthèse est une remarque de grammaire, non une part de la traduction ; elle est retirée de la traduction et dite en nuance. Type evenement : ce qui « commence de lui-même », comme 開く (lot 18). Catégorie : temps › chronologie › début et fin."
+  },
+  {
+    "id": "A2-04-D1340",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_547",
+    "field": "nuance",
+    "kind": "decision",
+    "before": "mention de la source : « la contrepartie transitive étant hajimeru 始める »",
+    "after": "mention conservée ; aucune entrée, aucune relation",
+    "reason": "La fiche nomme 始める, en kanji et en romaji, comme le transitif correspondant : la mention est conservée en nuance, comme celle de 起こす pour 起きる (lot 19). 始める n'est pas une entrée des sources : aucune entrée, aucune lecture et aucune relation ne sont créées (arbitrage du périmètre du lot 20). 始まる / 終わる n'est pas inscrite comme candidate à 5.16 : les fiches ne mettent pas ces deux verbes en relation."
+  },
+  {
+    "id": "A2-04-D1341",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_470",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Finir",
+      "Terminer",
+      "Prendre fin",
+      "S'achever"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens. Type evenement, comme 始まる dans ce lot ; même catégorie, temps › chronologie › début et fin. La fiche ne donne aucune particule : le が de son exemple n'est pas ajouté. L'exemple de la fiche porte des furigana sur 終り, sans le わ de la forme ; la nuance l'écrit avec la forme de l'entrée, dont la lecture, mécanique, est saine."
+  },
+  {
+    "id": "A2-04-D1342",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_163",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "掛かる"
+    ],
+    "reason": "掛かる devient une autre graphie de l'ENTRY (arbitrage du périmètre du lot 20) : la fiche la documente (« bien qu'il soit issu du kanji 掛かる ») et l'emploie dans son exemple. Ses furigana sont repris tels que la fiche les donne, en bloc sur la forme entière, <ruby>掛かる<rt>かかる</rt></ruby> : aucune segmentation n'est inventée. La forme usuelle reste かかる, celle de la source, que la fiche dit la plus courante."
+  },
+  {
+    "id": "A2-04-D1343",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_163",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Prendre (du temps ou de l'argent)",
+      "Coûter",
+      "Prendre du temps"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : « l'exigence ou la consommation d'une ressource », du temps ou de l'argent ; deux ressources pour un même fait. L'exemple porte sur le temps. Type propriete (arbitrage des choix du lot 20) : le temps ou le coût qu'une tâche ou une situation demande la caractérise ; ce n'est ni une action ni un événement ponctuel. Comme le sens « coûter » de する, dans ce lot."
+  },
+  {
+    "id": "A2-04-D1344",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_163",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Ce qu'une chose exige en temps ou en argent : la durée relèverait du temps et le prix de l'économie ; aucun domaine ne couvre les deux, et le sens est unique. Propriété sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1345",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_163",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Prendre du temps"
+    ],
+    "after": null,
+    "reason": "Redit la traduction principale, « Prendre (du temps ou de l'argent) »."
+  },
+  {
+    "id": "A2-04-D1346",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_645",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>初<rt>はじめ</rt></ruby>め",
+    "after": "<ruby>初<rt>はじ</rt></ruby>め",
+    "reason": "Addendum A8 (I4) : les furigana de la source portent はじめ sur 初 et sont suivis de め ; ils se lisaient はじめめ au lieu de はじめ, la lecture en kana (romaji de la fiche : hajime). はじ est porté par 初, め est le kana de la forme ; c'est la segmentation que donne la fiche de 始まる pour le même radical (はじ sur 始). Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1347",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_645",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Au début"
+    ],
+    "after": null,
+    "reason": "La traduction de 初めに, non du nom : elle est reprise en nuance, avec la particule に que donne la fiche."
+  },
+  {
+    "id": "A2-04-D1348",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_645",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "remarque de la source : « dérivé du verbe hajimeru commencer »",
+    "after": null,
+    "reason": "Une remarque sur l'origine du mot : ce n'est pas un emploi, et elle n'est pas reprise. 始める n'est pas une entrée des sources."
+  },
+  {
+    "id": "A2-04-D1349",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_675",
+    "field": "tags",
+    "kind": "decision",
+    "before": [
+      "lieu_gare"
+    ],
+    "after": [],
+    "reason": "lieu_gare refusé (arbitrage du périmètre du lot 20) : le candidat ne vient que de l'exemple de la fiche (« la prochaine gare »). 次 désigne ce qui vient ensuite dans l'ordre, le temps ou l'espace ; son association avec une gare n'est ni caractéristique ni intrinsèque (critère des tags de lieu du lot 02)."
+  },
+  {
+    "id": "A2-04-D1350",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_675",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique (arbitrage du périmètre du lot 20) : pas de deictique pour 次. La fiche documente une succession dans l'ordre, le temps ou l'espace, mais ne montre pas que le repérage dépend directement de la situation d'énonciation au sens de l'addendum A7 : une relation à l'élément précédent ou suivant d'une séquence ne suffit pas. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1351",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_675",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Aucune catégorie (arbitrage des choix du lot 20) : la proposition rangeait ce sens dans temps › chronologie › succession. La fiche dit explicitement « dans l'ordre, le temps ou l'espace » : classer le sens entier dans le seul domaine du temps serait artificiel, et aucun domaine thématique ne couvre cette généralité. Type concept_abstrait, comme le sens « avant (dans le temps) » de 前 (lot 10). La fiche dit « nom / adjectif en -no » : la classe mécanique est nom, et l'emploi avec の est dit en nuance. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1352",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_684",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Une chose matérielle, quelle qu'elle soit : nom générique, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1353",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_684",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bien matériel"
+    ],
+    "after": null,
+    "reason": "Une glose : « chose matérielle » est reprise en nuance."
+  },
+  {
+    "id": "A2-04-D1354",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_664",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Endroit",
+      "Lieu",
+      "Place",
+      "Partie"
+    ],
+    "after": [
+      "S1 Endroit, lieu",
+      "S2 Partie (d'une chose, d'une situation)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« un lieu, un endroit physique, ou un point/une partie spécifique d'une chose ou d'une situation ») : un lieu, que l'exemple illustre, et un point d'une chose ou d'une situation ; deux référents de types différents (lieu, concept_abstrait), comme les deux sens de 煙草 (lot 19). La fiche ne donne aucune particule. Le sens 1 : espace › position et localisation, au niveau 2. Sens 2 candidat ; alternative laissée à l'arbitrage : un seul sens."
+  },
+  {
+    "id": "A2-04-D1355",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_664",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Un point ou une partie d'une chose ou d'une situation : notion générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1356",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_703",
+    "field": "suffix",
+    "kind": "decision",
+    "before": false,
+    "after": true,
+    "reason": "suffix : true (arbitrage du périmètre du lot 20). La fiche dit explicitement « nom / suffixe ». Que son exemple montre この辺, et non un emploi suffixé autonome, n'annule pas la propriété que la fiche donne. La classe mécanique reste nom. Deuxième ENTRY du corpus à porter suffix, après 半 (lot 13) ; cette décision ne crée aucune ENTRY d'affixe."
+  },
+  {
+    "id": "A2-04-D1357",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_703",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Région",
+      "Environs",
+      "Alentours",
+      "Quartier"
+    ],
+    "after": "un seul sens ; « Environs » en traduction principale",
+    "reason": "« Environs » passe en traduction principale, devant « Région », que la source donne en premier : la fiche décrit « les environs, les alentours ou une zone géographique proche », et son exemple se traduit « dans les environs » (principe arbitré au lot 16). Aucune traduction n'est ajoutée ni retirée : seul l'ordre change. Type lieu et catégorie espace › distance et proximité › proximité, comme 近く (lot 10). Alternative laissée à l'arbitrage : l'ordre de la source."
+  },
+  {
+    "id": "A2-04-D1358",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_511",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Problème",
+      "Question (d'examen)",
+      "Sujet de discussion",
+      "Affaire"
+    ],
+    "after": [
+      "S1 Problème (difficulté)",
+      "S2 Question (d'examen)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« une question à résoudre (comme dans un test scolaire) ou un problème / différend qui pose une difficulté dans une situation ») : une difficulté, et une question d'examen, que l'exemple illustre ; deux référents de types différents (concept_abstrait, information_contenu), comme les deux sens de 煙草 (lot 19). L'ordre suit les traductions de la source. La fiche ne donne aucune particule. Le sens 2 : éducation › évaluation scolaire › examens, comme テスト (lot 06). Sens 2 candidat ; alternative laissée à l'arbitrage : un seul sens."
+  },
+  {
+    "id": "A2-04-D1359",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_511",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Un problème, une difficulté dans une situation : notion générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1360",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_511",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Sujet de discussion",
+      "Affaire"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne décrit qu'une question à résoudre et un problème ou un différend. Signalée en nuance comme traduction de la source non développée (principe retenu au lot 18)."
+  },
+  {
+    "id": "A2-04-D1361",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_646",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Force",
+      "Puissance",
+      "Énergie",
+      "Capacité physique ou mentale"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé, comme pour 強い (lot 17) : la fiche réunit la force physique, la puissance, l'énergie et les compétences dans une même description ; son exemple porte sur la force physique, et les autres emplois sont conservés en nuance. Type propriete : une caractéristique que l'on attribue à une personne ou à un animal, comme 色 (lot 15). Alternative laissée à l'arbitrage : un second sens pour les compétences."
+  },
+  {
+    "id": "A2-04-D1362",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_646",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La force, la puissance, l'énergie : propriété générale, sans domaine thématique propre, comme 強い (lot 17). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1363",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_646",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Capacité physique ou mentale"
+    ],
+    "after": null,
+    "reason": "Une glose : la force physique et les compétences intellectuelles sont reprises en nuance."
+  },
+  {
+    "id": "A2-04-D1364",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_653",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Voix",
+      "Cri (d'animal)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la voix d'une personne et le cri d'un animal sont de même nature, un son qu'émet un être vivant ; ce ne sont pas deux référents de types différents. L'exemple porte sur la voix. Le type et la catégorie de ce sens sont décidés à part (D1365, D1369)."
+  },
+  {
+    "id": "A2-04-D1365",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_653",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : la voix est un son émis par un être vivant, et aucun type du registre A2-ST ne convient à un son (ni objet, ni substance, ni action, ni information). Absence décidée, comme pour les parties du corps (lot 01). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1366",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_573",
+    "field": "sens 1 · dimensions",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "axis": "necessite_facultativite",
+        "pole": "necessite"
+      }
+    ],
+    "reason": "Dimension nécessité / facultativité, pôle nécessité : l'axe d'A2-DIM décrit directement le sens (la fiche le définit par « avoir besoin », « être nécessaire », « falloir »). Arbitrage des choix du lot 20, selon la doctrine arbitrée au lot 16 : un axe existant est employé lorsqu'il décrit directement le sens, et seulement alors."
+  },
+  {
+    "id": "A2-04-D1367",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_523",
+    "field": "sens 1 · dimensions",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "axis": "possibilite_impossibilite",
+        "pole": "possibilite"
+      }
+    ],
+    "reason": "Dimension possibilité / impossibilité, pôle possibilité : l'axe d'A2-DIM décrit directement le sens (la fiche dit « la capacité ou la possibilité physique/mentale de faire quelque chose »). Arbitrage des choix du lot 20, selon la doctrine arbitrée au lot 16 : un axe existant est employé lorsqu'il décrit directement le sens, et seulement alors."
+  },
+  {
+    "id": "A2-04-D1368",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_361",
+    "field": "sens 2 · dimensions",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "axis": "exactitude_inexactitude",
+        "pole": "inexactitude"
+      }
+    ],
+    "reason": "Dimension exactitude / inexactitude, pôle inexactitude : l'axe d'A2-DIM décrit directement le sens (la fiche dit qu'une information est « erronée », et son exemple se traduit « ce n'est pas exact »). Arbitrage des choix du lot 20, selon la doctrine arbitrée au lot 16 : un axe existant est employé lorsqu'il décrit directement le sens, et seulement alors. Aucune dimension pour le sens 1, « être différent » : la simple différence relève du sens lexical, et le cas échéant des relations, non de cet axe."
+  },
+  {
+    "id": "A2-04-D1369",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-20",
+    "entry": "n5_v_653",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": "etre_humain › sens_perception › ouie",
+    "after": null,
+    "reason": "Aucune catégorie (arbitrage des choix du lot 20) : la proposition rangeait ce sens dans être humain › sens et perception › ouïe. La fiche porte à la fois sur la voix humaine et sur le cri d'un animal ; « ouïe » décrit la perception auditive d'un être humain, non le son que produit une voix ou un animal : la catégorie serait artificielle. Addendum A5."
   }
 ]

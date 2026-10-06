@@ -1,0 +1,1010 @@
+{
+  "lot": "lot-20",
+  "title": "Existence, possession, action et déroulement",
+  "entries": {
+    "n5_v_516": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1302",
+        "A2-04-D1303",
+        "A2-04-D1304",
+        "A2-04-D1305"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour les choses inanimées : objets, lieux, notions abstraites. Pour les êtres vivants, on emploie 居る.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Y avoir",
+              "alternatives": [
+                "Exister",
+                "Se trouver (pour les objets inanimés)"
+              ]
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "が",
+              "に"
+            ],
+            "nuance": "L'existence ou la présence d'une chose : つくえのうえにほんがある (il y a un livre sur le bureau)."
+          },
+          {
+            "meaning": {
+              "primary": "Posséder",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "が"
+            ],
+            "nuance": "La possession d'une chose."
+          }
+        ]
+      }
+    },
+    "n5_v_548": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1306",
+        "A2-04-D1307",
+        "A2-04-D1308"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'existence ou la présence d'êtres animés, humains et animaux : へやのなかにこどもが居ます (il y a un enfant dans la pièce). Pour les objets inanimés, on emploie ある.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Y avoir (pour les êtres vivants)",
+              "alternatives": [
+                "Être",
+                "Se trouver"
+              ]
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_665": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1309",
+        "A2-04-D1310",
+        "A2-04-D1311"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tenir",
+              "alternatives": [
+                "Porter (en main)",
+                "Avoir sur soi"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Tenir ou porter quelque chose dans ses mains : かばんを持っていきます (je porte mon sac en y allant)."
+          },
+          {
+            "meaning": {
+              "primary": "Posséder",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Par extension : posséder un objet, ou avoir un sentiment."
+          }
+        ]
+      }
+    },
+    "n5_v_573": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1312",
+        "A2-04-D1313",
+        "A2-04-D1314",
+        "A2-04-D1366"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La nécessité ou le besoin de quelque chose ; ce dont on a besoin est marqué par が. De même lecture que 居る (exister) : c'est un autre mot.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Avoir besoin de",
+              "alternatives": [
+                "Être nécessaire",
+                "Falloir"
+              ]
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [
+              {
+                "axis": "necessite_facultativite",
+                "pole": "necessite"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_523": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1315",
+        "A2-04-D1316",
+        "A2-04-D1317",
+        "A2-04-D1318",
+        "A2-04-D1319",
+        "A2-04-D1367"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La source donne aussi la traduction « réussir », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pouvoir",
+              "alternatives": [
+                "Être capable de"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "capacites_aptitudes",
+              "level_3": "aptitude"
+            },
+            "semantic_type": "etat",
+            "dimensions": [
+              {
+                "axis": "possibilite_impossibilite",
+                "pole": "possibilite"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "が"
+            ],
+            "nuance": "La capacité ou la possibilité, physique ou mentale, de faire quelque chose : savoir faire, être capable. わたしはにほんごが出来る (je peux parler japonais)."
+          },
+          {
+            "meaning": {
+              "primary": "Être achevé / prêt",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "resultat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "が"
+            ],
+            "nuance": "Une chose terminée ou fabriquée."
+          }
+        ],
+        "readings": [
+          {
+            "kana": "できる",
+            "romaji": "dekiru",
+            "furigana": "<ruby>出来<rt>でき</rt></ruby>る",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_524": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1320",
+        "A2-04-D1321",
+        "A2-04-D1322",
+        "A2-04-D1323"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un changement d'état, de condition, de statut ou de temps : いしゃになる (je vais devenir médecin). Avec に après un nom ; la fiche cite aussi « ku » après un adjectif en い.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Devenir",
+              "alternatives": [
+                "Se transformer en"
+              ]
+            },
+            "category": null,
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_361": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1324",
+        "A2-04-D1325",
+        "A2-04-D1326",
+        "A2-04-D1327",
+        "A2-04-D1368"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'emploie aussi pour répondre : いいえ、それは違います (non, c'est différent ; non, ce n'est pas ça).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Être différent",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "La différence entre deux éléments."
+          },
+          {
+            "meaning": {
+              "primary": "Être incorrect",
+              "alternatives": [
+                "Se tromper"
+              ]
+            },
+            "category": null,
+            "semantic_type": "etat",
+            "dimensions": [
+              {
+                "axis": "exactitude_inexactitude",
+                "pole": "inexactitude"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une information erronée."
+          }
+        ]
+      }
+    },
+    "n5_v_544": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1328",
+        "A2-04-D1329"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une situation délicate, un problème ou un embarras où l'on ne sait comment réagir : おかねがなくて、困っています (je n'ai pas d'argent, je suis dans l'embarras). Souvent à la forme en ている, pour un état qui dure.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Avoir des ennuis",
+              "alternatives": [
+                "Être embarrassé",
+                "Être en difficulté"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "psychologie_esprit",
+              "level_3": "etats_psychologiques"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_181": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1330",
+        "A2-04-D1331",
+        "A2-04-D1332"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Faire",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Le sens principal du verbe."
+          },
+          {
+            "meaning": {
+              "primary": "Coûter (pour un prix)",
+              "alternatives": [
+                "Valoir"
+              ]
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "prix_valeur_economique",
+              "level_3": "prix"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Placé immédiatement après un montant, indique le prix ou la valeur d'un objet : このノートは200円します (ce carnet coûte 200 yens)."
+          }
+        ]
+      }
+    },
+    "n5_v_608": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1333",
+        "A2-04-D1334",
+        "A2-04-D1335",
+        "A2-04-D1336",
+        "A2-04-D1337"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Faire",
+              "alternatives": [
+                "Jouer (à un jeu, un sport)"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Familier, très employé à l'oral, pour する : s'adonner à une activité, s'occuper de quelque chose. あした、テニスをやるよ (demain, je fais du tennis !)."
+          },
+          {
+            "meaning": {
+              "primary": "Donner (à des plantes, des animaux)",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Donner à un animal, à une plante, ou à quelqu'un d'inférieur ; la fiche le rapproche de 上げる (« ageru »)."
+          }
+        ]
+      }
+    },
+    "n5_v_698": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1338"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Porter son regard sur quelque chose, regarder un spectacle ou la télévision, ou examiner attentivement : テレビでえいがを見ます (je regarde un film à la télévision).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Voir",
+              "alternatives": [
+                "Regarder",
+                "Examiner",
+                "Observer"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "sens_perception",
+              "level_3": "vue"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_547": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1339",
+        "A2-04-D1340"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Intransitif : un événement, un cours, un spectacle ou une action commence de lui-même. ぎょうじは9じに始まります (la cérémonie commence à neuf heures). Le transitif correspondant est 始める (« hajimeru »).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Commencer",
+              "alternatives": [
+                "Débuter"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "chronologie",
+              "level_3": "debut_fin"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_470": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1341"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Intransitif : une action, un événement ou une période arrive à son terme. しごとが終わりました (le travail est terminé).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Finir",
+              "alternatives": [
+                "Terminer",
+                "Prendre fin",
+                "S'achever"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "chronologie",
+              "level_3": "debut_fin"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_163": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1342",
+        "A2-04-D1343",
+        "A2-04-D1344",
+        "A2-04-D1345"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "掛かる",
+            "furigana": "<ruby>掛かる<rt>かかる</rt></ruby>"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Indique ce qu'une chose exige ou consomme, en temps ou en argent : うちから会社まで1時間掛かります (il faut une heure de chez moi jusqu'à l'entreprise). S'écrit le plus souvent en hiragana.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Prendre (du temps ou de l'argent)",
+              "alternatives": [
+                "Coûter"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_645": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1346",
+        "A2-04-D1347",
+        "A2-04-D1348"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le début d'une période, d'une action ou d'une histoire : ほんの初めをよみます (je lis le début du livre). Avec に, 初めに : au début.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Début",
+              "alternatives": [
+                "Commencement"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "chronologie",
+              "level_3": "debut_fin"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "はじめ",
+            "romaji": "hajime",
+            "furigana": "<ruby>初<rt>はじ</rt></ruby>め",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_675": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1349",
+        "A2-04-D1350",
+        "A2-04-D1351"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Ce qui vient immédiatement après, dans l'ordre, le temps ou l'espace ; s'emploie avec の devant un nom : 次のえきでおります (je descends à la prochaine gare).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Suivant",
+              "alternatives": [
+                "Prochain",
+                "Ensuite"
+              ]
+            },
+            "category": null,
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_684": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1352",
+        "A2-04-D1353"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un objet tangible, une chose matérielle ; se distingue des notions abstraites et des personnes. たいせつな物をなくしました (j'ai perdu une chose importante).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Chose",
+              "alternatives": [
+                "Objet",
+                "Article"
+              ]
+            },
+            "category": null,
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_664": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1354",
+        "A2-04-D1355"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Endroit",
+              "alternatives": [
+                "Lieu",
+                "Place"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Un lieu, un endroit physique : ここはきれいな所ですね (c'est un endroit magnifique, n'est-ce pas ?)."
+          },
+          {
+            "meaning": {
+              "primary": "Partie",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Un point, une partie précise d'une chose ou d'une situation."
+          }
+        ]
+      }
+    },
+    "n5_v_703": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1356",
+        "A2-04-D1357"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": true,
+        "counter": null,
+        "nuance": "Les environs, les alentours, une zone proche ; souvent après この, この辺 : par ici, dans ces parages. この辺にコンビニがありますか (y a-t-il un konbini dans les environs ?).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Environs",
+              "alternatives": [
+                "Alentours",
+                "Région",
+                "Quartier"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "distance_proximite",
+              "level_3": "proximite"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_511": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1358",
+        "A2-04-D1359",
+        "A2-04-D1360"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La source donne aussi les traductions « sujet de discussion » et « affaire », sans les développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Problème",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Un problème, un différend, qui pose une difficulté dans une situation."
+          },
+          {
+            "meaning": {
+              "primary": "Question (d'examen)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "education_apprentissage",
+              "level_2": "evaluation_scolaire",
+              "level_3": "examens"
+            },
+            "semantic_type": "information_contenu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une question à résoudre, dans un test scolaire : このしけんの問題はむずかしいです (les problèmes de cet examen sont difficiles)."
+          }
+        ]
+      }
+    },
+    "n5_v_646": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1361",
+        "A2-04-D1362",
+        "A2-04-D1363"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La force physique d'une personne ou d'un animal ; aussi la puissance, l'énergie, ou les compétences intellectuelles dans un domaine. かれは力がつよいです (il a beaucoup de force).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Force",
+              "alternatives": [
+                "Puissance",
+                "Énergie"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_653": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1364",
+        "A2-04-D1365",
+        "A2-04-D1369"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La voix humaine, quand on parle ou que l'on chante ; aussi le cri d'un animal. かれはおおきい声ではなします (il parle d'une voix forte).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Voix",
+              "alternatives": [
+                "Cri (d'animal)"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}
