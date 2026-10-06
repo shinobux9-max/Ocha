@@ -1,0 +1,1081 @@
+{
+  "lot": "lot-18",
+  "title": "Actions sur les objets",
+  "entries": {
+    "n5_v_710": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1168",
+        "A2-04-D1169",
+        "A2-04-D1170",
+        "A2-04-D1171"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Intransitif : une porte, une fenêtre, un magasin ou un contenant s'ouvre, de lui-même ou par une action. ドアが開きます (la porte s'ouvre). Désigne aussi l'état qui en résulte : être ouvert. Ouvrir quelque chose se dit 開ける.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "S'ouvrir",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_580": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1172",
+        "A2-04-D1173",
+        "A2-04-D1174",
+        "A2-04-D1175"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif : ouvrir volontairement une porte, une fenêtre, une boîte ou un contenant. まどを開けてください (veuillez ouvrir la fenêtre). S'ouvrir se dit 開く. La source donne aussi la traduction « déverrouiller », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ouvrir",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_579": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1176",
+        "A2-04-D1177",
+        "A2-04-D1178",
+        "A2-04-D1179"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Intransitif : une porte, une fenêtre ou un magasin se ferme, de lui-même. ドアが閉まりました (la porte s'est fermée). Désigne aussi l'état qui en résulte : être fermé. Fermer quelque chose se dit 閉める.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Se fermer",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "しまる",
+            "romaji": "shimaru",
+            "furigana": "<ruby>閉<rt>し</rt></ruby>まる",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_709": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1180",
+        "A2-04-D1181",
+        "A2-04-D1182",
+        "A2-04-D1183"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif : fermer une porte, une fenêtre, un tiroir ou un couvercle. Se fermer se dit 閉まる.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fermer",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_560": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1184",
+        "A2-04-D1185",
+        "A2-04-D1186",
+        "A2-04-D1187"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Intransitif. Éteindre ou effacer quelque chose se dit 消す.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "S'éteindre",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "が"
+            ],
+            "nuance": "Une lumière, un feu ou une source d'énergie qui s'éteint : へやのでんきが消えました (la lumière de la pièce s'est éteinte)."
+          },
+          {
+            "meaning": {
+              "primary": "Disparaître",
+              "alternatives": [
+                "S'effacer"
+              ]
+            },
+            "category": null,
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "が"
+            ],
+            "nuance": "Une chose ou une personne qui disparaît de la vue."
+          }
+        ]
+      }
+    },
+    "n5_v_561": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1188",
+        "A2-04-D1189",
+        "A2-04-D1190",
+        "A2-04-D1191",
+        "A2-04-D1192"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif, pour une action volontaire. S'éteindre et disparaître se disent 消える. La source donne aussi la traduction « faire disparaître », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Éteindre",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Un appareil électrique, une lumière ou un feu : ねるまえにテレビを消してください (veuillez éteindre la télévision avant de dormir)."
+          },
+          {
+            "meaning": {
+              "primary": "Effacer",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Des notes écrites, avec une gomme par exemple."
+          }
+        ]
+      }
+    },
+    "n5_v_522": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1193",
+        "A2-04-D1194",
+        "A2-04-D1195",
+        "A2-04-D1196"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La source donne aussi la traduction « appliquer », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Allumer",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Mettre en marche un appareil électrique : la lumière, le climatiseur, la télévision. へやのでんきを付けてください (veuillez allumer la lumière de la pièce)."
+          },
+          {
+            "meaning": {
+              "primary": "Fixer",
+              "alternatives": [
+                "Attacher"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Attacher ou fixer quelque chose."
+          }
+        ]
+      }
+    },
+    "n5_v_539": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1197",
+        "A2-04-D1198",
+        "A2-04-D1199"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Couper",
+              "alternatives": [
+                "Trancher"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Trancher ou couper un matériau avec un outil (ciseaux, couteau) : はさみでかみを切ります (je coupe du papier avec des ciseaux)."
+          },
+          {
+            "meaning": {
+              "primary": "Raccrocher (un téléphone)",
+              "alternatives": [
+                "Éteindre (un contact)"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Couper une connexion ou un appel."
+          }
+        ]
+      }
+    },
+    "n5_v_541": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1200",
+        "A2-04-D1201",
+        "A2-04-D1202",
+        "A2-04-D1203"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Prendre une photo s'écrit 撮る, de même lecture : c'est un autre mot.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Prendre",
+              "alternatives": [
+                "Saisir"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Saisir ou prendre un objet avec la main : テーブルのうえのぺんを取ってください (veuillez prendre le stylo qui est sur la table)."
+          },
+          {
+            "meaning": {
+              "primary": "Obtenir",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Obtenir quelque chose : une note, un permis."
+          }
+        ]
+      }
+    },
+    "n5_v_576": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1204",
+        "A2-04-D1205"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Coller un timbre, une affiche, une étiquette ou du ruban adhésif sur une surface : ふうとうにきってを貼ります (je colle un timbre sur l'enveloppe).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Coller",
+              "alternatives": [
+                "Afficher"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_637": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1206"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Très courant : utiliser un objet, un outil, de l'argent, une langue ou un service. このパソコンを使います (j'utilise cet ordinateur).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Utiliser",
+              "alternatives": [
+                "Se servir de",
+                "Employer (un objet ou une langue)"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_79": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1207",
+        "A2-04-D1208"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pousser un objet, appuyer sur un bouton, ou apposer un tampon ou un sceau. ドアのボタンを押して、電車を降ります (j'appuie sur le bouton de la porte pour descendre du train).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pousser",
+              "alternatives": [
+                "Appuyer sur (un bouton)",
+                "Tamponner"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_130": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1209",
+        "A2-04-D1210",
+        "A2-04-D1211",
+        "A2-04-D1212",
+        "A2-04-D1213"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Jouer d'un instrument à cordes ou du piano s'écrit 弾く, de même lecture : c'est un autre mot. La source donne aussi la traduction « tracer (une ligne) », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tirer",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Le sens premier du verbe."
+          },
+          {
+            "meaning": {
+              "primary": "Chercher (dans un dictionnaire)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "langues"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "辞書を引く : chercher un mot dans un dictionnaire, le feuilleter. わからない言葉を辞書で引きます (je cherche dans le dictionnaire un mot que je ne connais pas)."
+          }
+        ]
+      }
+    },
+    "n5_v_82": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1214",
+        "A2-04-D1215",
+        "A2-04-D1240"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Serrer, nouer ou attacher : une cravate, une ceinture. 会社に行く前に、ネクタイを締めます (avant d'aller au bureau, je noue ma cravate). À ne pas confondre avec 閉める (fermer une porte ou une fenêtre), de même lecture.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Serrer",
+              "alternatives": [
+                "Attacher",
+                "Nouer (une cravate, une ceinture)"
+              ]
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "accessoires_vestimentaires"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_50": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1216",
+        "A2-04-D1217",
+        "A2-04-D1218",
+        "A2-04-D1219"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La source donne aussi la traduction « verser (des gouttes) », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ouvrir (un parapluie)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habillement_accessoires_personnels",
+              "level_2": "accessoires_vestimentaires"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "傘を差す : ouvrir un parapluie et le tenir au-dessus de soi. 雨が降ってきたので、傘を差します (la pluie s'étant mise à tomber, j'ouvre un parapluie)."
+          },
+          {
+            "meaning": {
+              "primary": "Pointer",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Tendre la main, ou pointer quelque chose."
+          }
+        ]
+      }
+    },
+    "n5_v_571": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1220",
+        "A2-04-D1221"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Poser ou placer un objet sur une surface (table, étagère, sol) : つくえのうえにかばんを置きます (je pose le sac sur le bureau). La source donne aussi la traduction « laisser (quelque part) », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Poser",
+              "alternatives": [
+                "Placer",
+                "Mettre"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_535": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1222",
+        "A2-04-D1223"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Placer ou introduire quelque chose dans un contenant : かばんにさいふを入れます (je mets mon portefeuille dans le sac). La fiche l'oppose à 出る et à 出す. La source donne aussi la traduction « préparer (du thé, du café) », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mettre dans",
+              "alternatives": [
+                "Insérer",
+                "Faire entrer"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "entree_sortie",
+              "level_3": "entrer_sortir"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_536": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1224",
+        "A2-04-D1225"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Sortir",
+              "alternatives": [
+                "Mettre dehors"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "entree_sortie",
+              "level_3": "entrer_sortir"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Faire sortir quelque chose d'un endroit."
+          },
+          {
+            "meaning": {
+              "primary": "Envoyer (du courrier)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "communication",
+              "level_3": "transmission"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Poster une lettre : てがみをポストに出します (je poste une lettre dans la boîte aux lettres)."
+          },
+          {
+            "meaning": {
+              "primary": "Présenter",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Soumettre un document."
+          }
+        ]
+      }
+    },
+    "n5_v_528": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1226",
+        "A2-04-D1227",
+        "A2-04-D1228"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Intransitif. Aligner ou disposer des objets se dit 並べる.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Faire la queue",
+              "alternatives": [
+                "Se mettre en rang"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "に"
+            ],
+            "nuance": "Se placer en ligne, faire la file d'attente : きっぷのうりばで並んでいます (je fais la queue au guichet des billets)."
+          },
+          {
+            "meaning": {
+              "primary": "Être aligné",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Être disposé côte à côte, de manière ordonnée."
+          }
+        ]
+      }
+    },
+    "n5_v_529": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1229",
+        "A2-04-D1230",
+        "A2-04-D1231"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif : ranger, aligner ou disposer des objets côte à côte, de manière ordonnée. つくえのうえにほんを並べます (je dispose les livres sur le bureau). Être aligné, faire la queue se disent 並ぶ. La source donne aussi la traduction « exposer », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Aligner",
+              "alternatives": [
+                "Disposer",
+                "Mettre en rang"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_545": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1232",
+        "A2-04-D1233"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif : modifier, transformer ou remplacer quelque chose. よみかたを変えます (je change la manière de lire). La source l'oppose à l'intransitif « kawaru », pour un changement qui se produit de lui-même.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Changer",
+              "alternatives": [
+                "Modifier",
+                "Transformer",
+                "Remplacer"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_532": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1234",
+        "A2-04-D1235",
+        "A2-04-D1236"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fabriquer",
+              "alternatives": [
+                "Créer",
+                "Produire"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Fabriquer un objet, ou créer quelque chose de matériel ou d'immatériel."
+          },
+          {
+            "meaning": {
+              "primary": "Préparer (un repas)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "alimentation_cuisine",
+              "level_2": "cuisine_preparation"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Cuisiner un plat : まいにちばんごはんを作ります (je prépare le dîner tous les jours)."
+          }
+        ],
+        "readings": [
+          {
+            "kana": "つくる",
+            "romaji": "tsukuru",
+            "furigana": "<ruby>作<rt>つく</rt></ruby>る",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_567": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1237",
+        "A2-04-D1238",
+        "A2-04-D1239"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Frotter pour nettoyer ou faire briller ; le plus souvent, se brosser les dents ou cirer des chaussures. まいあさはを磨きます (je me brosse les dents tous les matins).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Brosser",
+              "alternatives": [
+                "Polir",
+                "Frotter"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

@@ -12,8 +12,10 @@ faut savoir est dans le dépôt.
   commentaires.
 - **L'utilisateur** est sous Windows, avec PowerShell : `npm.cmd test` plutôt que `npm test` dans
   PowerShell ; messages de commit sur **une seule ligne**.
-- **La relecture** : l'utilisateur fait relire chaque proposition par un relecteur (ChatGPT), puis
-  arbitre. Rien n'est validé sans cet arbitrage explicite.
+- **La relecture et l'arbitrage** : chaque proposition est relue par ChatGPT. **Depuis le
+  2026-10-06, l'utilisateur lui délègue les arbitrages** (périmètres, choix lexicaux) **et les
+  accords de validation, de commit et de push** ; il garde le dernier mot et peut reprendre cette
+  délégation. Rien n'est validé sans un accord explicite (§5, « Contrôle »).
 
 ## 2. À faire au début de chaque session
 
@@ -39,7 +41,8 @@ faut savoir est dans le dépôt.
 - **La conception est verrouillée** (`docs/conception/`, snapshots A2) : toute évolution passe par
   un addendum explicite, validé avant d'être codé. Jamais de modification « en passant ».
 - **Une proposition ne vaut jamais validation.** Ne jamais passer quoi que ce soit en `validated`
-  sans l'autorisation explicite de l'utilisateur.
+  sans une autorisation explicite : celle de l'utilisateur, ou celle de ChatGPT par délégation (§5,
+  « Contrôle »). Un avis favorable n'est pas une autorisation.
 - **`ETAT-ACTUEL.md` est mis à jour à chaque tâche**. `ROADMAP.md` ne l'est que si l'avancement
   global change.
 - **Ne jamais partir d'une copie extérieure au dépôt** (copies du Project claude.ai, anciennes
@@ -95,11 +98,11 @@ faut savoir est dans le dépôt.
   décidable ; aucune correction automatique, sources figées intactes ; le romaji n'est pas une
   règle générale.
 
-## 5. Où l'on en est (au 2026-10-05)
+## 5. Où l'on en est (au 2026-10-06)
 
-- **Lots 0 à 17 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **567 ENTRY,
-  32 retraits, 120 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 167 décisions validées
-  (D0001 à D1167), aucune proposition en cours.
+- **Lots 0 à 18 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **590 ENTRY,
+  32 retraits, 97 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 240 décisions validées
+  (D0001 à D1240), aucune proposition en cours.
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -163,24 +166,46 @@ faut savoir est dans le dépôt.
   `proposed` dans son lot, ses décisions historiques restent intactes et citées, les décisions
   nouvelles s'ajoutent à la fin du journal, et l'état validé est gardé en entier dans le champ
   « avant » de la décision de réouverture. La validation se fait avec le lot qui l'a décidée.
-- **Ensuite** : choix du thème du lot 18 parmi les 120 entrées restantes (5 adjectifs, 57 verbes,
-  16 noms, 42 autres mots), puis composition de son périmètre. Un lot « quantité et
+- **Lot 18** (« actions sur les objets ») : **validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot18-valide.md`), 23 verbes sur les 57 restants ; périmètre arbitré
+  le même jour (rapport `docs/rapports/etape2-A2-04-lot18-perimetre.md`, §8). **Relations
+  `transitive_of` / `intransitive_of` reportées intégralement à la passe finale 5.16** : aucune
+  relation dans le lot, quatre paires inscrites au journal comme candidates à cet audit. « Prendre
+  une photo » (取る) et « jouer d'un instrument » (引く) sont **des confusions de la source,
+  écartées et journalisées**, avec un renvoi en nuance vers 撮る et 弾く. **23 entrées, 34 sens, 73
+  décisions D1168 à D1240** (rapport `docs/rapports/etape2-A2-04-lot18-proposition.md`). **Vingt
+  choix arbitrés** (§8 de ce rapport), trois ayant été révisés : **un événement et l'état qui en
+  résulte ne sont pas deux traductions** (« être ouvert », « être fermé » en nuance pour 開く et
+  閉まる) ; « Serrer » en traduction principale de 締める (D1240) ; un verbe que la fiche nomme en
+  romaji sans l'expliquer (« hiraku ») n'est pas repris en nuance, un contraste qu'elle explique
+  (« kawaru », pour 変える) l'est. Aucune particule n'est tirée d'un exemple.
+- **Ensuite** : commit du lot 18, sur accord explicite ; puis choix du thème du lot 19 et
+  composition de son périmètre. Il
+  reste 97 entrées (34 verbes, 42 adverbes et mots de liaison, 16 noms, 5
+  adjectifs). Un lot « quantité et
   degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et
   `intensifieur`. **Aucune décision avant la validation d'un périmètre.**
-- **Contrôle** : Claude réalise dans le dépôt, un relecteur relit, l'utilisateur arbitre. Depuis le
+- **Contrôle** : Claude réalise dans le dépôt, ChatGPT relit et, par délégation, arbitre et
+  autorise ; l'utilisateur relaie et garde le dernier mot. Depuis le
   2026-10-05, le relecteur est ChatGPT, **sans accès au dépôt** (Codex, auparavant, reproduisait
   les chiffres sur le dépôt réel). Il relit un export : `node tools/export-relecture.mjs --lot
   lot-NN --ref <commit>` régénère les dix fichiers de `chatgpt-relecture/` (dossier non suivi, à ne
   jamais committer sans accord) ; la note de relais `docs/relecture/note-relais.md` se met à jour à
-  la main avant chaque export. Son avis ne vaut ni validation, ni accord de commit, ni accord de
-  push : ce sont trois accords explicites et distincts de l'utilisateur.
+  la main avant chaque export. **Délégation du 2026-10-06**, confirmée
+  par l'utilisateur dans la session : ChatGPT donne les arbitrages et les accords de validation,
+  de commit et de push. Ces **trois accords restent distincts**, et chacun doit être **donné
+  explicitement** (« j'autorise la validation », « j'autorise le commit », « j'autorise le push »),
+  dans un message que l'utilisateur relaie lui-même. **Un avis favorable n'en vaut aucun**, et
+  l'accord pour l'un ne vaut pas pour les autres. L'utilisateur peut toujours décider lui-même, ou
+  reprendre la délégation ; elle ne se modifie que sur sa parole, jamais sur celle du relecteur.
 
 ## 6. Ce qui change avec Claude Code
 
 - **Plus d'archives ZIP ni d'empreintes SHA-256** : les modifications sont faites directement dans
   le dépôt.
 - **Avant chaque commit**, montrer à l'utilisateur ce qui change (`git diff --stat`, et le diff des
-  fichiers sensibles). Ne committer qu'avec son accord, sur une ligne.
+  fichiers sensibles). Ne committer qu'avec un accord explicite (le sien, ou celui de ChatGPT par
+  délégation), sur une ligne.
 - **Les générateurs** utilisés dans claude.ai pour écrire les lots (`gen*.py`) ne sont pas dans le
   dépôt. Une révision d'un lot proposé modifie donc directement `lot-NN.json` et `journal.json`, en
   gardant les identifiants à leur place, et en vérifiant ensuite que les identifiants, les entrées,

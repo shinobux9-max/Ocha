@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-06 (clôture du lot 17)
+**Dernière mise à jour :** 2026-10-06 (clôture du lot 18)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,10 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot 18, dont le thème et le périmètre restent à
+**A2-04 · reconstruction du vocabulaire N5 → lot 19, dont le thème et le périmètre restent à
 arbitrer.**
 
-Les lots 0 à 17 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
+Les lots 0 à 18 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
 entrées validées concernées sont corrigées et revalidées.
 
@@ -263,7 +263,8 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **Lot 15** | Couleurs, formes, dimensions et poids | ✅ Terminé |
 | **Lot 16** | Préférences, appréciations et états de la personne | ✅ Terminé |
 | **Lot 17** | États et propriétés descriptives | ✅ Terminé |
-| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 18 : thème et périmètre à arbitrer) | ⬜ À faire |
+| **Lot 18** | Actions sur les objets | ✅ Terminé |
+| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 19 : thème et périmètre à arbitrer ; 97 entrées) | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -280,12 +281,12 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 17
+#### État chiffré après le lot 18
 
--   **567 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **590 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **32 identifiants retirés** ;
--   **120 anciennes entrées encore à décider** ;
--   **1 167 décisions humaines validées** au journal ;
+-   **97 anciennes entrées encore à décider** ;
+-   **1 240 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **1 suffixe** (`半`), seul `suffix` du corpus ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -387,8 +388,21 @@ sens, 41 décisions (D1127 à D1167). Arbitrages appliqués :
     `爽やか`, `暗い`) ; un seul pour `強い`, `弱い` et `若い`, l'intensité étant conservée en nuance ;
 -   `古い` et `新しい` dans le temps ; neuf catégories nulles (A5) ; aucune dimension.
 
-**Prochaine action immédiate :** choisir le thème du lot 18 parmi les 120 entrées restantes,
-composer son périmètre par identifiants, puis le faire valider avant toute proposition.
+#### Lot 18 · clos
+
+« Actions sur les objets » : **23 verbes, 34 sens, 73 décisions** (D1168 à D1240).
+
+-   **aucune relation** : `transitive_of` et `intransitive_of` sont reportées à la passe finale
+    5.16 ; quatre paires y sont candidates (`開く` / `開ける`, `閉まる` / `閉める`, `消える` /
+    `消す`, `並ぶ` / `並べる`), inscrites au journal ;
+-   deux confusions de la source écartées et journalisées : « prendre une photo » (`取る`, renvoi
+    vers `撮る`) et « jouer d'un instrument » (`引く`, renvoi vers `弾く`) ;
+-   un événement et l'état qui en résulte ne sont pas deux traductions (`開く`, `閉まる`) ;
+-   particules décidées pour les entrées à plusieurs sens, prises dans la fiche seulement ; deux
+    lectures corrigées (`閉まる`, `作る`) ; 23 catégories nulles (A5).
+
+**Prochaine action immédiate :** choisir le thème du lot 19 parmi les 97 entrées restantes,
+composer son périmètre par identifiants, puis le faire arbitrer avant toute proposition.
 
 ------------------------------------------------------------------------
 

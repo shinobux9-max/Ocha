@@ -3,14 +3,24 @@ que l'outil ne peut pas déduire des données : les rôles, les consignes, qui a
 qui est attendu. L'état chiffré est dans la partie 2, relevée par l'outil.
 
 **Dernière mise à jour de la note** : 2026-10-05, après le commit du lot 16 (`6c8fc50`) ; périmètre
-du lot 17 arbitré, proposition relue et arbitrée ; **lot 17 validé, non committé** (2026-10-06).
+du lot 17 arbitré, proposition relue et arbitrée, lot 17 validé et committé (`e9fe6a4`) ; outillage
+de relecture committé (`2387d20`) ; lot 18 : périmètre arbitré, proposition livrée, vingt choix
+arbitrés, révision vérifiée, **lot validé, non commité** ; **délégation des accords à ChatGPT**
+(2026-10-06).
 
 ## 1. Les rôles
 
-- **L'utilisateur** arbitre. Lui seul valide, autorise un commit, autorise un push.
+- **L'utilisateur** relaie les messages entre Claude Code et ChatGPT, et garde le dernier mot.
 - **Claude Code** réalise les modifications dans le dépôt local et lance les contrôles.
-- **Le relecteur** (ChatGPT, sur ces fichiers ; Codex auparavant, sur le dépôt réel) relit et
-  recommande.
+- **ChatGPT** (sur ces fichiers, sans accès au dépôt ; Codex auparavant, sur le dépôt réel) relit
+  et, **depuis le 2026-10-06, par délégation de l'utilisateur**, arbitre les périmètres et les choix
+  lexicaux, et donne les accords de validation, de commit et de push.
+
+**La délégation, telle que l'utilisateur l'a confirmée à Claude Code** : ces trois accords restent
+distincts ; chacun doit être donné explicitement, en toutes lettres, dans un message que
+l'utilisateur relaie lui-même ; un avis favorable n'en vaut aucun, et l'accord pour l'un ne vaut pas
+pour les autres. L'utilisateur peut toujours décider lui-même ou reprendre la délégation ; elle ne
+se modifie que sur sa parole.
 
 ## 2. Consignes pour le relecteur
 
@@ -21,7 +31,10 @@ du lot 17 arbitré, proposition relue et arbitrée ; **lot 17 validé, non commi
    motivé, pas une liste d'options à égalité. Si deux choix se valent, dis lequel tu retiendrais et
    pourquoi.
 3. **Trois accords restent distincts et explicites** : la validation d'un lot, le commit, le push.
-   Ton avis favorable n'en vaut aucun. Ne les présente jamais comme acquis.
+   Depuis le 2026-10-06, c'est toi qui les donnes, par délégation. Écris-les en toutes lettres
+   (« j'autorise la validation », « j'autorise le commit », « j'autorise le push ») et dis aussi ce
+   que tu n'autorises pas : un avis favorable ne vaut aucun des trois, et Claude Code ne déduira
+   jamais un accord d'un autre.
 4. **Lis chaque fiche entière, exemple compris.** Une traduction, une nuance et un exemple peuvent
    se contredire ou se compléter ; les trois comptent.
 5. **Aucun ajout lexical par connaissance externe** : ni sens, ni lecture, ni graphie, ni emploi
@@ -43,91 +56,50 @@ l'intégrité des sources figées.
 
 ## 3. Où en est le projet
 
-**Lot 16, « Préférences, appréciations et états de la personne » : clos.**
+**Lot 17, « États et propriétés descriptives » : clos.** Validé sur autorisation explicite de
+l'utilisateur, relu (avis favorable au commit, sans correction), committé : `e9fe6a4`. La fusion de
+暖かい dans 温かい est validée avec lui. L'outillage de relecture est committé à part : `2387d20`.
+Rien n'est poussé.
+
+**Lot 18, « Actions sur les objets » : validé, non commité.**
 
 | Étape | État | Qui a décidé |
 |---|---|---|
-| Proposition, révisée une fois | avis favorable sans réserve de Codex | Codex |
-| Validation atomique | faite | l'utilisateur, par un accord explicite |
-| Relecture du diff de validation | avis favorable au commit, sans correction | ChatGPT |
-| Commit | **fait** : `6c8fc50` | l'utilisateur, par un accord explicite |
-| Push | non fait, non autorisé | l'utilisateur |
+| Périmètre | arbitré le 2026-10-06 (rapport de périmètre, §8) | ChatGPT, approuvé par l'utilisateur |
+| Proposition lexicale | livrée : 23 entrées, 34 sens | — |
+| Les vingt choix | arbitrés le 2026-10-06 : dix-sept retenus, trois révisés (rapport de proposition, §8) | ChatGPT, approuvé par l'utilisateur |
+| Révision sur trois points | faite, vérifiée (avis favorable) | ChatGPT |
+| **Validation** | **faite le 2026-10-06** : 23 entrées et 73 décisions (D1168 à D1240) en `validated`, statuts seulement | ChatGPT, par délégation ; confirmée par l'utilisateur dans la session |
+| Commit | **non autorisé** | à donner explicitement |
+| Push | **non autorisé**, jamais fait | à donner explicitement |
 
-**Entre les deux lots**, trois choses hors lexique, non committées à la date de cette note :
-l'outil d'export qui produit ce dossier (`tools/export-relecture.mjs`, avec ses tests), cette note,
-et le retrait de `PASSATION-CONVERSATION.md`, un document de passation du 2026-10-01 devenu
-périmé, qu'aucun fichier ne citait. Elles apparaissent dans le diff (`10`).
+**État réel après validation** : 590 ENTRY, 32 retraits, 97 entrées restantes ; 1 240 décisions
+validées, aucune proposition en cours.
 
-**Lot 17, « États et propriétés descriptives » : validé sur autorisation explicite de l'utilisateur ; non committé. Le diff de validation est à relire.**
-
-| Étape | État | Qui décide |
-|---|---|---|
-| Périmètre | proposé par Claude Code | — |
-| Relecture du périmètre | **faite** : avis favorable aux 17 entrées, sans scission ni élargissement ; issue C recommandée pour 温かい et 暖かい ; titre « États et propriétés descriptives » recommandé ; correction du §5.1 demandée | ChatGPT |
-| Correction du §5.1 | **faite** : les trois issues sont lues au regard d'A3 (L2 et L3) | Claude Code |
-| Arbitrage du périmètre | **fait** : 17 entrées ; titre « États et propriétés descriptives » ; **issue C** pour 温かい et 暖かい ; 早い et 弱く hors du lot | l'utilisateur |
-| Proposition lexicale | livrée, en `proposed` : 17 entrées, 41 décisions (D1127 à D1167), réouverture de 暖かい comprise | Claude Code |
-| Relecture de la proposition | **faite** : favorable à 13 des 14 choix ; correction demandée sur le point 12 (catégories de 古い et de 新しい) | ChatGPT |
-| Révision | **faite, à relire** : 古い et 新しい passent de la catégorie nulle à `temps`, niveau 1 (D1129 et D1131 réécrites à leur place) | Claude Code |
-| Seconde relecture | faite : avis favorable sur les quatorze choix, sans réserve lexicale | ChatGPT |
-| Arbitrage des quatorze choix | fait : tous retenus dans leur version révisée | l'utilisateur |
-| Validation atomique (statuts seulement) | **faite**, sur autorisation explicite : lot 17, ses 41 décisions, et l'entrée rouverte du lot 07 | l'utilisateur |
-| Relecture du diff de validation | **à faire : c'est la tâche du relecteur** | — |
-| Commit, push | **non autorisés** | l'utilisateur |
-
-**Le lot 17 est validé ; son diff de validation est à relire** : `08` est le lot, `09` ses 41 décisions, `07` les 17
-fiches sources et les précédents cités, `06` les rapports (périmètre, proposition, rapport généré).
-
-**Une ENTRY validée a été rouverte, puis revalidée.** 暖かい (`n5_v_275`, lot 07) est maintenant
-`validated`, retirée par fusion dans 温かい (`n5_v_8`). L'entrée rouverte est dans `lot-07.json`, non dans `08` : son état
-actuel, son état validé d'avant (champ « avant » de D1127) et ses décisions D0476 et D0477 sont
-dans `07`, partie 2, et dans `09` ; le diff de `lot-07.json` est dans `10`. L'assemblage réel
-compte 567 ENTRY et 32 retraits.
+`08` contient les 23 entrées validées, `09` leurs 73 décisions, `06` les rapports (périmètre,
+proposition, **validation**, rapport généré), `10` le diff contre le dernier commit (`2387d20`) et
+la comparaison avant / après validation.
 
 ## 4. Ce qui est attendu de cette relecture
 
-**Relire le diff de validation du lot 17** (`10`), avec le rapport de validation (`06`). Il ne
-s'agit pas de rejuger la proposition, déjà relue et arbitrée, mais de vérifier que ce qui est validé
-est bien ce qui a été relu :
+**Contrôler le diff de validation**, avant de décider du commit :
 
-- le lot (`08`) et ses 41 décisions (`09`) correspondent aux quatorze choix arbitrés (rapport de
-  validation, §2) ;
-- l'entrée rouverte du lot 07 (`07`, partie 3) est validée telle que proposée ; D0476 et D0477 sont
-  intactes ;
-- le suivi (`ROADMAP.md`, `ETAT-ACTUEL.md`, `CLAUDE.md`) dit la même chose que les données ;
-- les tests modifiés décrivent l'état validé.
+1. **Statuts seulement** : dans `10`, §3, la comparaison avant / après validation doit donner 23
+   lignes changées pour `lot-18.json` et 73 pour `journal.json`, toutes `"status": "proposed"` →
+   `"validated"`, et un contenu identique hors statut. Les copies d'avant sont hors dépôt : tu ne
+   peux pas refaire la comparaison, seulement lire son résultat.
+2. **L'état attendu** : 590 ENTRY, 32 retraits, 97 entrées restantes, 1 240 décisions validées,
+   aucune `proposed`.
+3. **Les tests d'état** (`10`, diff de `tests/reconstruction/workspace.test.js`) : ils affirment
+   maintenant l'état validé ; l'essai à blanc est devenu le contrôle du lot dans l'assemblage réel.
+4. **La gouvernance** : la délégation est inscrite dans `CLAUDE.md` (§1, §3, §5 « Contrôle », §6),
+   dans cette note et dans `ETAT-ACTUEL.md`. Dis si sa formulation est fidèle à ce que
+   l'utilisateur t'a demandé ; signale toute phrase qui irait au-delà.
+5. **L'attribution** : les deux arbitrages du lot 18 sont désormais inscrits comme les tiens,
+   approuvés par l'utilisateur.
 
-Termine par un avis net : favorable au commit, ou corrections demandées.
-
-Ce qui suit rappelle les demandes précédentes, sur la proposition puis sur le périmètre. Pour la
-proposition, il fallait regarder de près :
-
-- **la réouverture et la fusion** (rapport de proposition, §2) : D1127 garde-t-elle bien tout
-  l'état validé de 暖かい ? D0476 et D0477 sont-elles intactes ? L'ENTRY survivante ne contient-elle
-  que ce que documentent les deux fiches, sans perte ni ajout ?
-- **les deux sens de 温かい** et sa forme usuelle ;
-- **les entrées à deux sens** (丈夫, 遅い, 汚い, 清い, うるさい, 爽やか, 暗い) : chaque second sens
-  est-il bien documenté par la fiche, exemple compris ?
-- **les neuf catégories nulles** (古い et 新しい sont désormais rangées dans le temps).
-
-Ce qui suit rappelle la demande précédente, sur le périmètre, désormais arbitré.
-
-**Relire le rapport de périmètre du lot 17** (`06`), avec les 17 fiches (`07`), et recommander à
-l'utilisateur, point par point :
-
-1. **Le thème et le périmètre** : les 17 adjectifs, sans scission.
-2. **L'identité de 温かい et de 暖かい** (rapport, §5.1). C'est le point qui demande le plus
-   d'attention. 暖かい est validée au lot 07 et porte déjà la graphie 温かい ; 温かい est aussi une
-   entrée source à part. Les trois issues envisagées touchent une ENTRY validée. La fiche de 暖かい,
-   sa décision validée et ses décisions de journal sont dans `07`, partie 2. Recommande l'issue la
-   plus juste pour un débutant, en disant ce qu'elle coûte.
-3. **L'élargissement** à 早い et à 弱く, ou non.
-4. **Les cas sensibles** du §5.4 : signale ceux qui te paraissent mal posés, ou une fiche que le
-   rapport lit de travers. Ne tranche pas les sens : la proposition lexicale viendra après l'accord
-   sur le périmètre.
-
-**Accessoirement**, si tu as le temps : le diff de l'outil d'export et de ses tests (`10`). C'est
-du code d'outillage, sans effet sur les données lexicales.
+Puis **décide du commit**, explicitement. Les fichiers qui y entreraient sont listés dans `10`, §1 ;
+`chatgpt-relecture/` n'en fait pas partie.
 
 ## 5. Points ouverts
 
@@ -150,11 +122,9 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Avis du relecteur** sur le diff de validation du lot 17, rédigé pour être transmis tel quel à
-   Claude Code.
-2. **Sur accord explicite de l'utilisateur** : commit, sur une ligne. Aucun push sans accord
-   distinct.
-3. **Ensuite, sur demande explicite** : préparation du périmètre du lot 18, sans décision lexicale
-   avant l'accord sur ce périmètre.
-4. **Séparément, sur accord explicite** : le commit de l'outil d'export, de la note et du retrait
-   du document de passation ; puis, à part, celui du lot 17.
+1. **Contrôle du diff de validation** par ChatGPT.
+2. **Commit**, sur son accord explicite ; Claude Code montre d'abord le `git diff --stat` et la
+   liste exacte des fichiers.
+3. **Push** : jamais fait à ce jour ; sur un accord explicite et distinct.
+4. **Lot 19** : sur demande explicite, thème et périmètre par identifiants, sans décision lexicale
+   avant l'arbitrage du périmètre.

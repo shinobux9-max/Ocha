@@ -16468,5 +16468,1013 @@
     "before": "commentaire culturel de la source sur le kanji 暗 (association de l'obscurité à la tristesse, « secret inavouable »)",
     "after": null,
     "reason": "Une grande part de la nuance de la source est un commentaire culturel sur le kanji : ce n'est pas un emploi du mot. Sont repris les emplois qu'elle donne : une pièce sombre, une personnalité, un avenir incertain."
+  },
+  {
+    "id": "A2-04-D1168",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_710",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "S'ouvrir",
+      "Être ouvert"
+    ],
+    "after": "un seul sens ; « Être ouvert » en nuance",
+    "reason": "Un seul sens, de type evenement (arbitrage des choix du lot 18) : la fiche décrit un seul fait (ce qui « s'ouvre de lui-même ou par une action »), un changement qui survient, sans agent exprimé (particule が), comme 止まる (lot 04). « Être ouvert » n'est pas une autre traduction de « S'ouvrir » : un événement et l'état qui en résulte ne sont pas deux traductions équivalentes. Il n'est ni gardé dans le sens ni érigé en second sens de type etat ; il est conservé en nuance, comme l'état résultant de 入る (lot 04)."
+  },
+  {
+    "id": "A2-04-D1169",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_710",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Une porte, une fenêtre, un magasin ou un contenant qui s'ouvre : événement général, sans domaine thématique propre ; « portes et fenêtres » ne couvrirait ni le magasin ni le contenant. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1170",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_710",
+    "field": "nuance",
+    "kind": "decision",
+    "before": "mention de la source : « à ne pas confondre avec le verbe transitif akeru ou le verbe hiraku »",
+    "after": "mention non reprise ; aucune lecture ajoutée",
+    "reason": "La fiche nomme « hiraku » en romaji seulement, sans graphie, sans lecture en kana, sans sens et sans distinction exploitable : aucune lecture ひらく n'est ajoutée à l'ENTRY (la fiche source décide), et la mention n'est pas reprise dans la nuance (arbitrage des choix du lot 18) : un nom romanisé que les données ne permettent pas d'expliquer n'aide pas un débutant. La mise en garde contre le transitif (akeru) est conservée, sous la forme du renvoi à 開ける. La mention de « kawaru » par la fiche de 変える, qui explique un contraste, est traitée à part (D1233) et conservée."
+  },
+  {
+    "id": "A2-04-D1171",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_710",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 18, report intégral à la passe finale 5.16). La paire 開く / 開ける est inscrite comme candidate explicite à l'audit des relations de 5.16 (transitive_of / intransitive_of, registre A2-REL) : cette entrée en est le membre intransitif, l'autre est n5_v_580 (開ける). La fiche nomme elle-même son correspondant ; il est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1172",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_580",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Ouvrir une porte, une fenêtre, une boîte ou un contenant : action générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1173",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_580",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Déverrouiller"
+    ],
+    "after": null,
+    "reason": "La fiche ne parle ni de clé ni de verrou : ce n'est pas une traduction du sens qu'elle décrit. Signalée en nuance comme traduction de la source non développée, comme pour 厚い (lot 15) et 温い (lot 17)."
+  },
+  {
+    "id": "A2-04-D1174",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_580",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Déballer"
+    ],
+    "after": null,
+    "reason": "Plus étroit que le sens : ouvrir une boîte ou un contenant, que décrit la fiche, est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1175",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_580",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 18, report intégral à la passe finale 5.16). La paire 開く / 開ける est inscrite comme candidate explicite à l'audit des relations de 5.16 (transitive_of / intransitive_of, registre A2-REL) : cette entrée en est le membre transitif, l'autre est n5_v_710 (開く). La fiche nomme elle-même son correspondant ; il est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1176",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_579",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>閉<rt>しま</rt></ruby>る",
+    "after": "<ruby>閉<rt>し</rt></ruby>まる",
+    "reason": "Furigana de la source incohérents avec la forme : leur texte de base est 閉る, sans le ま de 閉まる, et しま est porté par le kanji. La lecture しまる et le romaji shimaru de la fiche sont repris tels quels ; し est porté par 閉, ま est l'okurigana de la forme. C'est la segmentation que donnent les trois anciens exemples de la fiche (閉まります, し sur 閉) et la fiche de 閉める (し sur 閉). L'exemple de la fiche a le même défaut ; la nuance l'écrit avec la forme de l'entrée. Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1177",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_579",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Se fermer",
+      "Être fermé"
+    ],
+    "after": "un seul sens ; « Être fermé » en nuance",
+    "reason": "Un seul sens, de type evenement (arbitrage des choix du lot 18), examiné sur sa propre fiche avec le même critère que 開く : la fiche décrit ce qui « se ferme de lui-même ou est fermé », comme 止まる (lot 04). « Être fermé » n'est pas une autre traduction de « Se fermer » : un événement et l'état qui en résulte ne sont pas deux traductions équivalentes. Il n'est ni gardé dans le sens ni érigé en second sens de type etat ; il est conservé en nuance."
+  },
+  {
+    "id": "A2-04-D1178",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_579",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Une porte, une fenêtre ou un magasin qui se ferme : événement général, sans domaine thématique propre, comme 開く. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1179",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_579",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 18, report intégral à la passe finale 5.16). La paire 閉まる / 閉める est inscrite comme candidate explicite à l'audit des relations de 5.16 (transitive_of / intransitive_of, registre A2-REL) : cette entrée en est le membre intransitif, l'autre est n5_v_709 (閉める). La fiche nomme elle-même son correspondant ; il est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1180",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_709",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Fermer une porte, une fenêtre, un tiroir ou un couvercle : action générale, sans domaine thématique propre, comme 開ける. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1181",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_709",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Fermer une porte, une fenêtre ou un tiroir"
+    ],
+    "after": null,
+    "reason": "Une glose, non une traduction : ses objets sont repris en nuance."
+  },
+  {
+    "id": "A2-04-D1182",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_709",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "exemple de la source : « 1sutekina mado o 閉め て ください 。 » (« Veuillez fermer la fenêtre »)",
+    "after": null,
+    "reason": "Anomalie de la source : la phrase japonaise de l'exemple commence par du texte parasite en caractères latins (« 1sutekina mado o »), au lieu de まどを que donnent son romaji (mado o shimete kudasai) et sa traduction. L'exemple n'est repris dans aucune nuance ; les exemples ne sont pas migrés, et l'anomalie est signalée pour le registre de phrases. Aucune information lexicale n'en est tirée."
+  },
+  {
+    "id": "A2-04-D1183",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_709",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 18, report intégral à la passe finale 5.16). La paire 閉まる / 閉める est inscrite comme candidate explicite à l'audit des relations de 5.16 (transitive_of / intransitive_of, registre A2-REL) : cette entrée en est le membre transitif, l'autre est n5_v_579 (閉まる). La fiche nomme elle-même son correspondant ; il est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1184",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_560",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "S'éteindre",
+      "Disparaître",
+      "S'effacer"
+    ],
+    "after": [
+      "S1 S'éteindre (lumière, feu)",
+      "S2 Disparaître (de la vue)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« une lumière, un feu ou une source d'énergie s'éteint de lui-même, ou qu'une chose/personne disparaît de la vue ») : ce qui cesse de brûler ou de fonctionner, que l'exemple illustre (la lumière de la pièce), et ce qui cesse d'être visible ; deux référents, comme les trois sens de 出る (lot 04). Particule が de la fiche pour chacun. Type evenement pour les deux, comme le sens « apparaître » de 出る. « S'effacer » est rattaché au sens 2 : la fiche de 消える ne parle pas d'écriture. Sens 2 candidat ; alternative : un seul sens, la disparition passant en nuance."
+  },
+  {
+    "id": "A2-04-D1185",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_560",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Une lumière, un feu ou une source d'énergie qui s'éteint : événement général, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1186",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_560",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Disparaître de la vue : événement général, sans domaine thématique propre, comme le sens « apparaître » de 出る (lot 04). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1187",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_560",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 18, report intégral à la passe finale 5.16). La paire 消える / 消す est inscrite comme candidate explicite à l'audit des relations de 5.16 (transitive_of / intransitive_of, registre A2-REL) : cette entrée en est le membre intransitif, l'autre est n5_v_561 (消す). La fiche nomme elle-même son correspondant ; il est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1188",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_561",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Éteindre",
+      "Effacer",
+      "Faire disparaître"
+    ],
+    "after": [
+      "S1 Éteindre (appareil, lumière, feu)",
+      "S2 Effacer (ce qui est écrit)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« éteindre un appareil électrique, une lumière ou un feu, ou effacer des notes écrites (avec une gomme par exemple) ») : ce que l'on arrête, que l'exemple illustre (la télévision), et ce qui est écrit ; deux référents. Particule を de la fiche pour chacun. Chaque fiche décide pour elle-même : le sens 2 de 消す (effacer un écrit) n'est pas le symétrique du sens 2 de 消える (disparaître de la vue), et aucune symétrie n'est imposée. Sens 2 candidat ; alternative : un seul sens."
+  },
+  {
+    "id": "A2-04-D1189",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_561",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Éteindre un appareil électrique, une lumière ou un feu : action générale, sans domaine thématique propre ; aucun domaine ne couvre à la fois l'appareil et le feu. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1190",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_561",
+    "field": "sens 2 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "communication_langage › ecriture",
+    "reason": "Effacer ce qui est écrit : communication et langage › écriture, au niveau 2 ; aucune sous-catégorie (écrire, systèmes d'écriture, orthographe) ne nomme l'effacement. Alternative laissée à l'arbitrage : aucune catégorie (A5), comme le sens 1."
+  },
+  {
+    "id": "A2-04-D1191",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_561",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Faire disparaître"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne décrit qu'éteindre et effacer. Signalée en nuance comme traduction de la source non développée, comme pour 厚い (lot 15) et 温い (lot 17)."
+  },
+  {
+    "id": "A2-04-D1192",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_561",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 18, report intégral à la passe finale 5.16). La paire 消える / 消す est inscrite comme candidate explicite à l'audit des relations de 5.16 (transitive_of / intransitive_of, registre A2-REL) : cette entrée en est le membre transitif, l'autre est n5_v_560 (消える). La fiche nomme elle-même son correspondant ; il est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1193",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_522",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Allumer",
+      "Fixer",
+      "Attacher",
+      "Appliquer"
+    ],
+    "after": [
+      "S1 Allumer (un appareil)",
+      "S2 Fixer"
+    ],
+    "reason": "Deux sens documentés par la fiche (« mettre en marche un appareil électrique (lumière, climatiseur, télévision) ou attacher/fixer quelque chose ») : un appareil que l'on met en marche, ce que l'exemple illustre (la lumière), et une chose que l'on fixe à une autre ; deux référents. Particule を de la fiche pour chacun. La fiche écrit 付ける pour les deux emplois : aucune autre graphie n'est ajoutée, et aucun contraire, la fiche n'en donnant pas. Sens 2 candidat ; alternative : un seul sens."
+  },
+  {
+    "id": "A2-04-D1194",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_522",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Mettre en marche un appareil électrique : action générale, sans domaine thématique propre, comme le sens « éteindre » de 消す. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1195",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_522",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Attacher ou fixer quelque chose : action générale, sans domaine thématique propre, comme le sens « accrocher » de かける (lot 08). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1196",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_522",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Appliquer"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne décrit qu'allumer et fixer. Signalée en nuance comme traduction de la source non développée, comme pour 厚い (lot 15) et 温い (lot 17)."
+  },
+  {
+    "id": "A2-04-D1197",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_539",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Couper",
+      "Trancher",
+      "Éteindre (un contact)",
+      "Raccrocher (un téléphone)"
+    ],
+    "after": [
+      "S1 Couper (un matériau)",
+      "S2 Raccrocher, couper (une connexion, un appel)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« trancher ou couper un matériau avec un outil (ciseaux, couteau), ou couper une connexion / un appel ») : une matière, que l'exemple illustre (du papier), et une communication ou un contact ; deux référents. Particule を de la fiche pour chacun. Les deux dernières traductions de la source, « Raccrocher (un téléphone) » et « Éteindre (un contact) », sont celles du sens 2. Sens 2 candidat ; alternative : un seul sens, l'emploi passant en nuance."
+  },
+  {
+    "id": "A2-04-D1198",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_539",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Couper un matériau avec un outil : action générale, sans domaine thématique propre ; la découpe en cuisine n'en est qu'un cas, et l'exemple porte sur du papier. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1199",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_539",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Couper une connexion ou un appel : action générale, sans domaine thématique propre. L'appel seul relèverait de communication › contact, comme le sens « passer un appel » de かける (lot 08), mais la fiche réunit l'appel et la connexion, et donne « éteindre (un contact) ». Addendum A5."
+  },
+  {
+    "id": "A2-04-D1200",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_541",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Prendre",
+      "Saisir",
+      "Obtenir",
+      "Prendre (une photo)"
+    ],
+    "after": [
+      "S1 Prendre (un objet)",
+      "S2 Obtenir (une note, un permis)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« saisir ou prendre un objet avec la main, d'obtenir quelque chose (comme une note ou un permis) ») : un objet que l'on saisit, ce que l'exemple illustre (un stylo), et un résultat que l'on obtient ; deux référents. Particule を de la fiche pour chacun. Sens 2 candidat ; alternative : un seul sens, « obtenir » passant en nuance."
+  },
+  {
+    "id": "A2-04-D1201",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_541",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Prendre (une photo)"
+    ],
+    "after": null,
+    "reason": "Confusion de la source, écartée (arbitrage du périmètre du lot 18) : la fiche attribue à 取る l'emploi « prendre une photo (shashin o toru) », qui est celui de 撮る, de même lecture. 撮る (n5_v_171) est validée au lot 08 avec ce sens, et sa nuance renvoie déjà à 取る. Aucun sens photographique n'est créé pour 取る ; un renvoi vers 撮る est conservé en nuance. Une confusion de la source est corrigée et journalisée, pas transformée en sens."
+  },
+  {
+    "id": "A2-04-D1202",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_541",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Saisir ou prendre un objet avec la main : action générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1203",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_541",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Obtenir une note ou un permis : action générale, sans domaine thématique propre ; la fiche ne le rattache ni à l'école ni à l'administration en particulier. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1204",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_576",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Coller quelque chose sur une surface : action générale, sans domaine thématique propre ; le timbre de l'exemple n'est qu'un des objets que cite la fiche. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1205",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_576",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Fixer avec de la colle ou un adhésif"
+    ],
+    "after": null,
+    "reason": "Une glose, non une traduction : reprise en nuance par les objets que cite la fiche."
+  },
+  {
+    "id": "A2-04-D1206",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_637",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Utiliser un objet, un outil, de l'argent, une langue ou un service : action générale, sans domaine thématique propre ; la fiche réunit ces emplois dans une seule description. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1207",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_79",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Pousser",
+      "Appuyer sur (un bouton)",
+      "Tamponner"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : la fiche réunit dans une même description « pousser un objet, appuyer sur un bouton, ou appliquer un tampon/sceau », trois objets pour un même geste, exercer une pression. Un emploi avec un objet ne produit pas automatiquement un sens (lot 14). L'exemple porte sur le bouton ; il est conservé en nuance avec les trois emplois. Alternative laissée à l'arbitrage : un second sens pour le tampon."
+  },
+  {
+    "id": "A2-04-D1208",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_79",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Pousser un objet, appuyer sur un bouton ou apposer un tampon : action générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1209",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_130",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Tirer",
+      "Tracer (une ligne)",
+      "Chercher (dans un dictionnaire)",
+      "Jouer d'un instrument à cordes"
+    ],
+    "after": [
+      "S1 Tirer",
+      "S2 Chercher (dans un dictionnaire)"
+    ],
+    "reason": "Deux sens documentés par la fiche : « son sens premier est de tirer », et l'expression 辞書を引く, « feuilleter ou chercher dans un dictionnaire », que l'exemple de la fiche illustre ; un objet que l'on tire, et un mot que l'on cherche ; deux référents. Particule を de la fiche pour chacun (l'exemple marque le dictionnaire par で, que la fiche ne donne pas parmi ses particules : rien n'est ajouté). Sens 2 candidat ; alternative : un seul sens, l'expression passant en nuance."
+  },
+  {
+    "id": "A2-04-D1210",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_130",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Jouer d'un instrument à cordes"
+    ],
+    "after": null,
+    "reason": "Confusion de la source, écartée (arbitrage du périmètre du lot 18) : la fiche attribue à 引く l'emploi « jouer d'un instrument à cordes ou du piano », qui est celui de 弾く, de même lecture. 弾く (n5_v_192) est validée au lot 09 avec ce sens, sa nuance dit que 引く est « un autre mot », et D0545 notait déjà qu'aucun sens n'y était repris de l'homophone. Aucun sens musical n'est créé pour 引く ; un renvoi vers 弾く est conservé en nuance. Une confusion de la source est corrigée et journalisée, pas transformée en sens."
+  },
+  {
+    "id": "A2-04-D1211",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_130",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Tracer (une ligne)"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne développe pas cet emploi. Signalée en nuance comme traduction de la source non développée, comme pour 厚い (lot 15) et 温い (lot 17)."
+  },
+  {
+    "id": "A2-04-D1212",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_130",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Tirer quelque chose : action générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1213",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_130",
+    "field": "sens 2 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "communication_langage › langues",
+    "reason": "Chercher un mot dans un dictionnaire : communication et langage › langues, au niveau 2, la catégorie de 辞書 (lot 06). Alternative laissée à l'arbitrage : éducation et apprentissage › apprentissage."
+  },
+  {
+    "id": "A2-04-D1214",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_82",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "habillement_accessoires_personnels › accessoires_vestimentaires",
+    "reason": "Habillement › accessoires vestimentaires, au niveau 2 : la fiche cite la cravate et la ceinture, qui sont deux sous-catégories (cravates, ceintures) ; comme le sens « mettre (des lunettes) » de かける (lot 08). Un seul sens : un seul geste, pour deux accessoires."
+  },
+  {
+    "id": "A2-04-D1215",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_82",
+    "field": "nuance",
+    "kind": "correction",
+    "before": "graphie de la source dans sa nuance : « ネクタイを閉める (nekutai o shimeru) »",
+    "after": "ネクタイを締める",
+    "reason": "Confusion de la source : sa nuance écrit l'emploi avec 閉, le kanji de l'homophone qu'elle demande, dans la phrase suivante, de ne pas confondre (閉める, fermer une porte ou une fenêtre). La forme de la fiche, ses furigana et son exemple écrivent 締める. La nuance reprend l'exemple de la fiche, avec 締める, et garde la mise en garde contre 閉める (n5_v_709, dans ce lot)."
+  },
+  {
+    "id": "A2-04-D1216",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_50",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Ouvrir (un parapluie)",
+      "Lever (une main, un parasol)",
+      "Pointer",
+      "Verser (des gouttes)"
+    ],
+    "after": [
+      "S1 Ouvrir (un parapluie)",
+      "S2 Pointer"
+    ],
+    "reason": "Deux sens documentés par la fiche : l'emploi qu'elle dit « spécifique », « ouvrir et tenir un parapluie au-dessus de soi (傘を差す) », que l'exemple illustre, et « tendre la main ou pointer quelque chose » ; un parapluie que l'on tient ouvert, et une chose que l'on désigne ; deux référents. Particule を de la fiche pour chacun. Le sens 1 est dans la catégorie de 傘 (lot 05), habillement › accessoires vestimentaires. Sens 2 candidat ; alternative : un seul sens, le second emploi passant en nuance."
+  },
+  {
+    "id": "A2-04-D1217",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_50",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Tendre la main ou pointer quelque chose : action générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1218",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_50",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Lever (une main, un parasol)"
+    ],
+    "after": null,
+    "reason": "La parenthèse réunit les deux emplois : le parasol relève du sens 1 (un parapluie que l'on tient ouvert), la main du sens 2, où la nuance la reprend (« tendre la main »)."
+  },
+  {
+    "id": "A2-04-D1219",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_50",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Verser (des gouttes)"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne développe pas cet emploi. Signalée en nuance comme traduction de la source non développée, comme pour 厚い (lot 15) et 温い (lot 17)."
+  },
+  {
+    "id": "A2-04-D1220",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_571",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "espace_proprietes_spatiales › position_localisation",
+    "reason": "Poser un objet sur une surface : espace › position et localisation, au niveau 2 ; la fiche décrit le lieu où l'objet est placé (table, étagère, sol), et sa particule に le marque. Aucune sous-catégorie n'est retenue : « dessus / dessous » ne dirait que l'exemple. Alternative laissée à l'arbitrage : aucune catégorie (A5), « action générale »."
+  },
+  {
+    "id": "A2-04-D1221",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_571",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Laisser (quelque part)"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne décrit que poser ou placer. Signalée en nuance comme traduction de la source non développée, comme pour 厚い (lot 15) et 温い (lot 17)."
+  },
+  {
+    "id": "A2-04-D1222",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_535",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Insérer",
+      "Mettre dans",
+      "Faire entrer",
+      "Préparer (du thé, du café)"
+    ],
+    "after": "un seul sens ; « Mettre dans » en traduction principale",
+    "reason": "Un seul sens : la fiche décrit « placer ou introduire quelque chose à l'intérieur d'un contenant ». « Mettre dans » passe en traduction principale : c'est la traduction naturelle, que la source donne et que son exemple atteste (« je mets mon portefeuille dans le sac ») ; « Insérer », premier dans la source, reste une autre traduction (principe arbitré au lot 16). Catégorie : espace › entrée et sortie › entrer, sortir, celle de 入る (lot 04) ; la fiche oppose 入れる à 出る et à 出す. Alternative laissée à l'arbitrage : « Insérer » en traduction principale, comme dans la source."
+  },
+  {
+    "id": "A2-04-D1223",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_535",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Préparer (du thé, du café)"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne décrit que mettre dans un contenant. Signalée en nuance comme traduction de la source non développée, comme pour 厚い (lot 15) et 温い (lot 17)."
+  },
+  {
+    "id": "A2-04-D1224",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_536",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Sortir",
+      "Envoyer (du courrier)",
+      "Mettre dehors",
+      "Présenter"
+    ],
+    "after": [
+      "S1 Sortir (quelque chose)",
+      "S2 Envoyer (du courrier)",
+      "S3 Présenter (un document)"
+    ],
+    "reason": "Trois sens documentés par la fiche (« faire sortir quelque chose d'un endroit, de poster une lettre ou de soumettre un document ») : une chose que l'on sort d'un lieu, un courrier que l'on envoie, ce que l'exemple illustre (une lettre), et un document que l'on remet ; trois référents, comme les trois sens de 出る (lot 04). Particule を de la fiche pour chacun (l'exemple marque la boîte aux lettres par に, que la fiche ne donne pas parmi ses particules : rien n'est ajouté). Catégories : celle de 出る « sortir » pour le sens 1 (entrer, sortir), celle de 手紙 et de 切手 (lot 08) pour le sens 2 (communication › transmission). Sens 2 et 3 candidats ; alternatives : deux sens (le document passant en nuance), ou un seul."
+  },
+  {
+    "id": "A2-04-D1225",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_536",
+    "field": "sens 3 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Soumettre ou présenter un document : action générale, sans domaine thématique propre ; la fiche ne le rattache ni à l'école ni à l'administration. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1226",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_528",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Faire la queue",
+      "Se mettre en rang",
+      "Être aligné"
+    ],
+    "after": [
+      "S1 Faire la queue (des personnes)",
+      "S2 Être aligné (des choses)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« se placer en ligne, de faire la file d'attente ou d'être disposé côte à côte de manière ordonnée ») : des personnes qui se rangent, ce que l'exemple illustre (au guichet), et des choses disposées côte à côte ; deux référents. Types : action pour le premier, etat pour le second, comme les deux sens de 曲がる (lot 0, « tourner » et « être courbé »). Particules : に, celle de la fiche, pour le sens 1 ; aucune n'est établie par la fiche pour le sens 2, comme pour le sens « être courbé » de 曲がる. Le sens 2 est dans la catégorie proposée pour 並べる et 置く (espace › position et localisation). Sens 2 candidat ; alternative : un seul sens."
+  },
+  {
+    "id": "A2-04-D1227",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_528",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Se mettre en rang, faire la queue : action générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1228",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_528",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 18, report intégral à la passe finale 5.16). La paire 並ぶ / 並べる est inscrite comme candidate explicite à l'audit des relations de 5.16 (transitive_of / intransitive_of, registre A2-REL) : cette entrée en est le membre intransitif, l'autre est n5_v_529 (並べる). La fiche nomme elle-même son correspondant ; il est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1229",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_529",
+    "field": "sens 1 · category",
+    "kind": "decision",
+    "before": null,
+    "after": "espace_proprietes_spatiales › position_localisation",
+    "reason": "Disposer des objets côte à côte : espace › position et localisation, au niveau 2, comme 置く et le sens « être aligné » de 並ぶ, dans ce lot. Alternative laissée à l'arbitrage : aucune catégorie (A5), « action générale »."
+  },
+  {
+    "id": "A2-04-D1230",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_529",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Exposer"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne décrit que ranger, aligner ou disposer. Signalée en nuance comme traduction de la source non développée, comme pour 厚い (lot 15) et 温い (lot 17)."
+  },
+  {
+    "id": "A2-04-D1231",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_529",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 18, report intégral à la passe finale 5.16). La paire 並ぶ / 並べる est inscrite comme candidate explicite à l'audit des relations de 5.16 (transitive_of / intransitive_of, registre A2-REL) : cette entrée en est le membre transitif, l'autre est n5_v_528 (並ぶ). La fiche nomme elle-même son correspondant ; il est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1232",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_545",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Modifier, transformer ou remplacer quelque chose : action générale, sans domaine thématique propre ; l'exemple de la fiche (la manière de lire) est abstrait. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1233",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_545",
+    "field": "nuance",
+    "kind": "decision",
+    "before": "mention de la source : « par opposition au verbe intransitif kawaru »",
+    "after": "aucune relation, aucune entrée ajoutée",
+    "reason": "La fiche nomme « kawaru » en romaji seulement ; ce verbe n'est pas une entrée des sources. Rien n'est ajouté : ni entrée, ni graphie, ni relation (aucune relation n'est portée dans ce lot, et cette paire n'est pas parmi les quatre candidates à l'audit de 5.16, faute de second membre). La mention est conservée en nuance, telle que la source la donne."
+  },
+  {
+    "id": "A2-04-D1234",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_532",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>作<rt>つく</rt></getKey>る",
+    "after": "<ruby>作<rt>つく</rt></ruby>る",
+    "reason": "Furigana de la source invalides (balise fermante cassée, « </getKey> » au lieu de « </ruby> »). Leur contenu est repris tel quel : つく sur 作, る en okurigana ; la lecture つくる et le romaji tsukuru sont ceux de la fiche. Même correction que pour 一人 (D1012, lot 14). Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1235",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_532",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Fabriquer",
+      "Préparer (un repas)",
+      "Créer",
+      "Produire"
+    ],
+    "after": [
+      "S1 Fabriquer, créer",
+      "S2 Préparer (un repas)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« fabriquer un objet, de cuisiner un plat ou de créer quelque chose de matériel ou d'immatériel ») : une chose que l'on fabrique ou que l'on crée, et un plat que l'on cuisine, ce que l'exemple illustre (le dîner) ; deux référents. Fabriquer et créer restent un seul sens : la fiche ne les sépare que par « matériel ou immatériel ». Particule を de la fiche pour chacun. Le sens 2 est dans la catégorie du sens « cuisine » de 料理 (lot 02), alimentation › cuisine et préparation. L'ordre suit les traductions de la source. Sens 2 candidat ; alternative : un seul sens, la cuisine passant en nuance."
+  },
+  {
+    "id": "A2-04-D1236",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_532",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Fabriquer un objet, créer quelque chose de matériel ou d'immatériel : action générale, sans domaine thématique propre ; « fabrication », dans le registre, est un domaine industriel. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1237",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_567",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Brosser",
+      "Polir",
+      "Frotter",
+      "Nettoyer (les dents, des chaussures)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : la fiche décrit un seul geste, « frotter pour nettoyer ou faire briller », et deux objets typiques, les dents et les chaussures. Un emploi avec un objet ne produit pas automatiquement un sens (lot 14). L'exemple porte sur les dents ; il est conservé en nuance avec les deux emplois. Un ancien exemple de contexte parle de perfectionner une compétence : il est en lecture seule, la fiche ne décrit pas cet emploi, et il n'établit aucun sens. Alternative laissée à l'arbitrage : deux sens, les dents (hygiène › soins bucco-dentaires) et les objets (entretien domestique › nettoyage)."
+  },
+  {
+    "id": "A2-04-D1238",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_567",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Frotter pour nettoyer ou faire briller : action générale. Les dents relèveraient des soins bucco-dentaires et les chaussures de l'entretien ; aucun domaine ne couvre les deux, et le sens est unique. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1239",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_567",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Nettoyer (les dents, des chaussures)"
+    ],
+    "after": null,
+    "reason": "Une glose, non une traduction : ses deux objets sont repris en nuance."
+  },
+  {
+    "id": "A2-04-D1240",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-18",
+    "entry": "n5_v_82",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Attacher",
+      "Serrer",
+      "Nouer (une cravate, une ceinture)"
+    ],
+    "after": "un seul sens ; « Serrer » en traduction principale",
+    "reason": "« Serrer » passe en traduction principale, devant « Attacher » et « Nouer (une cravate, une ceinture) », qui restent d'autres traductions (arbitrage des choix du lot 18). La source donne « Attacher » en premier ; sa nuance définit l'action comme « serrer, nouer ou attacher », et son exemple traduit ネクタイを締めます par « je noue (serre) ma cravate » : « Serrer » est attesté par la fiche. Pour un débutant, il distingue mieux 締める de 付ける, dont le second sens porte « Fixer | Attacher » dans ce lot. Aucune traduction n'est ajoutée ni retirée : seul l'ordre change. Un seul sens, comme le dit D1214."
   }
 ]
