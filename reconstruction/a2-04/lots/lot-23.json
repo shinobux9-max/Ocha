@@ -1,0 +1,705 @@
+{
+  "lot": "lot-23",
+  "title": "Liaison, échange et formules sociales",
+  "entries": {
+    "n5_v_593": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1436",
+        "A2-04-D1437",
+        "A2-04-D1438",
+        "A2-04-D1439",
+        "A2-04-D1440"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour introduire une opposition ou une restriction par rapport à la phrase précédente : てんきがよいです。しかし、さむいです (il fait beau. Cependant, il fait froid). Plus formel que でも.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cependant",
+              "alternatives": [
+                "Mais",
+                "Toutefois",
+                "Néanmoins"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            }
+          }
+        ],
+        "grammatical_class": "conjonction",
+        "group": null
+      }
+    },
+    "n5_v_599": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1441",
+        "A2-04-D1442",
+        "A2-04-D1443",
+        "A2-04-D1444"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour exprimer une opposition ou une restriction par rapport à ce qui précède : くるまはほしいです。でも、たかいです (je veux une voiture. Mais elle est chère). Plus familier et informel que しかし, très courant à l'oral.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mais",
+              "alternatives": [
+                "Cependant",
+                "Pourtant"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            }
+          }
+        ],
+        "grammatical_class": "conjonction",
+        "group": null
+      }
+    },
+    "n5_v_416": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1445",
+        "A2-04-D1446",
+        "A2-04-D1447",
+        "A2-04-D1448",
+        "A2-04-D1449"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Formé de sore (cela) et de kara (depuis, après). Pour lier des actions consécutives dans le temps : あさごはんをたべました。それから、がっこうへいきました (j'ai pris mon petit-déjeuner. Ensuite, je suis allé à l'école). S'emploie aussi pour énumérer des éléments.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ensuite",
+              "alternatives": [
+                "Et puis",
+                "Puis après"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            }
+          }
+        ],
+        "grammatical_class": "conjonction",
+        "group": null
+      }
+    },
+    "n5_v_596": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1450",
+        "A2-04-D1451",
+        "A2-04-D1452",
+        "A2-04-D1453",
+        "A2-04-D1454"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour lier deux phrases ou actions de manière séquentielle, ou pour ajouter une information : あさごはんをたべました。そうして、がっこうへいきました (j'ai pris mon petit-déjeuner. Et puis, je suis allé à l'école). Un peu plus soutenu que それから. La fiche donne aussi « c'est ainsi que », sans le développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Et puis",
+              "alternatives": [
+                "Et ensuite"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            }
+          }
+        ],
+        "grammatical_class": "conjonction",
+        "group": null
+      }
+    },
+    "n5_v_418": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1455",
+        "A2-04-D1456",
+        "A2-04-D1457",
+        "A2-04-D1458",
+        "A2-04-D1459",
+        "A2-04-D1460",
+        "A2-04-D1461",
+        "A2-04-D1462"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dans ce cas",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour tirer la conséquence de ce qui précède, ou conclure un accord."
+          },
+          {
+            "meaning": {
+              "primary": "Eh bien",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour marquer le passage à une autre idée."
+          },
+          {
+            "meaning": {
+              "primary": "Alors",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours",
+                "politesse"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour prendre congé de manière polie : では、またあした (alors, à demain !)."
+          }
+        ]
+      }
+    },
+    "n5_v_417": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1463",
+        "A2-04-D1464",
+        "A2-04-D1465",
+        "A2-04-D1466",
+        "A2-04-D1467",
+        "A2-04-D1468",
+        "A2-04-D1469",
+        "A2-04-D1470"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Forme polie et complète de jaa (じゃあ), selon la fiche ; registre formel.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dans ce cas",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour introduire une conclusion."
+          },
+          {
+            "meaning": {
+              "primary": "Alors",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour changer de sujet, ou ouvrir une étape : それでは、はじめましょう (alors, commençons)."
+          },
+          {
+            "meaning": {
+              "primary": "Sur ce",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours",
+                "politesse"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour prendre congé de manière polie (formel)."
+          }
+        ],
+        "grammatical_class": "conjonction",
+        "group": null
+      }
+    },
+    "n5_v_595": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1471",
+        "A2-04-D1472",
+        "A2-04-D1473",
+        "A2-04-D1474",
+        "A2-04-D1475",
+        "A2-04-D1476",
+        "A2-04-D1477",
+        "A2-04-D1478"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Contraction familière de では, employée à l'oral.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dans ce cas",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour conclure un accord, tirer la conséquence de ce qui précède."
+          },
+          {
+            "meaning": {
+              "primary": "Bon",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour marquer une transition dans la conversation."
+          },
+          {
+            "meaning": {
+              "primary": "Alors",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour prendre congé : じゃ、またあした (alors, à demain)."
+          }
+        ],
+        "grammatical_class": "interjection",
+        "group": null
+      }
+    },
+    "n5_v_413": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1479",
+        "A2-04-D1480",
+        "A2-04-D1481",
+        "A2-04-D1482",
+        "A2-04-D1483",
+        "A2-04-D1484"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Contraction familière de では.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Alors",
+              "alternatives": [
+                "Dans ce cas"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour conclure un accord, tirer la conséquence de ce qui précède."
+          },
+          {
+            "meaning": {
+              "primary": "Eh bien",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour marquer une transition dans la conversation, jusqu'à la prise de congé : じゃあ、またあした (alors, à demain !)."
+          }
+        ],
+        "grammatical_class": "conjonction",
+        "group": null
+      }
+    },
+    "n5_v_344": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1485",
+        "A2-04-D1486",
+        "A2-04-D1487",
+        "A2-04-D1488"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour marquer l'accord, répondre à un appel ou confirmer une information : はい、わかりました (oui, j'ai compris). Terme d'approbation poli.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Oui",
+              "alternatives": [
+                "C'est exact",
+                "Entendu"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_586": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1489",
+        "A2-04-D1490",
+        "A2-04-D1491",
+        "A2-04-D1492"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour marquer l'approbation ou l'accord : ええ、そうです (oui, c'est bien cela). Plus doux et conversationnel que はい, très fréquent dans le langage parlé.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Oui",
+              "alternatives": [
+                "D'accord",
+                "Certes"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            }
+          }
+        ],
+        "grammatical_class": "interjection",
+        "group": null
+      }
+    },
+    "n5_v_584": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1493",
+        "A2-04-D1494",
+        "A2-04-D1495",
+        "A2-04-D1496",
+        "A2-04-D1497",
+        "A2-04-D1498",
+        "A2-04-D1499"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Non",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour répondre par la négative à une question."
+          },
+          {
+            "meaning": {
+              "primary": "De rien",
+              "alternatives": [
+                "Pas du tout"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "politesse"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour décliner poliment un compliment ou un remerciement."
+          }
+        ],
+        "grammatical_class": "interjection",
+        "group": null
+      }
+    },
+    "n5_v_600": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1500",
+        "A2-04-D1501",
+        "A2-04-D1502",
+        "A2-04-D1503"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour inviter quelqu'un à faire quelque chose, lui céder le passage ou lui offrir un objet : どうぞ、こちらへはいってください (s'il vous plaît, entrez par ici).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "S'il vous plaît",
+              "alternatives": [
+                "Je vous en prie",
+                "Allez-y"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "politesse"
+              ]
+            }
+          }
+        ],
+        "grammatical_class": "adverbe",
+        "group": null
+      }
+    },
+    "n5_v_499": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1504",
+        "A2-04-D1505",
+        "A2-04-D1506",
+        "A2-04-D1507",
+        "A2-04-D1508",
+        "A2-04-D1509"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La fiche mentionne aussi un emploi pour exprimer un vague sentiment de gêne ou d'incertitude, et la traduction « bien des choses », sans les développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Merci",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "politesse"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour remercier, seul, de façon familière mais polie ; raccourci de doumo arigatou : てつだってくれて、どうも (merci de m'avoir aidé)."
+          },
+          {
+            "meaning": {
+              "primary": "Vraiment",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "intensifieur"
+              ]
+            },
+            "particles": [],
+            "nuance": "Particule d'atténuation, selon la fiche."
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

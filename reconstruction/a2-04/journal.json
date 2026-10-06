@@ -20186,5 +20186,1083 @@
     "before": null,
     "after": null,
     "reason": "« Tranquillement, à son aise » : agir sans se presser, se détendre, prendre son temps ; une manière d'agir, non une vitesse de déplacement : aucune catégorie du registre ne la nomme (arbitrage des choix du lot 22). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1436",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_593",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "conjonction",
+    "reason": "Classe conjonction : la fiche le dit « conjonction / adverbe de liaison » et lui donne pour rôle d'« introduire une opposition ou une restriction par rapport à la phrase précédente » ; son exemple le place en tête de la seconde phrase. La conjonction du registre décrit ce rôle entre deux phrases. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (addendum A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1437",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_593",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Cependant",
+      "Mais",
+      "Toutefois",
+      "Néanmoins"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : l'opposition ou la restriction par rapport à la phrase précédente, que les quatre traductions disent ; l'exemple l'illustre (il fait beau. Cependant, il fait froid). Le registre (« plus formel que でも ») est dit en nuance (A9, §2.4). La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1438",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_593",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "connecteur"
+      ]
+    },
+    "reason": "Fonction connecteur (A9, §3.1) : le sens relie l'énoncé qu'il introduit à la phrase précédente, par une relation d'opposition ou de restriction ; ce rôle est le sens lui-même, et la fiche l'atteste (A9, §2.1). La relation précise (opposition) est dite en nuance, non comme sous-fonction. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1439",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_593",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : しかし ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1440",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_593",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (report à la passe finale 5.16, comme aux lots 18 à 22). しかし / でも : deux mots de même rôle (opposition), de registres différents selon leurs fiches (« plus formel que でも », « plus familier que しかし »). Candidate explicite à l'audit des relations de 5.16 (registre A2-REL) ; aucune fusion (arbitrage du périmètre du lot 23)."
+  },
+  {
+    "id": "A2-04-D1441",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_599",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "conjonction",
+    "reason": "Classe conjonction : la fiche le dit « conjonction / adverbe de liaison », pour « exprimer une opposition ou une restriction » ; son exemple le place en tête de la seconde phrase, comme しかし. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (addendum A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1442",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_599",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Mais",
+      "Cependant",
+      "Pourtant"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : l'opposition ou la restriction, que les trois traductions disent ; l'exemple l'illustre (je veux une voiture. Mais elle est chère). Le registre (« plus familier et informel que しかし », courant à l'oral) est dit en nuance (A9, §2.4). La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1443",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_599",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "connecteur"
+      ]
+    },
+    "reason": "Fonction connecteur (A9, §3.1) : le sens relie l'énoncé qu'il introduit au précédent, par une relation d'opposition ou de restriction ; c'est le sens lui-même, attesté par la fiche (A9, §2.1). Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1444",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_599",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : でも ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1445",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_416",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "interjection (ancien type)",
+    "after": "conjonction",
+    "reason": "Classe conjonction : la fiche le dit « conjonction ou adverbe de liaison », pour « lier des actions consécutives » ; son exemple le place en tête de la seconde phrase. L'ancien type interjection ne correspond à rien dans la fiche. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (addendum A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1446",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_416",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Ensuite",
+      "Et puis",
+      "Puis après"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens, temporel : la succession d'actions consécutives dans le temps, que les trois traductions disent et que l'exemple illustre (j'ai pris mon petit-déjeuner. Ensuite, je suis allé à l'école). L'emploi pour « énumérer des éléments », que la fiche mentionne sans le développer, reste en nuance, aucun second sens n'étant nécessaire (arbitrage du périmètre du lot 23). La composition donnée par la fiche (sore, cela, et kara, depuis, après) est dite en nuance : elle explique la forme ; aucune relation n'est posée. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1447",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_416",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "connecteur"
+      ]
+    },
+    "reason": "Fonction connecteur (A9, §3.1) : le sens relie l'énoncé qu'il introduit au précédent, par une relation de succession ; c'est le sens lui-même, attesté par la fiche et son exemple (A9, §2.1). Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1448",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_416",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : それから ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1449",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_416",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (report à la passe finale 5.16, comme aux lots 18 à 22). それから / そうして : deux mots de même rôle (succession), de registres différents selon la fiche de そうして (« un peu plus soutenu que それから »). Candidate explicite à l'audit des relations de 5.16 (registre A2-REL) ; aucune fusion (arbitrage du périmètre du lot 23)."
+  },
+  {
+    "id": "A2-04-D1450",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_596",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "conjonction",
+    "reason": "Classe conjonction : c'est la seule classe que la fiche nomme (« conjonction utilisée pour lier deux phrases ou actions ») ; son exemple le place en tête de la seconde phrase. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (addendum A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1451",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_596",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Et puis",
+      "Et ensuite",
+      "C'est ainsi que"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens de liaison : la fiche décrit le lien entre deux phrases ou actions, « de manière séquentielle (indiquant ce qui se produit après) ou pour ajouter une information » ; succession et addition restent dans un même sens de liaison (arbitrage du périmètre du lot 23). L'exemple illustre la succession. Le registre (« un peu plus soutenu que それから ») est dit en nuance. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1452",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_596",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "C'est ainsi que"
+    ],
+    "after": null,
+    "reason": "Traduction de la source que ni la nuance ni l'exemple ne développent (la fiche ne parle que de succession et d'addition) : elle n'est pas reprise en sens, et elle est signalée en nuance (traductions non développées, lots 15 et 16)."
+  },
+  {
+    "id": "A2-04-D1453",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_596",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "connecteur"
+      ]
+    },
+    "reason": "Fonction connecteur (A9, §3.1) : le sens relie l'énoncé qu'il introduit au précédent, par une relation de succession ou d'addition, dite en nuance ; c'est le sens lui-même, attesté par la fiche (A9, §2.1). Une addition reçoit ici connecteur, alors que また, sens 2 (« Aussi, de plus »), validée sans fonction au lot 21 (D1381), ne la porte pas : asymétrie connue, réservée à l'audit A2-05 (A9, §5), sans réouverture. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1454",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_596",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : そうして ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1455",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_418",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Alors",
+      "Dans ce cas",
+      "Eh bien"
+    ],
+    "after": [
+      "S1 Dans ce cas",
+      "S2 Eh bien",
+      "S3 Alors (prise de congé)"
+    ],
+    "reason": "Trois sens, un par emploi que la fiche établit (arbitrage du périmètre du lot 23 : distinguer les emplois réellement établis, sans sens fourre-tout) : « conclure un accord », c'est-à-dire tirer la conséquence de ce qui précède (dans ce cas) ; « marquer le passage à une autre idée » (eh bien) ; « prendre congé de manière polie », que l'exemple illustre (alors, à demain !). Classe conjonction mécanique (type de la source), conforme à la fiche (« conjonction de transition »). La fiche ne donne aucune particule : aucune pour les trois sens."
+  },
+  {
+    "id": "A2-04-D1456",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_418",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "connecteur"
+      ]
+    },
+    "reason": "Sens 1, fonction connecteur (A9, §3.1) : tirer une conséquence de ce qui précède, ou conclure un accord sur ce qui vient d'être dit, relie l'énoncé à la situation qui précède (A9, §3.2, frontière 1). Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1457",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_418",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "discours"
+      ]
+    },
+    "reason": "Sens 2, fonction discours (A9, §3.2) : passer à une autre idée fait passer l'échange à une autre étape, sans relation logique avec ce qui précède. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1458",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_418",
+    "field": "sens 3 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "discours",
+        "politesse"
+      ]
+    },
+    "reason": "Sens 3, fonctions discours et politesse, en cumul (A9, §2.3) : prendre congé clôt l'échange (discours, A9 §3.2) et, selon la fiche, le fait « de manière polie », acte social conventionnel (politesse, A9 §3.3 : prendre congé poliment). Les deux rôles sont intégraux au même emploi et attestés par la fiche ; chacun est justifié ici. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1459",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_418",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : では ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1460",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_418",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : では ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1461",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_418",
+    "field": "sens 3 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : では ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1462",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_418",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (report à la passe finale 5.16, comme aux lots 18 à 22). では / それでは / じゃ / じゃあ : les fiches disent じゃ et じゃあ « contraction de では », et それでは « forme polie et complète de jaa » : des formes de registres différents, non des graphies ; じゃ et じゃあ restent deux ENTRY, leur identité n'étant pas établie par les sources. Candidate explicite à l'audit des relations de 5.16 (registre A2-REL) ; aucune fusion (arbitrage du périmètre du lot 23)."
+  },
+  {
+    "id": "A2-04-D1463",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_417",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "interjection (ancien type)",
+    "after": "conjonction",
+    "reason": "Classe conjonction : la fiche le dit « conjonction de transition », comme では, dont la classe mécanique est conjonction. L'ancien type interjection ne correspond à rien dans la fiche. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (addendum A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1464",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_417",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Alors",
+      "Dans ce cas",
+      "Sur ce (formel / poli)"
+    ],
+    "after": [
+      "S1 Dans ce cas",
+      "S2 Alors",
+      "S3 Sur ce"
+    ],
+    "reason": "Trois sens, un par emploi que la fiche établit (arbitrage du périmètre du lot 23) : « introduire une conclusion » (dans ce cas) ; « un changement de sujet », que l'exemple illustre (alors, commençons) ; « prendre congé de manière polie » (sur ce), que la fiche traduit à part. « Formel / poli » et « forme polie et complète de jaa » disent le registre : en nuance (A9, §2.4, §3.3 frontière 1). La fiche ne donne aucune particule : aucune pour les trois sens."
+  },
+  {
+    "id": "A2-04-D1465",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_417",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "connecteur"
+      ]
+    },
+    "reason": "Sens 1, fonction connecteur (A9, §3.1) : introduire une conclusion relie l'énoncé à ce qui précède, par une relation de conséquence. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1466",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_417",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "discours"
+      ]
+    },
+    "reason": "Sens 2, fonction discours (A9, §3.2) : changer de sujet, ouvrir une étape (alors, commençons) fait passer l'échange à une autre étape. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1467",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_417",
+    "field": "sens 3 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "discours",
+        "politesse"
+      ]
+    },
+    "reason": "Sens 3, fonctions discours et politesse, en cumul (A9, §2.3) : prendre congé clôt l'échange (discours) et, selon la fiche, « de manière polie » (politesse, A9 §3.3 : prendre congé poliment). Le registre formel, lui, n'est pas la fonction : il est dit en nuance (A9, §3.3, frontière 1). Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1468",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_417",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : それでは ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1469",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_417",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : それでは ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1470",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_417",
+    "field": "sens 3 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : それでは ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1471",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_595",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "interjection",
+    "reason": "Classe interjection (arbitrage des choix du lot 23) : la fiche dit explicitement « interjection / particule de transition (contraction familière de では) » ; « particule » n'est pas une classe du registre, et interjection est la classe attestée par la fiche et disponible. La classe n'est déduite ni de la contraction avec では, ni du rôle de transition : A9 sépare la classe et la fonction (§2.2). Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). Les trois sens et leurs fonctions (connecteur ; discours ; discours, sans politesse) ne changent pas."
+  },
+  {
+    "id": "A2-04-D1472",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_595",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Alors",
+      "Bon",
+      "Dans ce cas"
+    ],
+    "after": [
+      "S1 Dans ce cas",
+      "S2 Bon",
+      "S3 Alors (prise de congé)"
+    ],
+    "reason": "Trois sens, un par emploi que la fiche établit (arbitrage du périmètre du lot 23) : « conclure un accord » (dans ce cas) ; « marquer une transition dans la conversation » (bon) ; « prendre congé (ex : ja, mata) », que l'exemple illustre (alors, à demain). Le registre familier est dit en nuance. La fiche ne donne aucune particule : aucune pour les trois sens."
+  },
+  {
+    "id": "A2-04-D1473",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_595",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "connecteur"
+      ]
+    },
+    "reason": "Sens 1, fonction connecteur (A9, §3.1) : conclure un accord sur ce qui précède relie l'énoncé à la situation qui précède, par une relation de conséquence. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1474",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_595",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "discours"
+      ]
+    },
+    "reason": "Sens 2, fonction discours (A9, §3.2) : marquer une transition fait passer l'échange à une autre étape. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1475",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_595",
+    "field": "sens 3 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "discours"
+      ]
+    },
+    "reason": "Sens 3, fonction discours (A9, §3.2) : prendre congé clôt l'échange. Pas de politesse : la fiche ne dit pas cette prise de congé polie, et la dit familière ; le registre n'est pas la fonction (A9, §3.3, frontière 1). Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1476",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_595",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : じゃ ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1477",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_595",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : じゃ ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1478",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_595",
+    "field": "sens 3 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : じゃ ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1479",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_413",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "interjection (ancien type)",
+    "after": "conjonction",
+    "reason": "Classe conjonction : la fiche le dit « conjonction ou particule de transition familière (contraction de では) » ; elle nomme conjonction en premier, comme では. L'ancien type interjection n'est pas retenu. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (addendum A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1480",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_413",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Alors",
+      "Dans ce cas",
+      "Eh bien"
+    ],
+    "after": [
+      "S1 Alors, dans ce cas",
+      "S2 Eh bien"
+    ],
+    "reason": "Deux sens, un par emploi que la fiche établit (arbitrage du périmètre du lot 23) : « conclure un accord ou exprimer “alors / dans ce cas” », la conséquence de ce qui précède ; « marquer une transition dans la conversation » (eh bien). La prise de congé n'est pas nommée par la nuance, à la différence de では et de じゃ : l'exemple l'illustre (alors, à demain !), et elle est dite en nuance du sens 2, comme fin de l'échange, sans troisième sens ni politesse. Le registre familier est dit en nuance. La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1481",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_413",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "connecteur"
+      ]
+    },
+    "reason": "Sens 1, fonction connecteur (A9, §3.1) : « alors, dans ce cas » tire la conséquence de ce qui précède. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1482",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_413",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "discours"
+      ]
+    },
+    "reason": "Sens 2, fonction discours (A9, §3.2) : marquer une transition fait passer l'échange à une autre étape ; la prise de congé de l'exemple le clôt, même rôle. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1483",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_413",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : じゃあ ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1484",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_413",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : じゃあ ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1485",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_344",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Oui",
+      "C'est exact",
+      "Entendu"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : répondre par l'affirmative, pour marquer l'accord, répondre à un appel ou confirmer une information ; les trois traductions disent cette même réponse, que l'exemple illustre (oui, j'ai compris). La réponse à un appel n'a pas de traduction propre dans la fiche : elle est dite en nuance. « Terme d'approbation poli » dit le registre : en nuance. Classe interjection mécanique, conforme à la fiche ; le groupe « nom » de la source n'a pas d'effet (groupe null pour une interjection). La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1486",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_344",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "discours"
+      ]
+    },
+    "reason": "Fonction discours (A9, §3.2) : le sens est de répondre (accord, confirmation, réponse à un appel), non d'apporter un contenu. Pas de politesse : « poli » dit le registre, non un acte social conventionnel (A9, §3.3, frontière 1). Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1487",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_344",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : はい ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1488",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_344",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (report à la passe finale 5.16, comme aux lots 18 à 22). はい / ええ / いいえ : はい et ええ disent l'accord, de registres différents (ええ « plus douce et conversationnelle que はい ») ; いいえ, la réponse négative. Candidate explicite à l'audit des relations de 5.16 (registre A2-REL) ; aucune fusion (arbitrage du périmètre du lot 23)."
+  },
+  {
+    "id": "A2-04-D1489",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_586",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "interjection",
+    "reason": "Classe interjection : c'est la seule classe que la fiche nomme (« interjection marquant l'approbation ou l'accord »), comme pour はい. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (addendum A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1490",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_586",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Oui",
+      "D'accord",
+      "Certes"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : l'approbation ou l'accord, que les trois traductions disent et que l'exemple illustre (oui, c'est bien cela). Le registre (« plus douce et conversationnelle que はい », fréquente à l'oral) est dit en nuance. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1491",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_586",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "discours"
+      ]
+    },
+    "reason": "Fonction discours (A9, §3.2) : le sens est de répondre par l'accord, non d'apporter un contenu. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1492",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_586",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : ええ ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1493",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_584",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "interjection",
+    "reason": "Classe interjection : la fiche le dit « interjection / expression de négation » ; interjection est la classe du registre qu'elle nomme, comme pour はい et ええ. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (addendum A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1494",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_584",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Non",
+      "De rien",
+      "Pas du tout"
+    ],
+    "after": [
+      "S1 Non",
+      "S2 De rien, pas du tout"
+    ],
+    "reason": "Deux sens (arbitrage du périmètre du lot 23 : « De rien » est un sens distinct de « Non ») : « répondre par la négative à une question » ; « décliner poliment un compliment ou un remerciement (dans le sens de “de rien”) », que la fiche traduit à part. « Pas du tout » rejoint le sens 2 : décliner un compliment. La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1495",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_584",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "discours"
+      ]
+    },
+    "reason": "Sens 1, fonction discours (A9, §3.2) : répondre par la dénégation. Pas de negation : la fonction n'est pas définie (A9, §6), et la réponse est dite par discours. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1496",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_584",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "politesse"
+      ]
+    },
+    "reason": "Sens 2, fonction politesse (A9, §3.3) : décliner un compliment ou un remerciement est un acte social conventionnel accompli par la formule. Pas de discours en cumul : le sens ne répond ni par l'accord ni par la dénégation d'une information ; son rôle est l'acte social lui-même. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1497",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_584",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : いいえ ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1498",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_584",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : いいえ ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1499",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_584",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "exemple de la source : « いいえ 、 ちigai masu 。 » (« Non, ce n'est pas ça. »)",
+    "after": null,
+    "reason": "Anomalie de la source, journalisée : l'exemple japonais de la fiche est altéré, le verbe étant écrit en romaji mêlé aux kana (« ちigai masu »). Il n'est pas repris, ni sa traduction ; aucune correction n'est inventée, et aucun ancien exemple de contexte ne le remplace (arbitrage du périmètre du lot 23). À signaler au registre de phrases. Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1500",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_600",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "adverbe",
+    "reason": "Classe adverbe : la fiche le dit « adverbe / interjection » et nomme adverbe en premier ; son exemple l'emploie avec une demande (どうぞ…ください). Même classe que どうも, autre formule du lot (adverbe mécanique). Alternative laissée à l'arbitrage : interjection. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (addendum A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1501",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_600",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "S'il vous plaît",
+      "Je vous en prie",
+      "Allez-y"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : inviter l'autre à faire ou à accepter quelque chose, ce que la fiche décline en trois situations (inviter à faire quelque chose, céder le passage, offrir un objet) ; les trois traductions disent cette même invitation, que l'exemple illustre (s'il vous plaît, entrez par ici). La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1502",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_600",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "politesse"
+      ]
+    },
+    "reason": "Fonction politesse (A9, §3.3) : inviter, offrir, céder le passage sont des actes sociaux conventionnels accomplis par la formule ; c'est le sens lui-même, attesté par la fiche (A9, §2.1). Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1503",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_600",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : どうぞ ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1504",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_499",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Merci",
+      "Bien des choses",
+      "Vraiment (particule d'atténuation)"
+    ],
+    "after": [
+      "S1 Merci",
+      "S2 Vraiment"
+    ],
+    "reason": "Deux sens (arbitrage du périmètre du lot 23 : « Vraiment (particule d'atténuation) » est un sens distinct de « Merci ») : la formule « utilisée seule pour remercier de façon familière mais polie (raccourci de doumo arigatou) », que l'exemple illustre (merci de m'avoir aidé) ; l'emploi que la fiche traduit « vraiment » et qualifie de « particule d'atténuation ». Le « vague sentiment de gêne ou d'incertitude » reste en nuance, la fiche ne le développant pas. Classe adverbe mécanique (type de la source). La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1505",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_499",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bien des choses"
+    ],
+    "after": null,
+    "reason": "Traduction de la source que ni la nuance ni l'exemple ne développent : elle n'est pas reprise en sens, et elle est signalée en nuance (traductions non développées, lots 15 et 16)."
+  },
+  {
+    "id": "A2-04-D1506",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_499",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "politesse"
+      ]
+    },
+    "reason": "Sens 1, fonction politesse (A9, §3.3) : remercier est un acte social conventionnel, accompli par la formule seule ; c'est le sens lui-même. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1507",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_499",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "intensifieur"
+      ]
+    },
+    "reason": "Sens 2, fonction intensifieur (A9, §3.6) : la fiche dit l'emploi « particule d'atténuation » et le traduit « vraiment » : il modifie le degré de ce qu'il accompagne, sans le désigner lui-même ; A9 couvre l'atténuation comme le renforcement. Alternative laissée à l'arbitrage : aucune fonction, la fiche ne disant pas ce que la particule modifie (le sens exigerait alors une décision categorie-nulle). Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1508",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_499",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : どうも ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1509",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-23",
+    "entry": "n5_v_499",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : どうも ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
   }
 ]

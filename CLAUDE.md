@@ -105,9 +105,9 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-06)
 
-- **Lots 0 à 22 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **657 ENTRY,
-  34 retraits, 28 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 435 décisions validées
-  (D0001 à D1435), aucune proposition en cours. **Il ne reste aucun verbe à décider.**
+- **Lots 0 à 23 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **670 ENTRY,
+  34 retraits, 15 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 509 décisions validées
+  (D0001 à D1509), aucune proposition en cours. **Il ne reste aucun verbe à décider.**
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -237,10 +237,18 @@ faut savoir est dans le dépôt.
   sur `Ocha.git`. **Point d'arrêt normatif ouvert** (rapport
   `docs/rapports/etape2-A2-04-lot23-prealable-normatif.md`) : **arbitrage rendu** (§12) ; **addendum
   A9 validé le 2026-10-06** (`docs/conception/addendum-A9-fonctions-linguistiques.md` : `connecteur`, `discours`, `politesse`, `quantificateur`,
-  `comparatif`, `intensifieur`), sur l'autorisation explicite de ChatGPT ; ni committé ni poussé ;
+  `comparatif`, `intensifieur`), sur l'autorisation explicite de ChatGPT ; **committé (`fac6a60`) et
+  poussé** ;
   aucune décision lexicale ; また non rouverte ; など hors du lot 23 (préalable sur sa classe, à part).
   **Les 27 autres entrées restantes relèvent désormais de fonctions définies** ; leur périmètre de
-  lot 23 n'est pas encore préparé. Le regroupement « quantité et degré » n'est plus suspendu à la
+  lot 23 est **arbitré** (rapport `docs/rapports/etape2-A2-04-lot23-perimetre.md`, §9) : « liaison, échange et
+  formules sociales », 13 entrées ; 14 reportées (quantité, degré, comparaison) ; など hors
+  périmètre ; じゃ et じゃあ, deux ENTRY. **Proposition livrée en `proposed`** (rapport
+  `docs/rapports/etape2-A2-04-lot23-proposition.md`) : 22 sens, 74 décisions D1436 à D1509, A9 appliqué sens par sens ; **18 choix
+  arbitrés**, une correction appliquée à la révision (じゃ en `interjection`, D1471 réécrite) ;
+  **validé le 2026-10-06** (rapport `docs/rapports/etape2-A2-04-lot23-valide.md`), sur l'autorisation explicite de ChatGPT ;
+  **ni committé ni poussé** (accords non donnés). Restent 15 entrées : les 14 de quantité, de degré
+  et de comparaison, et など (préalable de classe). Le regroupement « quantité et degré » n'est plus suspendu à la
   question des fonctions `quantificateur`, `comparatif` et `intensifieur`, que définit A9.
   **Aucune décision avant la validation d'un périmètre.**
 - **Contrôle** : Claude réalise dans le dépôt, ChatGPT relit et, par délégation, arbitre et

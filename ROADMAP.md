@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-06 (validation du lot 22)
+**Dernière mise à jour :** 2026-10-06 (validation du lot 23)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,9 +41,9 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → périmètre du lot 23, après le point d'arrêt normatif
-(addendum A9 validé : six fonctions définies). Il reste 28 entrées, sans aucun verbe ; など est hors
-du lot 23, sa classe fera l'objet d'un préalable à part.** Les lots 0 à 22 sont validés.
+**A2-04 · reconstruction du vocabulaire N5 → lot « quantité, degré et comparaison » (14 entrées) et
+préalable sur la classe de など. Il reste 15 entrées, sans aucun verbe.** Les lots 0 à 23 sont
+validés ; l'addendum A9 (six fonctions linguistiques) est validé.
 
 Les lots 0 à 20 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
@@ -269,7 +269,9 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **Lot 20** | Existence, possession, action et déroulement | ✅ Terminé |
 | **Lot 21** | Fréquence, répétition et repères temporels | ✅ Terminé |
 | **Lot 22** | Manière, identité, diversité et probabilité | ✅ Terminé |
-| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (28 entrées, sans aucun verbe ; une décision normative sur les fonctions précède le lot 23) | ⬜ À faire |
+| **Préalable A9** | Point d'arrêt normatif : six fonctions A2-LING définies (addendum A9) | ✅ Terminé |
+| **Lot 23** | Liaison, échange et formules sociales | ✅ Terminé |
+| **Lots suivants** | Quantité, degré et comparaison (14 entrées) ; préalable sur la classe de など | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -286,12 +288,12 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 22
+#### État chiffré après le lot 23
 
--   **657 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **670 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **34 identifiants retirés** ;
--   **28 anciennes entrées encore à décider**, dont aucun verbe ;
--   **1 435 décisions humaines validées** au journal ;
+-   **15 anciennes entrées encore à décider**, dont aucun verbe ;
+-   **1 509 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **2 suffixes** (`半`, `辺`) ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -466,10 +468,28 @@ décisions** (D1404 à D1435).
     `まっすぐ`, sens 1, en `parcours_trajectoire` ; `同じ` en `determinant`, `一緒` en `nom` ;
 -   `たぶん` avec la dimension `probabilite` et sans type (A6) ; 6 catégories nulles.
 
-**Prochaine action immédiate :** commit puis push du lot 22, chacun sur un accord explicite ;
-ensuite seulement, le point d'arrêt normatif : les 28 entrées restantes dépendent toutes de
-fonctions linguistiques sans définition normative (`connecteur`, `discours`, `politesse`,
-`quantificateur`, `comparatif`, `intensifieur`). Le lot 23 n'est pas préparé.
+#### Préalable A9 · clos
+
+Point d'arrêt normatif sur les fonctions A2-LING : **addendum A9** validé (`fac6a60`), qui définit
+`connecteur`, `discours`, `politesse`, `quantificateur`, `comparatif` et `intensifieur`, sur le
+modèle d'A7 : attribution par le sens modélisé, jamais par la classe ; cumul sous conditions ; また,
+sens 2, réservée à l'audit A2-05 ; など hors du lot 23.
+
+#### Lot 23 · clos
+
+« Liaison, échange et formules sociales » : **13 entrées, 22 sens, 74 décisions** (D1436 à D1509).
+
+-   **première application d'A9**, sens par sens : `connecteur` 8, `discours` 10, `politesse` 5,
+    `intensifieur` 1 ; cumul `discours` + `politesse` pour la seule prise de congé « polie »
+    (`では`, `それでは`) ;
+-   un sens par emploi établi par la fiche : trois pour `では`, `それでは`, `じゃ` ; deux pour
+    `じゃあ`, `いいえ` (« De rien »), `どうも` (« Vraiment ») ;
+-   `じゃ` et `じゃあ` deux ENTRY ; `じゃ` en `interjection`, la classe suivant la fiche ;
+-   aucune catégorie, 22 types nuls justifiés ; l'exemple altéré de `いいえ` journalisé.
+
+**Prochaine action immédiate :** commit puis push du lot 23, chacun sur un accord explicite ;
+ensuite, sur demande, le périmètre du lot « quantité, degré et comparaison » (14 entrées), et le
+préalable sur la classe de など.
 
 ------------------------------------------------------------------------
 
