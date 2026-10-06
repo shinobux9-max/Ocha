@@ -11,8 +11,9 @@ ChatGPT ; lot 19 validé et committé (`9e75c99`) ; lot 20 : périmètre arbitr�
 (`origin/ocha-v2` à `55acc13`) ; **lot 21 : périmètre arbitré, proposition livrée, 21 choix arbitrés, révision vérifiée, lot
 validé, committé (`1cfac5b`) et poussé** (2026-10-06) ; remote `origin` corrigé vers `Ocha` ;
 **lot 22 : périmètre arbitré, proposition livrée, 16 choix arbitrés et révisée, révision
-vérifiée, lot validé** (commit et push non autorisés), dans une session Claude Code
-cloud.
+vérifiée, lot validé, committé (`f3e81bc`) et poussé** ; remote `origin` remis sur `Ocha` ;
+**point d'arrêt normatif sur les fonctions A2-LING ouvert** (rapport d'arbitrage livré), arbitré ;
+**addendum A9 rédigé, relu et validé** (ni committé ni poussé), dans une session Claude Code cloud.
 
 ## 1. Les rôles
 
@@ -83,7 +84,9 @@ behind. Le remote `origin` pointe désormais sur `https://github.com/shinobux9-m
 entrées non décidées**, aucune proposition en cours ; 1 403 décisions validées (D0001 à D1403) ; 0
 problème, 0 erreur, 0 attente ; 140 avertissements ; 472 tests verts.
 
-**Lot 22, « Manière, identité, diversité et probabilité » : validé, ni committé ni poussé.**
+**Lot 22, « Manière, identité, diversité et probabilité » : clos.** Validé, committé (`f3e81bc`)
+et poussé, chacun sur ton accord explicite ; `ocha-v2` et `origin/ocha-v2` sont à `f3e81bc`, 0
+ahead / 0 behind ; `origin` pointe sur `https://github.com/shinobux9-max/Ocha.git`.
 
 | Étape | État | Qui a décidé |
 |---|---|---|
@@ -92,7 +95,7 @@ problème, 0 erreur, 0 attente ; 140 avertissements ; 472 tests verts.
 | Les 16 choix | arbitrés le 2026-10-06, retenus avec trois corrections (rapport de proposition, §9) | toi |
 | Révision | faite : D1404, D1405, D1409 et D1418 réécrites à leur place, D1435 ajoutée ; 9 sens, 32 décisions D1404 à D1435, toutes `proposed` ; **vérifiée, favorable**, sans correction supplémentaire | toi |
 | **Validation** | **faite le 2026-10-06** sur ton autorisation explicite : statuts seulement, 9 entrées et 32 décisions | toi |
-| Commit, push | **non autorisés** | toi, deux accords distincts |
+| Commit, push | **faits** : `f3e81bc`, puis push `1cfac5b..f3e81bc` | toi, deux accords distincts |
 
 **D'après les contrôles rapportés par Claude Code** : seules 41 lignes changent, toutes
 `"status": "proposed"` → `"validated"` (9 dans `lot-22.json`, 32 dans `journal.json`) ; le contenu
@@ -101,18 +104,57 @@ ENTRY, 34 retraits, 28 écartées (toutes non décidées)**, 0 problème, 0 erre
 avertissements ; 1 435 décisions, toutes validées ; 弱い n'est pas touchée ; 474 tests verts ; 49
 sabotages attrapés.
 
-`06` contient le rapport de périmètre, le rapport de proposition, le rapport de validation et le
-rapport généré ; `07` les 9 fiches et les précédents ; `08` est `lot-22.json` ; `09` ses 32
-décisions ; `10` le diff contre `1cfac5b`, et le diff de la bascule. **Rien n'est committé.**
+**Point d'arrêt normatif sur les fonctions A2-LING : ouvert le 2026-10-06, sur la demande transmise par l'utilisateur, avant tout
+lot 23.** Rapport d'arbitrage livré : `docs/rapports/etape2-A2-04-lot23-prealable-normatif.md`. Le
+préfixe `lot23` sert seulement à l'export : **aucun `lot-23.json`, aucune décision de journal, aucune
+ENTRY modifiée, aucun addendum écrit** ; rien n'est validé, committé ni poussé.
+
+**État réel, relevé par Claude Code avant le rapport** : 657 ENTRY, 34 retraits, **28 entrées non
+décidées**, aucune proposition en cours ; 1 435 décisions validées ; 0 problème, 0 erreur, 0
+attente ; 147 avertissements ; 474 tests verts.
+
+**Arbitrage rendu** (rapport, §12) : A9 ; C1, D1, P1, Q1, K1, I1 reformulée ; cumul sous conditions ;
+また, sens 2, à l'audit A2-05 ; など hors du lot 23 ; ni `negation` ni `pluralisation`. **Addendum A9
+validé le 2026-10-06** sur ton autorisation, après ta relecture favorable : `docs/conception/addendum-A9-fonctions-linguistiques.md`,
+dans `04-addenda.md` (dernier document). Seul son statut a changé ; il est inscrit au sommaire de
+la conception. **Ni committé ni poussé.**
+
+`06` contient **le rapport du préalable**, arbitrage compris (§12) ; `07`, les **28 fiches sources complètes** (partie 1) et les
+précédents validés (partie 2 : 大変, また, もう一度, 同じ, いろいろ, 他, たぶん…) ; `08` la liste des 28
+identifiants (aucun fichier de lot) ; `09` est vide ; `10` le diff contre `f3e81bc`.
 
 ## 4. Ce qui est attendu de cette relecture
 
-**Contrôler le diff de validation** (`10`, et le rapport de validation, §1) : seuls les statuts ont
-changé, le contenu hors statut est identique.
+**Contrôler la validation d'A9** (`10` : seul le statut de l'addendum change ; le sommaire, `CLAUDE.md`
+et les points ouverts sont mis à jour), puis, si tu l'estimes justifié, **le commit** et **le push**,
+sur deux accords distincts. **Pour mémoire, les points de ta relecture d'A9**, favorable :
 
-Ensuite, si tu l'estimes justifié : **le commit**, sur ton accord explicite (`git diff --stat` et la
-liste exacte des fichiers sont dans le message de Claude Code) ; puis **le push**, sur un accord
-distinct. Un avis favorable n'autorise ni l'un ni l'autre.
+1. **la fidélité** : chaque définition reprend l'option retenue (C1, D1, P1, Q1, K1, I1 avec la
+   formulation « sans désigner lui-même la propriété, l'état ou l'action modifiés ») ;
+2. **la règle de polysémie et de cumul** (§2.3) : rôle distinct, intégral au sens modélisé, attesté
+   par la fiche ; jamais de scission pour éviter un cumul ; découpage possible si la fiche établit
+   deux emplois ;
+3. **les frontières** (§3 et §4) avec les catégories, A2-ST, A2-DIM, A2-REL, les classes et les
+   registres de politesse (`registres.json`, `expressions.json`) ;
+4. **l'application** (§5) : la doctrine du lot 20 maintenue pour les fonctions non définies, A5 et
+   A6 inchangés, aucun outil modifié, また, sens 2, à l'audit A2-05, 大変 « très » compatible ;
+5. **le hors champ** (§6) : `negation`, `pluralisation`, など.
+
+Un avis favorable ne vaut ni le commit ni le push. **Rappel de l'arbitrage précédent**, pour mémoire : les questions Q1 à Q11 (§9) étaient :
+
+1. **Q1, la gouvernance** : un addendum A9 (comme A7), une version A2-LING-v2, ou aucune
+   définition (doctrine du lot 20 prolongée) ;
+2. **Q3 à Q7, les définitions** : `connecteur` (C1 / C2), `discours` (D1 / D2), `politesse` (P1
+   / P2), `quantificateur` (Q1 / Q2 / catégorie seule), `comparatif` (K1 / K2), `intensifieur`
+   (I1, renforcement et atténuation / I2, renforcement seul) ;
+3. **Q2, Q9** : le cumul de fonctions sur un sens, et le principe « l'emploi fait partie intégrante
+   du sens modélisé » (repris d'A7, §4) ;
+4. **Q8** : また, sens 2 (validée sans fonction), réservée à l'audit A2-05 ou rouverte ;
+5. **Q10, Q11** : など (hors du lot 23 ?), `negation` et `pluralisation` (non définies ?).
+
+**Ce que ton arbitrage déclenchera** : si un addendum est retenu, Claude le rédige et le soumet à
+validation **avant** tout périmètre ; le périmètre du lot 23 vient ensuite, sans décision lexicale
+avant ton accord sur lui. **Ton arbitrage n'autorise ni validation, ni commit, ni push.**
 
 ## 5. Points ouverts
 
@@ -134,7 +176,8 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Commit du lot 22**, sur ton accord explicite.
-2. **Push**, sur un accord explicite et distinct.
-3. Ensuite seulement, le point d'arrêt normatif sur les fonctions A2-LING, avant tout lot 23 : les
-   28 entrées restantes en dépendent toutes. Le lot 23 n'est pas préparé.
+1. **Le commit**, puis **le push** de la validation d'A9, sur deux accords explicites et distincts.
+2. Sur ta demande, le périmètre du lot 23.
+3. Le périmètre du lot 23 se compose parmi les 27 entrées restantes hors など, sans
+   décision lexicale avant l'accord sur ce périmètre ; le préalable sur la classe de など, après A9,
+   est traité à part.

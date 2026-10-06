@@ -41,9 +41,9 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → point d'arrêt normatif avant le lot 23. Il reste 28
-entrées, sans aucun verbe, qui dépendent toutes de fonctions linguistiques sans définition
-normative.** Les lots 0 à 22 sont validés.
+**A2-04 · reconstruction du vocabulaire N5 → périmètre du lot 23, après le point d'arrêt normatif
+(addendum A9 validé : six fonctions définies). Il reste 28 entrées, sans aucun verbe ; など est hors
+du lot 23, sa classe fera l'objet d'un préalable à part.** Les lots 0 à 22 sont validés.
 
 Les lots 0 à 20 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13

@@ -93,6 +93,11 @@ faut savoir est dans le dépôt.
 - **absences justifiées** : `category: null` (addendum A5), `semantic_type: null` (addendum A6) ;
 - **`deictique`** : la définition de l'addendum A7 (personne, espace, temps), appliquée sens par
   sens ;
+- **`connecteur`, `discours`, `politesse`, `quantificateur`, `comparatif`, `intensifieur`** :
+  les définitions de l'addendum A9, appliquées sens par sens, quand le rôle fait partie intégrante
+  du sens modélisé et que la fiche l'atteste, jamais par la classe ; cumul permis sous conditions,
+  jamais de scission pour l'éviter ; les autres fonctions restent sans définition (doctrine du lot
+  20) ;
 - **lectures des mots en katakana** : statu quo mécanique pendant les lots ;
 - **lecture fautive connue** : liste fermée (`READING_EXCEPTION_IDS`, 九つ seule) qui rend la lecture
   décidable ; aucune correction automatique, sources figées intactes ; le romaji n'est pas une
@@ -227,11 +232,17 @@ faut savoir est dans le dépôt.
   **16 choix arbitrés** et **révisée** (rapport `docs/rapports/etape2-A2-04-lot22-proposition.md`,
   §9) : 9 sens, 32 décisions D1404 à D1435 ; ゆっくり à deux sens, まっすぐ en parcours et trajectoire,
   同じ en `determinant` ; **révision vérifiée, favorable**. **Validé le 2026-10-06** (rapport
-  `docs/rapports/etape2-A2-04-lot22-valide.md`), sur l'autorisation explicite de ChatGPT ; **ni
-  committé ni poussé** (accords non donnés). **Après lui, les 28 entrées restantes dépendent toutes de
-  fonctions sans définition normative** : une décision normative précédera le lot 23. Un lot « quantité et
-  degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et
-  `intensifieur`. **Aucune décision avant la validation d'un périmètre.**
+  `docs/rapports/etape2-A2-04-lot22-valide.md`), sur l'autorisation explicite de ChatGPT ;
+  **committé (`f3e81bc`) et poussé** : `ocha-v2` et `origin/ocha-v2` sont à `f3e81bc`, `origin`
+  sur `Ocha.git`. **Point d'arrêt normatif ouvert** (rapport
+  `docs/rapports/etape2-A2-04-lot23-prealable-normatif.md`) : **arbitrage rendu** (§12) ; **addendum
+  A9 validé le 2026-10-06** (`docs/conception/addendum-A9-fonctions-linguistiques.md` : `connecteur`, `discours`, `politesse`, `quantificateur`,
+  `comparatif`, `intensifieur`), sur l'autorisation explicite de ChatGPT ; ni committé ni poussé ;
+  aucune décision lexicale ; また non rouverte ; など hors du lot 23 (préalable sur sa classe, à part).
+  **Les 27 autres entrées restantes relèvent désormais de fonctions définies** ; leur périmètre de
+  lot 23 n'est pas encore préparé. Le regroupement « quantité et degré » n'est plus suspendu à la
+  question des fonctions `quantificateur`, `comparatif` et `intensifieur`, que définit A9.
+  **Aucune décision avant la validation d'un périmètre.**
 - **Contrôle** : Claude réalise dans le dépôt, ChatGPT relit et, par délégation, arbitre et
   autorise ; l'utilisateur relaie et garde le dernier mot. Depuis le
   2026-10-05, le relecteur est ChatGPT, **sans accès au dépôt** (Codex, auparavant, reproduisait

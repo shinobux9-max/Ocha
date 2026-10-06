@@ -27,6 +27,7 @@ référence : un comportement qui s'en écarte doit être signalé, jamais impro
 | A6 | `addendum-A6-semantic-type-null.md` | `semantic_type: null` quand aucun type terminal ne convient, indépendant de `category` ; I10 modifié |
 | A7 | `addendum-A7-deictique.md` | définition opérationnelle de la fonction `deictique` (personne, espace, temps) ; audit rétroactif de la deixis temporelle réservé à A2-05 |
 | A8 | `addendum-A8-furigana.md` | concordance des furigana et des kana : la lecture recomposée des furigana est égale aux kana (I4 et I5 complétés) ; liste fermée des lectures spéciales écrites en bloc |
+| A9 | `addendum-A9-fonctions-linguistiques.md` | définitions opérationnelles de `connecteur`, `discours`, `politesse`, `quantificateur`, `comparatif` et `intensifieur` ; attribution par le sens modélisé, jamais par la classe ; règle de cumul ; audit rétroactif réservé à A2-05 (au minimum また, sens 2) |
 | — | `schema-A2-01.md` | schéma du vocabulaire (ENTRY → SENSE) et invariants du validateur |
 | — | `registre-des-tags.md` | tags : nature, critères de création, procédure (A2-02) |
 | — | `../../REGLES-CONSTRUCTION.md` | règles opérationnelles de la branche `ocha-v2` (à la racine du dépôt) |
