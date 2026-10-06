@@ -2,13 +2,14 @@ Cette note est écrite à la main par Claude Code et mise à jour avant chaque e
 que l'outil ne peut pas déduire des données : les rôles, les consignes, qui a décidé quoi, et ce
 qui est attendu. L'état chiffré est dans la partie 2, relevée par l'outil.
 
-**Dernière mise à jour de la note** : 2026-10-05, après le commit du lot 16 (`6c8fc50`) ; périmètre
+**Dernière mise à jour de la note** : 2026-10-06. Historique : 2026-10-05, après le commit du lot 16 (`6c8fc50`) ; périmètre
 du lot 17 arbitré, proposition relue et arbitrée, lot 17 validé et committé (`e9fe6a4`) ; outillage
 de relecture committé (`2387d20`) ; lot 18 : périmètre arbitré, proposition livrée, vingt choix
 arbitrés, révision vérifiée, lot validé et committé (`213fb2b`) ; délégation des accords à
 ChatGPT ; lot 19 validé et committé (`9e75c99`) ; lot 20 : périmètre arbitré, proposition livrée,
-25 choix arbitrés, révision vérifiée, lot validé et committé (`bcbc85c`) ; **rien n'est poussé**
-(2026-10-06).
+25 choix arbitrés, révision vérifiée, lot validé et committé (`bcbc85c`) ; branche poussée
+(`origin/ocha-v2` à `55acc13`) ; **lot 21 : périmètre arbitré, proposition livrée, 21 choix arbitrés, révision vérifiée, lot
+validé** (2026-10-06), dans une session Claude Code cloud ; ni committé ni poussé.
 
 ## 1. Les rôles
 
@@ -61,68 +62,67 @@ l'intégrité des sources figées.
 **Lot 17, « États et propriétés descriptives » : clos.** Validé sur autorisation explicite de
 l'utilisateur, relu (avis favorable au commit, sans correction), committé : `e9fe6a4`. La fusion de
 暖かい dans 温かい est validée avec lui. L'outillage de relecture est committé à part : `2387d20`.
-Rien n'est poussé.
 
-**Lots 18 et 19 : clos.** Validés puis committés sur tes accords explicites : `213fb2b` (lot 18) et
-`9e75c99` (lot 19, onze fichiers, `chatgpt-relecture/` exclu). État réel : 616 ENTRY, 32
-retraits, 71 entrées restantes, 1 301 décisions validées. **Rien n'est poussé** : tu n'as pas
-autorisé le push.
+**Lots 18 à 20 : clos.** Validés puis committés sur tes accords explicites : `213fb2b` (lot 18),
+`9e75c99` (lot 19), `bcbc85c` (lot 20). **La branche est poussée** : `ocha-v2` et `origin/ocha-v2`
+sont à `55acc13` (commit de documentation du lot 20).
 
-**Lot 20, « Existence, possession, action et déroulement » : clos, validé et committé
-(`bcbc85c`) ; non poussé.**
+**État réel, relevé par Claude Code avant le rapport de périmètre** : 638 ENTRY, 32 retraits, **49
+entrées non décidées**, aucune proposition en cours ; 1 369 décisions validées (D0001 à D1369) ;
+0 problème, 0 erreur, 0 attente ; 470 tests verts. Il ne reste aucun verbe.
+
+**Lot 21, « Fréquence, répétition et repères temporels » : validé, ni committé ni poussé.**
 
 | Étape | État | Qui a décidé |
 |---|---|---|
-| Périmètre | arbitré le 2026-10-06 (rapport de périmètre, §7) | toi |
-| Proposition lexicale | livrée : 22 entrées | — |
-| Les 25 choix | arbitrés le 2026-10-06, avec sept corrections et trois dimensions (rapport de proposition, §9) | toi |
-| Révision | faite, vérifiée (avis favorable) | toi |
-| **Validation** | **faite le 2026-10-06** : 22 entrées et 68 décisions (D1302 à D1369) en `validated`, statuts seulement | toi ; transmise et confirmée par l'utilisateur |
-| Commit | **fait le 2026-10-06** : `bcbc85c`, onze fichiers, `chatgpt-relecture/` exclu | toi |
-| Push | **non autorisé**, jamais fait | à donner explicitement |
+| Périmètre | arbitré le 2026-10-06 : 12 entrées (rapport de périmètre, §9) | toi |
+| Proposition lexicale | livrée : 12 entrées, 16 sens | — |
+| Les 21 choix | arbitrés le 2026-10-06, retenus avec trois corrections (rapport de proposition, §9) | toi |
+| Révision | faite et vérifiée, favorable : D1375 et D1378 réécrites à leur place, D1403 ajoutée | toi |
+| **Validation** | **faite le 2026-10-06** : 12 entrées et 34 décisions (D1370 à D1403) en `validated`, statuts seulement (rapport de validation) | toi ; transmise par l'utilisateur |
+| **Commit** | **non autorisé** | à donner explicitement |
+| **Push** | **non autorisé** | à donner explicitement, à part |
 
-**État réel après validation** : 638 ENTRY, 32 retraits, 49 entrées restantes, **plus aucun
-verbe** ; 1 369 décisions validées, aucune proposition en cours.
+**D'après les contrôles rapportés par Claude Code** : seules les 46 lignes de statut ont changé (12
+dans le lot, 34 dans le journal), le contenu hors `status` est identique, et les 1 369 décisions des
+lots 0 à 20 sont identiques. **Assemblage réel : 650 ENTRY, 32 retraits, 37 entrées écartées, 0
+problème, 0 erreur, 0 attente** ; 1 403 décisions toutes validées ; 140 avertissements justifiés ;
+472 tests verts ; 42 sabotages attrapés.
 
-`08` contient les 22 entrées validées, `09` leurs 68 décisions, `06` les rapports (périmètre,
-proposition, **validation**, rapport généré), `10` le diff contre le dernier commit (`9e75c99`) et
-la comparaison avant / après validation.
+`06` contient les rapports de périmètre, de proposition et de **validation**, et le rapport
+généré ; `07` les 12 fiches et les précédents ; `08` est `lot-21.json` validé ; `09` ses 34
+décisions ; `10` le diff contre `55acc13` et la **comparaison avant / après validation**. **Rien
+n'est committé.**
 
 ## 4. Ce qui est attendu de cette relecture
 
-**Rien à relire sur le lexique** : le lot 20 est clos, et aucune proposition n'est en cours.
+**Contrôler le diff de validation** (`10`, §3, et rapport de validation) : statuts seulement.
 
-**Décider du push**, explicitement. La branche `ocha-v2` n'a jamais été poussée ; l'objectif
-annoncé par l'utilisateur est de la synchroniser proprement vers GitHub, pour une migration
-temporaire vers les sessions cloud. Claude Code ne pousse que sur un accord écrit en toutes
-lettres. Le dossier `chatgpt-relecture/` n'est pas suivi par git : il ne part pas avec la branche
-et se régénère avec l'outil d'export.
+**Décider du commit**, explicitement, puis, à part, **du push**. Les fichiers à committer sont
+listés dans le rapport de validation (§6) et dans le relevé de Claude Code ; `chatgpt-relecture/`
+et le ZIP de transfert n'en font jamais partie.
 
-**Aucune préparation du lot 21** tant qu'elle n'est pas demandée.
+**Aucune préparation du lot 22** : rien n'est fait avant une demande explicite.
 
 ## 5. Points ouverts
 
 La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouverts »
 (`01-gouvernance.md`). Ceux qui touchent la suite proche :
 
-- **Identité de 温かい et de 暖かい** : arbitrée (issue C) et validée avec le lot 17 (D1127,
-  D1128).
-- **Adjectifs restants hors du lot 17** : 多い et 少ない (lot « quantité et degré », réservé), 早い
-  (réservée depuis le lot 13, à examiner au regard d'A7), 同じ et いろいろ (sans lot attribué), et
-  l'adverbe 弱く (forme de 弱い, identité à décider).
-- **Lot « quantité et degré »**, précédé de la question des fonctions `quantificateur`,
-  `comparatif` et `intensifieur`, sans définition normative.
-- **« Adjectif en na (et nom) »** : le schéma ne porte qu'une classe par ENTRY.
-- **Emplois d'adresse conservés en nuance** : les fonctions pragmatiques d'A2-LING n'ont pas de
-  définition normative.
-- **Audit A2-05** : catégories nulles, deixis temporelle de 前 et 先, catégories de メートル et キロ,
-  extensions conservées en nuance.
-- **Hors lexique** : le push de la branche, jamais fait à ce jour.
+- **Fonctions d'A2-LING sans définition** : seule `deictique` en a une (A7). `connecteur`,
+  `discours` et `politesse` conditionnent les mots de liaison et les réponses ; `quantificateur`,
+  `comparatif` et `intensifieur`, le lot « quantité et degré » (rapport de périmètre, §6).
+- **Classe de など** : « particule suffixe » selon sa fiche ; le registre des classes n'a pas de
+  classe « particule ».
+- **Identité de 弱く** (forme de 弱い, validée au lot 17) et de ゆっくり / ゆっくりと.
+- **« Adjectif en na (et nom) »** : le schéma ne porte qu'une classe par ENTRY (いろいろ, 同じ, 一緒).
+- **Audit A2-05** : catégories nulles, deixis temporelle de 前, 先 et 近く, catégories de メートル et
+  キロ, extensions conservées en nuance.
+- **Passe finale 5.16** : relations candidates des lots 18 à 20 ; furigana de 頼む ; formes de 煙草
+  et 居る.
 
 ## 6. Prochaine action
 
-1. **Push** de `ocha-v2` vers GitHub : jamais fait à ce jour ; sur un accord explicite et
-   distinct, après contrôle de la position de la branche par rapport à `origin/ocha-v2`.
-2. **Lot 21** : ensuite seulement, et sur demande explicite, thème et périmètre par identifiants, sans décision lexicale
-   avant l'arbitrage du périmètre. Les 49 entrées restantes dépendent pour une bonne part de
-   fonctions linguistiques sans définition normative.
+1. **Commit** du lot 21, sur ton accord explicite (« j'autorise le commit »).
+2. **Push**, sur un accord explicite et distinct.
+3. Lot 22 : seulement sur demande explicite.

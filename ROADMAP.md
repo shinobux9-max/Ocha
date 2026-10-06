@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-06 (clôture du lot 20)
+**Dernière mise à jour :** 2026-10-06 (validation du lot 21)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,8 +41,8 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot 21, dont le thème et le périmètre restent à
-arbitrer. Il reste 49 entrées, sans aucun verbe.**
+**A2-04 · reconstruction du vocabulaire N5 → lot 22, dont le thème et le périmètre restent à
+arbitrer. Il reste 37 entrées, sans aucun verbe.** Les lots 0 à 21 sont validés.
 
 Les lots 0 à 20 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
@@ -266,7 +266,8 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **Lot 18** | Actions sur les objets | ✅ Terminé |
 | **Lot 19** | Vie quotidienne, travail et échanges | ✅ Terminé |
 | **Lot 20** | Existence, possession, action et déroulement | ✅ Terminé |
-| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 21 : thème et périmètre à arbitrer ; 49 entrées, sans aucun verbe) | ⬜ À faire |
+| **Lot 21** | Fréquence, répétition et repères temporels | ✅ Terminé |
+| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 22 : thème et périmètre à arbitrer ; 37 entrées, sans aucun verbe) | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -283,12 +284,12 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 20
+#### État chiffré après le lot 21
 
--   **638 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **650 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **32 identifiants retirés** ;
--   **49 anciennes entrées encore à décider**, dont aucun verbe ;
--   **1 369 décisions humaines validées** au journal ;
+-   **37 anciennes entrées encore à décider**, dont aucun verbe ;
+-   **1 403 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **2 suffixes** (`半`, `辺`) ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -434,9 +435,25 @@ noms), 30 sens, 68 décisions** (D1302 à D1369).
     n'étant cherchée pour réduire les avertissements ;
 -   le lot « quantité et degré » reste fermé (`他` et `大勢` hors du lot).
 
-**Prochaine action immédiate :** choisir le thème du lot 21 parmi les 49 entrées restantes,
-composer son périmètre par identifiants, puis le faire arbitrer avant toute proposition. Une part
-importante de ces entrées dépend de fonctions linguistiques sans définition normative.
+#### Lot 21 · clos
+
+« Fréquence, répétition et repères temporels » : **12 entrées (11 adverbes, 1 adjectif), 16 sens,
+34 décisions** (D1370 à D1403).
+
+-   **aucune fonction linguistique** sans définition normative ; **aucune entrée ne porte
+    `deictique`**, `すぐに` compris (absence de délai par rapport à un repère, contrairement à
+    `近々`) ; **aucune relation**, aucune candidate à 5.16 ;
+-   `よく` reste distincte de `いい` (deux sens : souvent ; bien), la remarque « issu de ii / yoi »
+    étant conservée en nuance, attribuée à la fiche ;
+-   `また`, `まだ` et `もう` à deux sens ; `また`, sens 2 (« aussi, de plus »), sans catégorie ni
+    type (A5, A6) ;
+-   fréquences en `temps › fréquence`, `まだ`, `もう` et `すぐに` en `temps › relations
+    temporelles`, `早い` en `temps` comme « en retard » (`遅い`) ; 5 catégories nulles ;
+-   la lecture de `もう一度` corrigée avec les furigana de l'exemple de sa propre fiche.
+
+**Prochaine action immédiate :** commit puis push du lot 21, chacun sur un accord explicite ;
+ensuite seulement, sur demande, thème et périmètre du lot 22. Une part importante des 37 entrées
+restantes dépend de fonctions linguistiques sans définition normative.
 
 ------------------------------------------------------------------------
 
@@ -720,6 +737,10 @@ Ensuite seulement :
    │   ├── Lot 15 Couleurs, dimensions      ✅
    │   ├── Lot 16 Préférences, états        ✅
    │   ├── Lot 17 États, propriétés         ✅
+   │   ├── Lot 18 Actions sur les objets    ✅
+   │   ├── Lot 19 Vie quotidienne           ✅
+   │   ├── Lot 20 Existence, action         ✅
+   │   ├── Lot 21 Fréquence, répétition     ✅
    │   ├── Lots suivants                    ⬜
    │   ├── 5.16 Passe finale                ⬜
    │   └── 5.17 Publication                 ⬜

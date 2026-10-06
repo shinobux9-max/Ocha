@@ -19276,5 +19276,477 @@
     "before": "etre_humain › sens_perception › ouie",
     "after": null,
     "reason": "Aucune catégorie (arbitrage des choix du lot 20) : la proposition rangeait ce sens dans être humain › sens et perception › ouïe. La fiche porte à la fois sur la voix humaine et sur le cri d'un animal ; « ouïe » décrit la perception auditive d'un être humain, non le son que produit une voix ou un animal : la catégorie serait artificielle. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1370",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_494",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Toujours",
+      "Habituellement",
+      "En tout temps"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche décrit une action ou un état qui se répète régulièrement « sans exception notable », une habitude constante ; ses trois traductions disent ce même référent. Catégorie temps › fréquence › fréquent, et type concept_abstrait, comme 毎日, 毎週 et les autres mots de fréquence validés (lots 00 et 12). Aucune dimension : la fréquence est dite par la catégorie, et l'habitude n'est qu'une manière de la décrire ; 毎日 n'en porte pas. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1371",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_519",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Généralement",
+      "La plupart du temps",
+      "En général",
+      "Presque toujours"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : une forte régularité, une habitude générale, « sans pour autant constituer une règle absolue sans exception » ; les quatre traductions disent ce même référent. Catégorie temps › fréquence › fréquent, type concept_abstrait, comme いつも dans ce lot et 毎日 (lot 12). Aucune dimension, pour la même raison que いつも."
+  },
+  {
+    "id": "A2-04-D1372",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_519",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "exemple de la source : « わたし は たいてい じchiじ に ね ます »",
+    "after": null,
+    "reason": "L'exemple de la fiche est altéré (« じchiじ » au lieu de l'heure, que sa traduction dit être dix heures) : il n'est pas repris en nuance. Les exemples ne sont pas migrés ; à signaler au registre de phrases."
+  },
+  {
+    "id": "A2-04-D1373",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_506",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Souvent",
+      "Bien",
+      "Fréquemment"
+    ],
+    "after": [
+      "S1 Souvent, fréquemment",
+      "S2 Bien, habilement"
+    ],
+    "reason": "Deux sens, sur la fiche, qui décrit deux référents : « la fréquence élevée d'une action (souvent) », ce que l'exemple illustre, et « la réussite d'une action faite de manière approfondie ou satisfaisante (bien / habilement) ». La fréquence d'une action et la manière dont elle est faite ne sont pas deux traductions d'une même chose (principe des deux référents, lot 17). Sens 1 : temps › fréquence › fréquent, concept_abstrait, comme いつも. Sens 2 : « Habilement », que la fiche donne avec « bien » pour cet emploi, en autre traduction ; type propriete, une caractéristique attribuée à la façon dont l'action est faite. よく reste une ENTRY distincte de いい (arbitrage du périmètre du lot 21) : aucune fusion, v_420 n'est pas rouverte. La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1374",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_506",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "« Bien, habilement » : la qualité ou la réussite d'une action, quelle qu'elle soit ; aucun domaine thématique propre, comme le sens « Bon » de いい (D0065). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1375",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_506",
+    "field": "sens 2 · nuance",
+    "kind": "decision",
+    "before": "remarque de la source : « issu de l'adjectif ii / yoi »",
+    "after": "mention conservée en nuance du sens 2, attribuée à la fiche",
+    "reason": "La remarque de la fiche est conservée, seulement dans la nuance du sens 2 « Bien / Habilement », et attribuée à la fiche : « La fiche indique cet emploi « bien / habilement » comme issu de ii / yoi. » (arbitrage des choix du lot 21). Elle éclaire le sens 2 sans rien ajouter par connaissance externe. Elle ne crée ni fusion avec いい, ni réouverture de v_420, ni relation : l'arbitrage du périmètre du lot 21 qualifie ce lien d'origine, non de relation sémantique ; aucune candidate à 5.16."
+  },
+  {
+    "id": "A2-04-D1376",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_554",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Parfois",
+      "De temps en temps",
+      "Quelquefois"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : une fréquence intermittente ou irrégulière, que les trois traductions disent. Catégorie temps › fréquence › occasionnel : la fiche dit « de temps à autre », non une fréquence élevée. Type concept_abstrait, comme les autres mots de fréquence."
+  },
+  {
+    "id": "A2-04-D1377",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_554",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "remarque de la source : « La répétition du kanji 時 (itération) indique le pluriel ou la récurrence. »",
+    "after": null,
+    "reason": "Une remarque sur l'écriture du mot (le signe d'itération 々), non un emploi : elle n'est pas reprise."
+  },
+  {
+    "id": "A2-04-D1378",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_500",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "À nouveau",
+      "Encore",
+      "Aussi",
+      "De plus"
+    ],
+    "after": [
+      "S1 À nouveau, encore",
+      "S2 Aussi, de plus"
+    ],
+    "reason": "Deux sens, sur la fiche, qui décrit deux référents : « la répétition d'une action ou le retour d'un état » (à nouveau, encore), ce que l'exemple illustre, et le fait de « lier des arguments » (aussi, de plus), c'est-à-dire d'ajouter un élément. L'emploi de prise de congé (« mata ne ») est conservé en nuance du sens 1, sans sens ni fonction (doctrine du lot 16) ; ni discours ni politesse n'est posée. Type concept_abstrait pour le sens 1 ; le sens 2 est sans type (D1403, A6). La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1379",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_500",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La répétition d'une action ou le retour d'un état : aucune catégorie du registre ne nomme la répétition. temps › fréquence dit combien souvent une chose arrive (toujours, souvent, parfois), non qu'elle arrive une fois de plus. Aucune catégorie n'est cherchée pour réduire les avertissements (arbitrage du lot 20). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1380",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_500",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "L'ajout d'un élément à ce qui précède : une relation de discours, sans domaine thématique (A2-LING-v1, §5 : une fonction discursive ne fait pas une catégorie). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1381",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_500",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique : connecteur n'a pas de définition normative. L'emploi de liaison est dit par le sens lui-même (« Aussi, de plus ») et par sa nuance. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1382",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_500",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "traduction de l'exemple de la source : « Regardons-nous à nouveau (ou : à bientôt) »",
+    "after": "à bientôt",
+    "reason": "La traduction de l'exemple est fautive (« Regardons-nous » pour あいましょう) : seule sa seconde traduction, « à bientôt », que la fiche donne elle-même, est reprise en nuance. À signaler au registre de phrases."
+  },
+  {
+    "id": "A2-04-D1383",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_503",
+    "field": "readings",
+    "kind": "correction",
+    "before": "もう<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</getKey></ruby>",
+    "after": "もう<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>",
+    "reason": "Furigana mal formés dans la source : la balise qui ferme <rt>ど est </getKey> au lieu de </rt>, et l'analyseur du validateur les refuse. La correction reprend la chaîne de l'exemple de la même fiche, identique hors cette balise : いち sur 一, ど sur 度, もう hors de tout <ruby>. Sa lecture recomposée est もういちど, égale aux kana (addendum A8, I4) ; kana et romaji (mouichido) sont ceux de la fiche. Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1384",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_503",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Encore une fois",
+      "Une autre fois",
+      "De nouveau"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la répétition d'une action, « servant à demander la répétition » ; les trois traductions disent ce même référent. Type concept_abstrait, comme また, sens 1. La demande (« répétez s'il vous plaît ») est dite en nuance, sans fonction : discours et politesse n'ont pas de définition normative. La composition que donne la fiche (もう, « encore, un de plus », et 一度, « une fois ») est conservée en nuance : elle explique la forme ; 一度 n'est pas une entrée des sources, et aucune relation n'est posée (arbitrage du périmètre du lot 21 : composition, non relation sémantique)."
+  },
+  {
+    "id": "A2-04-D1385",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_503",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La répétition d'une action : aucune catégorie du registre ne nomme la répétition, comme pour また, sens 1. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1386",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_501",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Encore",
+      "Pas encore (lorsqu'il est associé à une négation)"
+    ],
+    "after": [
+      "S1 Encore",
+      "S2 Pas encore"
+    ],
+    "reason": "Deux sens, sur la fiche, qui décrit deux référents : un état ou une action qui « se poursuit dans le temps » (encore), et une action attendue qui « n'a pas encore eu lieu » (pas encore), ce que l'exemple illustre (ごはんはまだです : le repas n'est pas encore prêt). Pour le sens 2, la traduction de la source est « Pas encore (lorsqu'il est associé à une négation) » : la parenthèse est une remarque d'emploi, non une part de la traduction ; elle est retirée de la traduction et dite en nuance, comme « Commencer (intransitif) » (D1339). Catégorie temps › relations temporelles pour les deux : まだ situe un état ou une action par rapport à un moment de référence. Type concept_abstrait, comme 近々 (lot 12). La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1387",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_501",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique, pour les deux sens : ni aspect, ni negation, qui n'ont pas de définition normative ; dans « pas encore », la négation est portée par le verbe, l'adverbe l'accompagne. Pas de deictique (arbitrage du périmètre du lot 21) : le moment de référence peut être le présent, mais ne l'est pas nécessairement ; le repérage ne dépend pas directement de la situation d'énonciation au sens de l'addendum A7. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1388",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_502",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Déjà",
+      "Plus (avec une négation)",
+      "Encore (un de plus)"
+    ],
+    "after": [
+      "S1 Déjà",
+      "S2 Ne… plus"
+    ],
+    "reason": "Deux sens, sur la fiche, qui en développe deux : « l'accomplissement d'une action ou le fait qu'un seuil temporel a été atteint » (déjà), ce que l'exemple illustre, et « ne... plus », « lorsqu'il est associé à une tournure négative ». Pour le sens 2, la traduction de la source est « Plus (avec une négation) » : « Ne… plus », la forme que donne la nuance de la fiche, la remplace en traduction principale, et l'emploi avec une négation est dit en nuance. Catégorie temps › relations temporelles pour les deux, comme まだ ; type concept_abstrait. La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1389",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_502",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Encore (un de plus)"
+    ],
+    "after": null,
+    "reason": "Traduction de la source que ni la nuance ni l'exemple ne développent : elle n'est pas reprise en sens, et elle est signalée en nuance de l'entrée (traductions non développées, lots 15 et 16)."
+  },
+  {
+    "id": "A2-04-D1390",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_502",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique, pour les deux sens : ni aspect, ni negation, qui n'ont pas de définition normative ; dans « ne… plus », la négation est portée par le verbe. Pas de deictique (arbitrage du périmètre du lot 21) : « déjà » se repère par rapport à un moment de référence, qui n'est pas nécessairement le moment de l'énonciation (addendum A7). Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1391",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_518",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Tout de suite",
+      "Immédiatement",
+      "Aussitôt",
+      "Sans tarder"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : une action qui se produit « sans délai notable » ; les quatre traductions disent ce même référent. Catégorie temps › relations temporelles : l'absence de délai par rapport à un repère, comme まだ et もう. Type concept_abstrait. La composition que donne la fiche (すぐ et la particule に) est conservée en nuance ; すぐ n'est pas une entrée des sources, et aucune forme n'est ajoutée. La particule に de la fiche, partie de la forme, est reprise mécaniquement pour ce sens unique ; elle est signalée pour la passe finale."
+  },
+  {
+    "id": "A2-04-D1392",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_518",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique, et pas de deictique (arbitrage du périmètre du lot 21) : すぐに exprime l'absence de délai relativement à un repère ou à un événement (l'exemple : il est venu tout de suite) ; contrairement à 近々 (lot 12, deictique), son sens n'est pas intrinsèquement un futur proche repéré depuis le moment de l'énonciation (addendum A7, §4). Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1393",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_518",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "exemple de la source : « かれ は すぐに きた まし た »",
+    "after": null,
+    "reason": "La forme verbale de l'exemple est altérée (« きた まし た ») : l'exemple japonais n'est pas repris ; sa traduction l'est. À signaler au registre de phrases."
+  },
+  {
+    "id": "A2-04-D1394",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_540",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Pour la première fois",
+      "Pour la première occurrence"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : une action ou une expérience qui se produit « pour la toute première fois ». Catégorie temps › chronologie › succession : la première d'une suite d'occurrences. Type concept_abstrait. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1395",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_540",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Pour la première occurrence"
+    ],
+    "after": null,
+    "reason": "Redit la traduction principale, en moins naturel."
+  },
+  {
+    "id": "A2-04-D1396",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_540",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "remarque de la source : « dérivé de la forme en -te du verbe hajimeru »",
+    "after": null,
+    "reason": "Une remarque sur l'origine du mot : ce n'est pas un emploi, et elle n'est pas reprise, comme celle de 初め (D1348). 始める n'est pas une entrée des sources ; 初め et 初めて restent deux entrées, sans relation."
+  },
+  {
+    "id": "A2-04-D1397",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_540",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique : ni aspect, qui n'a pas de définition normative, ni deictique (arbitrage du périmètre du lot 21) : la première fois se repère par rapport à l'expérience du sujet, non à la situation d'énonciation (addendum A7). Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1398",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_425",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Graduellement",
+      "Peu à peu",
+      "Progressivement"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : « une progression lente ou un changement qui s'effectue étape par étape au fil du temps » ; les trois traductions disent ce même référent. Type concept_abstrait. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1399",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_425",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La manière dont se fait un changement, étape par étape : ni une fréquence, ni une durée, ni une relation entre deux moments ; aucun domaine du registre ne nomme la progression. Aucune catégorie n'est cherchée pour réduire les avertissements (arbitrage du lot 20). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1400",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_425",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique : aspect n'a pas de définition normative. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1401",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_454",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Tôt",
+      "Précoce"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : « un moment ou une heure matinale, ou une action qui se produit avant l'heure habituelle ». Catégorie temps, au niveau 1, et type propriete, comme « En retard », sens 2 de 遅い (lot 17) : une caractéristique attribuée à un moment ou à une action. Aucune symétrie n'est imposée pour autant (arbitrage du lot 15). La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1402",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_454",
+    "field": "nuance",
+    "kind": "decision",
+    "before": "mention de la source : « se distingue par son kanji de hayai signifiant rapide »",
+    "after": "mention conservée ; aucune relation",
+    "reason": "La fiche distingue elle-même 早い de 速い (rapide, lot 17) : la mention est conservée en nuance, comme 居る et 要る se distinguent l'une l'autre (lot 20). L'arbitrage du périmètre du lot 21 la qualifie de distinction, non de relation sémantique : aucune relation, aucune candidate à 5.16."
+  },
+  {
+    "id": "A2-04-D1403",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-21",
+    "entry": "n5_v_500",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": "concept_abstrait",
+    "after": null,
+    "reason": "Aucun type (arbitrage des choix du lot 21) : la proposition rangeait ce sens en concept_abstrait. La fiche décrit un emploi discursif, qui sert à lier des arguments, à ajouter un élément à ce qui précède ; A2-ST décrit des entités, des occurrences, des conditions et des abstractions, non des fonctions de discours, et concept_abstrait ne doit pas servir de type de secours. Aucun type terminal existant ne décrit correctement ce sens. Le sens reste sans catégorie (D1380) et sans fonction (D1381), connecteur n'ayant pas de définition normative. Addendum A6."
   }
 ]

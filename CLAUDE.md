@@ -100,9 +100,9 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-06)
 
-- **Lots 0 à 20 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **638 ENTRY,
-  32 retraits, 49 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 369 décisions validées
-  (D0001 à D1369), aucune proposition en cours. **Il ne reste aucun verbe à décider.**
+- **Lots 0 à 21 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **650 ENTRY,
+  32 retraits, 37 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 403 décisions validées
+  (D0001 à D1403), aucune proposition en cours. **Il ne reste aucun verbe à décider.**
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -207,12 +207,18 @@ faut savoir est dans le dépôt.
   principale de ある et de 居る ; **le type `resultat`** pour « être achevé » (出来る) ; **le type
   `propriete`** pour un prix ou un coût (する, かかる) ; **aucune catégorie n'est cherchée pour
   réduire les avertissements** (次, 声) ; trois dimensions (要る, 出来る, 違う) ; 声 sans type (A6).
-- **Lot 20 commité** : `bcbc85c`, sur l'accord explicite de ChatGPT ; **rien n'est poussé** (le
-  push n'a jamais été fait sur cette branche).
-- **Ensuite** : synchronisation de `ocha-v2` vers GitHub, sur un accord explicite de push ; puis
-  seulement choix du thème du lot 21 et composition de son périmètre. Il
-  reste 49 entrées (aucun verbe, 42 adverbes et mots de liaison, 2 noms, 5
-  adjectifs). Un lot « quantité et
+- **Lot 20 commité** : `bcbc85c`, sur l'accord explicite de ChatGPT ; **puis poussé** :
+  `ocha-v2` et `origin/ocha-v2` sont à `55acc13` (commit de documentation).
+- **Lot 21** (« fréquence, répétition et repères temporels ») : **périmètre arbitré le
+  2026-10-06**, 12 entrées (rapport `docs/rapports/etape2-A2-04-lot21-perimetre.md`, §9) :
+  aucune fonction sans définition normative, **aucune entrée ne porte `deictique`** (すぐに compris),
+  よく reste distincte de いい, aucune relation. **Proposition livrée en `proposed`**, ses **21 choix
+  arbitrés** et **révisée** (rapport `docs/rapports/etape2-A2-04-lot21-proposition.md`, §9) : 16
+  sens, 34 décisions D1370 à D1403 ; また, sens 2, sans type (A6) ; révision vérifiée, favorable.
+  **Validé le 2026-10-06** (rapport `docs/rapports/etape2-A2-04-lot21-valide.md`), sur
+  l'autorisation explicite de ChatGPT ; **ni committé ni poussé**, faute d'accord. Rien n'est
+  préparé pour le lot 22. Il reste 37 entrées (aucun verbe, 31 adverbes et mots de liaison, 2 noms,
+  4 adjectifs). Un lot « quantité et
   degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et
   `intensifieur`. **Aucune décision avant la validation d'un périmètre.**
 - **Contrôle** : Claude réalise dans le dépôt, ChatGPT relit et, par délégation, arbitre et
@@ -221,7 +227,10 @@ faut savoir est dans le dépôt.
   les chiffres sur le dépôt réel). Il relit un export : `node tools/export-relecture.mjs --lot
   lot-NN --ref <commit>` régénère les dix fichiers de `chatgpt-relecture/` (dossier non suivi, à ne
   jamais committer sans accord) ; la note de relais `docs/relecture/note-relais.md` se met à jour à
-  la main avant chaque export. **Délégation du 2026-10-06**, confirmée
+  la main avant chaque export. **Après chaque export, créer aussi l'archive
+  `chatgpt-relecture-lot-NN.zip`** (les dix fichiers `01` à `10`, contenu inchangé), à la racine du
+  dépôt, et la fournir à l'utilisateur à télécharger : c'est un artefact de transfert, jamais
+  ajouté à git, committé ni poussé (demande de l'utilisateur du 2026-10-06). **Délégation du 2026-10-06**, confirmée
   par l'utilisateur dans la session : ChatGPT donne les arbitrages et les accords de validation,
   de commit et de push. Ces **trois accords restent distincts**, et chacun doit être **donné
   explicitement** (« j'autorise la validation », « j'autorise le commit », « j'autorise le push »),

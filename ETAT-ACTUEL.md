@@ -90,20 +90,31 @@ cours** au commit `2387d20`. **A2-04 · lot 18 « actions sur les objets » : va
 proposition, l'arbitrage de ses vingt choix et une révision sur trois points : 23 entrées (34 sens)
 et 73 décisions (D1168 à D1240) en `validated` ; **assemblage réel : 590 ENTRY, 32 retraits, 97
 entrées écartées, 0 problème, 0 erreur, 0 attente ; 1 240 décisions validées, aucune proposition en
-cours** ; **commité le 2026-10-06 (`213fb2b`), sur l'accord explicite de ChatGPT ; non poussé.**
+cours** ; **commité le 2026-10-06 (`213fb2b`), sur l'accord explicite de ChatGPT ; poussé depuis avec la branche (`origin/ocha-v2` à `55acc13`).**
 **A2-04 · lot 19 « vie quotidienne, travail et échanges » : validé le 2026-10-06** (rapport
 `docs/rapports/etape2-A2-04-lot19-valide.md`), après l'arbitrage de son périmètre, la proposition, l'arbitrage de ses 22 choix et une
 révision sur quatre points : 26 entrées (34 sens) et 61 décisions (D1241 à D1301) en
 `validated` ; **assemblage réel : 616 ENTRY, 32 retraits, 71 entrées écartées, 0 problème, 0
-erreur, 0 attente ; 1 301 décisions validées, aucune proposition en cours** ; **commité le 2026-10-06 (`9e75c99`), sur l'accord explicite de ChatGPT ; non poussé.**
+erreur, 0 attente ; 1 301 décisions validées, aucune proposition en cours** ; **commité le 2026-10-06 (`9e75c99`), sur l'accord explicite de ChatGPT ; poussé depuis avec la branche (`origin/ocha-v2` à `55acc13`).**
 **A2-04 · lot 20 « existence, possession, action et déroulement » : validé le 2026-10-06** (rapport
 `docs/rapports/etape2-A2-04-lot20-valide.md`), après l'arbitrage de son périmètre, la proposition, l'arbitrage de ses 25 choix et une
 révision : 22 entrées (30 sens) et 68 décisions (D1302 à D1369) en `validated` ; **assemblage
 réel : 638 ENTRY, 32 retraits, 49 entrées écartées, 0 problème, 0 erreur, 0 attente ; 1 369
 décisions validées, aucune proposition en cours ; plus aucun verbe à décider** ; **commité le
-2026-10-06 (`bcbc85c`), sur l'accord explicite de ChatGPT ; non poussé.** Prochaine tâche :
-synchronisation de `ocha-v2` vers GitHub, sur un accord explicite de push ; ensuite seulement, thème
-et périmètre du lot 21. **Depuis le 2026-10-06, l'utilisateur délègue à
+2026-10-06 (`bcbc85c`), sur l'accord explicite de ChatGPT, puis poussé** : `ocha-v2` et
+`origin/ocha-v2` sont à `55acc13` (commit de documentation). **A2-04 · lot 21 « fréquence,
+répétition et repères temporels » : périmètre proposé le 2026-10-06** (rapport
+`docs/rapports/etape2-A2-04-lot21-perimetre.md`), 12 entrées (11 adverbes, 1 adjectif) ;
+**périmètre arbitré le même jour** par ChatGPT, sur délégation (§9 du rapport). **Proposition
+livrée en `proposed`** (rapport `docs/rapports/etape2-A2-04-lot21-proposition.md`) : 12 entrées, 16
+sens ; **ses 21 choix arbitrés le même jour**, retenus avec trois corrections, et **révisée** :
+34 décisions D1370 à D1403 ; révision vérifiée, favorable. **Lot 21 validé le 2026-10-06**
+(rapport `docs/rapports/etape2-A2-04-lot21-valide.md`), sur l'autorisation explicite de ChatGPT,
+par délégation : 12 entrées et 34 décisions en `validated`, statuts seulement ; **assemblage réel :
+650 ENTRY, 32 retraits, 37 entrées écartées, 0 problème, 0 erreur, 0 attente ; 1 403 décisions
+validées, aucune proposition en cours** ; 140 avertissements ; 472 tests verts. **Ni commit ni
+push autorisés.**
+**Depuis le 2026-10-06, l'utilisateur délègue à
 ChatGPT les arbitrages et les accords de validation, de commit et de push**, trois accords
 distincts, chacun donné explicitement (`CLAUDE.md`, §5, « Contrôle »).
 Le
@@ -519,8 +530,33 @@ modifier ses parties verrouillées.
   **trois dimensions**, là où un axe d'A2-DIM décrit directement le sens : nécessité (要る),
   possibilité (出来る), inexactitude (違う). 声 reste sans type (A6). **Validé le 2026-10-06**
   (rapport `docs/rapports/etape2-A2-04-lot20-valide.md`) : la validation a été autorisée par ChatGPT, et l'utilisateur l'a transmise et
-  confirmée. **Commité** (`bcbc85c`), sur l'accord explicite de ChatGPT ; le push n'est pas
-  autorisé à ce stade. Il reste 49 entrées, sans aucun verbe.
+  confirmée. **Commité** (`bcbc85c`), sur l'accord explicite de ChatGPT, **puis poussé** :
+  `ocha-v2` et `origin/ocha-v2` sont synchronisées à `55acc13` (commit de documentation). Il
+  restait alors 49 entrées, sans aucun verbe.
+- **Lot 21** : **périmètre arbitré le 2026-10-06, par ChatGPT, sur délégation de l'utilisateur**
+  (rapport `docs/rapports/etape2-A2-04-lot21-perimetre.md`, §9) : « Fréquence, répétition et
+  repères temporels », 12 entrées (いつも, たいてい, よく, 時々, また, もう一度, まだ, もう, すぐに,
+  初めて, だんだん, 早い), sans scission ni élargissement ; doctrine du lot 20 reconduite (aucune
+  fonction sans définition normative) ; **aucune entrée ne porte `deictique`**, すぐに compris
+  (absence de délai par rapport à un repère, contrairement à 近々) ; よく reste distincte de いい,
+  sans fusion ni réouverture de `v_420` ; aucune relation, aucune candidate à 5.16. **Proposition
+  livrée en `proposed`** (rapport `docs/rapports/etape2-A2-04-lot21-proposition.md`) : 16 sens,
+  cinq catégories nulles, une lecture corrigée (もう一度, furigana de l'exemple de sa fiche). **Ses
+  21 choix arbitrés le 2026-10-06** (§9 du rapport), retenus avec trois corrections, appliquées à la
+  révision : la remarque « ii / yoi » de よく conservée en nuance du sens 2, attribuée à la fiche
+  (D1375 réécrite) ; また, sens 2, **sans type** (A6, D1403 ajoutée), un emploi discursif que
+  `concept_abstrait` ne doit pas couvrir par défaut ; la raison de D1378 resserrée (« prise de
+  congé »). 34 décisions (D1370 à D1403). **Vérification ciblée de la révision terminée et
+  favorable** (2026-10-06), sans correction supplémentaire. **Validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot21-valide.md`), sur l'autorisation explicite de ChatGPT, par
+  délégation : statuts seulement, contenu hors statut vérifié identique. Ni commit ni push
+  autorisés ; rien n'est préparé pour le lot 22. Il reste 37 entrées. Les 49 entrées restantes au
+  périmètre sont regroupées dans le rapport de périmètre (§4), avec les
+  fonctions sans définition qui bloquent les mots de liaison, les réponses et le lot « quantité et
+  degré » ; など n'a pas de classe au registre (« particule »).
+- **Passe finale : particule de すぐに** (constat du lot 21) : la fiche range に dans `particles`,
+  alors que に fait partie de la forme ; pour un sens unique, la particule est mécanique et l'ENTRY
+  la porte. À revoir avec les furigana de 頼む.
 - **Audit des relations de 5.16, candidates inscrites au lot 20** : する / やる (D1332, D1336) et
   やる / 上げる (D1337 ; 上げる, validée au lot 19, n'est pas modifiée). Le type de relation sera
   décidé à 5.16, sens par sens ; une relation ne servira pas à représenter le registre familier de
@@ -814,3 +850,8 @@ modifier ses parties verrouillées.
 | 2026-10-06 | 2 · A2-04 · lot 20 | **Périmètre arbitré** (par ChatGPT, sur délégation de l'utilisateur ; rapport de périmètre, §7) : 22 entrées ; 他 et 大勢 hors du lot, « quantité et degré » fermé ; aucune fonction linguistique sans définition normative, pas même `deictique` pour 次 ; relations reportées à 5.16 ; `suffix: true` pour 辺 ; 掛かる ajoutée à かかる en bloc, いる non ajoutée à 居る ; `lieu_gare` refusé pour 次. Proposition lexicale livrée, tout en `proposed`, sans validation : `lot-20.json` (22 entrées, 30 sens, 8 entrées à deux sens) et 64 décisions ajoutées à la fin du journal (D1302 à D1365), les 1 301 décisions validées vérifiées identiques ; aucune relation ni fonction, 3 décisions de candidates à 5.16 et 4 décisions « aucune fonction » ; 2 lectures corrigées (出来る, en bloc par nécessité ; 初め) ; 1 graphie ; 1 suffixe ; 1 tag refusé ; 18 catégories nulles (A5) et 1 type nul (声, A6), justifiés ; particules décidées pour les seules entrées à plusieurs sens, prises dans la fiche ; aucune règle, aucun registre, aucune source modifié. État réel inchangé : 616 ENTRY, 32 retraits, 71 entrées écartées (49 non décidées, 22 propositions). Essai à blanc en mémoire : 638 ENTRY, 32 retraits, 49 écartées (plus aucun verbe), 0 problème, 0 erreur, 0 attente, 132 avertissements (19 nouveaux, justifiés) ; le validateur accepte les furigana en bloc de 掛かる et de 出来る. Tests : 5 adaptés, 2 ajoutés (lot 20 proposé, essai à blanc) ; 40 sabotages attrapés, chacun vérifié comme modifiant réellement son fichier, puis rétabli à l'octet près. Rapport `docs/rapports/etape2-A2-04-lot20-proposition.md` ; 470 tests | `bcbc85c` |
 | 2026-10-06 | 2 · A2-04 · lot 20 | **Les 25 choix de la proposition arbitrés** (par ChatGPT, sur délégation de l'utilisateur) : retenue dans son ensemble, avec sept corrections et trois dimensions. Révision à sa place, sans rien valider : « Y avoir » en traduction principale de ある (sens 1) et de 居る (D1302, D1306) ; « être achevé » (出来る) de `evenement` à `resultat` (D1316, D1317) ; le prix (する) et かかる de `etat` à `propriete` (D1330 ; D1343, D1344) ; 次 sans catégorie, D1351 passant à sa place de `decision` à `categorie-nulle` ; 声 sans catégorie, par une décision nouvelle (D1369 ; raison de D1364 resserrée) ; trois dimensions, par trois décisions nouvelles (D1366 要る, D1367 出来る, D1368 違う), avec les identifiants du registre A2-DIM lus dans le fichier. Quatre décisions nouvelles et non trois : A5 exigeait une décision de catégorie nulle pour 声. Contrôlé à l'écriture : 13 entrées et 55 décisions identiques ; dans les neuf entrées, seul le champ `senses` change, à nombre de sens égal ; une seule décision change de nature (D1351) ; 1 301 décisions validées identiques. 30 sens, 68 décisions (D1302 à D1369). État réel : 616 ENTRY, 32 retraits, 71 écartées ; essai à blanc : 638, 32, 49, 0 problème, 0 erreur, 0 attente, 134 avertissements. Test d'état renforcé sur chaque point ; 55 sabotages attrapés (les 40 de la livraison, rejoués, et 15 sur la révision). Rapport de proposition révisé (§9), diff complet de la révision joint (§10) ; 470 tests | `bcbc85c` |
 | 2026-10-06 | 2 · A2-04 · lot 20 | Vérification ciblée de la révision : terminée, favorable. **Validation du lot 20**, autorisée par ChatGPT et confirmée par l'utilisateur (« La validation est autorisée ») : 22 entrées et 68 décisions (D1302 à D1369) passées en `validated` sans autre changement, contenu hors statut vérifié identique (22 et 68 lignes de statut changées, rien d'autre) ; journal entier validé (1 369 décisions, D0001 à D1369) ; assemblage réel : 638 ENTRY, 32 retraits, 49 entrées encore à décider (aucun verbe ; 2 noms, 42 adverbes et mots de liaison, 5 adjectifs), 0 problème, 0 erreur, 0 attente ; 134 avertissements, dont 21 nouveaux justifiés (20 catégories nulles, 1 type nul) ; tests d'état adaptés (lot 20, espace de travail réel, lots 17, 18 et 19 dans l'assemblage réel, journal) ; l'essai à blanc en mémoire est devenu le contrôle du lot dans l'assemblage réel ; 55 sabotages attrapés, chacun vérifié comme modifiant réellement son fichier ; `ROADMAP.md` mis à jour (lot 20 ✅). Rapport `docs/rapports/etape2-A2-04-lot20-valide.md` ; 470 tests | `bcbc85c` |
+| 2026-10-06 | 2 · A2-04 · lot 21 | Reprise dans une session cloud : branche `ocha-v2` poussée, `origin/ocha-v2` à `55acc13` ; état réel vérifié (638 ENTRY, 32 retraits, 49 entrées écartées, 0 problème, 0 erreur, 0 attente ; 1 369 décisions validées ; 470 tests verts). **Périmètre du lot 21 proposé**, sans aucune décision lexicale (aucun lot, aucune décision de journal, aucune règle) : « Fréquence, répétition et repères temporels », 12 entrées ; les 49 entrées restantes regroupées ; fonctions sans définition relevées (rapport `docs/rapports/etape2-A2-04-lot21-perimetre.md`). Export de relecture régénéré pour le lot 21 | — |
+| 2026-10-06 | 2 · A2-04 · lot 21 | **Périmètre arbitré** (par ChatGPT, sur délégation de l'utilisateur ; rapport de périmètre, §9), après un export complété (détail de もう一度, pièces de la comparaison よく / いい, fiche du doublon 良い, index de l'export). Proposition lexicale livrée, tout en `proposed`, sans validation : `lot-21.json` (12 entrées, 16 sens, 4 entrées à deux sens : よく, また, まだ, もう) et 33 décisions ajoutées à la fin du journal (D1370 à D1402), les 1 369 décisions validées vérifiées identiques à l'octet ; aucune fonction, aucune relation, aucune dimension ; 6 décisions « aucune fonction », dont `deictique` refusée pour すぐに ; 1 lecture corrigée (もう一度) ; 5 catégories nulles (A5) ; aucun type nul. État réel inchangé : 638 ENTRY, 32 retraits, 49 écartées (37 non décidées, 12 propositions). Essai à blanc en mémoire : 650 ENTRY, 32 retraits, 37 écartées, 0 problème, 0 erreur, 0 attente, 139 avertissements (5 nouveaux, justifiés). Tests : 6 adaptés, 2 ajoutés ; 30 sabotages attrapés, chacun vérifié comme modifiant réellement son fichier, puis rétabli à l'octet près. Rapport `docs/rapports/etape2-A2-04-lot21-proposition.md` ; 472 tests. Export de relecture régénéré, avec son archive ZIP de transfert | — |
+| 2026-10-06 | 2 · A2-04 · lot 21 | **Les 21 choix de la proposition arbitrés** (par ChatGPT, sur délégation de l'utilisateur) : retenue dans son ensemble, avec trois corrections. Révision à sa place, sans rien valider : la remarque « issu de ii / yoi » de よく conservée seulement en nuance du sens 2, attribuée à la fiche (D1375, de `abandon` à `decision`) ; また, sens 2, `semantic_type: null` (D1403 `type-nul`, ajoutée à la fin) ; raison de D1378 resserrée (« emploi de prise de congé »). Contrôlé : 1 369 décisions validées identiques à l'octet ; deux décisions réécrites, une ajoutée ; trois changements dans le lot et eux seuls ; tout reste `proposed`. État réel inchangé ; essai à blanc : 650 ENTRY, 32 retraits, 37 écartées, 0 problème, 0 erreur, 0 attente, 140 avertissements. Test d'état renforcé ; 41 sabotages attrapés. Traces périmées corrigées : `ROADMAP.md` (lot 21 en cours, arbre condensé complété des lots 18 à 20), push des lots 18 à 20 dans `ETAT-ACTUEL.md`. Rapport de proposition révisé (§9), diff complet de la révision joint (§10) ; 472 tests ; export et archive ZIP régénérés | — |
+| 2026-10-06 | 2 · A2-04 · lot 21 | **Vérification ciblée de la révision : favorable** (ChatGPT, sur les exports d'avant et d'après) : trois changements dans `lot-21.json` et eux seuls, D1375 et D1378 réécrites à leur place, D1403 ajoutée en fin de journal, 12 entrées, 16 sens, 34 décisions toutes `proposed`, aucune dimension, relation ni fonction ajoutée, corrections de gouvernance cohérentes ; aucune correction supplémentaire. Inscrite au rapport de proposition (§9), dont le titre « Suite » de la livraison perd son numéro (doublon du §9). Prochaine étape : validation atomique, sur autorisation explicite ; rien n'est préparé pour le lot 22. Ni validation, ni commit, ni push autorisés | — |
+| 2026-10-06 | 2 · A2-04 · lot 21 | **Validation du lot 21**, autorisée par ChatGPT (« J'autorise la validation atomique du lot 21 »), transmise par l'utilisateur : 12 entrées et 34 décisions (D1370 à D1403) passées en `validated` sans autre changement ; comparaison ligne à ligne (12 et 34 lignes de statut changées, rien d'autre, même nombre de lignes) et sur le contenu sans `status` (identique) ; 1 369 décisions des lots 0 à 20 identiques. Assemblage réel : 650 ENTRY, 32 retraits, 37 entrées écartées (2 noms, 31 adverbes et mots de liaison, 4 adjectifs), 0 problème, 0 erreur, 0 attente ; 140 avertissements ; journal entier validé (1 403 décisions). Tests d'état adaptés (lot 21, espace de travail réel, lots 17 à 20 dans l'assemblage réel, journal) ; l'essai à blanc est devenu le contrôle du lot dans l'assemblage réel ; 42 sabotages attrapés ; `ROADMAP.md` mis à jour (lot 21 ✅). Rapport `docs/rapports/etape2-A2-04-lot21-valide.md` ; 472 tests. Ni commit ni push autorisés ; rien n'est préparé pour le lot 22 | — |

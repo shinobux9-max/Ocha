@@ -1,0 +1,537 @@
+{
+  "lot": "lot-21",
+  "title": "Fréquence, répétition et repères temporels",
+  "entries": {
+    "n5_v_494": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1370"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une action ou un état qui se répète régulièrement, sans exception notable ; une habitude constante : わたしはいつもあさごはんをたべます (je prends toujours mon petit-déjeuner).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Toujours",
+              "alternatives": [
+                "Habituellement",
+                "En tout temps"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "frequent"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_519": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1371",
+        "A2-04-D1372"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une forte régularité, une habitude générale, sans être une règle absolue : la plupart du temps, presque toujours.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Généralement",
+              "alternatives": [
+                "La plupart du temps",
+                "En général",
+                "Presque toujours"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "frequent"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_506": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1373",
+        "A2-04-D1374",
+        "A2-04-D1375"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Souvent",
+              "alternatives": [
+                "Fréquemment"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "frequent"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "La fréquence élevée d'une action : わたしはよくえいがをみます (je regarde souvent des films)."
+          },
+          {
+            "meaning": {
+              "primary": "Bien",
+              "alternatives": [
+                "Habilement"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une action faite de manière approfondie ou satisfaisante. La fiche indique cet emploi « bien / habilement » comme issu de ii / yoi."
+          }
+        ]
+      }
+    },
+    "n5_v_554": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1376",
+        "A2-04-D1377"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une fréquence intermittente ou irrégulière, de temps à autre : 時々えいがをみます (je regarde parfois des films).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Parfois",
+              "alternatives": [
+                "De temps en temps",
+                "Quelquefois"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "occasionnel"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_500": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1378",
+        "A2-04-D1379",
+        "A2-04-D1380",
+        "A2-04-D1381",
+        "A2-04-D1382",
+        "A2-04-D1403"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "À nouveau",
+              "alternatives": [
+                "Encore"
+              ]
+            },
+            "category": null,
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "La répétition d'une action ou le retour d'un état, une fois de plus. S'emploie aussi pour prendre congé : またね (à plus, à bientôt) ; またあいましょう (à bientôt)."
+          },
+          {
+            "meaning": {
+              "primary": "Aussi",
+              "alternatives": [
+                "De plus"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Pour lier des arguments, ajouter un élément à ce qui précède."
+          }
+        ]
+      }
+    },
+    "n5_v_503": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1383",
+        "A2-04-D1384",
+        "A2-04-D1385"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une fois de plus ; sert notamment à demander qu'on répète : もう一度おねがいします (encore une fois, s'il vous plaît). Composé de もう (encore, un de plus) et de 一度 (une fois).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Encore une fois",
+              "alternatives": [
+                "Une autre fois",
+                "De nouveau"
+              ]
+            },
+            "category": null,
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "もういちど",
+            "romaji": "mouichido",
+            "furigana": "もう<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_501": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1386",
+        "A2-04-D1387"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Encore",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "relations_temporelles"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Un état ou une action qui se poursuit dans le temps."
+          },
+          {
+            "meaning": {
+              "primary": "Pas encore",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "relations_temporelles"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une action attendue qui n'a pas encore eu lieu ; avec un verbe à la forme négative, ou seul : ごはんはまだです (le repas n'est pas encore prêt)."
+          }
+        ]
+      }
+    },
+    "n5_v_502": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1388",
+        "A2-04-D1389",
+        "A2-04-D1390"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La fiche donne aussi « encore (un de plus) », sans le développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Déjà",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "relations_temporelles"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une action accomplie, ou un seuil de temps atteint : もうひるごはんをたべました (j'ai déjà mangé le repas de midi)."
+          },
+          {
+            "meaning": {
+              "primary": "Ne… plus",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "relations_temporelles"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Avec une tournure négative."
+          }
+        ]
+      }
+    },
+    "n5_v_518": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1391",
+        "A2-04-D1392",
+        "A2-04-D1393"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Sans délai, par rapport à un repère ou à un événement : il est venu tout de suite. Composé de すぐ et de la particule に.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tout de suite",
+              "alternatives": [
+                "Immédiatement",
+                "Aussitôt",
+                "Sans tarder"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "relations_temporelles"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_540": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1394",
+        "A2-04-D1395",
+        "A2-04-D1396",
+        "A2-04-D1397"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une action ou une expérience qui se produit pour la toute première fois : きょう初めてすしをたべました (aujourd'hui, j'ai mangé des sushis pour la première fois).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pour la première fois",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "chronologie",
+              "level_3": "succession"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_425": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1398",
+        "A2-04-D1399",
+        "A2-04-D1400"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une progression lente, un changement qui se fait étape par étape au fil du temps : だんだんあたたかくなってきました (il fait progressivement plus chaud).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Graduellement",
+              "alternatives": [
+                "Peu à peu",
+                "Progressivement"
+              ]
+            },
+            "category": null,
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_454": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1401",
+        "A2-04-D1402"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Un moment matinal, ou ce qui arrive avant l'heure habituelle : あしたは早いです (demain, je commence ou je me lève tôt). Ne pas confondre avec 速い (rapide), qui s'écrit avec un autre kanji.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tôt",
+              "alternatives": [
+                "Précoce"
+              ]
+            },
+            "category": {
+              "level_1": "temps"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}
