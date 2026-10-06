@@ -19748,5 +19748,443 @@
     "before": "concept_abstrait",
     "after": null,
     "reason": "Aucun type (arbitrage des choix du lot 21) : la proposition rangeait ce sens en concept_abstrait. La fiche décrit un emploi discursif, qui sert à lier des arguments, à ajouter un élément à ce qui précède ; A2-ST décrit des entités, des occurrences, des conditions et des abstractions, non des fonctions de discours, et concept_abstrait ne doit pas servir de type de secours. Aucun type terminal existant ne décrit correctement ce sens. Le sens reste sans catégorie (D1380) et sans fonction (D1381), connecteur n'ayant pas de définition normative. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1404",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_504",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Lentement",
+      "Tranquillement",
+      "À son aise",
+      "Prendre son temps"
+    ],
+    "after": [
+      "S1 Lentement",
+      "S2 Tranquillement, à son aise"
+    ],
+    "reason": "Deux sens (arbitrage des choix du lot 22), la fiche distinguant explicitement « un déplacement à faible vitesse » et « le fait d'agir sans se presser, de se détendre et de prendre son temps » ; ses exemples documentent ces deux emplois. Sens 1 « Lentement » : espace et propriétés spatiales › vitesse, type propriete, comme « Lent » (遅い) et « Rapide » (速い), lot 17. Sens 2 « Tranquillement, à son aise » : sans catégorie (D1435), type propriete, une caractéristique de la manière d'agir. « Prendre son temps » est dit en nuance du sens 2 (D1405) ; la mention « gitaigo » reste en nuance générale (D1407). La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1405",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_504",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Prendre son temps"
+    ],
+    "after": null,
+    "reason": "Une locution verbale, non une traduction équivalente de l'adverbe : elle est reprise dans la nuance du sens 2 (« agir sans se presser, se détendre, prendre son temps »), qui décrit cet emploi (arbitrage des choix du lot 22)."
+  },
+  {
+    "id": "A2-04-D1406",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_504",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "D'une manière posée"
+    ],
+    "after": null,
+    "reason": "Traduction de n5_v_505 (ゆっくりと), fusionnée dans cette entrée (D1408) : elle décrit l'emploi avec と, et elle est conservée dans la nuance de cet emploi, non comme traduction du sens. Ses deux autres traductions (« Lentement », « Tranquillement ») sont déjà celles de ゆっくり."
+  },
+  {
+    "id": "A2-04-D1407",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_504",
+    "field": "nuance",
+    "kind": "decision",
+    "before": "fiche de n5_v_505 : « variante renforcée de yukkuri suivie de la particule to », « accent sur la lenteur ou la délibération », « style un peu plus formel ou littéraire »",
+    "after": "emploi ゆっくりと conservé en nuance ; と non régie",
+    "reason": "L'emploi ゆっくりと et sa nuance stylistique, attestés par la fiche fusionnée (D1408), sont conservés dans la nuance de l'ENTRY survivante (arbitrage du périmètre du lot 22). と n'est pas transformée en particule régie de ゆっくり : elle fait partie de la forme ゆっくりと, et le champ des particules du sens reste celui de la fiche de ゆっくり, vide. La mention « gitaigo » (mot mimétique) de la fiche est conservée : elle dit la nature du mot, non son origine."
+  },
+  {
+    "id": "A2-04-D1408",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_505",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_504",
+    "reason": "ゆっくりと n'est pas une unité lexicale distincte : sa fiche la dit « variante renforcée de yukkuri suivie de la particule to », et ne décrit rien d'autre que ゆっくり suivie de と. Fusion dans ゆっくり, selon la règle normale du plus petit numéro (addendum A3, L2 : 504 < 505), sans exception-fusion (arbitrage du périmètre du lot 22, issue A). Son emploi et sa nuance de style sont conservés dans la nuance de l'ENTRY survivante (D1407) ; と n'y devient pas une particule régie."
+  },
+  {
+    "id": "A2-04-D1409",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_525",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Tout droit",
+      "Directement",
+      "Honnête",
+      "Français (pour une direction ou un caractère)"
+    ],
+    "after": [
+      "S1 Tout droit, directement",
+      "S2 Honnête"
+    ],
+    "reason": "Deux sens, sur la fiche, qui décrit deux référents : « une direction sans déviation ni virage (tout droit) », ce que l'exemple illustre, et « un comportement droit et intègre » (honnête). Une direction et un caractère ne sont pas deux traductions d'une même chose (principe des deux référents, lot 17). Sens 1 : espace et propriétés spatiales › parcours et trajectoire (arbitrage des choix du lot 22) : la fiche décrit une direction, un déplacement sans déviation ni virage, et son exemple enseigne « aller tout droit » ; type propriete, une caractéristique du déplacement. Sens 2 : sans catégorie (D1411), type propriete, un trait de la personne. La fiche ne donne aucune particule : aucune pour les deux sens. Elle dit aussi « adverbe (et adjectif en na) » : la classe mécanique, adverbe, reste ; le schéma ne porte qu'une classe."
+  },
+  {
+    "id": "A2-04-D1410",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_525",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Français (pour une direction ou un caractère)"
+    ],
+    "after": null,
+    "reason": "Confusion de la source, écartée (arbitrage du périmètre du lot 22) : « Français » ne correspond à rien dans la fiche, ni dans sa nuance, ni dans son exemple. Elle n'est pas transformée en sens, et aucune traduction n'est mise à sa place : l'emploi pour un caractère reste attesté par « Honnête » et par la nuance de la fiche."
+  },
+  {
+    "id": "A2-04-D1411",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_525",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "« Honnête » : un trait de caractère ; le registre n'a pas de catégorie pour la personnalité ou le caractère. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1412",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_450",
+    "field": "entrée",
+    "kind": "fusion",
+    "before": null,
+    "after": "n5_v_449",
+    "reason": "弱く n'est pas une unité lexicale distincte : sa fiche la dit « formé à partir de la forme en -ku de l'adjectif en i yowai, utilisé pour modifier un verbe », et ne décrit rien d'autre que cette forme de 弱い. Fusion dans 弱い (n5_v_449, validée au lot 17), selon la règle normale du plus petit numéro (addendum A3, L2 : 449 < 450), sans exception-fusion et sans réouverture de 弱い, dont le contenu validé ne change pas (arbitrage du périmètre du lot 22, issue A). Aucun sens nouveau n'est créé sur 弱い pour représenter cette forme : la forme en -ku relève de la morphologie (étape 3). Ses traductions (« Faiblement », « Doucement », « Légèrement ») sont celles de cette forme, et ne sont pas reportées. À la différence de よく (lot 21), sa fiche ne donne aucun sens propre."
+  },
+  {
+    "id": "A2-04-D1413",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_628",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>一<rt>いっ</rt></ruby><ruby>緒<rt>しょ</rt></guasubi>",
+    "after": "<ruby>一<rt>いっ</rt></ruby><ruby>緒<rt>しょ</rt></ruby>",
+    "reason": "Furigana mal formés dans la source : la balise qui ferme <rt>しょ est </guasubi> au lieu de </rt>, et l'analyseur du validateur les refuse. La correction reprend la chaîne de l'exemple de la même fiche, identique hors cette balise : いっ sur 一, しょ sur 緒. Sa lecture recomposée est いっしょ, égale aux kana (addendum A8, I4) ; kana et romaji (issho) sont ceux de la fiche. Même défaut et même remède que もう一度 (D1383). Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1414",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_628",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "nom",
+    "reason": "Classe nom, groupe nom. La fiche dit « nom / adjectif en -no / adverbe », « souvent suivi de la particule ni : 一緒に » ; son exemple emploie 一緒に, et le champ des particules de la fiche donne に : l'emploi adverbial passe par une particule, ce qui est le comportement d'un nom. Le relevé des exceptions de classe le rangeait parmi les noms rangés en adverbe, avec 先, que le lot 10 a décidé nom. Le schéma ne porte qu'une classe par ENTRY ; l'emploi avec に est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1415",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_628",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Ensemble",
+      "En compagnie de",
+      "En même temps"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche décrit « l'action de faire quelque chose ensemble ou d'être accompagné » ; « Ensemble » et « En compagnie de » disent ce même référent, que l'exemple illustre (aller à la gare avec un ami). Catégorie relations sociales › interactions sociales : la fiche et son exemple ne portent que sur des personnes. Type etat : être ensemble, être accompagné, est une condition, non une action ni un objet. La particule に de la fiche est reprise mécaniquement pour ce sens unique."
+  },
+  {
+    "id": "A2-04-D1416",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_628",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "En même temps"
+    ],
+    "after": null,
+    "reason": "Traduction de la source que ni la nuance ni l'exemple ne développent : elle n'est pas reprise en sens, et elle est signalée en nuance (traductions non développées, lots 15 et 16)."
+  },
+  {
+    "id": "A2-04-D1417",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_438",
+    "field": "readings",
+    "kind": "correction",
+    "before": "お同じ",
+    "after": "おなじ",
+    "reason": "Le champ « reading » de la fiche vaut « お同じ », qui mêle un kana et un kanji : ce n'est pas une lecture en kana. Les furigana de la fiche (おな sur 同, suivi de じ), son romaji (onaji) et son exemple donnent おなじ. La lecture corrigée est おなじ ; les furigana de la fiche sont repris tels quels, et leur lecture recomposée est égale aux kana (addendum A8, I4). Comme le kana de スポーツ (5.13-C), la correction se fonde sur la fiche elle-même ; aucune liste fermée n'est touchée, et les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1418",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_438",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif en na (ancien type)",
+    "after": "determinant",
+    "reason": "Classe determinant, groupe null (arbitrage des choix du lot 22) : la fiche mentionne aussi l'analyse adnominale (« souvent considéré grammaticalement comme un adjectif adnominal ou un nom »), et son exemple montre 同じ suivi d'un nom, sans な (同じクラス). Pour Ocha, determinant évite de suggérer à un débutant une morphologie en な que les pièces fournies n'attestent pas ; comme 大きな et 小さな (lot 15). La description de la fiche (« adjectif en na », adnominal ou nom) est conservée en nuance. Le schéma ne porte qu'une classe par ENTRY."
+  },
+  {
+    "id": "A2-04-D1419",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_438",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Même",
+      "Identique",
+      "Pareil"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : « l'identité ou la similitude entre deux ou plusieurs choses », que les trois traductions disent. Type propriete, une caractéristique attribuée à des choses comparées. Aucune dimension : A2-DIM renvoie l'identité aux relations, non aux dimensions. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1420",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_438",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "L'identité ou la similitude : une propriété générale, sans domaine thématique propre ; aucune catégorie du registre ne nomme la comparaison. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1421",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_438",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique : comparatif n'a pas de définition normative (arbitrage du périmètre du lot 22). L'identité est dite par le sens lui-même. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 22) ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1422",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_421",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Divers",
+      "Varié",
+      "Différents",
+      "Plusieurs sortes de"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : « la diversité ou la variété de choses, d'idées ou de situations », que les quatre traductions disent. Type propriete, une caractéristique attribuée à un ensemble de choses. La fiche dit aussi « ou adverbe / adjectif nominal » : la classe mécanique, adjectif_na, reste ; le schéma ne porte qu'une classe. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1423",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_421",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La diversité : une propriété générale, sans domaine thématique propre. Elle n'est pas une quantité : aucune catégorie de nombres et quantification n'est cherchée pour elle. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1424",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_421",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique : quantificateur n'a pas de définition normative (arbitrage du périmètre du lot 22). Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 22) ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1425",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_605",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Autre",
+      "En plus",
+      "Le reste",
+      "En dehors de"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : ce qui est « différent, additionnel ou extérieur à un élément donné » ; « Autre » et « Le reste » disent ce qui n'est pas l'élément donné, ce que l'exemple illustre (y a-t-il autre chose ?). Type concept_abstrait, comme « Le reste », sens 3 de 後 (lot 13). La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1426",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_605",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "En plus",
+      "En dehors de"
+    ],
+    "after": null,
+    "reason": "Les traductions de ほかに, la structure que la fiche nomme (« hoka ni », en plus de, à part), non du nom seul : elles sont reprises en nuance, avec la particule に, comme « Au début » pour 初めに (D1347)."
+  },
+  {
+    "id": "A2-04-D1427",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_605",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "L'altérité, ce qui est autre que l'élément donné : une notion générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1428",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_605",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique : alternative n'a pas de définition normative (arbitrage du périmètre du lot 22). Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 22) ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1429",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_605",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "exemple de la source : « ほか に なに か ります か »",
+    "after": null,
+    "reason": "Le verbe de l'exemple est altéré (« ります ») : l'exemple japonais n'est pas repris ; sa traduction l'est. À signaler au registre de phrases."
+  },
+  {
+    "id": "A2-04-D1430",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_521",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Peut-être",
+      "Probablement",
+      "Vraisemblablement"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : « une probabilité ou une supposition de l'ordre de 70 à 80 % de chance qu'un fait se produise ou soit vrai », que les trois traductions disent. Sans catégorie (D1432) ni type (D1433) ; dimension probabilité (D1431). La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1431",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_521",
+    "field": "sens 1 · dimensions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      {
+        "axis": "probabilite",
+        "pole": "probabilite"
+      }
+    ],
+    "reason": "Dimension probabilité (axe à un seul pôle d'A2-DIM, modalité conceptuelle) : l'axe décrit directement le sens, une probabilité, comme possibilité pour 出来る (lot 20). Doctrine arbitrée au lot 16 : un axe existant est employé lorsqu'il décrit directement le sens, et seulement alors. La modalité conceptuelle n'est pas la modalité grammaticale (A2-LING, §5) : aucune fonction n'est posée (D1434)."
+  },
+  {
+    "id": "A2-04-D1432",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_521",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La probabilité qu'un fait se produise ou soit vrai : une estimation du locuteur, sans domaine thématique. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1433",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_521",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : たぶん ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; il qualifie la probabilité de ce qui est dit. concept_abstrait ne sert pas de type de secours (D1403). Le sens est porté par la dimension probabilité (D1431). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1434",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_521",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune fonction linguistique : modalite n'a pas de définition normative (arbitrage du périmètre du lot 22) ; la probabilité est dite par la dimension, non par une fonction. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 22) ; aucune définition, aucun addendum n'est créé."
+  },
+  {
+    "id": "A2-04-D1435",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-22",
+    "entry": "n5_v_504",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "« Tranquillement, à son aise » : agir sans se presser, se détendre, prendre son temps ; une manière d'agir, non une vitesse de déplacement : aucune catégorie du registre ne la nomme (arbitrage des choix du lot 22). Addendum A5."
   }
 ]

@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-06 (validation du lot 21)
+**Dernière mise à jour :** 2026-10-06 (validation du lot 22)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,8 +41,9 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot 22, dont le thème et le périmètre restent à
-arbitrer. Il reste 37 entrées, sans aucun verbe.** Les lots 0 à 21 sont validés.
+**A2-04 · reconstruction du vocabulaire N5 → point d'arrêt normatif avant le lot 23. Il reste 28
+entrées, sans aucun verbe, qui dépendent toutes de fonctions linguistiques sans définition
+normative.** Les lots 0 à 22 sont validés.
 
 Les lots 0 à 20 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
@@ -267,7 +268,8 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **Lot 19** | Vie quotidienne, travail et échanges | ✅ Terminé |
 | **Lot 20** | Existence, possession, action et déroulement | ✅ Terminé |
 | **Lot 21** | Fréquence, répétition et repères temporels | ✅ Terminé |
-| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 22 : thème et périmètre à arbitrer ; 37 entrées, sans aucun verbe) | ⬜ À faire |
+| **Lot 22** | Manière, identité, diversité et probabilité | ✅ Terminé |
+| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (28 entrées, sans aucun verbe ; une décision normative sur les fonctions précède le lot 23) | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -284,12 +286,12 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 21
+#### État chiffré après le lot 22
 
--   **650 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
--   **32 identifiants retirés** ;
--   **37 anciennes entrées encore à décider**, dont aucun verbe ;
--   **1 403 décisions humaines validées** au journal ;
+-   **657 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **34 identifiants retirés** ;
+-   **28 anciennes entrées encore à décider**, dont aucun verbe ;
+-   **1 435 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **2 suffixes** (`半`, `辺`) ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -451,9 +453,23 @@ noms), 30 sens, 68 décisions** (D1302 à D1369).
     temporelles`, `早い` en `temps` comme « en retard » (`遅い`) ; 5 catégories nulles ;
 -   la lecture de `もう一度` corrigée avec les furigana de l'exemple de sa propre fiche.
 
-**Prochaine action immédiate :** commit puis push du lot 21, chacun sur un accord explicite ;
-ensuite seulement, sur demande, thème et périmètre du lot 22. Une part importante des 37 entrées
-restantes dépend de fonctions linguistiques sans définition normative.
+#### Lot 22 · clos
+
+« Manière, identité, diversité et probabilité » : **9 entrées (7 gardées, 2 fusions), 9 sens, 32
+décisions** (D1404 à D1435).
+
+-   **弱く fusionnée dans 弱い**, sans réouverture ni sens nouveau sur 弱い ; **ゆっくりと fusionnée
+    dans ゆっくり**, と non régie ;
+-   **aucune fonction linguistique** sans définition normative, **aucune relation** ;
+    « Français » de `まっすぐ` écarté comme confusion de la source ;
+-   `ゆっくり` à deux sens (« Lentement », `vitesse` ; « Tranquillement », sans catégorie) ;
+    `まっすぐ`, sens 1, en `parcours_trajectoire` ; `同じ` en `determinant`, `一緒` en `nom` ;
+-   `たぶん` avec la dimension `probabilite` et sans type (A6) ; 6 catégories nulles.
+
+**Prochaine action immédiate :** commit puis push du lot 22, chacun sur un accord explicite ;
+ensuite seulement, le point d'arrêt normatif : les 28 entrées restantes dépendent toutes de
+fonctions linguistiques sans définition normative (`connecteur`, `discours`, `politesse`,
+`quantificateur`, `comparatif`, `intensifieur`). Le lot 23 n'est pas préparé.
 
 ------------------------------------------------------------------------
 

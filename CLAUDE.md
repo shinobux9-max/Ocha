@@ -100,9 +100,9 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-06)
 
-- **Lots 0 à 21 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **650 ENTRY,
-  32 retraits, 37 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 403 décisions validées
-  (D0001 à D1403), aucune proposition en cours. **Il ne reste aucun verbe à décider.**
+- **Lots 0 à 22 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **657 ENTRY,
+  34 retraits, 28 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 435 décisions validées
+  (D0001 à D1435), aucune proposition en cours. **Il ne reste aucun verbe à décider.**
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -216,9 +216,20 @@ faut savoir est dans le dépôt.
   arbitrés** et **révisée** (rapport `docs/rapports/etape2-A2-04-lot21-proposition.md`, §9) : 16
   sens, 34 décisions D1370 à D1403 ; また, sens 2, sans type (A6) ; révision vérifiée, favorable.
   **Validé le 2026-10-06** (rapport `docs/rapports/etape2-A2-04-lot21-valide.md`), sur
-  l'autorisation explicite de ChatGPT ; **ni committé ni poussé**, faute d'accord. Rien n'est
-  préparé pour le lot 22. Il reste 37 entrées (aucun verbe, 31 adverbes et mots de liaison, 2 noms,
-  4 adjectifs). Un lot « quantité et
+  l'autorisation explicite de ChatGPT ; **committé (`1cfac5b`) et poussé** : `ocha-v2` et
+  `origin/ocha-v2` sont à `1cfac5b`. Le remote `origin` pointe sur
+  `https://github.com/shinobux9-max/Ocha.git`. Il reste 37 entrées (aucun verbe, 31 adverbes et mots
+  de liaison, 2 noms, 4 adjectifs).
+- **Lot 22** (« manière, identité, diversité et probabilité ») : **périmètre arbitré le
+  2026-10-06**, 9 entrées (rapport `docs/rapports/etape2-A2-04-lot22-perimetre.md`, §9) : 弱く
+  fusionnée dans 弱い (sans réouverture ni sens nouveau sur 弱い), ゆっくりと dans ゆっくり (と non
+  régie), aucune fonction, « Français » de まっすぐ écarté. **Proposition livrée en `proposed`**, ses
+  **16 choix arbitrés** et **révisée** (rapport `docs/rapports/etape2-A2-04-lot22-proposition.md`,
+  §9) : 9 sens, 32 décisions D1404 à D1435 ; ゆっくり à deux sens, まっすぐ en parcours et trajectoire,
+  同じ en `determinant` ; **révision vérifiée, favorable**. **Validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot22-valide.md`), sur l'autorisation explicite de ChatGPT ; **ni
+  committé ni poussé** (accords non donnés). **Après lui, les 28 entrées restantes dépendent toutes de
+  fonctions sans définition normative** : une décision normative précédera le lot 23. Un lot « quantité et
   degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et
   `intensifieur`. **Aucune décision avant la validation d'un périmètre.**
 - **Contrôle** : Claude réalise dans le dépôt, ChatGPT relit et, par délégation, arbitre et

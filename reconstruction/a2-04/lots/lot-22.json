@@ -1,0 +1,348 @@
+{
+  "lot": "lot-22",
+  "title": "Manière, identité, diversité et probabilité",
+  "entries": {
+    "n5_v_504": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1404",
+        "A2-04-D1405",
+        "A2-04-D1406",
+        "A2-04-D1407",
+        "A2-04-D1435"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Mot mimétique (gitaigo). Suivi de と, ゆっくりと met l'accent sur la lenteur ou la délibération, dans un style un peu plus formel ou littéraire : かれはゆっくりとはなしました (il a parlé lentement, d'une manière posée).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Lentement",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "vitesse"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Un déplacement à faible vitesse : ゆっくりあるいてください (marchez lentement, s'il vous plaît)."
+          },
+          {
+            "meaning": {
+              "primary": "Tranquillement",
+              "alternatives": [
+                "À son aise"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Agir sans se presser, se détendre, prendre son temps."
+          }
+        ]
+      }
+    },
+    "n5_v_505": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1408"
+      ],
+      "retire": {
+        "merged_into": "n5_v_504"
+      }
+    },
+    "n5_v_525": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1409",
+        "A2-04-D1410",
+        "A2-04-D1411"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tout droit",
+              "alternatives": [
+                "Directement"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "parcours_trajectoire"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une direction sans déviation ni virage : まっすぐいってください (allez tout droit, s'il vous plaît)."
+          },
+          {
+            "meaning": {
+              "primary": "Honnête",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Un comportement droit et intègre."
+          }
+        ]
+      }
+    },
+    "n5_v_450": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1412"
+      ],
+      "retire": {
+        "merged_into": "n5_v_449"
+      }
+    },
+    "n5_v_628": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1413",
+        "A2-04-D1414",
+        "A2-04-D1415",
+        "A2-04-D1416"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Faire quelque chose ensemble, ou être accompagné ; souvent suivi de に : ともだちと一緒にえきへいきます (je vais à la gare avec un ami). La fiche donne aussi « en même temps », sans le développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ensemble",
+              "alternatives": [
+                "En compagnie de"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "interactions_sociales"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "いっしょ",
+            "romaji": "issho",
+            "furigana": "<ruby>一<rt>いっ</rt></ruby><ruby>緒<rt>しょ</rt></ruby>",
+            "default": true,
+            "note": null
+          }
+        ],
+        "grammatical_class": "nom",
+        "group": "nom"
+      }
+    },
+    "n5_v_438": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1417",
+        "A2-04-D1418",
+        "A2-04-D1419",
+        "A2-04-D1420",
+        "A2-04-D1421"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'identité ou la similitude entre deux ou plusieurs choses : 私たちは同じクラスです (nous sommes dans la même classe). Devant un nom, il s'emploie directement, sans な, comme dans cet exemple. La fiche le décrit aussi comme « adjectif en na », souvent considéré comme un adjectif adnominal ou un nom.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Même",
+              "alternatives": [
+                "Identique",
+                "Pareil"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "おなじ",
+            "romaji": "onaji",
+            "furigana": "<ruby>同<rt>おな</rt></ruby>じ",
+            "default": true,
+            "note": null
+          }
+        ],
+        "grammatical_class": "determinant",
+        "group": null
+      }
+    },
+    "n5_v_421": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1422",
+        "A2-04-D1423",
+        "A2-04-D1424"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La diversité, la variété de choses, d'idées ou de situations : デパートでいろいろなものをかいました (j'ai acheté diverses choses au grand magasin).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Divers",
+              "alternatives": [
+                "Varié",
+                "Différents",
+                "Plusieurs sortes de"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_605": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1425",
+        "A2-04-D1426",
+        "A2-04-D1427",
+        "A2-04-D1428",
+        "A2-04-D1429"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Ce qui est différent, additionnel ou extérieur à un élément donné : y a-t-il autre chose ? Avec に, ほかに : en plus de, à part, en dehors de.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Autre",
+              "alternatives": [
+                "Le reste"
+              ]
+            },
+            "category": null,
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_521": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1430",
+        "A2-04-D1431",
+        "A2-04-D1432",
+        "A2-04-D1433",
+        "A2-04-D1434"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une probabilité ou une supposition, de l'ordre de 70 à 80 % selon la fiche : あしたはたぶんあめがふります (demain, il pleuvra peut-être).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Peut-être",
+              "alternatives": [
+                "Probablement",
+                "Vraisemblablement"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [
+              {
+                "axis": "probabilite",
+                "pole": "probabilite"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

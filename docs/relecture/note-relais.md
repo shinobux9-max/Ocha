@@ -9,7 +9,10 @@ arbitrés, révision vérifiée, lot validé et committé (`213fb2b`) ; déléga
 ChatGPT ; lot 19 validé et committé (`9e75c99`) ; lot 20 : périmètre arbitré, proposition livrée,
 25 choix arbitrés, révision vérifiée, lot validé et committé (`bcbc85c`) ; branche poussée
 (`origin/ocha-v2` à `55acc13`) ; **lot 21 : périmètre arbitré, proposition livrée, 21 choix arbitrés, révision vérifiée, lot
-validé** (2026-10-06), dans une session Claude Code cloud ; ni committé ni poussé.
+validé, committé (`1cfac5b`) et poussé** (2026-10-06) ; remote `origin` corrigé vers `Ocha` ;
+**lot 22 : périmètre arbitré, proposition livrée, 16 choix arbitrés et révisée, révision
+vérifiée, lot validé** (commit et push non autorisés), dans une session Claude Code
+cloud.
 
 ## 1. Les rôles
 
@@ -71,38 +74,45 @@ sont à `55acc13` (commit de documentation du lot 20).
 entrées non décidées**, aucune proposition en cours ; 1 369 décisions validées (D0001 à D1369) ;
 0 problème, 0 erreur, 0 attente ; 470 tests verts. Il ne reste aucun verbe.
 
-**Lot 21, « Fréquence, répétition et repères temporels » : validé, ni committé ni poussé.**
+**Lot 21, « Fréquence, répétition et repères temporels » : clos.** Validé, committé (`1cfac5b`) et
+poussé, chacun sur ton accord explicite. `ocha-v2` et `origin/ocha-v2` sont à `1cfac5b`, 0 ahead / 0
+behind. Le remote `origin` pointe désormais sur `https://github.com/shinobux9-max/Ocha.git` (le dépôt
+`Kanji-trad` a été déplacé) ; `ls-remote` y lit `1cfac5b`.
+
+**État réel, relevé par Claude Code avant le rapport de périmètre** : 650 ENTRY, 32 retraits, **37
+entrées non décidées**, aucune proposition en cours ; 1 403 décisions validées (D0001 à D1403) ; 0
+problème, 0 erreur, 0 attente ; 140 avertissements ; 472 tests verts.
+
+**Lot 22, « Manière, identité, diversité et probabilité » : validé, ni committé ni poussé.**
 
 | Étape | État | Qui a décidé |
 |---|---|---|
-| Périmètre | arbitré le 2026-10-06 : 12 entrées (rapport de périmètre, §9) | toi |
-| Proposition lexicale | livrée : 12 entrées, 16 sens | — |
-| Les 21 choix | arbitrés le 2026-10-06, retenus avec trois corrections (rapport de proposition, §9) | toi |
-| Révision | faite et vérifiée, favorable : D1375 et D1378 réécrites à leur place, D1403 ajoutée | toi |
-| **Validation** | **faite le 2026-10-06** : 12 entrées et 34 décisions (D1370 à D1403) en `validated`, statuts seulement (rapport de validation) | toi ; transmise par l'utilisateur |
-| **Commit** | **non autorisé** | à donner explicitement |
-| **Push** | **non autorisé** | à donner explicitement, à part |
+| Périmètre | arbitré le 2026-10-06 : 9 entrées (rapport de périmètre, §9) | toi |
+| Proposition lexicale | livrée : 7 entrées gardées, 2 fusions | — |
+| Les 16 choix | arbitrés le 2026-10-06, retenus avec trois corrections (rapport de proposition, §9) | toi |
+| Révision | faite : D1404, D1405, D1409 et D1418 réécrites à leur place, D1435 ajoutée ; 9 sens, 32 décisions D1404 à D1435, toutes `proposed` ; **vérifiée, favorable**, sans correction supplémentaire | toi |
+| **Validation** | **faite le 2026-10-06** sur ton autorisation explicite : statuts seulement, 9 entrées et 32 décisions | toi |
+| Commit, push | **non autorisés** | toi, deux accords distincts |
 
-**D'après les contrôles rapportés par Claude Code** : seules les 46 lignes de statut ont changé (12
-dans le lot, 34 dans le journal), le contenu hors `status` est identique, et les 1 369 décisions des
-lots 0 à 20 sont identiques. **Assemblage réel : 650 ENTRY, 32 retraits, 37 entrées écartées, 0
-problème, 0 erreur, 0 attente** ; 1 403 décisions toutes validées ; 140 avertissements justifiés ;
-472 tests verts ; 42 sabotages attrapés.
+**D'après les contrôles rapportés par Claude Code** : seules 41 lignes changent, toutes
+`"status": "proposed"` → `"validated"` (9 dans `lot-22.json`, 32 dans `journal.json`) ; le contenu
+hors statut est identique ; les 1 403 décisions antérieures sont identiques ; assemblage réel : **657
+ENTRY, 34 retraits, 28 écartées (toutes non décidées)**, 0 problème, 0 erreur, 0 attente, 147
+avertissements ; 1 435 décisions, toutes validées ; 弱い n'est pas touchée ; 474 tests verts ; 49
+sabotages attrapés.
 
-`06` contient les rapports de périmètre, de proposition et de **validation**, et le rapport
-généré ; `07` les 12 fiches et les précédents ; `08` est `lot-21.json` validé ; `09` ses 34
-décisions ; `10` le diff contre `55acc13` et la **comparaison avant / après validation**. **Rien
-n'est committé.**
+`06` contient le rapport de périmètre, le rapport de proposition, le rapport de validation et le
+rapport généré ; `07` les 9 fiches et les précédents ; `08` est `lot-22.json` ; `09` ses 32
+décisions ; `10` le diff contre `1cfac5b`, et le diff de la bascule. **Rien n'est committé.**
 
 ## 4. Ce qui est attendu de cette relecture
 
-**Contrôler le diff de validation** (`10`, §3, et rapport de validation) : statuts seulement.
+**Contrôler le diff de validation** (`10`, et le rapport de validation, §1) : seuls les statuts ont
+changé, le contenu hors statut est identique.
 
-**Décider du commit**, explicitement, puis, à part, **du push**. Les fichiers à committer sont
-listés dans le rapport de validation (§6) et dans le relevé de Claude Code ; `chatgpt-relecture/`
-et le ZIP de transfert n'en font jamais partie.
-
-**Aucune préparation du lot 22** : rien n'est fait avant une demande explicite.
+Ensuite, si tu l'estimes justifié : **le commit**, sur ton accord explicite (`git diff --stat` et la
+liste exacte des fichiers sont dans le message de Claude Code) ; puis **le push**, sur un accord
+distinct. Un avis favorable n'autorise ni l'un ni l'autre.
 
 ## 5. Points ouverts
 
@@ -114,7 +124,8 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
   `comparatif` et `intensifieur`, le lot « quantité et degré » (rapport de périmètre, §6).
 - **Classe de など** : « particule suffixe » selon sa fiche ; le registre des classes n'a pas de
   classe « particule ».
-- **Identité de 弱く** (forme de 弱い, validée au lot 17) et de ゆっくり / ゆっくりと.
+- **Identité de 弱く et de ゆっくりと** : arbitrée au lot 22 (fusions dans 弱い, sans réouverture,
+  et dans ゆっくり).
 - **« Adjectif en na (et nom) »** : le schéma ne porte qu'une classe par ENTRY (いろいろ, 同じ, 一緒).
 - **Audit A2-05** : catégories nulles, deixis temporelle de 前, 先 et 近く, catégories de メートル et
   キロ, extensions conservées en nuance.
@@ -123,6 +134,7 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Commit** du lot 21, sur ton accord explicite (« j'autorise le commit »).
+1. **Commit du lot 22**, sur ton accord explicite.
 2. **Push**, sur un accord explicite et distinct.
-3. Lot 22 : seulement sur demande explicite.
+3. Ensuite seulement, le point d'arrêt normatif sur les fonctions A2-LING, avant tout lot 23 : les
+   28 entrées restantes en dépendent toutes. Le lot 23 n'est pas préparé.
