@@ -17476,5 +17476,842 @@
     ],
     "after": "un seul sens ; « Serrer » en traduction principale",
     "reason": "« Serrer » passe en traduction principale, devant « Attacher » et « Nouer (une cravate, une ceinture) », qui restent d'autres traductions (arbitrage des choix du lot 18). La source donne « Attacher » en premier ; sa nuance définit l'action comme « serrer, nouer ou attacher », et son exemple traduit ネクタイを締めます par « je noue (serre) ma cravate » : « Serrer » est attesté par la fiche. Pour un débutant, il distingue mieux 締める de 付ける, dont le second sens porte « Fixer | Attacher » dans ce lot. Aucune traduction n'est ajoutée ni retirée : seul l'ordre change. Un seul sens, comme le dit D1214."
+  },
+  {
+    "id": "A2-04-D1241",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_577",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Se réveiller",
+      "Se lever",
+      "Sortir du lit"
+    ],
+    "after": [
+      "S1 Se réveiller",
+      "S2 Se lever (le matin)"
+    ],
+    "reason": "Deux sens proposés, examinés sur la fiche de 起きる seule, sans appliquer le modèle de 立つ ni celui de 開く (arbitrage du périmètre du lot 19) : la fiche décrit « l'action de sortir du sommeil ou de se lever le matin », et son exemple se traduit par l'un ou l'autre (« je me réveille (ou me lève) »). Ce ne sont pas un événement et son état résultant : on se réveille sans se lever. Deux référents, le sommeil que l'on quitte et le lit que l'on quitte. Types : evenement pour le réveil, qui survient, comme 忘れる (lot 06) ; action pour le lever. Tous deux dans états et besoins physiques › sommeil et repos. La fiche ne donne aucune particule : aucune n'est établie pour l'un ou l'autre sens (le に de l'exemple marque l'heure). Sens 2 candidat ; alternative laissée à l'arbitrage : un seul sens, « Se réveiller | Se lever »."
+  },
+  {
+    "id": "A2-04-D1242",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_577",
+    "field": "nuance",
+    "kind": "decision",
+    "before": "mention de la source : « par opposition au verbe transitif okosu 起こす qui signifie réveiller quelqu'un d'autre »",
+    "after": "mention conservée ; aucune entrée, aucune relation",
+    "reason": "La fiche nomme 起こす, en kanji et en romaji, et en donne le sens : la mention explique un contraste exploitable, comme celle de « kawaru » pour 変える (lot 18, D1233), et elle est conservée en nuance telle que la source la donne. 起こす n'est pas une entrée des sources : aucune entrée, aucune lecture et aucune relation ne sont créées (arbitrage du périmètre du lot 19)."
+  },
+  {
+    "id": "A2-04-D1243",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_49",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Dormir",
+      "Se coucher",
+      "Aller au lit"
+    ],
+    "after": [
+      "S1 Dormir",
+      "S2 Se coucher"
+    ],
+    "reason": "Deux sens, sur la fiche entière. « Dormir » n'est pas rabattu sur un état résultant (arbitrage du périmètre du lot 19) : c'est la traduction principale de la source et l'emploi central de la fiche, qui décrit « l'action de se coucher ou de dormir pour se reposer » ; son exemple se traduit par l'un et l'autre (« je dors (je vais me coucher) à 23 heures »). Dormir n'est pas non plus l'état qui résulte de se coucher : on se couche sans dormir. Deux référents, le sommeil et la mise au lit, comme les deux sens de 起きる. L'ordre suit les traductions de la source. Types (arbitrage des choix du lot 19) : etat pour « Dormir », qui désigne la condition de sommeil elle-même ; action pour « Se coucher », l'action de se mettre au lit. Même catégorie pour les deux, états et besoins physiques › sommeil et repos. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1244",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_551",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "S'asseoir",
+      "Prendre place"
+    ],
+    "after": "un seul sens ; « être assis » en nuance",
+    "reason": "Un seul sens, de type action : s'asseoir. « Être assis », que la fiche place elle-même dans sa nuance (« souvent employé sous la forme en -te iru pour indiquer l'état »), est l'état qui en résulte ; il reste en nuance, et n'est ni une traduction ni un second sens (principe du lot 18, retenu pour cette fiche à l'arbitrage du périmètre du lot 19)."
+  },
+  {
+    "id": "A2-04-D1245",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_551",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "S'asseoir : une posture du corps. Aucune catégorie du registre ne nomme les postures (le corps y est décrit par ses parties, l'espace par le déplacement) ; action générale. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1246",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_568",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Se lever",
+      "Être debout",
+      "Se dresser"
+    ],
+    "after": "un seul sens ; « Être debout » en nuance",
+    "reason": "Un seul sens, de type action : se mettre debout. « Être debout » n'est pas une autre traduction de « Se lever » : c'est l'état qui en résulte, que la fiche dit exprimé « à la forme en -te iru ». Il n'est ni gardé dans le sens ni érigé en second sens de type etat ; il est conservé en nuance (principe du lot 18, retenu pour cette fiche à l'arbitrage du périmètre du lot 19). La fiche ne donne aucune particule ; le から de son exemple n'est pas ajouté."
+  },
+  {
+    "id": "A2-04-D1247",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_568",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Se mettre debout : une posture du corps, comme 座る ; aucune catégorie du registre ne nomme les postures. Action générale. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1248",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_635",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Se reposer",
+      "S'absenter",
+      "Prendre un congé",
+      "Faire une pause"
+    ],
+    "after": [
+      "S1 Se reposer",
+      "S2 S'absenter (de l'école, du travail)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« faire une pause pour récupérer, ou de s'absenter de l'école ou du travail ») : le repos, que l'exemple illustre, et l'absence ; deux référents. Particules : la fiche donne を et に, et dit le verbe « intransitif / transitif » ; elle n'illustre que を, pour l'absence (« kaisha o yasumu », s'absenter du travail), et son exemple du repos n'en porte aucune. を est donc rattachée au sens 2, aucune au sens 1 ; に, que la fiche donne sans l'illustrer, n'est rattachée à aucun sens. Le sens 1 est dans la catégorie proposée pour 寝る (sommeil et repos). Sens 2 candidat ; alternatives laissées à l'arbitrage : un seul sens ; ou に rattachée à l'un des deux."
+  },
+  {
+    "id": "A2-04-D1249",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_635",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "S'absenter de l'école ou du travail : la fiche réunit les deux lieux ; « congés », dans le registre, relève des seules conditions de travail. Action générale. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1250",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_9",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Se fatiguer",
+      "Être fatigué",
+      "S'épuiser"
+    ],
+    "after": "un seul sens ; « Être fatigué » en nuance",
+    "reason": "Un seul sens : se fatiguer. « Être fatigué » est l'état qui en résulte : la fiche dit elle-même qu'il s'exprime par la forme 疲れている. Il n'est ni une autre traduction ni un second sens ; il est conservé en nuance, avec cette forme (arbitrage du périmètre du lot 19). Type processus (arbitrage des choix du lot 19) : la fiche décrit une évolution vers la fatigue, ce qui est plus proche d'un processus que d'un événement ponctuel ou d'un état ; l'état résultant reste dit à part, en nuance. Catégorie : états et besoins physiques › fatigue et énergie physique."
+  },
+  {
+    "id": "A2-04-D1251",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_534",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Œuvrer"
+    ],
+    "after": null,
+    "reason": "Plus large et plus littéraire que ce que décrit la fiche (une activité professionnelle) ; redondant avec « Travailler »."
+  },
+  {
+    "id": "A2-04-D1252",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_143",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Travailler pour",
+      "Être employé par",
+      "Exercer un emploi dans"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche décrit un seul fait, être employé dans une entreprise ou y exercer une fonction ; ses trois traductions le disent toutes. Catégorie : travail et vie professionnelle › travail et emploi › emploi (le lien à un employeur), quand 働く, dans ce lot, est dans « activité professionnelle » ; aucune fiche ne nomme l'autre, et rien n'est ajouté pour les opposer. Type action, comme 住む (lot 03). Alternative laissée à l'arbitrage : le type etat, « être employé »."
+  },
+  {
+    "id": "A2-04-D1253",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_141",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": false,
+    "reason": "suru_compatible : false (arbitrage du périmètre du lot 19). La fiche ne dit rien de する ; son exemple est 仕事をします, avec を, ce qui n'établit pas la formation 仕事する. false veut dire « non établi », jamais « incompatible »."
+  },
+  {
+    "id": "A2-04-D1254",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_141",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Tâche professionnelle"
+    ],
+    "after": null,
+    "reason": "Une glose : « une tâche à accomplir », que décrit la fiche, est reprise en nuance."
+  },
+  {
+    "id": "A2-04-D1255",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_141",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "explication de la source sur les kanji du mot (仕, « servir / faire », et 事, « chose abstraite / affaire »)",
+    "after": null,
+    "reason": "Une part de la nuance de la source explique la composition du mot en kanji : ce n'est pas un emploi du mot, et elle n'est pas reprise (comme pour 暗い, lot 17)."
+  },
+  {
+    "id": "A2-04-D1256",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_142",
+    "field": "sens 1 · semantic_type",
+    "kind": "decision",
+    "before": null,
+    "after": "organisation",
+    "reason": "Type organisation : la fiche décrit « une entreprise ou une société commerciale », non un bâtiment. Les noms de lieux où l'on va (銀行, 店, 学校) sont validés en lieu ; l'exemple de la fiche emploie 会社で, « dans une entreprise ». Alternative laissée à l'arbitrage : le type lieu."
+  },
+  {
+    "id": "A2-04-D1257",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_142",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Bureau (par extension)"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne décrit qu'une entreprise ou une société. Signalée en nuance comme traduction de la source non développée (principe retenu au lot 18)."
+  },
+  {
+    "id": "A2-04-D1258",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_142",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "explication de la source sur les kanji du mot (会, « se réunir », et 社, « société / sanctuaire »)",
+    "after": null,
+    "reason": "Une part de la nuance de la source explique la composition du mot en kanji : ce n'est pas un emploi du mot, et elle n'est pas reprise (comme pour 暗い, lot 17)."
+  },
+  {
+    "id": "A2-04-D1259",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_526",
+    "field": "entrée",
+    "kind": "decision",
+    "before": "fiche de verbe en する, sans fiche de nom コピー dans les sources",
+    "after": "ENTRY conservée telle quelle : コピーする, verbe, groupe suru",
+    "reason": "L'ENTRY est conservée telle que la source la donne (arbitrage du périmètre du lot 19) : forme コピーする, classe verbe, groupe suru, tous mécaniques. Elle n'est pas transformée en nom コピー : aucune entrée コピー n'existe dans les sources, et aucune identité lexicale n'est inventée ; les précédents 散歩する et 掃除する (fusionnées dans la fiche de leur nom) ne s'appliquent pas, faute de fiche de nom. Elle n'est pas réservée à un lot ultérieur. La lecture en hiragana (こぴーする) est celle de la source : statu quo mécanique des mots en katakana."
+  },
+  {
+    "id": "A2-04-D1260",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_526",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Faire une photocopie : action générale, sans domaine thématique propre ; la fiche ne la rattache ni au bureau ni à l'école. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1261",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_526",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Dupliquer"
+    ],
+    "after": null,
+    "reason": "Plus large que ce que décrit la fiche (une copie, une photocopie)."
+  },
+  {
+    "id": "A2-04-D1262",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_526",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "exemple de la source : « この しるし を コピーして ください » (« Veuillez photocopier ce document »)",
+    "after": null,
+    "reason": "Anomalie de la source : l'exemple dit しるし, que sa traduction rend par « document ». L'exemple n'est repris dans aucune nuance (arbitrage du périmètre du lot 19) ; les exemples ne sont pas migrés, et l'anomalie est signalée pour le registre de phrases. Aucune information lexicale n'en est tirée."
+  },
+  {
+    "id": "A2-04-D1263",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_527",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Donner",
+      "Offrir",
+      "Lever",
+      "Monter"
+    ],
+    "after": [
+      "S1 Donner (à quelqu'un)",
+      "S2 Lever (un objet)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« donner quelque chose à quelqu'un (hors du cercle familial proche), ou au sens physique de lever, élever ou monter un objet ») : un don à une personne, que l'exemple illustre, et un objet que l'on élève ; deux référents. Particules de la fiche : を et に pour le don (la chose, la personne), を pour le sens physique. Catégories : relations sociales › interactions sociales pour le don, que la fiche situe par rapport au cercle de la personne ; espace › mouvement et déplacement › monter, descendre pour le second, comme 登る et 降りる (lot 04). Les sources n'ont aucun autre verbe de don : rien n'est ajouté pour les opposer. Sens 2 candidat ; alternative laissée à l'arbitrage : un seul sens, le sens physique passant en nuance."
+  },
+  {
+    "id": "A2-04-D1264",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_575",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Prêter un objet ou louer un bien à quelqu'un : action générale, sans domaine thématique propre ; le « prêt » du registre est un produit bancaire, et l'exemple porte sur un parapluie. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1265",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_575",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 19, report intégral à la passe finale 5.16). La paire 貸す / 借りる est inscrite comme candidate explicite à l'audit des relations de 5.16, pour reciprocal_with (registre A2-REL) : cette entrée est celle qui prête, et sa fiche nomme 借りる ; l'autre membre est n5_v_533 (借りる)."
+  },
+  {
+    "id": "A2-04-D1266",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_533",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>借<rt>かり</rt></ruby>る",
+    "after": "<ruby>借<rt>か</rt></ruby>りる",
+    "reason": "Furigana de la source incohérents avec la forme : leur texte de base est 借る, sans le り de 借りる, et かり est porté par le kanji. La lecture かりる et le romaji kariru de la fiche sont repris tels quels ; か est porté par 借, り est l'okurigana de la forme. L'exemple de la fiche a le même défaut ; la nuance l'écrit avec la forme de l'entrée. Même correction que pour 閉まる (D1176, lot 18). Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1267",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_533",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Emprunter un objet ou louer un bien : action générale, sans domaine thématique propre, comme 貸す. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1268",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_533",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 19, report intégral à la passe finale 5.16). La paire 貸す / 借りる est inscrite comme candidate explicite à l'audit des relations de 5.16, pour reciprocal_with (registre A2-REL) : cette entrée est celle qui emprunte, et sa fiche nomme 貸す ; l'autre membre est n5_v_575 (貸す)."
+  },
+  {
+    "id": "A2-04-D1269",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_578",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Rendre",
+      "Restituer",
+      "Rembourser",
+      "Renvoyer"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens proposé : la fiche réunit dans une même description restituer un objet emprunté, rendre la monnaie et rembourser une somme, trois objets pour un même geste, rendre ce qui revient à quelqu'un. Un emploi avec un objet ne produit pas automatiquement un sens (lot 14). Alternative laissée à l'arbitrage : un second sens pour l'argent."
+  },
+  {
+    "id": "A2-04-D1270",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_578",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Rendre un objet, de la monnaie ou une somme : action générale, sans domaine thématique propre ; le remboursement seul relèverait des transactions, mais la fiche réunit les trois, et son exemple porte sur un livre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1271",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_578",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Renvoyer"
+    ],
+    "after": null,
+    "reason": "La nuance de la fiche ne décrit que rendre, restituer et rembourser. Signalée en nuance comme traduction de la source non développée (principe retenu au lot 18)."
+  },
+  {
+    "id": "A2-04-D1272",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_562",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Remettre",
+      "Donner en main propre",
+      "Transférer",
+      "Faire traverser"
+    ],
+    "after": [
+      "S1 Remettre (à quelqu'un)",
+      "S2 Faire traverser"
+    ],
+    "reason": "Deux sens documentés par la fiche (« remettre un objet directement à quelqu'un d'autre de la main à la main, ou de faire traverser quelque chose ») : un objet que l'on remet à une personne, ce que l'exemple illustre, et une chose que l'on fait passer de l'autre côté ; deux référents. La nuance nomme le second sans le détailler davantage : il reste candidat. Particules de la fiche : を et に pour le premier, を pour le second. Le sens 2 est dans la catégorie de 渡る « traverser » (lot 04), espace › parcours et trajectoire ; 渡る n'est pas modifiée. Sens 2 candidat ; alternative laissée à l'arbitrage : un seul sens, « faire traverser » étant signalée en nuance."
+  },
+  {
+    "id": "A2-04-D1273",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_562",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Remettre un objet à quelqu'un, de la main à la main : action générale, sans domaine thématique propre, comme 貸す. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1274",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_562",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Transférer"
+    ],
+    "after": null,
+    "reason": "Plus large que ce que décrit la fiche (remettre de la main à la main, faire traverser)."
+  },
+  {
+    "id": "A2-04-D1275",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_562",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (arbitrage du périmètre du lot 19, report intégral à la passe finale 5.16). La paire 渡す / 渡る est inscrite comme candidate explicite à l'audit des relations de 5.16, pour l'examen transitive_of / intransitive_of (registre A2-REL) : cette entrée en serait le membre transitif ; sa fiche ne nomme pas 渡る ; l'autre membre est n5_v_563 (渡る), validée au lot 04 et non modifiée."
+  },
+  {
+    "id": "A2-04-D1276",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_116",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Demander",
+      "Commander (un plat au restaurant)",
+      "Prier / confier une tâche"
+    ],
+    "after": [
+      "S1 Demander (un service)",
+      "S2 Commander (au restaurant)"
+    ],
+    "reason": "Deux sens documentés par la fiche (« demander un service, faire une prière ou, dans le contexte du restaurant, passer une commande (plat ou boisson) ») : un service que l'on demande à quelqu'un, et un plat que l'on commande, ce que l'exemple illustre ; deux référents. Particule を de la fiche pour chacun. Catégories : relations sociales › interactions sociales pour la demande ; économie et commerce › achat et vente › commande pour le second. Sens 2 candidat ; alternatives laissées à l'arbitrage : un seul sens ; ou alimentation › restauration pour le second."
+  },
+  {
+    "id": "A2-04-D1277",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_116",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Prier / confier une tâche"
+    ],
+    "after": null,
+    "reason": "La traduction réunit deux emplois : « confier une tâche » est couvert par le sens 1 (demander un service) ; « prier », que la nuance de la fiche dit « faire une prière », n'est développé ni par elle ni par l'exemple. Signalé en nuance comme emploi de la source non développé (principe retenu au lot 18)."
+  },
+  {
+    "id": "A2-04-D1278",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_116",
+    "field": "readings",
+    "kind": "decision",
+    "before": "<ruby>頼<rt>たノ</rt></ruby>む",
+    "after": "lecture mécanique conservée ; anomalie inscrite pour la passe finale",
+    "reason": "Anomalie graphique de la source : ses furigana écrivent たノ, avec un ノ en katakana, sur 頼. La lecture en kana (たのむ) et le romaji (tanomu) sont justes, et A8 compare les kana par une clé qui rapproche hiragana et katakana : les furigana recomposent bien la lecture, aucune exception n'est levée, et la lecture reste mécanique. Ce n'est pas le cas de 九つ, où la lecture elle-même était fautive : READING_EXCEPTION_IDS n'est pas modifiée, et aucune règle ne l'est dans ce lot (arbitrage du périmètre du lot 19). Aucun champ de l'ENTRY n'est décidé ici. L'anomalie est inscrite pour la passe finale, avant publication : les furigana publiés de 頼む porteraient ce ノ."
+  },
+  {
+    "id": "A2-04-D1279",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_530",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Faire la rencontre de"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Rencontrer »."
+  },
+  {
+    "id": "A2-04-D1280",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_552",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>待<rt>まつ</rt></ruby>つ",
+    "after": "<ruby>待<rt>ま</rt></ruby>つ",
+    "reason": "Addendum A8 (I4) : les furigana de la source portent まつ sur 待 et sont suivis de つ ; ils se lisaient まつつ au lieu de まつ, la lecture en kana (romaji de la fiche : matsu). ま est porté par 待, つ est l'okurigana de la forme ; c'est la segmentation de l'exemple de la fiche (待っています). Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1281",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_552",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Attendre quelqu'un ou quelque chose : action générale, sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1282",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_569",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": true,
+    "reason": "suru_compatible : true (arbitrage du périmètre du lot 19), établi par la source : « nom (et verbe suru) », « s'emploie couramment sous la forme kekkon suru pour le verbe », et l'exemple 結婚します."
+  },
+  {
+    "id": "A2-04-D1283",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_569",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Se marier"
+    ],
+    "after": null,
+    "reason": "La traduction du verbe 結婚する, non du nom : elle est portée par suru_compatible et reprise en nuance."
+  },
+  {
+    "id": "A2-04-D1284",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_569",
+    "field": "sens 1 · semantic_type",
+    "kind": "decision",
+    "before": null,
+    "after": "evenement",
+    "reason": "Type evenement : le mariage, « l'union matrimoniale ou l'action de se marier », comme 旅行 « voyage » (lot 09). Alternative laissée à l'arbitrage : le type action, comme 散歩 (lot 09)."
+  },
+  {
+    "id": "A2-04-D1285",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_153",
+    "field": "sens 1 · semantic_type",
+    "kind": "decision",
+    "before": null,
+    "after": "evenement",
+    "reason": "Type evenement : naître survient à quelqu'un, qui ne l'accomplit pas ; comme 忘れる (lot 06). Catégorie : être humain › cycle de vie › naissance. La particule de ce sens unique est celle de la fiche (に), mécaniquement ; le で de l'exemple n'est pas ajouté : aucune particule n'est tirée d'un exemple (arbitrage du lot 18)."
+  },
+  {
+    "id": "A2-04-D1286",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_558",
+    "field": "sens 1 · semantic_type",
+    "kind": "decision",
+    "before": null,
+    "after": "evenement",
+    "reason": "Type evenement, comme 生まれる dans ce lot : mourir survient à un être vivant. La catégorie de ce sens est décidée à part (D1299). La remarque de conjugaison de la fiche (verbe en -nu) est résumée en nuance."
+  },
+  {
+    "id": "A2-04-D1287",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_558",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Périr"
+    ],
+    "after": null,
+    "reason": "Redondant avec « Mourir », et plus littéraire."
+  },
+  {
+    "id": "A2-04-D1288",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_685",
+    "field": "suru_compatible",
+    "kind": "decision",
+    "before": null,
+    "after": true,
+    "reason": "suru_compatible : true (arbitrage du périmètre du lot 19) : la fiche dit « nom / verbe suru » et « souvent utilisé avec le verbe suru pour vivre / subvenir à ses besoins ». Son exemple emploie 生活をしています, avec を : il ne retire pas cette mention explicite."
+  },
+  {
+    "id": "A2-04-D1289",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_685",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "La vie de tous les jours, les conditions d'existence : notion générale, qui n'est le domaine d'aucune catégorie en particulier (ni l'habitat, ni le travail, ni le cycle de vie). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1290",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_685",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "explication de la source sur les kanji du mot (« vie / naître » et « vivre / action »)",
+    "after": null,
+    "reason": "Une part de la nuance de la source explique la composition du mot en kanji : ce n'est pas un emploi du mot, et elle n'est pas reprise (comme pour 暗い, lot 17)."
+  },
+  {
+    "id": "A2-04-D1291",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_542",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Fumer",
+      "Aspirer",
+      "Inhaler"
+    ],
+    "after": [
+      "S1 Fumer",
+      "S2 Aspirer"
+    ],
+    "reason": "Deux sens proposés, sur la fiche (« inspirer de l'air ou de la fumée (comme fumer une cigarette), ou d'aspirer un liquide ») : fumer, traduction principale de la source, que l'exemple illustre et que la fiche de 煙草 associe à ce verbe ; et aspirer de l'air ou un liquide. Un emploi spécifique et un emploi général, comme les deux sens de 差す (lot 18). Particule を de la fiche pour chacun. Sens 2 candidat ; alternative laissée à l'arbitrage : un seul sens, un même geste pour plusieurs substances, comme 押す (lot 18)."
+  },
+  {
+    "id": "A2-04-D1292",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_542",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Fumer : aucune catégorie du registre ne nomme le tabac ; il n'est ni un aliment ni un soin. Action sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1293",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_542",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Inspirer de l'air ou aspirer un liquide : action générale, sans domaine thématique propre, comme le sens « souffler (de l'air) » de 吹く (lot 07). Addendum A5."
+  },
+  {
+    "id": "A2-04-D1294",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_598",
+    "field": "writings",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      "たばこ"
+    ],
+    "reason": "たばこ devient une autre graphie de l'ENTRY : la fiche la documente (« s'écrit le plus souvent en hiragana (たばこ) ou parfois en kanji (煙草) ») et l'emploie dans son exemple. La forme usuelle reste 煙草, celle de la source, et sa lecture (furigana たば sur 煙, こ sur 草) reste telle que la source la donne : toutes deux sont mécaniques, et ce mot n'est pas dans la liste fermée des lectures spéciales (A8), que ce lot ne modifie pas. Le découpage des furigana n'est fondé par rien dans la fiche : signalé pour la passe finale, avec la question de la forme usuelle."
+  },
+  {
+    "id": "A2-04-D1295",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_598",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Une cigarette : aucune catégorie du registre ne la nomme. Objet sans domaine thématique propre. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1296",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_598",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Cigare"
+    ],
+    "after": null,
+    "reason": "La fiche ne décrit que le tabac ou une cigarette. Signalée en nuance comme traduction de la source non développée (principe retenu au lot 18)."
+  },
+  {
+    "id": "A2-04-D1297",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_683",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Récipient pour les cendres de cigarettes"
+    ],
+    "after": null,
+    "reason": "Une glose, non une traduction : reprise en nuance."
+  },
+  {
+    "id": "A2-04-D1298",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_683",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "explication de la source sur les kanji du mot (« cendre » et « assiette / plat », avec la remarque sur sara devenu zara)",
+    "after": null,
+    "reason": "Une part de la nuance de la source explique la composition du mot en kanji : ce n'est pas un emploi du mot, et elle n'est pas reprise (comme pour 暗い, lot 17)."
+  },
+  {
+    "id": "A2-04-D1299",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_558",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": "etre_humain › cycle_de_vie › mort",
+    "after": null,
+    "reason": "Aucune catégorie (arbitrage des choix du lot 19) : la proposition rangeait ce sens dans être humain › cycle de vie › mort. La fiche décrit « l'action biologique de cesser de vivre », et son exemple porte sur un chien : classer le verbe entier dans le cycle de vie humain serait artificiel, et le registre n'a pas de catégorie générale de la mort qui convienne au sens documenté. 生まれる, dans ce lot, garde naissance : sa fiche et son exemple portent sur une personne. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1300",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_598",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Cigarette",
+      "Tabac",
+      "Cigare"
+    ],
+    "after": [
+      "S1 Cigarette",
+      "S2 Tabac"
+    ],
+    "reason": "Deux sens (arbitrage des choix du lot 19) : la proposition les réunissait en un seul, « Cigarette | Tabac ». La fiche dit que le nom désigne « le tabac ou une cigarette » : ce sont deux référents de types différents, un objet (objet_artefact) et une matière (substance_matiere), comme les deux sens de 料理 (lot 02, une activité et un plat). L'ordre suit les traductions de la source. La fiche ne donne aucune particule. « Cigare » reste abandonné (D1296) et signalé en nuance. La graphie たばこ (D1294) vaut pour l'ENTRY entière."
+  },
+  {
+    "id": "A2-04-D1301",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-19",
+    "entry": "n5_v_598",
+    "field": "sens 2 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "Le tabac : aucune catégorie du registre ne le nomme ; il n'est ni un aliment ni une matière de construction ou de fabrication. Matière sans domaine thématique propre, comme le sens 1. Addendum A5."
   }
 ]

@@ -100,9 +100,9 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-06)
 
-- **Lots 0 à 18 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **590 ENTRY,
-  32 retraits, 97 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 240 décisions validées
-  (D0001 à D1240), aucune proposition en cours.
+- **Lots 0 à 19 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **616 ENTRY,
+  32 retraits, 71 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 301 décisions validées
+  (D0001 à D1301), aucune proposition en cours.
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -179,9 +179,23 @@ faut savoir est dans le dépôt.
   閉まる) ; « Serrer » en traduction principale de 締める (D1240) ; un verbe que la fiche nomme en
   romaji sans l'expliquer (« hiraku ») n'est pas repris en nuance, un contraste qu'elle explique
   (« kawaru », pour 変える) l'est. Aucune particule n'est tirée d'un exemple.
-- **Ensuite** : commit du lot 18, sur accord explicite ; puis choix du thème du lot 19 et
+- **Lot 18 commité** : `213fb2b`, sur l'accord explicite de ChatGPT ; rien n'est poussé.
+- **Lot 19** (« vie quotidienne, travail et échanges ») : **validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot19-valide.md`) ; périmètre arbitré le même jour
+  (rapport `docs/rapports/etape2-A2-04-lot19-perimetre.md`, §7), 26 entrées (20 verbes, 6 noms) sur les 97 restantes. **Relations reportées
+  à 5.16** (candidates : 貸す / 借りる pour `reciprocal_with`, 渡す / 渡る). **頼む reste
+  mécanique** : ses furigana portent un ノ en katakana, que le validateur accepte ; aucune règle
+  n'est modifiée, et l'anomalie est inscrite pour la passe finale (D1278). コピーする reste une
+  ENTRY de verbe. `suru_compatible` : `true` pour 結婚 et 生活, `false` pour 仕事. **L'état
+  résultant se traite fiche par fiche** : en nuance pour 立つ, 座る et 疲れる, mais « Dormir » reste
+  un sens de 寝る. **26 entrées, 34 sens, 61 décisions D1241 à D1301** (rapport `docs/rapports/etape2-A2-04-lot19-proposition.md`). **Ses 22 choix
+  sont arbitrés** (§8 du rapport), quatre ayant été révisés : « Dormir » est un `etat` ; 疲れる un
+  `processus` ; **une catégorie ne s'impose pas quand la fiche déborde son domaine** (死ぬ, sans
+  catégorie, sa fiche portant aussi sur un animal) ; **deux référents de types différents font deux
+  sens** (煙草 : la cigarette, un objet ; le tabac, une matière).
+- **Ensuite** : commit du lot 19, sur accord explicite ; puis choix du thème du lot 20 et
   composition de son périmètre. Il
-  reste 97 entrées (34 verbes, 42 adverbes et mots de liaison, 16 noms, 5
+  reste 71 entrées (14 verbes, 42 adverbes et mots de liaison, 10 noms, 5
   adjectifs). Un lot « quantité et
   degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et
   `intensifieur`. **Aucune décision avant la validation d'un périmètre.**

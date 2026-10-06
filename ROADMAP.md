@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-06 (clôture du lot 18)
+**Dernière mise à jour :** 2026-10-06 (clôture du lot 19)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,10 +41,10 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot 19, dont le thème et le périmètre restent à
+**A2-04 · reconstruction du vocabulaire N5 → lot 20, dont le thème et le périmètre restent à
 arbitrer.**
 
-Les lots 0 à 18 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
+Les lots 0 à 19 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
 entrées validées concernées sont corrigées et revalidées.
 
@@ -264,7 +264,8 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **Lot 16** | Préférences, appréciations et états de la personne | ✅ Terminé |
 | **Lot 17** | États et propriétés descriptives | ✅ Terminé |
 | **Lot 18** | Actions sur les objets | ✅ Terminé |
-| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 19 : thème et périmètre à arbitrer ; 97 entrées) | ⬜ À faire |
+| **Lot 19** | Vie quotidienne, travail et échanges | ✅ Terminé |
+| **Lots suivants** | Lots thématiques restants, désignés par leur numéro de lot (lot 20 : thème et périmètre à arbitrer ; 71 entrées) | ⬜ À faire |
 | **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
@@ -281,12 +282,12 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 18
+#### État chiffré après le lot 19
 
--   **590 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **616 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **32 identifiants retirés** ;
--   **97 anciennes entrées encore à décider** ;
--   **1 240 décisions humaines validées** au journal ;
+-   **71 anciennes entrées encore à décider** ;
+-   **1 301 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **1 suffixe** (`半`), seul `suffix` du corpus ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -401,7 +402,23 @@ sens, 41 décisions (D1127 à D1167). Arbitrages appliqués :
 -   particules décidées pour les entrées à plusieurs sens, prises dans la fiche seulement ; deux
     lectures corrigées (`閉まる`, `作る`) ; 23 catégories nulles (A5).
 
-**Prochaine action immédiate :** choisir le thème du lot 19 parmi les 97 entrées restantes,
+#### Lot 19 · clos
+
+« Vie quotidienne, travail et échanges » : **26 entrées (20 verbes, 6 noms), 34 sens, 61
+décisions** (D1241 à D1301).
+
+-   **aucune relation** ; candidates à l'audit de 5.16 : `貸す` / `借りる` (`reciprocal_with`) et
+    `渡す` / `渡る` ;
+-   l'état résultant traité fiche par fiche : en nuance pour `立つ`, `座る` et `疲れる` ;
+    « Dormir » reste un sens de `寝る`, de type `etat` ;
+-   `suru_compatible` : `true` pour `結婚` et `生活`, `false` pour `仕事` ; `コピーする`
+    reste une ENTRY de verbe ;
+-   deux référents de types différents font deux sens (`煙草` : la cigarette, le tabac) ; une
+    catégorie ne s'impose pas quand la fiche déborde son domaine (`死ぬ`) ; 15 catégories nulles ;
+-   deux lectures corrigées (`借りる`, `待つ`) ; les furigana de `頼む` restent à traiter à la
+    passe finale, avant publication.
+
+**Prochaine action immédiate :** choisir le thème du lot 20 parmi les 71 entrées restantes,
 composer son périmètre par identifiants, puis le faire arbitrer avant toute proposition.
 
 ------------------------------------------------------------------------

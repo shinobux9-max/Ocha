@@ -1,0 +1,1132 @@
+{
+  "lot": "lot-19",
+  "title": "Vie quotidienne, travail et échanges",
+  "entries": {
+    "n5_v_577": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1241",
+        "A2-04-D1242"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Intransitif. まいにち6じに起きます (je me réveille, ou je me lève, tous les jours à 6 heures). Réveiller quelqu'un d'autre se dit avec le verbe transitif 起こす (« okosu »).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Se réveiller",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "etats_besoins_physiques",
+              "level_3": "sommeil_repos"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Sortir du sommeil."
+          },
+          {
+            "meaning": {
+              "primary": "Se lever",
+              "alternatives": [
+                "Sortir du lit"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "etats_besoins_physiques",
+              "level_3": "sommeil_repos"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Se lever le matin, quitter son lit."
+          }
+        ]
+      }
+    },
+    "n5_v_49": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1243"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Très courant. 夜は11時に寝ます (je vais me coucher, je dors, à 23 heures le soir).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dormir",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "etats_besoins_physiques",
+              "level_3": "sommeil_repos"
+            },
+            "semantic_type": "etat",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Dormir pour se reposer."
+          },
+          {
+            "meaning": {
+              "primary": "Se coucher",
+              "alternatives": [
+                "Aller au lit"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "etats_besoins_physiques",
+              "level_3": "sommeil_repos"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Se mettre au lit."
+          }
+        ]
+      }
+    },
+    "n5_v_551": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1244",
+        "A2-04-D1245"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'asseoir : いすに座ってください (veuillez vous asseoir sur la chaise). L'état « être assis » se dit à la forme en ている.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "S'asseoir",
+              "alternatives": [
+                "Prendre place"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_568": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1246",
+        "A2-04-D1247"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Se mettre debout : いすから立ってください (veuillez vous lever de la chaise). L'état « être debout » se dit à la forme en ている.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Se lever",
+              "alternatives": [
+                "Se dresser"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_635": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1248",
+        "A2-04-D1249"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Se reposer",
+              "alternatives": [
+                "Faire une pause"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "etats_besoins_physiques",
+              "level_3": "sommeil_repos"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Faire une pause pour récupérer : すこし休みます (je me repose un peu)."
+          },
+          {
+            "meaning": {
+              "primary": "S'absenter",
+              "alternatives": [
+                "Prendre un congé"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "S'absenter de l'école ou du travail."
+          }
+        ]
+      }
+    },
+    "n5_v_9": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1250"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La fatigue physique ou mentale : 今日は仕事が多くて、とても疲れました (aujourd'hui, il y avait beaucoup de travail et je me suis beaucoup fatigué). « Être fatigué » se dit très souvent 疲れている.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Se fatiguer",
+              "alternatives": [
+                "S'épuiser"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "etats_besoins_physiques",
+              "level_3": "fatigue_energie_physique"
+            },
+            "semantic_type": "processus",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_534": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1251"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Exercer une activité professionnelle, travailler pour gagner sa vie : かいしゃで働いています (je travaille dans une entreprise).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Travailler",
+              "alternatives": [
+                "Exercer un emploi"
+              ]
+            },
+            "category": {
+              "level_1": "travail_vie_professionnelle",
+              "level_2": "travail_emploi",
+              "level_3": "activite_professionnelle"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_143": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1252"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Être employé dans une entreprise, ou exercer une fonction dans une organisation ; souvent avec に. わたしはこの銀行に勤めています (je travaille dans cette banque).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Travailler pour",
+              "alternatives": [
+                "Être employé par",
+                "Exercer un emploi dans"
+              ]
+            },
+            "category": {
+              "level_1": "travail_vie_professionnelle",
+              "level_2": "travail_emploi",
+              "level_3": "emploi"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_141": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1253",
+        "A2-04-D1254",
+        "A2-04-D1255"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une activité professionnelle, ou une tâche à accomplir : 父は毎日朝から晩まで仕事をします (mon père travaille du matin au soir tous les jours).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Travail",
+              "alternatives": [
+                "Emploi",
+                "Profession"
+              ]
+            },
+            "category": {
+              "level_1": "travail_vie_professionnelle",
+              "level_2": "travail_emploi",
+              "level_3": "activite_professionnelle"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_142": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1256",
+        "A2-04-D1257",
+        "A2-04-D1258"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une entreprise, une société commerciale : 兄は東京の会社で働いています (mon frère travaille dans une entreprise à Tokyo). La source donne aussi la traduction « bureau (par extension) », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Entreprise",
+              "alternatives": [
+                "Société",
+                "Compagnie"
+              ]
+            },
+            "category": {
+              "level_1": "travail_vie_professionnelle",
+              "level_2": "entreprises_organisations_professionnelles",
+              "level_3": "entreprises"
+            },
+            "semantic_type": "organisation",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_526": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1259",
+        "A2-04-D1260",
+        "A2-04-D1261",
+        "A2-04-D1262"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Verbe en する, formé sur le mot emprunté コピー (copie, photocopie).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Photocopier",
+              "alternatives": [
+                "Faire une copie"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_527": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1263"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Donner",
+              "alternatives": [
+                "Offrir"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "interactions_sociales"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を",
+              "に"
+            ],
+            "nuance": "Donner quelque chose à quelqu'un qui n'est pas du cercle familial proche : ともだちにプレゼントを上げます (je donne un cadeau à mon ami)."
+          },
+          {
+            "meaning": {
+              "primary": "Lever",
+              "alternatives": [
+                "Monter"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement",
+              "level_3": "monter_descendre"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Au sens physique : lever, élever ou monter un objet."
+          }
+        ]
+      }
+    },
+    "n5_v_575": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1264",
+        "A2-04-D1265"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Prêter un objet à quelqu'un, ou lui louer un bien : ともだちにかさを貸しました (j'ai prêté mon parapluie à un ami). Emprunter se dit 借りる.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Prêter",
+              "alternatives": [
+                "Louer (à quelqu'un)"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_533": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1266",
+        "A2-04-D1267",
+        "A2-04-D1268"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Emprunter un objet à quelqu'un, ou louer un bien, un logement par exemple : としょかんでほんを借ります (j'emprunte un livre à la bibliothèque). Prêter se dit 貸す.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Emprunter",
+              "alternatives": [
+                "Louer"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "かりる",
+            "romaji": "kariru",
+            "furigana": "<ruby>借<rt>か</rt></ruby>りる",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_578": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1269",
+        "A2-04-D1270",
+        "A2-04-D1271"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Restituer un objet emprunté à son propriétaire, rendre la monnaie, ou rembourser une somme : としょかんにほんを返します (je rends le livre à la bibliothèque). La source donne aussi la traduction « renvoyer », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Rendre",
+              "alternatives": [
+                "Restituer",
+                "Rembourser"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_562": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1272",
+        "A2-04-D1273",
+        "A2-04-D1274",
+        "A2-04-D1275"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Remettre",
+              "alternatives": [
+                "Donner en main propre"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を",
+              "に"
+            ],
+            "nuance": "Remettre un objet directement à quelqu'un, de la main à la main : せんせいにしょるいを渡しました (j'ai remis les documents au professeur)."
+          },
+          {
+            "meaning": {
+              "primary": "Faire traverser",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "parcours_trajectoire"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Faire traverser quelque chose."
+          }
+        ]
+      }
+    },
+    "n5_v_116": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1276",
+        "A2-04-D1277",
+        "A2-04-D1278"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La source cite aussi l'emploi « faire une prière », sans le développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Demander",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "interactions_sociales"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Demander un service à quelqu'un."
+          },
+          {
+            "meaning": {
+              "primary": "Commander (un plat au restaurant)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "achat_vente",
+              "level_3": "commande"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Au restaurant, passer une commande, un plat ou une boisson : レストランでカレーライスを頼みました (j'ai commandé un riz au curry au restaurant)."
+          }
+        ]
+      }
+    },
+    "n5_v_530": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1279"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Voir ou rencontrer une personne, que la particule に désigne : きょうのごごともだちに会います (je rencontre un ami cet après-midi).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Rencontrer",
+              "alternatives": [
+                "Voir quelqu'un"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "interactions_sociales"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_552": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1280",
+        "A2-04-D1281"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Patienter en attendant l'arrivée de quelqu'un, ou qu'un événement se produise : えきでともだちを待っています (j'attends un ami à la gare).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Attendre",
+              "alternatives": [
+                "Patienter"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "まつ",
+            "romaji": "matsu",
+            "furigana": "<ruby>待<rt>ま</rt></ruby>つ",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "n5_v_569": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1282",
+        "A2-04-D1283",
+        "A2-04-D1284"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'union matrimoniale. Avec する, 結婚する : se marier. らいねん結婚します (je me marierai l'année prochaine).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mariage",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "couple_relations_intimes",
+              "level_3": "mariage"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_153": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1285"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "わたしは東京で生まれました (je suis né à Tokyo).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Naître",
+              "alternatives": [
+                "Venir au monde"
+              ]
+            },
+            "category": {
+              "level_1": "etre_humain",
+              "level_2": "cycle_de_vie",
+              "level_3": "naissance"
+            },
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_558": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1286",
+        "A2-04-D1287",
+        "A2-04-D1299"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Cesser de vivre : むかし、ゆうめいないぬが死んだ (autrefois, un chien célèbre est mort). L'un des rares verbes en ぬ.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mourir",
+              "alternatives": [
+                "Décéder"
+              ]
+            },
+            "category": null,
+            "semantic_type": "evenement",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_685": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1288",
+        "A2-04-D1289",
+        "A2-04-D1290"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": true,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le train-train quotidien, la vie de tous les jours, les conditions d'existence. Avec する : vivre, subvenir à ses besoins. まいにちたのしい生活をしています (je mène une vie quotidienne agréable tous les jours).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Mode de vie",
+              "alternatives": [
+                "Vie quotidienne",
+                "Subsistance",
+                "Existence"
+              ]
+            },
+            "category": null,
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_542": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1291",
+        "A2-04-D1292",
+        "A2-04-D1293"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fumer",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Inspirer de la fumée : fumer une cigarette. ここでたばこを吸いますか (est-ce qu'on fume ici ?)."
+          },
+          {
+            "meaning": {
+              "primary": "Aspirer",
+              "alternatives": [
+                "Inhaler"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Inspirer de l'air, ou aspirer un liquide."
+          }
+        ]
+      }
+    },
+    "n5_v_598": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1294",
+        "A2-04-D1295",
+        "A2-04-D1296",
+        "A2-04-D1300",
+        "A2-04-D1301"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "たばこ",
+            "furigana": "たばこ"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'écrit le plus souvent en hiragana, たばこ, parfois en kanji. S'emploie avec 吸う pour dire « fumer ». ここでたばこをすってはいけません (il est interdit de fumer une cigarette ici). La source donne aussi la traduction « cigare », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cigarette",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": []
+          },
+          {
+            "meaning": {
+              "primary": "Tabac",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": []
+          }
+        ]
+      }
+    },
+    "n5_v_683": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1297",
+        "A2-04-D1298"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Le récipient où l'on dépose les cendres et les mégots de cigarettes : テーブルのうえに灰皿があります (il y a un cendrier sur la table).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cendrier",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "accessoires_domestiques"
+            },
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

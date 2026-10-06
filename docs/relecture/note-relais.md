@@ -5,8 +5,9 @@ qui est attendu. L'état chiffré est dans la partie 2, relevée par l'outil.
 **Dernière mise à jour de la note** : 2026-10-05, après le commit du lot 16 (`6c8fc50`) ; périmètre
 du lot 17 arbitré, proposition relue et arbitrée, lot 17 validé et committé (`e9fe6a4`) ; outillage
 de relecture committé (`2387d20`) ; lot 18 : périmètre arbitré, proposition livrée, vingt choix
-arbitrés, révision vérifiée, **lot validé, non commité** ; **délégation des accords à ChatGPT**
-(2026-10-06).
+arbitrés, révision vérifiée, lot validé et committé (`213fb2b`) ; délégation des accords à
+ChatGPT ; lot 19 : périmètre arbitré, proposition livrée, 22 choix arbitrés, révision vérifiée,
+**lot validé, non commité** (2026-10-06).
 
 ## 1. Les rôles
 
@@ -61,42 +62,39 @@ l'utilisateur, relu (avis favorable au commit, sans correction), committé : `e9
 暖かい dans 温かい est validée avec lui. L'outillage de relecture est committé à part : `2387d20`.
 Rien n'est poussé.
 
-**Lot 18, « Actions sur les objets » : validé, non commité.**
+**Lot 18, « Actions sur les objets » : clos**, committé (`213fb2b`). **Rien n'est poussé.**
+
+**Lot 19, « Vie quotidienne, travail et échanges » : validé, non commité.**
 
 | Étape | État | Qui a décidé |
 |---|---|---|
-| Périmètre | arbitré le 2026-10-06 (rapport de périmètre, §8) | ChatGPT, approuvé par l'utilisateur |
-| Proposition lexicale | livrée : 23 entrées, 34 sens | — |
-| Les vingt choix | arbitrés le 2026-10-06 : dix-sept retenus, trois révisés (rapport de proposition, §8) | ChatGPT, approuvé par l'utilisateur |
-| Révision sur trois points | faite, vérifiée (avis favorable) | ChatGPT |
-| **Validation** | **faite le 2026-10-06** : 23 entrées et 73 décisions (D1168 à D1240) en `validated`, statuts seulement | ChatGPT, par délégation ; confirmée par l'utilisateur dans la session |
+| Périmètre | arbitré le 2026-10-06 (rapport de périmètre, §7) | toi |
+| Proposition lexicale | livrée : 26 entrées | — |
+| Les 22 choix | arbitrés le 2026-10-06 : dix-huit retenus, quatre révisés (rapport de proposition, §8) | toi |
+| Révision sur quatre points | faite, vérifiée (avis favorable) | toi |
+| **Validation** | **faite le 2026-10-06** : 26 entrées et 61 décisions (D1241 à D1301) en `validated`, statuts seulement | toi, par délégation |
 | Commit | **non autorisé** | à donner explicitement |
 | Push | **non autorisé**, jamais fait | à donner explicitement |
 
-**État réel après validation** : 590 ENTRY, 32 retraits, 97 entrées restantes ; 1 240 décisions
+**État réel après validation** : 616 ENTRY, 32 retraits, 71 entrées restantes ; 1 301 décisions
 validées, aucune proposition en cours.
 
-`08` contient les 23 entrées validées, `09` leurs 73 décisions, `06` les rapports (périmètre,
-proposition, **validation**, rapport généré), `10` le diff contre le dernier commit (`2387d20`) et
+`08` contient les 26 entrées validées, `09` leurs 61 décisions, `06` les rapports (périmètre,
+proposition, **validation**, rapport généré), `10` le diff contre le dernier commit (`213fb2b`) et
 la comparaison avant / après validation.
 
 ## 4. Ce qui est attendu de cette relecture
 
 **Contrôler le diff de validation**, avant de décider du commit :
 
-1. **Statuts seulement** : dans `10`, §3, la comparaison avant / après validation doit donner 23
-   lignes changées pour `lot-18.json` et 73 pour `journal.json`, toutes `"status": "proposed"` →
+1. **Statuts seulement** : dans `10`, §3, la comparaison avant / après validation doit donner 26
+   lignes changées pour `lot-19.json` et 61 pour `journal.json`, toutes `"status": "proposed"` →
    `"validated"`, et un contenu identique hors statut. Les copies d'avant sont hors dépôt : tu ne
    peux pas refaire la comparaison, seulement lire son résultat.
-2. **L'état attendu** : 590 ENTRY, 32 retraits, 97 entrées restantes, 1 240 décisions validées,
+2. **L'état attendu** : 616 ENTRY, 32 retraits, 71 entrées restantes, 1 301 décisions validées,
    aucune `proposed`.
 3. **Les tests d'état** (`10`, diff de `tests/reconstruction/workspace.test.js`) : ils affirment
    maintenant l'état validé ; l'essai à blanc est devenu le contrôle du lot dans l'assemblage réel.
-4. **La gouvernance** : la délégation est inscrite dans `CLAUDE.md` (§1, §3, §5 « Contrôle », §6),
-   dans cette note et dans `ETAT-ACTUEL.md`. Dis si sa formulation est fidèle à ce que
-   l'utilisateur t'a demandé ; signale toute phrase qui irait au-delà.
-5. **L'attribution** : les deux arbitrages du lot 18 sont désormais inscrits comme les tiens,
-   approuvés par l'utilisateur.
 
 Puis **décide du commit**, explicitement. Les fichiers qui y entreraient sont listés dans `10`, §1 ;
 `chatgpt-relecture/` n'en fait pas partie.
@@ -126,5 +124,5 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 2. **Commit**, sur son accord explicite ; Claude Code montre d'abord le `git diff --stat` et la
    liste exacte des fichiers.
 3. **Push** : jamais fait à ce jour ; sur un accord explicite et distinct.
-4. **Lot 19** : sur demande explicite, thème et périmètre par identifiants, sans décision lexicale
+4. **Lot 20** : sur demande explicite, thème et périmètre par identifiants, sans décision lexicale
    avant l'arbitrage du périmètre.
