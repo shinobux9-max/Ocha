@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-06 (validation du lot 23)
+**Dernière mise à jour :** 2026-10-06 (validation du lot 24)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -288,12 +288,12 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 23
+#### État chiffré après le lot 24
 
--   **670 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
+-   **684 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **34 identifiants retirés** ;
--   **15 anciennes entrées encore à décider**, dont aucun verbe ;
--   **1 509 décisions humaines validées** au journal ;
+-   **1 ancienne entrée encore à décider** : など, réservée à son préalable de classe ;
+-   **1 568 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **2 suffixes** (`半`, `辺`) ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -487,9 +487,19 @@ sens 2, réservée à l'audit A2-05 ; など hors du lot 23.
 -   `じゃ` et `じゃあ` deux ENTRY ; `じゃ` en `interjection`, la classe suivant la fiche ;
 -   aucune catégorie, 22 types nuls justifiés ; l'exemple altéré de `いいえ` journalisé.
 
-**Prochaine action immédiate :** commit puis push du lot 23, chacun sur un accord explicite ;
-ensuite, sur demande, le périmètre du lot « quantité, degré et comparaison » (14 entrées), et le
-préalable sur la classe de など.
+#### Lot 24 · clos
+
+« Quantité, degré et comparaison » : **14 entrées, 20 sens, 59 décisions** (D1510 à D1568).
+
+-   A9 appliqué sens par sens : `quantificateur` 4, `intensifieur` 5, `comparatif` 2, `politesse` 1 ;
+    cumul `comparatif` + `intensifieur` pour `もっと` ;
+-   aucune fonction pour un prédicat de quantité (`多い`, `少ない`, `大勢`) ; première application des
+    catégories de quantité ;
+-   `少し` à trois sens ; `ちょっと`, `結構`, `一番`, `大体` à deux ; `ちょうど` sans fonction ni
+    catégorie, axe `exactitude`.
+
+**Prochaine action immédiate :** commit puis push du lot 24, sur deux accords explicites et
+distincts ; ensuite, le préalable sur la classe de など, dernière entrée du vocabulaire N5.
 
 ------------------------------------------------------------------------
 

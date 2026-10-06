@@ -21264,5 +21264,893 @@
     "before": null,
     "after": null,
     "reason": "Aucun type : どうも ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6."
+  },
+  {
+    "id": "A2-04-D1510",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_654",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adjectif (ancien type, sans classe par défaut)",
+    "after": "adjectif_i",
+    "reason": "Classe adjectif_i : la fiche le dit « adjectif en -i qualifiant une grande quantité » ; son exemple l'emploie en prédicat (ほんがおおいです). Groupe i (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1511",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_654",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Nombreux",
+      "Beaucoup de",
+      "Abondant"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : une grande quantité de choses ou de personnes, que les trois traductions disent et que l'exemple illustre (il y a beaucoup de livres). Catégorie nombres et quantification › quantité › grande quantité : le concept de quantité (A2-LING, §5). Type propriete, une caractéristique attribuée à ce qui est nombreux, comme 大きい (lot 15) pour la taille. La particule が de la fiche est reprise mécaniquement pour ce sens unique."
+  },
+  {
+    "id": "A2-04-D1512",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_654",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+    },
+    "reason": "Aucune fonction (arbitrage du périmètre du lot 24) : 多い prédique la quantité (« les livres sont nombreux ») ; un prédicat de quantité n'est pas un quantificateur (A9, §3.4). La quantité est dite par la catégorie, comme la taille de 大きい (lot 15), validé sans fonction."
+  },
+  {
+    "id": "A2-04-D1513",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_654",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (report à la passe finale 5.16, comme aux lots 18 à 23). 多い / 少ない : la fiche de 少ない le dit « antonyme de ooi » : opposed_to. 多い, たくさん et 大勢 disent aussi une grande quantité, de classes et d'emplois différents. Candidate explicite à l'audit des relations de 5.16 (registre A2-REL) ; aucune fusion."
+  },
+  {
+    "id": "A2-04-D1514",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_447",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Peu nombreux",
+      "Raréfié",
+      "En petite quantité",
+      "Peu de"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : une quantité restreinte ou un nombre faible d'éléments ou de personnes, que l'exemple illustre (il y a peu de voitures). Catégorie nombres et quantification › quantité › petite quantité. Type propriete, comme 多い. Classe adjectif_i mécanique. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1515",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_447",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Raréfié"
+    ],
+    "after": "gardée en alternative du sens 1",
+    "reason": "Traduction gardée en alternative du sens 1 (arbitrage des choix du lot 24) : aucune preuve interne à la fiche ne permet de l'écarter comme un devenir ; elle dit, avec les autres traductions, une quantité restreinte. Réécrite à sa place : la décision d'abandon proposée est remplacée par une décision de maintien, sous le même identifiant."
+  },
+  {
+    "id": "A2-04-D1516",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_447",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+    },
+    "reason": "Aucune fonction (arbitrage du périmètre du lot 24) : 少ない prédique la quantité ; un prédicat de quantité n'est pas un quantificateur (A9, §3.4). La quantité est dite par la catégorie."
+  },
+  {
+    "id": "A2-04-D1517",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_655",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Beaucoup de monde",
+      "Une foule",
+      "Un grand nombre de personnes"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : la fiche dit 大勢 « utilisé exclusivement pour désigner une grande foule ou un nombre élevé de personnes » ; les trois traductions disent ce même référent, que l'exemple illustre (il y a beaucoup de monde au parc). Catégorie nombres et quantification › quantité › grande quantité. Type groupe_collectif (arbitrage des choix du lot 24) : la fiche désigne exclusivement une foule, un ensemble de personnes ; la catégorie grande quantité porte l'aspect quantitatif. Classe nom mécanique ; la fiche dit aussi « adverbe ». La particule の de la fiche est reprise mécaniquement pour ce sens unique."
+  },
+  {
+    "id": "A2-04-D1518",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_655",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+    },
+    "reason": "Aucune fonction (arbitrage du périmètre du lot 24) : la fiche dit que 大勢 désigne une foule ou un nombre élevé de personnes ; un mot qui désigne une quantité n'est pas un quantificateur (A9, §3.4). L'emploi avec の devant 人 est dit en nuance."
+  },
+  {
+    "id": "A2-04-D1519",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_520",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "adverbe",
+    "reason": "Classe adverbe : la fiche le dit d'abord « adverbe », « ou nom / adjectif en na dans certaines tournures » ; son exemple l'emploie près du verbe, sans particule (りんごをたくさんかいました). Le schéma ne porte qu'une classe ; les autres emplois sont dits en nuance. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1520",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_520",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Beaucoup",
+      "En grande quantité",
+      "Nombreux",
+      "Suffisamment"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens (arbitrage du périmètre du lot 24) : une quantité abondante d'objets ou de personnes, ou une action accomplie en grand nombre, que l'exemple illustre (j'ai acheté beaucoup de pommes). Catégorie nombres et quantification › quantité › grande quantité, le concept de quantité ; sans type (décision type-nul). La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1521",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_520",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Suffisamment"
+    ],
+    "after": "gardée en alternative du sens 1",
+    "reason": "Traduction gardée en alternative du sens 1 (arbitrage des choix du lot 24, conformément à l'arbitrage du périmètre) : « suffisamment » est une traduction de la fiche, rattachée au sens unique de quantité abondante. Réécrite à sa place : la décision d'abandon proposée est remplacée par une décision de maintien, sous le même identifiant."
+  },
+  {
+    "id": "A2-04-D1522",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_520",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [
+        "quantificateur"
+      ],
+      "pragmatic_discourse": []
+    },
+    "reason": "Fonction quantificateur (A9, §3.4 ; arbitrage du périmètre du lot 24) : たくさん quantifie un référent désigné par un autre mot (les pommes, objet du verbe), en en donnant l'étendue ; c'est le sens lui-même, attesté par la fiche et son exemple. Le concept reste porté par la catégorie (rôle et concept, A9, §3.4, frontière 2)."
+  },
+  {
+    "id": "A2-04-D1523",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_520",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : たくさん applique une quantité au référent qu'il quantifie ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1524",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_639",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "adverbe",
+    "reason": "Classe adverbe, groupe null (arbitrage des choix du lot 24) : la fiche dit « nom / adverbe », mais son type source est adverbe, son exemple principal l'emploie près du verbe (りんごをぜんぶたべました), et sa nuance décrit cet emploi (« souvent placé près du verbe »). L'emploi suivi de の, devant un nom, est conservé en nuance. Le schéma ne porte qu'une classe. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1525",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_639",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Tout",
+      "L'ensemble",
+      "La totalité"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens (arbitrage du périmètre du lot 24) : l'intégralité d'une quantité ou d'un groupe d'objets, que les trois traductions disent et que l'exemple illustre (j'ai tout mangé des pommes). Catégorie nombres et quantification › totalité et partie › totalité ; sans type. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1526",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_639",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [
+        "quantificateur"
+      ],
+      "pragmatic_discourse": []
+    },
+    "reason": "Fonction quantificateur (A9, §3.4 ; arbitrage du périmètre du lot 24) : 全部 quantifie un référent désigné par un autre mot (les pommes), en en donnant l'étendue, la totalité ; c'est le sens lui-même. Le concept de totalité reste porté par la catégorie."
+  },
+  {
+    "id": "A2-04-D1527",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_639",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : 全部 applique la totalité au référent qu'il quantifie ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1528",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_509",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Un peu",
+      "Une petite quantité",
+      "Un court instant"
+    ],
+    "after": [
+      "S1 Une petite quantité, un peu",
+      "S2 Un peu (degré)",
+      "S3 Un court instant"
+    ],
+    "reason": "Trois sens (arbitrage du périmètre du lot 24), un par emploi que la fiche établit : « une faible quantité », que l'exemple illustre (donnez-moi un peu d'eau) ; « un petit degré » ; « une courte durée ». Sens 1 : petite quantité, quantificateur ; sens 2 : sans catégorie, intensifieur ; sens 3 : temps › durée, type concept_abstrait, comme les adverbes de temps du lot 21, sans fonction. La fiche ne donne aucune particule : aucune pour les trois sens. Classe adverbe mécanique ; « ou nom » dit en nuance."
+  },
+  {
+    "id": "A2-04-D1529",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_509",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [
+        "quantificateur"
+      ],
+      "pragmatic_discourse": []
+    },
+    "reason": "Sens 1, fonction quantificateur (A9, §3.4) : quantifie un référent désigné par un autre mot (l'eau) ; la petite quantité est dite par la catégorie."
+  },
+  {
+    "id": "A2-04-D1530",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_509",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "intensifieur"
+      ]
+    },
+    "reason": "Sens 2, fonction intensifieur (A9, §3.6) : « un petit degré » modifie, en l'atténuant, le degré d'une propriété exprimée par un autre mot, sans la désigner. Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1531",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_509",
+    "field": "sens 3 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+    },
+    "reason": "Sens 3, aucune fonction (arbitrage du périmètre du lot 24) : une courte durée n'est ni une quantification d'un référent ni une modification de degré ; la durée est dite par la catégorie temps › durée."
+  },
+  {
+    "id": "A2-04-D1532",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_509",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : 少し, sens 1, applique une petite quantité au référent qu'il quantifie ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1533",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_509",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : 少し, sens 2, modifie un degré ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1534",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_509",
+    "field": "relations",
+    "kind": "decision",
+    "before": null,
+    "after": [],
+    "reason": "Aucune relation n'est portée dans ce lot : relations: [] pour chaque sens (report à la passe finale 5.16, comme aux lots 18 à 23). 少し / ちょっと : la fiche de 少し le dit « très proche d'usage » de ちょっと, « perçu comme un peu plus neutre ou écrit » : deux mots, de registres différents. Candidate explicite à l'audit des relations de 5.16 (registre A2-REL) ; aucune fusion."
+  },
+  {
+    "id": "A2-04-D1535",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_497",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Un peu",
+      "Un instant",
+      "Un peu de",
+      "Euh... (hésitation)"
+    ],
+    "after": [
+      "S1 Un peu",
+      "S2 Un instant"
+    ],
+    "reason": "Deux sens (arbitrage du périmètre du lot 24) : « une faible quantité », que l'exemple illustre (je bois un peu de café) ; « un bref instant ». L'emploi comme « formule atténuante pour exprimer une hésitation ou un refus poli » reste en nuance, sans politesse ni sens propre. Sens 1 : petite quantité, quantificateur ; sens 2 : temps › durée, type concept_abstrait, sans fonction, comme 少し, sens 3. Classe adverbe mécanique. La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1536",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_497",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Euh... (hésitation)"
+    ],
+    "after": null,
+    "reason": "L'hésitation n'est pas un sens (arbitrage du périmètre du lot 24) : elle est dite en nuance, avec le refus poli, comme formule atténuante, ce que la fiche décrit (A9, §3.2, frontière 2 : un marqueur d'hésitation reste en nuance). La traduction de la source, « Euh… (hésitation) », y est conservée explicitement (arbitrage des choix du lot 24)."
+  },
+  {
+    "id": "A2-04-D1537",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_497",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [
+        "quantificateur"
+      ],
+      "pragmatic_discourse": []
+    },
+    "reason": "Sens 1, fonction quantificateur (A9, §3.4) : quantifie un référent désigné par un autre mot (le café) ; la petite quantité est dite par la catégorie."
+  },
+  {
+    "id": "A2-04-D1538",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_497",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+    },
+    "reason": "Sens 2, aucune fonction (arbitrage du périmètre du lot 24) : un bref instant est une durée, dite par la catégorie temps › durée. Pas de politesse : le refus poli reste en nuance (arbitrage du périmètre du lot 24)."
+  },
+  {
+    "id": "A2-04-D1539",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_497",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : ちょっと, sens 1, applique une petite quantité au référent qu'il quantifie ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1540",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_498",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Très",
+      "Extrêmement",
+      "Vraiment"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens (arbitrage du périmètre du lot 24) : l'intensité, « placé devant les adjectifs ou les verbes pour accentuer un degré élevé », que l'exemple illustre (il fait très froid). L'emploi avec une négation (« impossible, pas du tout ») est dit en nuance. Classe adverbe mécanique. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1541",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_498",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "intensifieur"
+      ]
+    },
+    "reason": "Fonction intensifieur (A9, §3.6) : renforce le degré d'une propriété exprimée par un autre mot (froid), sans la désigner ; comme 大変, sens 1 « Très » (lot 00). Pas de negation (non définie, A9, §6 ; la négation est portée par le verbe). Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1542",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_498",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : とても modifie un degré ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1543",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_515",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Pas tellement",
+      "Pas beaucoup",
+      "Guère (toujours suivi d'une négation)"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens (arbitrage du périmètre du lot 24) : « adverbe d'atténuation » qui, « employé systématiquement avec une structure verbale ou adjectivale négative », signifie « ne… pas tellement, pas trop » ; la construction négative est dite en nuance. La parenthèse de « Guère » est reprise en nuance. Classe adverbe mécanique. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1544",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_515",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "intensifieur"
+      ]
+    },
+    "reason": "Fonction intensifieur (A9, §3.6) : atténue le degré de ce qu'exprime le verbe ou l'adjectif, sans le désigner ; A9 couvre l'atténuation. Pas de negation : la négation est portée par le verbe (D1387, D1390 ; A9, §3.6, frontière 3). Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1545",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_515",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : あまり modifie un degré ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1546",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_515",
+    "field": "nuance",
+    "kind": "abandon",
+    "before": "exemple de la source : « わたし は ににく を あまり たべません » (« Je ne mange pas tellement de viande. »)",
+    "after": null,
+    "reason": "Anomalie de la source, journalisée (arbitrage du périmètre du lot 24) : l'exemple japonais écrit « ににく » là où la traduction dit « viande ». Il n'est pas repris, et aucune correction n'est inventée ; sa traduction l'est, comme pour 他 (D1428). À signaler au registre de phrases. Les sources figées ne sont pas modifiées."
+  },
+  {
+    "id": "A2-04-D1547",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_471",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Assez",
+      "Pas mal",
+      "Suffisamment",
+      "Non merci (pour refuser poliment)"
+    ],
+    "after": [
+      "S1 Assez",
+      "S2 Non merci"
+    ],
+    "reason": "Deux sens (arbitrage du périmètre du lot 24) : « une quantité ou un degré tout à fait satisfaisant », que l'exemple illustre (ce film est assez intéressant) ; « formule de politesse pour décliner une offre (c'est bon, merci) », que la fiche traduit à part. Classe adverbe mécanique ; « et adjectif en na » dit en nuance. La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1548",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_471",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "intensifieur"
+      ]
+    },
+    "reason": "Sens 1, fonction intensifieur (A9, §3.6 ; arbitrage du périmètre du lot 24) : modifie le degré d'une propriété exprimée par un autre mot (intéressant), sans la désigner. Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1549",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_471",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+        "politesse"
+      ]
+    },
+    "reason": "Sens 2, fonction politesse (A9, §3.3 ; arbitrage du périmètre du lot 24) : décliner une offre est un acte social conventionnel, accompli par la formule. Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1550",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_471",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : 結構, sens 1, modifie un degré ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1551",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_471",
+    "field": "sens 2 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : 結構, sens 2, accomplit un acte social ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1552",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_607",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Plus",
+      "Davantage",
+      "Encore plus"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : « l'intensification ou l'augmentation d'une action, d'une quantité ou d'une qualité par rapport au niveau actuel », que les trois traductions disent et que l'exemple illustre (je veux étudier davantage le japonais). Classe adverbe mécanique. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1553",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_607",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [
+        "comparatif"
+      ],
+      "pragmatic_discourse": [
+        "intensifieur"
+      ]
+    },
+    "reason": "Fonctions comparatif et intensifieur, en cumul (A9, §2.3 ; arbitrage du périmètre du lot 24) : le sens situe un degré par rapport à une référence, le niveau actuel (comparatif, A9 §3.5), et l'augmente (intensifieur, A9 §3.6) ; les deux rôles sont intégraux au même emploi, et la fiche dit les deux (« intensification ou augmentation… par rapport au niveau actuel »). Chacun est justifié ici. Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1554",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_607",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : もっと situe et augmente un degré ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1555",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_517",
+    "field": "grammatical_class",
+    "kind": "decision",
+    "before": "adverbe (ancien type)",
+    "after": "adverbe",
+    "reason": "Classe adverbe : c'est la seule classe que la fiche nomme (« adverbe, composé de ichi et ban, suffixe de classement ») ; son exemple l'emploie devant le prédicat (いちばんすき). L'emploi du classement est dit par le sens 2. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (A9, §2.2)."
+  },
+  {
+    "id": "A2-04-D1556",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_517",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Le plus",
+      "Le meilleur",
+      "Numéro un",
+      "Premier"
+    ],
+    "after": [
+      "S1 Le plus, le meilleur",
+      "S2 Numéro un, premier"
+    ],
+    "reason": "Deux sens (arbitrage du périmètre du lot 24) : « marquer le superlatif absolu (le plus… de tous) », que l'exemple illustre (qu'aimez-vous le plus en japonais ?) ; « désigner la première position », un classement. « Le meilleur » rejoint le superlatif. Sens 2 : nombres et quantification › nombres › ordinaux, type concept_abstrait (une position dans un ordre), sans fonction. La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1557",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_517",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [
+        "comparatif"
+      ],
+      "pragmatic_discourse": []
+    },
+    "reason": "Sens 1, fonction comparatif (A9, §3.5) : situe le degré par rapport à l'ensemble de tous les termes (superlatif). Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle."
+  },
+  {
+    "id": "A2-04-D1558",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_517",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+    },
+    "reason": "Sens 2, aucune fonction (arbitrage du périmètre du lot 24) : la première position dans une série est un classement, un ordinal, non une comparaison (A9, §3.5, frontière 3)."
+  },
+  {
+    "id": "A2-04-D1559",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_517",
+    "field": "sens 1 · semantic_type",
+    "kind": "type-nul",
+    "before": null,
+    "after": null,
+    "reason": "Aucun type : 一番, sens 1, situe un degré ; le sens est son rôle, non une entité, une occurrence, une condition ou une abstraction désignée (A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403), ni quantite_valeur pour un mot qui applique une quantité sans la désigner. Addendum A6."
+  },
+  {
+    "id": "A2-04-D1560",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_496",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "Exactement",
+      "Juste",
+      "Précisément"
+    ],
+    "after": "un seul sens",
+    "reason": "Un seul sens : une mesure, une heure, une quantité ou une coïncidence qui « correspond parfaitement, sans excès ni manque », que les trois traductions disent et que l'exemple illustre (il est exactement dix heures). Type propriete, une caractéristique de ce qui correspond ; dimension exactitude (décision de dimension). Classe adverbe mécanique. La fiche ne donne aucune particule."
+  },
+  {
+    "id": "A2-04-D1561",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_496",
+    "field": "sens 1 · dimensions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      {
+        "axis": "exactitude_inexactitude",
+        "pole": "exactitude"
+      }
+    ],
+    "reason": "Dimension exactitude (axe exactitude ↔ inexactitude d'A2-DIM ; arbitrage du périmètre du lot 24) : l'axe décrit directement le sens, une correspondance parfaite, sans excès ni manque (doctrine du lot 16 ; même axe que 違う, sens 2, lot 20)."
+  },
+  {
+    "id": "A2-04-D1562",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_496",
+    "field": "sens 1 · category",
+    "kind": "categorie-nulle",
+    "before": null,
+    "after": null,
+    "reason": "L'exactitude d'une mesure, d'une heure, d'une quantité ou d'une coïncidence : la fiche couvre plusieurs domaines, et aucune catégorie ne les nomme tous ; la dimension porte le sens. Addendum A5."
+  },
+  {
+    "id": "A2-04-D1563",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_496",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+    },
+    "reason": "Aucune fonction (arbitrage du périmètre du lot 24) : l'exactitude n'est ni une quantification, ni une modification de degré, ni une comparaison (A9, §4.3 : elle relève d'un axe d'A2-DIM)."
+  },
+  {
+    "id": "A2-04-D1564",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_546",
+    "field": "senses",
+    "kind": "decision",
+    "before": [
+      "En général",
+      "À peu près",
+      "Généralement",
+      "Presque (la plupart du temps)"
+    ],
+    "after": [
+      "S1 À peu près",
+      "S2 En général, généralement"
+    ],
+    "reason": "Deux sens (arbitrage du périmètre du lot 24) : « une approximation », « grosso modo, à peu près », que l'exemple illustre (le travail est à peu près terminé) ; « une règle générale », très proche de たいてい (lot 21). Sens 1 : nombres et quantification › approximation quantitative, type propriete ; sens 2 : temps › fréquence › fréquent, type concept_abstrait, comme たいてい. Sans fonction (aucune des fonctions définies). Classe adverbe mécanique ; « et nom » dit en nuance. La fiche ne donne aucune particule : aucune pour les deux sens."
+  },
+  {
+    "id": "A2-04-D1565",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_546",
+    "field": "senses",
+    "kind": "abandon",
+    "before": [
+      "Presque (la plupart du temps)"
+    ],
+    "after": null,
+    "reason": "Traduction ambiguë, non reprise : « presque » irait au sens 1 (l'approximation), mais sa glose (« la plupart du temps ») le rattache au sens 2, que « généralement » dit déjà. Elle est signalée en nuance."
+  },
+  {
+    "id": "A2-04-D1566",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_546",
+    "field": "sens 1 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+    },
+    "reason": "Sens 1, aucune fonction : l'approximation n'est ni une quantification d'un référent, ni une modification de degré, ni une comparaison (A9) ; elle est dite par la catégorie approximation quantitative."
+  },
+  {
+    "id": "A2-04-D1567",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_546",
+    "field": "sens 2 · linguistic_functions",
+    "kind": "decision",
+    "before": null,
+    "after": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+    },
+    "reason": "Sens 2, aucune fonction : la généralité (« en général ») n'est aucune des fonctions définies par A9 ; elle est dite par la catégorie temps › fréquence, comme pour たいてい (lot 21), validée sans fonction."
+  },
+  {
+    "id": "A2-04-D1568",
+    "status": "validated",
+    "date": "2026-10-06",
+    "lot": "lot-24",
+    "entry": "n5_v_546",
+    "field": "sens 1 · dimensions",
+    "kind": "decision",
+    "before": null,
+    "after": [
+      {
+        "axis": "precision_imprecision_ambiguite",
+        "pole": "imprecision_ambiguite"
+      }
+    ],
+    "reason": "Dimension imprécision (axe précision ↔ imprécision / ambiguïté d'A2-DIM ; arbitrage des choix du lot 24) : la fiche dit « une approximation », « grosso modo / à peu près », « sans entrer dans les détails précis » ; l'axe décrit directement le sens (doctrine du lot 16). La catégorie approximation quantitative et le type propriete sont conservés."
   }
 ]

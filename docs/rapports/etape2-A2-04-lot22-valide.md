@@ -105,3 +105,14 @@ n'est poussé.**
    montrés avant.
 3. **Push** : sur un accord explicite et distinct.
 4. Ensuite seulement : le point d'arrêt normatif. Le lot 23 n'est pas préparé.
+
+## Erratum (2026-10-06, pendant la révision du lot 24)
+
+Les sabotages annoncés au §4 ont été lancés par un harnais défectueux : `node --test
+tests/reconstruction/`, que Node traite comme un fichier et qui **échoue toujours**, même sur un état
+sain. Les modifications et les restaurations étaient réelles, mais leur détection ne prouvait rien.
+Rejoués avec un harnais corrigé (`tests/reconstruction/*.test.js`, témoin sain vérifié d'abord), puis
+après le renforcement des tests (empreinte des décisions validées ; traductions gardées et
+abandonnées ; particules, relations et fonctions confrontées au journal), **tous les sabotages de ce
+lot sont attrapés**. Les données validées de ce lot ne changent pas. Détail : rapport de proposition
+du lot 24, §9.

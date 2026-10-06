@@ -42,15 +42,16 @@ function assertLotJournal(name, historic) {
   assert.ok(own.every((j) => j.status === 'validated'), `${name} : journal entièrement validé`);
 }
 
-// A2-04 · lots 21, 22 et 23 validés le 2026-10-06 : leurs entrées sont dans l'assemblage réel (ou
-// retirées par fusion, pour 弱く et ゆっくりと) ; les 15 entrées encore écartées ne sont pas décidées
-// (les 14 reportées et など), et aucune proposition n'est en cours.
+// A2-04 · lots 21 à 24 validés le 2026-10-06 : leurs entrées sont dans l'assemblage réel (ou
+// retirées par fusion, pour 弱く et ゆっくりと) ; seule など, réservée à son préalable de classe, reste
+// écartée, non décidée, et aucune proposition n'est en cours.
 const LOT21_IDS = [494, 519, 506, 554, 500, 503, 501, 502, 518, 540, 425, 454].map((n) => `n5_v_${n}`);
 const LOT22_IDS = [504, 505, 525, 450, 628, 438, 421, 605, 521].map((n) => `n5_v_${n}`);
 const LOT23_IDS = [593, 599, 416, 596, 418, 417, 595, 413, 344, 586, 584, 600, 499].map((n) => `n5_v_${n}`);
-function assertExcludedAfterLot23(a) {
-  assert.ok(!a.excluded.some((x) => LOT21_IDS.includes(x.entry) || LOT22_IDS.includes(x.entry) || LOT23_IDS.includes(x.entry)), 'les entrées des lots 21, 22 et 23 ne sont plus écartées');
-  assert.deepEqual(a.excluded.map((x) => x.reason), Array(15).fill('non décidée'), 'aucune proposition en cours');
+const LOT24_IDS = [654, 447, 655, 520, 639, 509, 497, 498, 515, 471, 607, 517, 496, 546].map((n) => `n5_v_${n}`);
+function assertExcludedAfterLot24(a) {
+  assert.ok(!a.excluded.some((x) => [...LOT21_IDS, ...LOT22_IDS, ...LOT23_IDS, ...LOT24_IDS].includes(x.entry)), 'les entrées des lots 21 à 24 ne sont plus écartées');
+  assert.deepEqual(a.excluded.map((x) => [x.entry, x.reason]), [['n5_v_602', 'non décidée']], 'seule など reste écartée ; aucune proposition en cours');
 }
 
 test('sources : conformes au manifeste ; une modification est détectée', () => {
@@ -347,6 +348,108 @@ test('journal : « jukujikun » n\'est invoqué que pour une entrée de la liste
 // それでは, じゃ, じゃあ ; « De rien » (いいえ) et « Vraiment » (どうも) en sens distincts ; そうして et
 // それから à un seul sens. Fonctions d'A9 posées sens par sens (connecteur, discours, politesse,
 // intensifieur), sans catégorie ni type ; l'exemple altéré de いいえ n'est pas repris.
+// A2-04 · lot 24 VALIDÉ le 2026-10-06 : « Quantité, degré et comparaison » (14 entrées, 20 sens),
+// avec son journal (59 décisions, D1510 à D1568), validé (statuts seulement) dans sa version
+// révisée après l'arbitrage des 14 choix (全部 en adverbe, 大勢 en groupe_collectif, imprécision pour
+// 大体, sens 1, « Raréfié » et « Suffisamment » gardées). Périmètre
+// arbitré : 多い, 少ない et 大勢 sans quantificateur ; 少し à trois sens, ちょっと à deux (sans
+// politesse), 結構, 大体 et 一番 à deux ; もっと en cumul comparatif + intensifieur ; とても, あまり,
+// たくさん, 全部 à un sens ; ちょうど sans fonction, dimension exactitude ; など hors périmètre.
+test('lot 24 : entièrement validé (14 entrées, 20 sens), journal compris ; fonctions d\'A9 selon l\'arbitrage', () => {
+  const lots = readLots();
+  const lot24 = lots.find((l) => l.lot === 'lot-24');
+  assert.equal(lot24.title, 'Quantité, degré et comparaison');
+  const E = lot24.entries;
+  assert.deepEqual(Object.keys(E), LOT24_IDS, 'périmètre arbitré : 14 entrées, dans l\'ordre du rapport');
+  assert.ok(!('n5_v_602' in E), 'など hors périmètre');
+  assertAllValidated(lot24);
+  assert.ok(Object.values(E).every((e) => e.fields && !e.retire), 'aucune fusion');
+  assert.deepEqual(lot24.additions, []);
+  const journal = readJournal();
+  const own = journal.filter((j) => j.lot === 'lot-24');
+  assert.deepEqual(own.map((j) => j.id), Array.from({ length: 59 }, (_, k) => `A2-04-D${String(1510 + k).padStart(4, '0')}`));
+  assert.ok(own.every((j) => j.status === 'validated'));
+  assert.deepEqual(Object.values(E).flatMap((e) => e.journal), own.map((j) => j.id), 'le lot cite ses 59 décisions, dans l\'ordre');
+  // Révision après l'arbitrage des 14 choix : D1568 (dimension de 大体, sens 1) ajoutée à la fin ;
+  // D1515 et D1521 réécrites à leur place, de l'abandon au maintien de la traduction.
+  assert.deepEqual([own.at(-1).id, own.at(-1).entry, own.at(-1).field], ['A2-04-D1568', 'n5_v_546', 'sens 1 · dimensions']);
+  assert.deepEqual(['A2-04-D1515', 'A2-04-D1521'].map((id) => [own.find((j) => j.id === id).kind, own.find((j) => j.id === id).after]), [['decision', 'gardée en alternative du sens 1'], ['decision', 'gardée en alternative du sens 1']]);
+  assert.ok(!own.some((j) => j.kind === 'fusion' || j.kind === 'exception-fusion'));
+  const senses = (id) => E[id].fields.senses;
+  const show = (id) => senses(id).map((s) => [s.meaning.primary, s.category ? Object.values(s.category).join('>') : 'null', s.semantic_type, ...s.linguistic_functions.grammatical, ...s.linguistic_functions.pragmatic_discourse].join(':'));
+  assert.equal(Object.keys(E).reduce((n, id) => n + senses(id).length, 0), 20);
+  assert.deepEqual(show('n5_v_654'), ['Nombreux:nombres_quantification>quantite>grande_quantite:propriete']);
+  assert.deepEqual(show('n5_v_447'), ['Peu nombreux:nombres_quantification>quantite>petite_quantite:propriete']);
+  assert.deepEqual(show('n5_v_655'), ['Beaucoup de monde:nombres_quantification>quantite>grande_quantite:groupe_collectif']);
+  assert.deepEqual([senses('n5_v_447')[0].meaning.alternatives, senses('n5_v_520')[0].meaning.alternatives], [['Raréfié', 'En petite quantité', 'Peu de'], ['En grande quantité', 'Nombreux', 'Suffisamment']]);
+  assert.ok(E.n5_v_497.fields.nuance.includes('Euh'), '« Euh… » conservée en nuance');
+  assert.deepEqual(show('n5_v_520'), ['Beaucoup:nombres_quantification>quantite>grande_quantite::quantificateur']);
+  assert.deepEqual(show('n5_v_639'), ['Tout:nombres_quantification>totalite_partie>totalite::quantificateur']);
+  assert.deepEqual(show('n5_v_509'), ['Une petite quantité:nombres_quantification>quantite>petite_quantite::quantificateur', 'Un peu:null::intensifieur', 'Un court instant:temps>duree:concept_abstrait']);
+  assert.deepEqual(show('n5_v_497'), ['Un peu:nombres_quantification>quantite>petite_quantite::quantificateur', 'Un instant:temps>duree:concept_abstrait']);
+  assert.deepEqual(show('n5_v_498'), ['Très:null::intensifieur']);
+  assert.deepEqual(show('n5_v_515'), ['Pas tellement:null::intensifieur']);
+  assert.deepEqual(show('n5_v_471'), ['Assez:null::intensifieur', 'Non merci:null::politesse']);
+  assert.deepEqual(show('n5_v_607'), ['Plus:null::comparatif:intensifieur']);
+  assert.deepEqual(show('n5_v_517'), ['Le plus:null::comparatif', 'Numéro un:nombres_quantification>nombres>ordinaux:concept_abstrait']);
+  assert.deepEqual(show('n5_v_496'), ['Exactement:null:propriete']);
+  assert.deepEqual(senses('n5_v_496')[0].dimensions, [{ axis: 'exactitude_inexactitude', pole: 'exactitude' }]);
+  assert.deepEqual(senses('n5_v_546')[0].dimensions, [{ axis: 'precision_imprecision_ambiguite', pole: 'imprecision_ambiguite' }]);
+  assert.deepEqual(show('n5_v_546'), ['À peu près:nombres_quantification>approximation_quantitative:propriete', 'En général:temps>frequence>frequent:concept_abstrait']);
+  // Familles : quantificateur et comparatif sont grammaticales ; intensifieur et politesse, pragmatiques.
+  for (const id of LOT24_IDS) for (const s of senses(id)) {
+    assert.ok(s.linguistic_functions.grammatical.every((x) => ['quantificateur', 'comparatif'].includes(x)), id);
+    assert.ok(s.linguistic_functions.pragmatic_discourse.every((x) => ['intensifieur', 'politesse'].includes(x)), id);
+  }
+  // Classes : quatre décidées, les autres mécaniques.
+  assert.deepEqual(own.filter((j) => j.field === 'grammatical_class').map((j) => [j.entry, j.after]), [['n5_v_654', 'adjectif_i'], ['n5_v_520', 'adverbe'], ['n5_v_639', 'adverbe'], ['n5_v_517', 'adverbe']]);
+  // Une décision de fonction par sens ; une décision type-nul par type nul ; une seule catégorie nulle
+  // sans fonction (ちょうど).
+  const count = (kind, re) => own.filter((j) => j.kind === kind && re.test(j.field)).length;
+  assert.deepEqual([count('decision', / · linguistic_functions$/), count('type-nul', / · semantic_type$/), count('categorie-nulle', / · category$/), count('decision', / · dimensions$/), count('decision', /^senses$/), count('abandon', /^senses$/), count('abandon', /^nuance$/), count('decision', /^relations$/)], [20, 11, 1, 2, 16, 2, 1, 2]); // 16 decisions « senses » : 14 découpages et 2 maintiens de traduction (D1515, D1521)
+  assert.ok(own.filter((j) => / · linguistic_functions$/.test(j.field)).every((j) => j.reason.includes('A9') || j.reason.includes('lot 24')));
+  // L'exemple fautif de あまり : journalisé, ni repris ni corrigé.
+  assert.ok(!JSON.stringify(E.n5_v_515.fields).includes('ににく') && !JSON.stringify(E.n5_v_515.fields).includes('にくを'));
+  // Toute traduction de la source est gardée ou abandonnée.
+  const dropped = (id) => own.filter((j) => j.entry === id && j.kind === 'abandon' && j.field === 'senses').flatMap((j) => j.before);
+  for (const [id, e] of Object.entries(E)) {
+    const keptT = new Set(e.fields.senses.flatMap((s) => [s.meaning.primary, ...s.meaning.alternatives]));
+    const m = SOURCES.vocab.find((x) => x.id === id).meanings;
+    const gone = dropped(id);
+    const strip = (t) => t.replace(/ \(.*\)$/, '');
+    assert.deepEqual([m.primary, ...(m.secondary ?? [])].filter((x) => !keptT.has(x) && !keptT.has(strip(x)) && !gone.includes(x)), [], `${id} : traduction de la source ni gardée ni abandonnée`);
+    // Une traduction abandonnée n'est pas gardée.
+    assert.deepEqual(gone.filter((x) => keptT.has(x) || keptT.has(strip(x))), [], `${id} : traduction à la fois gardée et abandonnée`);
+    // Particules : celles de la fiche pour chaque sens d'une entrée à plusieurs sens ; mécaniques (absentes
+    // du lot) pour un sens unique. Aucune relation.
+    const src = SOURCES.vocab.find((x) => x.id === id);
+    if (e.fields.senses.length > 1) assert.ok(e.fields.senses.every((x) => JSON.stringify(x.particles) === JSON.stringify(src.particles ?? [])), `${id} : particules hors fiche`);
+    else assert.ok(!Object.hasOwn(e.fields.senses[0], 'particles'), `${id} : particules d'un sens unique décidées`);
+    assert.ok(e.fields.senses.every((x) => x.relations.length === 0), `${id} : relation posée`);
+    // Chaque sens porte exactement les fonctions que sa décision du journal pose.
+    e.fields.senses.forEach((x, k) => {
+      const dec = own.find((j) => j.entry === id && j.field === `sens ${k + 1} · linguistic_functions`);
+      if (dec) assert.deepEqual(dec.after, x.linguistic_functions, `${id}, sens ${k + 1} : fonctions différentes de leur décision`);
+    });
+  }
+});
+
+// Le lot 24 dans l'assemblage RÉEL (l'essai à blanc d'avant la validation en est devenu l'état réel).
+test('lot 24 : dans l\'assemblage réel (684 ENTRY, 34 retraits, 1 entrée écartée, など), sans problème ni erreur', () => {
+  const a = assemble({ sources: SOURCES, lots: readLots(), journal: readJournal() });
+  const r = validateAssembly(a, DEPS);
+  assert.deepEqual(a.problems, []);
+  assert.deepEqual(r.errors, []);
+  assert.deepEqual([...a.pending, ...r.pending], []);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [684, 34, 1]);
+  assert.deepEqual(a.excluded.map((x) => [x.entry, x.reason]), [['n5_v_602', 'non décidée']]);
+  assert.equal(r.warnings.length, 148, 'un seul avertissement nouveau : la catégorie nulle de ちょうど, justifiée');
+  assert.deepEqual(r.warnings.filter((w) => w.where.includes('v_496')).map((w) => w.code), ['categorie-nulle']);
+  const byId = new Map(a.files.flatMap((f) => f.entries).map((e) => [e.id, e]));
+  assert.deepEqual(['v_654', 'v_520', 'v_639', 'v_517'].map((id) => byId.get(id).linguistic.grammatical_class), ['adjectif_i', 'adverbe', 'adverbe', 'adverbe']);
+  assert.deepEqual([byId.get('v_654').senses[0].particles, byId.get('v_655').senses[0].particles], [['が'], ['の']]);
+});
+
 test('lot 23 : entièrement validé (13 entrées, 22 sens), journal compris ; fonctions d\'A9, sans catégorie ni type', () => {
   const lots = readLots();
   const lot23 = lots.find((l) => l.lot === 'lot-23');
@@ -389,7 +492,7 @@ test('lot 23 : entièrement validé (13 entrées, 22 sens), journal compris ; fo
   // L'exemple altéré de いいえ : journalisé, ni repris ni remplacé.
   const iie = own.find((j) => j.entry === 'n5_v_584' && j.field === 'nuance');
   assert.equal(iie.kind, 'abandon');
-  assert.ok(!JSON.stringify(E.n5_v_584.fields).includes('ちが') && !JSON.stringify(E.n5_v_584.fields).includes('chigai'));
+  for (const bad of ['ちが', 'chigai', 'ちigai', 'masu']) assert.ok(!JSON.stringify(E.n5_v_584.fields).includes(bad), `いいえ : « ${bad} » repris`);
   // Toute traduction de la source est gardée ou abandonnée.
   const dropped = (id) => own.filter((j) => j.entry === id && j.kind === 'abandon' && j.field === 'senses').flatMap((j) => j.before);
   for (const [id, e] of Object.entries(E)) {
@@ -398,6 +501,19 @@ test('lot 23 : entièrement validé (13 entrées, 22 sens), journal compris ; fo
     const gone = dropped(id);
     const strip = (t) => t.replace(/ \(.*\)$/, '');
     assert.deepEqual([m.primary, ...(m.secondary ?? [])].filter((x) => !keptT.has(x) && !keptT.has(strip(x)) && !gone.includes(x)), [], `${id} : traduction de la source ni gardée ni abandonnée`);
+    // Une traduction abandonnée n'est pas gardée.
+    assert.deepEqual(gone.filter((x) => keptT.has(x) || keptT.has(strip(x))), [], `${id} : traduction à la fois gardée et abandonnée`);
+    // Particules : celles de la fiche pour chaque sens d'une entrée à plusieurs sens ; mécaniques (absentes
+    // du lot) pour un sens unique. Aucune relation.
+    const src = SOURCES.vocab.find((x) => x.id === id);
+    if (e.fields.senses.length > 1) assert.ok(e.fields.senses.every((x) => JSON.stringify(x.particles) === JSON.stringify(src.particles ?? [])), `${id} : particules hors fiche`);
+    else assert.ok(!Object.hasOwn(e.fields.senses[0], 'particles'), `${id} : particules d'un sens unique décidées`);
+    assert.ok(e.fields.senses.every((x) => x.relations.length === 0), `${id} : relation posée`);
+    // Chaque sens porte exactement les fonctions que sa décision du journal pose.
+    e.fields.senses.forEach((x, k) => {
+      const dec = own.find((j) => j.entry === id && j.field === `sens ${k + 1} · linguistic_functions`);
+      if (dec) assert.deepEqual(dec.after, x.linguistic_functions, `${id}, sens ${k + 1} : fonctions différentes de leur décision`);
+    });
   }
   // また (lot 21) n'est pas rouverte.
   const lot21 = lots.find((l) => l.lot === 'lot-21');
@@ -406,15 +522,15 @@ test('lot 23 : entièrement validé (13 entrées, 22 sens), journal compris ; fo
 });
 
 // Le lot 23 dans l'assemblage RÉEL (l'essai à blanc d'avant la validation en est devenu l'état réel).
-test('lot 23 : dans l\'assemblage réel (670 ENTRY, 34 retraits, 15 entrées écartées), sans problème ni erreur', () => {
+test('lot 23 : dans l\'assemblage réel (684 ENTRY, 34 retraits, 1 entrée écartée), sans problème ni erreur', () => {
   const a = assemble({ sources: SOURCES, lots: readLots(), journal: readJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
   assert.deepEqual([...a.pending, ...r.pending], []);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [670, 34, 15]);
-  assert.ok(a.excluded.every((x) => x.reason === 'non décidée'));
-  assert.equal(r.warnings.length, 147, 'aucun avertissement nouveau : chaque sens porte une fonction');
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [684, 34, 1]);
+  assertExcludedAfterLot24(a);
+  assert.equal(r.warnings.length, 148, 'le lot 23 n\'en ajoute aucun : chaque sens porte une fonction ; le 148e est ちょうど (lot 24)');
   const byId = new Map(a.files.flatMap((f) => f.entries).map((e) => [e.id, e]));
   assert.ok(byId.has('v_595') && byId.has('v_413'), 'じゃ et じゃあ : deux ENTRY');
   assert.deepEqual(['v_593', 'v_418', 'v_595', 'v_413', 'v_344', 'v_586', 'v_600', 'v_499'].map((id) => byId.get(id).linguistic.grammatical_class), ['conjonction', 'conjonction', 'interjection', 'conjonction', 'interjection', 'interjection', 'adverbe', 'adverbe']);
@@ -515,15 +631,15 @@ test('lot 22 : entièrement validé (9 entrées, 2 fusions, 9 sens), journal com
 // réel) : 657 ENTRY, 34 retraits, 28 entrées encore à décider ; six catégories nulles et un type nul
 // de plus, tous justifiés au journal ; 弱い et ゆっくり survivent, 弱く et ゆっくりと sont retirées vers
 // elles.
-test('lot 22 : dans l\'assemblage réel (670 ENTRY, 34 retraits, 15 entrées écartées), sans problème ni erreur', () => {
+test('lot 22 : dans l\'assemblage réel (684 ENTRY, 34 retraits, 1 entrée écartée), sans problème ni erreur', () => {
   const a = assemble({ sources: SOURCES, lots: readLots(), journal: readJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
   assert.deepEqual([...a.pending, ...r.pending], []);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [670, 34, 15]);
-  assertExcludedAfterLot23(a);
-  assert.equal(r.warnings.length, 147);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [684, 34, 1]);
+  assertExcludedAfterLot24(a);
+  assert.equal(r.warnings.length, 148);
   const ids = new Set(['v_504', 'v_525', 'v_628', 'v_438', 'v_421', 'v_605', 'v_521']);
   const mine = r.warnings.filter((w) => ids.has(w.where.split(' · ')[1]));
   assert.deepEqual(mine.map((w) => [w.code, w.where.split(' · ').at(-1)]).sort(), [['categorie-nulle', 'v_421_s1'], ['categorie-nulle', 'v_438_s1'], ['categorie-nulle', 'v_504_s2'], ['categorie-nulle', 'v_521_s1'], ['categorie-nulle', 'v_525_s2'], ['categorie-nulle', 'v_605_s1'], ['type-nul', 'v_521_s1']]);
@@ -643,16 +759,16 @@ test('lot 21 : entièrement validé (12 entrées, 16 sens), journal compris ; au
 // Le lot 21 dans l'assemblage RÉEL (l'essai à blanc d'avant la validation en est devenu l'état
 // réel) : 650 ENTRY, 32 retraits, 37 entrées encore à décider ; cinq catégories nulles et un type nul
 // (また, sens 2) de plus, tous justifiés au journal.
-test('lot 21 : dans l\'assemblage réel (670 ENTRY, 34 retraits, 15 entrées écartées), sans problème ni erreur', () => {
+test('lot 21 : dans l\'assemblage réel (684 ENTRY, 34 retraits, 1 entrée écartée), sans problème ni erreur', () => {
   const lots = readLots();
   const a = assemble({ sources: SOURCES, lots, journal: readJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
   assert.deepEqual([...a.pending, ...r.pending], []);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [670, 34, 15]);
-  assertExcludedAfterLot23(a);
-  assert.equal(r.warnings.length, 147);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [684, 34, 1]);
+  assertExcludedAfterLot24(a);
+  assert.equal(r.warnings.length, 148);
   const ids = new Set(LOT21_IDS.map((id) => id.replace('n5_', '')));
   const mine = r.warnings.filter((w) => ids.has(w.where.split(' · ')[1]));
   assert.deepEqual(mine.map((w) => [w.code, w.where.split(' · ').at(-1)]).sort(), [['categorie-nulle', 'v_425_s1'], ['categorie-nulle', 'v_500_s1'], ['categorie-nulle', 'v_500_s2'], ['categorie-nulle', 'v_503_s1'], ['categorie-nulle', 'v_506_s2'], ['type-nul', 'v_500_s2']]);
@@ -691,9 +807,9 @@ test('lot 20 : entièrement validé (22 entrées, 30 sens), journal compris ; au
   assert.ok(Object.values(E).every((e) => e.fields && !e.retire), 'aucune entrée du lot n\'est retirée');
   assert.deepEqual(lot20.additions, []);
   // Le lot « quantité et degré » reste fermé : ni 他 ni 大勢 ne sont décidées, dans aucun lot.
-  // 他 n'est décidée qu'au lot 22 (périmètre arbitré le 2026-10-06), 大勢 dans aucun lot.
+  // 他 n'est décidée qu'au lot 22 (périmètre arbitré le 2026-10-06), 大勢 qu'au lot 24.
   assert.deepEqual(lots.filter((l) => 'n5_v_605' in l.entries).map((l) => l.lot), ['lot-22']);
-  assert.ok(!lots.some((l) => 'n5_v_655' in l.entries));
+  assert.deepEqual(lots.filter((l) => 'n5_v_655' in l.entries).map((l) => l.lot), ['lot-24']);
   const show = (s) => `${[s.meaning.primary, ...s.meaning.alternatives].join(' | ')} @ ${s.category ? Object.values(s.category).join('/') : 'null'} # ${s.semantic_type}${Object.hasOwn(s, 'particles') ? ` # ${s.particles.join('')}` : ''}`;
   // Traductions, catégorie, type et particules exacts de chaque sens : rien n'y entre sans décision.
   assert.deepEqual(Object.fromEntries(Object.entries(E).map(([id, e]) => [id.replace('n5_v_', ''), e.fields.senses.map(show)])), {
@@ -824,7 +940,7 @@ test('lot 20 : entièrement validé (22 entrées, 30 sens), journal compris ; au
 
 // Le lot 20 dans l'assemblage RÉEL (l'essai à blanc d'avant la validation en est devenu l'état
 // réel) : ses 22 ENTRY, leurs classes, leurs lectures, leurs particules ; plus aucun verbe à décider.
-test('lot 20 : dans l\'assemblage réel (670 ENTRY, 34 retraits, 15 entrées écartées), 14 verbes et 8 noms sans relation ni fonction', () => {
+test('lot 20 : dans l\'assemblage réel (684 ENTRY, 34 retraits, 1 entrée écartée), 14 verbes et 8 noms sans relation ni fonction', () => {
   const lots = readLots();
   const journal = readJournal();
   const a = assemble({ sources: SOURCES, lots, journal });
@@ -832,13 +948,13 @@ test('lot 20 : dans l\'assemblage réel (670 ENTRY, 34 retraits, 15 entrées éc
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
   assert.deepEqual([...a.pending, ...r.pending], []);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [670, 34, 15]);
-  assertExcludedAfterLot23(a);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [684, 34, 1]);
+  assertExcludedAfterLot24(a);
   // Il ne reste aucun verbe à décider.
   assert.deepEqual(a.excluded.map((x) => SOURCES.vocab.find((e) => e.id === x.entry).type).filter((ty) => ty.startsWith('verbe')), []);
   // Avertissements : les 113 des lots 0 à 19 et les 6 du lot 21 ; pour le lot, 20 catégories nulles
   // et un type nul (声), justifiés au journal.
-  assert.equal(r.warnings.length, 147);
+  assert.equal(r.warnings.length, 148);
   const ids = new Set(LOT20_IDS.map((id) => id.replace('n5_', '')));
   const mine = r.warnings.filter((w) => ids.has(w.where.split(' · ')[1]));
   assert.deepEqual(mine.filter((w) => w.code !== 'categorie-nulle').map((w) => [w.code, w.where.split(' · ').at(-1)]), [['type-nul', 'v_653_s1']]);
@@ -1021,10 +1137,10 @@ test('lot 19 : dans l\'assemblage réel, 20 verbes et 6 noms sans relation', () 
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
   assert.deepEqual([...a.pending, ...r.pending], []);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [670, 34, 15]);
-  assertExcludedAfterLot23(a);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [684, 34, 1]);
+  assertExcludedAfterLot24(a);
   // Avertissements : parmi les 134 de l'assemblage réel, les 15 catégories nulles du lot, justifiées.
-  assert.equal(r.warnings.length, 147);
+  assert.equal(r.warnings.length, 148);
   const ids = new Set(LOT19_IDS.map((id) => id.replace('n5_', '')));
   const mine = r.warnings.filter((w) => ids.has(w.where.split(' · ')[1]));
   assert.ok(mine.every((w) => w.code === 'categorie-nulle'));
@@ -1204,10 +1320,10 @@ test('lot 18 : dans l\'assemblage réel, 23 verbes sans relation', () => {
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
   assert.deepEqual([...a.pending, ...r.pending], []);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [670, 34, 15]);
-  assertExcludedAfterLot23(a);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [684, 34, 1]);
+  assertExcludedAfterLot24(a);
   // Avertissements : parmi les 134 de l'assemblage réel, les 23 catégories nulles du lot, justifiées.
-  assert.equal(r.warnings.length, 147);
+  assert.equal(r.warnings.length, 148);
   const ids = new Set(LOT18_IDS.map((id) => id.replace('n5_', '')));
   const mine = r.warnings.filter((w) => ids.has(w.where.split(' · ')[1]));
   assert.ok(mine.every((w) => w.code === 'categorie-nulle'));
@@ -1244,15 +1360,15 @@ test('espace de travail réel : assemblage partiel sans problème ni erreur', ()
   const decisions = lots.flatMap((l) => Object.values(l.entries)).filter((d) => d.status === 'validated');
   assert.equal(a.files.reduce((n, f) => n + f.entries.length, 0), decisions.filter((d) => d.fields).length);
   assert.equal(a.retired.length, 1 + decisions.filter((d) => d.retire).length);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [670, 34, 15]);
-  assertExcludedAfterLot23(a);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [684, 34, 1]);
+  assertExcludedAfterLot24(a);
   assert.ok(lots.every((l) => Object.values(l.entries).every((d) => d.status === 'validated')), 'toutes les entrées décidées sont validées');
-  assert.equal(lots.length, 24, 'lots 0 à 23');
-  // Avertissements : 147, tous justifiés au journal ; les trois du lot 15, les douze du lot 16, les
+  assert.equal(lots.length, 25, 'lots 0 à 24');
+  // Avertissements : 148, tous justifiés au journal (le 148e : ちょうど, lot 24) ; les trois du lot 15, les douze du lot 16, les
   // neuf du lot 17, les vingt-trois du lot 18, les quinze du lot 19, les vingt du lot 20, les cinq du
   // lot 21 et les six du lot 22 (contrôlés dans leurs tests) sont leurs catégories nulles ; les lots
   // 20, 21 et 22 ajoutent chacun un type nul (声 ; また, sens 2 ; たぶん).
-  assert.equal(r.warnings.length, 147);
+  assert.equal(r.warnings.length, 148);
   const nullOf = (re) => r.warnings.filter((w) => w.code === 'categorie-nulle' && re.test(w.where)).map((w) => w.where.split(' · ').at(-1)).sort();
   assert.deepEqual(nullOf(/· (v_484|v_62) ·/), ['v_484_s1', 'v_484_s2', 'v_62_s1']);
   assert.deepEqual(nullOf(/· (v_144|v_432|v_434|v_442|v_452|v_456|v_457|v_458|v_486|v_512|v_609) ·/),
@@ -1352,8 +1468,8 @@ test('lot 17 : dans l\'assemblage réel, v_275 (暖かい) est fusionnée dans v
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
   assert.deepEqual([...a.pending, ...r.pending], []);
-  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [670, 34, 15]);
-  assertExcludedAfterLot23(a);
+  assert.deepEqual([a.files.reduce((n, f) => n + f.entries.length, 0), a.retired.length, a.excluded.length], [684, 34, 1]);
+  assertExcludedAfterLot24(a);
   // L'identité : v_275 n'existe plus, son identifiant est retiré vers v_8 et n'est pas réattribué.
   const all = a.files.flatMap((f) => f.entries);
   assert.ok(!all.some((e) => e.id === 'v_275'));
@@ -1715,11 +1831,13 @@ test('5.13-C : 13 entrées corrigées et revalidées, une correction validée ch
   const corrections = journal.filter((j) => j.id >= FIRST_CORRECTION && Object.hasOwn(CORRECTED_513C, j.lot));
   assert.deepEqual(corrections.map((j) => j.id), Array.from({ length: 13 }, (_, k) => `A2-04-D${String(827 + k).padStart(4, '0')}`));
   assert.ok(corrections.every((j) => j.status === 'validated' && j.kind === 'correction'));
-  // Tout le journal est validé : 1 509 décisions, D0001 à D1509, sans trou ; les 68 de D1302 à D1369
-  // sont celles du lot 20, les 34 de D1370 à D1403 celles du lot 21, les 32 de D1404 à D1435 celles du
-  // lot 22, les 74 dernières (D1436 à D1509) celles du lot 23.
-  assert.deepEqual(journal.map((j) => j.id), Array.from({ length: 1509 }, (_, k) => `A2-04-D${String(k + 1).padStart(4, '0')}`));
+  // Le journal : 1 568 décisions, D0001 à D1568, sans trou ; les 1 509 premières sont validées ; les
+  // 68 de D1302 à D1369 sont celles du lot 20, les 34 de D1370 à D1403 celles du lot 21, les 32 de
+  // D1404 à D1435 celles du lot 22, les 74 de D1436 à D1509 celles du lot 23 ; les 59 dernières (D1510
+  // à D1568), celles du lot 24, toutes validées.
+  assert.deepEqual(journal.map((j) => j.id), Array.from({ length: 1568 }, (_, k) => `A2-04-D${String(k + 1).padStart(4, '0')}`));
   assert.ok(journal.every((j) => j.status === 'validated'));
+  assert.deepEqual(journal.map((j, k) => [k, j.lot]).filter(([, l]) => l === 'lot-24').map(([k]) => k), Array.from({ length: 59 }, (_, k) => 1509 + k));
   assert.deepEqual(journal.map((j, k) => [k, j.lot]).filter(([, l]) => l === 'lot-23').map(([k]) => k), Array.from({ length: 74 }, (_, k) => 1435 + k));
   assert.deepEqual(journal.map((j, k) => [k, j.lot]).filter(([, l]) => l === 'lot-22').map(([k]) => k), Array.from({ length: 32 }, (_, k) => 1403 + k));
   assert.deepEqual(journal.map((j, k) => [k, j.lot]).filter(([, l]) => l === 'lot-21').map(([k]) => k), Array.from({ length: 34 }, (_, k) => 1369 + k));
@@ -1761,6 +1879,20 @@ test('5.13-C : 13 entrées corrigées et revalidées, une correction validée ch
     }
   }
   assert.equal(Object.values(CORRECTED_513C).flat().length, 13);
+});
+
+// Une décision validée n'est jamais modifiée en silence (CLAUDE.md, invariants du journal) : l'empreinte
+// des décisions validées est fixée ici, plage par plage, et ne change que par une décision nouvelle.
+// À chaque validation de lot, la plage s'étend ; la valeur se recalcule alors une seule fois.
+test('journal : empreinte des décisions validées (D0001 à D1568), inchangée', () => {
+  const journal = readJournal();
+  const validatedPart = journal.slice(0, 1568);
+  assert.ok(validatedPart.every((j) => j.status === 'validated'));
+  assert.equal(validatedPart.at(-1).id, 'A2-04-D1568');
+  // D0001 à D1509 : empreinte fixée avant la validation du lot 24 ; elle ne change pas.
+  assert.equal(createHash('sha256').update(JSON.stringify(validatedPart.slice(0, 1509))).digest('hex'), '6fab1b44944f722d826c59529c0bde2f88b7ba69e9f6c5e08a5ca6216cc82bf3');
+  // D0001 à D1568 : plage étendue à la validation du lot 24 (2026-10-06).
+  assert.equal(createHash('sha256').update(JSON.stringify(validatedPart)).digest('hex'), 'ed51cd67ddd4f3227087ae2c8bc9f60878ce50ce402277e2345bdb1f41ffcc75');
 });
 
 test('journal : chaque décision est citée par une entrée de lot', () => {

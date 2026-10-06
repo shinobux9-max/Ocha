@@ -105,9 +105,9 @@ faut savoir est dans le dépôt.
 
 ## 5. Où l'on en est (au 2026-10-06)
 
-- **Lots 0 à 23 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **670 ENTRY,
-  34 retraits, 15 entrées écartées**, 0 problème, 0 erreur, 0 attente ; 1 509 décisions validées
-  (D0001 à D1509), aucune proposition en cours. **Il ne reste aucun verbe à décider.**
+- **Lots 0 à 24 validés**, corrections de 5.13-C comprises : assemblage réel attendu, **684 ENTRY,
+  34 retraits, 1 entrée écartée** (など, non décidée), 0 problème, 0 erreur, 0 attente ; 1 568
+  décisions validées (D0001 à D1568), aucune proposition en cours. **Il ne reste aucun verbe à décider.**
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -247,8 +247,18 @@ faut savoir est dans le dépôt.
   `docs/rapports/etape2-A2-04-lot23-proposition.md`) : 22 sens, 74 décisions D1436 à D1509, A9 appliqué sens par sens ; **18 choix
   arbitrés**, une correction appliquée à la révision (じゃ en `interjection`, D1471 réécrite) ;
   **validé le 2026-10-06** (rapport `docs/rapports/etape2-A2-04-lot23-valide.md`), sur l'autorisation explicite de ChatGPT ;
-  **ni committé ni poussé** (accords non donnés). Restent 15 entrées : les 14 de quantité, de degré
-  et de comparaison, et など (préalable de classe). Le regroupement « quantité et degré » n'est plus suspendu à la
+  **committé (`2c89eb0`) et poussé** : `ocha-v2` et `origin/ocha-v2` sont à `2c89eb0`. Restent 15
+  entrées : les 14 de quantité, de degré et de comparaison, et など (préalable de classe). **Lot 24**
+  (« quantité, degré et comparaison ») : **périmètre arbitré** (rapport
+  `docs/rapports/etape2-A2-04-lot24-perimetre.md`, §9) : les 14 entrées, など hors périmètre.
+  **Proposition livrée en `proposed`** (rapport `docs/rapports/etape2-A2-04-lot24-proposition.md`) : 20 sens, 58 décisions D1510 à
+  D1567, A9 appliqué sens par sens ; **14 choix arbitrés**, quatre corrections appliquées à la
+  révision (全部 `adverbe`, 大勢 `groupe_collectif`, dimension de 大体, « Raréfié » et « Suffisamment »
+  gardées) : 59 décisions D1510 à D1568 ; **validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot24-valide.md`), sur l'autorisation explicite de ChatGPT ; **ni
+  committé ni poussé**. Reste など (préalable de classe). **Sabotages** : le
+  harnais doit lancer `tests/reconstruction/*.test.js` et vérifier d'abord un témoin sain (erratum
+  du 2026-10-06 : `node --test tests/reconstruction/` échoue toujours). Le regroupement « quantité et degré » n'est plus suspendu à la
   question des fonctions `quantificateur`, `comparatif` et `intensifieur`, que définit A9.
   **Aucune décision avant la validation d'un périmètre.**
 - **Contrôle** : Claude réalise dans le dépôt, ChatGPT relit et, par délégation, arbitre et

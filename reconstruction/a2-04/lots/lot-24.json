@@ -1,0 +1,707 @@
+{
+  "lot": "lot-24",
+  "title": "Quantité, degré et comparaison",
+  "entries": {
+    "n5_v_654": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1510",
+        "A2-04-D1511",
+        "A2-04-D1512",
+        "A2-04-D1513"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Qualifie une grande quantité de choses ou de personnes : このとしょかんはほんがおおいです (il y a beaucoup de livres dans cette bibliothèque). Lorsqu'il qualifie directement un nom, il se place généralement avant celui-ci.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Nombreux",
+              "alternatives": [
+                "Beaucoup de",
+                "Abondant"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "quantite",
+              "level_3": "grande_quantite"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "adjectif_i",
+        "group": "i"
+      }
+    },
+    "n5_v_447": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1514",
+        "A2-04-D1515",
+        "A2-04-D1516"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Qualifie une quantité restreinte ou un nombre faible d'éléments ou de personnes : このまちはくるまがすくないです (il y a peu de voitures dans cette ville). Antonyme de 多い, selon la fiche.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Peu nombreux",
+              "alternatives": [
+                "Raréfié",
+                "En petite quantité",
+                "Peu de"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "quantite",
+              "level_3": "petite_quantite"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_655": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1517",
+        "A2-04-D1518"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une grande foule ou un nombre élevé de personnes, exclusivement pour des personnes ; suivi de の devant un nom : こうえんにおおぜいのひとがいます (il y a beaucoup de monde au parc). La fiche le dit aussi adverbe.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Beaucoup de monde",
+              "alternatives": [
+                "Une foule",
+                "Un grand nombre de personnes"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "quantite",
+              "level_3": "grande_quantite"
+            },
+            "semantic_type": "groupe_collectif",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_520": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1519",
+        "A2-04-D1520",
+        "A2-04-D1521",
+        "A2-04-D1522",
+        "A2-04-D1523"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une quantité abondante d'objets ou de personnes, ou une action accomplie en grand nombre : きのうりんごをたくさんかいました (hier, j'ai acheté beaucoup de pommes). La fiche le dit aussi nom ou adjectif en な dans certaines tournures.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Beaucoup",
+              "alternatives": [
+                "En grande quantité",
+                "Nombreux",
+                "Suffisamment"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "quantite",
+              "level_3": "grande_quantite"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "quantificateur"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "adverbe",
+        "group": null
+      }
+    },
+    "n5_v_639": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1524",
+        "A2-04-D1525",
+        "A2-04-D1526",
+        "A2-04-D1527"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'intégralité d'une quantité ou d'un groupe d'objets : りんごをぜんぶたべました (j'ai tout mangé des pommes). Souvent placé près du verbe, ou suivi de の lorsqu'il qualifie un nom. La fiche le dit aussi nom.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Tout",
+              "alternatives": [
+                "L'ensemble",
+                "La totalité"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "totalite_partie",
+              "level_3": "totalite"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "quantificateur"
+              ],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "grammatical_class": "adverbe",
+        "group": null
+      }
+    },
+    "n5_v_509": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1528",
+        "A2-04-D1529",
+        "A2-04-D1530",
+        "A2-04-D1531",
+        "A2-04-D1532",
+        "A2-04-D1533",
+        "A2-04-D1534"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Plus neutre ou écrit que ちょっと, très proche d'usage. La fiche le dit aussi nom.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Une petite quantité",
+              "alternatives": [
+                "Un peu"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "quantite",
+              "level_3": "petite_quantite"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "quantificateur"
+              ],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une faible quantité : みずをすこしください (donnez-moi un peu d'eau, s'il vous plaît)."
+          },
+          {
+            "meaning": {
+              "primary": "Un peu",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "intensifieur"
+              ]
+            },
+            "particles": [],
+            "nuance": "Un petit degré."
+          },
+          {
+            "meaning": {
+              "primary": "Un court instant",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une courte durée."
+          }
+        ]
+      }
+    },
+    "n5_v_497": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1535",
+        "A2-04-D1536",
+        "A2-04-D1537",
+        "A2-04-D1538",
+        "A2-04-D1539"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Très courant. Sert aussi de formule atténuante, pour exprimer une hésitation (« Euh… », que la fiche donne en traduction) ou un refus poli (« c'est un peu délicat… »).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Un peu",
+              "alternatives": [
+                "Un peu de"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "quantite",
+              "level_3": "petite_quantite"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "quantificateur"
+              ],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une faible quantité : コーヒーをちょっとのみます (je bois un peu de café)."
+          },
+          {
+            "meaning": {
+              "primary": "Un instant",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Un bref instant."
+          }
+        ]
+      }
+    },
+    "n5_v_498": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1540",
+        "A2-04-D1541",
+        "A2-04-D1542"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Adverbe d'intensité, placé devant les adjectifs ou les verbes pour accentuer un degré élevé : きょうはとてもさむいです (il fait très froid aujourd'hui). Avec une négation, il signifie « impossible, pas du tout ».",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Très",
+              "alternatives": [
+                "Extrêmement",
+                "Vraiment"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "intensifieur"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_515": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1543",
+        "A2-04-D1544",
+        "A2-04-D1545",
+        "A2-04-D1546"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Adverbe d'atténuation, employé systématiquement avec une structure verbale ou adjectivale négative : « ne… pas tellement, pas trop » ; « guère », toujours suivi d'une négation. Je ne mange pas tellement de viande.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Pas tellement",
+              "alternatives": [
+                "Pas beaucoup",
+                "Guère"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "intensifieur"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_471": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1547",
+        "A2-04-D1548",
+        "A2-04-D1549",
+        "A2-04-D1550",
+        "A2-04-D1551"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La fiche le dit aussi adjectif en な.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Assez",
+              "alternatives": [
+                "Pas mal",
+                "Suffisamment"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "intensifieur"
+              ]
+            },
+            "particles": [],
+            "nuance": "Un degré tout à fait satisfaisant : このえいがはけっこうおもしろいです (ce film est assez intéressant)."
+          },
+          {
+            "meaning": {
+              "primary": "Non merci",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "politesse"
+              ]
+            },
+            "particles": [],
+            "nuance": "Formule de politesse pour décliner une offre : « c'est bon, merci »."
+          }
+        ]
+      }
+    },
+    "n5_v_607": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1552",
+        "A2-04-D1553",
+        "A2-04-D1554"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "L'intensification ou l'augmentation d'une action, d'une quantité ou d'une qualité, par rapport au niveau actuel : もっとにほんごをべんきょうしたいです (je veux étudier le japonais davantage).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Plus",
+              "alternatives": [
+                "Davantage",
+                "Encore plus"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "comparatif"
+              ],
+              "pragmatic_discourse": [
+                "intensifieur"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_517": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1555",
+        "A2-04-D1556",
+        "A2-04-D1557",
+        "A2-04-D1558",
+        "A2-04-D1559"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Composé de ichi (un) et de ban (suffixe de classement), selon la fiche.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Le plus",
+              "alternatives": [
+                "Le meilleur"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "comparatif"
+              ],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Le superlatif absolu, « le plus… » de tous : にほんごのなかでなにがいちばんすきですか (qu'est-ce que vous aimez le plus en japonais ?)."
+          },
+          {
+            "meaning": {
+              "primary": "Numéro un",
+              "alternatives": [
+                "Premier"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "nombres",
+              "level_3": "ordinaux"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "La première position dans un classement."
+          }
+        ],
+        "grammatical_class": "adverbe",
+        "group": null
+      }
+    },
+    "n5_v_496": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1560",
+        "A2-04-D1561",
+        "A2-04-D1562",
+        "A2-04-D1563"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Une mesure, une heure, une quantité ou une coïncidence qui correspond parfaitement, sans excès ni manque : いまちょうどじゅうじです (il est exactement dix heures maintenant).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Exactement",
+              "alternatives": [
+                "Juste",
+                "Précisément"
+              ]
+            },
+            "category": null,
+            "semantic_type": "propriete",
+            "dimensions": [
+              {
+                "axis": "exactitude_inexactitude",
+                "pole": "exactitude"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "n5_v_546": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1564",
+        "A2-04-D1565",
+        "A2-04-D1566",
+        "A2-04-D1567",
+        "A2-04-D1568"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Très proche de たいてい, selon la fiche. La fiche le dit aussi nom, et donne « presque (la plupart du temps) ».",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "À peu près",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "approximation_quantitative"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [
+              {
+                "axis": "precision_imprecision_ambiguite",
+                "pole": "imprecision_ambiguite"
+              }
+            ],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une approximation, grosso modo, sans entrer dans les détails : しごとはだいたいおわりました (le travail est à peu près terminé)."
+          },
+          {
+            "meaning": {
+              "primary": "En général",
+              "alternatives": [
+                "Généralement"
+              ]
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "frequence",
+              "level_3": "frequent"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une règle générale."
+          }
+        ]
+      }
+    }
+  },
+  "additions": []
+}

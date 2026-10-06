@@ -14,8 +14,9 @@ validé, committé (`1cfac5b`) et poussé** (2026-10-06) ; remote `origin` corri
 vérifiée, lot validé, committé (`f3e81bc`) et poussé** ; remote `origin` remis sur `Ocha` ;
 **point d'arrêt normatif sur les fonctions A2-LING ouvert** (rapport d'arbitrage livré), arbitré ;
 **addendum A9 rédigé, relu, validé, committé (`fac6a60`) et poussé** ; **lot 23 : périmètre
-arbitré, proposition livrée, 18 choix arbitrés et révisée, révision vérifiée, lot validé** (commit
-et push non autorisés), dans une session Claude Code cloud.
+arbitré, proposition livrée, 18 choix arbitrés et révisée, révision vérifiée, lot validé, committé
+(`2c89eb0`) et poussé** ; **lot 24 : périmètre arbitré, proposition livrée, 14 choix arbitrés et révisée, lot validé**
+(ni committé ni poussé), dans une session Claude Code cloud.
 
 ## 1. Les rôles
 
@@ -122,7 +123,8 @@ dans `04-addenda.md` (dernier document). Seul son statut a changé ; il est insc
 la conception. **Committé (`fac6a60`) et poussé**, sur tes deux accords : `ocha-v2` et
 `origin/ocha-v2` sont à `fac6a60`.
 
-**Lot 23, « Liaison, échange et formules sociales » : validé, ni committé ni poussé.**
+**Lot 23, « Liaison, échange et formules sociales » : clos.** Validé, committé (`2c89eb0`) et
+poussé, chacun sur ton accord explicite ; `ocha-v2` et `origin/ocha-v2` sont à `2c89eb0`.
 
 | Étape | État | Qui décide |
 |---|---|---|
@@ -130,27 +132,59 @@ la conception. **Committé (`fac6a60`) et poussé**, sur tes deux accords : `och
 | Proposition lexicale | **livrée**, tout en `proposed` : 13 entrées, 22 sens, 74 décisions D1436 à D1509 ; **18 choix arbitrés** le 2026-10-06 (rapport de proposition, §9) : retenue avec une correction | toi |
 | Révision | **faite** : D1471 réécrite à sa place (じゃ en `interjection`) ; dans le lot, la seule classe de じゃ change ; diff complet au §10 ; **vérifiée, favorable** | toi |
 | **Validation** | **faite le 2026-10-06** sur ton autorisation explicite : statuts seulement, 13 entrées et 74 décisions | toi |
-| Commit, push | **non autorisés** | toi, deux accords distincts |
+| Commit, push | **faits** : `2c89eb0`, puis push `fac6a60..2c89eb0` | toi, deux accords distincts |
 
-**D'après les contrôles rapportés par Claude Code** : seules 87 lignes changent, toutes
+**D'après les contrôles rapportés par Claude Code**, à la validation : seules 87 lignes changent, toutes
 `"status": "proposed"` → `"validated"` (13 dans `lot-23.json`, 74 dans `journal.json`) ; le
 contenu hors statut est identique ; les 1 435 décisions antérieures sont identiques ; assemblage
 réel : **670 ENTRY, 34 retraits, 15 écartées (toutes non décidées)**, 0 problème, 0 erreur, 0
 attente, 147 avertissements ; 1 509 décisions, toutes validées ; また non rouverte ; 476 tests verts ;
 40 sabotages attrapés.
 
+**Lot 24, « Quantité, degré et comparaison » : validé, ni committé ni poussé.**
+
+| Étape | État | Qui décide |
+|---|---|---|
+| Périmètre | **arbitré** le 2026-10-06 (rapport de périmètre, §9) : un seul lot de 14 entrées ; など hors périmètre ; 13 arbitrages structurants | toi |
+| Proposition lexicale | **livrée** : 14 entrées, 20 sens ; **14 choix arbitrés** le 2026-10-06, retenue avec quatre corrections (rapport de proposition, §9) | toi |
+| Révision | **faite** : D1515, D1517, D1521, D1524, D1536 réécrites à leur place, D1568 ajoutée ; diff complet au §10 | toi |
+| **Validation** | **faite le 2026-10-06** sur ton autorisation explicite : statuts seulement, 14 entrées et 59 décisions D1510 à D1568 | toi |
+| Commit, push | **non autorisés** | **toi**, deux accords distincts |
+
+**D'après les contrôles rapportés par Claude Code**, à la validation : seules 73 lignes changent,
+toutes `"status": "proposed"` → `"validated"` (14 dans `lot-24.json`, 59 dans `journal.json`) ; le
+contenu hors statut est identique ; les 1 509 décisions antérieures sont identiques (empreinte) ;
+assemblage réel : **684 ENTRY, 34 retraits, 1 écartée (など, non décidée)**, 0 problème, 0 erreur, 0
+attente, 148 avertissements (le nouveau : la catégorie nulle de ちょうど, justifiée) ; 1 568
+décisions, toutes validées ; 479 tests verts ; sabotages rejoués sur l'état validé, harnais corrigé :
+lot 24, 51/51 ; lot 23, 40/40 ; lot 22, 49/49.
+
+**Erratum, à lire** (rapport de proposition, §9) : le harnais des sabotages des lots 22 à 24
+échouait toujours, même sur un état sain ; les comptes « tous attrapés » annoncés pour ces lots ne
+prouvaient rien. Corrigé (témoin sain vérifié d'abord) ; rejoués : 48/49, 35/40, 44/48 ; tests
+renforcés (dont une empreinte des décisions validées) ; maintenant 49/49, 40/40, 48/48. Les données
+validées des lots 22 et 23 ne changent pas ; un erratum est ajouté à leurs rapports de validation.
+
+**État réel, relevé par Claude Code avant le rapport** : 684 ENTRY, 34 retraits, **1 entrée non
+décidée** (など), aucune proposition en cours ; 1 568 décisions validées ; 0 problème, 0 erreur, 0
+attente ; 148 avertissements ; 479 tests verts.
+
 `06` contient le rapport de périmètre (arbitrage au §9), le rapport de proposition, **le rapport de
-validation**, le rapport du préalable et le rapport généré ; `07`, les **13 fiches sources complètes** et les précédents
-validés ; `08` est `lot-23.json` ; `09` ses 74 décisions ; `10` le diff contre `fac6a60`.
+validation** et le rapport généré ; `07`, les **14 fiches sources complètes** et les précédents
+validés ; `08` est `lot-24.json` ; `09` ses 59 décisions ; `10` le diff contre `2c89eb0` et le diff
+de la validation (statuts seulement).
 
 ## 4. Ce qui est attendu de cette relecture
 
-**Contrôler le diff de validation** (`10`, et le rapport de validation, §1) : seuls les statuts ont
-changé, le contenu hors statut est identique.
+**Contrôler le diff de validation** (`10`, et le rapport de validation dans `06`) :
 
-Ensuite, si tu l'estimes justifié : **le commit**, sur ton accord explicite (`git diff --stat` et la
-liste exacte des fichiers sont dans le message de Claude Code) ; puis **le push**, sur un accord
-distinct. Un avis favorable n'autorise ni l'un ni l'autre.
+1. **statuts seulement** : 14 entrées de `lot-24.json` et 59 décisions D1510 à D1568, de `proposed` à
+   `validated` ; aucune autre ligne ne change ;
+2. **l'état réel** : 684 ENTRY, 34 retraits, 1 écartée (など), 1 568 décisions toutes validées ;
+3. **les sabotages**, rejoués sur l'état validé avec le harnais corrigé.
+
+Ensuite : l'accord explicite du commit (« j'autorise le commit »), puis, distinct, celui du push.
+Ton contrôle n'autorise ni l'un ni l'autre.
 
 ## 5. Points ouverts
 
@@ -159,8 +193,8 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 - **Fonctions d'A2-LING** : `deictique` est définie par A7 ; **A9, validé, définit aussi
   `connecteur`, `discours`, `politesse`, `quantificateur`, `comparatif` et `intensifieur`**
-  (appliquées au lot 23 pour les trois premières et `intensifieur` ; `quantificateur`,
-  `comparatif` et `intensifieur` concernent le lot « quantité, degré et comparaison »). Restent
+  (appliquées au lot 23 pour les trois premières et `intensifieur`, au lot 24 pour `quantificateur`,
+  `comparatif`, `intensifieur` et `politesse`). Restent
   sans définition : `interrogatif` (appliquée sur un sens implicite), `negation`, `pluralisation`,
   `modalite`, `aspect`, `temps`, `alternative`.
 - **Classe de など** : « particule suffixe » selon sa fiche ; le registre des classes n'a pas de
@@ -175,6 +209,6 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Commit du lot 23**, sur ton accord explicite.
-2. **Push**, sur un accord explicite et distinct.
-3. Ensuite, sur demande : le lot des 14 entrées reportées, et le préalable sur la classe de など.
+1. **Ton contrôle de la validation du lot 24.**
+2. Le commit, puis le push, sur deux accords explicites et distincts.
+3. Ensuite : le préalable sur la classe de など, dernière entrée du vocabulaire N5.
