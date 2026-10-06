@@ -207,8 +207,10 @@ faut savoir est dans le dépôt.
   principale de ある et de 居る ; **le type `resultat`** pour « être achevé » (出来る) ; **le type
   `propriete`** pour un prix ou un coût (する, かかる) ; **aucune catégorie n'est cherchée pour
   réduire les avertissements** (次, 声) ; trois dimensions (要る, 出来る, 違う) ; 声 sans type (A6).
-- **Ensuite** : commit du lot 20, sur accord explicite ; puis choix du thème du lot 21 et
-  composition de son périmètre. Il
+- **Lot 20 commité** : `bcbc85c`, sur l'accord explicite de ChatGPT ; **rien n'est poussé** (le
+  push n'a jamais été fait sur cette branche).
+- **Ensuite** : synchronisation de `ocha-v2` vers GitHub, sur un accord explicite de push ; puis
+  seulement choix du thème du lot 21 et composition de son périmètre. Il
   reste 49 entrées (aucun verbe, 42 adverbes et mots de liaison, 2 noms, 5
   adjectifs). Un lot « quantité et
   degré » reste réservé, précédé de la question des fonctions `quantificateur`, `comparatif` et

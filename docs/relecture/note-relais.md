@@ -7,7 +7,8 @@ du lot 17 arbitré, proposition relue et arbitrée, lot 17 validé et committé 
 de relecture committé (`2387d20`) ; lot 18 : périmètre arbitré, proposition livrée, vingt choix
 arbitrés, révision vérifiée, lot validé et committé (`213fb2b`) ; délégation des accords à
 ChatGPT ; lot 19 validé et committé (`9e75c99`) ; lot 20 : périmètre arbitré, proposition livrée,
-25 choix arbitrés, révision vérifiée, **lot validé, non commité** (2026-10-06).
+25 choix arbitrés, révision vérifiée, lot validé et committé (`bcbc85c`) ; **rien n'est poussé**
+(2026-10-06).
 
 ## 1. Les rôles
 
@@ -67,7 +68,8 @@ Rien n'est poussé.
 retraits, 71 entrées restantes, 1 301 décisions validées. **Rien n'est poussé** : tu n'as pas
 autorisé le push.
 
-**Lot 20, « Existence, possession, action et déroulement » : validé, non commité.**
+**Lot 20, « Existence, possession, action et déroulement » : clos, validé et committé
+(`bcbc85c`) ; non poussé.**
 
 | Étape | État | Qui a décidé |
 |---|---|---|
@@ -76,7 +78,7 @@ autorisé le push.
 | Les 25 choix | arbitrés le 2026-10-06, avec sept corrections et trois dimensions (rapport de proposition, §9) | toi |
 | Révision | faite, vérifiée (avis favorable) | toi |
 | **Validation** | **faite le 2026-10-06** : 22 entrées et 68 décisions (D1302 à D1369) en `validated`, statuts seulement | toi ; transmise et confirmée par l'utilisateur |
-| Commit | **non autorisé** | à donner explicitement |
+| Commit | **fait le 2026-10-06** : `bcbc85c`, onze fichiers, `chatgpt-relecture/` exclu | toi |
 | Push | **non autorisé**, jamais fait | à donner explicitement |
 
 **État réel après validation** : 638 ENTRY, 32 retraits, 49 entrées restantes, **plus aucun
@@ -88,19 +90,15 @@ la comparaison avant / après validation.
 
 ## 4. Ce qui est attendu de cette relecture
 
-**Contrôler le diff de validation**, avant de décider du commit :
+**Rien à relire sur le lexique** : le lot 20 est clos, et aucune proposition n'est en cours.
 
-1. **Statuts seulement** : dans `10`, §3, la comparaison avant / après validation doit donner 22
-   lignes changées pour `lot-20.json` et 68 pour `journal.json`, toutes `"status": "proposed"` →
-   `"validated"`, et un contenu identique hors statut. Les copies d'avant sont hors dépôt : tu ne
-   peux pas refaire la comparaison, seulement lire son résultat.
-2. **L'état attendu** : 638 ENTRY, 32 retraits, 49 entrées restantes, 1 369 décisions validées,
-   aucune `proposed`.
-3. **Les tests d'état** (`10`, diff de `tests/reconstruction/workspace.test.js`) : ils affirment
-   maintenant l'état validé ; l'essai à blanc est devenu le contrôle du lot dans l'assemblage réel.
+**Décider du push**, explicitement. La branche `ocha-v2` n'a jamais été poussée ; l'objectif
+annoncé par l'utilisateur est de la synchroniser proprement vers GitHub, pour une migration
+temporaire vers les sessions cloud. Claude Code ne pousse que sur un accord écrit en toutes
+lettres. Le dossier `chatgpt-relecture/` n'est pas suivi par git : il ne part pas avec la branche
+et se régénère avec l'outil d'export.
 
-Puis **décide du commit**, explicitement. Les fichiers qui y entreraient sont listés dans `10`, §1 ;
-`chatgpt-relecture/` n'en fait pas partie.
+**Aucune préparation du lot 21** tant qu'elle n'est pas demandée.
 
 ## 5. Points ouverts
 
@@ -123,10 +121,8 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Contrôle du diff de validation** par ChatGPT.
-2. **Commit**, sur son accord explicite ; Claude Code montre d'abord le `git diff --stat` et la
-   liste exacte des fichiers.
-3. **Push** : jamais fait à ce jour ; sur un accord explicite et distinct.
-4. **Lot 21** : sur demande explicite, thème et périmètre par identifiants, sans décision lexicale
+1. **Push** de `ocha-v2` vers GitHub : jamais fait à ce jour ; sur un accord explicite et
+   distinct, après contrôle de la position de la branche par rapport à `origin/ocha-v2`.
+2. **Lot 21** : ensuite seulement, et sur demande explicite, thème et périmètre par identifiants, sans décision lexicale
    avant l'arbitrage du périmètre. Les 49 entrées restantes dépendent pour une bonne part de
    fonctions linguistiques sans définition normative.
