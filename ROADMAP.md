@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-07 (validation du lot 26, passe finale 5.16)
+**Dernière mise à jour :** 2026-10-07 (lot 26 clos, passe finale 5.16 terminée ; périmètre de 5.17 proposé)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -43,8 +43,8 @@ Plus précisément :
 
 **A2-04 · reconstruction du vocabulaire N5 → toutes les entrées sont décidées.** Les lots 0 à 25 sont
 validés (など retirée sans successeur au lot 25) ; l'addendum A9 (six fonctions linguistiques) est
-validé. **La passe finale 5.16 est validée** (lot 26, 2026-10-07 ; non encore committée). Reste la
-publication 5.17.
+validé. **La passe finale 5.16 est terminée** (lot 26, validé le 2026-10-07, committé `9f3dc2b` et
+poussé). **Reste la publication 5.17**, dont le périmètre est proposé et attend son arbitrage.
 
 Les lots 0 à 20 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
@@ -272,9 +272,10 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **Lot 22** | Manière, identité, diversité et probabilité | ✅ Terminé |
 | **Préalable A9** | Point d'arrêt normatif : six fonctions A2-LING définies (addendum A9) | ✅ Terminé |
 | **Lot 23** | Liaison, échange et formules sociales | ✅ Terminé |
-| **Lots suivants** | Quantité, degré et comparaison (14 entrées) ; préalable sur la classe de など | ⬜ À faire |
-| **5.16 · lot 26** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ✅ Validé (commit en attente) |
-| **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
+| **Lot 24** | Quantité, degré et comparaison | ✅ Terminé |
+| **Lot 25** | Retrait de など (préalable sur sa classe) | ✅ Terminé |
+| **5.16 · lot 26** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ✅ Terminé |
+| **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire (périmètre proposé, non arbitré) |
 
 **Numérotation** (arbitrage du 2026-10-05) : à partir du lot 15, un lot est désigné par son numéro
 (« A2-04 · lot 15 »), sans nouveau numéro de sous-tâche. **5.16** reste la passe finale et **5.17**
@@ -512,7 +513,7 @@ Les 3 phrases rangées sous `n5_v_602` sont pour 5.16.
 
 Committé (`b3740c7`) et poussé.
 
-#### Passe finale 5.16 · lot 26 « Passe finale » · validé
+#### Passe finale 5.16 · lot 26 « Passe finale » · clos
 
 Périmètre arbitré (neuf questions), proposition relue et révisée, puis **validée le 2026-10-07**
 (rapport `docs/rapports/etape2-A2-04-lot26-valide.md`). Le lot ne décide aucune entrée nouvelle : il
@@ -529,10 +530,24 @@ Périmètre arbitré (neuf questions), proposition relue et révisée, puis **va
     de `など` iront au point de grammaire `g_27`, à la tâche 11 ;
 -   **hors 5.16** : aucun tag de lieu (5.17 et A2-05) ; rien n'est écrit dans `data/` (5.17).
 
-Validé ; **ni committé, ni poussé** à ce jour.
+Committé (`9f3dc2b`) et poussé : `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`. **Le travail 5.16
+est terminé ; aucune action 5.16 ne reste.**
 
-**Prochaine action immédiate :** le commit puis le push du lot 26, sur deux accords distincts et
-explicites ; ensuite, la publication 5.17.
+#### Publication 5.17 · périmètre proposé
+
+Le périmètre est recensé dans `docs/rapports/etape2-A2-04-lot27-perimetre-5-17.md` (le préfixe
+`lot27` sert à l'export ; il n'existe aucun lot 27). **Rien n'est exécuté, `data/` n'est pas
+modifié.**
+
+-   **déjà décidé, à appliquer** : le plan de bascule d'A2-03 (vocabulaire canonique dans `data/`,
+    `vocab-retired.json`, validateur lexical appelé par `validate-data`, `lieux.json` en
+    `vocab_tags`, 71 références remappées, `events.js` E1 à E4, sections de format réécrites) ;
+-   **à arbitrer** : huit questions, dont deux lexicales que les documents réservent « avant 5.17 »
+    (lectures des mots en katakana, lecture うち de 家), et la façon de relire une opération qui tient
+    en un seul commit.
+
+**Prochaine action immédiate :** l'arbitrage du périmètre de 5.17. Aucune exécution, aucune décision
+lexicale avant cet arbitrage.
 
 ------------------------------------------------------------------------
 

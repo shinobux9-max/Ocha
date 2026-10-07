@@ -22,8 +22,8 @@ poussé**, suivi documentaire `8ce0e23` poussé ; **périmètre de la passe fina
 (2026-10-07), dans une session Claude Code cloud ; travail repris en local (VS Code), transfert
 vérifié ; **périmètre de 5.16 arbitré, proposition du lot 26 livrée** (2026-10-07), **relue (avis
 favorable sous une correction), quatre choix arbitrés, raison de D1613 révisée**, **révision
-vérifiée par ChatGPT, traces documentaires corrigées** ; **lot 26 validé** (2026-10-07), ni committé
-ni poussé.
+vérifiée par ChatGPT, traces documentaires corrigées** ; **lot 26 validé** (2026-10-07), **committé
+(`9f3dc2b`) et poussé** ; **clôture documentaire préparée, périmètre de la publication 5.17 proposé**.
 
 ## 1. Les rôles
 
@@ -148,7 +148,18 @@ réel : **670 ENTRY, 34 retraits, 15 écartées (toutes non décidées)**, 0 pro
 attente, 147 avertissements ; 1 509 décisions, toutes validées ; また non rouverte ; 476 tests verts ;
 40 sabotages attrapés.
 
-**Passe finale 5.16, lot 26 « Passe finale » : VALIDÉ le 2026-10-07 ; ni committé, ni poussé.**
+**Publication 5.17 : périmètre proposé, arbitrage attendu.**
+
+| Étape | État | Qui décide |
+|---|---|---|
+| Recensement et périmètre | **livrés** : `docs/rapports/etape2-A2-04-lot27-perimetre-5-17.md` (le préfixe `lot27` sert à l'export ; **il n'existe aucun lot 27**) ; 9 éléments déjà décidés à appliquer, 8 questions à arbitrer | Claude Code |
+| Arbitrage (Q1 à Q8) | **attendu** | **toi** |
+| Exécution de 5.17 | **non autorisée** : aucune donnée de `data/`, aucun outil, aucun test, aucune décision lexicale | toi |
+| Commit, push | non autorisés | toi, accords distincts |
+
+**Passe finale 5.16, lot 26 « Passe finale » : CLOS.** Validé le 2026-10-07, committé (`9f3dc2b`) et
+poussé, chacun sur ton accord explicite ; `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`, 0 en
+avance, 0 en retard. Le travail 5.16 est terminé ; aucune action 5.16 ne reste.
 
 | Étape | État | Qui décide |
 |---|---|---|
@@ -159,7 +170,8 @@ attente, 147 avertissements ; 1 509 décisions, toutes validées ; また non ro
 | Révision | **faite** : la seule raison de D1613, réécrite à sa place (§12.2) ; **vérifiée par ChatGPT le 2026-10-07, conforme** (§12.4) | toi |
 | Traces documentaires | **corrigées** après ta vérification : en-tête, §8, §10 et sabotages du rapport de proposition ; cette note ; doctrine des listes fermées de `CLAUDE.md`. Aucune donnée, décision, lot, relation ni test modifié | Claude Code |
 | **Validation** | **faite le 2026-10-07** sur ton autorisation explicite : statuts seulement, 19 ENTRY rouvertes et 44 décisions D1570 à D1613 (`docs/rapports/etape2-A2-04-lot26-valide.md`) | toi |
-| Commit, push | **non autorisés** | toi, deux accords distincts |
+| Commit, push | **faits** : `9f3dc2b` (31 fichiers), puis push `8ce0e23..9f3dc2b`, sans force | toi, deux accords distincts |
+| Clôture documentaire | **préparée**, non committée : `ETAT-ACTUEL.md`, `ROADMAP.md`, `CLAUDE.md`, cette note | toi |
 
 **D'après les contrôles rapportés par Claude Code**, à la validation : comparés à des copies prises
 avant la bascule, le journal et les sept fichiers de lot ne diffèrent que par **63 lignes, toutes
@@ -250,25 +262,36 @@ D1569 ; `10` le diff contre `5e9a233` et le diff de la validation (statuts seule
 
 ## 4. Ce qui est attendu de cette relecture
 
-**Contrôler le diff de validation du lot 26** (rapport de validation) :
+Deux choses, distinctes.
 
-1. **La bascule ne touche que des statuts** (§2) : 63 lignes, dont les numéros sont donnés fichier
-   par fichier ; dans `09`, les 44 décisions sont toutes `validated`, et leur contenu est celui que
-   tu as vérifié ;
-2. **L'état validé** (§3) : 684 ENTRY, 35 retraits, 0 écartée ; 1 613 décisions validées ; 22
-   relations ;
-3. **Les tests adaptés et les sabotages** (§5, §6) ;
-4. **Dire si tu autorises le commit.** Le push demandera ensuite un accord séparé.
+**A. Contrôler la clôture documentaire du lot 26** (diff du `10`, pris contre `9f3dc2b`) : quatre
+documents seulement (`ETAT-ACTUEL.md`, `ROADMAP.md`, `CLAUDE.md`, cette note). Ils doivent dire : lot
+26 validé ; commit `9f3dc2b` créé et poussé ; branches locale et distante alignées ; travail 5.16
+terminé, aucune action 5.16 restante ; prochaine action identifiée. Aucune donnée, aucun lot, aucun
+journal, aucun test, aucun outil n'est modifié. Dis si tu autorises le commit de cette clôture ; le
+push demandera un accord séparé. Le rapport de périmètre de 5.17, fichier nouveau, peut entrer dans
+ce commit ou attendre son arbitrage : dis-le.
 
-**Limite à connaître** : la comparaison avant / après de l'export (`10`, §3) ne porte que sur
-`lot-26.json` (0 ligne, le lot n'a pas d'entrée) et sur le journal (44 lignes). Celle des six autres
-fichiers de lot est au §2 du rapport de validation ; tu ne peux pas la refaire. Le diff du `10`, lui,
-est pris contre `8ce0e23` : il réunit la proposition, sa révision et la validation.
+**B. Arbitrer le périmètre de la publication 5.17** (rapport de périmètre, §6) :
 
-**Ne seront pas dans le commit** : `chatgpt-relecture/` et les archives ZIP.
+1. **Q1, le véhicule** : une opération qui tient en un seul commit, relue sur un essai préparé dans
+   l'arbre de travail avant d'être committée ;
+2. **Q2, l'origine des fichiers publiés** : la sortie de l'assembleur, écrite telle quelle, et un
+   test permanent qui la compare à `data/` ;
+3. **Q3, Q4, deux questions lexicales** que les documents réservent « avant 5.17 » : les lectures des
+   64 mots en katakana ; la lecture うち de 家. **Elles sont posées, non décidées** : rien n'est
+   proposé sur le fond sans ton arbitrage ;
+4. **Q5, les avertissements** : 148 avertissements du validateur lexical apparaîtront dans
+   `validate-data` ;
+5. **Q6, Q7, Q8, les frontières** : fichiers figés non remappés, ancienne application, corrections
+   après la publication.
 
-Les accords restent distincts : écris en toutes lettres celui que tu donnes, et celui que tu ne
-donnes pas.
+Vérifie aussi que le recensement est complet (§3 à §5) et que rien n'y est décidé. Ton arbitrage
+n'autorisera ni l'exécution de 5.17, ni commit, ni push : chacun demande un accord explicite.
+
+**Dans cet export** : `06` contient le rapport de périmètre de 5.17 ; `07`, la fiche source de 家 ;
+`08` n'est pas un fichier de lot (il n'en existe aucun pour 5.17) ; `09` est vide ; `10` le diff
+contre `9f3dc2b` et les contrôles.
 
 **Dans cet export** : `06` contient le rapport de périmètre (arbitrage du périmètre au §9), le rapport
 de proposition (arbitrage de la proposition et révision au §12) et le rapport généré ; `07`, les 19
@@ -298,7 +321,7 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Ton contrôle du diff de validation**, puis ton accord explicite de commit, ou une demande de
-   correction.
-2. Sur cet accord : le commit du lot 26, sur une ligne, après présentation de `git diff --stat`.
-3. Puis le push, sur un accord distinct et explicite ; ensuite, la publication 5.17 et l'audit A2-05.
+1. **Ton contrôle de la clôture documentaire**, puis ton accord explicite de commit, puis de push.
+2. **Ton arbitrage du périmètre de 5.17** (Q1 à Q8).
+3. Sur ton autorisation distincte : la proposition de la publication, selon le véhicule arbitré.
+4. Ensuite : l'audit A2-05, le graphe (G2 à G9), le registre de phrases (tâche 11).

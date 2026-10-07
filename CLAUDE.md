@@ -111,8 +111,10 @@ faut savoir est dans le dépôt.
 - **Lots 0 à 26 validés**, corrections de 5.13-C et passe finale 5.16 (lot 26) comprises : assemblage
   réel attendu, partiel et complet, **684 ENTRY, 35 retraits, 0 entrée écartée**, 0 problème, 0
   erreur, 0 attente ; 1 613 décisions validées (D0001 à D1613), aucune proposition en cours. **Toutes
-  les entrées des sources sont décidées.** **Il ne reste aucun verbe à décider.** Le lot 26 est
-  validé mais **ni committé ni poussé** (détail en fin de section).
+  les entrées des sources sont décidées.** **Il ne reste aucun verbe à décider.** **Le lot 26 est
+  clos** : committé (`9f3dc2b`) et poussé ; `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`. **Le
+  travail 5.16 est terminé.** Prochaine étape : la publication 5.17, dont le périmètre est proposé et
+  non arbitré (détail en fin de section).
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -288,9 +290,15 @@ faut savoir est dans le dépôt.
   de statut). **Assemblage réel attendu, partiel et complet : 684 ENTRY, 35 retraits, 0 entrée
   écartée, 0 problème, 0 erreur, 0 attente ; 1 613 décisions validées (D0001 à D1613), aucune
   proposition en cours ; 27 fichiers de lot ; 22 relations ; 490 tests verts.** Le lot 26 n'a aucune
-  entrée propre : ses ENTRY sont dans leurs lots d'origine. **La passe finale 5.16 est validée ; ni
-  committée, ni poussée** (`ocha-v2` et `origin/ocha-v2` restent à `8ce0e23`). Prochaine étape : le
-  commit puis le push, sur deux accords distincts ; ensuite la publication 5.17. Les 35 retraits
+  entrée propre : ses ENTRY sont dans leurs lots d'origine. **Committé (`9f3dc2b`) et poussé**,
+  chacun sur l'accord explicite de ChatGPT : `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`. **Lot 26
+  clos ; travail 5.16 terminé, aucune action 5.16 ne reste.** **Prochaine étape : la publication
+  5.17.** Son **périmètre est proposé, non arbitré** (rapport
+  `docs/rapports/etape2-A2-04-lot27-perimetre-5-17.md` ; le préfixe `lot27` sert à l'export, il
+  n'existe aucun lot 27) : le plan de bascule d'A2-03 est déjà décidé et reste à appliquer ; huit
+  questions sont à arbitrer, dont deux lexicales réservées « avant 5.17 » (lectures des mots en
+  katakana, lecture うち de 家). **Aucune exécution de 5.17, aucune décision lexicale, aucune
+  écriture dans `data/` avant l'arbitrage de ce périmètre.** Les 35 retraits
   comptent 33 fusions et deux suppressions : `v_717` (A3, d'emblée) et `v_602`. **Sabotages** : le
   harnais doit lancer `tests/reconstruction/*.test.js` et vérifier d'abord un témoin sain (erratum
   du 2026-10-06 : `node --test tests/reconstruction/` échoue toujours). Le regroupement « quantité et degré » n'est plus suspendu à la
