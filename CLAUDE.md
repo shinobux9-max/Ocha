@@ -113,8 +113,9 @@ faut savoir est dans le dépôt.
   erreur, 0 attente ; 1 613 décisions validées (D0001 à D1613), aucune proposition en cours. **Toutes
   les entrées des sources sont décidées.** **Il ne reste aucun verbe à décider.** **Le lot 26 est
   clos** : committé (`9f3dc2b`) et poussé ; `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`. **Le
-  travail 5.16 est terminé.** Prochaine étape : la publication 5.17, dont le périmètre est arbitré et
-  l'exécution proposée, non autorisée (détail en fin de section).
+  travail 5.16 est terminé.** **La publication 5.17 est faite** : committée (`3d67594`) et poussée ;
+  `ocha-v2` et `origin/ocha-v2` sont à `3d67594`. **Prochaine étape : A2-05**, l'audit global du
+  vocabulaire (détail en fin de section).
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -306,10 +307,9 @@ faut savoir est dans le dépôt.
   neuf choix sont arbitrés, tous acceptés (§16) ; le remappage devient idempotent sans devenir
   permissif ; **l'inventaire des avertissements est amorcé avant toute écriture dans `data/`**, sur
   le seul baseline exact (148 : 120, 27, 1), et un inventaire absent est ensuite toujours une erreur.
-  Plan corrigé accepté. **ESSAI DE 5.17 EXÉCUTÉ DANS L'ARBRE DE TRAVAIL (2026-10-07), NON COMMITTÉ,
-  NON POUSSÉ** (rapport `docs/rapports/etape2-A2-04-lot27-publication-5-17.md`) : **`data/` est publié
-  dans l'arbre de travail seulement** ; des fichiers de `data/`, `tools/`, `src/` et `tests/` y sont
-  modifiés, c'est l'état attendu, à ne pas « nettoyer ». Avec l'essai : `validate-data` rend 0 erreur
+  Plan corrigé accepté. **Essai de 5.17 exécuté dans l'arbre de travail le 2026-10-07** (rapport
+  `docs/rapports/etape2-A2-04-lot27-publication-5-17.md`), puis committé tel qu'il a été relu. Avec
+  la publication : `validate-data` rend 0 erreur
   et 149 avertissements, la suite compte 510 tests verts, `run.mjs publish` dit « data/ est à jour ».
   **Essai relu et conservé** (rapport, §12) : les cinq points sont arbitrés ; **P8 est fait**
   (`docs/conception/README.md`, `GUIDE-CONTENU.md`, trois en-têtes de commentaire). **Écart de
@@ -317,13 +317,19 @@ faut savoir est dans le dépôt.
   **Protocole de toute publication, désormais** : avant `publish --write`, une suite pré-publication
   (les seuls tests compatibles avec l'ancien `data/`), verte ; après, la suite complète, verte ;
   **aucun test rouge n'est jamais interprété à la volée comme « attendu »** : on s'arrête et on rend
-  compte. **Aucun commit ni push de la publication n'est autorisé à ce jour.**
+  compte. **PUBLICATION 5.17 COMMITTÉE ET POUSSÉE (2026-10-07)**, chacun sur l'accord explicite de
+  ChatGPT : commit `3d67594844f607b4bba01005bdcf664fc2ef4193` (« Etape 2: publication 5.17 du
+  vocabulaire reconstruit dans data », 39 fichiers : 33 modifiés, 6 nouveaux), puis push
+  `b6d72ae..3d67594`, sans force ni tag ; `ocha-v2` et `origin/ocha-v2` sont à `3d67594`. **`data/`
+  est publié ; A2-04 est terminé, aucune action A2-04 ne reste.**
   **Doctrine** : `publish --write` est l'unique chemin vers le vocabulaire de `data/` ;
   `reconstruction/a2-04/avertissements-connus.json` est un **baseline technique, non une
   validation** : l'audit un par un des 120 `categorie-nulle` et des 27 `type-nul` (A2-05) est un
   **point de sortie de l'étape 2**.
-  **Aucune exécution de 5.17, aucune écriture dans `data/`, ni commit de publication ni push sans
-  accord explicite.** Les 35 retraits
+  **Prochaine action : A2-05**, à ouvrir par un périmètre. Il doit comprendre : l'audit individuel
+  des 120 `categorie-nulle` ; l'audit des 27 `type-nul` ; la distinction entre les `null` réellement
+  légitimes et les données à corriger ; **aucune clôture de l'étape 2 avant cette preuve**. **Aucune
+  nouvelle écriture dans `data/`, aucun commit ni push sans accord explicite.** Les 35 retraits
   comptent 33 fusions et deux suppressions : `v_717` (A3, d'emblée) et `v_602`. **Sabotages** : le
   harnais doit lancer `tests/reconstruction/*.test.js` et vérifier d'abord un témoin sain (erratum
   du 2026-10-06 : `node --test tests/reconstruction/` échoue toujours). Le regroupement « quantité et degré » n'est plus suspendu à la

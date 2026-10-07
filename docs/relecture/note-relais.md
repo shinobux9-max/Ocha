@@ -24,7 +24,9 @@ vérifié ; **périmètre de 5.16 arbitré, proposition du lot 26 livrée** (202
 favorable sous une correction), quatre choix arbitrés, raison de D1613 révisée**, **révision
 vérifiée par ChatGPT, traces documentaires corrigées** ; **lot 26 validé** (2026-10-07), **committé
 (`9f3dc2b`) et poussé** ; **clôture documentaire et périmètre de 5.17 arbitré committés (`b6d72ae`),
-non poussés** ; **proposition d'exécution de 5.17 livrée**.
+poussés** ; **proposition d'exécution de 5.17 livrée, arbitrée, corrigée** ; **essai de 5.17 exécuté,
+relu et conservé** ; **publication 5.17 committée (`3d67594`) et poussée** (2026-10-07) ; **clôture
+documentaire de 5.17 préparée, non committée**.
 
 ## 1. Les rôles
 
@@ -149,20 +151,24 @@ réel : **670 ENTRY, 34 retraits, 15 écartées (toutes non décidées)**, 0 pro
 attente, 147 avertissements ; 1 509 décisions, toutes validées ; また non rouverte ; 476 tests verts ;
 40 sabotages attrapés.
 
-**Publication 5.17 : périmètre arbitré, proposition d'exécution à relire.**
+**Publication 5.17 : CLOSE.** Committée (`3d67594844f607b4bba01005bdcf664fc2ef4193`) et poussée le
+2026-10-07, chacun sur ton accord explicite ; `ocha-v2` et `origin/ocha-v2` sont à `3d67594`, 0 en
+avance, 0 en retard. **A2-04 est terminé ; aucune action A2-04 ne reste.**
 
 | Étape | État | Qui décide |
 |---|---|---|
 | Recensement et périmètre | **livrés** : `docs/rapports/etape2-A2-04-lot27-perimetre-5-17.md` (le préfixe `lot27` sert à l'export ; **il n'existe aucun lot 27**) | Claude Code |
 | Arbitrage (Q1 à Q8) | **rendu** le 2026-10-07, consigné au §9 du rapport de périmètre ; Q3 et Q4 closes par statu quo : aucune décision lexicale avant la publication | toi |
 | Commit documentaire | **fait et poussé** : `b6d72ae` (les quatre documents de suivi et le rapport de périmètre) ; `ocha-v2` et `origin/ocha-v2` sont à `b6d72ae` | toi |
-| Proposition d'exécution | **livrée** : `docs/rapports/etape2-A2-04-lot27-proposition-5-17.md` ; un plan, **rien n'est exécuté** | Claude Code |
+| Proposition d'exécution | **livrée** : `docs/rapports/etape2-A2-04-lot27-proposition-5-17.md` ; un plan, exécuté depuis | Claude Code |
 | Relecture du plan, neuf choix (§10) | **faite** : neuf choix arbitrés, tous acceptés (§16.1) ; un blocage relevé dans le protocole de l'inventaire | toi |
 | Correction du plan | **faite et acceptée** : inventaire amorcé avant toute écriture dans `data/` (§16.2) ; mécanisme d'amorçage validé | toi |
-| **Essai de 5.17** | **exécuté dans l'arbre de travail le 2026-10-07**, sur ton autorisation explicite ; **non committé, non poussé** (`docs/rapports/etape2-A2-04-lot27-publication-5-17.md`) | toi |
+| **Essai de 5.17** | **exécuté dans l'arbre de travail le 2026-10-07**, sur ton autorisation explicite (`docs/rapports/etape2-A2-04-lot27-publication-5-17.md`) ; committé et poussé depuis, voir plus bas | toi |
 | Relecture de l'essai | **faite** le 2026-10-07 : essai conservé ; cinq points arbitrés (rapport de publication, §12) ; un écart de procédure relevé à l'étape 7, protocole corrigé | toi |
-| P8, documents de format | **fait** : `docs/conception/README.md`, `GUIDE-CONTENU.md`, trois en-têtes de commentaire (§12.2) ; **à contrôler** | **toi** |
-| Commit de publication, push | **non autorisés** | toi, accords distincts |
+| P8, documents de format | **fait** : `docs/conception/README.md`, `GUIDE-CONTENU.md`, trois en-têtes de commentaire (§12.2) ; **contrôlé**, diff final accepté sur `chatgpt-relecture-5-17-final.zip` | toi |
+| Commit de publication | **fait** : `3d67594844f607b4bba01005bdcf664fc2ef4193`, « Etape 2: publication 5.17 du vocabulaire reconstruit dans data », parent `b6d72ae`, 39 fichiers (33 modifiés, 6 nouveaux), aucun artefact de relecture | toi |
+| Push | **fait** : `b6d72ae..3d67594`, sans force, sans tag, sans autre branche ; distant réel relu à `3d67594` | toi, accord distinct |
+| Clôture documentaire | **préparée**, non committée : `CLAUDE.md`, `ETAT-ACTUEL.md`, `ROADMAP.md`, cette note | toi |
 
 **POINT DE GOUVERNANCE, à ne jamais perdre de vue.** Les 148 avertissements de l'inventaire
 (`reconstruction/a2-04/avertissements-connus.json`) sont un **baseline technique connu**. **Ils ne
@@ -180,8 +186,14 @@ intact ; second contrôle sans condition bloquante ; `publish --write` : sept fi
 eux seuls, idempotent ; remappage contrôlé contre `b6d72ae` (ancien état remappé identique au fichier
 publié, 71 jetons) ; `validate-data` : 0 erreur, 149 avertissements ; assemblage 684, 35, 0 ; **510
 tests verts** ; **30 sabotages attrapés sur 31**.
-| Exécution de 5.17 | **non autorisée** : rien n'est écrit dans `data/`, aucun outil ni test modifié | toi |
-| Commit de publication, push | non autorisés | toi, accords distincts |
+
+**D'après les contrôles rapportés par Claude Code**, au commit et au push : avant le commit, `HEAD` à
+`b6d72ae`, index vide, 33 fichiers suivis modifiés, 6 nouveaux fichiers projet ; index contrôlé (33
+`M`, 6 `A`, aucun artefact de relecture) ; après le commit, arbre suivi identique à `HEAD`. Avant le
+push, les six points demandés conformes, distant réel à `b6d72ae` ; après, `HEAD`, la référence
+locale `origin/ocha-v2` et le distant réel à `3d67594`, seuls les quatre artefacts de relecture non
+suivis. **La suite de tests et `publish` n'ont pas été relancés à ce moment** : le commit porte
+l'état relu, tel quel.
 
 **Passe finale 5.16, lot 26 « Passe finale » : CLOS.** Validé le 2026-10-07, committé (`9f3dc2b`) et
 poussé, chacun sur ton accord explicite ; `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`, 0 en
@@ -197,7 +209,7 @@ avance, 0 en retard. Le travail 5.16 est terminé ; aucune action 5.16 ne reste.
 | Traces documentaires | **corrigées** après ta vérification : en-tête, §8, §10 et sabotages du rapport de proposition ; cette note ; doctrine des listes fermées de `CLAUDE.md`. Aucune donnée, décision, lot, relation ni test modifié | Claude Code |
 | **Validation** | **faite le 2026-10-07** sur ton autorisation explicite : statuts seulement, 19 ENTRY rouvertes et 44 décisions D1570 à D1613 (`docs/rapports/etape2-A2-04-lot26-valide.md`) | toi |
 | Commit, push | **faits** : `9f3dc2b` (31 fichiers), puis push `8ce0e23..9f3dc2b`, sans force | toi, deux accords distincts |
-| Clôture documentaire | **préparée**, non committée : `ETAT-ACTUEL.md`, `ROADMAP.md`, `CLAUDE.md`, cette note | toi |
+| Clôture documentaire | **faite** : `ETAT-ACTUEL.md`, `ROADMAP.md`, `CLAUDE.md`, cette note ; committée (`b6d72ae`) et poussée | toi |
 
 **D'après les contrôles rapportés par Claude Code**, à la validation : comparés à des copies prises
 avant la bascule, le journal et les sept fichiers de lot ne diffèrent que par **63 lignes, toutes
@@ -288,7 +300,24 @@ D1569 ; `10` le diff contre `5e9a233` et le diff de la validation (statuts seule
 
 ## 4. Ce qui est attendu de cette relecture
 
-**Contrôler le diff final de 5.17, avant toute demande de commit** (rapport de publication, §12).
+**Contrôler la clôture documentaire de 5.17** : quatre documents, aucune donnée, aucun outil, aucun
+test.
+
+1. `CLAUDE.md`, `ETAT-ACTUEL.md`, `ROADMAP.md` et cette note enregistrent le commit poussé
+   (`3d67594844f607b4bba01005bdcf664fc2ef4193`). Dans les sections décrivant l'état courant, 5.17 ne
+   doit plus être présentée comme non committée, non poussée ou non autorisée. Les mentions
+   conservées dans les sections explicitement historiques restent valides lorsqu'elles décrivent
+   l'état de l'époque ;
+2. A2-04 y est marqué terminé, et **A2-05 annoncé comme prochaine action**, avec le point
+   obligatoire : audit individuel des 120 `categorie-nulle`, audit des 27 `type-nul`, distinction
+   entre les `null` réellement légitimes et les données à corriger, aucune clôture de l'étape 2 avant
+   cette preuve ;
+3. **Dire si tu autorises le commit documentaire.** Le push demandera un accord séparé.
+
+---
+
+*Section précédente, gardée pour mémoire :* **contrôler le diff final de 5.17, avant toute demande de
+commit** (rapport de publication, §12).
 
 1. **P8** (§12.2) : les deux documents de conception décrivent l'état publié, sans décision
    architecturale nouvelle ; les identifiants d'exemple viennent de la table de l'assembleur (dont
@@ -393,9 +422,10 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Ta relecture de l'essai de 5.17**, et tes décisions sur les cinq points du §9 du rapport.
-2. Sur ton accord : ce qui reste à faire avant le commit (les documents de format, P8), puis un
-   nouvel export.
-3. Puis, sur des accords distincts et explicites : le commit de publication, et le push.
-4. Ensuite : **l'audit A2-05, dont l'audit un par un des `null`, point de sortie de l'étape 2** ; le
-   graphe (G2 à G9) ; le registre de phrases (tâche 11).
+1. **Ta relecture de la clôture documentaire de 5.17** ; puis, sur des accords distincts et
+   explicites, son commit et son push.
+2. **A2-05, l'audit global du vocabulaire**, à ouvrir par un rapport de périmètre : aucune décision
+   avant son arbitrage. Il comprend obligatoirement l'audit individuel des 120 `categorie-nulle`,
+   l'audit des 27 `type-nul`, et la distinction entre les `null` réellement légitimes et les données
+   à corriger. **Aucune clôture de l'étape 2 avant cette preuve.**
+3. Ensuite : le graphe (G2 à G9) ; le registre de phrases (tâche 11).

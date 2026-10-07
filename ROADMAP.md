@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-07 (lot 26 clos, passe finale 5.16 terminée ; périmètre de 5.17 arbitré, exécution proposée)
+**Dernière mise à jour :** 2026-10-07 (publication 5.17 committée `3d67594` et poussée ; A2-04 terminé ; prochain chantier : A2-05)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -44,8 +44,9 @@ Plus précisément :
 **A2-04 · reconstruction du vocabulaire N5 → toutes les entrées sont décidées.** Les lots 0 à 25 sont
 validés (など retirée sans successeur au lot 25) ; l'addendum A9 (six fonctions linguistiques) est
 validé. **La passe finale 5.16 est terminée** (lot 26, validé le 2026-10-07, committé `9f3dc2b` et
-poussé). **Reste la publication 5.17**, dont le périmètre est arbitré et l'exécution proposée, non
-encore autorisée.
+poussé). **La publication 5.17 est faite** (committée `3d67594` et poussée le 2026-10-07) : le
+vocabulaire canonique est dans `data/`, **A2-04 est terminé**. **Prochain chantier : A2-05**, l'audit
+global du vocabulaire, dont l'audit un par un des `null`, point de sortie de l'étape 2.
 
 Les lots 0 à 20 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
@@ -215,7 +216,7 @@ Réalisé :
 
 ------------------------------------------------------------------------
 
-## 5. A2-04 · Reconstruction du vocabulaire N5 — 🔵 EN COURS
+## 5. A2-04 · Reconstruction du vocabulaire N5 — ✅ TERMINÉE
 
 Objectif : reconstruire le vocabulaire N5 dans le nouveau format
 canonique sans recopier aveuglément les défauts des anciens JSON.
@@ -276,7 +277,7 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **Lot 24** | Quantité, degré et comparaison | ✅ Terminé |
 | **Lot 25** | Retrait de など (préalable sur sa classe) | ✅ Terminé |
 | **5.16 · lot 26** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ✅ Terminé |
-| **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire (périmètre arbitré, exécution proposée) |
+| **5.17** | Publication atomique du vocabulaire canonique | ✅ Terminé (`3d67594`, poussé) |
 
 **Numérotation** (arbitrage du 2026-10-05) : à partir du lot 15, un lot est désigné par son numéro
 (« A2-04 · lot 15 »), sans nouveau numéro de sous-tâche. **5.16** reste la passe finale et **5.17**
@@ -534,15 +535,15 @@ Périmètre arbitré (neuf questions), proposition relue et révisée, puis **va
 Committé (`9f3dc2b`) et poussé : `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`. **Le travail 5.16
 est terminé ; aucune action 5.16 ne reste.**
 
-#### Publication 5.17 · périmètre arbitré, exécution proposée
+#### Publication 5.17 · faite, committée et poussée
 
 Le périmètre est recensé dans `docs/rapports/etape2-A2-04-lot27-perimetre-5-17.md` (le préfixe
 `lot27` sert à l'export ; il n'existe aucun lot 27), et **arbitré le 2026-10-07** (§9) : un essai dans
 l'arbre de travail puis un seul commit ; une commande de publication et un test permanent ; statu quo
 pour les lectures des mots en katakana et pour 家 ; un baseline des avertissements ; l'espace de
 reconstruction reste la source de vérité éditoriale. La **proposition d'exécution** est dans
-`docs/rapports/etape2-A2-04-lot27-proposition-5-17.md`. **Rien n'est exécuté, `data/` n'est pas
-modifié.** Ce qui suit est le recensement d'origine.
+`docs/rapports/etape2-A2-04-lot27-proposition-5-17.md`. Ce qui suit est le recensement d'origine,
+écrit avant l'exécution.
 
 -   **déjà décidé, à appliquer** : le plan de bascule d'A2-03 (vocabulaire canonique dans `data/`,
     `vocab-retired.json`, validateur lexical appelé par `validate-data`, `lieux.json` en
@@ -551,18 +552,24 @@ modifié.** Ce qui suit est le recensement d'origine.
     (lectures des mots en katakana, lecture うち de 家), et la façon de relire une opération qui tient
     en un seul commit.
 
-**Essai exécuté le 2026-10-07, dans l'arbre de travail, non committé** (rapport
+**Essai exécuté le 2026-10-07, dans l'arbre de travail** (rapport
 `docs/rapports/etape2-A2-04-lot27-publication-5-17.md`) : sept fichiers de `data/` publiés par la
 commande `publish`, `validate-data` basculé sur le validateur lexical, `events.js` avec E1 à E4 ; 510
 tests verts. Essai relu et conservé ; les documents de format (`docs/conception/README.md`,
-`GUIDE-CONTENU.md`) sont à jour. Le commit de publication n'est pas encore autorisé.
+`GUIDE-CONTENU.md`) sont à jour.
+
+**Committé puis poussé le 2026-10-07**, chacun sur l'accord explicite de ChatGPT : commit
+`3d67594844f607b4bba01005bdcf664fc2ef4193` (39 fichiers : 33 modifiés, 6 nouveaux), push
+`b6d72ae..3d67594`, sans force ; `ocha-v2` et `origin/ocha-v2` sont à `3d67594`. **A2-04 est
+terminé ; aucune action A2-04 ne reste.**
 
 **Point de sortie de l'étape 2** : l'inventaire des 148 avertissements est un baseline technique, non
 une validation. A2-05 doit auditer un par un les 120 `categorie-nulle` et les 27 `type-nul` ; l'étape
 2 ne se clôt pas avant.
 
-**Prochaine action immédiate :** la relecture de l'essai de 5.17 ; aucun commit ni push sans accord
-explicite.
+**Prochaine action immédiate :** ouvrir A2-05 par son périmètre (section 6). Il doit comprendre
+l'audit individuel des 120 `categorie-nulle`, l'audit des 27 `type-nul`, et la distinction entre les
+`null` réellement légitimes et les données à corriger. Aucun commit ni push sans accord explicite.
 
 ------------------------------------------------------------------------
 
@@ -825,7 +832,7 @@ Ensuite seulement :
    ├── A2-02 Registres                      ✅
    ├── A2-03 Validateur lexical             ✅
    │
-   ├── A2-04 Vocabulaire N5                 🔵
+   ├── A2-04 Vocabulaire N5                 ✅
    │   ├── 5.0 Infrastructure               ✅
    │   ├── Lot 0 Identité                   ✅
    │   ├── Lot 01 Personnes                 ✅
@@ -852,7 +859,7 @@ Ensuite seulement :
    │   ├── Lot 21 Fréquence, répétition     ✅
    │   ├── Lots 22 à 25                     ✅
    │   ├── 5.16 Passe finale (lot 26)       ✅
-   │   └── 5.17 Publication                 ⬜
+   │   └── 5.17 Publication                 ✅
    │
    ├── A2-05 Audit vocabulaire              ⬜
    ├── G2–G9 Graphe                         ⬜
