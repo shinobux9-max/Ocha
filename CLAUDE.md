@@ -262,7 +262,10 @@ faut savoir est dans le dépôt.
   « particule suffixe », aucune classe du registre n'est attestée ; **retrait sans successeur** (A3,
   L8), sans classe ni addendum, **sans règle générale sur les particules** ; les 3 phrases rangées
   sous `n5_v_602` sont pour 5.16. **Lot 25** (« Retrait de など ») : 1 entrée, D1569 (`retrait`) ;
-  **validé le 2026-10-07** (`docs/rapports/etape2-A2-04-lot25-valide.md`) ; ni committé ni poussé. Les 35 retraits
+  **validé le 2026-10-07** (`docs/rapports/etape2-A2-04-lot25-valide.md`) ; **committé (`b3740c7`) et
+  poussé** : `ocha-v2` et `origin/ocha-v2` sont à `b3740c7`. **Lot 25 clos ; toutes les entrées des
+  sources sont décidées.** Prochaine étape : préparer le périmètre exact de la passe finale 5.16, sans
+  modification avant accord explicite. Les 35 retraits
   comptent 33 fusions et deux suppressions : `v_717` (A3, d'emblée) et `v_602`. **Sabotages** : le
   harnais doit lancer `tests/reconstruction/*.test.js` et vérifier d'abord un témoin sain (erratum
   du 2026-10-06 : `node --test tests/reconstruction/` échoue toujours). Le regroupement « quantité et degré » n'est plus suspendu à la

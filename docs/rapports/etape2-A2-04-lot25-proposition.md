@@ -3,7 +3,7 @@
 **Date** : 2026-10-07
 **Nature** : livraison pour relecture, en `proposed` : l'unique entrée du lot et son unique décision
 de journal (D1569). **Validé le 2026-10-07**, statuts seulement (rapport
-`docs/rapports/etape2-A2-04-lot25-valide.md`) ; ni committé ni poussé.
+`docs/rapports/etape2-A2-04-lot25-valide.md`) ; committé (`b3740c7`) et poussé.
 **Autorisation** : après l'arbitrage du périmètre, approuvé sans correction (P1 à P3), ChatGPT a
 autorisé la proposition, par délégation ; l'utilisateur l'a transmise (« J'autorise la proposition du
 lot 25 »), en précisant que la validation, le commit et le push ne sont pas autorisés.

@@ -17,7 +17,8 @@ vérifiée, lot validé, committé (`f3e81bc`) et poussé** ; remote `origin` re
 arbitré, proposition livrée, 18 choix arbitrés et révisée, révision vérifiée, lot validé, committé
 (`2c89eb0`) et poussé** ; **lot 24 : périmètre arbitré, proposition livrée, 14 choix arbitrés et révisée, lot validé,
 committé (`affa45e`) et poussé**, suivi documentaire `5e9a233` poussé ; **préalable sur la classe de
-など ouvert et arbitré** (2026-10-07), **lot 25 : périmètre arbitré, proposition livrée et approuvée, lot validé** (ni committé ni poussé), dans une session Claude Code cloud.
+など ouvert et arbitré** (2026-10-07), **lot 25 : périmètre arbitré, proposition livrée et approuvée, lot validé, committé (`b3740c7`) et
+poussé**, dans une session Claude Code cloud.
 
 ## 1. Les rôles
 
@@ -142,7 +143,8 @@ réel : **670 ENTRY, 34 retraits, 15 écartées (toutes non décidées)**, 0 pro
 attente, 147 avertissements ; 1 509 décisions, toutes validées ; また non rouverte ; 476 tests verts ;
 40 sabotages attrapés.
 
-**Lot 25, « Retrait de など » : validé, ni committé ni poussé.**
+**Lot 25, « Retrait de など » : clos.** Validé, committé (`b3740c7`) et poussé ; toutes les entrées des
+sources sont décidées.
 
 | Étape | État | Qui décide |
 |---|---|---|
@@ -150,7 +152,7 @@ attente, 147 avertissements ; 1 509 décisions, toutes validées ; また non ro
 | Périmètre | **arbitré sans correction** (P1 à P3) : `n5_v_602` seule | toi |
 | Proposition lexicale | **livrée** : `lot-25.json` et D1569 (`docs/rapports/etape2-A2-04-lot25-proposition.md`) ; **approuvée sans correction** | toi |
 | **Validation** | **faite le 2026-10-07** sur ton autorisation explicite : statuts seulement, l'entrée `n5_v_602` et D1569 | toi |
-| Commit, push | **non autorisés** | **toi**, deux accords distincts |
+| Commit, push | **faits** : `b3740c7`, puis push `5e9a233..b3740c7` | toi, deux accords distincts |
 
 **Lot 24, « Quantité, degré et comparaison » : clos.** Validé, committé (`affa45e`) et poussé ;
 suivi documentaire `5e9a233`, poussé.
@@ -200,16 +202,8 @@ D1569 ; `10` le diff contre `5e9a233` et le diff de la validation (statuts seule
 
 ## 4. Ce qui est attendu de cette relecture
 
-**Contrôler le diff de validation** (`10`, et le rapport de validation dans `06`) :
-
-1. **statuts seulement** : l'entrée `n5_v_602` de `lot-25.json` et D1569, de `proposed` à
-   `validated` ; aucune autre ligne ne change ;
-2. **l'état réel** : 684 ENTRY, 35 retraits, 0 écartée ; assemblage complet sans problème ; 1 569
-   décisions, toutes validées ;
-3. **les sabotages**, rejoués sur l'état validé avec le harnais corrigé.
-
-Ensuite : l'accord explicite du commit (« j'autorise le commit »), puis, distinct, celui du push.
-Ton contrôle n'autorise ni l'un ni l'autre.
+Rien sur le lot 25, clos. La prochaine relecture portera sur le périmètre exact de la passe finale
+5.16.
 
 ## 5. Points ouverts
 
@@ -234,7 +228,8 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Ton contrôle de la validation du lot 25.**
-2. Le commit, puis le push, sur deux accords explicites et distincts.
-3. Ensuite, sur demande : la passe finale 5.16 (dont les 3 phrases de など), puis la publication
-   5.17.
+1. **Préparer le périmètre exact de la passe finale 5.16** : les 3 phrases rangées sous
+   `n5_v_602`, et les éléments déjà réservés à 5.16 (relations candidates, furigana de 頼む,
+   particule de すぐに, formes de 煙草 et 居る…), **sans aucune modification avant ton accord
+   explicite**.
+2. Ensuite : la passe 5.16 elle-même, puis la publication 5.17 et l'audit A2-05.

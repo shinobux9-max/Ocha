@@ -508,8 +508,10 @@ attestée. Arbitrage : retrait sans successeur (A3, L8), sans classe ni addendum
 générale sur les particules. Lot 25 « Retrait de など » : **1 entrée, 1 décision** (D1569, `retrait`).
 Les 3 phrases rangées sous `n5_v_602` sont pour 5.16.
 
-**Prochaine action immédiate :** commit puis push du lot 25, sur deux accords explicites et
-distincts ; ensuite, la passe finale 5.16.
+Committé (`b3740c7`) et poussé.
+
+**Prochaine action immédiate :** préparer le périmètre exact de la passe finale 5.16 (les 3 phrases
+de `など` et les éléments déjà réservés à 5.16), sans aucune modification avant accord explicite.
 
 ------------------------------------------------------------------------
 

@@ -5,8 +5,8 @@
 Aucun changement de contenu hors statuts.
 **Autorisation** : après la relecture de la proposition, approuvée sans correction, ChatGPT a autorisé
 la validation, par délégation ; l'utilisateur l'a transmise (« J'autorise la validation atomique du
-lot 25 »), en précisant que le commit et le push ne sont pas autorisés. **Rien n'est committé, rien
-n'est poussé.**
+lot 25 »), en précisant que le commit et le push ne sont pas autorisés. **Ensuite, sur deux accords
+explicites et distincts : committé (`b3740c7`) et poussé.** Lot 25 clos.
 
 **À lire avec** : `docs/rapports/etape2-A2-04-lot25-prealable-classe-nado.md` (préalable, arbitrage
 au §12), `docs/rapports/etape2-A2-04-lot25-perimetre.md` (périmètre),
