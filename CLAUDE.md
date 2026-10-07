@@ -255,8 +255,9 @@ faut savoir est dans le dépôt.
   D1567, A9 appliqué sens par sens ; **14 choix arbitrés**, quatre corrections appliquées à la
   révision (全部 `adverbe`, 大勢 `groupe_collectif`, dimension de 大体, « Raréfié » et « Suffisamment »
   gardées) : 59 décisions D1510 à D1568 ; **validé le 2026-10-06** (rapport
-  `docs/rapports/etape2-A2-04-lot24-valide.md`), sur l'autorisation explicite de ChatGPT ; **ni
-  committé ni poussé**. Reste など (préalable de classe). **Sabotages** : le
+  `docs/rapports/etape2-A2-04-lot24-valide.md`), sur l'autorisation explicite de ChatGPT ; **committé (`affa45e`) et
+  poussé** : `ocha-v2` et `origin/ocha-v2` sont à `affa45e`. **Lot 24 clos.** Reste など : la prochaine
+  action est d'ouvrir son préalable de classe, séparé de tout lot lexical. **Sabotages** : le
   harnais doit lancer `tests/reconstruction/*.test.js` et vérifier d'abord un témoin sain (erratum
   du 2026-10-06 : `node --test tests/reconstruction/` échoue toujours). Le regroupement « quantité et degré » n'est plus suspendu à la
   question des fonctions `quantificateur`, `comparatif` et `intensifieur`, que définit A9.

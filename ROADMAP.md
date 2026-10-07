@@ -498,8 +498,10 @@ sens 2, réservée à l'audit A2-05 ; など hors du lot 23.
 -   `少し` à trois sens ; `ちょっと`, `結構`, `一番`, `大体` à deux ; `ちょうど` sans fonction ni
     catégorie, axe `exactitude`.
 
-**Prochaine action immédiate :** commit puis push du lot 24, sur deux accords explicites et
-distincts ; ensuite, le préalable sur la classe de など, dernière entrée du vocabulaire N5.
+Committé (`affa45e`) et poussé.
+
+**Prochaine action immédiate :** ouvrir le préalable sur la classe de など, dernière entrée du
+vocabulaire N5, séparément de tout lot lexical.
 
 ------------------------------------------------------------------------
 

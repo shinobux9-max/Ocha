@@ -3,7 +3,7 @@
 **Date** : 2026-10-06
 **Nature** : livraison pour relecture, en `proposed` : les 14 entrées du lot et ses 58 décisions de
 journal (D1510 à D1567, puis D1568 à la révision). **Validé le 2026-10-06**, statuts seulement
-(rapport `docs/rapports/etape2-A2-04-lot24-valide.md`) ; ni committé ni poussé.
+(rapport `docs/rapports/etape2-A2-04-lot24-valide.md`) ; committé (`affa45e`) et poussé.
 
 **Version** : révisée le 2026-10-06 après l'arbitrage des 14 choix (§9). Les §1 à §8 restent la
 proposition telle qu'elle a été relue ; le §9 dit ce qui a changé (et corrige le §8 sur les
