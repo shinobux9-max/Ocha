@@ -15,7 +15,7 @@ import { DEFAULT_USER_SETTINGS, GUIDED_CONFIG } from '../../src/config.js';
 const at = (d, h = 8) => new Date(Date.UTC(2026, 9, 1 + d, h)).toISOString();
 let counter = 0;
 const id = () => `evt_${++counter}`;
-const vocab = (n) => ({ type: 'vocab', id: `n5_v_${n}` });
+const vocab = (n) => ({ type: 'vocab', id: `v_${n}` });
 const KANA = { type: 'kana', id: 'kana_あ' };
 const MIZU = { type: 'kanji', id: '水' };
 const LESSON = { type: 'grammar', id: 'g_8' };
@@ -38,16 +38,16 @@ const empty = createEmptyLearningState();
 // ── Qui quitte Nouveau ──────────────────────────────────────────────────────
 
 test('présentation d\'un élément Nouveau : il quitte Nouveau ; déjà Découvert : non', () => {
-  assert.deepEqual(leaving(empty, introduced(vocab(1))), ['n5_v_1']);
+  assert.deepEqual(leaving(empty, introduced(vocab(1))), ['v_1']);
   const discovered = applyEvent(empty, introduced(vocab(1))).state;
   assert.deepEqual(leaving(discovered, introduced(vocab(1))), []);
 });
 
 test('première réponse évaluée sur un élément Nouveau : il quitte Nouveau ; Découvert → En cours : non', () => {
-  assert.deepEqual(leaving(empty, answered(vocab(1), false)), ['n5_v_1']);
+  assert.deepEqual(leaving(empty, answered(vocab(1), false)), ['v_1']);
   const discovered = applyEvent(empty, introduced(vocab(1))).state;
   assert.deepEqual(leaving(discovered, answered(vocab(1), true)), [], 'déjà compté à la présentation');
-  assert.deepEqual(leaving(empty, answered([vocab(1), MIZU, KANA], true)), ['n5_v_1', '水', 'kana_あ']);
+  assert.deepEqual(leaving(empty, answered([vocab(1), MIZU, KANA], true)), ['v_1', '水', 'kana_あ']);
 });
 
 test('première note SRS sur un élément Nouveau : il quitte Nouveau', () => {

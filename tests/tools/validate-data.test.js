@@ -55,13 +55,25 @@ function registries() {
   };
 }
 
+// ENTRY au schéma A2-01 (publication d'A2-04) : validée par le validateur lexical, que
+// validate-data appelle. Valeurs minimales, prises dans les registres d'essai ci-dessus.
+const entry = (id, w, kana, romaji, furigana, linguistic = {}) => ({
+  id, level: 'N5', word: w, writings: [],
+  readings: [{ kana, romaji, furigana, default: true, note: null }],
+  linguistic: { grammatical_class: 'nom', group: 'nom', suru_compatible: false, suffix: false, counter: null, ...linguistic },
+  nuance: null, tags: [], retired_sense_ids: [],
+  senses: [{
+    id: `${id}_s1`, meaning: { primary: 'sens', alternatives: [] },
+    category: { level_1: 'temps', level_2: 'duree' }, semantic_type: 'lieu',
+    dimensions: [], relations: [], linguistic_functions: { grammatical: [], pragmatic_discourse: [] }
+  }]
+});
+
 function baseData() {
-  const word = (id, w, extra = {}) => ({
-    id, level: 'N5', word: w, reading: 'よみ', romaji: 'yomi',
-    meanings: { primary: 'sens' }, type: 'nom', group: 'nom', category: 'nourriture', kanji_list: [], ...extra
-  });
   return {
-    'n5/vocab.json': [word('n5_v_1', '水'), word('n5_v_2', '食べる', { group: 'ru', type: 'verbe' })],
+    'n5/vocab.json': [entry('v_1', '水', 'みず', 'mizu', R('水', 'みず')),
+      entry('v_2', '食べる', 'たべる', 'taberu', `${R('食', 'た')}べる`, { grammatical_class: 'verbe', group: 'ru' })],
+    'vocab-retired.json': [],
     'n5/grammar.json': [
       { id: 'g_1', level: 'N5', item: 'です', pattern: '[Nom] + です' },
       { id: 'g_2', level: 'N5', item: 'か', requires: { grammar: ['g_1'] } }
@@ -73,24 +85,24 @@ function baseData() {
     'registres.json': [{ id: 'poli' }, { id: 'familier' }],
     'expressions.json': [{ id: 'ex_1', variants: [{ register: 'poli', japanese: 'ありがとうございます', romaji: 'arigatou gozaimasu' }] }],
     'vocab-hors-jlpt.json': [],
-    'lieux.json': [{ id: 'konbini', vocab_categories: ['nourriture'] }],
+    'lieux.json': [{ id: 'konbini', vocab_tags: ['lieu_konbini'] }],
     'onboarding.json': [],
     'n5/missions.json': [{
       id: 'n5_m_1', place: 'konbini',
       requires: { grammar: ['g_1'] },
-      teaches: { vocab: ['n5_v_1'], expression: ['ex_1'] },
+      teaches: { vocab: ['v_1'], expression: ['ex_1'] },
       characters: [{ id: 'moi' }],
       dialogue: [{
         speaker: 'moi', japanese: `${R('水', 'みず')}です。`, romaji: 'mizu desu.', french: "C'est de l'eau.",
-        register: 'poli', refs: [{ text: '水', vocab: 'n5_v_1' }], grammar: ['g_1']
+        register: 'poli', refs: [{ text: '水', vocab: 'v_1' }], grammar: ['g_1']
       }],
-      exercises: [{ id: 'n5_m_1_q1', type: 'choice', target: { vocab: ['n5_v_1'] }, choices: ['a', 'b'], answer: 0 }]
+      exercises: [{ id: 'n5_m_1_q1', type: 'choice', target: { vocab: ['v_1'] }, choices: ['a', 'b'], answer: 0 }]
     }],
     'n5/lectures.json': [{
       id: 'n5_l_1', type: 'histoire', place: null,
-      requires: { grammar: ['g_1'] }, teaches: { vocab: ['n5_v_1'] },
+      requires: { grammar: ['g_1'] }, teaches: { vocab: ['v_1'] },
       blocks: [{ kind: 'paragraph', lines: [{ japanese: 'みずです。', romaji: 'mizu desu.', french: 'Eau.', register: 'poli' }] }],
-      questions: [{ id: 'n5_l_1_q1', target: { vocab: ['n5_v_1'] }, choices: ['a', 'b'], answer: 1, line_ref: [0, 0] }]
+      questions: [{ id: 'n5_l_1_q1', target: { vocab: ['v_1'] }, choices: ['a', 'b'], answer: 1, line_ref: [0, 0] }]
     }]
   };
 }
@@ -152,7 +164,7 @@ test('un kana ne peut pas être exigé', () => {
 test('question sans identifiant, sans cible, ou ciblant hors de l\'activité', () => {
   withData(modify((d) => {
     const ex = d['n5/missions.json'][0].exercises;
-    ex.push({ type: 'choice', target: { vocab: ['n5_v_1'] } });
+    ex.push({ type: 'choice', target: { vocab: ['v_1'] } });
     ex.push({ id: 'n5_m_1_q3' });
     ex.push({ id: 'n5_m_1_q4', target: { vocab: ['n5_v_2'] } });
   }), (r) => {
@@ -181,7 +193,7 @@ test('cycle de prérequis et leçon qui s\'exige elle-même', () => {
 });
 
 test('le requires d\'une leçon ne contient que de la grammaire', () => {
-  withData(modify((d) => { d['n5/grammar.json'][1].requires.vocab = ['n5_v_1']; }), (r) => {
+  withData(modify((d) => { d['n5/grammar.json'][1].requires.vocab = ['v_1']; }), (r) => {
     assert.ok(codes(r.errors).includes('cle-inconnue'));
   });
 });
@@ -229,47 +241,55 @@ test('line_ref qui ne désigne aucune ligne', () => {
   });
 });
 
-test('vocabulaire : champ manquant, doublon, lecture en romaji', () => {
+// Publication d'A2-04 : le vocabulaire est contrôlé par le validateur lexical, dont validate-data
+// fusionne le rapport. Les règles elles-mêmes sont testées dans tests/lexicon/ ; ici, on vérifie
+// que ses erreurs et ses avertissements arrivent bien dans le rapport de validate-data.
+test('vocabulaire : erreurs du validateur lexical fusionnées (champ manquant, doublon, lecture en romaji)', () => {
   withData(modify((d) => {
     const v = d['n5/vocab.json'];
-    delete v[0].type;
-    v[1].reading = 'taberu';
-    v.push({ ...v[0], type: 'nom' });
+    v.push(structuredClone(v[0]));
+    delete v[0].word;
+    v[1].readings[0].kana = 'taberu';
   }), (r) => {
     const c = codes(r.errors);
     assert.ok(c.includes('champ-manquant'));
-    assert.ok(c.includes('lecture-romaji'));
+    assert.ok(c.includes('kana-invalide'), 'une lecture en caractères latins est refusée');
     assert.ok(c.includes('id-duplique'));
   });
 });
 
-test('avertissements : teaches trop long, macron, group inconnu, suru', () => {
+test('avertissements : teaches trop long, macron, suru ; un group invalide est une erreur', () => {
   withData(modify((d) => {
     const v = d['n5/vocab.json'];
-    for (let i = 3; i <= 11; i++) v.push({ ...v[0], id: `n5_v_${i}` });
+    // Formes distinctes : deux ENTRY de même forme et de même lecture seraient un doublon d'unité.
+    for (let i = 3; i <= 11; i++) v.push(entry(`v_${i}`, 'あ'.repeat(i), 'あ'.repeat(i), 'a'.repeat(i), 'あ'.repeat(i)));
     d['n5/missions.json'][0].teaches.vocab = v.map((w) => w.id);
-    v[0].romaji = 'mizū';
-    v[0].group = 'nom_commun';
-    v[1].group = 'suru';
+    v[0].readings[0].romaji = 'mizū';
+    v[1].linguistic.group = 'suru';
   }), (r) => {
     const c = codes(r.warnings);
     assert.ok(c.includes('teaches-trop-long'));
     assert.ok(c.includes('romaji-macron'));
-    assert.ok(c.includes('group-inconnu'));
     assert.ok(c.includes('suru-sans-suru'));
     assert.deepEqual(r.errors, []);
   });
+  // L'ancien avertissement « group-inconnu » n'existe plus : `group` est contraint par la classe.
+  withData(modify((d) => { d['n5/vocab.json'][0].linguistic.group = 'nom_commun'; }), (r) => {
+    assert.ok(codes(r.errors).includes('group-invalide'));
+    assert.ok(!codes(r.warnings).includes('group-inconnu'));
+  });
 });
 
-test('catégories isolées ou en double', () => {
+// Les anciennes catégories libres ont disparu avec l'ancien format, et avec elles les avertissements
+// « categorie-isolee » et « categorie-doublon » : une catégorie est un chemin du registre, ou une erreur.
+test('catégorie : un chemin absent du registre est une erreur ; plus d\'avertissement de catégorie isolée ou en double', () => {
   withData(modify((d) => {
     const v = d['n5/vocab.json'];
-    v[0].category = 'personnes_famille';
-    v[1].category = 'famille_personnes';
+    v[0].senses[0].category = { level_1: 'personnes_famille' };
+    v[1].senses[0].category = { level_1: 'famille_personnes' };
   }), (r) => {
-    const c = codes(r.warnings);
-    assert.ok(c.includes('categorie-doublon'));
-    assert.ok(c.includes('categorie-isolee'));
+    assert.equal(codes(r.errors).filter((c) => c === 'categorie-inconnue').length, 2);
+    assert.ok(!codes(r.warnings).some((c) => c === 'categorie-doublon' || c === 'categorie-isolee'));
   });
 });
 
@@ -295,7 +315,7 @@ test('mapping.json et curriculum ne sont pas lus', () => {
 
 test("unicité des identifiants entre fichiers (même espace d'identifiants)", () => {
   withData(modify((d) => {
-    d['n4/vocab.json'] = [{ id: 'n5_v_1' }];
+    d['n4/vocab.json'] = [{ id: 'v_1' }];
     d['n4/grammar.json'] = [{ id: 'g_1' }];
   }), (r) => {
     const dups = r.errors.filter((e) => e.code === 'id-duplique-global');
@@ -304,21 +324,55 @@ test("unicité des identifiants entre fichiers (même espace d'identifiants)", (
   });
 });
 
+// Depuis la publication d'A2-04, l'identifiant ne dit plus le niveau (addendum A3) : c'est le champ
+// `level`, comparé au fichier, qui signale un mot hors JLPT rangé dans le vocabulaire N5.
 test('un mot hors JLPT placé dans le vocabulaire N5 est signalé', () => {
+  const hj = () => ({ ...entry('v_3', 'あい', 'あい', 'ai', 'あい'), level: 'hors_jlpt' });
   withData(modify((d) => {
-    d['vocab-hors-jlpt.json'] = [{ ...d['n5/vocab.json'][0], id: 'hj_v_1' }];
-    d['n5/vocab.json'].push({ ...d['n5/vocab.json'][0], id: 'hj_v_1' });
+    d['vocab-hors-jlpt.json'] = [hj()];
+    d['n5/vocab.json'].push(hj());
   }), (r) => {
     const c = codes(r.errors);
     assert.ok(c.includes('id-duplique-global'));
-    assert.ok(c.includes('prefixe-id'));
+    assert.ok(c.includes('niveau-fichier'));
+  });
+  // À sa place, dans vocab-hors-jlpt.json : aucune erreur.
+  withData(modify((d) => { d['vocab-hors-jlpt.json'] = [hj()]; }), (r) => assert.deepEqual(r.errors, []));
+});
+
+// `kanji_list` n'existe plus : les kanji d'un mot se calculent à partir de sa forme (A2).
+test('kanji_list n\'est plus un champ ; un kanji de la forme absent des kanji connus est signalé', () => {
+  withData(modify((d) => { d['n5/vocab.json'][0].kanji_list = ['水']; }), (r) => {
+    assert.ok(codes(r.errors).includes('champ-inconnu'));
+  });
+  withData(modify((d) => { d['n5/vocab.json'].push(entry('v_3', '風', 'かぜ', 'kaze', R('風', 'かぜ'))); }), (r) => {
+    assert.deepEqual(r.errors, []);
+    assert.deepEqual(r.warnings.filter((w) => w.code === 'kanji-inconnu').map((w) => w.where), ['n5/vocab.json · v_3']);
   });
 });
 
-test('kanji_list : une entrée = exactement un kanji', () => {
-  withData(modify((d) => { d['n5/vocab.json'][0].kanji_list = ['風呂']; }), (r) => {
-    assert.ok(codes(r.errors).includes('kanji-list-format'));
-    assert.ok(!codes(r.warnings).includes('kanji-inconnu'));
+test('vocab-retired.json : obligatoire ; un identifiant retiré ne peut pas être celui d\'une ENTRY', () => {
+  withData(modify((d) => { delete d['vocab-retired.json']; }), (r) => {
+    assert.ok(r.errors.some((e) => e.code === 'fichier-absent' && e.where === 'vocab-retired.json'));
+  });
+  withData(modify((d) => { d['vocab-retired.json'] = [{ id: 'v_1', merged_into: null }]; }), (r) => {
+    assert.ok(codes(r.errors).includes('id-retire'));
+  });
+});
+
+test('lieux : vocab_tags ne désigne que des tags existants de nature lieu (I14)', () => {
+  withData(modify((d) => { d['lieux.json'][0].vocab_tags = ['lieu_inconnu']; }), (r) => {
+    assert.ok(r.errors.some((e) => e.where.startsWith('lieux.json')), JSON.stringify(codes(r.errors)));
+  });
+  withData(modify((d) => { delete d['lieux.json'][0].vocab_tags; d['lieux.json'][0].vocab_categories = ['x']; }), (r) => {
+    assert.ok(r.errors.some((e) => e.code === 'lieu-format'), 'l\'ancien champ vocab_categories n\'est plus accepté');
+  });
+});
+
+test('une référence vers une ENTRY absente est refusée par les deux contrôles (2.7 et I19)', () => {
+  withData(modify((d) => { d['n5/missions.json'][0].teaches.vocab = ['v_404']; }), (r) => {
+    assert.ok(codes(r.errors).includes('ref-inexistante'));
+    assert.ok(r.errors.some((e) => e.where.includes('n5/missions.json') && e.message.includes('v_404')));
   });
 });
 
@@ -583,7 +637,8 @@ test('tags : la nature est lue dans kind, jamais déduite du préfixe de l\'iden
   // Préfixe « lieu_ » mais nature inconnue : refusé, le préfixe ne la rend pas valide.
   assert.ok(codes(errorsOf((d) => { d[REG('tags')].tags[0].kind = 'categorie'; })).includes('tag-kind'));
   // Nature « lieu » sans le préfixe : accepté, rien ne l'exige.
-  assert.deepEqual(errorsOf((d) => { d[REG('tags')].tags[0].id = 'pres_de_la_gare'; }), []);
+  // (Le lieu d'essai suit le tag renommé : vocab_tags doit désigner un tag existant.)
+  assert.deepEqual(errorsOf((d) => { d[REG('tags')].tags[0].id = 'pres_de_la_gare'; d['lieux.json'][0].vocab_tags = ['pres_de_la_gare']; }), []);
 });
 
 // ── A2-03 · 4.1 : règles transmises par l'audit d'A2-02 ──

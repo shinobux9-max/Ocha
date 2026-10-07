@@ -18,9 +18,9 @@ import { replay, seededRandom } from './replay.js';
 
 const CATALOG = {
   kana: ['kana_あ', 'kana_い'].map((id) => ({ type: 'kana', id })),
-  n5: [{ type: 'vocab', id: 'n5_v_1' }, { type: 'vocab', id: 'n5_v_2' }, { type: 'grammar', id: 'g_1' },
+  n5: [{ type: 'vocab', id: 'v_1' }, { type: 'vocab', id: 'v_2' }, { type: 'grammar', id: 'g_1' },
     { type: 'kanji', id: '水' }],
-  n4: [{ type: 'vocab', id: 'n4_v_1' }, { type: 'kanji', id: '働' }],
+  n4: [{ type: 'vocab', id: 'v_3' }, { type: 'kanji', id: '働' }],
   n3: [], n2: [], n1: []
 };
 const deps = { elementsOfScope: (level) => CATALOG[level] };
@@ -46,15 +46,15 @@ const graded = (ref, quality, at) => ev('REVIEW_GRADED', at, { element: ref, qua
 const introduced = (ref, at) => ev('CONTENT_INTRODUCED', at, { element: ref },
   { mode: 'free', source: 'learn', activityType: 'lesson' });
 
-const W1 = { type: 'vocab', id: 'n5_v_1' };
-const W2 = { type: 'vocab', id: 'n5_v_2' };
+const W1 = { type: 'vocab', id: 'v_1' };
+const W2 = { type: 'vocab', id: 'v_2' };
 const st = (s, id) => computeState(s.elements[id]);
 const run = (events, initial) => replay(events, { deps, initial });
 
 // ── Délai de vérification ───────────────────────────────────────────────────
 
 test('délai de vérification : entre 21 et 45 jours, réparti sans pic pour une déclaration (1.3)', () => {
-  const ids = Array.from({ length: 2000 }, (_, i) => `n5_v_${i}`);
+  const ids = Array.from({ length: 2000 }, (_, i) => `v_${i}`);
   const delays = ids.map((id) => declarationDelayDays(id, day(0)));
   assert.ok(delays.every((d) => d >= 21 && d <= 45 && Number.isInteger(d)));
   assert.equal(new Set(delays).size, 25, 'toute la fenêtre est utilisée');
@@ -66,7 +66,7 @@ test('délai de vérification : entre 21 et 45 jours, réparti sans pic pour une
 });
 
 test('délai de vérification : même élément et même déclaration → même délai, à chaque calcul (1.3)', () => {
-  const ids = Array.from({ length: 200 }, (_, i) => `n5_v_${i}`);
+  const ids = Array.from({ length: 200 }, (_, i) => `v_${i}`);
   for (const at of [day(0), day(7), new Date(day(7))]) {
     assert.deepEqual(ids.map((id) => declarationDelayDays(id, at)), ids.map((id) => declarationDelayDays(id, at)));
   }
@@ -74,16 +74,16 @@ test('délai de vérification : même élément et même déclaration → même 
   // Même élément, même date de déclaration : même entrée SRS dans deux journaux distincts.
   const a = run([declareElements([W1], 'dcl_a', day(3))]);
   const b = run([declareElements([W1], 'dcl_b', day(3))]);
-  assert.deepEqual(a.elements['n5_v_1'], b.elements['n5_v_1']);
+  assert.deepEqual(a.elements['v_1'], b.elements['v_1']);
 });
 
 test('délai de vérification : la date de déclaration participe à la répartition (1.3)', () => {
   // Deux dates peuvent donner le même délai (25 valeurs possibles) : on vérifie seulement que,
   // sur de nombreuses dates, un même élément ne tombe pas toujours au même délai.
-  const delays = Array.from({ length: 60 }, (_, i) => declarationDelayDays('n5_v_1', day(i)));
+  const delays = Array.from({ length: 60 }, (_, i) => declarationDelayDays('v_1', day(i)));
   assert.ok(new Set(delays).size > 1);
   assert.ok(delays.every((d) => d >= 21 && d <= 45));
-  assert.throws(() => declarationDelayDays('n5_v_1', 'hier'), TypeError);
+  assert.throws(() => declarationDelayDays('v_1', 'hier'), TypeError);
 });
 
 // ── KNOWLEDGE_DECLARED ──────────────────────────────────────────────────────
@@ -91,31 +91,31 @@ test('délai de vérification : la date de déclaration participe à la réparti
 test('déclaration : Nouveau, Découvert et En cours → Acquis, origine declared, non vérifié (3.4)', () => {
   const s = run([introduced(W2, day(0)), answered({ type: 'grammar', id: 'g_1' }, false, day(0)),
     declareScope('n5', 'dcl_1', day(2))]);
-  for (const id of ['n5_v_1', 'n5_v_2', 'g_1', '水']) {
+  for (const id of ['v_1', 'v_2', 'g_1', '水']) {
     assert.equal(st(s, id), 'acquired', id);
     assert.equal(s.elements[id].origin, ORIGINS.DECLARED);
     assert.equal(s.elements[id].verified, false);
   }
-  assert.equal(s.elements['n5_v_2'].introducedAt, day(0), 'date d\'introduction conservée');
-  assert.equal(s.elements['n5_v_1'].introducedAt, day(2), 'date d\'introduction posée si absente');
+  assert.equal(s.elements['v_2'].introducedAt, day(0), 'date d\'introduction conservée');
+  assert.equal(s.elements['v_1'].introducedAt, day(2), 'date d\'introduction posée si absente');
 });
 
 test('entrée SRS de déclaration : délai, 3 répétitions, facilité 2,5, sans dernière révision (décision)', () => {
   const s = run([declareElements([W1], 'dcl_1', day(0))]);
-  const delay = declarationDelayDays('n5_v_1', day(0));
-  assert.deepEqual(s.elements['n5_v_1'].srs, {
+  const delay = declarationDelayDays('v_1', day(0));
+  assert.deepEqual(s.elements['v_1'].srs, {
     interval: delay, easeFactor: 2.5, repetitions: 3, lastReviewDate: null,
     // 10 h à Paris ; à partir du 25 octobre (heure d'hiver), 10 h = 09:00 UTC.
     nextReviewDate: new Date(Date.UTC(2026, 9, 1 + delay, delay >= 24 ? 9 : 8)).toISOString()
   });
-  assert.deepEqual(checkElementFacts(s.elements['n5_v_1']), []);
+  assert.deepEqual(checkElementFacts(s.elements['v_1']), []);
 });
 
 test('échéance de déclaration le jour du passage à l\'heure d\'hiver : même heure locale', () => {
   // Un élément dont le délai, pour une déclaration du 1er octobre, tombe le 25 octobre :
   // 10 h à Paris = 09:00 UTC ce jour-là.
   let id;
-  for (let i = 0; !id; i++) if (declarationDelayDays(`n5_v_${i}`, day(0)) === 24) id = `n5_v_${i}`;
+  for (let i = 0; !id; i++) if (declarationDelayDays(`v_${i}`, day(0)) === 24) id = `v_${i}`;
   const s = run([declareElements([{ type: 'vocab', id }], 'd', day(0))]);
   assert.equal(s.elements[id].srs.nextReviewDate, '2026-10-25T09:00:00.000Z');
 });
@@ -123,21 +123,21 @@ test('échéance de déclaration le jour du passage à l\'heure d\'hiver : même
 test('une déclaration ne fait jamais reculer : Acquis et Maîtrisé ne sont pas touchés (1.5)', () => {
   let s = run([answered(W1, true, day(0))]);
   for (let i = 1; i <= 6; i++) s = run([graded(W1, 2, day(i))], s);
-  assert.equal(st(s, 'n5_v_1'), 'mastered');
-  const before = s.elements['n5_v_1'];
+  assert.equal(st(s, 'v_1'), 'mastered');
+  const before = s.elements['v_1'];
   s = run([declareScope('n5', 'dcl_1', day(10))], s);
-  assert.equal(s.elements['n5_v_1'], before);
-  assert.equal(s.elements['n5_v_1'].origin, ORIGINS.LEARNED);
-  assert.equal(Object.hasOwn(s.declarations.dcl_1.previous, 'n5_v_1'), false);
+  assert.equal(s.elements['v_1'], before);
+  assert.equal(s.elements['v_1'].origin, ORIGINS.LEARNED);
+  assert.equal(Object.hasOwn(s.declarations.dcl_1.previous, 'v_1'), false);
 });
 
 test('niveau déclaré : il inclut tous les niveaux inférieurs, kana compris (1.5)', () => {
   assert.deepEqual([...DECLARATION_SCOPE_ORDER], ['kana', 'n5', 'n4', 'n3', 'n2', 'n1']);
   const ids = (s) => Object.keys(s.elements).sort();
   assert.deepEqual(ids(run([declareScope('kana', 'd')])), ['kana_あ', 'kana_い']);
-  assert.deepEqual(ids(run([declareScope('n5', 'd')])), ['g_1', 'kana_あ', 'kana_い', 'n5_v_1', 'n5_v_2', '水']);
+  assert.deepEqual(ids(run([declareScope('n5', 'd')])), ['g_1', 'kana_あ', 'kana_い', 'v_1', 'v_2', '水']);
   assert.deepEqual(ids(run([declareScope('n4', 'd')])),
-    ['g_1', 'kana_あ', 'kana_い', 'n4_v_1', 'n5_v_1', 'n5_v_2', '働', '水']);
+    ['g_1', 'kana_あ', 'kana_い', 'v_1', 'v_2', 'v_3', '働', '水']);
 });
 
 test('un niveau sans contenu est enregistré, sans autre effet (1.5)', () => {
@@ -154,7 +154,7 @@ test('un niveau sans contenu est enregistré, sans autre effet (1.5)', () => {
 
 test('test de positionnement : origine tested ; les éléments non validés ne changent pas (1.5)', () => {
   const s = run([declareElements([W1, { type: 'kana', id: 'kana_あ' }], 'dcl_test', day(0), 'tested')]);
-  assert.equal(s.elements['n5_v_1'].origin, ORIGINS.TESTED);
+  assert.equal(s.elements['v_1'].origin, ORIGINS.TESTED);
   assert.equal(st(s, 'kana_あ'), 'acquired');
   assert.equal(st(s, 'kana_い'), 'new');
 });
@@ -163,7 +163,7 @@ test('trace de la déclaration : faits précédents des seuls éléments modifi�
   const s = run([introduced(W2, day(0)), declareElements([W1, W2], 'dcl_1', day(1))]);
   assert.deepEqual(s.declarations.dcl_1, {
     id: 'dcl_1', at: day(1), origin: 'declared', elements: [W1, W2],
-    previous: { n5_v_1: null, n5_v_2: { id: 'n5_v_2', introducedAt: day(0) } },
+    previous: { v_1: null, v_2: { id: 'v_2', introducedAt: day(0) } },
     undoneAt: null
   });
 });
@@ -172,7 +172,7 @@ test('déclaration : faiblesses inchangées ; changed liste éléments et décla
   const start = run([answered(W1, false, day(0))]);
   const { state, changed } = applyEvent(start, declareElements([W1], 'dcl_1', day(1)), undefined, deps);
   assert.deepEqual(state.weaknesses, start.weaknesses);
-  assert.deepEqual(changed, { elements: ['n5_v_1'], weaknesses: [], declarations: ['dcl_1'], activities: [] });
+  assert.deepEqual(changed, { elements: ['v_1'], weaknesses: [], declarations: ['dcl_1'], activities: [] });
 });
 
 test('erreurs explicites : identifiant de déclaration déjà utilisé, niveau sans fonction de contenu', () => {
@@ -185,7 +185,7 @@ test('erreurs explicites : identifiant de déclaration déjà utilisé, niveau s
 test('première révision d\'un élément déclaré : aucun recul pour chaque délai de 21 à 45 jours et chaque note', () => {
   const byDelay = new Map();
   for (let i = 0; byDelay.size < 25 && i < 10000; i++) {
-    const id = `n5_v_${i}`;
+    const id = `v_${i + 1}`;
     const delay = declarationDelayDays(id, day(0));
     if (!byDelay.has(delay)) byDelay.set(delay, id);
   }
@@ -211,8 +211,8 @@ test('annulation : les éléments retrouvent leurs faits précédents (1.5, 3.4)
   const declared = run([declareScope('n5', 'dcl_1', day(1))], start);
   const undone = run([undo('dcl_1', day(2))], declared);
   assert.deepEqual(undone.elements, start.elements, 'retour exact à l\'état d\'avant');
-  assert.equal(st(undone, 'n5_v_1'), 'new');
-  assert.equal(st(undone, 'n5_v_2'), 'discovered');
+  assert.equal(st(undone, 'v_1'), 'new');
+  assert.equal(st(undone, 'v_2'), 'discovered');
   assert.equal(st(undone, 'g_1'), 'learning');
   assert.equal(undone.declarations.dcl_1.undoneAt, day(2));
 });
@@ -220,17 +220,17 @@ test('annulation : les éléments retrouvent leurs faits précédents (1.5, 3.4)
 test('annulation : un élément sans faits avant la déclaration disparaît du suivi', () => {
   const declared = run([declareElements([W1], 'dcl_1', day(0))]);
   const { state, changed } = applyEvent(declared, undo('dcl_1', day(1)), undefined, deps);
-  assert.equal(Object.hasOwn(state.elements, 'n5_v_1'), false);
-  assert.deepEqual(changed.elements, ['n5_v_1']);
+  assert.equal(Object.hasOwn(state.elements, 'v_1'), false);
+  assert.deepEqual(changed.elements, ['v_1']);
 });
 
 test('annulation : un élément révisé depuis garde ses révisions réelles (3.4)', () => {
   const declared = run([declareElements([W1, W2], 'dcl_1', day(0))]);
   const reviewed = run([graded(W1, 0, day(30))], declared);
   const undone = run([undo('dcl_1', day(31))], reviewed);
-  assert.deepEqual(undone.elements['n5_v_1'], reviewed.elements['n5_v_1']);
-  assert.equal(undone.elements['n5_v_1'].verified, true);
-  assert.equal(st(undone, 'n5_v_2'), 'new');
+  assert.deepEqual(undone.elements['v_1'], reviewed.elements['v_1']);
+  assert.equal(undone.elements['v_1'].verified, true);
+  assert.equal(st(undone, 'v_2'), 'new');
 });
 
 test('annulation : un élément repris par une déclaration plus récente n\'est pas rétabli', () => {
@@ -238,19 +238,19 @@ test('annulation : un élément repris par une déclaration plus récente n\'est
   s = run([graded(W1, 0, day(25))], s);           // vérifié, redevenu En cours
   s = run([declareElements([W1], 'dcl_2', day(26))], s); // de nouveau déclaré
   const afterUndo1 = run([undo('dcl_1', day(27))], s);
-  assert.deepEqual(afterUndo1.elements['n5_v_1'], s.elements['n5_v_1']);
+  assert.deepEqual(afterUndo1.elements['v_1'], s.elements['v_1']);
   const afterUndo2 = run([undo('dcl_2', day(28))], afterUndo1);
-  assert.equal(st(afterUndo2, 'n5_v_1'), 'learning'); // état d'avant dcl_2
+  assert.equal(st(afterUndo2, 'v_1'), 'learning'); // état d'avant dcl_2
 });
 
 test('annulation : une réponse de pratique depuis la déclaration n\'empêche pas le rétablissement', () => {
   // Une réponse hors révision ne modifie pas les faits d'un élément déjà En cours ou plus.
   const declared = run([declareElements([W1], 'dcl_1', day(0))]);
   const practiced = run([answered(W1, false, day(3))], declared);
-  assert.deepEqual(practiced.elements['n5_v_1'], declared.elements['n5_v_1']);
+  assert.deepEqual(practiced.elements['v_1'], declared.elements['v_1']);
   const undone = run([undo('dcl_1', day(4))], practiced);
-  assert.equal(st(undone, 'n5_v_1'), 'new');
-  assert.ok(undone.weaknesses['n5_v_1'], 'la faiblesse, fait distinct, est conservée');
+  assert.equal(st(undone, 'v_1'), 'new');
+  assert.ok(undone.weaknesses['v_1'], 'la faiblesse, fait distinct, est conservée');
 });
 
 test('annulation : déjà annulée → sans effet ; déclaration inconnue → erreur', () => {

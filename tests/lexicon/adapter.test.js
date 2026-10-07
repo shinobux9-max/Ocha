@@ -94,10 +94,12 @@ test('extraction sur les vraies données : toutes les occurrences, ni plus ni mo
   const expressions = read('expressions.json');
   const refs = extractReferences({ activities, expressions });
   const occurrences = ['n5/missions.json', 'n5/lectures.json', 'expressions.json']
-    .flatMap((f) => readFileSync(join(DATA_DIR, f), 'utf8').match(/"(?:n5|hj)_v_\d+"/g) || [])
+    .flatMap((f) => readFileSync(join(DATA_DIR, f), 'utf8').match(/"v_\d+"/g) || [])
     .map((s) => s.slice(1, -1)).sort();
   assert.deepEqual(refs.map((r) => r.vocab).sort(), occurrences);
   assert.ok(refs.length > 0);
+  // Depuis la publication d'A2-04 (5.17), les références sont canoniques : plus aucune ancienne forme.
+  assert.ok(refs.every((r) => /^v_[1-9][0-9]*$/.test(r.vocab)));
 });
 
 test('branchement prêt : dépendances et références assemblées, validées sur la fixture', () => {
@@ -109,11 +111,17 @@ test('branchement prêt : dépendances et références assemblées, validées su
   assert.deepEqual(r.errors, []);
 });
 
-// Préparer le branchement n'est pas effectuer la bascule : validate-data garde l'ancien contrôle
-// du vocabulaire et n'appelle pas le validateur lexical avant la publication d'A2-04.
-test('aucune bascule avant A2-04 : validate-data n\'appelle pas le validateur lexical', () => {
+// Publication d'A2-04 (5.17) : la bascule est faite. validate-data appelle le validateur lexical
+// sur data/, par l'adaptateur, et n'a plus l'ancien contrôle du vocabulaire (plan d'A2-03, §4).
+test('bascule faite à la publication d\'A2-04 : validate-data appelle le validateur lexical, sans l\'ancien contrôle', () => {
   const src = readFileSync(join(ROOT, 'tools', 'validate-data.mjs'), 'utf8');
-  assert.ok(!/validateLexicon|lexicon-adapter|lexicon\/index\.mjs/.test(src));
-  assert.match(src, /function checkVocab\(/);
-  assert.match(src, /lexicon\/schema\.mjs/, 'seule la liste des registres est partagée');
+  assert.match(src, /import \{ validateLexicon \} from '\.\/lexicon\/index\.mjs'/);
+  assert.match(src, /import \{ readLexiconDependencies, extractReferences, readActivities \} from '\.\/lexicon-adapter\.mjs'/);
+  assert.match(src, /validateLexicon\(\{/, 'le validateur lexical est appelé');
+  assert.match(src, /includeLieux: true/, 'avec les lieux (I14)');
+  assert.match(src, /'vocab-retired\.json', report, \{ required: true \}/, 'identifiants retirés obligatoires');
+  for (const gone of ['function checkVocab(', 'function checkCategories(', 'categorie-isolee', 'categorie-doublon', 'kanji_list', 'KNOWN_GROUPS', 'vocab_categories']) {
+    assert.ok(!src.includes(gone), `« ${gone} » : retiré avec l'ancien contrôle du vocabulaire`);
+  }
+  assert.match(src, /lexicon\/schema\.mjs/, 'la liste des registres reste partagée');
 });

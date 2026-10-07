@@ -5,12 +5,10 @@
 // références au vocabulaire des formats sources actuels. Il est placé HORS de tools/lexicon/
 // pour que le cœur reste sans accès au disque.
 //
-// Préparer le branchement n'est pas effectuer la bascule (arbitrage d'A2-03) :
-//   - A2-04.0 : l'outil d'assemblage utilisera cet adaptateur sur l'espace de reconstruction ;
-//   - publication d'A2-04 : validate-data l'appellera sur data/, dans le même commit que le
-//     retrait de l'ancien contrôle du vocabulaire.
-// D'ici là, rien n'appelle le validateur lexical sur data/n5/vocab.json, qui reste à l'ancien
-// format.
+// Deux appelants (arbitrage d'A2-03) :
+//   - depuis A2-04.0, l'outil d'assemblage, sur l'espace de reconstruction ;
+//   - depuis la publication d'A2-04 (5.17), validate-data, sur data/, à la place de l'ancien
+//     contrôle du vocabulaire. data/n5/vocab.json est au schéma A2-01.
 
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
@@ -29,8 +27,8 @@ const isObject = (v) => v !== null && typeof v === 'object' && !Array.isArray(v)
  *     anomalie de données (ETAT-ACTUEL.md) ;
  *   - particles : valeurs `particle` des particles.json présents (I15) ;
  *   - expressions : expressions.json (I14 : seul `tags` est examiné) ;
- *   - lieux : seulement si `includeLieux` est vrai. lieux.json reste à l'ancien format jusqu'à la
- *     publication d'A2-04 ; il n'y a aucune détection automatique du format.
+ *   - lieux : seulement si `includeLieux` est vrai. Depuis la publication d'A2-04 (5.17),
+ *     lieux.json porte `vocab_tags` ; il n'y a aucune détection automatique du format.
  */
 export function readLexiconDependencies(dataDir, { includeLieux = false } = {}) {
   const knownKanji = new Set();

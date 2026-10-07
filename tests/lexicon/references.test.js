@@ -133,7 +133,9 @@ test('lieux (futur format) : vocab_tags ne désigne que des tags existants de na
   assertErr('type-invalide', (x) => { x.lieux = lieu(['']); }, 'tag vide');
 });
 
-test('le vrai lieux.json n\'est pas migré par A2-03', () => {
+// A2-03 ne migrait pas lieux.json ; la publication d'A2-04 (5.17) l'a fait : chaque lieu porte
+// `vocab_tags`, et plus `vocab_categories`.
+test('le vrai lieux.json est au format publié : vocab_tags, sans vocab_categories', () => {
   const lieux = JSON.parse(readFileSync(join(DATA_DIR, 'lieux.json'), 'utf8'));
-  assert.ok(lieux.every((l) => Array.isArray(l.vocab_categories) && !('vocab_tags' in l)));
+  assert.ok(lieux.length > 0 && lieux.every((l) => Array.isArray(l.vocab_tags) && l.vocab_tags.length === 1 && !('vocab_categories' in l)));
 });

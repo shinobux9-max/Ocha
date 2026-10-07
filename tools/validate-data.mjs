@@ -22,6 +22,10 @@ import { GUIDED_CONFIG } from '../src/config.js';
 import { kanaProblems, kanaEntries } from '../src/content/index.js';
 // Liste unique des registres et de leur source, partagée avec le validateur lexical (A2-03).
 import { REGISTRY_SOURCES } from './lexicon/schema.mjs';
+// Vocabulaire : depuis la publication d'A2-04 (5.17), il est validé par le validateur lexical
+// (schéma A2-01), qui remplace l'ancien contrôle du vocabulaire. L'adaptateur lit ses dépendances.
+import { validateLexicon } from './lexicon/index.mjs';
+import { readLexiconDependencies, extractReferences, readActivities } from './lexicon-adapter.mjs';
 
 // ── Périmètre ───────────────────────────────────────────────────────────────
 
@@ -59,16 +63,8 @@ export const IGNORED_FILES = ['mapping.json', join('curriculum', 'n5.json')];
 
 // ── Valeurs connues ─────────────────────────────────────────────────────────
 
-// `group` du vocabulaire (addendum 2.10) : catégories qui se conjuguent…
-const CONJUGABLE_GROUPS = ['ru', 'u', 'irrégulier', 'suru', 'i', 'na', 'nom'];
-// …et catégories qui ne se conjuguent pas (décision du 2026-09-30, ETAT-ACTUEL.md).
-const OTHER_GROUPS = ['adverbe', 'pronom', 'interrogatif', 'démonstratif', 'conjonction',
-  'temps', 'quantité', 'interjection'];
-export const KNOWN_GROUPS = new Set([...CONJUGABLE_GROUPS, ...OTHER_GROUPS]);
-
 const REF_KEYS = ['grammar', 'vocab', 'kanji', 'kana', 'expression']; // partie 2, 2.3
 const MACRON = /[āīūēōĀĪŪĒŌ]/;                                         // GUIDE-CONTENU, §2
-const LATIN = /[A-Za-z]/;
 const stripRuby = (s) => String(s).replace(/<ruby>(.*?)<rt>.*?<\/rt><\/ruby>/g, '$1');
 
 // ── Collecte des problèmes ──────────────────────────────────────────────────
@@ -105,7 +101,7 @@ function buildIndex(dataDir, report) {
     kanji: new Set(), kanjiKnown: new Set(),
     // Kana : le catalogue de data/kana.json (décision du 2026-10-01).
     kana: new Set(),
-    registers: new Set(), places: new Set(), categories: new Map(),
+    registers: new Set(), places: new Set(),
     // Niveau du fichier où chaque élément est défini (« vocab:<id> », « grammar:<id> ») : c'est
     // la place du fichier qui le donne, jamais l'identifiant (addendum A4).
     fileLevel: new Map()
@@ -162,13 +158,6 @@ function buildIndex(dataDir, report) {
   const lieux = loadJson(dataDir, 'lieux.json', report);
   if (Array.isArray(lieux)) lieux.forEach((l) => l && l.id && index.places.add(l.id));
 
-  // Catégories : seulement celles des niveaux validés et des mots hors JLPT (les niveaux hors
-  // périmètre ont encore leurs anciennes catégories).
-  for (const w of index.vocab.values()) {
-    const lvl = index.fileLevel.get(`vocab:${w.id}`);
-    const inScope = lvl === 'hors_jlpt' || VALIDATED_LEVELS.includes(lvl);
-    if (inScope && w.category) index.categories.set(w.category, (index.categories.get(w.category) || 0) + 1);
-  }
   return { index, files: { hj, expressions, registres, lieux } };
 }
 
@@ -363,52 +352,33 @@ function checkGrammarCycles(report, grammar, where) {
 
 // ── Vocabulaire ─────────────────────────────────────────────────────────────
 
-function checkVocab(index, report, where0, vocab, prefix) {
-  const ids = new Set();
-  const unknownGroups = new Map();
-  for (const w of vocab) {
-    const where = `${where0} · ${w?.id ?? '?'}`;
-    if (!w || typeof w.id !== 'string') { report.error('format', where0, 'mot sans identifiant'); continue; }
-    if (ids.has(w.id)) report.error('id-duplique', where, 'identifiant en double');
-    ids.add(w.id);
-    if (!w.id.startsWith(prefix)) report.error('prefixe-id', where, `l'identifiant devrait commencer par « ${prefix} »`);
-    for (const f of ['word', 'reading', 'romaji', 'type', 'group', 'category']) {
-      if (typeof w[f] !== 'string' || w[f] === '') report.error('champ-manquant', where, `champ « ${f} » manquant`);
-    }
-    if (!w.meanings || typeof w.meanings.primary !== 'string') report.error('champ-manquant', where, 'champ « meanings.primary » manquant');
-    if (typeof w.reading === 'string' && LATIN.test(w.reading)) report.error('lecture-romaji', where, `lecture en caractères latins : « ${w.reading} »`);
-    if (typeof w.romaji === 'string' && MACRON.test(w.romaji)) report.warn('romaji-macron', where, `romaji avec macron : « ${w.romaji} »`);
-    if (typeof w.group === 'string' && w.group !== '' && !KNOWN_GROUPS.has(w.group)) {
-      unknownGroups.set(w.group, [...(unknownGroups.get(w.group) || []), w.id]);
-    }
-    if (w.group === 'suru' && typeof w.word === 'string' && !w.word.endsWith('する')) {
-      report.warn('suru-sans-suru', where, `group « suru » mais le mot « ${w.word} » ne se termine pas par する`);
-    }
-    for (const k of w.kanji_list || []) {
-      if (typeof k !== 'string' || [...k].length !== 1) {
-        report.error('kanji-list-format', where, `« kanji_list » : chaque entrée doit être un seul kanji (« ${k} »)`);
-      } else if (!index.kanjiKnown.has(k)) {
-        report.warn('kanji-inconnu', where, `kanji « ${k} » absent des listes de kanji`);
-      }
-    }
+// Le vocabulaire des niveaux validés et les mots hors JLPT sont au schéma A2-01 : le validateur
+// lexical (tools/lexicon/) en est le seul contrôle. Il reçoit les fichiers avec leur niveau, les
+// identifiants retirés, les dépendances lues par l'adaptateur (registres, kanji connus,
+// particules, expressions, lieux) et les références extraites des missions, des lectures et des
+// expressions. Son rapport est fusionné tel quel : mêmes codes, mêmes emplacements.
+// Un niveau hors périmètre (N4 à N1) garde son ancien format et n'est pas validé ici.
+function checkLexicon(dataDir, report, vocabByLevel, hj) {
+  const retired = loadJson(dataDir, 'vocab-retired.json', report, { required: true });
+  const files = VALIDATED_LEVELS.filter((lvl) => Array.isArray(vocabByLevel[lvl]))
+    .map((lvl) => ({ file: `${lvl}/vocab.json`, level: lvl.toUpperCase(), entries: vocabByLevel[lvl] }));
+  if (Array.isArray(hj)) files.push({ file: 'vocab-hors-jlpt.json', level: 'hors_jlpt', entries: hj });
+  if (files.length === 0 || retired === undefined) return;
+  let deps;
+  try {
+    deps = readLexiconDependencies(dataDir, { includeLieux: true });
+  } catch (e) {
+    report.error('lexique-dependances', 'data/', `dépendances du validateur lexical illisibles : ${e.message}`);
+    return;
   }
-  for (const [g, list] of unknownGroups) {
-    report.warn('group-inconnu', where0, `« group » inconnu « ${g} » (${list.length} mot(s), ex. ${list.slice(0, 3).join(', ')})`);
-  }
-}
-
-function checkCategories(index, report) {
-  const cats = [...index.categories.keys()];
-  for (const c of cats) {
-    if (index.categories.get(c) === 1) report.warn('categorie-isolee', 'vocabulaire', `catégorie « ${c} » utilisée par un seul mot (faute de frappe ?)`);
-  }
-  const norm = (c) => c.split('_').sort().join('_');
-  const seen = new Map();
-  for (const c of cats) {
-    const n = norm(c);
-    if (seen.has(n) && seen.get(n) !== c) report.warn('categorie-doublon', 'vocabulaire', `catégories « ${seen.get(n)} » et « ${c} » semblent identiques`);
-    else seen.set(n, c);
-  }
+  const references = extractReferences({ activities: readActivities(dataDir, VALIDATED_LEVELS), expressions: deps.expressions });
+  const lexical = validateLexicon({
+    files, retired, references,
+    registries: deps.registries, knownKanji: deps.knownKanji, particles: deps.particles,
+    expressions: deps.expressions, lieux: deps.lieux
+  });
+  for (const e of lexical.errors) report.error(e.code, e.where, e.message);
+  for (const w of lexical.warnings) report.warn(w.code, w.where, w.message);
 }
 
 // ── Fichiers de contenu v2 ──────────────────────────────────────────────────
@@ -490,13 +460,10 @@ function checkExpressions(index, report, expressions) {
   }
 }
 
-function checkLieux(index, report, lieux) {
-  for (const l of lieux) {
-    checkReservedPrefix(report, `lieux.json · ${l?.id ?? '?'}`, l?.id, 'lieu');
-    for (const c of l?.vocab_categories || []) {
-      if (!index.categories.has(c)) report.warn('categorie-inconnue', `lieux.json · ${l.id}`, `catégorie de vocabulaire inconnue « ${c} »`);
-    }
-  }
+// Lieux : `vocab_tags` (tags existants, de nature `lieu`) est contrôlé par le validateur lexical
+// (I14). Ici, seul le préfixe réservé des identifiants.
+function checkLieux(report, lieux) {
+  for (const l of lieux) checkReservedPrefix(report, `lieux.json · ${l?.id ?? '?'}`, l?.id, 'lieu');
 }
 
 function checkParticles(index, report, lvl, particles) {
@@ -685,13 +652,14 @@ export function validateData(dataDir) {
   const report = new Report();
   const { index, files } = buildIndex(dataDir, report);
 
+  const vocabByLevel = {};
   for (const lvl of VALIDATED_LEVELS) {
     const vocab = loadJson(dataDir, join(lvl, 'vocab.json'), report, { required: true });
     const grammar = loadJson(dataDir, join(lvl, 'grammar.json'), report, { required: true });
     loadJson(dataDir, join(lvl, 'kanji.json'), report, { required: true });
     loadJson(dataDir, join(lvl, 'exemples.json'), report);
     loadJson(dataDir, conceptsPath(lvl), report);
-    if (Array.isArray(vocab)) checkVocab(index, report, `${lvl}/vocab.json`, vocab, `${lvl}_v_`);
+    vocabByLevel[lvl] = vocab;
     if (Array.isArray(grammar)) checkGrammar(index, report, lvl, grammar);
 
     const questionIds = new Set();
@@ -703,9 +671,9 @@ export function validateData(dataDir) {
     if (Array.isArray(particles)) checkParticles(index, report, lvl, particles);
   }
 
-  if (Array.isArray(files.hj)) checkVocab(index, report, 'vocab-hors-jlpt.json', files.hj, 'hj_v_');
+  checkLexicon(dataDir, report, vocabByLevel, files.hj);
   if (Array.isArray(files.expressions)) checkExpressions(index, report, files.expressions);
-  if (Array.isArray(files.lieux)) checkLieux(index, report, files.lieux);
+  if (Array.isArray(files.lieux)) checkLieux(report, files.lieux);
   if (Array.isArray(files.registres)) {
     for (const r of files.registres) checkReservedPrefix(report, `registres.json · ${r?.id ?? '?'}`, r?.id, 'registre');
   }
@@ -714,7 +682,6 @@ export function validateData(dataDir) {
     const data = loadJson(dataDir, join('registries', file), report, { required: true });
     if (data !== undefined) check(report, data);
   }
-  checkCategories(index, report);
 
   return report;
 }

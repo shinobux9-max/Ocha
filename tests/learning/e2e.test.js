@@ -27,7 +27,7 @@ import { DEFAULT_USER_SETTINGS } from '../../src/config.js';
 const CATALOG = {
   kana: ['kana_あ', 'kana_い', 'kana_う'].map((id) => ({ type: 'kana', id })),
   n5: [{ type: 'grammar', id: 'g_8' }, { type: 'kanji', id: '水' },
-    ...Array.from({ length: 9 }, (_, i) => ({ type: 'vocab', id: `n5_v_${i + 1}` }))],
+    ...Array.from({ length: 9 }, (_, i) => ({ type: 'vocab', id: `v_${i + 1}` }))],
   n4: [], n3: [], n2: [], n1: []
 };
 const ALL = Object.values(CATALOG).flat();
@@ -130,7 +130,7 @@ test('étape 1 de bout en bout : trois mois d\'apprentissage, invariants vérifi
   await send('SESSION_STARTED', { sessionType: 'normal', plannedMinutes: 12, plan: ['lesson'] },
     { mode: 'guided', source: 'home' }, { sessionId: S, session: { id: S, position: 0 } });
   await send('ACTIVITY_STARTED', { activityId: 'g_8', activityType: 'lesson' }, GUIDED_LESSON, { sessionId: S });
-  for (const id of ['g_8', 'n5_v_1', 'n5_v_2']) {
+  for (const id of ['g_8', 'v_1', 'v_2']) {
     await send('CONTENT_INTRODUCED', { element: ref(id) }, GUIDED_LESSON, { sessionId: S });
   }
   assert.equal(st('g_8'), 'discovered');
@@ -150,20 +150,20 @@ test('étape 1 de bout en bout : trois mois d\'apprentissage, invariants vérifi
 
   // Pratique libre : un mot nouveau, raté ; la réponse part deux fois (double clic).
   const { event: missed } = await send('QUESTION_ANSWERED',
-    { questionId: 'gen:meaning:n5_v_3:a', target: [ref('n5_v_3')], correct: false }, PRACTICE);
+    { questionId: 'gen:meaning:v_3:a', target: [ref('v_3')], correct: false }, PRACTICE);
   assert.equal((await learning.recordLearningEvent(missed)).status, RECORD_STATUS.DUPLICATE);
-  assert.equal(learning.getSnapshot().weaknesses.n5_v_3.consecutiveFails, 1, 'le doublon n\'a pas d\'effet');
-  assert.equal(st('n5_v_3'), 'learning');
+  assert.equal(learning.getSnapshot().weaknesses.v_3.consecutiveFails, 1, 'le doublon n\'a pas d\'effet');
+  assert.equal(st('v_3'), 'learning');
   assert.equal(await budget(), 4, 'les nouveautés hors du mode guidé comptent (S10)');
 
   // Test de positionnement : réponses sans effet.
-  await send('QUESTION_ANSWERED', { questionId: 'placement_q1', target: [ref('n5_v_9')], correct: false }, PLACEMENT);
-  assert.equal(st('n5_v_9'), 'new');
+  await send('QUESTION_ANSWERED', { questionId: 'placement_q1', target: [ref('v_9')], correct: false }, PLACEMENT);
+  assert.equal(st('v_9'), 'new');
 
   // Événements refusés : invalide, élément inexistant, REVIEW_GRADED hors révision.
-  await send('QUESTION_ANSWERED', { questionId: 'q', target: [{ type: 'vocab', id: 'n5_v_404' }], correct: true },
+  await send('QUESTION_ANSWERED', { questionId: 'q', target: [{ type: 'vocab', id: 'v_404' }], correct: true },
     PRACTICE, { expect: RECORD_STATUS.REJECTED });
-  await send('REVIEW_GRADED', { element: ref('n5_v_1'), quality: 2 }, PRACTICE, { expect: RECORD_STATUS.REJECTED });
+  await send('REVIEW_GRADED', { element: ref('v_1'), quality: 2 }, PRACTICE, { expect: RECORD_STATUS.REJECTED });
 
   await reloadAndCompare('fin du jour 0');
 
@@ -171,18 +171,18 @@ test('étape 1 de bout en bout : trois mois d\'apprentissage, invariants vérifi
   setDay(1);
   assert.equal(await budget(), 0, 'nouveau jour, nouveau budget');
   await send('REVIEW_GRADED', { element: ref('g_8'), quality: 2 }, REVIEW);
-  await send('REVIEW_GRADED', { element: ref('n5_v_3'), quality: 0 }, REVIEW);
-  const weakV3 = learning.getSnapshot().weaknesses.n5_v_3;
+  await send('REVIEW_GRADED', { element: ref('v_3'), quality: 0 }, REVIEW);
+  const weakV3 = learning.getSnapshot().weaknesses.v_3;
   assert.equal(weakV3.consecutiveFails, 2);
   assert.ok(isWeaknessActive(weakV3));
 
   // Le stockage échoue (écriture, compaction, nouvelle tentative) : réponse en attente.
   store.failNextCommit('quota', 3);
   const pendingAnswer = await send('QUESTION_ANSWERED',
-    { questionId: 'gen:meaning:n5_v_3:b', target: [ref('n5_v_3')], correct: true }, PRACTICE,
+    { questionId: 'gen:meaning:v_3:b', target: [ref('v_3')], correct: true }, PRACTICE,
     { expect: RECORD_STATUS.PENDING });
   // Une seconde réponse attend derrière, même si le stockage refonctionne.
-  await send('QUESTION_ANSWERED', { questionId: 'gen:meaning:n5_v_3:c', target: [ref('n5_v_3')], correct: true },
+  await send('QUESTION_ANSWERED', { questionId: 'gen:meaning:v_3:c', target: [ref('v_3')], correct: true },
     PRACTICE, { expect: RECORD_STATUS.PENDING });
   assert.equal(learning.getWriteFailure().pendingCount, 2);
   assert.equal(await store.get('events', pendingAnswer.event.id), undefined);
@@ -191,7 +191,7 @@ test('étape 1 de bout en bout : trois mois d\'apprentissage, invariants vérifi
   assert.deepEqual(await learning.retry(), { status: 'recovered', recorded: 2, remaining: 0 });
   stats.recorded += 2; stats.answers += 2;
   assert.equal(learning.getWriteFailure(), null);
-  assert.equal(learning.getSnapshot().weaknesses.n5_v_3.consecutiveFails, 0);
+  assert.equal(learning.getSnapshot().weaknesses.v_3.consecutiveFails, 0);
   assert.notEqual(learning.getSnapshot(), before);
 
   // ═══ Jour 2 — « Je le connais déjà », puis annulation le lendemain ════════
@@ -222,15 +222,15 @@ test('étape 1 de bout en bout : trois mois d\'apprentissage, invariants vérifi
   const beforeN5 = learning.getSnapshot();
   await send('KNOWLEDGE_DECLARED', { scope: 'n5', origin: 'declared', declarationId: 'dcl_n5' }, ONBOARDING);
   assert.equal(learning.getSnapshot().elements.g_8, beforeN5.elements.g_8, 'maîtrisé : non touché');
-  for (const id of ['n5_v_1', 'n5_v_3', 'n5_v_9', '水']) assert.equal(st(id), 'acquired', id);
+  for (const id of ['v_1', 'v_3', 'v_9', '水']) assert.equal(st(id), 'acquired', id);
   assert.equal(await budget(), 0);
   // Une vraie révision entre la déclaration et son annulation : elle doit primer.
-  await send('REVIEW_GRADED', { element: ref('n5_v_3'), quality: 0 }, REVIEW);
-  const reviewedV3 = learning.getSnapshot().elements.n5_v_3;
+  await send('REVIEW_GRADED', { element: ref('v_3'), quality: 0 }, REVIEW);
+  const reviewedV3 = learning.getSnapshot().elements.v_3;
   assert.equal(reviewedV3.verified, true);
   await send('KNOWLEDGE_DECLARATION_UNDONE', { declarationId: 'dcl_n5' }, ONBOARDING);
-  const { n5_v_3: keptV3, ...others } = learning.getSnapshot().elements;
-  const { n5_v_3: _oldV3, ...othersBefore } = beforeN5.elements;
+  const { v_3: keptV3, ...others } = learning.getSnapshot().elements;
+  const { v_3: _oldV3, ...othersBefore } = beforeN5.elements;
   assert.deepEqual(others, othersBefore, 'annulation : retour exact des éléments non révisés');
   assert.equal(keptV3, reviewedV3, 'annulation : l\'élément révisé garde sa révision');
   assert.ok(clock.now > new Date(Date.UTC(2026, 11, 1)), 'plus de deux mois écoulés');
@@ -239,8 +239,8 @@ test('étape 1 de bout en bout : trois mois d\'apprentissage, invariants vérifi
   const snap = learning.getSnapshot();
   const expected = {
     kana_あ: 'acquired', kana_い: 'acquired', kana_う: 'acquired', // déclarés, jamais révisés
-    g_8: 'mastered', n5_v_1: 'discovered', n5_v_2: 'discovered', n5_v_3: 'learning',
-    水: 'new', n5_v_9: 'new', n5_v_4: 'new'
+    g_8: 'mastered', v_1: 'discovered', v_2: 'discovered', v_3: 'learning',
+    水: 'new', v_9: 'new', v_4: 'new'
   };
   for (const [id, state] of Object.entries(expected)) assert.equal(st(id), state, id);
   assert.equal(snap.elements.kana_あ.origin, 'declared');

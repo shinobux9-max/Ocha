@@ -11,8 +11,8 @@ import { replay } from './replay.js';
 
 const at = (d, h = 8) => new Date(Date.UTC(2026, 9, 1 + d, h)).toISOString();
 let counter = 0;
-const W1 = { type: 'vocab', id: 'n5_v_1' };
-const W2 = { type: 'vocab', id: 'n5_v_2' };
+const W1 = { type: 'vocab', id: 'v_1' };
+const W2 = { type: 'vocab', id: 'v_2' };
 const answered = (ref, correct, when = at(0)) => ({ id: `evt_${++counter}`, type: 'QUESTION_ANSWERED', at: when,
   context: { mode: 'free', source: 'practice', activityType: 'quiz' }, payload: { questionId: 'q', target: [ref], correct } });
 const undone = (declarationId) => ({ id: `evt_${++counter}`, type: 'KNOWLEDGE_DECLARATION_UNDONE', at: at(0),
@@ -178,7 +178,7 @@ test('idempotence : un événement renvoyé pendant l\'échec n\'a d\'effet qu\'
   await learning.recordLearningEvent(e);
   await learning.recordLearningEvent(e); // double clic, ou nouvelle tentative de l'écran
   assert.deepEqual(await learning.retry(), { status: 'recovered', recorded: 1, remaining: 0 });
-  assert.equal(learning.getSnapshot().weaknesses['n5_v_1'].consecutiveFails, 1);
+  assert.equal(learning.getSnapshot().weaknesses['v_1'].consecutiveFails, 1);
   assert.equal((await store.getAll('events')).length, 1);
 });
 
@@ -226,7 +226,7 @@ test('la file est volatile : après redémarrage, seul ce qui a été confirmé 
   const { learning: restarted } = await setup({ store });
   assert.equal(restarted.getWriteFailure(), null);
   assert.deepEqual(await ids(store), [confirmed.id]);
-  assert.deepEqual(Object.keys(restarted.getSnapshot().elements), ['n5_v_1']);
+  assert.deepEqual(Object.keys(restarted.getSnapshot().elements), ['v_1']);
 });
 
 // ── Erreurs qui ne viennent pas du stockage ─────────────────────────────────

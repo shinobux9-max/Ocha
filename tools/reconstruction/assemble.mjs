@@ -9,7 +9,8 @@
 //     une entrée pas encore assemblée est mise EN ATTENTE (signalée, retirée de la copie validée,
 //     sa forme locale étant vérifiée ici) ; les références (I19) ne sont pas contrôlées ;
 //   - complete : chaque entrée source doit être décidée ; I12 et I19 s'appliquent à tout.
-// La sortie n'est jamais écrite dans data/ : la publication (A2-04.17) est une opération à part.
+// L'assembleur n'écrit jamais dans data/ : la publication (A2-04 · 5.17) est une opération à part,
+// `run.mjs publish`, qui projette cette sortie (publish.mjs).
 
 import { prefillAll, newId, numberOf } from './mechanical.mjs';
 import { checkJournal, checkLots } from './decisions.mjs';
@@ -158,13 +159,23 @@ export function validateAssembly(assembly, deps, { references } = {}) {
   return { errors: [...problems, ...report.errors], warnings: report.warnings, infos: report.infos, pending };
 }
 
-/** Remplace les anciens identifiants des références par les nouveaux (fusions comprises). */
-export function remapReferences(references, idMap) {
+/**
+ * Remplace les anciens identifiants des références par les nouveaux (fusions comprises).
+ * Idempotent, jamais permissif (arbitrage de la proposition de 5.17, choix 4). Trois cas seulement :
+ *   - ancien identifiant connu de la table → l'identifiant canonique prévu ;
+ *   - identifiant déjà canonique, existant parmi les ENTRY assemblées → conservé tel quel (après la
+ *     publication, data/ porte déjà les nouveaux identifiants) ;
+ *   - toute autre référence (inconnue, ou visant une ENTRY retirée sans successeur) → `unknown`.
+ * @param {Set<string>} [canonical] identifiants des ENTRY assemblées ; par défaut, ceux que la table
+ *   donne aux entrées gardées et aux survivants de fusion
+ */
+export function remapReferences(references, idMap, canonical = new Set(Object.values(idMap).filter((v) => typeof v === 'string'))) {
   const out = [];
   const unknown = [];
   for (const r of references) {
-    if (!Object.hasOwn(idMap, r.vocab) || idMap[r.vocab] === null) unknown.push(r);
-    else out.push({ ...r, vocab: idMap[r.vocab] });
+    if (Object.hasOwn(idMap, r.vocab) && idMap[r.vocab] !== null) out.push({ ...r, vocab: idMap[r.vocab] });
+    else if (!Object.hasOwn(idMap, r.vocab) && canonical.has(r.vocab)) out.push({ ...r });
+    else unknown.push(r);
   }
   return { references: out, unknown };
 }

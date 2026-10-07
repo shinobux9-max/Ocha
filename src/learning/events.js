@@ -40,10 +40,12 @@ export const REF_TYPES = Object.freeze(['grammar', 'vocab', 'kanji', 'kana', 'ex
 // Forme des identifiants d'éléments (partie 1, 1.1 ; partie 2, 2.2).
 // Grammaire : `g_<n>`, sans niveau (addendum A4, contrôle E5 de schema-A2-01.md) ; le niveau
 // d'une leçon est son champ `level`, jamais déduit de l'identifiant.
-// Vocabulaire : forme actuelle jusqu'à la publication d'A2-04, qui passera à `v_<n>` (E1).
+// Vocabulaire : `v_<n>`, sans niveau (addendum A3, contrôle E1), depuis la publication d'A2-04.
+// Sens d'une ENTRY : `v_<n>_s<m>` (contrôle E2).
+const SENSE_ID = /^v_[1-9][0-9]*_s[1-9][0-9]*$/;
 const REF_ID_SHAPES = {
   grammar: (id) => /^g_[1-9][0-9]*$/.test(id),
-  vocab: (id) => /^(n[1-5]|hj)_v_.+$/.test(id),
+  vocab: (id) => /^v_[1-9][0-9]*$/.test(id),
   kanji: (id) => [...id].length === 1,
   kana: (id) => /^kana_.+$/.test(id),
   expression: (id) => /^ex_.+$/.test(id)
@@ -201,12 +203,24 @@ const PAYLOADS = {
     check(p, problems, refs) { checkRef(p.element, 'payload.element', problems, refs); }
   },
   QUESTION_ANSWERED: {
-    keys: ['questionId', 'target', 'correct', 'answer'],
+    keys: ['questionId', 'target', 'correct', 'answer', 'senseId'],
     check(p, problems, refs) {
       if (!isText(p.questionId)) problems.push('payload.questionId : texte non vide attendu');
       checkRefList(p.target, 'payload.target', problems, refs);
       if (typeof p.correct !== 'boolean') problems.push('payload.correct : booléen attendu');
       // `answer` est facultatif (« Je savais / Je ne savais pas » n'a pas de réponse saisie).
+      // `senseId` est facultatif (E2) : il dit quel sens de l'ENTRY la question visait. Il n'est
+      // admis que si la cible contient exactement une référence `vocab`, et s'il désigne un sens de
+      // cette ENTRY (E3). Il ne sert qu'au journal : aucun effet n'en dépend (E4).
+      if (p.senseId !== undefined) {
+        if (!isText(p.senseId) || !SENSE_ID.test(p.senseId)) {
+          problems.push(`payload.senseId : identifiant de sens « v_<n>_s<m> » attendu (« ${String(p.senseId)} »)`);
+        } else {
+          const vocab = Array.isArray(p.target) ? p.target.filter((r) => isObject(r) && r.type === 'vocab') : [];
+          if (vocab.length !== 1) problems.push('payload.senseId : admis seulement si la cible contient exactement une référence de vocabulaire');
+          else if (!p.senseId.startsWith(`${vocab[0].id}_s`)) problems.push(`payload.senseId : « ${p.senseId} » n'est pas un sens de « ${String(vocab[0].id)} »`);
+        }
+      }
     }
   },
   REVIEW_GRADED: {

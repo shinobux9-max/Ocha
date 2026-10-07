@@ -23,7 +23,8 @@ poussé**, suivi documentaire `8ce0e23` poussé ; **périmètre de la passe fina
 vérifié ; **périmètre de 5.16 arbitré, proposition du lot 26 livrée** (2026-10-07), **relue (avis
 favorable sous une correction), quatre choix arbitrés, raison de D1613 révisée**, **révision
 vérifiée par ChatGPT, traces documentaires corrigées** ; **lot 26 validé** (2026-10-07), **committé
-(`9f3dc2b`) et poussé** ; **clôture documentaire préparée, périmètre de la publication 5.17 proposé**.
+(`9f3dc2b`) et poussé** ; **clôture documentaire et périmètre de 5.17 arbitré committés (`b6d72ae`),
+non poussés** ; **proposition d'exécution de 5.17 livrée**.
 
 ## 1. Les rôles
 
@@ -148,14 +149,39 @@ réel : **670 ENTRY, 34 retraits, 15 écartées (toutes non décidées)**, 0 pro
 attente, 147 avertissements ; 1 509 décisions, toutes validées ; また non rouverte ; 476 tests verts ;
 40 sabotages attrapés.
 
-**Publication 5.17 : périmètre proposé, arbitrage attendu.**
+**Publication 5.17 : périmètre arbitré, proposition d'exécution à relire.**
 
 | Étape | État | Qui décide |
 |---|---|---|
-| Recensement et périmètre | **livrés** : `docs/rapports/etape2-A2-04-lot27-perimetre-5-17.md` (le préfixe `lot27` sert à l'export ; **il n'existe aucun lot 27**) ; 9 éléments déjà décidés à appliquer, 8 questions à arbitrer | Claude Code |
-| Arbitrage (Q1 à Q8) | **attendu** | **toi** |
-| Exécution de 5.17 | **non autorisée** : aucune donnée de `data/`, aucun outil, aucun test, aucune décision lexicale | toi |
-| Commit, push | non autorisés | toi, accords distincts |
+| Recensement et périmètre | **livrés** : `docs/rapports/etape2-A2-04-lot27-perimetre-5-17.md` (le préfixe `lot27` sert à l'export ; **il n'existe aucun lot 27**) | Claude Code |
+| Arbitrage (Q1 à Q8) | **rendu** le 2026-10-07, consigné au §9 du rapport de périmètre ; Q3 et Q4 closes par statu quo : aucune décision lexicale avant la publication | toi |
+| Commit documentaire | **fait et poussé** : `b6d72ae` (les quatre documents de suivi et le rapport de périmètre) ; `ocha-v2` et `origin/ocha-v2` sont à `b6d72ae` | toi |
+| Proposition d'exécution | **livrée** : `docs/rapports/etape2-A2-04-lot27-proposition-5-17.md` ; un plan, **rien n'est exécuté** | Claude Code |
+| Relecture du plan, neuf choix (§10) | **faite** : neuf choix arbitrés, tous acceptés (§16.1) ; un blocage relevé dans le protocole de l'inventaire | toi |
+| Correction du plan | **faite et acceptée** : inventaire amorcé avant toute écriture dans `data/` (§16.2) ; mécanisme d'amorçage validé | toi |
+| **Essai de 5.17** | **exécuté dans l'arbre de travail le 2026-10-07**, sur ton autorisation explicite ; **non committé, non poussé** (`docs/rapports/etape2-A2-04-lot27-publication-5-17.md`) | toi |
+| Relecture de l'essai | **faite** le 2026-10-07 : essai conservé ; cinq points arbitrés (rapport de publication, §12) ; un écart de procédure relevé à l'étape 7, protocole corrigé | toi |
+| P8, documents de format | **fait** : `docs/conception/README.md`, `GUIDE-CONTENU.md`, trois en-têtes de commentaire (§12.2) ; **à contrôler** | **toi** |
+| Commit de publication, push | **non autorisés** | toi, accords distincts |
+
+**POINT DE GOUVERNANCE, à ne jamais perdre de vue.** Les 148 avertissements de l'inventaire
+(`reconstruction/a2-04/avertissements-connus.json`) sont un **baseline technique connu**. **Ils ne
+valent pas validation de leur légitimité.** Avant toute clôture de l'étape 2, A2-05 doit auditer un
+par un les **120 `categorie-nulle`** (cas légitimes d'unités grammaticales, discursives ou
+pragmatiques, contre sens lexicaux qui auraient dû recevoir une catégorie) et les **27 `type-nul`**
+(même principe pour `semantic_type`), et prouver que les `null` restants sont intentionnels et
+conformes aux normes. Le `kanji-inconnu` (醤) relève du chantier de données. **L'étape 2 ne peut pas
+être considérée comme terminée tant que cet audit n'est pas fait.**
+
+**D'après les contrôles rapportés par Claude Code**, à l'essai : ordre validé suivi sans arrêt ;
+comptes exacts à l'étape 2 (682 et 2 ENTRY, 35 retraits, 4 lieux, 71 références, 0 erreur, 148
+avertissements : 120, 27, 1) ; inventaire amorcé sur le baseline exact, un seul fichier écrit, `data/`
+intact ; second contrôle sans condition bloquante ; `publish --write` : sept fichiers de `data/`, et
+eux seuls, idempotent ; remappage contrôlé contre `b6d72ae` (ancien état remappé identique au fichier
+publié, 71 jetons) ; `validate-data` : 0 erreur, 149 avertissements ; assemblage 684, 35, 0 ; **510
+tests verts** ; **30 sabotages attrapés sur 31**.
+| Exécution de 5.17 | **non autorisée** : rien n'est écrit dans `data/`, aucun outil ni test modifié | toi |
+| Commit de publication, push | non autorisés | toi, accords distincts |
 
 **Passe finale 5.16, lot 26 « Passe finale » : CLOS.** Validé le 2026-10-07, committé (`9f3dc2b`) et
 poussé, chacun sur ton accord explicite ; `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`, 0 en
@@ -262,36 +288,82 @@ D1569 ; `10` le diff contre `5e9a233` et le diff de la validation (statuts seule
 
 ## 4. Ce qui est attendu de cette relecture
 
-Deux choses, distinctes.
+**Contrôler le diff final de 5.17, avant toute demande de commit** (rapport de publication, §12).
 
-**A. Contrôler la clôture documentaire du lot 26** (diff du `10`, pris contre `9f3dc2b`) : quatre
-documents seulement (`ETAT-ACTUEL.md`, `ROADMAP.md`, `CLAUDE.md`, cette note). Ils doivent dire : lot
-26 validé ; commit `9f3dc2b` créé et poussé ; branches locale et distante alignées ; travail 5.16
-terminé, aucune action 5.16 restante ; prochaine action identifiée. Aucune donnée, aucun lot, aucun
-journal, aucun test, aucun outil n'est modifié. Dis si tu autorises le commit de cette clôture ; le
-push demandera un accord séparé. Le rapport de périmètre de 5.17, fichier nouveau, peut entrer dans
-ce commit ou attendre son arbitrage : dis-le.
+1. **P8** (§12.2) : les deux documents de conception décrivent l'état publié, sans décision
+   architecturale nouvelle ; les identifiants d'exemple viennent de la table de l'assembleur (dont
+   `n5_v_45` → `v_44`, par fusion) ; les trois en-têtes de commentaire ne changent aucun code ;
+2. **Une correction hors de ta liste** : une phrase de `tools/export-relecture.mjs`, qui disait encore
+   que le validateur lexical n'était pas appliqué à `data/` ;
+3. **Tes cinq arbitrages** sont consignés tels que rendus (§12.1), et le **protocole corrigé** est
+   écrit (§12.3) : suite pré-publication avant `publish --write`, suite complète après, aucun test
+   rouge interprété à la volée ;
+4. **Les contrôles** après ces corrections (§12.4) : `publish` idempotent, `data/` identique à la
+   publication calculée ;
+5. **Dire si tu autorises le commit de publication.** Le push demandera un accord séparé.
 
-**B. Arbitrer le périmètre de la publication 5.17** (rapport de périmètre, §6) :
+**Le périmètre du futur commit** : tout le diff du `10`, pris contre `b6d72ae`, c'est-à-dire les
+fichiers suivis modifiés et six fichiers nouveaux (`data/vocab-retired.json`,
+`tools/reconstruction/publish.mjs`, `reconstruction/a2-04/avertissements-connus.json`,
+`tests/reconstruction/publication.test.js`, et les deux rapports `lot27` de proposition et de
+publication ; le rapport de périmètre est déjà committé). `chatgpt-relecture/` et les archives ZIP
+n'y entrent pas.
 
-1. **Q1, le véhicule** : une opération qui tient en un seul commit, relue sur un essai préparé dans
-   l'arbre de travail avant d'être committée ;
-2. **Q2, l'origine des fichiers publiés** : la sortie de l'assembleur, écrite telle quelle, et un
-   test permanent qui la compare à `data/` ;
-3. **Q3, Q4, deux questions lexicales** que les documents réservent « avant 5.17 » : les lectures des
-   64 mots en katakana ; la lecture うち de 家. **Elles sont posées, non décidées** : rien n'est
-   proposé sur le fond sans ton arbitrage ;
-4. **Q5, les avertissements** : 148 avertissements du validateur lexical apparaîtront dans
-   `validate-data` ;
-5. **Q6, Q7, Q8, les frontières** : fichiers figés non remappés, ancienne application, corrections
-   après la publication.
+---
 
-Vérifie aussi que le recensement est complet (§3 à §5) et que rien n'y est décidé. Ton arbitrage
-n'autorisera ni l'exécution de 5.17, ni commit, ni push : chacun demande un accord explicite.
+*Section précédente, gardée pour mémoire :* **relire l'essai de 5.17** (rapport de publication).
+L'essai est **dans l'arbre de travail, non committé**. Cinq points demandaient ton avis (rapport, §9) :
 
-**Dans cet export** : `06` contient le rapport de périmètre de 5.17 ; `07`, la fiche source de 家 ;
-`08` n'est pas un fichier de lot (il n'en existe aucun pour 5.17) ; `09` est vide ; `10` le diff
-contre `9f3dc2b` et les contrôles.
+1. **Une partie du plan n'est pas faite** : les sections de format de `docs/conception/README.md` et
+   de `GUIDE-CONTENU.md`, et trois en-têtes de commentaire. Le plan les met dans le même commit : ils
+   restent à faire avant lui ;
+2. **Deux tests hors de la liste annoncée ont été modifiés**, sans arrêt de l'essai : `workspace.test.js`
+   (resserré : un seul point d'écriture vers `data/`) et `references.test.js` ;
+3. **Un sabotage n'est pas attrapé** : une référence changée à la main vers une autre ENTRY existante ;
+4. **Une lecture faite à l'étape 7** : un test lisant le vrai `data/` ne pouvait passer qu'après
+   l'écriture ;
+5. **La migration des fixtures** (choix 6) : neuf fichiers et non treize ; trois endroits ne sont pas
+   un pur remplacement d'identifiant (rapport, §6.1).
+
+Dis ce que tu acceptes, ce que tu veux corriger, et si un garde-fou de plus est voulu. Tu n'as
+autorisé ni commit ni push : je n'en ferai aucun.
+
+**Dans cet export** : `06` contient le rapport de publication, la proposition (§16) et le périmètre ;
+`10` le diff complet contre `b6d72ae` et les contrôles. **Le diff de `data/n5/vocab.json` remplace
+tout le fichier** (plus de 50 000 lignes) : pour la migration des fixtures, cherche dans `10` les neuf
+fichiers du §6.1 du rapport.
+
+---
+
+*Section précédente, gardée pour mémoire :* **vérifier la correction du plan d'exécution de 5.17**
+(rapport de proposition, §16). C'était un **plan** : rien n'était exécuté.
+
+1. **Tes neuf arbitrages** sont consignés tels que tu les as rendus (§16.1) ; la règle stricte du
+   choix 4 est écrite en trois cas (§6) ;
+2. **Le protocole de l'inventaire est corrigé** (§16.2) :
+   - §2.2 : l'inventaire absent bloque toute publication, la première comprise ;
+   - §5.1 : l'amorçage en six étapes, accepté sur le seul baseline exact (0 erreur ; 148
+     avertissements ; 120, 27, 1), qui n'écrit que `avertissements-connus.json` ;
+   - §5.2 : la règle permanente, où une diminution reste permise ;
+   - §11 : l'ordre d'exécution, en huit étapes, où `data/` n'est écrit qu'après le second contrôle ;
+   - §8.1 : les six cas de test que tu as demandés ;
+3. **Un point de mise en œuvre que tu n'as pas arbitré**, et que je te soumets : l'amorçage est une
+   option explicite de la commande, refusée si un inventaire existe déjà ou si
+   `data/vocab-retired.json` existe (signe que `data/` est déjà publié) ;
+4. **Dire si tu autorises l'exécution**, dans l'arbre de travail, sans commit.
+
+**À savoir** : le commit documentaire `b6d72ae` est **poussé**. Les quatre documents de suivi et la
+proposition d'exécution sont **non committés** (diff du `10`, pris contre `b6d72ae`) ; tu n'as
+autorisé aucun commit supplémentaire.
+
+Les accords restent distincts : exécution, commit de publication, push. Écris en toutes lettres
+celui que tu donnes, et ceux que tu ne donnes pas.
+
+**Dans cet export** : `06` contient le rapport de périmètre (ton arbitrage au §9) et la proposition
+d'exécution ; `07`, la fiche source de 家 ; `08` n'est pas un fichier de lot (il n'en existe aucun
+pour 5.17) ; `09` est vide ; `10` le diff contre `b6d72ae` et les contrôles. Le code que le plan
+décrit (`validate-data.mjs`, `run.mjs`, `assemble.mjs`, `events.js`) n'est pas joint ; demande-le si
+tu veux le lire.
 
 **Dans cet export** : `06` contient le rapport de périmètre (arbitrage du périmètre au §9), le rapport
 de proposition (arbitrage de la proposition et révision au §12) et le rapport généré ; `07`, les 19
@@ -321,7 +393,9 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Ton contrôle de la clôture documentaire**, puis ton accord explicite de commit, puis de push.
-2. **Ton arbitrage du périmètre de 5.17** (Q1 à Q8).
-3. Sur ton autorisation distincte : la proposition de la publication, selon le véhicule arbitré.
-4. Ensuite : l'audit A2-05, le graphe (G2 à G9), le registre de phrases (tâche 11).
+1. **Ta relecture de l'essai de 5.17**, et tes décisions sur les cinq points du §9 du rapport.
+2. Sur ton accord : ce qui reste à faire avant le commit (les documents de format, P8), puis un
+   nouvel export.
+3. Puis, sur des accords distincts et explicites : le commit de publication, et le push.
+4. Ensuite : **l'audit A2-05, dont l'audit un par un des `null`, point de sortie de l'étape 2** ; le
+   graphe (G2 à G9) ; le registre de phrases (tâche 11).

@@ -49,7 +49,7 @@ test('« Je connais le N5 » : kana et N5 déclarés, ni mots hors JLPT ni expre
 test('un événement sur un élément qui n\'existe pas est refusé ; un élément existant est accepté', async () => {
   const learning = await open();
   for (const element of [{ type: 'grammar', id: 'g_9999' }, { type: 'kanji', id: '爽' }, { type: 'kana', id: 'kana_ゔ' },
-    { type: 'vocab', id: 'n5_v_99999' }]) {
+    { type: 'vocab', id: 'v_99999' }]) {
     const r = await learning.recordLearningEvent(event('CONTENT_INTRODUCED', { element }, LEARN));
     assert.equal(r.status, RECORD_STATUS.REJECTED, JSON.stringify(element));
   }

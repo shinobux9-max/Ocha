@@ -13,7 +13,7 @@ import { replay, seededRandom } from './replay.js';
 
 const CATALOG = {
   kana: [{ type: 'kana', id: 'kana_あ' }],
-  n5: [{ type: 'vocab', id: 'n5_v_1' }, { type: 'vocab', id: 'n5_v_2' }, { type: 'kanji', id: '水' },
+  n5: [{ type: 'vocab', id: 'v_1' }, { type: 'vocab', id: 'v_2' }, { type: 'kanji', id: '水' },
     { type: 'grammar', id: 'g_8' }],
   n4: [], n3: [], n2: [], n1: []
 };
@@ -34,8 +34,8 @@ async function setup(store = createMemoryStore()) {
 
 let counter = 0;
 const day = (n) => new Date(Date.UTC(2026, 9, 1 + n, 8)).toISOString();
-const W1 = { type: 'vocab', id: 'n5_v_1' };
-const W2 = { type: 'vocab', id: 'n5_v_2' };
+const W1 = { type: 'vocab', id: 'v_1' };
+const W2 = { type: 'vocab', id: 'v_2' };
 const answered = (ref, correct, at = day(0), id = `evt_${++counter}`) => ({
   id, type: 'QUESTION_ANSWERED', at,
   context: { mode: 'free', source: 'practice', activityType: 'quiz', exerciseType: 'qcm' },
@@ -88,8 +88,8 @@ test('un événement valide : effets en mémoire, événement et faits persisté
   const result = await learning.recordLearningEvent(event);
 
   assert.equal(result.status, RECORD_STATUS.RECORDED);
-  assert.deepEqual(result.changed.elements, ['n5_v_1']);
-  assert.equal(computeState(learning.getSnapshot().elements['n5_v_1']), 'learning');
+  assert.deepEqual(result.changed.elements, ['v_1']);
+  assert.equal(computeState(learning.getSnapshot().elements['v_1']), 'learning');
   // À la résolution de la promesse, tout est déjà enregistré (9.3 : attendre la confirmation).
   assert.deepEqual((await store.get('events', event.id)), event);
   assert.deepEqual(await persisted(store, 'elements'), learning.getSnapshot().elements);
@@ -114,9 +114,9 @@ test('un événement invalide est rejeté, signalé, et rien n\'est écrit', asy
 
 test('un élément inexistant est rejeté (validation avec le contenu)', async () => {
   const { store, learning } = await setup();
-  const result = await learning.recordLearningEvent(answered({ type: 'vocab', id: 'n5_v_999' }, true));
+  const result = await learning.recordLearningEvent(answered({ type: 'vocab', id: 'v_999' }, true));
   assert.equal(result.status, RECORD_STATUS.REJECTED);
-  assert.deepEqual(result.problems, ['élément inexistant : vocab n5_v_999']);
+  assert.deepEqual(result.problems, ['élément inexistant : vocab v_999']);
   assert.deepEqual(await store.getAll('elements'), []);
 });
 
@@ -138,7 +138,7 @@ test('idempotence : un même événement envoyé deux fois n\'a d\'effet qu\'une
   const second = await learning.recordLearningEvent(structuredClone(event));
   assert.equal(first.status, RECORD_STATUS.RECORDED);
   assert.equal(second.status, RECORD_STATUS.DUPLICATE);
-  assert.equal(learning.getSnapshot().weaknesses['n5_v_1'].consecutiveFails, 1);
+  assert.equal(learning.getSnapshot().weaknesses['v_1'].consecutiveFails, 1);
   assert.equal((await store.getAll('events')).length, 1);
 });
 
@@ -147,7 +147,7 @@ test('idempotence : double clic (deux envois simultanés)', async () => {
   const event = answered(W1, false);
   const results = await Promise.all([learning.recordLearningEvent(event), learning.recordLearningEvent(event)]);
   assert.deepEqual(results.map((r) => r.status), ['recorded', 'duplicate']);
-  assert.equal((await store.get('weaknesses', 'n5_v_1')).consecutiveFails, 1);
+  assert.equal((await store.get('weaknesses', 'v_1')).consecutiveFails, 1);
 });
 
 test('idempotence : vaut aussi après un redémarrage', async () => {
@@ -156,7 +156,7 @@ test('idempotence : vaut aussi après un redémarrage', async () => {
   await learning.recordLearningEvent(event);
   const { learning: again } = await setup(store);
   assert.equal((await again.recordLearningEvent(event)).status, RECORD_STATUS.DUPLICATE);
-  assert.equal(again.getSnapshot().weaknesses['n5_v_1'].consecutiveFails, 1);
+  assert.equal(again.getSnapshot().weaknesses['v_1'].consecutiveFails, 1);
 });
 
 test('idempotence : une déclaration renvoyée est un doublon, pas une erreur', async () => {
@@ -200,8 +200,8 @@ test('file interne : chaque événement part de l\'état laissé par le précéd
   const { learning } = await setup(slowCommitStore());
   const events = [answered(W1, false, day(0)), answered(W1, false, day(0)), answered(W1, false, day(0))];
   await Promise.all(events.map((e) => learning.recordLearningEvent(e)));
-  assert.equal(learning.getSnapshot().weaknesses['n5_v_1'].consecutiveFails, 3, 'aucun effet perdu');
-  assert.equal(learning.getSnapshot().weaknesses['n5_v_1'].totalFails, 3);
+  assert.equal(learning.getSnapshot().weaknesses['v_1'].consecutiveFails, 3, 'aucun effet perdu');
+  assert.equal(learning.getSnapshot().weaknesses['v_1'].totalFails, 3);
 });
 
 // ── Atomicité et échec du stockage (9.3) ────────────────────────────────────
@@ -237,7 +237,7 @@ test('un échec ponctuel du stockage est rattrapé par la nouvelle tentative (9.
   store.failNextCommit('aborted');
   assert.equal((await learning.recordLearningEvent(event)).status, RECORD_STATUS.RECORDED);
   assert.equal(learning.getWriteFailure(), null);
-  assert.equal(learning.getSnapshot().weaknesses['n5_v_1'].consecutiveFails, 1);
+  assert.equal(learning.getSnapshot().weaknesses['v_1'].consecutiveFails, 1);
   assert.equal((await learning.recordLearningEvent(event)).status, RECORD_STATUS.DUPLICATE);
 });
 
@@ -289,8 +289,8 @@ test('l\'instantané est gelé : un écran ne peut pas modifier l\'état', async
   const { learning } = await setup();
   await learning.recordLearningEvent(answered(W1, false), { session: { position: 1 } });
   const snap = learning.getSnapshot();
-  assert.ok(Object.isFrozen(snap) && Object.isFrozen(snap.elements) && Object.isFrozen(snap.elements['n5_v_1'].srs));
-  assert.throws(() => { 'use strict'; snap.elements['n5_v_1'].srs.interval = 99; }, TypeError);
+  assert.ok(Object.isFrozen(snap) && Object.isFrozen(snap.elements) && Object.isFrozen(snap.elements['v_1'].srs));
+  assert.throws(() => { 'use strict'; snap.elements['v_1'].srs.interval = 99; }, TypeError);
   assert.ok(Object.isFrozen(learning.getSession()));
 });
 

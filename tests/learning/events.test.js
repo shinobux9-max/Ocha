@@ -32,7 +32,7 @@ const VALID = {
   REVIEW_GRADED: { context: { mode: 'free', source: 'review', activityType: 'srs_review', exerciseType: 'flashcard' },
     payload: { element: ref('kanji', '水'), quality: 2 } },
   REINFORCEMENT_TRIGGERED: { sessionId: 'ses_1', context: { mode: 'guided', source: 'home', activityType: 'quiz' },
-    payload: { element: ref('vocab', 'n5_v_117'), reason: 'error', sourceActivity: null } },
+    payload: { element: ref('vocab', 'v_117'), reason: 'error', sourceActivity: null } },
   KNOWLEDGE_DECLARED: { context: { mode: 'free', source: 'onboarding', activityType: 'declaration' },
     payload: { scope: 'n5', origin: 'declared', declarationId: 'dcl_1' } },
   KNOWLEDGE_DECLARATION_UNDONE: { context: { mode: 'free', source: 'settings', activityType: 'declaration' },
@@ -76,9 +76,46 @@ test('format commun : id « evt_… », horodatage UTC canonique, champs connus 
   assert.deepEqual(validateEvent(make('QUESTION_ANSWERED', { at: '2026-10-01T08:00:00Z' })), []);
   invalid(make('QUESTION_ANSWERED', { extra: 1 }), /champ inconnu « extra »/, 'champ inconnu en tête');
   invalid(withContext('QUESTION_ANSWERED', { device: 'ios' }), /champ inconnu « device »/, 'champ inconnu dans le contexte');
-  invalid(withPayload('QUESTION_ANSWERED', { senseId: 's1' }), /champ inconnu « senseId »/,
-    'champ de sens non encore défini (A2-01)');
+  // `senseId` est défini depuis la publication d'A2-04 (E2) : voir les tests E1 à E3 plus bas.
   assert.deepEqual(validateEvent(null), ['événement : objet attendu']);
+});
+
+// ── Vocabulaire et sens : E1 à E3 (schema-A2-01.md), publication d'A2-04 ────
+
+// E1 : une ENTRY s'identifie par `v_<n>`, sans niveau dans l'identifiant.
+test('E1 · vocabulaire : forme v_<n> seulement, les anciennes formes à niveau sont refusées', () => {
+  for (const id of ['v_1', 'v_117', 'v_718', 'v_1000']) {
+    assert.deepEqual(validateEvent(withPayload('CONTENT_INTRODUCED', { element: ref('vocab', id) })), [], id);
+  }
+  for (const id of ['n5_v_117', 'n4_v_3', 'hj_v_1', 'v_0', 'v_08', 'v_', 'v_8a', 'V_8', 'v_-1', ' v_8', 'v_8_s1', 'g_8']) {
+    assert.ok(validateEvent(withPayload('CONTENT_INTRODUCED', { element: ref('vocab', id) })).length > 0, id);
+  }
+});
+
+// E2 : `senseId` est un champ facultatif de QUESTION_ANSWERED, de forme `v_<n>_s<m>`.
+test('E2 · senseId : facultatif dans QUESTION_ANSWERED, de forme v_<n>_s<m>', () => {
+  const answered = (payload) => withPayload('QUESTION_ANSWERED', { target: [ref('vocab', 'v_117')], ...payload });
+  assert.deepEqual(validateEvent(answered({})), [], 'sans senseId');
+  for (const senseId of ['v_117_s1', 'v_117_s2', 'v_117_s12']) assert.deepEqual(validateEvent(answered({ senseId })), [], senseId);
+  for (const senseId of ['s1', 'v_117', 'v_117_s0', 'v_117_s01', 'v_117_s', 'n5_v_117_s1', 'v_117_S1', '', null, 1, 'v_117_s1 ']) {
+    invalid(answered({ senseId }), /payload\.senseId : identifiant de sens/, `senseId = ${JSON.stringify(senseId)}`);
+  }
+  // Le champ n'existe que pour une réponse à une question.
+  invalid(withPayload('CONTENT_INTRODUCED', { element: ref('vocab', 'v_117'), senseId: 'v_117_s1' }), /champ inconnu « senseId »/, 'hors QUESTION_ANSWERED');
+  invalid(withPayload('REVIEW_GRADED', { senseId: 'v_117_s1' }), /champ inconnu « senseId »/, 'dans une révision');
+});
+
+// E3 : `senseId` n'est admis que si la cible contient exactement une référence de vocabulaire, et
+// s'il désigne un sens de cette ENTRY ; sinon l'événement est rejeté.
+test('E3 · senseId : une seule référence de vocabulaire dans la cible, et un sens de cette ENTRY', () => {
+  const answered = (target, senseId) => withPayload('QUESTION_ANSWERED', { target, senseId });
+  assert.deepEqual(validateEvent(answered([ref('vocab', 'v_117')], 'v_117_s1')), []);
+  assert.deepEqual(validateEvent(answered([ref('grammar', 'g_8'), ref('vocab', 'v_117')], 'v_117_s2')), [], 'une seule référence vocab, parmi d\'autres types');
+  invalid(answered([ref('grammar', 'g_8')], 'v_117_s1'), /exactement une référence de vocabulaire/, 'aucune référence vocab');
+  invalid(answered([ref('vocab', 'v_117'), ref('vocab', 'v_118')], 'v_117_s1'), /exactement une référence de vocabulaire/, 'deux références vocab');
+  invalid(answered([ref('vocab', 'v_117')], 'v_118_s1'), /n'est pas un sens de « v_117 »/, 'sens d\'une autre ENTRY');
+  invalid(answered([ref('vocab', 'v_11')], 'v_117_s1'), /n'est pas un sens de « v_11 »/, 'préfixe commun, autre ENTRY');
+  invalid(answered([ref('vocab', 'v_117')], 'v_1175_s1'), /n'est pas un sens de « v_117 »/, 'identifiant qui prolonge celui de l\'ENTRY');
 });
 
 test('sessionId : « ses_… », obligatoire pour les événements de session', () => {
@@ -101,12 +138,12 @@ test('contexte : mode, source et type d\'activité connus ; facultatifs vérifi�
 // ── Références { type, id } ─────────────────────────────────────────────────
 
 test('références : clé connue et identifiant de la bonne forme (partie 1, 1.1)', () => {
-  const ok = [ref('grammar', 'g_8'), ref('vocab', 'n5_v_117'), ref('vocab', 'hj_v_1'), ref('vocab', 'n4_v_3'),
+  const ok = [ref('grammar', 'g_8'), ref('vocab', 'v_117'), ref('vocab', 'v_718'), ref('vocab', 'v_3'),
     ref('kanji', '水'), ref('kanji', '𠮟'), ref('kana', 'kana_あ'), ref('expression', 'ex_3')];
   for (const r of ok) assert.deepEqual(validateEvent(withPayload('CONTENT_INTRODUCED', { element: r })), [], r.id);
-  const ko = [ref('vocabulary', 'n5_v_1'), ref('kanji', 'n5_k_1'), ref('kanji', '水曜'), ref('kana', 'あ'),
-    ref('vocab', 'g_8'), ref('grammar', 'n5_v_1'), ref('expression', 'n5_e_1'), ref('vocab', ''),
-    { type: 'vocab', id: 'n5_v_1', label: 'x' }, 'n5_v_1'];
+  const ko = [ref('vocabulary', 'v_1'), ref('kanji', 'n5_k_1'), ref('kanji', '水曜'), ref('kana', 'あ'),
+    ref('vocab', 'g_8'), ref('grammar', 'v_1'), ref('expression', 'n5_e_1'), ref('vocab', ''),
+    { type: 'vocab', id: 'v_1', label: 'x' }, 'v_1'];
   for (const r of ko) {
     assert.ok(validateEvent(withPayload('CONTENT_INTRODUCED', { element: r })).length > 0, JSON.stringify(r));
   }
@@ -126,8 +163,8 @@ test('l\'existence des éléments est vérifiée par la fonction injectée', () 
   const catalog = new Set(['grammar:g_8', 'kanji:水']);
   const elementExists = (r) => catalog.has(`${r.type}:${r.id}`);
   assert.deepEqual(validateEvent(make('QUESTION_ANSWERED'), { elementExists }), []);
-  const unknown = withPayload('QUESTION_ANSWERED', { target: [ref('grammar', 'g_8'), ref('vocab', 'n5_v_999')] });
-  assert.deepEqual(validateEvent(unknown, { elementExists }), ['élément inexistant : vocab n5_v_999']);
+  const unknown = withPayload('QUESTION_ANSWERED', { target: [ref('grammar', 'g_8'), ref('vocab', 'v_999')] });
+  assert.deepEqual(validateEvent(unknown, { elementExists }), ['élément inexistant : vocab v_999']);
   // Sans fonction fournie, aucune vérification d'existence.
   assert.deepEqual(validateEvent(unknown), []);
   // Une déclaration par niveau ne référence aucun élément : rien à vérifier ici.
@@ -155,11 +192,11 @@ test('REVIEW_GRADED : note 0 à 3, et seulement dans une révision SRS', () => {
 });
 
 test('KNOWLEDGE_DECLARED : éléments OU niveau, origine declared ou tested, identifiant', () => {
-  const both = withPayload('KNOWLEDGE_DECLARED', { elements: [ref('vocab', 'n5_v_1')] });
+  const both = withPayload('KNOWLEDGE_DECLARED', { elements: [ref('vocab', 'v_1')] });
   invalid(both, /exactement un/, 'éléments et niveau');
   const neither = make('KNOWLEDGE_DECLARED', { payload: { origin: 'declared', declarationId: 'd' } });
   invalid(neither, /exactement un/, 'ni l\'un ni l\'autre');
-  const elements = make('KNOWLEDGE_DECLARED', { payload: { elements: [ref('vocab', 'n5_v_1')], origin: 'tested', declarationId: 'd' } });
+  const elements = make('KNOWLEDGE_DECLARED', { payload: { elements: [ref('vocab', 'v_1')], origin: 'tested', declarationId: 'd' } });
   assert.deepEqual(validateEvent(elements), []);
   invalid(withPayload('KNOWLEDGE_DECLARED', { scope: 'n6' }), /payload\.scope/, 'niveau inconnu');
   invalid(withPayload('KNOWLEDGE_DECLARED', { origin: 'learned' }), /payload\.origin/, 'origine non déclarative');
@@ -183,7 +220,7 @@ test('événements d\'activité et de renforcement', () => {
   invalid(withPayload('ACTIVITY_COMPLETED', { score: 'bien' }), /score/, 'score');
   invalid(withPayload('ACTIVITY_SKIPPED', { activityId: '' }), /activityId/, 'activité');
   invalid(withPayload('REINFORCEMENT_TRIGGERED', { reason: 'boredom' }), /reason/, 'raison');
-  invalid(make('REINFORCEMENT_TRIGGERED', { payload: { element: ref('vocab', 'n5_v_1'), reason: 'error' } }),
+  invalid(make('REINFORCEMENT_TRIGGERED', { payload: { element: ref('vocab', 'v_1'), reason: 'error' } }),
     /sourceActivity/, 'activité source');
   invalid(make('CONTENT_INTRODUCED', { payload: undefined }), /payload : objet attendu/, 'sans charge utile');
 });

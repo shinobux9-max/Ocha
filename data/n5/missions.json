@@ -51,7 +51,7 @@
         "refs": [
           {
             "text": "お弁当",
-            "vocab": "n5_v_84"
+            "vocab": "v_84"
           }
         ],
         "grammar": [
@@ -67,7 +67,7 @@
         "refs": [
           {
             "text": "はい",
-            "vocab": "n5_v_344"
+            "vocab": "v_344"
           },
           {
             "text": "お願いします",
@@ -85,7 +85,7 @@
         "refs": [
           {
             "text": "レジ袋",
-            "vocab": "hj_v_1"
+            "vocab": "v_718"
           }
         ],
         "grammar": [
@@ -235,9 +235,9 @@
     },
     "teaches": {
       "vocab": [
-        "n5_v_84",
-        "hj_v_1",
-        "hj_v_2"
+        "v_84",
+        "v_718",
+        "v_719"
       ],
       "expression": [
         "ex_3",

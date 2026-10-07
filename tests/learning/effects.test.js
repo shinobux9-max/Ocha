@@ -19,7 +19,7 @@ const day = (n, h = 8) => new Date(Date.UTC(2026, 9, 1 + n, h)).toISOString();
 const R = {
   wa: { type: 'grammar', id: 'g_8' },
   mizu: { type: 'kanji', id: '水' },
-  word: { type: 'vocab', id: 'n5_v_117' },
+  word: { type: 'vocab', id: 'v_117' },
   a: { type: 'kana', id: 'kana_あ' },
   ex: { type: 'expression', id: 'ex_3' }
 };
@@ -67,7 +67,7 @@ test('première évaluation juste : → En cours, origine learned, SRS créé à
   const s = replay([introduced(R.word, day(0)), answered(R.word, true, day(2))]);
   assert.equal(stateOf(s, R.word), 'learning');
   assert.deepEqual(s.elements[R.word.id], {
-    id: 'n5_v_117', introducedAt: day(0), origin: ORIGINS.LEARNED,
+    id: 'v_117', introducedAt: day(0), origin: ORIGINS.LEARNED,
     srs: { interval: 1, easeFactor: 2.5, repetitions: 0, lastReviewDate: null, nextReviewDate: day(3) }
   });
   assert.deepEqual(s.weaknesses, {});
@@ -79,7 +79,7 @@ test('première évaluation fausse : → En cours, SRS créé à J+1, faiblesse 
   assert.equal(s.elements[R.word.id].introducedAt, day(0)); // directement depuis Nouveau
   assert.equal(s.elements[R.word.id].srs.nextReviewDate, day(1));
   assert.equal(s.weaknesses[R.word.id].consecutiveFails, 1);
-  assert.equal(s.weaknesses[R.word.id].id, 'n5_v_117');
+  assert.equal(s.weaknesses[R.word.id].id, 'v_117');
 });
 
 test('réponse hors révision SRS : état et SRS inchangés, seule la faiblesse bouge', () => {
@@ -137,7 +137,7 @@ test('les kana suivent la même échelle (1.8, invariant 10)', () => {
 });
 
 test('vérification d\'un élément déclaré : marqué vérifié à la première révision, quelle que soit la note', () => {
-  const declared = { id: 'n5_v_117', introducedAt: day(0), origin: ORIGINS.DECLARED, verified: false,
+  const declared = { id: 'v_117', introducedAt: day(0), origin: ORIGINS.DECLARED, verified: false,
     srs: { interval: 30, easeFactor: 2.5, repetitions: 3, lastReviewDate: null, nextReviewDate: day(30) } };
   for (const q of [0, 1, 2, 3]) {
     const s = replay([graded(R.word, q, day(30))], { initial: { elements: { [R.word.id]: declared }, weaknesses: {} } });
@@ -178,7 +178,7 @@ test('fonction pure : l\'état reçu n\'est pas modifié ; « changed » liste c
   const start = deepFreeze(replay([answered(R.word, false, day(0))]));
   const { state, changed } = applyEvent(start, graded(R.word, 2, day(1)));
   assert.notEqual(state, start);
-  assert.deepEqual(changed, { ...NOTHING, elements: ['n5_v_117'], weaknesses: ['n5_v_117'] });
+  assert.deepEqual(changed, { ...NOTHING, elements: ['v_117'], weaknesses: ['v_117'] });
   assert.equal(start.elements[R.word.id].srs.repetitions, 0);
 });
 
@@ -301,4 +301,41 @@ test('après rejeu, toutes les entrées respectent les invariants des faits', ()
       assert.equal(typeof isWeaknessActive(w), 'boolean');
     }
   }
+});
+
+// ── E4 (schema-A2-01.md) : senseId n'a aucun effet ──────────────────────────
+
+// Le sens visé par une question est noté au journal, et rien de plus : rejouer le même scénario
+// avec et sans `senseId` donne exactement le même état (éléments, SRS, faiblesses, déclarations,
+// activités). Aucun autre module de src/learning/ ne lit ce champ : le budget et le résumé
+// quotidien, calculés à partir de cet état et du type des événements, n'en dépendent donc pas.
+test('E4 · senseId : aucun effet sur l\'état, le SRS, les faiblesses, le budget ni le résumé', async () => {
+  const answeredSense = (correct, at, senseId) => ev('QUESTION_ANSWERED', at,
+    { questionId: 'q1', target: [R.word], correct, ...(senseId ? { senseId } : {}) }, PRACTICE);
+  const scenario = (senseId) => [
+    introduced(R.word, day(0)),
+    answeredSense(false, day(1), senseId), answeredSense(true, day(2), senseId), answeredSense(true, day(3), senseId),
+    graded(R.word, 2, day(4)), answeredSense(false, day(5), senseId), answeredSense(true, day(6), senseId)
+  ];
+  // Les identifiants d'événement diffèrent d'un rejeu à l'autre ; on les aligne pour comparer.
+  const sameIds = (events) => events.map((e, i) => ({ ...e, id: `evt_e4_${i}` }));
+  const without = replay(sameIds(scenario(undefined)));
+  for (const senseId of ['v_117_s1', 'v_117_s2']) {
+    const withSense = sameIds(scenario(senseId));
+    assert.ok(withSense.some((e) => e.payload.senseId === senseId), 'le scénario porte bien un senseId');
+    assert.deepEqual(replay(withSense), without, senseId);
+  }
+  // Pas à pas : le même changement signalé, événement par événement.
+  let a = createEmptyLearningState(); let b = createEmptyLearningState();
+  const plain = sameIds(scenario(undefined)); const sensed = sameIds(scenario('v_117_s1'));
+  plain.forEach((e, i) => {
+    const x = applyEvent(a, e); const y = applyEvent(b, sensed[i]);
+    assert.deepEqual(y.changed, x.changed, `événement ${i + 1}`);
+    a = x.state; b = y.state;
+  });
+  // Garde-fou structurel : `senseId` n'apparaît que dans la validation des événements.
+  const { readdirSync, readFileSync } = await import('node:fs');
+  const dir = new URL('../../src/learning/', import.meta.url);
+  const readers = readdirSync(dir).filter((f) => f.endsWith('.js') && readFileSync(new URL(f, dir), 'utf8').includes('senseId'));
+  assert.deepEqual(readers, ['events.js'], 'aucun module d\'effet, de budget ni de résumé ne lit senseId');
 });

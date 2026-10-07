@@ -1,0 +1,594 @@
+[
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_130 · v_130_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_144 · v_144_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_163 · v_163_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_164 · v_164_s3"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_181 · v_181_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_265 · v_265_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_266 · v_266_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_287 · v_287_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_321 · v_321_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_361 · v_361_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_361 · v_361_s2"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_363 · v_363_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_363 · v_363_s2"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_364 · v_364_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_366 · v_366_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_420 · v_420_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_421 · v_421_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_422 · v_422_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_424 · v_424_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_425 · v_425_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_427 · v_427_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_428 · v_428_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_432 · v_432_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_434 · v_434_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_438 · v_438_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_44 · v_44_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_442 · v_442_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_449 · v_449_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_451 · v_451_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_452 · v_452_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_456 · v_456_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_457 · v_457_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_458 · v_458_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_46 · v_46_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_461 · v_461_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_462 · v_462_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_462 · v_462_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_464 · v_464_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_478 · v_478_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_48 · v_48_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_484 · v_484_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_484 · v_484_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_486 · v_486_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_489 · v_489_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_495 · v_495_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_496 · v_496_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_50 · v_50_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_500 · v_500_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_500 · v_500_s2"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_500 · v_500_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_503 · v_503_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_504 · v_504_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_506 · v_506_s2"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_51 · v_51_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_510 · v_510_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_511 · v_511_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_512 · v_512_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_513 · v_513_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_516 · v_516_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_516 · v_516_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_521 · v_521_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_521 · v_521_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_522 · v_522_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_522 · v_522_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_523 · v_523_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_524 · v_524_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_525 · v_525_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_526 · v_526_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_528 · v_528_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_532 · v_532_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_533 · v_533_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_536 · v_536_s3"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_539 · v_539_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_539 · v_539_s2"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_54 · v_54_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_541 · v_541_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_541 · v_541_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_542 · v_542_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_542 · v_542_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_545 · v_545_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_548 · v_548_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_551 · v_551_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_552 · v_552_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_558 · v_558_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_560 · v_560_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_560 · v_560_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_561 · v_561_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_562 · v_562_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_564 · v_564_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_567 · v_567_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_568 · v_568_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_57 · v_57_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_573 · v_573_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_575 · v_575_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_576 · v_576_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_578 · v_578_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_579 · v_579_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_58 · v_58_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_580 · v_580_s1"
+  },
+  {
+    "code": "kanji-inconnu",
+    "where": "n5/vocab.json · v_594"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_598 · v_598_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_598 · v_598_s2"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_60 · v_60_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_603 · v_603_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_605 · v_605_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_606 · v_606_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_608 · v_608_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_608 · v_608_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_609 · v_609_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_609 · v_609_s2"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_61 · v_61_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_611 · v_611_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_62 · v_62_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_627 · v_627_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_633 · v_633_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_635 · v_635_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_637 · v_637_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_642 · v_642_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_642 · v_642_s3"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_646 · v_646_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_648 · v_648_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_65 · v_65_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_65 · v_65_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_653 · v_653_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_653 · v_653_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_657 · v_657_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_664 · v_664_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_665 · v_665_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_665 · v_665_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_667 · v_667_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_67 · v_67_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_671 · v_671_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_675 · v_675_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_684 · v_684_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_685 · v_685_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_686 · v_686_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_687 · v_687_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_690 · v_690_s2"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_691 · v_691_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_694 · v_694_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_696 · v_696_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_700 · v_700_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_709 · v_709_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_710 · v_710_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_713 · v_713_s1"
+  },
+  {
+    "code": "type-nul",
+    "where": "n5/vocab.json · v_716 · v_716_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_79 · v_79_s1"
+  },
+  {
+    "code": "categorie-nulle",
+    "where": "n5/vocab.json · v_80 · v_80_s2"
+  }
+]

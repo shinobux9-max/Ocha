@@ -6,7 +6,7 @@
 // Activation (arbitrage d'A2-03, décision 1) :
 //   - dès A2-03, sur des jeux d'essai (tests) ;
 //   - dès A2-04.0, sur la sortie de l'espace de reconstruction, appelée par l'outil d'assemblage ;
-//   - sur data/ seulement à la publication d'A2-04, quand tools/validate-data.mjs l'appellera à la
+//   - sur data/ depuis la publication d'A2-04 (5.17) : tools/validate-data.mjs l'appelle, à la
 //     place de l'ancien contrôle du vocabulaire. Aucune détection automatique du format.
 //
 // Contrôles en place : contrat d'entrée (4.1) ; ENTRY, I1 à I6, I16, I17, A1 à A3, N1 (4.2) ;

@@ -6,9 +6,8 @@
     "romaji": "konbini",
     "emoji": "🏪",
     "description": "Payer, faire réchauffer un plat, refuser un sac.",
-    "vocab_categories": [
-      "nourriture_boissons",
-      "achats_argent"
+    "vocab_tags": [
+      "lieu_konbini"
     ],
     "background": "konbini",
     "order": 1
@@ -20,10 +19,8 @@
     "romaji": "eki",
     "emoji": "🚉",
     "description": "Acheter un billet, trouver le bon quai, changer de ligne.",
-    "vocab_categories": [
-      "transports",
-      "lieux",
-      "position_direction"
+    "vocab_tags": [
+      "lieu_gare"
     ],
     "background": "gare",
     "order": 2
@@ -35,8 +32,8 @@
     "romaji": "resutoran",
     "emoji": "🍜",
     "description": "Commander, préciser, demander l'addition.",
-    "vocab_categories": [
-      "nourriture_boissons"
+    "vocab_tags": [
+      "lieu_restaurant"
     ],
     "background": "restaurant",
     "order": 3
@@ -48,9 +45,8 @@
     "romaji": "hoteru",
     "emoji": "🏨",
     "description": "Arrivée, horaires, petits problèmes dans la chambre.",
-    "vocab_categories": [
-      "maison_quotidien",
-      "temps_calendrier"
+    "vocab_tags": [
+      "lieu_hotel"
     ],
     "background": "hotel",
     "order": 4

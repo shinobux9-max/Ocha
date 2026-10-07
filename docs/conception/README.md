@@ -3,11 +3,17 @@
 > **Addenda A3 et A4** (`addendum-A3-modele-lexical.md`, `addendum-A4-identifiants.md`) : le
 > vocabulaire suit désormais `schema-A2-01.md` (identifiants `v_<n>`, mots hors JLPT avec
 > `level: "hors_jlpt"`, aucun exemple dans le vocabulaire) et la grammaire les identifiants
-> `g_<n>`. Les identifiants cités ici se lisent avec le même numéro. Les formats de ce document
-> seront mis à jour à la publication des données reconstruites (A2-04).
+> `g_<n>`. **Ce document est à jour depuis la publication des données reconstruites (A2-04 ·
+> 5.17)** : les identifiants cités sont ceux des fichiers publiés.
 
 Fichiers d'exemple pour tester la v4. Les identifiants de vocabulaire et de grammaire
-utilisés (`n5_v_…`, `n5_g_…`) sont les vrais identifiants de `vocab.json` et `grammar.json`.
+utilisés (`v_…`, `g_…`) sont les vrais identifiants de `vocab.json` et `grammar.json`.
+
+Le format d'une entrée de vocabulaire (ENTRY, SENSE, lectures, graphies) est décrit par
+`schema-A2-01.md`, et non ici. Le vocabulaire de `data/` est **publié** depuis l'espace de
+reconstruction par `node tools/reconstruction/run.mjs publish` : il ne se modifie pas à la main
+(`reconstruction/a2-04/README.md`). Les identifiants retirés (fusions, suppressions) sont dans
+`data/vocab-retired.json`.
 
 ## Emplacement proposé
 
@@ -15,15 +21,17 @@ utilisés (`n5_v_…`, `n5_g_…`) sont les vrais identifiants de `vocab.json` e
 |---|---|---|
 | `registres.json` | `data/` | Les 5 registres, définis une seule fois |
 | `expressions.json` | `data/` | Formules toutes faites, tous niveaux (champ `level`) |
-| `vocab-hors-jlpt.json` | `data/` | Mots hors listes JLPT, même format que `vocab.json` |
-| `lieux.json` | `data/` | Lieux d'Explorer, communs à tous les niveaux |
+| `vocab-hors-jlpt.json` | `data/` | Mots hors listes JLPT, même format que `vocab.json`, avec `level: "hors_jlpt"` |
+| `vocab-retired.json` | `data/` | Identifiants de vocabulaire retirés, avec leur successeur ou `null` |
+| `lieux.json` | `data/` | Lieux d'Explorer, communs à tous les niveaux ; `vocab_tags` désigne un tag de lieu du registre des tags |
 | `missions.json` | `data/n5/`, `data/n4/`… | Missions d'un niveau |
 | `lectures.json` | `data/n5/`, `data/n4/`… | Histoires, dialogues, carnets, lettres d'un niveau |
 
 ## Où ranger un élément
 
 - Mot du JLPT → vocabulaire de son niveau.
-- Mot hors JLPT → `vocab-hors-jlpt.json` (`hj_v_…`).
+- Mot hors JLPT → `vocab-hors-jlpt.json` (identifiant `v_…` comme tout mot ; c'est son champ
+  `level`, `"hors_jlpt"`, qui le distingue, jamais son identifiant).
 - Formule toute faite (merci, bienvenue…) → `expressions.json` (`ex_…`), avec son niveau dedans.
 
 ## Format commun d'une phrase
@@ -38,9 +46,9 @@ pour qu'un seul rendu applique partout les réglages furigana / romaji / traduct
   "romaji": "eiga, mi ni ikanai?",
   "french": "On va voir un film ?",
   "register": "familier",                // id de registres.json
-  "refs": [{ "text": "映画", "vocab": "n5_v_196" },
+  "refs": [{ "text": "映画", "vocab": "v_196" },
            { "text": "いらっしゃいませ", "expression": "ex_3" }],
-  "grammar": ["n5_g_18"],
+  "grammar": ["g_18"],
   "sounds_textbook": [{                  // optionnel
     "japanese": "…", "romaji": "…",
     "why": "Pourquoi ça sonne scolaire",
@@ -85,5 +93,6 @@ prononce, `responses` ce qu'on répond, `places` les lieux où on la rencontre.
 
 ## À savoir pour l'intégration
 
-Les identifiants `ex_…` et `hj_v_…` sont nouveaux : le SRS, le suivi de progression,
+Les identifiants `ex_…` sont nouveaux, et les mots hors JLPT portent un identifiant `v_…` comme
+les autres : le SRS, le suivi de progression,
 la recherche et les dossiers devront les accepter. C'est une modification fonctionnelle.

@@ -14,7 +14,7 @@ import { seededRandom } from './replay.js';
 
 const at = (dayOffset, hourUtc = 8) => new Date(Date.UTC(2026, 9, 1 + dayOffset, hourUtc)).toISOString();
 let counter = 0;
-const W = { type: 'vocab', id: 'n5_v_1' };
+const W = { type: 'vocab', id: 'v_1' };
 const answered = (when, correct, context = { mode: 'free', source: 'practice', activityType: 'quiz', exerciseType: 'qcm' }) => ({
   id: `evt_${++counter}`, type: 'QUESTION_ANSWERED', at: when, context, payload: { questionId: 'q', target: [W], correct }
 });

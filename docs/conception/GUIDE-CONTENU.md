@@ -3,8 +3,10 @@
 > **Addenda A3 et A4** (`addendum-A3-modele-lexical.md`, `addendum-A4-identifiants.md`) : le
 > vocabulaire suit désormais `schema-A2-01.md` (identifiants `v_<n>`, mots hors JLPT avec
 > `level: "hors_jlpt"`, aucun exemple dans le vocabulaire) et la grammaire les identifiants
-> `g_<n>`. Les identifiants cités ici se lisent avec le même numéro. Les formats de ce document
-> seront mis à jour à la publication des données reconstruites (A2-04).
+> `g_<n>`. **Ce document est à jour depuis la publication des données reconstruites (A2-04 ·
+> 5.17)** : les identifiants cités sont ceux des fichiers publiés. Le format d'une entrée de
+> vocabulaire est décrit par `schema-A2-01.md` ; le vocabulaire de `data/` ne s'écrit pas à la
+> main, il est publié depuis l'espace de reconstruction (`reconstruction/a2-04/README.md`).
 
 Ce guide explique comment écrire du nouveau contenu pour les fichiers de données de
 Kanji-trad, une application d'apprentissage du japonais pour francophones (niveaux JLPT
@@ -21,12 +23,12 @@ qui parle, à qui elle parle et dans quelle situation.
 1. **Répondre uniquement avec du JSON valide**, sans commentaire à l'intérieur, sans texte
    autour. Guillemets doubles, pas de virgule après le dernier élément.
 2. **Ne jamais inventer un identifiant de vocabulaire ou de grammaire.** Les identifiants
-   (`n5_v_117`, `n5_g_8`…) viennent des fichiers `vocab.json` et `grammar.json` fournis
+   (`v_117`, `g_8`…) viennent des fichiers `vocab.json` et `grammar.json` fournis
    avec ce guide. Si un mot nécessaire n'y figure pas, ne pas créer de référence :
    le signaler dans la liste « À AJOUTER » (voir section 10).
 3. **Chaque texte de `refs` doit apparaître exactement dans la phrase**, hors balises
    `<ruby>`. Exemple : si la phrase contient `起きます`, la référence est
-   `{ "text": "起きます", "vocab": "n5_v_577" }`, pas `起きる`.
+   `{ "text": "起きます", "vocab": "v_577" }`, pas `起きる`.
 4. **Chaque phrase japonaise a son `romaji`, son `french` et son `register`.**
 5. **Respecter le niveau** : une lecture ou une mission N5 utilise la grammaire N5.
    Quelques mots d'un niveau supérieur sont acceptés dans une situation réelle
@@ -72,8 +74,8 @@ qui parle, à qui elle parle et dans quelle situation.
 
 | Élément | Fichier | Identifiant |
 |---|---|---|
-| Mot présent dans une liste JLPT | `data/n5/vocab.json` (ou n4…) | `n5_v_…` |
-| Mot absent des listes JLPT (レジ袋, ポイントカード) | `data/vocab-hors-jlpt.json` | `hj_v_…` |
+| Mot présent dans une liste JLPT | `data/n5/vocab.json` (ou n4…) | `v_…` (sans niveau ; le niveau est le champ `level`) |
+| Mot absent des listes JLPT (レジ袋, ポイントカード) | `data/vocab-hors-jlpt.json` | `v_…`, avec `level: "hors_jlpt"` |
 | Formule toute faite (merci, bienvenue, pardon…) | `data/expressions.json` | `ex_…` |
 | Lieu d'Explorer | `data/lieux.json` | nom court (`konbini`) |
 | Mission | `data/n5/missions.json` (ou n4…) | `n5_m_…` |
@@ -121,8 +123,8 @@ Toutes les phrases (répliques, lignes de lecture, exemples, réponses) suivent 
   "french": "On va voir un film ?",
   "register": "familier",
   "refs": [
-    { "text": "映画", "vocab": "n5_v_196" },
-    { "text": "行かない", "vocab": "n5_v_156" }
+    { "text": "映画", "vocab": "v_196" },
+    { "text": "行かない", "vocab": "v_156" }
   ],
   "grammar": [],
   "sounds_textbook": [
@@ -236,8 +238,8 @@ Quatre types : `histoire`, `dialogue`, `carnet`, `lettre`.
   "estimated_minutes": 3,
   "theme": "quotidien",
   "place": null,
-  "requires": { "grammar": ["n5_g_8"], "vocab": ["n5_v_333"] },
-  "teaches": { "vocab": ["n5_v_45"] },
+  "requires": { "grammar": ["g_8"], "vocab": ["v_333"] },
+  "teaches": { "vocab": ["v_44"] },
   "characters": [{ "id": "yuki", "name": "Yuki", "name_ja": "ゆき", "relation": "narration" }],
   "blocks": [],
   "questions": []
@@ -272,7 +274,7 @@ et `teaches` contient 8 éléments au plus (partie 2 du document de conception).
 ```json
 {
   "id": "n5_l_1_q1",
-  "target": { "vocab": ["n5_v_97"] },
+  "target": { "vocab": ["v_97"] },
   "prompt": "Que mange Yuki le matin ?",
   "choices": ["Du riz", "Du pain", "Rien"],
   "answer": 1,
@@ -298,12 +300,14 @@ Une à trois questions par lecture ; les mauvaises réponses doivent être plaus
 {
   "id": "konbini", "name": "Konbini", "name_ja": "コンビニ", "romaji": "konbini",
   "emoji": "🏪", "description": "Payer, faire réchauffer un plat, refuser un sac.",
-  "vocab_categories": ["nourriture_boissons", "achats_argent"],
+  "vocab_tags": ["lieu_konbini"],
   "background": "konbini", "order": 1
 }
 ```
 
-`vocab_categories` reprend les catégories existantes de `vocab.json`.
+`vocab_tags` désigne un tag de nature `lieu` du registre des tags (`data/registries/tags.json`,
+`registre-des-tags.md`) : le vocabulaire utile au lieu est celui dont une ENTRY ou un sens porte
+ce tag.
 
 **Mission :**
 

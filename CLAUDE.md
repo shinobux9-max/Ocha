@@ -113,8 +113,8 @@ faut savoir est dans le dépôt.
   erreur, 0 attente ; 1 613 décisions validées (D0001 à D1613), aucune proposition en cours. **Toutes
   les entrées des sources sont décidées.** **Il ne reste aucun verbe à décider.** **Le lot 26 est
   clos** : committé (`9f3dc2b`) et poussé ; `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`. **Le
-  travail 5.16 est terminé.** Prochaine étape : la publication 5.17, dont le périmètre est proposé et
-  non arbitré (détail en fin de section).
+  travail 5.16 est terminé.** Prochaine étape : la publication 5.17, dont le périmètre est arbitré et
+  l'exécution proposée, non autorisée (détail en fin de section).
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -293,12 +293,37 @@ faut savoir est dans le dépôt.
   entrée propre : ses ENTRY sont dans leurs lots d'origine. **Committé (`9f3dc2b`) et poussé**,
   chacun sur l'accord explicite de ChatGPT : `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`. **Lot 26
   clos ; travail 5.16 terminé, aucune action 5.16 ne reste.** **Prochaine étape : la publication
-  5.17.** Son **périmètre est proposé, non arbitré** (rapport
-  `docs/rapports/etape2-A2-04-lot27-perimetre-5-17.md` ; le préfixe `lot27` sert à l'export, il
-  n'existe aucun lot 27) : le plan de bascule d'A2-03 est déjà décidé et reste à appliquer ; huit
-  questions sont à arbitrer, dont deux lexicales réservées « avant 5.17 » (lectures des mots en
-  katakana, lecture うち de 家). **Aucune exécution de 5.17, aucune décision lexicale, aucune
-  écriture dans `data/` avant l'arbitrage de ce périmètre.** Les 35 retraits
+  5.17.** Son **périmètre est arbitré** (rapport
+  `docs/rapports/etape2-A2-04-lot27-perimetre-5-17.md`, §9 ; le préfixe `lot27` sert à l'export, il
+  n'existe aucun lot 27) : essai complet dans l'arbre de travail, puis **un seul commit** ; une
+  **commande de publication** et un test permanent ; **statu quo** pour les lectures en hiragana des
+  64 mots en katakana (clos pour la v1) et pour 家 (いえ seule) ; un **baseline des avertissements**
+  qui refuse toute régression ; les quatre fichiers figés non remappés ; l'ancienne application non
+  touchée. **Doctrine : après la publication, l'espace de reconstruction reste la source de vérité
+  éditoriale ; `data/` est une projection, jamais corrigée à la main.** Clôture et périmètre
+  **committés (`b6d72ae`) et poussés** : `ocha-v2` et `origin/ocha-v2` sont à `b6d72ae`.
+  **Proposition d'exécution livrée** (`docs/rapports/etape2-A2-04-lot27-proposition-5-17.md`) : ses
+  neuf choix sont arbitrés, tous acceptés (§16) ; le remappage devient idempotent sans devenir
+  permissif ; **l'inventaire des avertissements est amorcé avant toute écriture dans `data/`**, sur
+  le seul baseline exact (148 : 120, 27, 1), et un inventaire absent est ensuite toujours une erreur.
+  Plan corrigé accepté. **ESSAI DE 5.17 EXÉCUTÉ DANS L'ARBRE DE TRAVAIL (2026-10-07), NON COMMITTÉ,
+  NON POUSSÉ** (rapport `docs/rapports/etape2-A2-04-lot27-publication-5-17.md`) : **`data/` est publié
+  dans l'arbre de travail seulement** ; des fichiers de `data/`, `tools/`, `src/` et `tests/` y sont
+  modifiés, c'est l'état attendu, à ne pas « nettoyer ». Avec l'essai : `validate-data` rend 0 erreur
+  et 149 avertissements, la suite compte 510 tests verts, `run.mjs publish` dit « data/ est à jour ».
+  **Essai relu et conservé** (rapport, §12) : les cinq points sont arbitrés ; **P8 est fait**
+  (`docs/conception/README.md`, `GUIDE-CONTENU.md`, trois en-têtes de commentaire). **Écart de
+  procédure relevé** : un test rouge avait été jugé « attendu » juste avant `publish --write`.
+  **Protocole de toute publication, désormais** : avant `publish --write`, une suite pré-publication
+  (les seuls tests compatibles avec l'ancien `data/`), verte ; après, la suite complète, verte ;
+  **aucun test rouge n'est jamais interprété à la volée comme « attendu »** : on s'arrête et on rend
+  compte. **Aucun commit ni push de la publication n'est autorisé à ce jour.**
+  **Doctrine** : `publish --write` est l'unique chemin vers le vocabulaire de `data/` ;
+  `reconstruction/a2-04/avertissements-connus.json` est un **baseline technique, non une
+  validation** : l'audit un par un des 120 `categorie-nulle` et des 27 `type-nul` (A2-05) est un
+  **point de sortie de l'étape 2**.
+  **Aucune exécution de 5.17, aucune écriture dans `data/`, ni commit de publication ni push sans
+  accord explicite.** Les 35 retraits
   comptent 33 fusions et deux suppressions : `v_717` (A3, d'emblée) et `v_602`. **Sabotages** : le
   harnais doit lancer `tests/reconstruction/*.test.js` et vérifier d'abord un témoin sain (erratum
   du 2026-10-06 : `node --test tests/reconstruction/` échoue toujours). Le regroupement « quantité et degré » n'est plus suspendu à la

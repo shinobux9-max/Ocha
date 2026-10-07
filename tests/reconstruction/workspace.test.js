@@ -1999,11 +1999,33 @@ test('rapport : groupes candidats réunis, décisions du journal avec leur raiso
   assert.ok(md.indexOf('### n5_v_424') < md.indexOf('### n5_v_472') && md.indexOf('### n5_v_472') < md.indexOf('### n5_v_188'));
 });
 
-test('aucun outil de reconstruction n\'écrit dans data/ ni ne relit un rapport Markdown', () => {
+// Publication (A2-04 · 5.17, arbitrage Q2 et Q7) : `publish --write` est l'UNIQUE chemin vers data/.
+// Un seul point d'écriture y mène, dans run.mjs, et il vient après le refus des conditions
+// bloquantes et après la garde de l'essai sans `--write`. L'amorçage de l'inventaire, lui, n'écrit
+// jamais dans data/. Aucun autre outil de reconstruction n'écrit dans data/.
+test('un seul chemin écrit dans data/ : publish --write ; aucun outil ne relit un rapport Markdown', () => {
   const dir = join(ROOT, 'tools', 'reconstruction');
+  const sites = [];
   for (const f of readdirSync(dir).filter((x) => x.endsWith('.mjs'))) {
     const src = readFileSync(join(dir, f), 'utf8');
-    for (const m of src.matchAll(/writeFileSync\(([^,]+),/g)) assert.ok(!/DATA/.test(m[1]), `${f} : écriture vers data/`);
+    for (const m of src.matchAll(/writeFileSync\(([^,]+),/g)) if (/DATA/.test(m[1])) sites.push([f, m.index]);
     assert.ok(!/\.md['"`]\)?\s*[,)]?.*readFileSync|readFileSync\([^)]*\.md/.test(src), `${f} : lecture d'un Markdown`);
   }
+  assert.deepEqual(sites.map(([f]) => f), ['run.mjs'], 'un seul point d\'écriture vers data/, dans run.mjs');
+  const src = readFileSync(join(dir, 'run.mjs'), 'utf8');
+  const at = sites[0][1];
+  const start = src.indexOf("if (command === 'publish')");
+  assert.ok(start !== -1 && start < at, 'le point d\'écriture est dans la commande publish');
+  const before = src.slice(start, at);
+  // Dans l'ordre : l'amorçage (qui sort sans écrire dans data/), le refus des conditions bloquantes,
+  // la garde de l'essai sans --write.
+  const order = ['if (bootstrap) {', 'if (p.blocking.length) {', 'if (!write) {'].map((s) => before.indexOf(s));
+  assert.ok(order.every((i) => i !== -1), 'les trois gardes précèdent l\'écriture');
+  assert.deepEqual([...order].sort((a, b) => a - b), order, 'amorçage, puis conditions bloquantes, puis essai');
+  const bootstrap = before.slice(order[0], order[1]);
+  assert.match(bootstrap, /writeFileSync\(inventoryPath,/, 'l\'amorçage écrit le seul inventaire');
+  assert.ok(!/writeFileSync\([^,]*DATA/.test(bootstrap), 'l\'amorçage n\'écrit jamais dans data/');
+  assert.equal(bootstrap.match(/process\.exit\(/g).length, 2, 'l\'amorçage sort toujours, refusé ou accepté');
+  // publish.mjs calcule en mémoire : aucun accès au disque.
+  assert.ok(!/node:fs|writeFileSync|readFileSync/.test(readFileSync(join(dir, 'publish.mjs'), 'utf8')), 'publish.mjs : aucun accès au disque');
 });
