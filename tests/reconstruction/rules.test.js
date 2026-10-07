@@ -52,9 +52,13 @@ test('identifiants fixés par l\'addendum A3, champs de la frontière', () => {
   assert.deepEqual([...EXCEPTION_FIELDS].sort(), ['grammatical_class', 'group', 'readings', 'word']);
 });
 
-test('forme usuelle décidée : liste fermée, une seule entrée (平仮名, arbitrage du lot 06)', () => {
-  assert.deepEqual(Object.keys(USUAL_FORM_IDS), ['n5_v_604']);
-  assert.equal(USUAL_FORM_IDS.n5_v_604, '平仮名');
+// Passe finale 5.16 (Q6, lot 26) : 煙草 y entre par arbitrage, sa fiche disant たばこ la graphie la plus
+// fréquente. 居る n'y entre pas (statu quo). La liste ne s'étend jamais par détection.
+test('forme usuelle décidée : liste fermée, deux entrées (平仮名, lot 06 ; 煙草, lot 26)', () => {
+  assert.deepEqual({ ...USUAL_FORM_IDS }, { n5_v_604: '平仮名', n5_v_598: '煙草' });
+  assert.match(SOURCES.vocab.find((x) => x.id === 'n5_v_598').nuance, /le plus souvent en hiragana \(たばこ\)/, 'la fiche justifie l\'entrée');
+  assert.ok(!Object.hasOwn(USUAL_FORM_IDS, 'n5_v_548'), '居る : statu quo');
+  assert.ok(!Object.hasOwn(SPECIAL_READING_IDS, 'n5_v_598'), '煙草 n\'est pas une lecture spéciale d\'A8');
   assert.ok(!Object.keys(USUAL_FORM_IDS).some((id) => Object.hasOwn(WORD_EXCEPTION_IDS, id)), 'distincte des graphies fautives');
 });
 
@@ -76,14 +80,20 @@ test('lectures spéciales (addendum A8) : liste fermée de cinq lectures, confor
 
 // Arbitrage du lot 14 : une seule lecture fautive connue, celle de 九つ. La liste rend la lecture
 // décidable sans la corriger ; elle ne s'étend pas par détection.
-test('lecture fautive connue : liste fermée, une seule entrée (九つ)', () => {
-  assert.deepEqual({ ...READING_EXCEPTION_IDS }, { n5_v_375: '九つ' });
+// Passe finale 5.16 (Q5, lot 26) : 頼む y entre par arbitrage, pour ses seuls furigana.
+test('lecture fautive connue : liste fermée, deux entrées (九つ, lot 14 ; 頼む, lot 26)', () => {
+  assert.deepEqual({ ...READING_EXCEPTION_IDS }, { n5_v_375: '九つ', n5_v_116: '頼む' });
   const s = SOURCES.vocab.find((x) => x.id === 'n5_v_375');
   assert.equal(s.word, '九つ');
   // Le défaut qui justifie l'entrée : kana et furigana concordent sur ここなつ, le romaji dit kokonotsu.
   assert.deepEqual([s.reading, s.word_furigana, s.romaji], ['ここなつ', '<ruby>九<rt>ここな</rt></ruby>つ', 'kokonotsu']);
+  // 頼む : kana et romaji justes ; les furigana portent un ノ en katakana, qu'A8 ne détecte pas.
+  const t = SOURCES.vocab.find((x) => x.id === 'n5_v_116');
+  assert.deepEqual([t.word, t.reading, t.word_furigana, t.romaji], ['頼む', 'たのむ', '<ruby>頼<rt>たノ</rt></ruby>む', 'tanomu']);
   // Distincte des autres listes : ni lecture spéciale (A8), ni graphie fautive, ni forme usuelle décidée.
-  for (const list of [SPECIAL_READING_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS]) assert.ok(!Object.hasOwn(list, 'n5_v_375'));
+  for (const id of Object.keys(READING_EXCEPTION_IDS)) {
+    for (const list of [SPECIAL_READING_IDS, WORD_EXCEPTION_IDS, USUAL_FORM_IDS]) assert.ok(!Object.hasOwn(list, id), id);
+  }
 });
 
 test('exceptions de classe du lot 11 : それ, こちら, そちら, どっち, いくつ (classe décidable, liste fermée)', () => {

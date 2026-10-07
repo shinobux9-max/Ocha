@@ -71,7 +71,9 @@ export const WORD_EXCEPTION_IDS = Object.freeze({ n5_v_668: '明い' });
 // correcte mais n'est pas la forme usuelle ; ce n'est PAS une règle générale (« la graphie kana
 // courante l'emporte ») : chaque entrée y est ajoutée par un arbitrage explicite, journalisé.
 // Arbitrage du lot 06 : 平仮名 → ひらがな (平仮名 devient une autre graphie).
-export const USUAL_FORM_IDS = Object.freeze({ n5_v_604: '平仮名' });
+// Arbitrage du périmètre de la passe finale 5.16 (Q6, lot 26) : 煙草 → たばこ, que la fiche dit la
+// graphie la plus fréquente (煙草 devient une autre graphie). 居る n'y entre pas : statu quo.
+export const USUAL_FORM_IDS = Object.freeze({ n5_v_604: '平仮名', n5_v_598: '煙草' });
 
 // ── Lectures ────────────────────────────────────────────────────────────────
 
@@ -82,7 +84,10 @@ export const USUAL_FORM_IDS = Object.freeze({ n5_v_604: '平仮名' });
 // sources figées : la correction se décide dans un lot et se journalise. Ce n'est PAS une règle
 // générale (« le romaji fait foi ») : chaque entrée y entre par un arbitrage explicite. Distincte
 // des lectures spéciales ci-dessous, qui sont justes et seulement à écrire en bloc.
-export const READING_EXCEPTION_IDS = Object.freeze({ n5_v_375: '九つ' });
+// Arbitrage du périmètre de la passe finale 5.16 (Q5, lot 26) : 頼む. Ses kana et son romaji sont
+// justes ; seuls ses furigana portent un ノ en katakana (たノ), que la comparaison d'A8, indifférente
+// à l'écriture hiragana ou katakana, ne détecte pas. Même effet : la lecture devient décidable.
+export const READING_EXCEPTION_IDS = Object.freeze({ n5_v_375: '九つ', n5_v_116: '頼む' });
 
 // Lectures spéciales (addendum A8, §4, règle A) : transcription de la liste fermée normative. La
 // fiche source qualifie elle-même la lecture de spéciale ; les furigana s'écrivent en bloc, un

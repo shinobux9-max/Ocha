@@ -22164,5 +22164,1632 @@
     "before": null,
     "after": null,
     "reason": "Retrait sans successeur (arbitrage du préalable sur la classe de など, option C ; périmètre du lot 25). La fiche n'atteste que « particule suffixe » ; aucune classe du registre lexical n'est attestée. L'addendum A3 (L8) distingue la grammaire du vocabulaire, et permet la suppression d'un identifiant : merged_into vaut null."
+  },
+  {
+    "id": "A2-04-D1570",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_208",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-03",
+      "status": "validated",
+      "journal": [
+        "A2-04-D0256",
+        "A2-04-D0257"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Forme polie et courante, avec お ; ふろ (風呂) est une autre ENTRY (arbitrage du lot 03).",
+        "tags": [
+          "lieu_hotel"
+        ],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Bain",
+              "alternatives": [
+                "Salle de bain"
+              ]
+            },
+            "category": {
+              "level_1": "habitat_vie_domestique",
+              "level_2": "espaces_domestiques",
+              "level_3": "salle_de_bain_toilettes"
+            },
+            "semantic_type": "lieu",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "nuance": "Le bain japonais : la baignoire d'eau chaude où l'on se plonge après s'être lavé, et par extension la pièce. お風呂に入る : prendre un bain (l'action est portée par 入る)."
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_208_s1 equivalent_to v_209_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). お風呂 (n5_v_208), validée au lot 03, est rouverte pour y noter la relation arbitrée (Q4, R1). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D0256, D0257) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1571",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_208",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_209_s1"
+      }
+    ],
+    "reason": "Relation equivalent_to de v_208_s1 (お風呂, « Bain ») vers v_209_s1 (ふろ, « Bain ») : arbitrage du périmètre de 5.16 (Q4, R1). Candidate inscrite par D0261 (« leur proximité pourra être notée par une relation en 5.16 ») : お風呂 et ふろ restent deux ENTRY, et désignent le même bain. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; ふろ (n5_v_209) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1572",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_580",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-18",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1172",
+        "A2-04-D1173",
+        "A2-04-D1174",
+        "A2-04-D1175"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif : ouvrir volontairement une porte, une fenêtre, une boîte ou un contenant. まどを開けてください (veuillez ouvrir la fenêtre). S'ouvrir se dit 開く. La source donne aussi la traduction « déverrouiller », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ouvrir",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_580_s1 transitive_of v_710_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). 開ける (n5_v_580), validée au lot 18, est rouverte pour y noter la relation arbitrée (Q4, R2). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1172, D1173, D1174, D1175) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1573",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_580",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "transitive_of",
+        "target": "v_710_s1"
+      }
+    ],
+    "reason": "Relation transitive_of de v_580_s1 (開ける, « Ouvrir ») vers v_710_s1 (開く, « S'ouvrir ») : arbitrage du périmètre de 5.16 (Q4, R2). Candidate inscrite par D1171 et D1175 ; chaque fiche nomme son correspondant. I12 : la paire transitive_of / intransitive_of n'est notée qu'une fois, sur le sens du verbe transitif ; 開く (n5_v_710) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1574",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_709",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-18",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1180",
+        "A2-04-D1181",
+        "A2-04-D1182",
+        "A2-04-D1183"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif : fermer une porte, une fenêtre, un tiroir ou un couvercle. Se fermer se dit 閉まる.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Fermer",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_709_s1 transitive_of v_579_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). 閉める (n5_v_709), validée au lot 18, est rouverte pour y noter la relation arbitrée (Q4, R3). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1180, D1181, D1182, D1183) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1575",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_709",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "transitive_of",
+        "target": "v_579_s1"
+      }
+    ],
+    "reason": "Relation transitive_of de v_709_s1 (閉める, « Fermer ») vers v_579_s1 (閉まる, « Se fermer ») : arbitrage du périmètre de 5.16 (Q4, R3). Candidate inscrite par D1179 et D1183 ; chaque fiche nomme son correspondant. I12 : la paire transitive_of / intransitive_of n'est notée qu'une fois, sur le sens du verbe transitif ; 閉まる (n5_v_579) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1576",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_561",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-18",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1188",
+        "A2-04-D1189",
+        "A2-04-D1190",
+        "A2-04-D1191",
+        "A2-04-D1192"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif, pour une action volontaire. S'éteindre et disparaître se disent 消える. La source donne aussi la traduction « faire disparaître », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Éteindre",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Un appareil électrique, une lumière ou un feu : ねるまえにテレビを消してください (veuillez éteindre la télévision avant de dormir)."
+          },
+          {
+            "meaning": {
+              "primary": "Effacer",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "communication_langage",
+              "level_2": "ecriture"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Des notes écrites, avec une gomme par exemple."
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_561_s1 transitive_of v_560_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). 消す (n5_v_561), validée au lot 18, est rouverte pour y noter la relation arbitrée (Q4, R4). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1188, D1189, D1190, D1191, D1192) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1577",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_561",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "transitive_of",
+        "target": "v_560_s1"
+      }
+    ],
+    "reason": "Relation transitive_of de v_561_s1 (消す, « Éteindre ») vers v_560_s1 (消える, « S'éteindre ») : arbitrage du périmètre de 5.16 (Q4, R4). Candidate inscrite par D1187 et D1192. Le lien ne porte que sur les sens 1 : aucune relation entre « Effacer » (消す, sens 2) et « Disparaître » (消える, sens 2), aucune symétrie n'étant imposée entre eux (D1188). I12 : la paire transitive_of / intransitive_of n'est notée qu'une fois, sur le sens du verbe transitif ; 消える (n5_v_560) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1578",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_529",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-18",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1229",
+        "A2-04-D1230",
+        "A2-04-D1231"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Transitif : ranger, aligner ou disposer des objets côte à côte, de manière ordonnée. つくえのうえにほんを並べます (je dispose les livres sur le bureau). Être aligné, faire la queue se disent 並ぶ. La source donne aussi la traduction « exposer », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Aligner",
+              "alternatives": [
+                "Disposer",
+                "Mettre en rang"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "position_localisation"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_529_s1 transitive_of v_528_s2) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). 並べる (n5_v_529), validée au lot 18, est rouverte pour y noter la relation arbitrée (Q4, R5). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1229, D1230, D1231) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1579",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_529",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "transitive_of",
+        "target": "v_528_s2"
+      }
+    ],
+    "reason": "Relation transitive_of de v_529_s1 (並べる, « Aligner ») vers v_528_s2 (並ぶ, « Être aligné ») : arbitrage du périmètre de 5.16 (Q4, R5). Candidate inscrite par D1228 et D1231. Le lien vise le sens 2 de 並ぶ, « Être aligné », et non son sens 1, « Faire la queue ». I12 : la paire transitive_of / intransitive_of n'est notée qu'une fois, sur le sens du verbe transitif ; 並ぶ (n5_v_528) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1580",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_533",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-19",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1266",
+        "A2-04-D1267",
+        "A2-04-D1268"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Emprunter un objet à quelqu'un, ou louer un bien, un logement par exemple : としょかんでほんを借ります (j'emprunte un livre à la bibliothèque). Prêter se dit 貸す.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Emprunter",
+              "alternatives": [
+                "Louer"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ],
+        "readings": [
+          {
+            "kana": "かりる",
+            "romaji": "kariru",
+            "furigana": "<ruby>借<rt>か</rt></ruby>りる",
+            "default": true,
+            "note": null
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_533_s1 reciprocal_with v_575_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). 借りる (n5_v_533), validée au lot 19, est rouverte pour y noter la relation arbitrée (Q4, R6). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1266, D1267, D1268) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1581",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_533",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "reciprocal_with",
+        "target": "v_575_s1"
+      }
+    ],
+    "reason": "Relation reciprocal_with de v_533_s1 (借りる, « Emprunter ») vers v_575_s1 (貸す, « Prêter ») : arbitrage du périmètre de 5.16 (Q4, R6). Candidate inscrite par D1265 et D1268 ; chaque fiche nomme l'autre verbe. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; 貸す (n5_v_575) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1582",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_562",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-19",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1272",
+        "A2-04-D1273",
+        "A2-04-D1274",
+        "A2-04-D1275"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Remettre",
+              "alternatives": [
+                "Donner en main propre"
+              ]
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を",
+              "に"
+            ],
+            "nuance": "Remettre un objet directement à quelqu'un, de la main à la main : せんせいにしょるいを渡しました (j'ai remis les documents au professeur)."
+          },
+          {
+            "meaning": {
+              "primary": "Faire traverser",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "parcours_trajectoire"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Faire traverser quelque chose."
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_562_s2 transitive_of v_563_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). 渡す (n5_v_562), validée au lot 19, est rouverte pour y noter la relation arbitrée (Q4, R7). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1272, D1273, D1274, D1275) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1583",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_562",
+    "field": "sens 2 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "transitive_of",
+        "target": "v_563_s1"
+      }
+    ],
+    "reason": "Relation transitive_of de v_562_s2 (渡す, « Faire traverser ») vers v_563_s1 (渡る, « Traverser ») : arbitrage du périmètre de 5.16 (Q4, R7). Candidate inscrite par D1275, pour examen ; 渡る est validée au lot 04. Le lien part du sens 2 de 渡す, « Faire traverser », et non de son sens 1, « Remettre ». I12 : la paire transitive_of / intransitive_of n'est notée qu'une fois, sur le sens du verbe transitif ; 渡る (n5_v_563) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1584",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_181",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-20",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1330",
+        "A2-04-D1331",
+        "A2-04-D1332"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Faire",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Le sens principal du verbe."
+          },
+          {
+            "meaning": {
+              "primary": "Coûter (pour un prix)",
+              "alternatives": [
+                "Valoir"
+              ]
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "prix_valeur_economique",
+              "level_3": "prix"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Placé immédiatement après un montant, indique le prix ou la valeur d'un objet : このノートは200円します (ce carnet coûte 200 yens)."
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_181_s1 equivalent_to v_608_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). する (n5_v_181), validée au lot 20, est rouverte pour y noter la relation arbitrée (Q4, R8). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1330, D1331, D1332) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1585",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_181",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_608_s1"
+      }
+    ],
+    "reason": "Relation equivalent_to de v_181_s1 (する, « Faire ») vers v_608_s1 (やる, « Faire ») : arbitrage du périmètre de 5.16 (Q4, R8). Candidate inscrite par D1332 et D1336 (« type exact décidé à 5.16, sens par sens »). Le lien ne porte que sur « Faire » : ni « Coûter » (する, sens 2), ni « Donner » (やる, sens 2). La relation dit l'équivalence des deux sens, non le registre familier de やる, qui reste en nuance (D1332). I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; やる (n5_v_608) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1586",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_527",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-19",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1263"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Donner",
+              "alternatives": [
+                "Offrir"
+              ]
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "interactions_sociales"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を",
+              "に"
+            ],
+            "nuance": "Donner quelque chose à quelqu'un qui n'est pas du cercle familial proche : ともだちにプレゼントを上げます (je donne un cadeau à mon ami)."
+          },
+          {
+            "meaning": {
+              "primary": "Lever",
+              "alternatives": [
+                "Monter"
+              ]
+            },
+            "category": {
+              "level_1": "espace_proprietes_spatiales",
+              "level_2": "mouvement_deplacement",
+              "level_3": "monter_descendre"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Au sens physique : lever, élever ou monter un objet."
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_527_s1 similar_to v_608_s2) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). 上げる (n5_v_527), validée au lot 19, est rouverte pour y noter la relation arbitrée (Q4, R9). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1263) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1587",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_527",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "similar_to",
+        "target": "v_608_s2"
+      }
+    ],
+    "reason": "Relation similar_to de v_527_s1 (上げる, « Donner ») vers v_608_s2 (やる, « Donner (à des plantes, des animaux) ») : arbitrage du périmètre de 5.16 (Q4, R9). Candidate inscrite par D1337. Le lien ne porte que sur le sens de donner : ni « Lever » (上げる, sens 2), ni « Faire » (やる, sens 1). Les deux sens se ressemblent sans être équivalents, celui de やる étant restreint aux plantes et aux animaux : similar_to. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; やる (n5_v_608) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1588",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_593",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-23",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1436",
+        "A2-04-D1437",
+        "A2-04-D1438",
+        "A2-04-D1439",
+        "A2-04-D1440"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour introduire une opposition ou une restriction par rapport à la phrase précédente : てんきがよいです。しかし、さむいです (il fait beau. Cependant, il fait froid). Plus formel que でも.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cependant",
+              "alternatives": [
+                "Mais",
+                "Toutefois",
+                "Néanmoins"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            }
+          }
+        ],
+        "grammatical_class": "conjonction",
+        "group": null
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_593_s1 equivalent_to v_599_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). しかし (n5_v_593), validée au lot 23, est rouverte pour y noter la relation arbitrée (Q4, R10). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1436, D1437, D1438, D1439, D1440) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1589",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_593",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_599_s1"
+      }
+    ],
+    "reason": "Relation equivalent_to de v_593_s1 (しかし, « Cependant ») vers v_599_s1 (でも, « Mais ») : arbitrage du périmètre de 5.16 (Q4, R10). Candidate inscrite par D1440. Les deux sens ont le même emploi : introduire une opposition ou une restriction par rapport à ce qui précède. La différence de registre reste en nuance. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; でも (n5_v_599) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1590",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_416",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-23",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1445",
+        "A2-04-D1446",
+        "A2-04-D1447",
+        "A2-04-D1448",
+        "A2-04-D1449"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Formé de sore (cela) et de kara (depuis, après). Pour lier des actions consécutives dans le temps : あさごはんをたべました。それから、がっこうへいきました (j'ai pris mon petit-déjeuner. Ensuite, je suis allé à l'école). S'emploie aussi pour énumérer des éléments.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Ensuite",
+              "alternatives": [
+                "Et puis",
+                "Puis après"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            }
+          }
+        ],
+        "grammatical_class": "conjonction",
+        "group": null
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_416_s1 equivalent_to v_596_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). それから (n5_v_416), validée au lot 23, est rouverte pour y noter la relation arbitrée (Q4, R11). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1445, D1446, D1447, D1448, D1449) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1591",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_416",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_596_s1"
+      }
+    ],
+    "reason": "Relation equivalent_to de v_416_s1 (それから, « Ensuite ») vers v_596_s1 (そうして, « Et puis ») : arbitrage du périmètre de 5.16 (Q4, R11). Candidate inscrite par D1449. Les deux sens ont le même emploi séquentiel : lier des actions qui se suivent. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; そうして (n5_v_596) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1592",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_418",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-23",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1455",
+        "A2-04-D1456",
+        "A2-04-D1457",
+        "A2-04-D1458",
+        "A2-04-D1459",
+        "A2-04-D1460",
+        "A2-04-D1461",
+        "A2-04-D1462"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Dans ce cas",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour tirer la conséquence de ce qui précède, ou conclure un accord."
+          },
+          {
+            "meaning": {
+              "primary": "Eh bien",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour marquer le passage à une autre idée."
+          },
+          {
+            "meaning": {
+              "primary": "Alors",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours",
+                "politesse"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour prendre congé de manière polie : では、またあした (alors, à demain !)."
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relations ajoutées (v_418_s1 equivalent_to v_595_s1 ; v_418_s2 equivalent_to v_595_s2 ; v_418_s3 equivalent_to v_595_s3) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). では (n5_v_418), validée au lot 23, est rouverte pour y noter les relations arbitrées (Q4, R12). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1455, D1456, D1457, D1458, D1459, D1460, D1461, D1462) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1593",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_418",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_595_s1"
+      }
+    ],
+    "reason": "Relation equivalent_to de v_418_s1 (では, « Dans ce cas ») vers v_595_s1 (じゃ, « Dans ce cas ») : arbitrage du périmètre de 5.16 (Q4, R12). Candidate inscrite par D1462. Paire structurante では ↔ じゃ, emplois correspondants : tirer la conséquence de ce qui précède, conclure un accord. Aucun graphe complet entre では, それでは, じゃ et じゃあ, aucun sens nouveau. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; じゃ (n5_v_595) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1594",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_418",
+    "field": "sens 2 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_595_s2"
+      }
+    ],
+    "reason": "Relation equivalent_to de v_418_s2 (では, « Eh bien ») vers v_595_s2 (じゃ, « Bon ») : arbitrage du périmètre de 5.16 (Q4, R12). Candidate inscrite par D1462. Paire structurante では ↔ じゃ, emplois correspondants : marquer une transition, le passage à une autre idée. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; じゃ (n5_v_595) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1595",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_418",
+    "field": "sens 3 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_595_s3"
+      }
+    ],
+    "reason": "Relation equivalent_to de v_418_s3 (では, « Alors ») vers v_595_s3 (じゃ, « Alors ») : arbitrage du périmètre de 5.16 (Q4, R12). Candidate inscrite par D1462. Paire structurante では ↔ じゃ, emplois correspondants : prendre congé. La politesse de では reste portée par sa fonction ; la relation ne dit pas le registre. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; じゃ (n5_v_595) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1596",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_413",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-23",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1479",
+        "A2-04-D1480",
+        "A2-04-D1481",
+        "A2-04-D1482",
+        "A2-04-D1483",
+        "A2-04-D1484"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Contraction familière de では.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Alors",
+              "alternatives": [
+                "Dans ce cas"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "connecteur"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour conclure un accord, tirer la conséquence de ce qui précède."
+          },
+          {
+            "meaning": {
+              "primary": "Eh bien",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour marquer une transition dans la conversation, jusqu'à la prise de congé : じゃあ、またあした (alors, à demain !)."
+          }
+        ],
+        "grammatical_class": "conjonction",
+        "group": null
+      }
+    },
+    "after": "rouverte : relations ajoutées (v_413_s1 equivalent_to v_417_s1 ; v_413_s2 equivalent_to v_417_s2) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). じゃあ (n5_v_413), validée au lot 23, est rouverte pour y noter les relations arbitrées (Q4, R12). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1479, D1480, D1481, D1482, D1483, D1484) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1597",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_413",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_417_s1"
+      }
+    ],
+    "reason": "Relation equivalent_to de v_413_s1 (じゃあ, « Alors ») vers v_417_s1 (それでは, « Dans ce cas ») : arbitrage du périmètre de 5.16 (Q4, R12). Candidate inscrite par D1462. Paire structurante それでは ↔ じゃあ, emplois correspondants : conclure, tirer la conséquence de ce qui précède. Aucun graphe complet entre les quatre formes, aucun sens nouveau. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; それでは (n5_v_417) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1598",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_413",
+    "field": "sens 2 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_417_s2"
+      }
+    ],
+    "reason": "Relation equivalent_to de v_413_s2 (じゃあ, « Eh bien ») vers v_417_s2 (それでは, « Alors ») : arbitrage du périmètre de 5.16 (Q4, R12). Candidate inscrite par D1462. Paire structurante それでは ↔ じゃあ, emplois correspondants : marquer une transition, changer de sujet ou ouvrir une étape. Le sens 3 de それでは, « Sur ce » (prendre congé), n'est pas relié : じゃあ n'a pas de sens distinct pour la prise de congé. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; それでは (n5_v_417) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1599",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_344",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-23",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1485",
+        "A2-04-D1486",
+        "A2-04-D1487",
+        "A2-04-D1488"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Pour marquer l'accord, répondre à un appel ou confirmer une information : はい、わかりました (oui, j'ai compris). Terme d'approbation poli.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Oui",
+              "alternatives": [
+                "C'est exact",
+                "Entendu"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relations ajoutées (v_344_s1 equivalent_to v_586_s1 ; v_344_s1 opposed_to v_584_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). はい (n5_v_344), validée au lot 23, est rouverte pour y noter les relations arbitrées (Q4, R13). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1485, D1486, D1487, D1488) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1600",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_344",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_586_s1"
+      }
+    ],
+    "reason": "Relation equivalent_to de v_344_s1 (はい, « Oui ») vers v_586_s1 (ええ, « Oui ») : arbitrage du périmètre de 5.16 (Q4, R13). Candidate inscrite par D1488. はい et ええ marquent tous deux l'accord ; la différence de registre reste en nuance. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; ええ (n5_v_586) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1601",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_344",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [
+      {
+        "type": "equivalent_to",
+        "target": "v_586_s1"
+      }
+    ],
+    "after": [
+      {
+        "type": "equivalent_to",
+        "target": "v_586_s1"
+      },
+      {
+        "type": "opposed_to",
+        "target": "v_584_s1"
+      }
+    ],
+    "reason": "Relation opposed_to de v_344_s1 (はい, « Oui ») vers v_584_s1 (いいえ, « Non ») : arbitrage du périmètre de 5.16 (Q4, R13). Candidate inscrite par D1488. La réponse affirmative はい s'oppose à la réponse négative いいえ. Le sens 2 de いいえ, « De rien », n'est pas relié. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot)."
+  },
+  {
+    "id": "A2-04-D1602",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_584",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-23",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1493",
+        "A2-04-D1494",
+        "A2-04-D1495",
+        "A2-04-D1496",
+        "A2-04-D1497",
+        "A2-04-D1498",
+        "A2-04-D1499"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": null,
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Non",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "discours"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour répondre par la négative à une question."
+          },
+          {
+            "meaning": {
+              "primary": "De rien",
+              "alternatives": [
+                "Pas du tout"
+              ]
+            },
+            "category": null,
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": [
+                "politesse"
+              ]
+            },
+            "particles": [],
+            "nuance": "Pour décliner poliment un compliment ou un remerciement."
+          }
+        ],
+        "grammatical_class": "interjection",
+        "group": null
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_584_s1 opposed_to v_586_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). いいえ (n5_v_584), validée au lot 23, est rouverte pour y noter la relation arbitrée (Q4, R13). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1493, D1494, D1495, D1496, D1497, D1498, D1499) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1603",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_584",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "opposed_to",
+        "target": "v_586_s1"
+      }
+    ],
+    "reason": "Relation opposed_to de v_584_s1 (いいえ, « Non ») vers v_586_s1 (ええ, « Oui ») : arbitrage du périmètre de 5.16 (Q4, R13). Candidate inscrite par D1488. La réponse négative いいえ s'oppose à la réponse affirmative ええ. Le sens 2 de いいえ, « De rien », ne porte aucun lien. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; ええ (n5_v_586) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1604",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_447",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-24",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1514",
+        "A2-04-D1515",
+        "A2-04-D1516"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Qualifie une quantité restreinte ou un nombre faible d'éléments ou de personnes : このまちはくるまがすくないです (il y a peu de voitures dans cette ville). Antonyme de 多い, selon la fiche.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Peu nombreux",
+              "alternatives": [
+                "Raréfié",
+                "En petite quantité",
+                "Peu de"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "quantite",
+              "level_3": "petite_quantite"
+            },
+            "semantic_type": "propriete",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            }
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relation ajoutée (v_447_s1 opposed_to v_654_s1) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). 少ない (n5_v_447), validée au lot 24, est rouverte pour y noter la relation arbitrée (Q4, R14). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1514, D1515, D1516) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1605",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_447",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "opposed_to",
+        "target": "v_654_s1"
+      }
+    ],
+    "reason": "Relation opposed_to de v_447_s1 (少ない, « Peu nombreux ») vers v_654_s1 (多い, « Nombreux ») : arbitrage du périmètre de 5.16 (Q4, R14). Candidate inscrite par D1513 : la fiche de 少ない le dit antonyme de 多い. たくさん et 大勢 ne reçoivent aucune relation. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; 多い (n5_v_654) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1606",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_497",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-24",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1535",
+        "A2-04-D1536",
+        "A2-04-D1537",
+        "A2-04-D1538",
+        "A2-04-D1539"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "Très courant. Sert aussi de formule atténuante, pour exprimer une hésitation (« Euh… », que la fiche donne en traduction) ou un refus poli (« c'est un peu délicat… »).",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Un peu",
+              "alternatives": [
+                "Un peu de"
+              ]
+            },
+            "category": {
+              "level_1": "nombres_quantification",
+              "level_2": "quantite",
+              "level_3": "petite_quantite"
+            },
+            "semantic_type": null,
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [
+                "quantificateur"
+              ],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Une faible quantité : コーヒーをちょっとのみます (je bois un peu de café)."
+          },
+          {
+            "meaning": {
+              "primary": "Un instant",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "temps",
+              "level_2": "duree"
+            },
+            "semantic_type": "concept_abstrait",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [],
+            "nuance": "Un bref instant."
+          }
+        ]
+      }
+    },
+    "after": "rouverte : relations ajoutées (v_497_s1 similar_to v_509_s1 ; v_497_s2 similar_to v_509_s3) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). ちょっと (n5_v_497), validée au lot 24, est rouverte pour y noter les relations arbitrées (Q4, R15). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1535, D1536, D1537, D1538, D1539) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1607",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_497",
+    "field": "sens 1 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "similar_to",
+        "target": "v_509_s1"
+      }
+    ],
+    "reason": "Relation similar_to de v_497_s1 (ちょっと, « Un peu ») vers v_509_s1 (少し, « Une petite quantité ») : arbitrage du périmètre de 5.16 (Q4, R15). Candidate inscrite par D1534 (« très proche d'usage »). Emplois correspondants : une faible quantité. Aucun lien n'est fondé sur l'hésitation ou le refus poli, qui restent en nuance. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; 少し (n5_v_509) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1608",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_497",
+    "field": "sens 2 · relations",
+    "kind": "decision",
+    "before": [],
+    "after": [
+      {
+        "type": "similar_to",
+        "target": "v_509_s3"
+      }
+    ],
+    "reason": "Relation similar_to de v_497_s2 (ちょっと, « Un instant ») vers v_509_s3 (少し, « Un court instant ») : arbitrage du périmètre de 5.16 (Q4, R15). Candidate inscrite par D1534. Emplois correspondants : une courte durée. Le sens 2 de 少し, « Un peu » (un petit degré), n'est pas relié : ちょっと n'a pas de sens distinct pour le degré. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; 少し (n5_v_509) n'est ni modifiée ni rouverte."
+  },
+  {
+    "id": "A2-04-D1609",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_116",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-19",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1276",
+        "A2-04-D1277",
+        "A2-04-D1278"
+      ],
+      "fields": {
+        "writings": [],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "La source cite aussi l'emploi « faire une prière », sans le développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Demander",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "relations_sociales",
+              "level_2": "interactions_sociales"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Demander un service à quelqu'un."
+          },
+          {
+            "meaning": {
+              "primary": "Commander (un plat au restaurant)",
+              "alternatives": []
+            },
+            "category": {
+              "level_1": "economie_commerce",
+              "level_2": "achat_vente",
+              "level_3": "commande"
+            },
+            "semantic_type": "action",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": [
+              "を"
+            ],
+            "nuance": "Au restaurant, passer une commande, un plat ou une boisson : レストランでカレーライスを頼みました (j'ai commandé un riz au curry au restaurant)."
+          }
+        ]
+      }
+    },
+    "after": "rouverte : furigana de la lecture corrigés (décision suivante) ; rien d'autre ne change",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). 頼む (n5_v_116), validée au lot 19, est rouverte pour corriger les furigana de sa lecture (Q5). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1276, D1277, D1278) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1610",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_116",
+    "field": "readings",
+    "kind": "correction",
+    "before": "<ruby>頼<rt>たノ</rt></ruby>む",
+    "after": "<ruby>頼<rt>たの</rt></ruby>む",
+    "reason": "Furigana de la lecture corrigés (arbitrage du périmètre de 5.16, Q5) : la source écrit たノ, avec un ノ en katakana, pour la lecture たのむ ; les kana et le romaji de la fiche (tanomu) sont justes. L'anomalie avait été inscrite pour la passe finale par D1278. L'addendum A8 ne la détecte pas, sa comparaison ne distinguant pas hiragana et katakana : n5_v_116 entre donc, par cet arbitrage, dans la liste fermée READING_EXCEPTION_IDS, qui rend la lecture décidable sans rien corriger d'elle-même. Seuls les furigana changent ; kana et romaji sont ceux de la source. Aucune règle générale, aucun addendum ; les sources figées restent intactes."
+  },
+  {
+    "id": "A2-04-D1611",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_598",
+    "field": "entrée",
+    "kind": "decision",
+    "before": {
+      "lot": "lot-19",
+      "status": "validated",
+      "journal": [
+        "A2-04-D1294",
+        "A2-04-D1295",
+        "A2-04-D1296",
+        "A2-04-D1300",
+        "A2-04-D1301"
+      ],
+      "fields": {
+        "writings": [
+          {
+            "form": "たばこ",
+            "furigana": "たばこ"
+          }
+        ],
+        "suru_compatible": false,
+        "suffix": false,
+        "counter": null,
+        "nuance": "S'écrit le plus souvent en hiragana, たばこ, parfois en kanji. S'emploie avec 吸う pour dire « fumer ». ここでたばこをすってはいけません (il est interdit de fumer une cigarette ici). La source donne aussi la traduction « cigare », sans la développer.",
+        "tags": [],
+        "senses": [
+          {
+            "meaning": {
+              "primary": "Cigarette",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "objet_artefact",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": []
+          },
+          {
+            "meaning": {
+              "primary": "Tabac",
+              "alternatives": []
+            },
+            "category": null,
+            "semantic_type": "substance_matiere",
+            "dimensions": [],
+            "relations": [],
+            "linguistic_functions": {
+              "grammatical": [],
+              "pragmatic_discourse": []
+            },
+            "particles": []
+          }
+        ]
+      }
+    },
+    "after": "rouverte : forme usuelle たばこ, 煙草 en autre graphie (décisions suivantes) ; nuance, tags et sens inchangés",
+    "reason": "Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). 煙草 (n5_v_598), validée au lot 19, est rouverte pour décider sa forme usuelle (Q6). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D1294, D1295, D1296, D1300, D1301) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée."
+  },
+  {
+    "id": "A2-04-D1612",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_598",
+    "field": "word",
+    "kind": "decision",
+    "before": "煙草",
+    "after": "たばこ",
+    "reason": "Forme usuelle たばこ (arbitrage du périmètre de 5.16, Q6) : la fiche dit que le mot « s'écrit le plus souvent en hiragana (たばこ) ou parfois en kanji (煙草) », et son exemple l'écrit en hiragana. La question avait été signalée pour la passe finale par D1294. Exception humaine propre à cette ENTRY : n5_v_598 entre, par cet arbitrage, dans la liste fermée USUAL_FORM_IDS, comme 平仮名 (D0440) ; la règle mécanique générale n'est pas modifiée, et aucune autre entrée n'est traitée ainsi. La lecture suit la forme : kana たばこ et romaji tabako, ceux de la source ; ses furigana sont la forme elle-même, en hiragana."
+  },
+  {
+    "id": "A2-04-D1613",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-26",
+    "entry": "n5_v_598",
+    "field": "writings",
+    "kind": "decision",
+    "before": [
+      {
+        "form": "たばこ",
+        "furigana": "たばこ"
+      }
+    ],
+    "after": [
+      {
+        "form": "煙草",
+        "furigana": "<ruby>煙<rt>たば</rt></ruby><ruby>草<rt>こ</rt></ruby>"
+      }
+    ],
+    "reason": "煙草 devient l'autre graphie (arbitrage du périmètre de 5.16, Q6), et たばこ, devenue la forme usuelle, quitte la liste des graphies, où D1294 l'avait placée. Les furigana de 煙草 sont ceux de la fiche source, conservés exactement (arbitrage de la proposition du lot 26, choix 5) : la source les fournit explicitement, et ils recomposent bien la lecture たばこ (I5). Aucune règle normative ne permet de les remplacer par un bloc : 煙草 n'entre pas dans la liste fermée des lectures spéciales d'A8, et aucune règle de furigana n'est créée. La segmentation de la source est donc conservée pour cette reconstruction, sans généralisation normative ni affirmation linguistique sur sa justesse."
   }
 ]

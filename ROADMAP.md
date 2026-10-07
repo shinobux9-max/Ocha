@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-07 (validation du lot 25)
+**Dernière mise à jour :** 2026-10-07 (validation du lot 26, passe finale 5.16)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -43,7 +43,8 @@ Plus précisément :
 
 **A2-04 · reconstruction du vocabulaire N5 → toutes les entrées sont décidées.** Les lots 0 à 25 sont
 validés (など retirée sans successeur au lot 25) ; l'addendum A9 (six fonctions linguistiques) est
-validé. Restent la passe finale 5.16 et la publication 5.17.
+validé. **La passe finale 5.16 est validée** (lot 26, 2026-10-07 ; non encore committée). Reste la
+publication 5.17.
 
 Les lots 0 à 20 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
@@ -272,7 +273,7 @@ Le futur JSON canonique n'est publié qu'à la fin d'A2-04.
 | **Préalable A9** | Point d'arrêt normatif : six fonctions A2-LING définies (addendum A9) | ✅ Terminé |
 | **Lot 23** | Liaison, échange et formules sociales | ✅ Terminé |
 | **Lots suivants** | Quantité, degré et comparaison (14 entrées) ; préalable sur la classe de など | ⬜ À faire |
-| **5.16** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ⬜ À faire |
+| **5.16 · lot 26** | Passe finale : cohérence, relations, fusions restantes, tags, remappages | ✅ Validé (commit en attente) |
 | **5.17** | Publication atomique du vocabulaire canonique | ⬜ À faire |
 
 **Numérotation** (arbitrage du 2026-10-05) : à partir du lot 15, un lot est désigné par son numéro
@@ -288,13 +289,14 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 25
+#### État chiffré après le lot 26
 
 -   **684 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
 -   **35 identifiants retirés** : 33 fusions, `v_717` (A3, d'emblée) et `v_602` (など, lot 25), sans
     successeur ;
 -   **aucune ancienne entrée encore à décider** ; l'assemblage complet est sans problème ;
--   **1 569 décisions humaines validées** au journal ;
+-   **1 613 décisions humaines validées** au journal (D0001 à D1613) ;
+-   **22 relations** entre sens, notées une seule fois chacune (lot 26) ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **2 suffixes** (`半`, `辺`) ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -510,8 +512,27 @@ Les 3 phrases rangées sous `n5_v_602` sont pour 5.16.
 
 Committé (`b3740c7`) et poussé.
 
-**Prochaine action immédiate :** préparer le périmètre exact de la passe finale 5.16 (les 3 phrases
-de `など` et les éléments déjà réservés à 5.16), sans aucune modification avant accord explicite.
+#### Passe finale 5.16 · lot 26 « Passe finale » · validé
+
+Périmètre arbitré (neuf questions), proposition relue et révisée, puis **validée le 2026-10-07**
+(rapport `docs/rapports/etape2-A2-04-lot26-valide.md`). Le lot ne décide aucune entrée nouvelle : il
+**rouvre 19 ENTRY validées** dans leur lot d'origine, par **44 décisions** (D1570 à D1613).
+
+-   **22 relations** pour les quinze candidates inscrites (R1 à R15) : `transitive_of` (cinq paires),
+    `equivalent_to`, `similar_to`, `opposed_to`, `reciprocal_with` ; chacune notée une seule fois
+    (I12) ; aucun balayage global ;
+-   **`頼む`** : furigana corrigés (`READING_EXCEPTION_IDS`) ; **`煙草`** : forme usuelle `たばこ`
+    (`USUAL_FORM_IDS`), `煙草` en autre graphie ; `居る` et `すぐに` inchangées ;
+-   **constats** : assemblage complet sans problème, 35 retraits, aucune fusion restante, 71
+    références remappées sans perte ;
+-   **table de correspondance d'`exemples.json`** fixée et vérifiée, sans réécriture : les 3 phrases
+    de `など` iront au point de grammaire `g_27`, à la tâche 11 ;
+-   **hors 5.16** : aucun tag de lieu (5.17 et A2-05) ; rien n'est écrit dans `data/` (5.17).
+
+Validé ; **ni committé, ni poussé** à ce jour.
+
+**Prochaine action immédiate :** le commit puis le push du lot 26, sur deux accords distincts et
+explicites ; ensuite, la publication 5.17.
 
 ------------------------------------------------------------------------
 
@@ -799,8 +820,8 @@ Ensuite seulement :
    │   ├── Lot 19 Vie quotidienne           ✅
    │   ├── Lot 20 Existence, action         ✅
    │   ├── Lot 21 Fréquence, répétition     ✅
-   │   ├── Lots suivants                    ⬜
-   │   ├── 5.16 Passe finale                ⬜
+   │   ├── Lots 22 à 25                     ✅
+   │   ├── 5.16 Passe finale (lot 26)       ✅
    │   └── 5.17 Publication                 ⬜
    │
    ├── A2-05 Audit vocabulaire              ⬜

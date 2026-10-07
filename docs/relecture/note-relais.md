@@ -18,7 +18,12 @@ arbitré, proposition livrée, 18 choix arbitrés et révisée, révision vérif
 (`2c89eb0`) et poussé** ; **lot 24 : périmètre arbitré, proposition livrée, 14 choix arbitrés et révisée, lot validé,
 committé (`affa45e`) et poussé**, suivi documentaire `5e9a233` poussé ; **préalable sur la classe de
 など ouvert et arbitré** (2026-10-07), **lot 25 : périmètre arbitré, proposition livrée et approuvée, lot validé, committé (`b3740c7`) et
-poussé**, dans une session Claude Code cloud.
+poussé**, suivi documentaire `8ce0e23` poussé ; **périmètre de la passe finale 5.16 proposé**
+(2026-10-07), dans une session Claude Code cloud ; travail repris en local (VS Code), transfert
+vérifié ; **périmètre de 5.16 arbitré, proposition du lot 26 livrée** (2026-10-07), **relue (avis
+favorable sous une correction), quatre choix arbitrés, raison de D1613 révisée**, **révision
+vérifiée par ChatGPT, traces documentaires corrigées** ; **lot 26 validé** (2026-10-07), ni committé
+ni poussé.
 
 ## 1. Les rôles
 
@@ -143,6 +148,49 @@ réel : **670 ENTRY, 34 retraits, 15 écartées (toutes non décidées)**, 0 pro
 attente, 147 avertissements ; 1 509 décisions, toutes validées ; また non rouverte ; 476 tests verts ;
 40 sabotages attrapés.
 
+**Passe finale 5.16, lot 26 « Passe finale » : VALIDÉ le 2026-10-07 ; ni committé, ni poussé.**
+
+| Étape | État | Qui décide |
+|---|---|---|
+| Recensement et périmètre | **livrés** : `docs/rapports/etape2-A2-04-lot26-perimetre-5-16.md` | Claude Code |
+| Arbitrage (Q1 à Q9) | **rendu** le 2026-10-07, consigné au §9 du rapport de périmètre | toi |
+| Proposition | **livrée**, tout en `proposed` (`docs/rapports/etape2-A2-04-lot26-proposition.md`) : `lot-26.json` sans entrée ; 19 ENTRY rouvertes dans leur lot d'origine ; 44 décisions D1570 à D1613 ; 22 liens ; 頼む corrigée ; 煙草 en たばこ ; table de correspondance d'`exemples.json` fixée, sans réécriture | Claude Code |
+| Relecture, et les dix choix du §8 | **faite** le 2026-10-07 : avis favorable sous une correction rédactionnelle ; quatre choix arbitrés (rapport de proposition, §12.1) | toi |
+| Révision | **faite** : la seule raison de D1613, réécrite à sa place (§12.2) ; **vérifiée par ChatGPT le 2026-10-07, conforme** (§12.4) | toi |
+| Traces documentaires | **corrigées** après ta vérification : en-tête, §8, §10 et sabotages du rapport de proposition ; cette note ; doctrine des listes fermées de `CLAUDE.md`. Aucune donnée, décision, lot, relation ni test modifié | Claude Code |
+| **Validation** | **faite le 2026-10-07** sur ton autorisation explicite : statuts seulement, 19 ENTRY rouvertes et 44 décisions D1570 à D1613 (`docs/rapports/etape2-A2-04-lot26-valide.md`) | toi |
+| Commit, push | **non autorisés** | toi, deux accords distincts |
+
+**D'après les contrôles rapportés par Claude Code**, à la validation : comparés à des copies prises
+avant la bascule, le journal et les sept fichiers de lot ne diffèrent que par **63 lignes, toutes
+`"status": "proposed"` → `"validated"`** (44 dans `journal.json` ; 1, 4, 5, 1, 6 et 2 dans les lots
+03, 18, 19, 20, 23 et 24 ; 0 dans `lot-26.json`) ; même nombre de lignes, contenu hors statut
+identique ; aucun autre fichier de données modifié. **Assemblage réel, partiel et complet : 684 ENTRY,
+35 retraits, 0 écartée**, 0 problème, 0 erreur, 0 attente, 148 avertissements (aucun nouveau) ; 22
+relations ; 71 références remappées ; **1 613 décisions, toutes validées** ; 27 lots entièrement
+validés ; empreinte D0001 à D1569 inchangée. 490 tests verts ; sabotages sur l'état validé : 40
+attrapés sur 40, témoin sain d'abord.
+
+**D'après les contrôles rapportés par Claude Code**, à la révision : comparées aux 44 décisions de
+l'export que tu as relu, les 44 décisions actuelles ont les mêmes identifiants dans le même ordre, et
+**une seule diffère, D1613, par son seul champ `reason`** ; D0001 à D1569 restent identiques à
+`8ce0e23` ; 699 entrées identiques, 19 rouvertes ; `data/` sans diff ; assemblage réel 665 ENTRY, 35
+retraits, 19 écartées ; essai à blanc 684, 35, 0 ; 490 tests verts ; 35 sabotages attrapés sur 35.
+
+**D'après les contrôles rapportés par Claude Code**, à la proposition : D0001 à D1569 identiques à
+`8ce0e23` (préfixe exact du journal) ; 699 entrées identiques, 19 rouvertes dont le champ `before` est
+exactement l'état committé ; rejouer les décisions sur cet état redonne l'état proposé, sans autre
+différence ; `data/`, les sources et la conception sans diff. Assemblage réel : **665 ENTRY, 35
+retraits, 19 écartées (propositions non validées)**, 0 problème, 0 erreur. **Essai à blanc, partiel et
+complet : 684 ENTRY, 35 retraits, 0 écartée**, 0 problème, 0 erreur, 0 attente, 148 avertissements, 71
+références remappées. 490 tests verts ; 34 sabotages attrapés sur 34, témoin sain d'abord.
+
+**À savoir pour lire l'export** : le lot 26 ne décide aucune entrée, `08` est donc un lot **sans
+entrée**, et la partie 1 de `07` ne contient aucune fiche. Les 19 ENTRY rouvertes sont dans la
+**partie 3** de `07` (fiche source, état proposé, toutes leurs décisions) ; les 44 décisions, avec le
+champ `before` de chaque réouverture, sont dans `09`. Depuis la validation, le compteur « entrées
+écartées » de `05` et de `10` vaut 0 (il valait 19 pendant la proposition : les ENTRY rouvertes).
+
 **Lot 25, « Retrait de など » : clos.** Validé, committé (`b3740c7`) et poussé ; toutes les entrées des
 sources sont décidées.
 
@@ -202,8 +250,30 @@ D1569 ; `10` le diff contre `5e9a233` et le diff de la validation (statuts seule
 
 ## 4. Ce qui est attendu de cette relecture
 
-Rien sur le lot 25, clos. La prochaine relecture portera sur le périmètre exact de la passe finale
-5.16.
+**Contrôler le diff de validation du lot 26** (rapport de validation) :
+
+1. **La bascule ne touche que des statuts** (§2) : 63 lignes, dont les numéros sont donnés fichier
+   par fichier ; dans `09`, les 44 décisions sont toutes `validated`, et leur contenu est celui que
+   tu as vérifié ;
+2. **L'état validé** (§3) : 684 ENTRY, 35 retraits, 0 écartée ; 1 613 décisions validées ; 22
+   relations ;
+3. **Les tests adaptés et les sabotages** (§5, §6) ;
+4. **Dire si tu autorises le commit.** Le push demandera ensuite un accord séparé.
+
+**Limite à connaître** : la comparaison avant / après de l'export (`10`, §3) ne porte que sur
+`lot-26.json` (0 ligne, le lot n'a pas d'entrée) et sur le journal (44 lignes). Celle des six autres
+fichiers de lot est au §2 du rapport de validation ; tu ne peux pas la refaire. Le diff du `10`, lui,
+est pris contre `8ce0e23` : il réunit la proposition, sa révision et la validation.
+
+**Ne seront pas dans le commit** : `chatgpt-relecture/` et les archives ZIP.
+
+Les accords restent distincts : écris en toutes lettres celui que tu donnes, et celui que tu ne
+donnes pas.
+
+**Dans cet export** : `06` contient le rapport de périmètre (arbitrage du périmètre au §9), le rapport
+de proposition (arbitrage de la proposition et révision au §12) et le rapport généré ; `07`, les 19
+ENTRY rouvertes (partie 3) et les précédents cités (partie 2) ; `08` est `lot-26.json`, sans entrée ;
+`09`, les 44 décisions, dont D1613 révisée ; `10` le diff contre `8ce0e23` et les contrôles.
 
 ## 5. Points ouverts
 
@@ -228,8 +298,7 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Préparer le périmètre exact de la passe finale 5.16** : les 3 phrases rangées sous
-   `n5_v_602`, et les éléments déjà réservés à 5.16 (relations candidates, furigana de 頼む,
-   particule de すぐに, formes de 煙草 et 居る…), **sans aucune modification avant ton accord
-   explicite**.
-2. Ensuite : la passe 5.16 elle-même, puis la publication 5.17 et l'audit A2-05.
+1. **Ton contrôle du diff de validation**, puis ton accord explicite de commit, ou une demande de
+   correction.
+2. Sur cet accord : le commit du lot 26, sur une ligne, après présentation de `git diff --stat`.
+3. Puis le push, sur un accord distinct et explicite ; ensuite, la publication 5.17 et l'audit A2-05.

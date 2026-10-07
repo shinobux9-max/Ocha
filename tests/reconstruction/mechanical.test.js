@@ -62,12 +62,16 @@ test('A8 : furigana contredisant les kana, lectures spéciales segmentées : lec
 
 // Lecture fautive connue (liste fermée) : la lecture de 九つ devient à décider. La couche mécanique
 // ne la corrige pas, et la liste ne s'étend à aucune autre entrée.
-test('lecture fautive connue : 九つ à décider, sans correction, et elle seule', () => {
+// Passe finale 5.16 (Q5, lot 26) : 頼む entre dans la liste, pour ses furigana (ノ en katakana).
+test('lecture fautive connue : 九つ et 頼む à décider, sans correction, et elles seules', () => {
   const pre = PREFILLS.get('n5_v_375');
   assert.match(pre.exceptions.readings, /lecture fautive connue/);
   assert.ok(!Object.hasOwn(pre.values, 'readings'), 'aucune lecture mécanique : ni ここなつ, ni une correction');
   const listed = [...PREFILLS.values()].filter((p) => /lecture fautive connue/.test(p.exceptions.readings ?? '')).map((p) => p.oldId);
-  assert.deepEqual(listed, ['n5_v_375']);
+  assert.deepEqual(listed, ['n5_v_116', 'n5_v_375']);
+  const tanomu = PREFILLS.get('n5_v_116');
+  assert.ok(!Object.hasOwn(tanomu.values, 'readings') && tanomu.values.word === '頼む', '頼む : lecture à décider, forme mécanique');
+  assert.equal(source('n5_v_116').word_furigana, '<ruby>頼<rt>たノ</rt></ruby>む', 'source figée inchangée');
   // Le reste de la série en つ garde sa lecture mécanique ; la source n'est pas modifiée.
   assert.equal(PREFILLS.get('n5_v_381').values.readings[0].kana, 'やっつ');
   assert.equal(source('n5_v_375').reading, 'ここなつ');
@@ -120,6 +124,11 @@ test('forme usuelle décidée : la forme et les lectures de 平仮名 deviennent
   assert.ok(pre.exceptions.word, 'forme en exception');
   assert.ok(pre.exceptions.readings, 'lectures en exception (elles dépendent de la forme)');
   assert.ok(!Object.hasOwn(pre.values, 'word'));
+  // Passe finale 5.16 (Q6, lot 26) : 煙草, de même ; 居る reste mécanique (statu quo).
+  const tabako = PREFILLS.get('n5_v_598');
+  assert.ok(tabako.exceptions.word && tabako.exceptions.readings && !Object.hasOwn(tabako.values, 'word'), '煙草 : forme et lectures à décider');
+  assert.deepEqual([...PREFILLS.values()].filter((p) => /forme usuelle décidée/.test(p.exceptions.word ?? '')).map((p) => p.oldId), ['n5_v_598', 'n5_v_604']);
+  assert.equal(PREFILLS.get('n5_v_548').values.word, '居る');
   // Les autres entrées ne sont pas touchées : la règle mécanique générale reste.
   assert.equal(PREFILLS.get('n5_v_682').values.word, '漢字');
 });

@@ -36,6 +36,7 @@ function sensesBlock(senses) {
     const extra = [
       ...(s.dimensions ?? []).map((d) => `${d.axis} : ${d.pole}`),
       ...Object.entries(s.linguistic_functions ?? {}).flatMap(([f, l]) => l.map((x) => `${f} : ${x}`)),
+      ...(s.relations ?? []).map((r) => `relation ${r.type} → ${r.target}`),
       ...((s.particles ?? []).length ? [`particules ${s.particles.join(' ')}`] : []),
       ...((s.tags ?? []).length ? [`tags ${s.tags.join(', ')}`] : [])
     ];

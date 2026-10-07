@@ -469,7 +469,9 @@
     "n5_v_527": {
       "status": "validated",
       "journal": [
-        "A2-04-D1263"
+        "A2-04-D1263",
+        "A2-04-D1586",
+        "A2-04-D1587"
       ],
       "fields": {
         "writings": [],
@@ -492,7 +494,12 @@
             },
             "semantic_type": "action",
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "similar_to",
+                "target": "v_608_s2"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []
@@ -568,7 +575,9 @@
       "journal": [
         "A2-04-D1266",
         "A2-04-D1267",
-        "A2-04-D1268"
+        "A2-04-D1268",
+        "A2-04-D1580",
+        "A2-04-D1581"
       ],
       "fields": {
         "writings": [],
@@ -588,7 +597,12 @@
             "category": null,
             "semantic_type": "action",
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "reciprocal_with",
+                "target": "v_575_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []
@@ -647,7 +661,9 @@
         "A2-04-D1272",
         "A2-04-D1273",
         "A2-04-D1274",
-        "A2-04-D1275"
+        "A2-04-D1275",
+        "A2-04-D1582",
+        "A2-04-D1583"
       ],
       "fields": {
         "writings": [],
@@ -689,7 +705,12 @@
             },
             "semantic_type": "action",
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "transitive_of",
+                "target": "v_563_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []
@@ -707,7 +728,9 @@
       "journal": [
         "A2-04-D1276",
         "A2-04-D1277",
-        "A2-04-D1278"
+        "A2-04-D1278",
+        "A2-04-D1609",
+        "A2-04-D1610"
       ],
       "fields": {
         "writings": [],
@@ -759,6 +782,15 @@
               "を"
             ],
             "nuance": "Au restaurant, passer une commande, un plat ou une boisson : レストランでカレーライスを頼みました (j'ai commandé un riz au curry au restaurant)."
+          }
+        ],
+        "readings": [
+          {
+            "kana": "たのむ",
+            "romaji": "tanomu",
+            "furigana": "<ruby>頼<rt>たの</rt></ruby>む",
+            "default": true,
+            "note": null
           }
         ]
       }
@@ -1045,13 +1077,16 @@
         "A2-04-D1295",
         "A2-04-D1296",
         "A2-04-D1300",
-        "A2-04-D1301"
+        "A2-04-D1301",
+        "A2-04-D1611",
+        "A2-04-D1612",
+        "A2-04-D1613"
       ],
       "fields": {
         "writings": [
           {
-            "form": "たばこ",
-            "furigana": "たばこ"
+            "form": "煙草",
+            "furigana": "<ruby>煙<rt>たば</rt></ruby><ruby>草<rt>こ</rt></ruby>"
           }
         ],
         "suru_compatible": false,
@@ -1089,6 +1124,16 @@
               "pragmatic_discourse": []
             },
             "particles": []
+          }
+        ],
+        "word": "たばこ",
+        "readings": [
+          {
+            "kana": "たばこ",
+            "romaji": "tabako",
+            "furigana": "たばこ",
+            "default": true,
+            "note": null
           }
         ]
       }

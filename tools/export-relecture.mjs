@@ -253,7 +253,8 @@ export function buildExport({ root = ROOT, lot: lotName, ref = 'HEAD', note = DE
   if (before?.lot && before?.journal && lotRaw) {
     const noStatus = (o) => JSON.stringify(JSON.parse(JSON.stringify(o, (k, v) => (k === 'status' ? undefined : v))));
     const lines = (x, y) => {
-      const p = x.split('\n'); const q = y.split('\n');
+      // Fins de ligne LF ou CRLF : sans cela, un fichier en CRLF ferait échouer le motif de statut.
+      const p = x.split(/\r?\n/); const q = y.split(/\r?\n/);
       if (p.length !== q.length) return { n: null, onlyStatus: false };
       const ch = p.map((l, i) => [l, q[i]]).filter(([u, v]) => u !== v);
       return { n: ch.length, onlyStatus: ch.every(([u, v]) => /^\s*"status": "proposed",$/.test(u) && v === u.replace('proposed', 'validated')) };

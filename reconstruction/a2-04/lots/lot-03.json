@@ -294,7 +294,9 @@
       "status": "validated",
       "journal": [
         "A2-04-D0256",
-        "A2-04-D0257"
+        "A2-04-D0257",
+        "A2-04-D1570",
+        "A2-04-D1571"
       ],
       "fields": {
         "writings": [],
@@ -320,7 +322,12 @@
             },
             "semantic_type": "lieu",
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "equivalent_to",
+                "target": "v_209_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []

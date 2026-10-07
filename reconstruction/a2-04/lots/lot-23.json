@@ -9,7 +9,9 @@
         "A2-04-D1437",
         "A2-04-D1438",
         "A2-04-D1439",
-        "A2-04-D1440"
+        "A2-04-D1440",
+        "A2-04-D1588",
+        "A2-04-D1589"
       ],
       "fields": {
         "writings": [],
@@ -31,7 +33,12 @@
             "category": null,
             "semantic_type": null,
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "equivalent_to",
+                "target": "v_599_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": [
@@ -91,7 +98,9 @@
         "A2-04-D1446",
         "A2-04-D1447",
         "A2-04-D1448",
-        "A2-04-D1449"
+        "A2-04-D1449",
+        "A2-04-D1590",
+        "A2-04-D1591"
       ],
       "fields": {
         "writings": [],
@@ -112,7 +121,12 @@
             "category": null,
             "semantic_type": null,
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "equivalent_to",
+                "target": "v_596_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": [
@@ -175,7 +189,11 @@
         "A2-04-D1459",
         "A2-04-D1460",
         "A2-04-D1461",
-        "A2-04-D1462"
+        "A2-04-D1462",
+        "A2-04-D1592",
+        "A2-04-D1593",
+        "A2-04-D1594",
+        "A2-04-D1595"
       ],
       "fields": {
         "writings": [],
@@ -193,7 +211,12 @@
             "category": null,
             "semantic_type": null,
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "equivalent_to",
+                "target": "v_595_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": [
@@ -211,7 +234,12 @@
             "category": null,
             "semantic_type": null,
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "equivalent_to",
+                "target": "v_595_s2"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": [
@@ -229,7 +257,12 @@
             "category": null,
             "semantic_type": null,
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "equivalent_to",
+                "target": "v_595_s3"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": [
@@ -410,7 +443,10 @@
         "A2-04-D1481",
         "A2-04-D1482",
         "A2-04-D1483",
-        "A2-04-D1484"
+        "A2-04-D1484",
+        "A2-04-D1596",
+        "A2-04-D1597",
+        "A2-04-D1598"
       ],
       "fields": {
         "writings": [],
@@ -430,7 +466,12 @@
             "category": null,
             "semantic_type": null,
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "equivalent_to",
+                "target": "v_417_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": [
@@ -448,7 +489,12 @@
             "category": null,
             "semantic_type": null,
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "equivalent_to",
+                "target": "v_417_s2"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": [
@@ -469,7 +515,10 @@
         "A2-04-D1485",
         "A2-04-D1486",
         "A2-04-D1487",
-        "A2-04-D1488"
+        "A2-04-D1488",
+        "A2-04-D1599",
+        "A2-04-D1600",
+        "A2-04-D1601"
       ],
       "fields": {
         "writings": [],
@@ -490,7 +539,16 @@
             "category": null,
             "semantic_type": null,
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "equivalent_to",
+                "target": "v_586_s1"
+              },
+              {
+                "type": "opposed_to",
+                "target": "v_584_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": [
@@ -550,7 +608,9 @@
         "A2-04-D1496",
         "A2-04-D1497",
         "A2-04-D1498",
-        "A2-04-D1499"
+        "A2-04-D1499",
+        "A2-04-D1602",
+        "A2-04-D1603"
       ],
       "fields": {
         "writings": [],
@@ -568,7 +628,12 @@
             "category": null,
             "semantic_type": null,
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "opposed_to",
+                "target": "v_586_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": [

@@ -408,7 +408,9 @@
       "journal": [
         "A2-04-D1330",
         "A2-04-D1331",
-        "A2-04-D1332"
+        "A2-04-D1332",
+        "A2-04-D1584",
+        "A2-04-D1585"
       ],
       "fields": {
         "writings": [],
@@ -426,7 +428,12 @@
             "category": null,
             "semantic_type": "action",
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "equivalent_to",
+                "target": "v_608_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []

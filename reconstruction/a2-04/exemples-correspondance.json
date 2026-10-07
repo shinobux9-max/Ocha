@@ -1,0 +1,9 @@
+{
+  "objet": "Correspondance des clés de vocabulaire de exemples.json (arbitrage du périmètre de la passe finale 5.16, Q2 et Q3). La règle générale est mécanique : une clé d'entrée gardée devient son nouvel identifiant, une clé d'entrée fusionnée celui de son survivant (table des identifiants de l'assemblage). Seules les clés sans ENTRY de vocabulaire sont décidées ici. 5.16 fixe et vérifie cette table ; elle ne réécrit pas exemples.json : l'application appartient au registre de phrases (tâche 11).",
+  "exceptions": {
+    "n5_v_602": {
+      "grammar": "g_27"
+    },
+    "n5_v_717": null
+  }
+}

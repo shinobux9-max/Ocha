@@ -363,6 +363,8 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 - **A2-04-D0256** (decision, senses) : Un seul sens (révision 5.4b) : la source décrit un seul concept, le bain japonais (l'installation, et par extension la pièce), et aucune action ; dans お風呂に入る, l'action vient de 入る. « Salle de bain » rend la largeur référentielle du même mot, comme « jambe » pour 足 : ce n'est pas un second référent canonique. — avant `["Bain","Salle de bain","Baignoire"]` → après `"un seul sens"`
 - **A2-04-D0257** (abandon, senses) : La baignoire elle-même se dit 浴槽 ; non reprise. — avant `["Baignoire"]` → après `null`
+- **A2-04-D1570** (decision, entrée) : Réouverture explicite d'une ENTRY validée (arbitrage du périmètre de la passe finale 5.16, Q1 : un lot 26, qui ne rouvre que les ENTRY dont les données changent). お風呂 (n5_v_208), validée au lot 03, est rouverte pour y noter la relation arbitrée (Q4, R1). Son état validé est conservé en entier dans le champ « avant » de cette décision. Ses décisions historiques (D0256, D0257) ne sont pas modifiées : elles restent au journal, validées, et citées par l'entrée. — avant `{"lot":"lot-03","status":"validated","journal":["A2-04-D0256","A2-04-D0257"],"fields":{"writings":[],"suru_compatible":false,"suffix":false,"counter":null,"nuance":"Forme polie et courante, avec お ; ふろ (風呂) est une autre ENTRY (arbitrage du lot 03).","tags":["lieu_hotel"],"senses":[{"meaning":{"primary":"Bain","alternatives":["Salle de bain"]},"category":{"level_1":"habitat_vie_domestique","level_2":"espaces_domestiques","level_3":"salle_de_bain_toilettes"},"semantic_type":"lieu","dimensions":[],"relations":[],"linguistic_functions":{"grammatical":[],"pragmatic_discourse":[]},"nuance":"Le bain japonais : la baignoire d'eau chaude où l'on se plonge après s'être lavé, et par extension la pièce. お風呂に入る : prendre un bain (l'action est portée par 入る)."}]}}` → après `"rouverte : relation ajoutée (v_208_s1 equivalent_to v_209_s1) ; rien d'autre ne change"`
+- **A2-04-D1571** (decision, sens 1 · relations) : Relation equivalent_to de v_208_s1 (お風呂, « Bain ») vers v_209_s1 (ふろ, « Bain ») : arbitrage du périmètre de 5.16 (Q4, R1). Candidate inscrite par D0261 (« leur proximité pourra être notée par une relation en 5.16 ») : お風呂 et ふろ restent deux ENTRY, et désignent le même bain. I12 : la relation, symétrique, n'est notée qu'une fois, sur le sens de l'ENTRY de plus petit numéro (convention de ce lot) ; ふろ (n5_v_209) n'est ni modifiée ni rouverte. — avant `[]` → après `[{"type":"equivalent_to","target":"v_209_s1"}]`
 
 | Champ source | Valeur |
 |---|---|
@@ -394,7 +396,7 @@ Rapport généré à partir du fichier de lot et du journal : il ne se modifie p
 
 | # | Sens | Catégorie | Type | Dimensions, fonctions, particules | Nuance |
 |---|---|---|---|---|---|
-| 1 | **Bain** (Salle de bain) | habitat_vie_domestique › espaces_domestiques › salle_de_bain_toilettes | lieu |  | Le bain japonais : la baignoire d'eau chaude où l'on se plonge après s'être lavé, et par extension la pièce. お風呂に入る : prendre un bain (l'action est portée par 入る). |
+| 1 | **Bain** (Salle de bain) | habitat_vie_domestique › espaces_domestiques › salle_de_bain_toilettes | lieu | relation equivalent_to → v_209_s1 | Le bain japonais : la baignoire d'eau chaude où l'on se plonge après s'être lavé, et par extension la pièce. お風呂に入る : prendre un bain (l'action est portée par 入る). |
 
 **Contexte (anciens exemples, lecture seule)**
 

@@ -9,6 +9,7 @@ Rien ici n'est lu par l'application ; `data/` ne change qu'à la publication (A2
 | `lots/<lot>.json` | décisions humaines, une entrée source par clé ; seul le statut `validated` vaut décision |
 | `place-tags.json` | correspondance décidée lieu → tag de lieu (registre-des-tags.md, §5) : sert à proposer des tags candidats |
 | `journal.json` | décisions notables (corrections, fusions, retraits, ajouts…), identifiants `A2-04-D<nnnn>` |
+| `exemples-correspondance.json` | passe finale 5.16 : les clés de vocabulaire de `exemples.json` sans ENTRY (など → `g_27`, clé fantôme `n5_v_717`) ; le reste de la correspondance est mécanique ; rien n'est réécrit avant la tâche 11 |
 | `rapports/<lot>.md` | rapports de relecture **générés** à partir des lots ; jamais relus par un outil |
 | `out/` | sortie de l'assemblage (`--write`) : lexique candidat, identifiants retirés, table des identifiants |
 

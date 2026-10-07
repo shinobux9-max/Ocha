@@ -49,7 +49,9 @@
       "journal": [
         "A2-04-D1514",
         "A2-04-D1515",
-        "A2-04-D1516"
+        "A2-04-D1516",
+        "A2-04-D1604",
+        "A2-04-D1605"
       ],
       "fields": {
         "writings": [],
@@ -75,7 +77,12 @@
             },
             "semantic_type": "propriete",
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "opposed_to",
+                "target": "v_654_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []
@@ -302,7 +309,10 @@
         "A2-04-D1536",
         "A2-04-D1537",
         "A2-04-D1538",
-        "A2-04-D1539"
+        "A2-04-D1539",
+        "A2-04-D1606",
+        "A2-04-D1607",
+        "A2-04-D1608"
       ],
       "fields": {
         "writings": [],
@@ -326,7 +336,12 @@
             },
             "semantic_type": null,
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "similar_to",
+                "target": "v_509_s1"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [
                 "quantificateur"
@@ -347,7 +362,12 @@
             },
             "semantic_type": "concept_abstrait",
             "dimensions": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "similar_to",
+                "target": "v_509_s3"
+              }
+            ],
             "linguistic_functions": {
               "grammatical": [],
               "pragmatic_discourse": []

@@ -99,16 +99,20 @@ faut savoir est dans le dépôt.
   jamais de scission pour l'éviter ; les autres fonctions restent sans définition (doctrine du lot
   20) ;
 - **lectures des mots en katakana** : statu quo mécanique pendant les lots ;
-- **lecture fautive connue** : liste fermée (`READING_EXCEPTION_IDS`, 九つ seule) qui rend la lecture
-  décidable ; aucune correction automatique, sources figées intactes ; le romaji n'est pas une
-  règle générale.
+- **lecture fautive connue** : liste fermée (`READING_EXCEPTION_IDS` : 九つ, lot 14 ; 頼む, lot 26,
+  pour ses seuls furigana) qui rend la lecture décidable ; aucune correction automatique, sources
+  figées intactes ; le romaji n'est pas une règle générale ;
+- **forme usuelle décidée** : liste fermée (`USUAL_FORM_IDS` : 平仮名, lot 06 ; 煙草, lot 26), une
+  entrée n'y entre que par un arbitrage explicite ; ce n'est pas une règle générale (« la graphie
+  kana courante l'emporte »). Les deux entrées du lot 26 sont validées avec lui (D1610, D1612).
 
-## 5. Où l'on en est (au 2026-10-06)
+## 5. Où l'on en est (au 2026-10-07)
 
-- **Lots 0 à 25 validés**, corrections de 5.13-C comprises : assemblage réel attendu, partiel et
-  complet, **684 ENTRY, 35 retraits, 0 entrée écartée**, 0 problème, 0 erreur, 0 attente ; 1 569
-  décisions validées (D0001 à D1569), aucune proposition en cours. **Toutes les entrées des sources
-  sont décidées.** **Il ne reste aucun verbe à décider.**
+- **Lots 0 à 26 validés**, corrections de 5.13-C et passe finale 5.16 (lot 26) comprises : assemblage
+  réel attendu, partiel et complet, **684 ENTRY, 35 retraits, 0 entrée écartée**, 0 problème, 0
+  erreur, 0 attente ; 1 613 décisions validées (D0001 à D1613), aucune proposition en cours. **Toutes
+  les entrées des sources sont décidées.** **Il ne reste aucun verbe à décider.** Le lot 26 est
+  validé mais **ni committé ni poussé** (détail en fin de section).
 - **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
   97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
   `docs/rapports/etape2-tache5-13-lot12-valide.md`).
@@ -264,8 +268,29 @@ faut savoir est dans le dépôt.
   sous `n5_v_602` sont pour 5.16. **Lot 25** (« Retrait de など ») : 1 entrée, D1569 (`retrait`) ;
   **validé le 2026-10-07** (`docs/rapports/etape2-A2-04-lot25-valide.md`) ; **committé (`b3740c7`) et
   poussé** : `ocha-v2` et `origin/ocha-v2` sont à `b3740c7`. **Lot 25 clos ; toutes les entrées des
-  sources sont décidées.** Prochaine étape : préparer le périmètre exact de la passe finale 5.16, sans
-  modification avant accord explicite. Les 35 retraits
+  sources sont décidées.** **Passe finale 5.16 : périmètre arbitré le 2026-10-07** (rapport
+  `docs/rapports/etape2-A2-04-lot26-perimetre-5-16.md`, §9). **Lot 26 « Passe finale » : proposition
+  livrée en `proposed`** (rapport `docs/rapports/etape2-A2-04-lot26-proposition.md`), non validée, non
+  committée : `lot-26.json` **sans entrée** ; **19 ENTRY rouvertes dans leur lot d'origine** (lots 03,
+  18, 19, 20, 23, 24) ; 44 décisions D1570 à D1613 ; 22 liens R1 à R15, notés une fois (I12), sur le
+  verbe transitif ou sur l'ENTRY de plus petit numéro ; 頼む dans `READING_EXCEPTION_IDS` (furigana
+  corrigés), 煙草 dans `USUAL_FORM_IDS` (forme usuelle たばこ) ; 居る et すぐに inchangées ;
+  `exemples-correspondance.json` (など → `g_27`), sans réécriture d'`exemples.json`. Pendant la
+  proposition, l'assemblage réel donnait 665 ENTRY et 19 écartées (les ENTRY rouvertes). Les tests d'état des lots 0 à 25 lisent l'état d'avant le lot 26
+  (champ « avant » des réouvertures), les tests d'assemblage l'essai à blanc. **Proposition relue le
+  2026-10-07, avis favorable ; quatre choix arbitrés** (rapport, §12) : le côté porteur d'une relation
+  symétrique est une **convention technique propre au lot 26**, non une norme générale ; `v_417_s3`
+  et `v_509_s2` restent sans lien ; les furigana de la graphie 煙草 sont ceux de la fiche source,
+  conservés exactement, sans validation linguistique ni règle nouvelle. **Révision faite : la seule
+  raison de D1613**, à sa place ; **vérifiée par ChatGPT, conforme** ; traces documentaires mises à
+  jour. **Lot 26 validé le 2026-10-07** (rapport `docs/rapports/etape2-A2-04-lot26-valide.md`), sur
+  l'autorisation explicite de ChatGPT : statuts seulement, 19 ENTRY et 44 décisions (63 lignes, toutes
+  de statut). **Assemblage réel attendu, partiel et complet : 684 ENTRY, 35 retraits, 0 entrée
+  écartée, 0 problème, 0 erreur, 0 attente ; 1 613 décisions validées (D0001 à D1613), aucune
+  proposition en cours ; 27 fichiers de lot ; 22 relations ; 490 tests verts.** Le lot 26 n'a aucune
+  entrée propre : ses ENTRY sont dans leurs lots d'origine. **La passe finale 5.16 est validée ; ni
+  committée, ni poussée** (`ocha-v2` et `origin/ocha-v2` restent à `8ce0e23`). Prochaine étape : le
+  commit puis le push, sur deux accords distincts ; ensuite la publication 5.17. Les 35 retraits
   comptent 33 fusions et deux suppressions : `v_717` (A3, d'emblée) et `v_602`. **Sabotages** : le
   harnais doit lancer `tests/reconstruction/*.test.js` et vérifier d'abord un témoin sain (erratum
   du 2026-10-06 : `node --test tests/reconstruction/` échoue toujours). Le regroupement « quantité et degré » n'est plus suspendu à la

@@ -25,8 +25,33 @@ const CORRECTED_513C = Object.freeze({
   'lot-09': ['n5_v_190']
 });
 const FIRST_CORRECTION = 'A2-04-D0827';
-const readJournal = () => JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
-const readLots = () => readdirSync(join(WORK, 'lots')).filter((f) => f.endsWith('.json')).sort().map((f) => JSON.parse(readFileSync(join(WORK, 'lots', f), 'utf8')));
+// A2-04 · lot 26 « Passe finale » (5.16) : il ne décide aucune entrée nouvelle ; il ROUVRE des ENTRY
+// validées dans leur lot d'origine, par des décisions de journal `lot-26` ajoutées à la fin. Trois vues :
+//   - l'état RÉEL (readLotsNow, readJournalNow), tel qu'écrit dans les fichiers ;
+//   - l'état D'AVANT le lot 26 (readLots, readJournal) : les lots 0 à 25 et leurs 1 569 décisions,
+//     chaque ENTRY rouverte étant rendue à l'état validé que sa décision de réouverture conserve en
+//     entier dans son champ « avant ». Les tests d'état des lots 0 à 25 lisent cette vue : ce qu'ils
+//     contrôlent reste donc vérifié, sur l'état gardé au journal ;
+//   - l'ESSAI À BLANC (dryLots, dryJournal) : l'état réel, lot 26 supposé validé. Les tests d'assemblage
+//     le lisent ; à la validation du lot 26, il devient l'état réel sans que rien n'y change.
+// Lot 26 VALIDÉ le 2026-10-07 (statuts seulement) : l'essai à blanc EST désormais l'état réel, ce que
+// lot-26.test.js vérifie (lots et journal identiques). Les tests d'assemblage ci-dessous portent donc
+// bien sur l'assemblage réel ; la vue d'avant le lot 26 reste celle des tests d'état des lots 0 à 25.
+const LOT26 = 'lot-26';
+const readJournalNow = () => JSON.parse(readFileSync(join(WORK, 'journal.json'), 'utf8'));
+const readLotsNow = () => readdirSync(join(WORK, 'lots')).filter((f) => f.endsWith('.json')).sort().map((f) => JSON.parse(readFileSync(join(WORK, 'lots', f), 'utf8')));
+const reopenings26 = () => new Map(readJournalNow().filter((j) => j.lot === LOT26 && j.field === 'entrée').map((j) => [j.entry, j]));
+const readJournal = () => readJournalNow().filter((j) => j.lot !== LOT26);
+const readLots = () => {
+  const reopened = reopenings26();
+  return readLotsNow().filter((l) => l.lot !== LOT26).map((l) => ({ ...l, entries: Object.fromEntries(Object.entries(l.entries).map(([id, e]) => {
+    const b = reopened.get(id)?.before;
+    return [id, b ? { status: b.status, journal: b.journal, fields: b.fields } : e];
+  })) }));
+};
+const asValidated = (x) => ({ ...x, status: 'validated' });
+const dryJournal = () => readJournalNow().map(asValidated);
+const dryLots = () => readLotsNow().map((l) => ({ ...l, entries: Object.fromEntries(Object.entries(l.entries).map(([id, e]) => [id, asValidated(e)])) }));
 // Un lot clos est entièrement validé : aucune entrée proposée, sans exception.
 const assertAllValidated = (l) => assert.deepEqual(
   Object.entries(l.entries).filter(([, e]) => e.status !== 'validated').map(([id]) => id), [], `${l.lot} : entièrement validé`);
@@ -98,7 +123,7 @@ test('5.3 : le lot 02 est entièrement validé (41 entrées), journal compris', 
 // A2-04 · 5.4 fermée : le lot 03 est entièrement validé (39 entrées gardées, 掃除する retiré),
 // avec tout son journal.
 test('5.4 : le lot 03 est entièrement validé (40 entrées dont 1 retrait), journal compris', () => {
-  const lot3 = JSON.parse(readFileSync(join(WORK, 'lots', 'lot-03.json'), 'utf8'));
+  const lot3 = readLots().find((l) => l.lot === 'lot-03'); // お風呂 est rouverte par le lot 26 : état d'avant
   assert.equal(Object.keys(lot3.entries).length, 40);
   assertAllValidated(lot3);
   assert.deepEqual(Object.entries(lot3.entries).filter(([, e]) => e.retire).map(([id, e]) => [id, e.retire.merged_into]), [['n5_v_220', 'n5_v_219']]);
@@ -436,7 +461,7 @@ test('lot 24 : entièrement validé (14 entrées, 20 sens), journal compris ; fo
 
 // Le lot 24 dans l'assemblage RÉEL (l'essai à blanc d'avant la validation en est devenu l'état réel).
 test('lot 24 : dans l\'assemblage réel (684 ENTRY, 35 retraits, aucune entrée écartée), sans problème ni erreur', () => {
-  const a = assemble({ sources: SOURCES, lots: readLots(), journal: readJournal() });
+  const a = assemble({ sources: SOURCES, lots: dryLots(), journal: dryJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
@@ -523,7 +548,7 @@ test('lot 23 : entièrement validé (13 entrées, 22 sens), journal compris ; fo
 
 // Le lot 23 dans l'assemblage RÉEL (l'essai à blanc d'avant la validation en est devenu l'état réel).
 test('lot 23 : dans l\'assemblage réel (684 ENTRY, 35 retraits, aucune entrée écartée), sans problème ni erreur', () => {
-  const a = assemble({ sources: SOURCES, lots: readLots(), journal: readJournal() });
+  const a = assemble({ sources: SOURCES, lots: dryLots(), journal: dryJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
@@ -632,7 +657,7 @@ test('lot 22 : entièrement validé (9 entrées, 2 fusions, 9 sens), journal com
 // de plus, tous justifiés au journal ; 弱い et ゆっくり survivent, 弱く et ゆっくりと sont retirées vers
 // elles.
 test('lot 22 : dans l\'assemblage réel (684 ENTRY, 35 retraits, aucune entrée écartée), sans problème ni erreur', () => {
-  const a = assemble({ sources: SOURCES, lots: readLots(), journal: readJournal() });
+  const a = assemble({ sources: SOURCES, lots: dryLots(), journal: dryJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
@@ -761,7 +786,7 @@ test('lot 21 : entièrement validé (12 entrées, 16 sens), journal compris ; au
 // (また, sens 2) de plus, tous justifiés au journal.
 test('lot 21 : dans l\'assemblage réel (684 ENTRY, 35 retraits, aucune entrée écartée), sans problème ni erreur', () => {
   const lots = readLots();
-  const a = assemble({ sources: SOURCES, lots, journal: readJournal() });
+  const a = assemble({ sources: SOURCES, lots: dryLots(), journal: dryJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
@@ -943,7 +968,7 @@ test('lot 20 : entièrement validé (22 entrées, 30 sens), journal compris ; au
 test('lot 20 : dans l\'assemblage réel (684 ENTRY, 35 retraits, aucune entrée écartée), 14 verbes et 8 noms sans relation ni fonction', () => {
   const lots = readLots();
   const journal = readJournal();
-  const a = assemble({ sources: SOURCES, lots, journal });
+  const a = assemble({ sources: SOURCES, lots: dryLots(), journal: dryJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
@@ -962,7 +987,9 @@ test('lot 20 : dans l\'assemblage réel (684 ENTRY, 35 retraits, aucune entrée 
   const all = a.files.flatMap((f) => f.entries);
   const byId = new Map(all.map((e) => [e.id, e]));
   const mineEntries = [...ids].map((id) => byId.get(id));
-  assert.ok(mineEntries.every((e) => e && e.senses.every((s) => s.relations.length === 0 && s.linguistic_functions.grammatical.length === 0)), 'les 22 ENTRY existent, sans relation ni fonction');
+  assert.ok(mineEntries.every((e) => e && e.senses.every((s) => s.linguistic_functions.grammatical.length === 0)), 'les 22 ENTRY existent, sans fonction');
+  // Relations : aucune au lot 20 ; celle que le lot 26 note sur する (R8), et elle seule.
+  assert.deepEqual(mineEntries.flatMap((e) => e.senses.flatMap((s) => s.relations.map((x) => `${s.id} ${x.type} ${x.target}`))), ['v_181_s1 equivalent_to v_608_s1']);
   assert.equal(mineEntries.filter((e) => e.linguistic.grammatical_class === 'verbe').length, 14);
   assert.deepEqual(mineEntries.filter((e) => e.linguistic.grammatical_class === 'nom').map((e) => e.word), ['初め', '次', '物', '所', '辺', '問題', '力', '声']);
   // suffix : 半 (lot 13) et 辺, et elles seules, dans tout le corpus.
@@ -1132,7 +1159,7 @@ test('lot 19 : entièrement validé (26 entrées, 34 sens), journal compris ; au
 test('lot 19 : dans l\'assemblage réel, 20 verbes et 6 noms sans relation', () => {
   const lots = readLots();
   const journal = readJournal();
-  const a = assemble({ sources: SOURCES, lots, journal });
+  const a = assemble({ sources: SOURCES, lots: dryLots(), journal: dryJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
@@ -1148,23 +1175,27 @@ test('lot 19 : dans l\'assemblage réel, 20 verbes et 6 noms sans relation', () 
   const all = a.files.flatMap((f) => f.entries);
   const byId = new Map(all.map((e) => [e.id, e]));
   const mineEntries = [...ids].map((id) => byId.get(id));
-  assert.ok(mineEntries.every((e) => e && e.senses.every((s) => s.relations.length === 0)), 'les 26 ENTRY existent, sans relation');
-  assert.deepEqual(mineEntries.filter((e) => e.linguistic.grammatical_class === 'nom').map((e) => e.word), ['仕事', '会社', '結婚', '生活', '煙草', '灰皿']);
+  // Relations : aucune au lot 19 ; les trois que le lot 26 note sur ses ENTRY (R6, R7, R9), et elles seules.
+  assert.ok(mineEntries.every((e) => e), 'les 26 ENTRY existent');
+  assert.deepEqual(mineEntries.flatMap((e) => e.senses.flatMap((s) => s.relations.map((x) => `${s.id} ${x.type} ${x.target}`))),
+    ['v_527_s1 similar_to v_608_s2', 'v_533_s1 reciprocal_with v_575_s1', 'v_562_s2 transitive_of v_563_s1']);
+  // 煙草 : forme usuelle たばこ depuis le lot 26 (Q6).
+  assert.deepEqual(mineEntries.filter((e) => e.linguistic.grammatical_class === 'nom').map((e) => e.word), ['仕事', '会社', '結婚', '生活', 'たばこ', '灰皿']);
   assert.equal(mineEntries.filter((e) => e.linguistic.grammatical_class === 'verbe').length, 20);
   // コピーする : l'ENTRY telle que la source la donne.
   const copy = byId.get('v_526');
   assert.deepEqual([copy.word, copy.linguistic.grammatical_class, copy.linguistic.group, copy.readings[0].kana], ['コピーする', 'verbe', 'suru', 'こぴーする']);
-  // Lectures : les deux corrections ; 頼む garde les furigana de la source, ノ compris, que le
-  // validateur accepte (A8 compare hiragana et katakana) : c'est l'anomalie inscrite pour la passe
-  // finale.
+  // Lectures : les deux corrections du lot 19 ; les furigana de 頼む, dont le ノ en katakana était
+  // l'anomalie inscrite pour la passe finale, sont corrigés par le lot 26 (Q5).
   assert.deepEqual([byId.get('v_533').readings[0].furigana, byId.get('v_552').readings[0].furigana, byId.get('v_116').readings[0].furigana],
-    ['<ruby>借<rt>か</rt></ruby>りる', '<ruby>待<rt>ま</rt></ruby>つ', '<ruby>頼<rt>たノ</rt></ruby>む']);
+    ['<ruby>借<rt>か</rt></ruby>りる', '<ruby>待<rt>ま</rt></ruby>つ', '<ruby>頼<rt>たの</rt></ruby>む']);
   // Particules : celles de la fiche pour un sens unique (mécanique), celles décidées sinon.
   assert.deepEqual([byId.get('v_153').senses[0].particles, byId.get('v_530').senses[0].particles, byId.get('v_569').senses[0].particles], [['に'], ['に'], ['と', 'に']]);
   assert.deepEqual(byId.get('v_635').senses.map((s) => s.particles), [[], ['を']]);
   assert.deepEqual(byId.get('v_527').senses.map((s) => s.particles), [['を', 'に'], ['を']]);
-  // 煙草 : une seule ENTRY, avec sa graphie en hiragana ; 渡る et 渡す restent deux ENTRY.
-  assert.deepEqual([byId.get('v_598').word, byId.get('v_598').writings.map((w) => w.form)], ['煙草', ['たばこ']]);
+  // 煙草 : une seule ENTRY ; depuis le lot 26, たばこ en est la forme usuelle et 煙草 l'autre graphie.
+  // 渡る et 渡す restent deux ENTRY.
+  assert.deepEqual([byId.get('v_598').word, byId.get('v_598').writings.map((w) => w.form)], ['たばこ', ['煙草']]);
   for (const w of ['渡る', '渡す', '貸す', '借りる', '休む', '休み']) assert.equal(all.filter((e) => e.word === w).length, 1, w);
 });
 
@@ -1315,7 +1346,7 @@ test('lot 18 : entièrement validé (23 entrées, 34 sens), journal compris ; au
 test('lot 18 : dans l\'assemblage réel, 23 verbes sans relation', () => {
   const lots = readLots();
   const journal = readJournal();
-  const a = assemble({ sources: SOURCES, lots, journal });
+  const a = assemble({ sources: SOURCES, lots: dryLots(), journal: dryJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
@@ -1332,7 +1363,11 @@ test('lot 18 : dans l\'assemblage réel, 23 verbes sans relation', () => {
   const all = a.files.flatMap((f) => f.entries);
   const byId = new Map(all.map((e) => [e.id, e]));
   const mineEntries = [...ids].map((id) => byId.get(id));
-  assert.ok(mineEntries.every((e) => e && e.linguistic.grammatical_class === 'verbe' && ['u', 'ru'].includes(e.linguistic.group) && e.senses.every((s) => s.relations.length === 0)), 'les 23 ENTRY sont des verbes, sans relation');
+  assert.ok(mineEntries.every((e) => e && e.linguistic.grammatical_class === 'verbe' && ['u', 'ru'].includes(e.linguistic.group)), 'les 23 ENTRY sont des verbes');
+  // Relations : aucune au lot 18 ; les quatre paires transitif / intransitif que le lot 26 note (R2 à
+  // R5), une seule fois chacune, sur le verbe transitif.
+  assert.deepEqual(mineEntries.flatMap((e) => e.senses.flatMap((s) => s.relations.map((x) => `${s.id} ${x.type} ${x.target}`))).sort(),
+    ['v_529_s1 transitive_of v_528_s2', 'v_561_s1 transitive_of v_560_s1', 'v_580_s1 transitive_of v_710_s1', 'v_709_s1 transitive_of v_579_s1']);
   // Lectures décidées : les deux corrections ; les autres restent mécaniques.
   assert.deepEqual([byId.get('v_579').readings[0].furigana, byId.get('v_579').readings[0].kana, byId.get('v_532').readings[0].furigana, byId.get('v_532').readings[0].kana],
     ['<ruby>閉<rt>し</rt></ruby>まる', 'しまる', '<ruby>作<rt>つく</rt></ruby>る', 'つくる']);
@@ -1369,7 +1404,7 @@ test('lot 25 (validé) : など seule, retirée sans successeur, une décision r
 // L'essai à blanc d'avant la validation est devenu l'assemblage réel, partiel et complet.
 test('lot 25 : dans l\'assemblage réel, partiel et complet : 684 ENTRY, 35 retraits, aucune entrée écartée, sans problème', () => {
   for (const mode of ['partial', 'complete']) {
-    const a = assemble({ sources: SOURCES, lots: readLots(), journal: readJournal(), mode });
+    const a = assemble({ sources: SOURCES, lots: dryLots(), journal: dryJournal(), mode });
     const r = validateAssembly(a, DEPS);
     assert.deepEqual(a.problems, [], mode);
     assert.deepEqual(r.errors, [], mode);
@@ -1383,7 +1418,7 @@ test('lot 25 : dans l\'assemblage réel, partiel et complet : 684 ENTRY, 35 retr
 
 test('espace de travail réel : assemblage partiel sans problème ni erreur', () => {
   const lots = readLots();
-  const a = assemble({ sources: SOURCES, lots, journal: readJournal() });
+  const a = assemble({ sources: SOURCES, lots: dryLots(), journal: dryJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
@@ -1494,7 +1529,7 @@ test('lot 17 : entièrement validé (17 entrées, 25 sens), journal compris ; �
 test('lot 17 : dans l\'assemblage réel, v_275 (暖かい) est fusionnée dans v_8 (温かい)', () => {
   const lots = readLots();
   const journal = readJournal();
-  const a = assemble({ sources: SOURCES, lots, journal });
+  const a = assemble({ sources: SOURCES, lots: dryLots(), journal: dryJournal() });
   const r = validateAssembly(a, DEPS);
   assert.deepEqual(a.problems, []);
   assert.deepEqual(r.errors, []);
