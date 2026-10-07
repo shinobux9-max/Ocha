@@ -22152,5 +22152,17 @@
       }
     ],
     "reason": "Dimension imprécision (axe précision ↔ imprécision / ambiguïté d'A2-DIM ; arbitrage des choix du lot 24) : la fiche dit « une approximation », « grosso modo / à peu près », « sans entrer dans les détails précis » ; l'axe décrit directement le sens (doctrine du lot 16). La catégorie approximation quantitative et le type propriete sont conservés."
+  },
+  {
+    "id": "A2-04-D1569",
+    "status": "validated",
+    "date": "2026-10-07",
+    "lot": "lot-25",
+    "entry": "n5_v_602",
+    "field": "entrée",
+    "kind": "retrait",
+    "before": null,
+    "after": null,
+    "reason": "Retrait sans successeur (arbitrage du préalable sur la classe de など, option C ; périmètre du lot 25). La fiche n'atteste que « particule suffixe » ; aucune classe du registre lexical n'est attestée. L'addendum A3 (L8) distingue la grammaire du vocabulaire, et permet la suppression d'un identifiant : merged_into vaut null."
   }
 ]

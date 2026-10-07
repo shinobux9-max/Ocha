@@ -2,7 +2,7 @@ Cette note est écrite à la main par Claude Code et mise à jour avant chaque e
 que l'outil ne peut pas déduire des données : les rôles, les consignes, qui a décidé quoi, et ce
 qui est attendu. L'état chiffré est dans la partie 2, relevée par l'outil.
 
-**Dernière mise à jour de la note** : 2026-10-06. Historique : 2026-10-05, après le commit du lot 16 (`6c8fc50`) ; périmètre
+**Dernière mise à jour de la note** : 2026-10-07. Historique : 2026-10-05, après le commit du lot 16 (`6c8fc50`) ; périmètre
 du lot 17 arbitré, proposition relue et arbitrée, lot 17 validé et committé (`e9fe6a4`) ; outillage
 de relecture committé (`2387d20`) ; lot 18 : périmètre arbitré, proposition livrée, vingt choix
 arbitrés, révision vérifiée, lot validé et committé (`213fb2b`) ; délégation des accords à
@@ -16,7 +16,8 @@ vérifiée, lot validé, committé (`f3e81bc`) et poussé** ; remote `origin` re
 **addendum A9 rédigé, relu, validé, committé (`fac6a60`) et poussé** ; **lot 23 : périmètre
 arbitré, proposition livrée, 18 choix arbitrés et révisée, révision vérifiée, lot validé, committé
 (`2c89eb0`) et poussé** ; **lot 24 : périmètre arbitré, proposition livrée, 14 choix arbitrés et révisée, lot validé,
-committé (`affa45e`) et poussé**, dans une session Claude Code cloud.
+committé (`affa45e`) et poussé**, suivi documentaire `5e9a233` poussé ; **préalable sur la classe de
+など ouvert et arbitré** (2026-10-07), **lot 25 : périmètre arbitré, proposition livrée et approuvée, lot validé** (ni committé ni poussé), dans une session Claude Code cloud.
 
 ## 1. Les rôles
 
@@ -141,7 +142,18 @@ réel : **670 ENTRY, 34 retraits, 15 écartées (toutes non décidées)**, 0 pro
 attente, 147 avertissements ; 1 509 décisions, toutes validées ; また non rouverte ; 476 tests verts ;
 40 sabotages attrapés.
 
-**Lot 24, « Quantité, degré et comparaison » : clos.** Validé, committé (`affa45e`) et poussé.
+**Lot 25, « Retrait de など » : validé, ni committé ni poussé.**
+
+| Étape | État | Qui décide |
+|---|---|---|
+| Préalable sur la classe | **arbitré** le 2026-10-07 (rapport du préalable, §12) : option C, retrait sans successeur ; aucune classe, aucun addendum A10 ; phrases à 5.16 ; un lot d'une entrée | toi |
+| Périmètre | **arbitré sans correction** (P1 à P3) : `n5_v_602` seule | toi |
+| Proposition lexicale | **livrée** : `lot-25.json` et D1569 (`docs/rapports/etape2-A2-04-lot25-proposition.md`) ; **approuvée sans correction** | toi |
+| **Validation** | **faite le 2026-10-07** sur ton autorisation explicite : statuts seulement, l'entrée `n5_v_602` et D1569 | toi |
+| Commit, push | **non autorisés** | **toi**, deux accords distincts |
+
+**Lot 24, « Quantité, degré et comparaison » : clos.** Validé, committé (`affa45e`) et poussé ;
+suivi documentaire `5e9a233`, poussé.
 
 | Étape | État | Qui décide |
 |---|---|---|
@@ -169,14 +181,35 @@ validées des lots 22 et 23 ne changent pas ; un erratum est ajouté à leurs ra
 décidée** (など), aucune proposition en cours ; 1 568 décisions validées ; 0 problème, 0 erreur, 0
 attente ; 148 avertissements ; 479 tests verts.
 
-`06` contient le rapport de périmètre (arbitrage au §9), le rapport de proposition, **le rapport de
-validation** et le rapport généré ; `07`, les **14 fiches sources complètes** et les précédents
-validés ; `08` est `lot-24.json` ; `09` ses 59 décisions ; `10` le diff contre `2c89eb0` et le diff
-de la validation (statuts seulement).
+**D'après les contrôles rapportés par Claude Code**, à la validation : seules 2 lignes changent,
+toutes deux `"status": "proposed"` → `"validated"` (1 dans `lot-25.json`, 1 dans `journal.json`) ; le
+contenu hors statut est identique ; les 1 568 décisions antérieures sont identiques ; **assemblage
+réel, partiel et complet : 684 ENTRY, 35 retraits, 0 écartée**, 0 problème, 0 erreur, 0 attente, 148
+avertissements ; 1 569 décisions, toutes validées ; **toutes les entrées des sources sont décidées** ;
+481 tests verts ; sabotages sur l'état validé : lot 25, 22/22 ; lot 24, 51/51 ; lot 23, 40/40.
+
+**Constat corrigé, à lire** (rapport de proposition, §5) : les 34 retraits ne sont pas tous des
+fusions ; ils comptent 33 fusions et `v_717`, retiré d'emblée sans successeur par A3. `v_602` serait
+le premier retrait sans successeur **décidé dans un lot**. Errata ajoutés aux deux rapports
+précédents ; l'arbitrage ne change pas.
+
+**Dans cet export** : `06` contient le rapport du préalable (arbitrage au §12), le rapport de
+périmètre, le rapport de proposition, **le rapport de validation** et le rapport généré ; `07`, la
+**fiche source complète de など** et les précédents validés cités ; `08` est `lot-25.json` ; `09`,
+D1569 ; `10` le diff contre `5e9a233` et le diff de la validation (statuts seulement).
 
 ## 4. Ce qui est attendu de cette relecture
 
-Rien sur le lot 24, clos. La prochaine relecture portera sur le préalable de classe de など.
+**Contrôler le diff de validation** (`10`, et le rapport de validation dans `06`) :
+
+1. **statuts seulement** : l'entrée `n5_v_602` de `lot-25.json` et D1569, de `proposed` à
+   `validated` ; aucune autre ligne ne change ;
+2. **l'état réel** : 684 ENTRY, 35 retraits, 0 écartée ; assemblage complet sans problème ; 1 569
+   décisions, toutes validées ;
+3. **les sabotages**, rejoués sur l'état validé avec le harnais corrigé.
+
+Ensuite : l'accord explicite du commit (« j'autorise le commit »), puis, distinct, celui du push.
+Ton contrôle n'autorise ni l'un ni l'autre.
 
 ## 5. Points ouverts
 
@@ -189,8 +222,8 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
   `comparatif`, `intensifieur` et `politesse`). Restent
   sans définition : `interrogatif` (appliquée sur un sens implicite), `negation`, `pluralisation`,
   `modalite`, `aspect`, `temps`, `alternative`.
-- **Classe de など** : « particule suffixe » selon sa fiche ; le registre des classes n'a pas de
-  classe « particule ».
+- **Classe de など** : « particule suffixe » selon sa fiche ; **préalable arbitré** : retrait sans
+  successeur (lot 25). Les 3 phrases rangées sous `n5_v_602` sont pour 5.16.
 - **Identité de 弱く et de ゆっくりと** : arbitrée au lot 22 (fusions dans 弱い, sans réouverture,
   et dans ゆっくり).
 - **« Adjectif en na (et nom) »** : le schéma ne porte qu'une classe par ENTRY (いろいろ, 同じ, 一緒).
@@ -201,7 +234,7 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
 
 ## 6. Prochaine action
 
-1. **Ouvrir le préalable sur la classe de など**, dernière entrée du vocabulaire N5, séparément de
-   tout lot lexical : la fiche la dit « particule suffixe », et le registre des classes n'a pas de
-   classe « particule ».
-2. Ensuite : la passe finale 5.16, puis la publication 5.17.
+1. **Ton contrôle de la validation du lot 25.**
+2. Le commit, puis le push, sur deux accords explicites et distincts.
+3. Ensuite, sur demande : la passe finale 5.16 (dont les 3 phrases de など), puis la publication
+   5.17.

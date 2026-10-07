@@ -1,0 +1,16 @@
+{
+  "lot": "lot-25",
+  "title": "Retrait de など",
+  "entries": {
+    "n5_v_602": {
+      "status": "validated",
+      "journal": [
+        "A2-04-D1569"
+      ],
+      "retire": {
+        "merged_into": null
+      }
+    }
+  },
+  "additions": []
+}

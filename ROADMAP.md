@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-06 (validation du lot 24)
+**Dernière mise à jour :** 2026-10-07 (validation du lot 25)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -41,9 +41,9 @@ définies dans la conception.
 
 Plus précisément :
 
-**A2-04 · reconstruction du vocabulaire N5 → lot « quantité, degré et comparaison » (14 entrées) et
-préalable sur la classe de など. Il reste 15 entrées, sans aucun verbe.** Les lots 0 à 23 sont
-validés ; l'addendum A9 (six fonctions linguistiques) est validé.
+**A2-04 · reconstruction du vocabulaire N5 → toutes les entrées sont décidées.** Les lots 0 à 25 sont
+validés (など retirée sans successeur au lot 25) ; l'addendum A9 (six fonctions linguistiques) est
+validé. Restent la passe finale 5.16 et la publication 5.17.
 
 Les lots 0 à 20 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
@@ -288,12 +288,13 @@ rien de nouveau ici) :
 - `events.js` reçoit E1 à E4 ;
 - les sections de format de `README.md` et `GUIDE-CONTENU.md` sont réécrites.
 
-#### État chiffré après le lot 24
+#### État chiffré après le lot 25
 
 -   **684 ENTRY validées** dans la reconstruction, dont 2 hors JLPT ;
--   **34 identifiants retirés** ;
--   **1 ancienne entrée encore à décider** : など, réservée à son préalable de classe ;
--   **1 568 décisions humaines validées** au journal ;
+-   **35 identifiants retirés** : 33 fusions, `v_717` (A3, d'emblée) et `v_602` (など, lot 25), sans
+    successeur ;
+-   **aucune ancienne entrée encore à décider** ; l'assemblage complet est sans problème ;
+-   **1 569 décisions humaines validées** au journal ;
 -   **1 compteur** (`匹`), seul `counter` du corpus ; **2 suffixes** (`半`, `辺`) ;
 -   assemblage : **0 problème, 0 erreur, 0 attente**.
 
@@ -500,8 +501,15 @@ sens 2, réservée à l'audit A2-05 ; など hors du lot 23.
 
 Committé (`affa45e`) et poussé.
 
-**Prochaine action immédiate :** ouvrir le préalable sur la classe de など, dernière entrée du
-vocabulaire N5, séparément de tout lot lexical.
+#### Préalable sur など et lot 25 · clos
+
+La fiche de `など` ne dit que « particule suffixe » ; aucune des dix classes du registre n'est
+attestée. Arbitrage : retrait sans successeur (A3, L8), sans classe ni addendum, et sans règle
+générale sur les particules. Lot 25 « Retrait de など » : **1 entrée, 1 décision** (D1569, `retrait`).
+Les 3 phrases rangées sous `n5_v_602` sont pour 5.16.
+
+**Prochaine action immédiate :** commit puis push du lot 25, sur deux accords explicites et
+distincts ; ensuite, la passe finale 5.16.
 
 ------------------------------------------------------------------------
 
