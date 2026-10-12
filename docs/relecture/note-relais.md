@@ -28,7 +28,8 @@ poussés** ; **proposition d'exécution de 5.17 livrée, arbitrée, corrigée** 
 relu et conservé** ; **publication 5.17 committée (`3d67594`) et poussée** (2026-10-07) ; **clôture
 documentaire de 5.17 préparée, non committée**, **puis committée (`5a8687b`) et poussée** ; **A2-05
 ouvert** (2026-10-07) : pendant A2-05, le relais détaillé est `docs/relecture/reprise-A2-05.md`,
-joint à chaque export par l'option `--note`.
+joint à chaque export par l'option `--note` ; **checkpoint documentaire d'A2-05 committé**
+(`3756fe3`, 2026-10-12, 36 fichiers, aucune donnée), **non poussé** ; A2-05 reste en cours.
 
 ## 1. Les rôles
 

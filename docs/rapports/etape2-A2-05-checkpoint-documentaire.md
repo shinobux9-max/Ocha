@@ -1,7 +1,7 @@
 # Étape 2 · A2-05 — checkpoint Git documentaire : proposition
 
 **Date** : 2026-10-12
-**Statut** : **contenu et périmètre du checkpoint acceptés le 2026-10-12, sous corrections** (ChatGPT, par délégation ; relayé par l'utilisateur) ; les modifications documentaires autorisées sont appliquées (§0). **Cet accord n'autorise ni indexation, ni commit, ni push : rien n'est indexé, committé ni poussé.** L'autorisation de commit et l'autorisation de push restent à donner, séparément et explicitement. La proposition est conservée telle quelle aux §1 à §8.
+**Statut** : **contenu et périmètre du checkpoint acceptés le 2026-10-12, sous corrections** (ChatGPT, par délégation ; relayé par l'utilisateur) ; les modifications documentaires autorisées sont appliquées (§0). Cet accord n'autorisait ni indexation, ni commit, ni push. **Depuis : commit autorisé explicitement, puis créé le 2026-10-12, `3756fe3e8076efb7dbf06933d453ec5b06612234`, 36 fichiers ; non poussé** (§0.6). L'autorisation de push reste à donner, séparément. La proposition est conservée telle quelle aux §1 à §8.
 
 ## 0. Arbitrage du 2026-10-12 et préparation faite
 
@@ -64,6 +64,27 @@ Un échec sans effet, pendant la préparation de l'inventaire des scripts : un s
 - **Non fait** : aucune indexation, aucun commit, aucun push ; aucune correction lexicale (les 124 corrections retenues dans 112 ENTRY restent non appliquées) ; aucun audit de 6a.
 - **Après un accord de commit explicite** : `git add --` des 36 chemins nommés un par un ; contrôle de l'index (5 `M`, 31 `A`) ; commit sous le message accepté. **Puis**, dans un commit documentaire de clôture distinct et sur un nouvel accord : la troisième ligne d'E6, avec l'identifiant réel, et l'actualisation du §1 du relais.
 - **Après un accord de push explicite, distinct** : vérification du distant réel, puis push sans force.
+
+### 0.6 Commit du checkpoint (2026-10-12), ajouté à la clôture documentaire
+
+Le §0.5 décrit ce qui restait à faire avant le commit ; il est conservé. Ce qui s'est passé ensuite :
+
+- **Préparation relue, avis favorable** ; périmètre définitivement validé : 36 chemins, 5 modifications et 31 nouveaux fichiers. **Commit autorisé explicitement** par un message relayé par l'utilisateur.
+- **Arrêt avant le commit.** Après l'indexation des 36 chemins, nommés un par un, `git diff --cached --check` a rendu le **code 2**, avec trois remarques d'espacement, toutes dans des fichiers nouveaux. Le contrôle fait pendant la préparation (`git diff --check`, code 0) ne portait que sur les fichiers suivis et ne disait donc rien des 31 nouveaux : c'était une lacune de ma vérification. L'opération a été arrêtée et signalée, l'index laissé tel quel.
+- **Trois corrections, autorisées une à une, et rien d'autre** :
+
+| Fichier | Ligne | Anomalie | Correction | Octets |
+|---|---|---|---|---|
+| ce rapport | 195 | espace en fin de ligne (ligne vide de contexte du diff cité au §3) | espace retiré | −1 |
+| `etape2-A2-05-criblage-coherence.md` | 1686 | ligne vide supplémentaire en fin de fichier | ligne supprimée | −1 |
+| `docs/relecture/reprise-A2-05.md` | 171 | ligne faite de trois espaces | espaces retirés | −3 |
+
+  Chaque fichier a été comparé à sa copie d'avant : une seule ligne touchée, et un contenu identique une fois les espaces et les sauts de ligne ignorés (code 0). Conséquence assumée pour ce rapport : au §3, la ligne vide de contexte du diff cité n'a plus son espace initial ; le contenu du diff est inchangé.
+- **Contrôles relancés avant le commit**, codes de sortie observés : `git diff --cached --check`, **0** ; `git diff --cached --name-status`, 0, **5 `M` et 31 `A`**, aucun autre statut ; comparaison de l'index aux 36 chemins autorisés, 0, identiques ; fichiers interdits dans l'index : 0 ; `HEAD` à `5a8687b` avant le commit.
+- **Commit créé** : `3756fe3e8076efb7dbf06933d453ec5b06612234`, sur `ocha-v2`, parent `5a8687b063fd2fca7c343d544aff040709bc5ec8`, message « Docs: checkpoint A2-05, arbitrages des volets 1 et 2 documentes, aucune correction appliquee », **36 fichiers** (13 168 insertions, 28 suppressions) ; `git commit`, code 0. Après le commit : index vide, aucun fichier suivi modifié, `ocha-v2` en avance d'un commit sur la référence locale `origin/ocha-v2`.
+- **Non poussé.** Le push demande un accord distinct, après contrôle du distant réel.
+- **Point laissé en l'état** : `a2-05-travail/rapport-criblage.mjs`, hors dépôt, réécrirait la ligne vide finale du rapport de criblage s'il était relancé ; il n'a pas été modifié.
+- **Inchangés** : A2-05 en cours ; 124 corrections retenues dans 112 ENTRY, aucune appliquée ; 130 nuances de provenance à contrôler ; 377 candidats C1 à C10 ; aucun audit de 6a commencé.
 
 ---
 
