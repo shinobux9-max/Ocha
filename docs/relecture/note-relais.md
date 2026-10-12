@@ -2,7 +2,7 @@ Cette note est écrite à la main par Claude Code et mise à jour avant chaque e
 que l'outil ne peut pas déduire des données : les rôles, les consignes, qui a décidé quoi, et ce
 qui est attendu. L'état chiffré est dans la partie 2, relevée par l'outil.
 
-**Dernière mise à jour de la note** : 2026-10-07. Historique : 2026-10-05, après le commit du lot 16 (`6c8fc50`) ; périmètre
+**Dernière mise à jour de la note** : 2026-10-12. Historique : 2026-10-05, après le commit du lot 16 (`6c8fc50`) ; périmètre
 du lot 17 arbitré, proposition relue et arbitrée, lot 17 validé et committé (`e9fe6a4`) ; outillage
 de relecture committé (`2387d20`) ; lot 18 : périmètre arbitré, proposition livrée, vingt choix
 arbitrés, révision vérifiée, lot validé et committé (`213fb2b`) ; délégation des accords à
@@ -26,7 +26,9 @@ vérifiée par ChatGPT, traces documentaires corrigées** ; **lot 26 validé** (
 (`9f3dc2b`) et poussé** ; **clôture documentaire et périmètre de 5.17 arbitré committés (`b6d72ae`),
 poussés** ; **proposition d'exécution de 5.17 livrée, arbitrée, corrigée** ; **essai de 5.17 exécuté,
 relu et conservé** ; **publication 5.17 committée (`3d67594`) et poussée** (2026-10-07) ; **clôture
-documentaire de 5.17 préparée, non committée**.
+documentaire de 5.17 préparée, non committée**, **puis committée (`5a8687b`) et poussée** ; **A2-05
+ouvert** (2026-10-07) : pendant A2-05, le relais détaillé est `docs/relecture/reprise-A2-05.md`,
+joint à chaque export par l'option `--note`.
 
 ## 1. Les rôles
 
@@ -75,6 +77,21 @@ prise (`08`), sa raison (`09`) et les rapports (`06`) ; la conformité aux réf�
 l'intégrité des sources figées.
 
 ## 3. Où en est le projet
+
+**A2-05, en cours (au 2026-10-12).** **A2-05 est en cours ; l'étape 2 n'est pas terminée.** Trois
+volets, aux périmètres validés le 2026-10-07. **Volet 2** (audit individuel des 147 `null`) :
+terminé et arbitré le 2026-10-08, 147 sur 147 (L 136, F 2, C 9, N 0). **Volet 1** (cohérence
+rétroactive, axes C1 à C10) : criblage validé (443 candidats) ; lot 1 arbitré (19 sens : 14
+conformes, 5 écarts) ; **377 candidats restent à examiner** ; lot 2, contrôle de provenance des
+nuances : tranche 1 (34 unités), bloc 1 bis, tranches 2 à 5 et les 2 nuances hors JLPT arbitrés ;
+148 des 278 nuances du plan recalculé sont arbitrées, **130 restent** (tranche 6 : 47 ; tranche 7 :
+39 ; tranche 8 : 44) ; périmètre de la tranche 6 arbitré le 2026-10-12, audit de la livraison 6a
+autorisé, non commencé. **Volet 3** (contrôles globaux G1 à G7) : non commencé. **124 corrections
+retenues, dans 112 ENTRY, aucune appliquée** (dix modifications du volet 2, V1-1 à V1-5, V2-1 à
+V2-109) : `data/`, les lots, le journal, les registres, les snapshots, l'inventaire des
+avertissements, les outils et les tests sont ceux du commit `3d67594`. Relais :
+`docs/relecture/reprise-A2-05.md` ; liste des corrections :
+`docs/rapports/etape2-A2-05-bilan-volet2.md`, §8.
 
 **Lot 17, « États et propriétés descriptives » : clos.** Validé sur autorisation explicite de
 l'utilisateur, relu (avis favorable au commit, sans correction), committé : `e9fe6a4`. La fusion de
@@ -300,8 +317,9 @@ D1569 ; `10` le diff contre `5e9a233` et le diff de la validation (statuts seule
 
 ## 4. Ce qui est attendu de cette relecture
 
-**Contrôler la clôture documentaire de 5.17** : quatre documents, aucune donnée, aucun outil, aucun
-test.
+Pendant A2-05, ce qui est attendu de chaque relecture est écrit en tête de la note jointe à l'export
+(`05-relais.md`, partie 1). La liste ci-dessous est celle de la clôture de 5.17, conservée pour
+mémoire.
 
 1. `CLAUDE.md`, `ETAT-ACTUEL.md`, `ROADMAP.md` et cette note enregistrent le commit poussé
    (`3d67594844f607b4bba01005bdcf664fc2ef4193`). Dans les sections décrivant l'état courant, 5.17 ne
@@ -416,16 +434,15 @@ La liste complète et à jour est dans `ETAT-ACTUEL.md`, section « Points ouver
   et dans ゆっくり).
 - **« Adjectif en na (et nom) »** : le schéma ne porte qu'une classe par ENTRY (いろいろ, 同じ, 一緒).
 - **Audit A2-05** : catégories nulles, deixis temporelle de 前, 先 et 近く, catégories de メートル et
-  キロ, extensions conservées en nuance.
+  キロ, extensions conservées en nuance. En cours : voir `docs/relecture/reprise-A2-05.md`, §3 et
+  §6 bis.
 - **Passe finale 5.16** : relations candidates des lots 18 à 20 ; furigana de 頼む ; formes de 煙草
   et 居る.
 
 ## 6. Prochaine action
 
-1. **Ta relecture de la clôture documentaire de 5.17** ; puis, sur des accords distincts et
-   explicites, son commit et son push.
-2. **A2-05, l'audit global du vocabulaire**, à ouvrir par un rapport de périmètre : aucune décision
-   avant son arbitrage. Il comprend obligatoirement l'audit individuel des 120 `categorie-nulle`,
-   l'audit des 27 `type-nul`, et la distinction entre les `null` réellement légitimes et les données
-   à corriger. **Aucune clôture de l'étape 2 avant cette preuve.**
+1. **A2-05, en cours** : audit de la livraison 6a du contrôle de provenance (dix nuances du lot 10),
+   puis 6b à 6e, chacune après l'arbitrage de la précédente ; ensuite le périmètre de la tranche 7.
+2. Restent dans A2-05 : les 377 candidats du volet 1, le volet 3, l'arbitrage global et
+   l'application des corrections, sur autorisations distinctes. **Aucune clôture de l'étape 2 avant.**
 3. Ensuite : le graphe (G2 à G9) ; le registre de phrases (tâche 11).

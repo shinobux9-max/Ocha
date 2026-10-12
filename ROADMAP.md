@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-07 (publication 5.17 committée `3d67594` et poussée ; A2-04 terminé ; prochain chantier : A2-05)
+**Dernière mise à jour :** 2026-10-12 (A2-05 en cours : volet 2 arbitré, volet 1 en cours, volet 3 non commencé ; aucune correction appliquée)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -45,8 +45,9 @@ Plus précisément :
 validés (など retirée sans successeur au lot 25) ; l'addendum A9 (six fonctions linguistiques) est
 validé. **La passe finale 5.16 est terminée** (lot 26, validé le 2026-10-07, committé `9f3dc2b` et
 poussé). **La publication 5.17 est faite** (committée `3d67594` et poussée le 2026-10-07) : le
-vocabulaire canonique est dans `data/`, **A2-04 est terminé**. **Prochain chantier : A2-05**, l'audit
-global du vocabulaire, dont l'audit un par un des `null`, point de sortie de l'étape 2.
+vocabulaire canonique est dans `data/`, **A2-04 est terminé**. **Chantier en cours : A2-05**, l'audit
+global du vocabulaire (section 6). L'audit un par un des `null` est arbitré ; ses corrections ne sont
+pas appliquées, et le point de sortie de l'étape 2 n'est pas atteint.
 
 Les lots 0 à 20 sont terminés et validés. Le chantier 5.13-C (furigana qui contredisaient les kana,
 y compris dans des lots validés) est clos : l'addendum A8 est validé et implémenté, et les 13
@@ -567,13 +568,11 @@ terminé ; aucune action A2-04 ne reste.**
 une validation. A2-05 doit auditer un par un les 120 `categorie-nulle` et les 27 `type-nul` ; l'étape
 2 ne se clôt pas avant.
 
-**Prochaine action immédiate :** ouvrir A2-05 par son périmètre (section 6). Il doit comprendre
-l'audit individuel des 120 `categorie-nulle`, l'audit des 27 `type-nul`, et la distinction entre les
-`null` réellement légitimes et les données à corriger. Aucun commit ni push sans accord explicite.
+**Suite :** A2-05, ouvert le 2026-10-07 (section 6). Aucun commit ni push sans accord explicite.
 
 ------------------------------------------------------------------------
 
-## 6. A2-05 · Audit global du vocabulaire — ⬜ À FAIRE
+## 6. A2-05 · Audit global du vocabulaire — 🔵 EN COURS
 
 A2-05 intervient **après la publication/reconstruction A2-04 et avant la
 construction complète du graphe G2–G9**.
@@ -602,6 +601,20 @@ Points déjà réservés pour cet audit :
 -   anomalies de données kanji : `醤` absent des kanji connus, cinq clés du dictionnaire qui
     sont des mots (山羊, 生活, 措置, 継続, 迅速) ;
 -   anomalies ou décisions transversales découvertes pendant les lots.
+
+**Avancement (au 2026-10-12).** **A2-05 est en cours ; l'étape 2 n'est pas terminée.** Trois volets,
+aux périmètres validés le 2026-10-07. **Volet 2** (audit individuel des 147 `null`) : terminé et
+arbitré le 2026-10-08, 147 sur 147 (L 136, F 2, C 9, N 0). **Volet 1** (cohérence rétroactive, axes
+C1 à C10) : criblage validé (443 candidats) ; lot 1 arbitré (19 sens : 14 conformes, 5 écarts) ;
+**377 candidats restent à examiner** ; lot 2, contrôle de provenance des nuances : tranche 1 (34
+unités), bloc 1 bis, tranches 2 à 5 et les 2 nuances hors JLPT arbitrés ; 148 des 278 nuances du
+plan recalculé sont arbitrées, **130 restent** (tranche 6 : 47 ; tranche 7 : 39 ; tranche 8 : 44) ;
+périmètre de la tranche 6 arbitré le 2026-10-12, audit de la livraison 6a autorisé, non commencé.
+**Volet 3** (contrôles globaux G1 à G7) : non commencé. **124 corrections retenues, dans 112 ENTRY,
+aucune appliquée** (dix modifications du volet 2, V1-1 à V1-5, V2-1 à V2-109) : `data/`, les lots,
+le journal, les registres, les snapshots, l'inventaire des avertissements, les outils et les tests
+sont ceux du commit `3d67594`. Relais : `docs/relecture/reprise-A2-05.md` ; liste des corrections :
+`docs/rapports/etape2-A2-05-bilan-volet2.md`, §8.
 
 ------------------------------------------------------------------------
 
@@ -861,7 +874,7 @@ Ensuite seulement :
    │   ├── 5.16 Passe finale (lot 26)       ✅
    │   └── 5.17 Publication                 ✅
    │
-   ├── A2-05 Audit vocabulaire              ⬜
+   ├── A2-05 Audit vocabulaire              🔵
    ├── G2–G9 Graphe                         ⬜
    ├── Grammaire : dépendances/intégration  ⬜
    ├── Registre phrases/exemples            ⬜
