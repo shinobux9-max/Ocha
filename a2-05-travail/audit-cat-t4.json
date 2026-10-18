@@ -1,0 +1,120 @@
+{
+  "v_533_s1": {
+    "f": "A",
+    "b": "la fiche réunit un emprunt gratuit et une location",
+    "n": ["@A5", "@ARB", "@L3eco", "@LOT19"],
+    "c": "貸す « Prêter », relié par `reciprocal_with` et auquel la raison renvoie, est sans catégorie (même tranche). 買う « Acheter » et 売る « Vendre » sont en économie › achat et vente : leurs fiches parlent d'acheter et de vendre un bien. 住む « Habiter » est en habitat › logements.",
+    "v": "L",
+    "m": "La fiche décrit « l'action d'emprunter un objet à quelqu'un ou de louer un bien (comme un logement) » ; l'exemple dit « j'emprunte un livre à la bibliothèque ». Louer relèverait de l'économie, et le logement de l'habitat ; emprunter un livre n'est ni l'un ni l'autre, et c'est ce que montre l'exemple. « Prêt », dans A2-L3, est un produit de banque. La fiche réunit un emprunt gratuit et une location dans un sens unique : aucune catégorie ne le décrit en entier. La raison de D1267 tient par sa conclusion ; son renvoi à 貸す n'est pas le fondement, la fiche l'est. Relevé du criblage (C10-a) : le renvoi de D1268 à la passe finale est soldé, la relation étant publiée (D1581)."
+  },
+  "v_575_s1": {
+    "f": "A",
+    "b": "la fiche réunit un prêt entre personnes et une location",
+    "n": ["@A5", "@ARB", "@L3eco", "@LOT19"],
+    "c": "借りる « Emprunter » est sans catégorie (même tranche) ; la relation `reciprocal_with` est notée une fois, sur 借りる. 買う et 売る sont en économie › achat et vente. 上げる, sens 1 « Donner », est en relations sociales › interactions sociales (voir la fiche de 渡す).",
+    "v": "L",
+    "m": "La fiche décrit « l'action de prêter un objet à quelqu'un ou de lui louer un bien » ; l'exemple dit « j'ai prêté mon parapluie à un ami ». Même étendue que 借りる, lue sur cette fiche : un prêt entre amis et une location. « Prêt », dans A2-L3, est rangé sous « Banque & finance », ce que D1264 relève : il ne décrit pas un parapluie prêté. La location seule relèverait de l'économie ; le sens est unique. La raison tient. Relevé du criblage (C10-a) : le renvoi de D1265 à la passe finale est soldé (D1581)."
+  },
+  "v_578_s1": {
+    "f": "A",
+    "b": "la fiche réunit un objet restitué et de l'argent rendu",
+    "n": ["@A5", "@ARB", "@L3eco", "@LOT19"],
+    "c": "借りる et 貸す sont sans catégorie (même tranche). 買う « Acheter » est en économie › achat et vente › achat. かかる « Prendre (du temps ou de l'argent) » a été confirmé L, pour une fiche qui réunit de même deux domaines.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de restituer un objet emprunté à son propriétaire, de rendre la monnaie ou de rembourser une somme d'argent » ; l'exemple dit « je rends le livre à la bibliothèque ». Deux des trois emplois touchent à l'argent et relèveraient de « Transactions & paiement » ; le premier, que l'exemple illustre et que la traduction principale dit, n'en relève pas. Le sens est unique, par un choix du lot 19 (D1269) : la catégorie économique n'en décrirait qu'une partie. La raison de D1270, qui l'explique, tient.",
+    "r": "Deux emplois sur trois sont monétaires. Si le sens était scindé (l'objet, l'argent), le second aurait une catégorie. Le découpage n'est pas l'objet de cet audit ; je le signale."
+  },
+  "v_562_s1": {
+    "f": "A",
+    "b": "la fiche décrit un geste ; « Interactions sociales » examinée et écartée",
+    "n": ["@A5", "@ARB", "@G44:action générique", "@L3soc", "@L3r6"],
+    "c": "上げる, sens 1 « Donner » (même lot), est en relations sociales › interactions sociales : sa fiche dit « donner quelque chose à quelqu'un (hors du cercle familial proche) », et D1263 retient la catégorie parce que la fiche situe le don « par rapport au cercle de la personne ». 会う « Rencontrer » et 頼む « Demander » sont dans la même catégorie. 出す, sens 3 « Présenter », a été confirmé L. Le sens 2 de la même ENTRY, « Faire traverser », est en parcours et trajectoire.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de remettre un objet directement à quelqu'un d'autre de la main à la main » ; l'exemple dit « j'ai remis les documents au professeur ». J'ai examiné « Interactions sociales », qui porte 上げる « Donner » : la fiche de 上げる parle d'un don et le situe dans les relations entre personnes ; celle-ci décrit le geste par lequel un objet change de mains (« directement », « de la main à la main »), sans rien dire du lien entre les personnes. Elle ne décrit pas une interaction sociale, et aucune catégorie ne nomme la remise d'un objet. Sur la lecture de cette fiche, et non par renvoi à 貸す : la raison de D1273 tient. Relevé du criblage (C10-a) : le renvoi de D1275 est soldé ; la relation publiée part du sens 2 (D1583), non de celui-ci.",
+    "r": "Divergence signalée, sans verdict sur 上げる : « Donner » est catégorisé, et « Remettre », dont une autre traduction publiée est « Donner en main propre », ne l'est pas, dans le même lot. La différence tient aux fiches (un don situé socialement ; un geste). La question a été posée à l'arbitrage du 2026-10-08, qui confirme L : le geste de remise d'un objet ne suffit pas à imposer `relations_sociales › interactions_sociales`. La distinction avec 上げる reste documentée."
+  },
+  "v_608_s2": {
+    "f": "A",
+    "b": "le destinataire (un inférieur, un animal, une plante) déborde tout domaine",
+    "n": ["@A5", "@ARB", "@L3soc", "@LOT19", "@L3r6"],
+    "c": "上げる, sens 1 « Donner », relié à ce sens par `similar_to`, est en relations sociales › interactions sociales. Le sens 1 de la même ENTRY, « Faire », et する « Faire » sont sans catégorie (famille « autre formulation », non audités ici). 鳴く « Crier (animal) » est en monde naturel › animaux : sa fiche est réservée aux animaux.",
+    "v": "L",
+    "m": "La fiche dit que le verbe est un « synonyme familier de […] ageru (donner à quelqu'un de inférieur, un animal ou une plante) » ; l'exemple illustre le sens 1, et ce sens repose sur ces mots et sur la traduction « Donner (à des plantes, des animaux) ». Le destinataire est un inférieur, un animal ou une plante : trois référents, dont deux ne sont pas des personnes. La catégorie de 上げる, qui décrit une relation entre personnes, ne convient donc pas ; ni « Animaux » ni « Végétation » ne décrivent un don, et la fiche ne parle ni de jardin ni d'élevage, ce que D1335 relève. Aucune catégorie ne décrit le sens. La raison tient. Relevés du criblage : « Donner » traduit aussi 上げる, catégorisé (C1-a), et les deux sens reliés par `similar_to` n'ont pas la même catégorie (C1-d) : l'écart est justifié par le destinataire ; `similar_to` dit une ressemblance, non une identité de domaine.",
+    "r": "La traduction principale publiée, « Donner (à des plantes, des animaux) », omet « quelqu'un d'inférieur », que la fiche donne en premier et que la nuance publiée conserve. Je le signale ; la traduction n'est pas l'objet de cet audit, et le verdict n'en dépend pas : avec ou sans la personne, la fiche déborde la catégorie de 上げる."
+  },
+  "v_551_s1": {
+    "f": "B",
+    "b": "aucune catégorie ne nomme les postures",
+    "n": ["@A5", "@ARB", "@L3corps", "@L3pos", "@G10"],
+    "c": "立つ « Se lever » est sans catégorie (même tranche). 寝る, sens 2 « Se coucher », et 起きる, sens 2 « Se lever », sont en états et besoins physiques › sommeil et repos : leurs fiches parlent de dormir et de sortir du sommeil. 置く « Poser » et 並ぶ, sens 1 « Faire la queue » (C retenu), sont en position et localisation.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de s'asseoir » ; l'exemple dit « veuillez vous asseoir sur la chaise ». La raison de D1245 donne deux fondements. Le premier est vérifiable et exact : A2-L3 ne nomme aucune posture ; « Corps » énumère des parties, « États & besoins physiques » le sommeil, la faim, la fatigue et le confort, et la fiche ne parle pas de repos. « Position & localisation » dit où une chose se trouve par rapport à une autre (dessus, devant, dedans) : s'asseoir est une attitude du corps, non un emplacement, ce qui distingue ce sens de 並ぶ, dont la fiche décrit une disposition en ligne. Le second fondement, « action générale », n'ajoute rien et n'est pas la preuve. Le `null` tient par l'absence de catégorie."
+  },
+  "v_568_s1": {
+    "f": "B",
+    "b": "aucune catégorie ne nomme les postures",
+    "n": ["@A5", "@ARB", "@L3corps", "@L3pos", "@L3r6"],
+    "c": "座る « S'asseoir », auquel la raison renvoie, est sans catégorie (même tranche). 起きる, sens 2 « Se lever » (autre traduction : « Sortir du lit »), est en sommeil et repos : sa fiche décrit « l'action de sortir du sommeil ou de se lever le matin ». 上げる, sens 2 « Lever », et 登る « Monter » sont en mouvement et déplacement › monter, descendre.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de se mettre debout ou d'être en position verticale » ; l'exemple dit « veuillez vous lever de la chaise ». Sur la lecture de cette fiche, et non par renvoi à 座る : aucune catégorie d'A2-L3 ne nomme une posture. Ce n'est pas un déplacement vers le haut, comme 登る : on se dresse sur place. Ce n'est pas non plus le lever du matin de 起きる, que le criblage rapprochait par la traduction (C1-a) : celui-ci quitte le lit et le sommeil, celui-là une chaise ; deux référents, et l'écart de catégorie est justifié. Le fondement est l'absence de catégorie des postures ; « action générale » n'est pas la preuve. La raison de D1247 tient."
+  },
+  "v_552_s1": {
+    "f": "B",
+    "b": "aucune catégorie ne nomme l'attente ; « Temps » examiné et écarté",
+    "n": ["@A5", "@ARB", "@G44:action générique", "@L3temps", "@G10"],
+    "c": "Aucun autre sens publié n'exprime l'attente. まだ, もう et すぐに sont en temps › relations temporelles : ce sont des repères dans le temps. 困る « Avoir des ennuis » est en psychologie et esprit › états psychologiques. 並ぶ, sens 1 « Faire la queue », est retenu en position et localisation, non comme une attente.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de patienter en attendant l'arrivée de quelqu'un ou qu'un événement se produise » ; l'exemple dit « j'attends un ami à la gare ». La source classait le mot sous « temps ». J'ai examiné ce domaine : A2-L3 y range des notions de temps (unités, moments, durée, fréquence, relations temporelles), non ce que fait une personne pendant que le temps passe. La fiche ne décrit pas non plus « patienter » comme un état d'esprit. Aucune catégorie ne nomme l'attente. La raison de D1281 ne donne que la formule ; le `null` tient par cette vérification."
+  },
+  "v_266_s2": {
+    "f": "C",
+    "b": "la fiche réunit souffler de l'air et jouer d'un instrument",
+    "n": ["@A5", "@ARB", "@L3mus", "@LOT19", "@L3r6"],
+    "c": "弾く « Jouer (d'un instrument à cordes ou à clavier) » est en arts et création › musique › instruments ; sa fiche dit : « pour les instruments à vent, on utilise 吹く ». 歌う « Chanter » est en musique › chant. Le sens 1 de la même ENTRY, « Souffler (le vent) », est en météo › vent. 吸う, sens 2 « Aspirer », dont la raison renvoie à ce sens, est sans catégorie (même tranche).",
+    "v": "L",
+    "m": "La fiche dit que le verbe désigne aussi l'action « de souffler de l'air/de jouer d'un instrument à vent » ; l'exemple illustre le sens 1. Jouer d'un instrument relèverait de « Musique › Instruments », comme 弾く ; souffler de l'air n'en relève pas. Le sens publié réunit les deux (D0471 : « une action humaine »), avec « Jouer d'un instrument à vent » en autre traduction : la catégorie de la musique n'en décrirait qu'une partie. La raison de D0472 tient par sa conclusion.",
+    "r": "Asymétrie visible avec 弾く, catégorisé, dont la fiche renvoie expressément à 吹く pour les instruments à vent. Si l'emploi musical formait un sens à part, il aurait cette catégorie. Le découpage n'est pas l'objet de cet audit ; je le signale. Constat documentaire, hors de l'objet de l'audit : la nuance publiée (« 笛を吹く : jouer de la flûte ») donne un exemple que ni la fiche ni les anciens exemples ne contiennent."
+  },
+  "v_542_s2": {
+    "f": "C",
+    "b": "la fiche réunit l'air et le liquide ; aucune catégorie de la respiration",
+    "n": ["@A5", "@ARB", "@L3conso", "@L3r6"],
+    "c": "吹く, sens 2 « Souffler (de l'air) », auquel la raison renvoie, est sans catégorie (même tranche). 飲む « Boire » est en alimentation › consommation alimentaire : sa fiche parle de « boire un liquide […] ou d'avaler un médicament ». Le sens 1 de la même ENTRY, « Fumer », est sans catégorie (famille « aucune catégorie », non audité ici).",
+    "v": "L",
+    "m": "La fiche décrit « l'action d'inspirer de l'air ou de la fumée (comme fumer une cigarette), ou d'aspirer un liquide » ; l'exemple illustre le sens 1. Ce sens réunit l'air que l'on inspire et le liquide que l'on aspire. Aspirer un liquide n'est pas le boire : la fiche ne parle pas de consommation, à la différence de celle de 飲む. A2-L3 ne nomme pas la respiration, sinon par ses symptômes en médecine. Aucune catégorie ne décrit le sens, et aucune ne couvre l'air et le liquide. Sur la lecture de cette fiche, et non par renvoi à 吹く : la raison de D1293 tient."
+  },
+  "v_526_s1": {
+    "f": "C",
+    "b": "la fiche ne décrit pas le sens ; aucune catégorie de la reproduction d'un document",
+    "n": ["@A5", "@ARB", "@L3tech", "@L3r1", "@G10"],
+    "c": "書く « Écrire » est en communication et langage › écriture › écrire ; 撮る « Prendre (une photo) » en arts et création › arts visuels ; 働く « Travailler » en travail et vie professionnelle › travail et emploi. Aucun autre sens publié ne désigne la reproduction d'un document.",
+    "v": "L",
+    "m": "La fiche ne décrit pas le sens : elle dit seulement que le verbe est « composé du mot emprunté kopii (copie / photocopie) et du verbe auxiliaire suru (faire) » ; l'exemple se traduit « veuillez photocopier ce document ». La source classait le mot sous « travail », mais la fiche ne nomme ni bureau ni école, ce que D1260 relève : ce serait un contexte. Photocopier n'est pas écrire, et A2-L3 ne nomme la reproduction d'un document nulle part : ni dans l'écriture, ni dans les machines, ni dans la publication. La fiche n'est pas assez précise pour fonder une catégorie. La raison tient."
+  },
+  "v_635_s2": {
+    "f": "D",
+    "b": "la fiche nomme deux domaines (l'école, le travail)",
+    "n": ["@A5", "@ARB", "@L3conge", "@LOT19", "@L3r6"],
+    "c": "Le sens 1 de la même ENTRY, « Se reposer », est en états et besoins physiques › sommeil et repos. 働く « Travailler » et 勤める « Travailler pour » sont en travail et vie professionnelle › travail et emploi : leurs fiches ne parlent que du travail.",
+    "v": "L",
+    "m": "La fiche dit que le verbe exprime aussi l'action « de s'absenter de l'école ou du travail (ex : kaisha o yasumu, s'absenter du travail) » ; l'exemple illustre le sens 1. A2-L3 nomme « Congés » sous le travail et « Vacances scolaires » sous l'éducation : deux niveaux 1, et la fiche nomme les deux lieux. Ni l'un ni l'autre ne décrit le sens entier. La raison de D1249, qui le dit, tient ; la formule « action générale » n'y ajoute rien."
+  },
+  "v_642_s2": {
+    "f": "D",
+    "b": "la fiche dit seulement « participer à un événement »",
+    "n": ["@A5", "@ARB", "@L3grp", "@G10", "@L3r6"],
+    "c": "会う « Rencontrer » est en relations sociales › interactions sociales. 習う « Apprendre (auprès de quelqu'un) » est en éducation › apprentissage. Le sens 1 de la même ENTRY, « Sortir », est en entrée et sortie ; le sens 3 est sans catégorie (audité à part).",
+    "v": "L",
+    "m": "Ce sens vient de la fiche fusionnée de 出ます (D0335), qui dit : « ou de participer à un événement », et donne la traduction « Assister à ». C'est tout ce que les sources en disent : ni la fiche de 出る, ni celle de 出ます, ni leurs exemples, qui portent tous sur le fait de quitter un lieu, ne précisent l'événement. Un événement quelconque n'a pas de domaine ; « Groupes & appartenance sociale » décrit l'appartenance à un groupe, non la présence à un événement. La fiche n'est pas assez précise pour fonder une catégorie. La conclusion de D0338 tient.",
+    "r": "La raison de D0338 illustre le sens par « (cours, réunion) », et la donnée publiée porte la particule に et la nuance « 授業に出る », « 会議に出る ». Rien de cela n'est dans les fiches sources ni dans les anciens exemples, dont les particules sont を et から. Le verdict ne s'appuie pas sur ces éléments. Je les signale comme constat documentaire pour le volet 1 (« la fiche source décide »), sans verdict."
+  },
+  "v_642_s3": {
+    "f": "D",
+    "b": "sens de type `evenement` ; aucune catégorie de l'apparition",
+    "n": ["@A5", "@ARB", "@L3_2", "@G10", "@L3r6"],
+    "c": "消える, sens 2 « Disparaître », son contraire, a été confirmé L, avec le type `evenement` : aucun domaine ne nomme l'apparition ni la disparition. なる « Devenir » (L) est aussi un `evenement` sans catégorie. 見る « Voir » est en sens et perception › vue.",
+    "v": "L",
+    "m": "La fiche dit que le verbe exprime aussi le fait « de se manifester » ; sa traduction donne « Apparaître » ; les exemples illustrent le sens 1. Le sens est publié avec le type `evenement`, et sa raison dit « action générale » : les deux ne s'accordent pas. Vérification faite, c'est la raison qui est inexacte, non la donnée : ce qui apparaît ne fait rien, cela survient, et 消える « Disparaître », son contraire, porte le même type. Le `null` ne peut donc pas se fonder sur l'« action générique » ; il se fonde sur l'absence de toute catégorie décrivant le sens : apparaître n'est pas percevoir, la vue décrirait celui qui regarde, et A2-L3 ne nomme ni l'apparition ni la disparition. La conclusion de D0339 tient ; sa formule, non.",
+    "r": "D0339 (lot 04) qualifie d'« action générale » un sens de type `evenement`. L'écart est dans la raison, antérieure à ces distinctions ; aucune donnée n'est en cause, et une décision validée ne se réécrit pas, ce que l'arbitrage du 2026-10-08 confirme (type `evenement` cohérent, justification imprécise, non réécrite). Même constat documentaire que pour le sens 2 : la particule が et la nuance « 月が出る » publiées ne sont pas dans les fiches sources."
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "v_420_s1": {
+    "f": "A",
+    "n": ["@A5", "@G44:propriété générale", "@G10", "@A9_36", "@DIM16"],
+    "c": "悪い « Mauvais » est sans catégorie. 美味しい « Délicieux » est en alimentation › goûts alimentaires et 上手 « Doué » en capacités et aptitudes › habileté : leurs fiches limitent le jugement à un aliment, à une activité. Hors tranche, sans verdict ici : きれい, sens 1 « Beau », et よく, sens 2 « Bien » (dont la raison renvoie à ce sens), sont sans catégorie. じゃ, sens 2, se traduit aussi « Bon » : c'est un mot de transition (`discours`), sans rapport de sens ; le criblage les rapprochait par la seule traduction (C3-b, C7-d).",
+    "v": "L",
+    "m": "La fiche décrit un adjectif « exprimant la qualité positive, l'approbation ou la convenance » ; l'exemple dit « il fait bon temps aujourd'hui ». Le jugement positif s'applique à n'importe quoi : aucun domaine d'A2-L3 ne le décrit, et c'est la propriété générale que l'architecture place hors hiérarchie. La citation d'A2-GLOBAL §4.4 par D0065 est exacte. Deux points du criblage sont réglés ici. Fonctions (C7-c) : la fiche ne décrit ni un mot qui modifie le degré d'un autre (`intensifieur`), ni un mot qui gère l'échange (`discours`) ; « l'approbation » y est une valeur de l'adjectif, non un emploi de réponse établi. Dimension : « la convenance » évoque l'axe adéquation, mais elle n'est qu'un des trois termes de la fiche ; l'axe ne décrit pas directement le sens, et aucune dimension n'est proposée."
+  },
+  "v_452_s1": {
+    "f": "A",
+    "n": ["@A5", "@G44:propriété générale", "@A9_21"],
+    "c": "いい « Bon » est sans catégorie. まずい, sens 1 « Mauvais (au goût) », est en alimentation › goûts alimentaires : sa fiche parle d'« un aliment qui a un mauvais goût » ; le criblage les rapprochait par la traduction (C1-a), les référents diffèrent. 下手 « Maladroit » est en capacités et aptitudes › habileté.",
+    "v": "L",
+    "m": "La fiche décrit « ce qui est moralement ou physiquement mauvais, de mauvaise qualité » ; l'exemple dit « ma vue est mauvaise aujourd'hui ». Le moral, le physique, la qualité, et la vue dans l'exemple : la fiche nomme elle-même plusieurs domaines, et aucun ne décrit le sens. La raison de D1098 tient. Le point réservé au lot 16 (l'emploi d'excuse) est réglé par A9, qui le nomme : il reste en nuance, sans sens ni fonction `politesse`."
+  },
+  "v_427_s2": {
+    "f": "A",
+    "n": ["@A5", "@G44:propriété générale", "@L3r6"],
+    "c": "Le sens 1 de la même ENTRY, « Mauvais (au goût) », est en alimentation › goûts alimentaires. 困る « Avoir des ennuis » est en psychologie et esprit › états psychologiques : sa fiche décrit l'embarras de la personne (« où l'on ne sait comment réagir »), non la situation. 大変, sens 2 « Difficile », qui qualifie aussi une situation, est sans catégorie.",
+    "v": "L",
+    "m": "La fiche dit que le mot qualifie aussi, « familièrement une situation délicate » ; l'exemple illustre le sens 1, et ce sens repose sur le texte de la fiche et sur la traduction « Fâcheux (situation critique) ». Le jugement porte sur une situation quelconque : la catégorie du goût, qui porte le sens 1, ne s'y étend pas, et aucun domaine ne nomme une situation qui tourne mal. La raison de D0197 tient."
+  },
+  "v_434_s1": {
+    "f": "A",
+    "n": ["@A5", "@G44:propriété générale", "@L3_8", "@A9_21"],
+    "c": "Aucun autre sens publié ne décrit le danger. A2-DIM n'a aucun axe du risque, ce que D1114 relevait déjà. Santé et médecine › urgences médicales et droit › application de la loi désignent des secours et des institutions, non le caractère dangereux d'une situation.",
+    "v": "L",
+    "m": "La fiche décrit « une situation qui présente un risque physique ou un danger » ; l'exemple dit « c'est dangereux ici, il ne faut pas entrer ». A2-L3 n'a pas de catégorie du danger ni de la sécurité, et son §8 dit explicitement qu'une branche de protection civile n'a pas été promue : l'absence est un choix de l'architecture. La raison de D1114 tient. Le point réservé au lot 16 (l'avertissement « Attention ! ») est réglé par A9, qui le nomme : il reste en nuance, sans sens ni fonction."
+  },
+  "v_484_s2": {
+    "f": "A",
+    "n": ["@A5", "@G44:propriété générale", "@L3r6", "@DIM16"],
+    "c": "Le sens 1 de la même ENTRY, « Lourd », est lui aussi sans catégorie, pour une autre raison (audité à part). 大変, sens 2, a « Grave » pour autre traduction et est sans catégorie. 大切 « Important » porte l'axe importance.",
+    "v": "L",
+    "m": "La fiche dit que le mot qualifie, « par extension une atmosphère, une responsabilité ou une charge morale pesante » ; l'exemple illustre le sens 1. Une atmosphère, une responsabilité, une charge morale : trois référents sans domaine commun. La raison de D1071 tient. Le criblage rapprochait « grave » de l'axe importance (C5-b) : la fiche dit « pesante », ce qui pèse, non ce qui compte ; l'axe ne décrit pas directement le sens, et aucune dimension n'est proposée."
+  },
+  "v_432_s1": {
+    "f": "B",
+    "n": ["@A5", "@G44:propriété générale", "@L3r1", "@DIM16"],
+    "c": "大切 « Important », 易しい « Facile » et 難しい « Difficile » sont sans catégorie et portent chacun un axe d'A2-DIM. Hors tranche, sans verdict ici : 有名 « Célèbre », de la même famille source, est sans catégorie et sans dimension.",
+    "v": "L",
+    "m": "La fiche décrit « un objet, un service ou un endroit qui facilite la vie ou rend un service appréciable » ; l'exemple dit « cet ordinateur est très pratique ». Trois sortes de référents, nommées par la fiche : l'utilité n'appartient à aucun domaine. L'exemple porte sur un ordinateur, mais ranger le mot dans la technologie ferait du contexte un domaine. Le sens est porté par l'axe utilité (D1110). La raison de D1109 tient."
+  },
+  "v_442_s1": {
+    "f": "B",
+    "n": ["@A5", "@G44:propriété générale", "@DIM16"],
+    "c": "かわいい « Mignon » est en émotions et sentiments › affection : sa fiche décrit « ce qui éveille de la tendresse, de l'affection ». 便利 « Pratique » est sans catégorie, avec l'axe utilité.",
+    "v": "L",
+    "m": "La fiche décrit « ce qui a de la valeur, de l'importance ou qui est cher à notre cœur (personnes, objets ou notions) » ; l'exemple dit « c'est un document important ». L'attachement (« cher à notre cœur ») relèverait de l'affection, mais il n'est qu'un des trois termes d'un sens unique (D1101), et l'exemple porte sur l'importance : la catégorie de かわいい ne décrirait pas le sens entier. Le sens est porté par l'axe importance (D1103). La raison de D1102 tient."
+  },
+  "v_456_s1": {
+    "f": "B",
+    "n": ["@A5", "@G44:propriété générale", "@L3r1", "@DIM16"],
+    "c": "上手 « Doué » et 下手 « Maladroit », de la même famille source, sont en capacités et aptitudes › habileté : leurs fiches qualifient la personne (« quelqu'un qui a de l'habileté », « le manque d'habileté »). 難しい et 大変, sens 2, sont sans catégorie, avec le même axe.",
+    "v": "L",
+    "m": "La fiche décrit « une tâche, un exercice ou une épreuve qui ne présente pas de difficulté » ; l'exemple dit « ce travail est facile ». La propriété est celle de la tâche, non l'habileté de celui qui la fait : la catégorie de 上手 ne convient pas. « Exercice » et « épreuve » évoquent l'école, mais l'exemple porte sur un travail : l'éducation serait un contexte, non le sens. Le sens est porté par l'axe facilité (D1092). La raison de D1091 tient."
+  },
+  "v_486_s1": {
+    "f": "B",
+    "n": ["@A5", "@G44:propriété générale", "@L3r1", "@DIM16"],
+    "c": "易しい « Facile », que la fiche donne pour contraire, et 大変, sens 2 « Difficile », sont sans catégorie, avec le même axe. 問題, sens 2 « Question (d'examen) », est en éducation › évaluation scolaire : c'est l'objet que l'exemple qualifie, non la difficulté.",
+    "v": "L",
+    "m": "La fiche décrit « une tâche, une question ou une situation qui demande beaucoup d'effort ou de réflexion pour être résolue ou comprise » ; l'exemple dit « ce problème est difficile ». Une tâche, une question, une situation : la difficulté n'appartient à aucun domaine. Le sens est porté par l'axe difficulté (D1095). La raison de D1094 tient."
+  },
+  "v_495_s2": {
+    "f": "B",
+    "n": ["@A5", "@G44:propriété générale", "@L3r6", "@A9_36", "@DIM16"],
+    "c": "難しい « Difficile » est sans catégorie, avec le même axe. まずい, sens 2 « Fâcheux », qui qualifie aussi une situation, est sans catégorie. Le sens 1 de la même ENTRY, « Très », est sans catégorie par sa fonction `intensifieur`, sans avertissement.",
+    "v": "L",
+    "m": "La fiche dit que le mot désigne aussi « une situation difficile ou un pétrin » ; l'exemple illustre le sens 1, et ce sens repose sur le texte de la fiche. Une situation quelconque, qualifiée de pénible : aucun domaine. Le sens est porté par l'axe difficulté. La raison de D0067 tient. Le point réservé par A9 pour cette ENTRY porte sur le sens 1 ; ce sens-ci désigne lui-même la propriété, et ne reçoit aucune fonction."
+  },
+  "v_62_s1": {
+    "f": "C",
+    "n": ["@A5", "@L3_2", "@L3dim", "@DIM3", "@G11_8"],
+    "c": "重い, sens 1 « Lourd », que la fiche donne pour contraire, est sans catégorie, avec la même raison. 薄い, sens 1 « Mince », et 厚い « Épais » sont en espace › dimensions, au niveau 2 : l'épaisseur n'est aucune des sous-catégories, mais c'est une grandeur spatiale (D1067). Le sens 2 de la même ENTRY, « Bénin », est en santé › maladies et troubles. 薄い, sens 3 « Léger (goût) », est en goûts alimentaires : le criblage les rapprochait par la traduction (C1-a), les référents diffèrent.",
+    "v": "L",
+    "m": "La fiche dit que l'adjectif « signifie léger (contraire de 重い, lourd) » ; l'exemple dit « ce sac est léger et facile à porter ». Le sens est le poids d'un objet. L'arbre d'A2-L3 ne le nomme nulle part : « Dimensions » appartient à l'espace et le poids n'est pas une grandeur spatiale, ce qui le distingue de l'épaisseur de 薄い ; « Propriétés des matériaux » décrit une matière, non le poids d'un sac ; « Physique › Mécanique » est une discipline. A2-DIM écarte aussi une dimension des propriétés physiques. La raison de D1073 tient, et sa lecture du registre est exacte.",
+    "r": "Le lot 15 a laissé ouverte « la catégorie du poids ». Cet audit y répond pour le `null` : aucune catégorie existante ne convient, et le `null` est légitime. Créer une catégorie du poids serait une évolution de la conception, que deux sens ne justifient pas (A2-GLOBAL, §11) ; je ne la propose pas."
+  },
+  "v_484_s1": {
+    "f": "C",
+    "n": ["@A5", "@L3_2", "@L3dim", "@DIM3", "@L3r1"],
+    "c": "軽い, sens 1 « Léger », est sans catégorie, avec la même raison. 薄い « Mince » et 厚い « Épais » sont en espace › dimensions, au niveau 2. Le sens 2 de la même ENTRY, « Grave », est sans catégorie (audité à part).",
+    "v": "L",
+    "m": "La fiche décrit « un poids physique important (antonyme de karui) » ; l'exemple dit « ce bagage est lourd ». Le sens est le poids d'un objet, que l'arbre d'A2-L3 ne nomme nulle part : ni l'espace, dont le poids n'est pas une grandeur, ni les matériaux, ni la physique comme discipline. L'exemple porte sur un bagage : le voyage serait un contexte, non le sens. La raison de D1070 tient.",
+    "r": "Même point ouvert du lot 15 que pour 軽い : le `null` est légitime ; aucune catégorie n'est proposée."
+  },
+  "v_428_s1": {
+    "f": "C",
+    "n": ["@A5", "@G44:propriété générale", "@L3mat", "@L3_2b", "@L3r6"],
+    "c": "Le sens 2 de la même ENTRY, « En bonne santé », est en santé › santé et états pathologiques. 強い « Fort » et 弱い « Faible », de la même famille source, sont sans catégorie. Aucun sens publié n'emploie « Propriétés des matériaux » : les seuls sens de ce domaine sont des matières (紙, 木).",
+    "v": "L",
+    "m": "La fiche décrit « la robustesse physique d'un objet (solide, durable) » ; l'exemple dit « ce sac est solide ». J'ai examiné « Matières & matériaux › Propriétés des matériaux », que le lot 17 n'avait pas discuté. La fiche attribue la robustesse à un objet, non à une matière, et la même fiche l'étend à la santé d'une personne (sens 2) : le mot dit qu'une chose résiste, quel que soit ce dont elle est faite. Le ranger avec les matériaux en ferait un domaine associé, ce qu'A2-L3 écarte. La raison de D1141 tient.",
+    "r": "La question de « Propriétés des matériaux » a été posée à l'arbitrage du 2026-10-08, qui confirme L : la catégorie n'est pas retenue."
+  },
+  "v_451_s1": {
+    "f": "C",
+    "n": ["@A5", "@G44:propriété générale", "@L3cap", "@A9_36"],
+    "c": "弱い « Faible », que la fiche donne pour contraire, est sans catégorie. 元気 « En forme » est en états et besoins physiques › fatigue et énergie physique : sa fiche ne parle que d'une personne. 力 « Force », dont la raison renvoie à ce sens, est sans catégorie.",
+    "v": "L",
+    "m": "La fiche décrit « une force physique importante, de la robustesse ou une forte intensité » ; l'exemple dit « la pluie est forte ». La force physique d'une personne relèverait de l'être humain, mais l'exemple même porte sur la pluie : la fiche déborde ce domaine par l'intensité d'un phénomène, et le sens est unique (D1134). La raison de D1135, qui le relève, tient. Fonction (criblage, C7-c) : « fort » désigne lui-même la propriété ; ce n'est pas un `intensifieur`."
+  },
+  "v_449_s1": {
+    "f": "C",
+    "n": ["@A5", "@G44:propriété générale", "@L3cap"],
+    "c": "強い « Fort », que la fiche donne pour contraire, est sans catégorie. 丈夫, sens 1 « Solide », de la même famille source, est sans catégorie. 元気 « En forme » est en fatigue et énergie physique, pour une personne.",
+    "v": "L",
+    "m": "La fiche décrit « un manque de force physique, de résistance ou d'intensité » ; l'exemple dit « le vent est faible aujourd'hui ». Sur la lecture de cette fiche, et non par renvoi à 強い : l'exemple porte sur le vent, non sur une personne, et la fiche réunit la force, la résistance et l'intensité en un sens (D1137). Aucun domaine ne couvre les trois. La raison de D1138 tient."
+  },
+  "v_462_s1": {
+    "f": "C",
+    "n": ["@A5", "@G44:propriété générale", "@L3_2b", "@L3r6"],
+    "c": "きれい, sens 2 « Propre », et 汚い, sens 1 « Sale », de la même famille source, sont en habitat › entretien domestique › nettoyage : leurs fiches parlent de « propreté (ordre, netteté) » et du « manque de propreté physique d'un endroit ou d'un objet ». Le sens 2 de la même ENTRY est sans catégorie (audité à part).",
+    "v": "L",
+    "m": "La fiche décrit « ce qui est physiquement pur (comme l'eau claire) » ; l'exemple illustre le sens 2, et ce sens repose sur le texte de la fiche et sur la traduction « Limpide ». La pureté d'une eau n'est pas la propreté que l'on obtient en nettoyant : la catégorie de « Propre » et de « Sale » ne convient pas. L'eau n'est que l'illustration (« comme ») : ni les eaux naturelles ni la chimie ne décrivent le sens. La raison de D1149 tient."
+  },
+  "v_646_s1": {
+    "f": "C",
+    "n": ["@A5", "@G44:propriété générale", "@L3cap", "@LOT19"],
+    "c": "出来る, sens 1 « Pouvoir », est en capacités et aptitudes › aptitude ; 上手 et 下手 en habileté ; 元気 en fatigue et énergie physique : leurs fiches ne parlent que d'une personne. 頭, sens 2 « Esprit », est en psychologie et esprit › pensée. 死ぬ « Mourir » est sans catégorie, sa fiche portant aussi sur un animal (lot 19 ; non audité ici). 強い « Fort », auquel la raison renvoie, est sans catégorie.",
+    "v": "L",
+    "m": "La fiche décrit « la force physique d'une personne ou d'un animal, mais aussi la puissance, l'énergie ou les compétences intellectuelles dans un domaine » ; l'exemple dit « il a beaucoup de force ». La catégorie la plus proche est « Capacités & aptitudes », et je l'ai examinée de près : la source glose elle-même « capacité physique ou mentale ». Mais la fiche attribue la force à « une personne ou un animal », et y joint la puissance et l'énergie sans les rapporter à l'être humain : elle déborde ce domaine par ses propres termes, et le sens est unique (D1361). La doctrine du lot 19 s'applique. La raison de D1362 tient par sa conclusion ; son renvoi à 強い vaut pour la généralité, non pour la fiche, qui ne parle d'aucun phénomène.",
+    "r": "C'était le cas le plus proche d'une catégorie dans cette tranche ; la question de « Capacités & aptitudes » a été posée à l'arbitrage du 2026-10-08, qui confirme L. Le cas repose sur la même doctrine que 死ぬ, qui sera audité dans une tranche suivante : les deux verdicts devront rester cohérents."
+  },
+  "v_478_s1": {
+    "f": "D",
+    "n": ["@A5", "@G44:propriété générale", "@L3_2", "@L3r1"],
+    "c": "うるさい, sens 1 « Bruyant », de la même famille source, est en sens et perception › ouïe : sa fiche parle, pour ce sens, d'« un bruit excessif et désagréable » et de rien d'autre. 静か « Calme », dont la fiche donne ce mot pour contraire, est sans catégorie. 楽しい « Amusant » est en émotions › joie et plaisir.",
+    "v": "L",
+    "m": "La fiche décrit « un endroit plein de vie, de monde, d'animation ou d'agitation joyeuse (comme une rue commerçante ou une fête) » ; l'exemple dit « cette ville est toujours animée ». Le bruit n'y est pas nommé : la traduction « Bruyant » a été écartée (D1155). L'ouïe ne décrirait donc pas le sens ; la joie n'en est qu'une teinte ; la ville et la rue sont des contextes. La raison de D1154 tient."
+  },
+  "v_489_s1": {
+    "f": "D",
+    "n": ["@A5", "@G44:propriété générale", "@L3_2", "@L3r1"],
+    "c": "うるさい, sens 1 « Bruyant », est en sens et perception › ouïe. 賑やか « Animé », que la fiche donne pour contraire, est sans catégorie. Hors tranche, sans verdict ici : ゆっくり, sens 2 « Tranquillement », est sans catégorie.",
+    "v": "L",
+    "m": "La fiche décrit « un endroit dépourvu de bruit et d'agitation, ou une atmosphère paisible et sereine » ; l'exemple dit « cette bibliothèque est toujours calme ». L'absence de bruit relèverait de l'ouïe, comme « Bruyant » ; mais la fiche y joint l'absence d'agitation et une atmosphère paisible, et la traduction principale est « Calme », non « Silencieux ». L'ouïe ne couvrirait qu'une partie du sens, ce que D1156 relève. La raison tient.",
+    "r": "L'écart avec うるさい, sens 1 (ouïe), vient des fiches : celle de うるさい ne parle que de bruit. Si « Silencieux » était jugé central, l'ouïe conviendrait ; la fiche ne le dit pas."
+  },
+  "v_265_s2": {
+    "f": "E",
+    "n": ["@A5", "@G44:propriété générale", "@L3psy", "@G10", "@L3r6"],
+    "c": "明るい, sens 2 « Enjoué » (lot 0, D0033 : « le caractère d'une personne »), 暗い, sens 2 « Triste » (lot 17, D1166 : « le caractère d'une personne »), et 爽やか, sens 2 « Vif » (lot 17, D1165), sont tous trois en être humain › psychologie et esprit › états psychologiques, type `propriete`. 甘い, sens 2 « Indulgent », auquel la raison renvoie, est sans catégorie. Hors tranche, sans verdict ici : まっすぐ, sens 2 « Honnête », est sans catégorie, sa raison (D1411) disant que « le registre n'a pas de catégorie pour la personnalité ou le caractère ».",
+    "v": "L",
+    "m": "La nuance et l'exemple de la fiche ne portent que sur la température au toucher ; ce sens repose sur la seule traduction « Insensible (figuré) », que D0480 a lue comme « une attitude envers autrui » et qui est publiée « Froid (attitude) », « Distant ». La fiche atteste donc un emploi figuré pour une personne, sans rien en dire de plus : elle ne décrit pas assez précisément un état psychologique pour justifier la catégorie des états psychologiques, et aucun autre domaine ne nomme ce trait. Le `null` est maintenu, et la raison de D0481 tient. La proposition initiale de cet audit était C, par rapprochement avec 明るい, 暗い et 爽やか ; l'arbitrage du 2026-10-08 l'a écartée pour ce motif et a classé le cas L.",
+    "r": "Point de contrôle transversal renvoyé au volet 1, sans verdict à ce jour : 明るい, 暗い et 爽やか, sens 2, sont en états psychologiques pour « le caractère d'une personne », alors que 冷たい, sens 2, et まっすぐ, sens 2 « Honnête » (D1411), sont sans catégorie. Ces sens ne sont pas traités de la même façon aujourd'hui ; aucun des quatre comparables n'est jugé ici. La traduction publiée (« Distant ») s'écarte de celle de la source (« Insensible ») : signalé, sans effet sur le verdict."
+  },
+  "v_464_s2": {
+    "f": "E",
+    "n": ["@A5", "@G44:propriété générale", "@L3psy", "@L3r6"],
+    "c": "Le sens 1 de la même ENTRY, « Sucré », est en goûts alimentaires › sucré. 冷たい, sens 2, dont la raison renvoie à ce sens, est sans catégorie. 明るい, 暗い et 爽やか, sens 2, sont en états psychologiques pour le tempérament d'une personne. 会う « Rencontrer » et 頼む « Demander » sont en relations sociales › interactions sociales : ce sont des actes.",
+    "v": "L",
+    "m": "La fiche dit que le mot qualifie, « par extension une attitude trop clémente, indulgente ou naïve (être indulgent / trop laxiste envers quelqu'un) » ; l'exemple illustre le sens 1. La fiche décrit une manière de traiter quelqu'un, jugée excessive (« trop ») : c'est une conduite et un jugement sur elle, non ce que la personne éprouve. La catégorie des états psychologiques ne la décrit pas, et « Interactions sociales » nomme des actes d'interaction, non une façon d'être avec autrui. La raison de D0192 tient.",
+    "r": "« Naïve » et « Ingénu », que la fiche donne aussi, désignent une disposition d'esprit. Ce sens relève du même point de contrôle transversal que 冷たい (le caractère d'une personne), renvoyé au volet 1."
+  },
+  "v_422_s2": {
+    "f": "E",
+    "n": ["@A5", "@G44:propriété générale", "@L3psy", "@L3r6"],
+    "c": "Le sens 1 de la même ENTRY, « Bruyant », est en sens et perception › ouïe. つまらない « Ennuyeux » est en psychologie et esprit › attention et かわいい « Mignon » en émotions › affection : leurs fiches nomment l'effet produit (« qui manque d'intérêt », « qui éveille de la tendresse, de l'affection »).",
+    "v": "L",
+    "m": "La fiche dit que le mot qualifie, « par extension une personne insistante ou ennuyeuse » ; l'exemple illustre le sens 1. La fiche décrit la conduite de la personne (« insistante »), non un sentiment : « Agaçant » est la traduction retenue, et la fiche ne nomme ni l'agacement ni la colère. C'est ce qui distingue ce sens de つまらない et de かわいい, rangés par l'effet que leurs fiches nomment. La raison de D1152 tient."
+  },
+  "v_461_s2": {
+    "f": "E",
+    "n": ["@A5", "@G44:propriété générale", "@LOT19", "@L3r6"],
+    "c": "Le sens 1 de la même ENTRY, « Sale », est en entretien domestique › nettoyage. 言葉 « Mot » et 話, sens 2 « Histoire », sont en communication et langage › expression : ce sont des contenus de parole. 清い, sens 2 « Pur (moralement) », est sans catégorie.",
+    "v": "L",
+    "m": "La fiche dit que le mot qualifie, « par extension un langage grossier ou une action malhonnête » ; l'exemple illustre le sens 1. Un langage grossier relèverait de la communication ; une action malhonnête n'en relève pas. Le sens, unique (D1145 : « la conduite d'une personne »), couvre les deux, et la nuance publiée les garde : aucun domaine ne le décrit en entier. La raison de D1146 tient.",
+    "r": "La traduction principale publiée, « Grossier (langage) », ne nomme que la moitié de ce sens ; « malhonnête » n'apparaît qu'en nuance. Si le sens était réduit au langage, « Communication & langage › Expression » serait à examiner. Je le signale ; le découpage et la traduction ne sont pas l'objet de cet audit."
+  },
+  "v_462_s2": {
+    "f": "E",
+    "n": ["@A5", "@G44:propriété générale", "@L3psy"],
+    "c": "汚い, sens 2, et 立派, sens 2, qui jugent aussi une conduite, sont sans catégorie. 明るい, 暗い et 爽やか, sens 2, sont en états psychologiques pour le tempérament. Hors tranche, sans verdict ici : まっすぐ, sens 2 « Honnête », est sans catégorie.",
+    "v": "L",
+    "m": "La fiche décrit ce qui est « moralement pur et intègre (comme une conscience ou un cœur) » ; l'exemple dit « il a un cœur pur ». C'est un jugement moral : l'intégrité, l'honnêteté. A2-L3 n'a aucune catégorie de la morale ; la religion et le droit, qui en sont voisins, ne sont nommés ni par la fiche ni par l'exemple. Ce n'est pas non plus un état psychologique : la fiche ne dit pas ce que la personne éprouve, mais ce qu'elle vaut. La raison de D1150 tient."
+  },
+  "v_609_s2": {
+    "f": "E",
+    "n": ["@A5", "@G44:propriété générale", "@L3r6"],
+    "c": "Le sens 1 de la même ENTRY est sans catégorie (audité à part). 清い, sens 2, et 汚い, sens 2, qui jugent aussi une conduite, sont sans catégorie. 上手 « Doué » est en habileté : sa fiche parle du talent pour une activité, non de la conduite.",
+    "v": "L",
+    "m": "La fiche décrit « une personne qui fait preuve d'un comportement admirable et remarquable » ; l'exemple illustre le sens 1, et ce sens repose sur le texte de la fiche et sur les traductions « Remarquable », « Digne ». C'est l'appréciation d'une conduite, sans que la fiche dise en quoi elle est admirable : aucun domaine ne la décrit. La raison de D1108 tient."
+  },
+  "v_609_s1": {
+    "f": "F",
+    "n": ["@A5", "@G44:propriété générale", "@L3r1"],
+    "c": "Hors tranche, sans verdict ici : きれい, sens 1 « Beau », auquel la raison renvoie, est sans catégorie. かわいい « Mignon » est en émotions › affection, sa fiche nommant l'affection. 大きい « Grand » est en espace › dimensions › taille.",
+    "v": "L",
+    "m": "La fiche décrit « quelque chose de grand, d'impressionnant, d'élégant » ; l'exemple dit « ce bâtiment est magnifique ». « Grand » pourrait évoquer la taille, mais la fiche l'associe à l'impression produite et à l'élégance : c'est une appréciation de l'aspect, non une mesure. L'exemple porte sur un bâtiment, qui est un contexte. « Apparence & présentation personnelle » décrit l'apparence d'une personne, et la fiche dit « quelque chose ». La raison de D1107 tient."
+  },
+  "v_438_s1": {
+    "f": "F",
+    "n": ["@A5", "@G44:identité / différence", "@DIM4", "@A9_35"],
+    "c": "違う, sens 1 « Être différent », est sans catégorie, et a été confirmé L sur le même élément de la liste (tranche précédente). Aucun sens publié ne range l'identité dans un domaine.",
+    "v": "L",
+    "m": "La fiche dit que le mot « sert à indiquer l'identité ou la similitude entre deux ou plusieurs choses » ; l'exemple dit « nous sommes dans la même classe ». L'identité est nommée par l'architecture parmi les éléments hors hiérarchie, comme la comparaison : l'absence de catégorie est sa réponse. D1420 parle de « propriété générale » ; le fondement exact est « identité / différence ». La conclusion tient. Fonction (criblage, C7-c et C10-a) : D1421 refusait `comparatif` faute de définition ; A9 la définit depuis et tranche dans le même sens, l'identité n'étant pas une comparaison de degré. La conclusion de D1421 reste donc juste, par un motif désormais normatif."
+  },
+  "v_421_s1": {
+    "f": "F",
+    "n": ["@A5", "@G44:propriété générale", "@A9_34q", "@DIM16"],
+    "c": "多い « Nombreux » et 大勢 « Beaucoup de monde » sont en nombres et quantification › quantité › grande quantité : ils disent un grand nombre. 同じ « Même » est sans catégorie.",
+    "v": "L",
+    "m": "La fiche décrit « la diversité ou la variété de choses, d'idées ou de situations » ; l'exemple dit « j'ai acheté diverses choses au grand magasin ». Le mot dit que les choses sont de sortes différentes, non combien il y en a : la quantité ne le décrit pas, ce que D1423 relève. Des choses, des idées, des situations : aucun domaine. La raison tient. Deux points du criblage sont réglés ici. Fonction (C7-c, C10-a) : D1424 refusait `quantificateur` faute de définition ; A9 la définit depuis, par « l'étendue » d'un référent (beaucoup, peu, tout) ; la variété n'est pas une étendue, et la fonction ne s'applique pas. Dimension (C5-b) : l'axe uniforme / non uniforme décrit l'homogénéité d'un tout ; la fiche parle de la variété de plusieurs choses et ne nomme pas l'uniformité. L'axe ne décrit pas directement le sens, et aucune dimension n'est proposée."
+  },
+  "v_513_s2": {
+    "f": "F",
+    "n": ["@A5", "@G44:propriété générale", "@L3r6", "@DIM16"],
+    "c": "Le sens 1 de la même ENTRY, « Sens », est en communication et langage › compréhension linguistique. 便利 « Pratique » est sans catégorie et porte l'axe utilité. 問題, sens 1 « Problème », de la même famille source, est sans catégorie (non audité ici).",
+    "v": "L",
+    "m": "La fiche dit que le nom désigne aussi « l'intention / l'utilité derrière une action » ; l'exemple illustre le sens 1, et ce sens repose sur le texte de la fiche. La raison d'être d'une action quelconque n'a pas de domaine : la catégorie du sens 1, qui décrit la signification d'un mot, ne s'y étend pas. La raison de D0445 tient. Dimension : la fiche nomme « l'utilité », et l'axe utilité existe. Je ne le propose pas : la fiche joint l'intention à l'utilité, la traduction principale est « Intérêt », et le nom désigne la raison d'être d'une action plus qu'il ne caractérise une chose comme utile ; l'axe ne décrit pas directement le sens.",
+    "r": "Ce sens a été décidé au lot 06, avant la doctrine du lot 16 sur les dimensions, et la question n'avait pas été posée. Elle l'a été à l'arbitrage du 2026-10-08, qui confirme L, sans dimension."
+  }
+}

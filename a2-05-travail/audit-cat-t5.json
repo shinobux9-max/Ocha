@@ -1,0 +1,160 @@
+{
+  "v_542_s1": {
+    "f": "A",
+    "b": "affirmation exacte : l'arbre ne nomme ni le tabac ni le fait de fumer",
+    "n": ["@A5", "@AFF", "@L3tabac", "@G10"],
+    "c": "たばこ, sens 1 et 2, sont sans catégorie (même tranche). Le sens 2 de la même ENTRY, « Aspirer », a été confirmé L. 飲む « Boire » et 食べる « Manger » sont en alimentation › consommation alimentaire. 灰皿 « Cendrier » est en habitat › accessoires domestiques.",
+    "v": "L",
+    "m": "La fiche décrit « l'action d'inspirer […] de la fumée (comme fumer une cigarette) » ; l'exemple dit « est-ce qu'on fume des cigarettes ici ? ». La source classait le mot sous « consommation ». L'affirmation de D1292 est exacte : A2-L3 ne nomme le tabac nulle part. « Consommation alimentaire » décrit ce que l'on mange et boit ; fumer n'est ni l'un ni l'autre, ce que la raison relève, et la fiche ne parle ni de santé ni de soin. Aucune catégorie ne décrit le sens. La raison tient."
+  },
+  "v_598_s1": {
+    "f": "A",
+    "b": "affirmation exacte : le domaine fonctionnel de l'objet, le tabac, n'existe pas dans l'arbre",
+    "n": ["@A5", "@AFF", "@L3r5", "@L3tabac", "@G10"],
+    "c": "灰皿 « Cendrier » et マッチ « Allumette » sont en habitat › accessoires domestiques : la fiche de 灰皿 décrit « le récipient utilisé pour déposer les cendres ». 吸う, sens 1 « Fumer », et le sens 2 de la même ENTRY sont sans catégorie (même tranche). Hors tranche, sans verdict : 物 « Chose » est sans catégorie.",
+    "v": "L",
+    "m": "La fiche dit que le nom désigne « le tabac ou une cigarette », et qu'on l'associe à 吸う « pour dire fumer » ; l'exemple dit « il est interdit de fumer une cigarette ici ». Une cigarette est un objet spécialisé : A2-L3 (§7, règle 5) veut qu'il suive son domaine fonctionnel. J'ai donc cherché ce domaine : c'est le tabac, que l'arbre ne nomme pas. « Accessoires domestiques », qui porte le cendrier, décrit un objet de la maison ; la cigarette n'en est pas un. « Consommation alimentaire » et « Produits manufacturés » ne décrivent pas davantage ce que la fiche dit. L'affirmation de D1295 est exacte, et le `null` ne vient pas d'une difficulté de classement : le domaine manque. La raison tient."
+  },
+  "v_598_s2": {
+    "f": "A",
+    "b": "affirmation exacte : aucun domaine de l'arbre ne rend compte de cette matière",
+    "n": ["@A5", "@AFF", "@L3tabac", "@L3r6"],
+    "c": "Le sens 1 de la même ENTRY est sans catégorie (même tranche). 紙 « Papier » et 木, sens 2 « Bois (matière) », sont en matières et matériaux : ce sont des matériaux de fabrication.",
+    "v": "L",
+    "m": "La fiche dit que le nom désigne « le tabac ou une cigarette » ; l'exemple illustre le sens 1, et ce sens repose sur ces mots et sur la traduction « Tabac ». La fiche ne dit rien de plus du tabac : ni plante, ni culture, ni produit. « Matières & matériaux » range des matériaux de fabrication ; « Produits agricoles » supposerait que la fiche parle d'agriculture ; l'alimentation ne convient pas. L'affirmation de D1301 est exacte. La raison tient."
+  },
+  "v_671_s1": {
+    "f": "B",
+    "b": "affirmation non confirmée : le temps est le domaine fonctionnel de l'objet",
+    "n": ["@A5", "@AFF", "@L3r5", "@ST4", "@L3temps", "@G10"],
+    "c": "Dans les données publiées, les objets spécialisés suivent leur domaine fonctionnel, y compris quand la catégorie nomme une notion ou une activité : ペン « Stylo », 鉛筆 « Crayon » et ノート « Cahier » sont en communication et langage › écriture › écrire ; 辞書 « Dictionnaire » en langues ; 切符 « Billet » en transport › utilisation des transports ; 切手 « Timbre » en communication › transmission ; 地図 « Carte » en représentation géographique › cartes. カレンダー est sans catégorie, par renvoi à ce sens (même tranche). Sur les 89 sens publiés de type `objet_artefact`, cinq seulement sont sans catégorie : 時計, カレンダー, 荷物, たばこ (sens 1) et 物 « Chose » (hors tranche, sans verdict).",
+    "v": "C",
+    "m": "La fiche décrit un nom « composé des kanjis signifiant temps et mesurer / compter, désignant aussi bien une montre portée au poignet qu'une horloge murale ou une pendule » ; l'exemple dit « il y a une horloge accrochée au mur ». C'est un objet spécialisé, dont la fonction est de donner l'heure. D0404 (révision 5.6b) a écarté la catégorie proposée alors, temps › unités temporelles › heures, minutes, secondes, au motif qu'une horloge n'est pas une unité et qu'une « proximité fonctionnelle » ne fait pas une appartenance. Le premier point est juste : ce niveau 3 ne convenait pas. Le second ne s'accorde pas avec A2-L3 (§7, règle 5), pour qui un objet fonctionnel spécialisé « suit son domaine fonctionnel », ni avec les données publiées, où le stylo est rangé avec l'écriture et le billet avec l'utilisation des transports. Le domaine fonctionnel d'une horloge est le temps. La catégorie convient au niveau 1, sans descendre vers une sous-catégorie qui dirait une notion précise ; six sens publiés portent déjà `temps` seul. L'affirmation de la raison ne tient donc pas : elle a cherché une catégorie d'instrument de mesure, que l'arbre n'a pas, au lieu du domaine que l'instrument sert.",
+    "k": "`category` : `null` → `temps` (niveau 1 seul). L'avertissement `categorie-nulle` cesserait. Le type `objet_artefact` n'est pas touché.",
+    "r": "Ce `null` venait d'un arbitrage (révision 5.6b du lot 05), qui avait rejeté un niveau 3 précis sans examiner le niveau 1. L'arbitrage du 2026-10-08 retient la modification : `temps`, au niveau 1, les autres champs restant inchangés. Elle n'est pas appliquée ; D0404 n'est pas réécrite."
+  },
+  "v_287_s1": {
+    "f": "B",
+    "b": "affirmation non confirmée : « Calendrier » est le domaine fonctionnel de l'objet",
+    "n": ["@A5", "@AFF", "@L3r5", "@ST4", "@L3temps", "@G10"],
+    "c": "時計, auquel la raison renvoie, est retenu C dans cette tranche. ペン, 鉛筆 et ノート sont en écriture › écrire ; 辞書 en langues ; 地図 en représentation géographique › cartes ; 切符 en utilisation des transports : des objets rangés dans le domaine qu'ils servent. Les noms des jours de la semaine sont en temps › calendrier › jours.",
+    "v": "C",
+    "m": "La fiche décrit un nom « désignant un calendrier ou un almanach » ; l'exemple dit « je note mes projets sur le calendrier ». C'est un objet spécialisé, dont la fonction est de présenter les jours et les mois, ce que D0849 dit elle-même. La raison écarte temps › calendrier parce que l'objet n'est « pas une notion du calendrier » et qu'une proximité fonctionnelle ne ferait pas une appartenance. Or c'est le critère même d'A2-L3 (§7, règle 5) : un objet fonctionnel spécialisé suit son domaine fonctionnel ; sa nature d'objet est dite par le type (A2-ST, §5, règle 4), non par l'absence de catégorie. « Calendrier » est le nom du domaine. La raison ajoute que « le registre n'a pas de catégorie pour ce type d'objet » : elle cherche une catégorie d'objets, que l'architecture refuse par principe. L'affirmation ne tient pas, et le `null` repose sur le seul renvoi à 時計.",
+    "k": "`category` : `null` → `temps › calendrier` (niveau 2). L'avertissement `categorie-nulle` cesserait. Le type `objet_artefact` n'est pas touché.",
+    "r": "Les deux verdicts étaient liés par leur argument. L'arbitrage du 2026-10-08 retient les deux modifications ; celle-ci : `temps › calendrier`, au niveau 2, les autres champs restant inchangés. Elle n'est pas appliquée ; D0849 n'est pas réécrite."
+  },
+  "v_694_s1": {
+    "f": "B",
+    "b": "affirmation exacte dans sa conclusion : la fiche nomme deux domaines fonctionnels (le voyage, la poste)",
+    "n": ["@A5", "@AFF", "@L3r5", "@L3voy", "@LOT19"],
+    "c": "かばん « Sac » est en habillement › sacs et contenants personnels : sa fiche décrit « un sac servant à transporter des affaires », un contenant. 切符 « Billet » est en transport › utilisation des transports ; 切手 « Timbre » en communication › transmission. 時計 et カレンダー sont retenus C dans cette tranche.",
+    "v": "L",
+    "m": "La fiche décrit un nom « désignant les bagages de voyage, les paquets ou les colis postaux » ; l'exemple dit « je pose mes bagages à l'hôtel ». J'ai appliqué la même règle qu'à 時計 : un objet spécialisé suit son domaine fonctionnel. Ici la fiche en nomme deux, le voyage pour les bagages et la poste pour les colis ; et le mot désigne ce que l'on transporte, non un contenant, ce qui écarte la catégorie de かばん. Aucun domaine ne couvre les deux emplois d'un sens unique (D0407). Le `null` tient, par le débordement de la fiche plus que par l'absence d'une catégorie « des bagages » qu'invoque D0408."
+  },
+  "v_144_s1": {
+    "f": "C",
+    "b": "affirmation exacte : l'état d'une personne quant à son temps n'a pas de catégorie",
+    "n": ["@A5", "@AFF", "@L3temps", "@L3etat", "@G10"],
+    "c": "暇 « Libre » est sans catégorie (même tranche). 休み « Repos » est en temps › moments et périodes : c'est une période. 元気 « En forme » et 疲れる « Se fatiguer » sont en états et besoins physiques › fatigue et énergie physique ; 困る « Avoir des ennuis » en états psychologiques. 働く « Travailler » est en travail et vie professionnelle.",
+    "v": "L",
+    "m": "La fiche décrit « un emploi du temps chargé » ; sa traduction précise « débordé (par le travail ou les tâches) » ; l'exemple dit « j'ai beaucoup de travail et je suis très occupé ». Le reste de la nuance commente le kanji, non l'emploi (D1123). J'ai vérifié l'affirmation de D1122 : « Temps » range des notions de temps, non l'état de celui qui en manque ; le travail n'est qu'une des causes que nomme la fiche (« ou les tâches ») ; ce n'est ni de la fatigue ni un état d'esprit, que la fiche ne décrit pas. Aucune catégorie ne décrit le fait d'être occupé. La raison tient."
+  },
+  "v_457_s1": {
+    "f": "C",
+    "b": "affirmation exacte : « Moments & périodes » et « Loisirs » examinés et écartés",
+    "n": ["@A5", "@AFF", "@L3temps", "@L3loisir", "@G10"],
+    "c": "忙しい « Occupé » est sans catégorie (même tranche). 休み « Repos » et 夏休み sont en temps › moments et périodes (D0947 : « la période pendant laquelle on ne travaille ou n'étudie pas »). 遊ぶ « S'amuser » est en loisirs et jeux › loisirs.",
+    "v": "L",
+    "m": "La fiche décrit « le fait d'avoir du temps libre, de ne pas être occupé par le travail ou des obligations » ; l'exemple dit « je suis libre cet après-midi ». Deux catégories voisines ont été examinées. « Moments & périodes », qui porte 休み : 休み désigne une période ; ce sens, publié « Libre » avec le type `etat`, dit la disponibilité d'une personne, ce que l'exemple montre. « Loisirs » : la fiche ne parle d'aucune activité de loisir, seulement de l'absence d'obligations. Aucune catégorie ne décrit le fait d'être disponible. La raison de D1120 tient.",
+    "r": "La traduction principale de la source est « Temps libre », et la fiche dit « adjectif en na (et nom) ». Lu comme un nom, « temps libre » serait une période, proche de 休み. Le lot 16 a retenu « Libre » en traduction principale (D1119) ; l'audit suit le sens publié."
+  },
+  "v_627_s2": {
+    "f": "C",
+    "b": "affirmation maintenue par l'arbitrage : l'absence de compagnie n'est pas une interaction sociale",
+    "n": ["@A5", "@AFF", "@L3soc", "@G10", "@L3r6"],
+    "c": "一緒 « Ensemble » (lot 22, choix arbitré) est en relations sociales › interactions sociales, type `etat` : sa fiche décrit le fait « d'être accompagné », et D1415 retient la catégorie parce que « la fiche et son exemple ne portent que sur des personnes ». 上手 et 下手 partagent la catégorie de l'habileté, D1090 y voyant « un degré sur la même échelle ». Le sens 1 de la même ENTRY, « Une personne », est en comptage et compteurs › personnes.",
+    "v": "L",
+    "m": "La fiche dit que le mot désigne aussi « le fait d'être seul sans compagnie (hitori de) » ; l'exemple illustre le sens 1, et ce sens repose sur ces mots et sur les traductions « Tout seul », « Seul(e) ». D1015 (lot 14) écarte les relations sociales : « il s'agit de l'absence de compagnie, non d'une relation ». La fiche décrit en effet une absence de compagnie, non une interaction entre personnes, et aucune autre catégorie ne nomme le fait d'être seul. Le `null` est maintenu, et la raison tient. La proposition initiale de cet audit était C, par symétrie avec 一緒 « Ensemble », rangé depuis le lot 22 en interactions sociales ; l'arbitrage du 2026-10-08 l'a écartée : la catégorie de 一緒 ne suffit pas à imposer une symétrie, et le cas est classé L. Relevé du criblage (C7-c) : la règle a vu « tout » dans « Tout seul » ; c'est un adverbe du français dans une traduction ; aucune fonction `quantificateur` n'est en cause.",
+    "r": "Divergence conservée comme contrôle transversal du volet 1, sans verdict sur 一緒 : « être accompagné » est en interactions sociales, « être sans compagnie » sans catégorie. Les deux pôles ne sont pas traités de la même façon aujourd'hui."
+  },
+  "v_500_s1": {
+    "f": "D",
+    "b": "affirmation non confirmée : « Succession » porte déjà 初めて, dans le même lot",
+    "n": ["@A5", "@AFF", "@L3temps", "@STca", "@A9_21", "@G10"],
+    "c": "初めて « Pour la première fois » (même lot 21, choix 17 arbitré) est en temps › chronologie › succession, type `concept_abstrait` ; D1394 : « la première d'une suite d'occurrences ». いつも « Toujours » et 時々 « Parfois » sont en temps › fréquence. もう一度 est sans catégorie (même tranche). Le sens 2 de la même ENTRY, « Aussi », est arbitré F (`connecteur`).",
+    "v": "C",
+    "m": "La fiche décrit « la répétition d'une action ou le retour d'un état (à nouveau, une fois de plus) » ; l'exemple se traduit « à bientôt », et les anciens exemples disent « retrouvons-nous à nouveau demain ». D1379 a raison sur un point, arbitré au lot 21 (choix 9) : la répétition n'est pas une fréquence. Mais elle n'a comparé le sens qu'à la fréquence. Dans le même lot, 初めて est rangé en succession, comme « la première d'une suite d'occurrences ». « Une fois de plus » est une occurrence de plus dans cette même suite : la notion est la même, à un autre rang. La fiche ne justifie pas que la première occurrence ait un domaine et que la suivante n'en ait pas. L'affirmation « aucune catégorie du registre ne nomme la répétition » ne tient donc pas. Type (criblage, C3-0) : avec cette catégorie, `concept_abstrait` est celui de tous les adverbes de temps publiés (初めて, いつも, 時々) ; il ne sert pas ici de type de secours.",
+    "k": "`category` : `null` → `temps › chronologie › succession`. L'avertissement `categorie-nulle` cesserait. Le type `concept_abstrait` et le sens 2 ne sont pas touchés.",
+    "r": "Le lot 21 avait arbitré l'absence de catégorie contre la seule alternative `temps › fréquence` (choix 9) ; la succession n'y avait pas été discutée. L'arbitrage du 2026-10-08 retient la modification, les autres champs restant inchangés. Elle n'est pas appliquée ; D1379 n'est pas réécrite. La prise de congé (« à bientôt ») reste en nuance (A9, §2.1)."
+  },
+  "v_503_s1": {
+    "f": "D",
+    "b": "affirmation non confirmée : « Succession » porte déjà 初めて, dans le même lot",
+    "n": ["@A5", "@AFF", "@L3temps", "@STca", "@A9_21", "@G10"],
+    "c": "初めて « Pour la première fois » est en temps › chronologie › succession (D1394 : « la première d'une suite d'occurrences »). また, sens 1 « À nouveau », auquel la raison renvoie, est retenu C dans cette tranche. いつも et 時々 sont en temps › fréquence.",
+    "v": "C",
+    "m": "La fiche décrit une expression « composée de mou (encore / un de plus) et ichido (une fois), servant à demander la répétition d'une action » ; l'exemple dit « encore une fois, s'il vous plaît ». Sur la lecture de cette fiche, et non par renvoi à また : « une fois de plus » compte une occurrence après les précédentes. C'est, à un autre rang, ce que 初めて dit de la première, que le même lot range en succession. D1385 ne donne pour raison que le renvoi à また. La catégorie de 初めて convient aussi à ce sens. La demande (« répétez s'il vous plaît ») reste en nuance (A9, §2.1). Type (criblage, C3-0) : avec cette catégorie, `concept_abstrait` est celui des adverbes de temps publiés ; il ne sert pas de type de secours.",
+    "k": "`category` : `null` → `temps › chronologie › succession`. L'avertissement `categorie-nulle` cesserait. Le type `concept_abstrait` n'est pas touché.",
+    "r": "Les deux verdicts étaient liés. L'arbitrage du 2026-10-08 retient la modification, les autres champs restant inchangés. Elle n'est pas appliquée ; D1385 n'est pas réécrite."
+  },
+  "v_425_s1": {
+    "f": "D",
+    "b": "affirmation exacte : la manière dont un changement se fait n'a pas de catégorie ; `temps` écarté par un arbitrage du lot 21",
+    "n": ["@A5", "@AFF", "@L3temps", "@STca", "@A9_34q", "@Q4"],
+    "c": "初めて (succession), いつも et 時々 (fréquence) sont en temps. なる « Devenir » et 変える « Changer », arbitrés L, sont sans catégorie : aucun sens publié ne range le changement dans un domaine. ゆっくり, sens 1 « Lentement », est en espace › vitesse, type `propriete` ; son sens 2 est sans catégorie (même tranche).",
+    "v": "L",
+    "m": "La fiche décrit « une progression lente ou un changement qui s'effectue étape par étape au fil du temps » ; l'exemple dit « il fait progressivement plus chaud ». Le mot dit comment un changement se fait, non quand ni combien de fois : ni la fréquence, ni la durée, ni la succession ne le décrivent, et le changement lui-même n'a pas de catégorie. « Au fil du temps » situe le changement sans faire du temps le sens : l'arbitrage du lot 21 (choix 18) a écarté `temps` au niveau 1 pour cette raison. L'affirmation de D1399 est exacte. Relevés du criblage : « peu », dans « Peu à peu », n'est pas un `quantificateur` (C7-c), le mot ne donnant l'étendue d'aucun référent ; D1400 refusait `aspect`, qui n'a toujours pas de définition normative (C10-a), et le verdict ne dépend pas de cette fonction. Type (C3-0) : le sens ne désigne ni une entité ni une occurrence, et n'est pas une caractéristique attribuée à une entité ; `concept_abstrait` n'est pas ici un type de secours, sous la réserve qui suit.",
+    "r": "Deux adverbes de manière sont typés différemment : だんだん `concept_abstrait` (lot 21), ゆっくり `propriete` (lot 22, « une caractéristique de la manière d'agir »). Je ne propose aucun changement de type ; je signale l'écart pour le volet 1."
+  },
+  "v_504_s2": {
+    "f": "E",
+    "b": "affirmation exacte : une manière d'agir ; « Sommeil & repos » et « Confort » examinés et écartés",
+    "n": ["@A5", "@AFF", "@L3etat", "@L3r6"],
+    "c": "Le sens 1 de la même ENTRY, « Lentement », est en espace › vitesse. 休む, sens 1 « Se reposer », est en états et besoins physiques › sommeil et repos. 静か « Calme », arbitré L, est sans catégorie. Hors tranche, sans verdict : よく, sens 2 « Bien », est sans catégorie.",
+    "v": "L",
+    "m": "La fiche décrit « le fait d'agir sans se presser, de se détendre et de prendre son temps » ; l'exemple illustre le sens 1 ; un ancien exemple dit « je me reposerai tranquillement à la maison ». « Se détendre » évoque le repos, et « à son aise » le confort, que A2-L3 nomme sous les états et besoins physiques. Mais le mot ne désigne ni le repos ni un état du corps : il dit de quelle façon l'on fait une chose, quelle qu'elle soit. Aucune catégorie ne nomme une manière d'agir. L'affirmation de D1435, arbitrée au lot 22, est exacte."
+  },
+  "v_525_s2": {
+    "f": "E",
+    "b": "conclusion exacte : un jugement sur la conduite n'a pas de catégorie ; la formule de la raison est trop large",
+    "n": ["@A5", "@AFF", "@L3etat", "@L3r6"],
+    "c": "清い, sens 2 « Pur (moralement) » (autre traduction : « Honnête »), 汚い, sens 2, et 立派, sens 2, qui jugent une conduite, sont arbitrés L. 冷たい, sens 2, est arbitré L. 明るい, 暗い et 爽やか, sens 2, sont en psychologie et esprit › états psychologiques pour « le caractère d'une personne » (point de contrôle du volet 1, sans verdict). Le sens 1 de la même ENTRY est en parcours et trajectoire.",
+    "v": "L",
+    "m": "La fiche dit que le mot qualifie aussi « un comportement droit et intègre » ; l'exemple illustre le sens 1, et ce sens repose sur ces mots et sur la traduction « Honnête ». C'est un jugement sur la conduite : la droiture, l'intégrité. A2-L3 n'a aucune catégorie de la morale, et la fiche ne dit pas ce que la personne éprouve : ce n'est pas un état psychologique. Le verdict est celui de 清い, sens 2, lu sur cette fiche. La conclusion de D1411 tient. Sa formule est plus large que ce qu'elle établit : elle dit que le registre n'a pas de catégorie « pour la personnalité ou le caractère », alors que trois sens publiés décrivant un tempérament en portent une.",
+    "r": "La formule de D1411 est l'un des termes du point de contrôle transversal sur le caractère d'une personne (volet 1). Ce verdict ne le tranche pas : il établit seulement qu'un jugement moral n'a pas de catégorie."
+  },
+  "v_510_s1": {
+    "f": "F",
+    "b": "affirmation exacte : un statut épistémique, porté par une dimension",
+    "n": ["@A5", "@AFF", "@DIMreal", "@STca", "@A9_21"],
+    "c": "ちょうど « Exactement » et 違う, sens 2 « Être incorrect », arbitrés L, sont sans catégorie et portent un axe d'A2-DIM. Hors tranche, sans verdict : 問題 « Problème » et 他 « Autre » sont des `concept_abstrait` sans catégorie.",
+    "v": "L",
+    "m": "La fiche décrit un nom « désignant ce qui est réel, authentique ou vrai » ; l'exemple dit « est-ce vrai ? ». La vérité n'appartient à aucun domaine : elle se dit de n'importe quel énoncé, et A2-DIM la traite comme un axe, que ce sens porte. « Communication » décrirait le fait de parler, non la vérité de ce qui est dit. L'affirmation de D0068 est exacte. Relevés du criblage. Dimension (C5-0) : l'axe vrai / faux décrit directement le sens. Type (C3-0) : la vérité est un concept non matériel, qui n'est ni une information, ni une quantité, ni une propriété attribuée à une entité ; `concept_abstrait` est ici le type propre, non un type de secours. L'emploi d'étonnement (« vraiment ? ») reste en nuance (A9, §2.1).",
+    "r": "La fiche dit « réel, authentique ou vrai », et « Réalité » est une autre traduction publiée. A2-DIM distingue vérité et réalité (§3) et a un axe réel / fictif. Je ne propose pas de seconde dimension : le sens publié est « Vérité » ; je le signale."
+  },
+  "v_558_s1": {
+    "f": "F",
+    "b": "formule inexacte, conclusion exacte : l'arbre nomme la mort, mais dans un domaine que la fiche déborde",
+    "n": ["@A5", "@AFF", "@L3cycle", "@LOT19", "@G10"],
+    "c": "生まれる « Naître » (même lot) est en être humain › cycle de vie › naissance : sa fiche et son exemple portent sur une personne (« je suis né à Tokyo »). 力 « Force » a été confirmé L sur la même doctrine, sa fiche portant sur « une personne ou un animal ». 咲く « Fleurir » est en monde naturel › végétation › fleurs.",
+    "v": "L",
+    "m": "La fiche décrit « l'action biologique de cesser de vivre » ; l'exemple dit « autrefois, un chien célèbre est mort » ; un ancien exemple parle d'une fleur. Ici la formule de la famille est inexacte dans la lettre : A2-L3 nomme la mort, sous « Être humain › Cycle de vie ». Le `null` ne vient donc pas d'une absence, mais d'un débordement : la fiche dit « biologique », et son exemple porte sur un animal ; la catégorie décrirait la mort d'une personne. Le lot 19 l'a arbitré ainsi (D1299), en gardant « naissance » pour 生まれる, dont la fiche porte sur une personne. Le verdict est cohérent avec celui de 力. La raison tient.",
+    "r": "Le fondement est la doctrine du lot 19 (une catégorie ne s'impose pas quand la fiche déborde son domaine), non l'absence de catégorie. 死ぬ et 生まれる, deux événements de la vie, ne sont pas traités de la même façon ; les fiches justifient l'écart."
+  },
+  "v_653_s1": {
+    "f": "F",
+    "b": "affirmation exacte dans sa conclusion : la fiche réunit la voix humaine et le cri d'un animal",
+    "n": ["@A5", "@AFF", "@L3son", "@LOT19"],
+    "c": "鳴く « Crier (animal) » est en monde naturel › animaux ; 歌う « Chanter » en musique › chant ; 話す « Parler » en parole et conversation › parler ; 聞く, sens 1 « Écouter », et うるさい, sens 1 « Bruyant », en sens et perception › ouïe.",
+    "v": "L",
+    "m": "La fiche décrit « la voix humaine lorsqu'on parle ou que l'on chante, ainsi que le cri émis par un animal » ; l'exemple dit « il parle d'une voix forte ». Ce sens porte deux avertissements ; son `type-nul` est arbitré L et n'est pas rouvert : seul l'avertissement de catégorie est examiné ici. La voix qui parle relèverait de la parole, celle qui chante de la musique, le cri de l'animal du monde naturel : la fiche nomme trois domaines pour un sens unique (D1364). « Ouïe », proposée puis écartée au lot 20, décrit celui qui entend, non le son émis. Aucune catégorie ne décrit le sens entier. La raison de D1369 tient."
+  },
+  "v_685_s1": {
+    "f": "F",
+    "b": "affirmation exacte : une notion générale qu'aucun domaine ne borne ; « Habitat & vie domestique » examiné et écarté",
+    "n": ["@A5", "@AFF", "@STca", "@G10"],
+    "c": "住む « Habiter » est en habitat › logements ; 働く « Travailler » en travail et vie professionnelle ; 生まれる en cycle de vie. Hors tranche, sans verdict : 問題 « Problème » est un `concept_abstrait` sans catégorie.",
+    "v": "L",
+    "m": "La fiche décrit « le train-train quotidien, la vie de tous les jours ou les conditions d'existence » ; l'exemple dit « je mène une vie quotidienne agréable ». J'ai examiné « Habitat & vie domestique », dont le nom évoque la vie de tous les jours : ses catégories décrivent le logement, le mobilier et l'entretien, non la manière de vivre. La fiche couvre l'ensemble de l'existence, subsistance comprise : ni l'habitat, ni le travail, ni le cycle de vie ne la décrivent, ce que D1289 relève. L'affirmation est exacte. Type (criblage, C3-0) : un mode de vie est un concept non matériel, qui n'est ni une activité ni l'état d'une personne à un moment ; `concept_abstrait` est ici le type propre."
+  }
+}

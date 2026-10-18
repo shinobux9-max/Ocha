@@ -1,0 +1,4 @@
+a2-05-travail/checkpoint-chemins-ajouts.txt
+a2-05-travail/controle-checkpoint-B.mjs
+docs/rapports/etape2-A2-05-checkpoint-B-controle.md
+docs/rapports/etape2-A2-05-plan-transition.md

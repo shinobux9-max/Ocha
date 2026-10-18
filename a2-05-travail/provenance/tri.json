@@ -1,0 +1,5878 @@
+{
+ "resume": {
+  "releves": 270,
+  "chaines": 326,
+  "parClasse": {
+   "A-renvoi": 29,
+   "B-romaji": 50,
+   "B-transcription": 33,
+   "C-forme-de-l-entree": 11,
+   "D-exemple-construit": 126,
+   "E-autre-mot": 21
+  },
+  "chainesParClasse": {
+   "A-renvoi": 35,
+   "B-romaji": 59,
+   "B-transcription": 40,
+   "C-forme-de-l-entree": 15,
+   "D-exemple-construit": 148,
+   "E-autre-mot": 29
+  },
+  "parLot": {
+   "lot-00": {
+    "B-transcription": 5,
+    "C-forme-de-l-entree": 1,
+    "D-exemple-construit": 3
+   },
+   "lot-01": {
+    "A-renvoi": 3,
+    "B-romaji": 1,
+    "B-transcription": 5,
+    "C-forme-de-l-entree": 4,
+    "D-exemple-construit": 17,
+    "E-autre-mot": 3
+   },
+   "lot-02": {
+    "A-renvoi": 4,
+    "C-forme-de-l-entree": 3,
+    "D-exemple-construit": 5,
+    "E-autre-mot": 8
+   },
+   "lot-03": {
+    "A-renvoi": 2,
+    "B-romaji": 1,
+    "B-transcription": 1,
+    "D-exemple-construit": 5,
+    "E-autre-mot": 2
+   },
+   "lot-04": {
+    "A-renvoi": 2,
+    "C-forme-de-l-entree": 1,
+    "D-exemple-construit": 12,
+    "E-autre-mot": 1
+   },
+   "lot-05": {
+    "B-romaji": 1,
+    "B-transcription": 2,
+    "D-exemple-construit": 6,
+    "E-autre-mot": 2
+   },
+   "lot-06": {
+    "A-renvoi": 4,
+    "C-forme-de-l-entree": 2,
+    "D-exemple-construit": 8,
+    "E-autre-mot": 1
+   },
+   "lot-07": {
+    "A-renvoi": 4,
+    "B-transcription": 2,
+    "D-exemple-construit": 15,
+    "E-autre-mot": 1
+   },
+   "lot-08": {
+    "B-romaji": 1,
+    "D-exemple-construit": 17
+   },
+   "lot-09": {
+    "B-romaji": 1,
+    "B-transcription": 1,
+    "D-exemple-construit": 8
+   },
+   "lot-10": {
+    "B-transcription": 2,
+    "D-exemple-construit": 12,
+    "E-autre-mot": 3
+   },
+   "lot-11": {
+    "A-renvoi": 7,
+    "B-romaji": 5,
+    "B-transcription": 1,
+    "D-exemple-construit": 13
+   },
+   "lot-12": {
+    "B-romaji": 2,
+    "D-exemple-construit": 3
+   },
+   "lot-13": {
+    "B-transcription": 1
+   },
+   "lot-14": {
+    "B-transcription": 1
+   },
+   "lot-15": {
+    "A-renvoi": 1,
+    "B-romaji": 13,
+    "D-exemple-construit": 1
+   },
+   "lot-16": {
+    "B-romaji": 2
+   },
+   "lot-17": {
+    "B-romaji": 6
+   },
+   "lot-18": {
+    "A-renvoi": 2,
+    "B-romaji": 3,
+    "B-transcription": 2,
+    "D-exemple-construit": 1
+   },
+   "lot-19": {
+    "B-romaji": 4
+   },
+   "lot-20": {
+    "B-romaji": 5,
+    "B-transcription": 2
+   },
+   "lot-21": {
+    "B-romaji": 1,
+    "B-transcription": 1
+   },
+   "lot-23": {
+    "B-romaji": 1
+   },
+   "lot-24": {
+    "B-romaji": 3,
+    "B-transcription": 7
+   }
+  }
+ },
+ "releves": [
+  {
+   "sens": "v_17 (nuance d'ENTRY)",
+   "entree": "v_17",
+   "mot": "お姉さん",
+   "lot": "lot-00",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "あね",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_30"
+     ]
+    }
+   ],
+   "nuance": "Terme poli. Pour parler de sa propre sœur aînée à un tiers, on dit 姉 (あね).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_18 (nuance d'ENTRY)",
+   "entree": "v_18",
+   "mot": "お母さん",
+   "lot": "lot-00",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "はは",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_37"
+     ]
+    }
+   ],
+   "nuance": "Terme poli. Pour parler de sa propre mère à un tiers, on dit 母 (はは).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_19 (nuance d'ENTRY)",
+   "entree": "v_19",
+   "mot": "お父さん",
+   "lot": "lot-00",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "ちち",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Terme poli. Pour parler de son propre père à un tiers, on dit 父 (ちち).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_44_s1",
+   "entree": "v_44",
+   "mot": "おなか",
+   "lot": "lot-00",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "お腹がすいた",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Souvent dans お腹がすいた (avoir faim) et お腹が痛い (avoir mal au ventre).",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_44_s1"
+   ]
+  },
+  {
+   "sens": "v_68_s1",
+   "entree": "v_68",
+   "mot": "はく",
+   "lot": "lot-00",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "きる",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_539",
+      "v_566"
+     ]
+    }
+   ],
+   "nuance": "Pour le bas du corps et les pieds ; pour le haut du corps, on dit 着る (きる).",
+   "niveau": "sens",
+   "candidats377": [
+    "v_68_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_226_s1",
+   "entree": "v_226",
+   "mot": "かぎ",
+   "lot": "lot-00",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "鍵をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "鍵をかける : fermer à clé.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_226_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_420 (nuance d'ENTRY)",
+   "entree": "v_420",
+   "mot": "いい / 良い",
+   "lot": "lot-00",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "よかった",
+     "classe": "B-transcription",
+     "renvoi": []
+    },
+    {
+     "chaine": "よくない",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Forme écrite ou soutenue : よい (良い). Les formes conjuguées viennent de よい : よかった, よくない.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_420_s1"
+   ]
+  },
+  {
+   "sens": "v_555_s1",
+   "entree": "v_555",
+   "mot": "曲がる",
+   "lot": "lot-00",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "角を曲がる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "右に曲がる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "角を曲がる : tourner au coin ; 右に曲がる : tourner à droite.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_564 (nuance d'ENTRY)",
+   "entree": "v_564",
+   "mot": "無くす",
+   "lot": "lot-00",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "無くなる",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Transitif (を) ; ne pas confondre avec l'intransitif 無くなる (disparaître, être perdu).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_564_s1"
+   ]
+  },
+  {
+   "sens": "v_15 (nuance d'ENTRY)",
+   "entree": "v_15",
+   "mot": "お巡りさん",
+   "lot": "lot-01",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "交番",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_240"
+     ]
+    },
+    {
+     "chaine": "警官",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_42"
+     ]
+    }
+   ],
+   "nuance": "Terme familier et bienveillant, avec さん : le policier de quartier, du poste (交番). Forme neutre : 警官.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_15_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_16 (nuance d'ENTRY)",
+   "entree": "v_16",
+   "mot": "お兄さん",
+   "lot": "lot-01",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "あに",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_21"
+     ]
+    }
+   ],
+   "nuance": "Terme respectueux : pour parler de membres de la famille d'autrui, ou pour s'adresser aux siens. Pour son propre grand frère face à un tiers : 兄 (あに).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_20 (nuance d'ENTRY)",
+   "entree": "v_20",
+   "mot": "両親",
+   "lot": "lot-01",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "ご両親",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Les deux parents ensemble ; terme un peu formel, pour ses parents comme pour ceux d'autrui (ご両親, plus respectueux).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_20_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_24 (nuance d'ENTRY)",
+   "entree": "v_24",
+   "mot": "叔母",
+   "lot": "lot-01",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "伯母",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Terme neutre ou humble. Écrit 叔母 pour la sœur cadette d'un parent ou l'épouse d'un oncle cadet, 伯母 pour la sœur aînée ou l'épouse d'un oncle aîné ; la forme おば en kana évite d'avoir à choisir.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_25 (nuance d'ENTRY)",
+   "entree": "v_25",
+   "mot": "叔父",
+   "lot": "lot-01",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "伯父",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Terme neutre ou humble. Écrit 叔父 pour le frère cadet d'un parent ou l'époux d'une tante cadette, 伯父 pour le frère aîné ou l'époux d'une tante aînée ; la forme おじ en kana évite d'avoir à choisir.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_27 (nuance d'ENTRY)",
+   "entree": "v_27",
+   "mot": "外国人",
+   "lot": "lot-01",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "外人",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "外人, abréviation familière, peut sembler excluant : 外国人 est la forme neutre.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_31 (nuance d'ENTRY)",
+   "entree": "v_31",
+   "mot": "子供",
+   "lot": "lot-01",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "お子さん",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Pour les enfants d'autrui, on dit aussi お子さん.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_31_s1",
+    "v_31_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_35 (nuance d'ENTRY)",
+   "entree": "v_35",
+   "mot": "家族",
+   "lot": "lot-01",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "ご家族",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Pour sa propre famille ; pour celle d'autrui, ご家族.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_42 (nuance d'ENTRY)",
+   "entree": "v_42",
+   "mot": "警官",
+   "lot": "lot-01",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "お巡りさん",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_15"
+     ]
+    }
+   ],
+   "nuance": "Terme neutre, plus formel. Dans la conversation courante : お巡りさん.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_42_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_46 (nuance d'ENTRY)",
+   "entree": "v_46",
+   "mot": "体",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "体にいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "体が弱い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "体にいい : bon pour la santé ; 体が弱い : être de santé fragile.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_46_s1"
+   ]
+  },
+  {
+   "sens": "v_47 (nuance d'ENTRY)",
+   "entree": "v_47",
+   "mot": "医者",
+   "lot": "lot-01",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "お医者さん",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Plus poli : お医者さん.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_48 (nuance d'ENTRY)",
+   "entree": "v_48",
+   "mot": "口",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "瓶の口",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Désigne aussi l'ouverture d'un objet (瓶の口, le goulot).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_48_s1"
+   ]
+  },
+  {
+   "sens": "v_51 (nuance d'ENTRY)",
+   "entree": "v_51",
+   "mot": "手",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "手を洗う",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "手を洗う : se laver les mains.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_51_s1"
+   ]
+  },
+  {
+   "sens": "v_54 (nuance d'ENTRY)",
+   "entree": "v_54",
+   "mot": "歯",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "歯を磨く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "歯を磨く : se brosser les dents.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_54_s1"
+   ]
+  },
+  {
+   "sens": "v_55 (nuance d'ENTRY)",
+   "entree": "v_55",
+   "mot": "病気",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "病気になる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "病気です",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "病気になる : tomber malade ; 病気です : être malade.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_55_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_56 (nuance d'ENTRY)",
+   "entree": "v_56",
+   "mot": "病院",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "病院に行く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "病院に行く : aller chez le médecin, à l'hôpital.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_57 (nuance d'ENTRY)",
+   "entree": "v_57",
+   "mot": "目",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "目がいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "目が悪い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "目がいい : avoir une bonne vue ; 目が悪い : avoir une mauvaise vue.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_57_s1"
+   ]
+  },
+  {
+   "sens": "v_58 (nuance d'ENTRY)",
+   "entree": "v_58",
+   "mot": "耳",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "耳がいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "耳が遠い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "耳がいい : avoir l'oreille fine ; 耳が遠い : être dur d'oreille.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_58_s1"
+   ]
+  },
+  {
+   "sens": "v_59 (nuance d'ENTRY)",
+   "entree": "v_59",
+   "mot": "薬",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "薬を飲む",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "薬を飲む : prendre un médicament (littéralement : le boire), même en comprimé.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_61 (nuance d'ENTRY)",
+   "entree": "v_61",
+   "mot": "身体",
+   "lot": "lot-01",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "からだ",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_46"
+     ]
+    }
+   ],
+   "nuance": "Terme soutenu ou technique (examen médical, formulaires) ; dans la conversation : 体 (からだ).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_61_s1"
+   ]
+  },
+  {
+   "sens": "v_65_s2",
+   "entree": "v_65",
+   "mot": "頭",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "頭がいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "頭を使う",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "頭がいい : être intelligent ; 頭を使う : réfléchir.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_65_s2"
+   ]
+  },
+  {
+   "sens": "v_283 (nuance d'ENTRY)",
+   "entree": "v_283",
+   "mot": "風邪",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "風邪をひく",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "風邪をひく : attraper un rhume. Ne pas confondre avec 風 (かぜ, le vent).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_465 (nuance d'ENTRY)",
+   "entree": "v_465",
+   "mot": "痛い",
+   "lot": "lot-01",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "頭が痛い",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "頭が痛い : avoir mal à la tête. S'emploie seul comme exclamation : 痛い！ (aïe !).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_465_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_603 (nuance d'ENTRY)",
+   "entree": "v_603",
+   "mot": "髪",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "髪を切る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "髪を切る : se faire couper les cheveux. Ne pas confondre avec 紙 (papier) et 神 (dieu), homophones.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_603_s1"
+   ]
+  },
+  {
+   "sens": "v_633 (nuance d'ENTRY)",
+   "entree": "v_633",
+   "mot": "人",
+   "lot": "lot-01",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "かた",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_667"
+     ]
+    }
+   ],
+   "nuance": "Forme neutre ; plus respectueux : 方 (かた).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_633_s1"
+   ]
+  },
+  {
+   "sens": "v_656 (nuance d'ENTRY)",
+   "entree": "v_656",
+   "mot": "奥さん",
+   "lot": "lot-01",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "家内",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_660"
+     ]
+    }
+   ],
+   "nuance": "Terme respectueux pour l'épouse d'autrui ; sert aussi à s'adresser à une femme mariée. Pour sa propre épouse : 家内 ou 妻.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_656_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_657 (nuance d'ENTRY)",
+   "entree": "v_657",
+   "mot": "女",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "女性",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Terme direct, un peu brusque pour désigner quelqu'un ; plus poli : 女の人, 女性.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_657_s1"
+   ]
+  },
+  {
+   "sens": "v_660 (nuance d'ENTRY)",
+   "entree": "v_660",
+   "mot": "家内",
+   "lot": "lot-01",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "奥さん",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_656"
+     ]
+    }
+   ],
+   "nuance": "Terme humble pour sa propre épouse, face à un tiers. Pour l'épouse d'autrui : 奥さん.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_667 (nuance d'ENTRY)",
+   "entree": "v_667",
+   "mot": "方",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "どの方",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Équivalent respectueux de 人 : あの方 (cette personne), どの方 (quelle personne).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_667_s1"
+   ]
+  },
+  {
+   "sens": "v_686 (nuance d'ENTRY)",
+   "entree": "v_686",
+   "mot": "男",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "男性",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Terme direct, un peu brusque pour désigner quelqu'un ; plus poli : 男の人, 男性.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_686_s1"
+   ]
+  },
+  {
+   "sens": "v_687 (nuance d'ENTRY)",
+   "entree": "v_687",
+   "mot": "皆さん",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "こんにちは",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "みんな",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_606",
+      "v_606"
+     ]
+    }
+   ],
+   "nuance": "Forme respectueuse pour s'adresser à un groupe : 皆さん、こんにちは. Plus neutre : 皆 (みんな).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_687_s1"
+   ]
+  },
+  {
+   "sens": "v_690_s1",
+   "entree": "v_690",
+   "mot": "背",
+   "lot": "lot-01",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "背が高い",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "背が高い : être grand ; 背が低い : être petit.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_716 (nuance d'ENTRY)",
+   "entree": "v_716",
+   "mot": "顔",
+   "lot": "lot-01",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "変な顔をする",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "顔色",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Désigne aussi l'expression du visage : 変な顔をする (faire une drôle de tête), 顔色 (la mine).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_716_s1"
+   ]
+  },
+  {
+   "sens": "v_66 (nuance d'ENTRY)",
+   "entree": "v_66",
+   "mot": "飲む",
+   "lot": "lot-02",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "薬を飲む",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "S'emploie aussi pour un médicament : 薬を飲む, prendre un médicament (l'avaler).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_66_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_84 (nuance d'ENTRY)",
+   "entree": "v_84",
+   "mot": "お弁当",
+   "lot": "lot-02",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "駅弁",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Forme polie et courante ; 弁当 sans お existe aussi, surtout à l'écrit et dans les composés (駅弁).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_84_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_85 (nuance d'ENTRY)",
+   "entree": "v_85",
+   "mot": "お茶",
+   "lot": "lot-02",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "紅茶",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_112"
+     ]
+    }
+   ],
+   "nuance": "Désigne d'abord le thé vert japonais ; le thé noir se dit 紅茶.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_85_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_86 (nuance d'ENTRY)",
+   "entree": "v_86",
+   "mot": "お酒",
+   "lot": "lot-02",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "日本酒",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Désigne aussi, plus précisément, le saké (日本酒).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_86_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_88_s2",
+   "entree": "v_88",
+   "mot": "ご飯",
+   "lot": "lot-02",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "ご飯を食べる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "ご飯を食べる : prendre son repas ; 朝ご飯, 晩ご飯 : petit-déjeuner, dîner.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_88 (nuance d'ENTRY)",
+   "entree": "v_88",
+   "mot": "ご飯",
+   "lot": "lot-02",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "こめ",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Terme poli et courant ; le riz cru se dit 米 (こめ).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_88_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_90 (nuance d'ENTRY)",
+   "entree": "v_90",
+   "mot": "とり肉",
+   "lot": "lot-02",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "にわとり",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Le poulet vivant se dit 鶏 (にわとり).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_93 (nuance d'ENTRY)",
+   "entree": "v_93",
+   "mot": "カップ",
+   "lot": "lot-02",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "コップ",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_230"
+     ]
+    }
+   ],
+   "nuance": "Récipient à anse (tasse, mug) ; le verre sans anse se dit コップ.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_95 (nuance d'ENTRY)",
+   "entree": "v_95",
+   "mot": "コーヒー",
+   "lot": "lot-02",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "喫茶店",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_101"
+     ]
+    }
+   ],
+   "nuance": "La boisson ; l'établissement se dit 喫茶店 ou カフェ.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_95_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_98 (nuance d'ENTRY)",
+   "entree": "v_98",
+   "mot": "レストラン",
+   "lot": "lot-02",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "料理屋",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Plutôt un restaurant à l'occidentale ; un restaurant japonais traditionnel peut se dire 料理屋.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_104_s1",
+   "entree": "v_104",
+   "mot": "料理",
+   "lot": "lot-02",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "料理する",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "料理する : cuisiner.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_104_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_111 (nuance d'ENTRY)",
+   "entree": "v_111",
+   "mot": "箸",
+   "lot": "lot-02",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "お箸",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Souvent お箸, forme polie. Ne pas confondre avec 橋 (はし, le pont), homophone.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_120 (nuance d'ENTRY)",
+   "entree": "v_120",
+   "mot": "飲み物",
+   "lot": "lot-02",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "飲み物は",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "飲み物は？ : et comme boisson ? (au restaurant).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_120_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_211 (nuance d'ENTRY)",
+   "entree": "v_211",
+   "mot": "ナイフ",
+   "lot": "lot-02",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "包丁",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Couteau de table ; le couteau de cuisine se dit 包丁.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_230 (nuance d'ENTRY)",
+   "entree": "v_230",
+   "mot": "コップ",
+   "lot": "lot-02",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "カップ",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_93"
+     ]
+    }
+   ],
+   "nuance": "Récipient sans anse ; la tasse se dit カップ.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_427_s2",
+   "entree": "v_427",
+   "mot": "まずい",
+   "lot": "lot-02",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "まずいことになった",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "まずいことになった : ça tourne mal.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_427_s2"
+   ]
+  },
+  {
+   "sens": "v_427 (nuance d'ENTRY)",
+   "entree": "v_427",
+   "mot": "まずい",
+   "lot": "lot-02",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "おいしくない",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Familier pour le goût ; plus poli : おいしくない.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_427_s1"
+   ],
+   "dans147": [
+    "v_427_s2"
+   ]
+  },
+  {
+   "sens": "v_464_s2",
+   "entree": "v_464",
+   "mot": "甘い",
+   "lot": "lot-02",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "子供に甘い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "考えが甘い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "子供に甘い : être indulgent avec les enfants ; 考えが甘い : avoir une vue trop optimiste.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_464_s2"
+   ]
+  },
+  {
+   "sens": "v_481 (nuance d'ENTRY)",
+   "entree": "v_481",
+   "mot": "辛い",
+   "lot": "lot-02",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "しょっぱい",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "つらい",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Se dit aussi d'un plat trop salé dans certaines régions (ailleurs : しょっぱい). Le même kanji se lit つらい, « pénible » : c'est un autre mot.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_481_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_677 (nuance d'ENTRY)",
+   "entree": "v_677",
+   "mot": "水",
+   "lot": "lot-02",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "お湯",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "おゆ",
+     "classe": "B-romaji",
+     "renvoi": []
+    },
+    {
+     "chaine": "お水",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "L'eau froide ou à température ambiante ; l'eau chaude se dit お湯 (おゆ). Au restaurant, on demande お水.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_677_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_33 (nuance d'ENTRY)",
+   "entree": "v_33",
+   "mot": "家",
+   "lot": "lot-03",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "うち",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Le bâtiment où l'on habite. Se lit aussi うち, surtout pour « chez soi », avec une nuance plus familière (lecture documentée par la source, non reprise comme lecture structurée dans A2-04).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_34 (nuance d'ENTRY)",
+   "entree": "v_34",
+   "mot": "家庭",
+   "lot": "lot-03",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "いえ",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_33"
+     ]
+    },
+    {
+     "chaine": "家庭料理",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Le foyer, la vie de famille à la maison, par opposition au bâtiment 家 (いえ) : 家庭料理, la cuisine familiale.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_208_s1",
+   "entree": "v_208",
+   "mot": "お風呂",
+   "lot": "lot-03",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "お風呂に入る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Le bain japonais : la baignoire d'eau chaude où l'on se plonge après s'être lavé, et par extension la pièce. お風呂に入る : prendre un bain (l'action est portée par 入る).",
+   "niveau": "sens",
+   "candidats377": [
+    "v_208_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_209_s1",
+   "entree": "v_209",
+   "mot": "ふろ",
+   "lot": "lot-03",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "お風呂に入る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "入る",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_213"
+     ]
+    }
+   ],
+   "nuance": "Le bain japonais : la baignoire d'eau chaude où l'on se plonge après s'être lavé, et par extension la pièce. お風呂に入る : prendre un bain (l'action est portée par 入る).",
+   "niveau": "sens",
+   "candidats377": [
+    "v_209_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_209 (nuance d'ENTRY)",
+   "entree": "v_209",
+   "mot": "ふろ",
+   "lot": "lot-03",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "お風呂",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_208"
+     ]
+    }
+   ],
+   "nuance": "Forme sans お, plus neutre ou familière ; お風呂 est une autre ENTRY. Les deux ne sont pas fusionnées : la présence de お n'est pas une différence d'écriture (arbitrage du lot 03).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_209_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_229 (nuance d'ENTRY)",
+   "entree": "v_229",
+   "mot": "ちり紙",
+   "lot": "lot-03",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "トイレットペーパー",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "ティッシュ",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Terme un peu vieilli : on dit aujourd'hui トイレットペーパー ou ティッシュ.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_229_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_237 (nuance d'ENTRY)",
+   "entree": "v_237",
+   "mot": "紙",
+   "lot": "lot-03",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "枚の紙",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Le papier, ou une feuille (1枚の紙). Ne pas confondre avec 髪 (cheveux) et 神 (dieu), homophones.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_237_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_507 (nuance d'ENTRY)",
+   "entree": "v_507",
+   "mot": "アパート",
+   "lot": "lot-03",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "マンション",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Désigne un petit immeuble d'appartements de construction légère, ou un logement dans un tel immeuble ; un immeuble plus solide et cossu se dit マンション.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_589 (nuance d'ENTRY)",
+   "entree": "v_589",
+   "mot": "お手洗い",
+   "lot": "lot-03",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "トイレ",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_617"
+     ]
+    }
+   ],
+   "nuance": "Terme poli, sûr dans toutes les situations ; littéralement « se laver les mains ». Plus direct : トイレ.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_589_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_708 (nuance d'ENTRY)",
+   "entree": "v_708",
+   "mot": "門",
+   "lot": "lot-03",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ドア",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_210"
+     ]
+    }
+   ],
+   "nuance": "Grande porte extérieure : l'entrée d'une propriété, d'une école, d'un temple ; la porte d'une maison se dit ドア ou 戸.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_713_s2",
+   "entree": "v_713",
+   "mot": "電気",
+   "lot": "lot-03",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "電気をつける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "電気を消す",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "電気をつける : allumer la lumière ; 電気を消す : l'éteindre.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_713_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_53 (nuance d'ENTRY)",
+   "entree": "v_53",
+   "mot": "歩く",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "駅まで歩く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "駅まで歩く : aller à pied jusqu'à la gare.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_53_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_63 (nuance d'ENTRY)",
+   "entree": "v_63",
+   "mot": "降りる",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "電車を降りる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Descendre d'un véhicule (電車を降りる) ou d'un lieu en hauteur ; 下りる s'emploie plutôt pour un escalier, une pente.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_63_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_152 (nuance d'ENTRY)",
+   "entree": "v_152",
+   "mot": "来る",
+   "lot": "lot-04",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "来ない",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Mouvement vers le locuteur. Verbe irrégulier : le kanji se lit く, き ou こ selon la forme (来る, 来ます, 来ない).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_152_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_157 (nuance d'ENTRY)",
+   "entree": "v_157",
+   "mot": "走る",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "電車が走る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Se dit aussi d'un véhicule qui roule : 電車が走る. Verbe du groupe u malgré sa terminaison en -iru.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_157_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_159 (nuance d'ENTRY)",
+   "entree": "v_159",
+   "mot": "電車",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "路面電車",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Littéralement « véhicule électrique » : le train de banlieue ou de ligne classique ; le tramway se dit 路面電車.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_159_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_213 (nuance d'ENTRY)",
+   "entree": "v_213",
+   "mot": "入る",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "部屋に入る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "お風呂に入る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "入っている",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    },
+    {
+     "chaine": "箱に何が入っていますか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Avec に : 部屋に入る, entrer dans la pièce ; お風呂に入る, prendre un bain. 入っている : être dedans (箱に何が入っていますか).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_213_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_240 (nuance d'ENTRY)",
+   "entree": "v_240",
+   "mot": "交番",
+   "lot": "lot-04",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "お巡りさん",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_15"
+     ]
+    }
+   ],
+   "nuance": "Le petit poste de police de quartier japonais, où l'on demande aussi son chemin ; le policier s'y appelle お巡りさん.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_240_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_242 (nuance d'ENTRY)",
+   "entree": "v_242",
+   "mot": "図書館",
+   "lot": "lot-04",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "本棚",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_247"
+     ]
+    }
+   ],
+   "nuance": "La bibliothèque publique ou universitaire ; le meuble se dit 本棚.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_557 (nuance d'ENTRY)",
+   "entree": "v_557",
+   "mot": "止まる",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "電車が止まる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Se dit d'un véhicule, d'une machine ou d'un service : 電車が止まる, le train s'arrête.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_557_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_563 (nuance d'ENTRY)",
+   "entree": "v_563",
+   "mot": "渡る",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "道を渡る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Avec を : 道を渡る, traverser la rue ; 橋を渡る, traverser le pont.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_563_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_565 (nuance d'ENTRY)",
+   "entree": "v_565",
+   "mot": "着く",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "駅に着く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Arriver à destination : 駅に着く, arriver à la gare.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_565_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_642_s1",
+   "entree": "v_642",
+   "mot": "出る",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "部屋を出る",
+     "classe": "B-romaji",
+     "renvoi": []
+    },
+    {
+     "chaine": "駅を出る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "部屋を出る : sortir de la pièce ; 駅を出る : sortir de la gare.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_642_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_642_s2",
+   "entree": "v_642",
+   "mot": "出る",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "授業に出る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "会議に出る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "授業に出る : assister au cours ; 会議に出る : participer à la réunion.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_642_s2"
+   ]
+  },
+  {
+   "sens": "v_642_s3",
+   "entree": "v_642",
+   "mot": "出る",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "月が出る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "月が出る : la lune apparaît.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_642_s3"
+   ]
+  },
+  {
+   "sens": "v_644 (nuance d'ENTRY)",
+   "entree": "v_644",
+   "mot": "切符",
+   "lot": "lot-04",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "お札",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "チケット",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Billet de train, de métro ou de bus ; le billet de banque se dit お札, le billet d'avion チケット.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_644_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_705 (nuance d'ENTRY)",
+   "entree": "v_705",
+   "mot": "道",
+   "lot": "lot-04",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "道を渡る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "道に迷う",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Tout chemin où l'on circule : 道を渡る, traverser la rue ; 道に迷う, se perdre.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_71 (nuance d'ENTRY)",
+   "entree": "v_71",
+   "mot": "スカート",
+   "lot": "lot-05",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "はく",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_68",
+      "v_68"
+     ]
+    },
+    {
+     "chaine": "スカートをはく",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Avec はく (履く) : スカートをはく, mettre une jupe.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_72 (nuance d'ENTRY)",
+   "entree": "v_72",
+   "mot": "ズボン",
+   "lot": "lot-05",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "はく",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_68",
+      "v_68"
+     ]
+    }
+   ],
+   "nuance": "Avec はく ; パンツ s'emploie aussi, mais peut désigner un sous-vêtement.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_74_s2",
+   "entree": "v_74",
+   "mot": "ボタン",
+   "lot": "lot-05",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "ボタンを押す",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "ボタンを押す : appuyer sur le bouton.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_74_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_234 (nuance d'ENTRY)",
+   "entree": "v_234",
+   "mot": "傘",
+   "lot": "lot-05",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "日傘",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Contre la pluie ou le soleil ; l'ombrelle se dit plus précisément 日傘.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_566 (nuance d'ENTRY)",
+   "entree": "v_566",
+   "mot": "着る",
+   "lot": "lot-05",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "はく",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_68",
+      "v_68"
+     ]
+    }
+   ],
+   "nuance": "Pour le haut du corps (chemise, pull, manteau) ; pour le bas, はく (履く).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_566_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_572 (nuance d'ENTRY)",
+   "entree": "v_572",
+   "mot": "脱ぐ",
+   "lot": "lot-05",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "靴を脱ぐ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Pour les vêtements comme pour les chaussures et les chaussettes : 靴を脱ぐ.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_614 (nuance d'ENTRY)",
+   "entree": "v_614",
+   "mot": "スリッパ",
+   "lot": "lot-05",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "玄関",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_248"
+     ]
+    }
+   ],
+   "nuance": "Chaussures d'intérieur, portées après avoir retiré ses chaussures au 玄関.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_618 (nuance d'ENTRY)",
+   "entree": "v_618",
+   "mot": "ハンカチ",
+   "lot": "lot-05",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "ティッシュ",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Petit carré de tissu pour s'essuyer les mains ; le mouchoir en papier se dit ティッシュ.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_671 (nuance d'ENTRY)",
+   "entree": "v_671",
+   "mot": "時計",
+   "lot": "lot-05",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "目覚まし時計",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Tout instrument qui donne l'heure : la montre au poignet comme l'horloge murale ; le réveil se dit 目覚まし時計.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_671_s1"
+   ]
+  },
+  {
+   "sens": "v_679 (nuance d'ENTRY)",
+   "entree": "v_679",
+   "mot": "洋服",
+   "lot": "lot-05",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "和服",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "着物",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Par opposition aux vêtements traditionnels japonais (和服, 着物).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_701 (nuance d'ENTRY)",
+   "entree": "v_701",
+   "mot": "買い物",
+   "lot": "lot-05",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "買い物に行く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "買い物する : faire les courses. 買い物に行く : aller faire les courses.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_32 (nuance d'ENTRY)",
+   "entree": "v_32",
+   "mot": "学生",
+   "lot": "lot-06",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "生徒",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_38"
+     ]
+    }
+   ],
+   "nuance": "Le plus souvent un étudiant du secondaire ou de l'université ; l'élève du primaire ou du secondaire se dit plutôt 生徒.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_123 (nuance d'ENTRY)",
+   "entree": "v_123",
+   "mot": "クラス",
+   "lot": "lot-06",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "教室",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_133"
+     ]
+    }
+   ],
+   "nuance": "Le groupe d'élèves ou de participants à un cours ; la salle se dit 教室.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_131 (nuance d'ENTRY)",
+   "entree": "v_131",
+   "mot": "授業",
+   "lot": "lot-06",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "授業に出る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Le cours donné par un enseignant : 授業に出る, assister au cours.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_132_s2",
+   "entree": "v_132",
+   "mot": "教える",
+   "lot": "lot-06",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "道を教える",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "道を教える : indiquer le chemin.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_132_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_133 (nuance d'ENTRY)",
+   "entree": "v_133",
+   "mot": "教室",
+   "lot": "lot-06",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "クラス",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_123"
+     ]
+    }
+   ],
+   "nuance": "La salle physique où ont lieu les cours ; le groupe d'élèves se dit クラス.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_135 (nuance d'ENTRY)",
+   "entree": "v_135",
+   "mot": "知る",
+   "lot": "lot-06",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "知っていない",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "À l'affirmatif, toujours 知っている ; au négatif, 知らない (et non 知っていない).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_138_s1",
+   "entree": "v_138",
+   "mot": "言葉",
+   "lot": "lot-06",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "先生の言葉",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "先生の言葉 : les paroles du professeur.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_138_s2",
+   "entree": "v_138",
+   "mot": "言葉",
+   "lot": "lot-06",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "日本の言葉",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "日本の言葉 : la langue du Japon.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_138_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_170_s2",
+   "entree": "v_170",
+   "mot": "字",
+   "lot": "lot-06",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "字が上手だ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "字が上手だ : avoir une belle écriture.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_170_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_513_s2",
+   "entree": "v_513",
+   "mot": "意味",
+   "lot": "lot-06",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "意味がない",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "意味がない : ça ne sert à rien, ça n'a pas de sens.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_513_s2"
+   ]
+  },
+  {
+   "sens": "v_538 (nuance d'ENTRY)",
+   "entree": "v_538",
+   "mot": "分かる",
+   "lot": "lot-06",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "日本語が分かる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Avec が pour ce qui est compris : 日本語が分かる, comprendre le japonais.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_553 (nuance d'ENTRY)",
+   "entree": "v_553",
+   "mot": "忘れる",
+   "lot": "lot-06",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "名前を忘れる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "傘を忘れる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Un fait comme un objet : 名前を忘れる, oublier un nom ; 傘を忘れる, oublier son parapluie.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_556 (nuance d'ENTRY)",
+   "entree": "v_556",
+   "mot": "書く",
+   "lot": "lot-06",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "描く",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Écrire des lettres, des caractères, un texte. Dessiner se dit 描く, même lecture.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_556_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_570 (nuance d'ENTRY)",
+   "entree": "v_570",
+   "mot": "練習",
+   "lot": "lot-06",
+   "classe": "C-forme-de-l-entree",
+   "chaines": [
+    {
+     "chaine": "練習する",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "nuance": "練習する : s'entraîner, s'exercer (sport, musique, langue).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_570_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_647 (nuance d'ENTRY)",
+   "entree": "v_647",
+   "mot": "勉強",
+   "lot": "lot-06",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "習う",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_41"
+     ]
+    }
+   ],
+   "nuance": "勉強する : étudier ; l'étude en général, plutôt que l'apprentissage auprès d'un maître (習う).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_80_s2",
+   "entree": "v_80",
+   "mot": "曇る",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "めがねが曇る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "めがねが曇る : les lunettes s'embuent.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_80_s2"
+   ]
+  },
+  {
+   "sens": "v_128 (nuance d'ENTRY)",
+   "entree": "v_128",
+   "mot": "川",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "がわ",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "隅田川",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Tout cours d'eau ; se lit aussi -がわ dans les noms propres (隅田川).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_253 (nuance d'ENTRY)",
+   "entree": "v_253",
+   "mot": "山",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "山に登る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "山に登る : faire l'ascension d'une montagne.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_254_s2",
+   "entree": "v_254",
+   "mot": "木",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "木の机",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "木の机 : une table en bois.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_254_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_256 (nuance d'ENTRY)",
+   "entree": "v_256",
+   "mot": "海",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "海に行く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "海に行く : aller à la mer, au bord de mer.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_260 (nuance d'ENTRY)",
+   "entree": "v_260",
+   "mot": "空",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "空が青い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "空が青い : le ciel est bleu.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_265_s1",
+   "entree": "v_265",
+   "mot": "冷たい",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "冷たい水",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "冷たい水 : de l'eau froide. L'air froid se dit 寒い.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_265_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_265_s2",
+   "entree": "v_265",
+   "mot": "冷たい",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "冷たい人",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "冷たい人 : une personne froide, distante.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_265_s2"
+   ]
+  },
+  {
+   "sens": "v_266_s1",
+   "entree": "v_266",
+   "mot": "吹く",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "風が吹く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "風が吹く : le vent souffle.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_266_s2",
+   "entree": "v_266",
+   "mot": "吹く",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "笛を吹く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "笛を吹く : jouer de la flûte.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_266_s2"
+   ]
+  },
+  {
+   "sens": "v_267 (nuance d'ENTRY)",
+   "entree": "v_267",
+   "mot": "夏",
+   "lot": "lot-07",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "夏休み",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_268"
+     ]
+    }
+   ],
+   "nuance": "La saison la plus chaude ; 夏休み : les vacances d'été.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_267_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_269 (nuance d'ENTRY)",
+   "entree": "v_269",
+   "mot": "天気",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "いい天気ですね",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Les conditions atmosphériques ; seul, il désigne souvent le beau temps : いい天気ですね, il fait beau.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_269_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_270 (nuance d'ENTRY)",
+   "entree": "v_270",
+   "mot": "寒い",
+   "lot": "lot-07",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "暑い",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_274"
+     ]
+    }
+   ],
+   "nuance": "Le froid de l'air ; un objet froid se dit 冷たい. Contraire : 暑い.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_270_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_272 (nuance d'ENTRY)",
+   "entree": "v_272",
+   "mot": "晴れ",
+   "lot": "lot-07",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "くもり",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_263",
+      "v_263"
+     ]
+    }
+   ],
+   "nuance": "Forme nominale de 晴れる ; contraire : くもり, 雨.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_273 (nuance d'ENTRY)",
+   "entree": "v_273",
+   "mot": "晴れる",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "明日は晴れるでしょう",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Le ciel se dégage, les nuages se dissipent : 明日は晴れるでしょう.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_274 (nuance d'ENTRY)",
+   "entree": "v_274",
+   "mot": "暑い",
+   "lot": "lot-07",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "寒い",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_270"
+     ]
+    }
+   ],
+   "nuance": "La chaleur de l'air, du temps ; un objet chaud se dit 熱い (même lecture). Contraire : 寒い.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_274_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_277 (nuance d'ENTRY)",
+   "entree": "v_277",
+   "mot": "熱い",
+   "lot": "lot-07",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "暑い",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_274"
+     ]
+    }
+   ],
+   "nuance": "Un objet, un liquide, un aliment ; l'air chaud se dit 暑い (même lecture). 猫舌 : qui ne supporte pas ce qui est trop chaud.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_277_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_279 (nuance d'ENTRY)",
+   "entree": "v_279",
+   "mot": "降る",
+   "lot": "lot-07",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "降りる",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_63"
+     ]
+    }
+   ],
+   "nuance": "Avec が : 雨が降る, il pleut. Même kanji que 降りる (descendre), mais autre mot.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_280 (nuance d'ENTRY)",
+   "entree": "v_280",
+   "mot": "雨",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "雨が降る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "雨が降る : il pleut. L'intensité se dit par des onomatopées : ぽつぽつ, しとしと, ザーザー. Homophone : 飴 (bonbon).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_282 (nuance d'ENTRY)",
+   "entree": "v_282",
+   "mot": "風",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "風が吹く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "風邪",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_283"
+     ]
+    }
+   ],
+   "nuance": "風が吹く : le vent souffle. Homophone : 風邪 (rhume).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_282_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_543 (nuance d'ENTRY)",
+   "entree": "v_543",
+   "mot": "咲く",
+   "lot": "lot-07",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "花が咲く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Avec が : 花が咲く, les fleurs s'ouvrent.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_648 (nuance d'ENTRY)",
+   "entree": "v_648",
+   "mot": "匹",
+   "lot": "lot-07",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "いっぴき",
+     "classe": "B-romaji",
+     "renvoi": []
+    },
+    {
+     "chaine": "にひき",
+     "classe": "B-romaji",
+     "renvoi": []
+    },
+    {
+     "chaine": "さんびき",
+     "classe": "B-romaji",
+     "renvoi": []
+    },
+    {
+     "chaine": "ろっぴき",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "はっぴき",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "じゅっぴき",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Pour compter chiens, chats, poissons, insectes. La lecture change selon le nombre : いっぴき, にひき, さんびき, ろっぴき, はっぴき, じゅっぴき.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_648_s1"
+   ]
+  },
+  {
+   "sens": "v_52 (nuance d'ENTRY)",
+   "entree": "v_52",
+   "mot": "手紙",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "手紙を書く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "手紙を出す",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Une lettre écrite à la main ; 手紙を書く, 手紙を出す.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_164_s1",
+   "entree": "v_164",
+   "mot": "かける",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "電話をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "友達に電話をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "電話をかける : téléphoner ; 友達に電話をかける.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_164_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_164_s2",
+   "entree": "v_164",
+   "mot": "かける",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "めがねをかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "めがねをかける : mettre ses lunettes.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_164_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_164_s3",
+   "entree": "v_164",
+   "mot": "かける",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "壁に絵をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "壁に絵をかける : accrocher un tableau au mur.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_164_s3"
+   ]
+  },
+  {
+   "sens": "v_168 (nuance d'ENTRY)",
+   "entree": "v_168",
+   "mot": "写真",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "写真を撮る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "写真を撮る : prendre une photo.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_169_s1",
+   "entree": "v_169",
+   "mot": "呼ぶ",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "名前を呼ぶ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "友達を呼ぶ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "名前を呼ぶ : appeler quelqu'un par son nom ; 友達を呼ぶ : inviter des amis.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_169_s2",
+   "entree": "v_169",
+   "mot": "呼ぶ",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "と呼ぶ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "〜と呼ぶ : appeler, nommer ainsi.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_173 (nuance d'ENTRY)",
+   "entree": "v_173",
+   "mot": "番号",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "部屋の番号",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "電話番号 : numéro de téléphone ; 部屋の番号 : numéro de chambre.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_173_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_174 (nuance d'ENTRY)",
+   "entree": "v_174",
+   "mot": "答える",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "質問に答える",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Avec に pour ce à quoi l'on répond : 質問に答える.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_175_s1",
+   "entree": "v_175",
+   "mot": "聞く",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "音楽を聞く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "音楽を聞く : écouter de la musique.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_175_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_175_s2",
+   "entree": "v_175",
+   "mot": "聞く",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "先生に聞く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "La personne à qui l'on demande est suivie de に : 先生に聞く.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_175_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_176 (nuance d'ENTRY)",
+   "entree": "v_176",
+   "mot": "言う",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "と言います",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "田中と言います",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "ゆう",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "nuance": "〜と言います : s'appeler, se nommer (田中と言います). À l'oral, souvent prononcé ゆう.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_177 (nuance d'ENTRY)",
+   "entree": "v_177",
+   "mot": "話す",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "日本語を話す",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "日本語で話す",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "S'exprimer oralement, converser ; parler une langue : 日本語を話す, 日本語で話す.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_178_s2",
+   "entree": "v_178",
+   "mot": "電話",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "電話をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "電話をかける : passer un appel.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_203 (nuance d'ENTRY)",
+   "entree": "v_203",
+   "mot": "テレビ",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "テレビを見る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "テレビを見る : regarder la télévision.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_697 (nuance d'ENTRY)",
+   "entree": "v_697",
+   "mot": "見せる",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "写真を友達に見せる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Avec に pour la personne : 写真を友達に見せる.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_699_s2",
+   "entree": "v_699",
+   "mot": "話",
+   "lot": "lot-08",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "昔の話",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "昔の話 : une histoire d'autrefois.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_699 (nuance d'ENTRY)",
+   "entree": "v_699",
+   "mot": "話",
+   "lot": "lot-08",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "話す",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_177"
+     ]
+    }
+   ],
+   "nuance": "Nom correspondant au verbe 話す.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_26 (nuance d'ENTRY)",
+   "entree": "v_26",
+   "mot": "外国",
+   "lot": "lot-09",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "外国に行く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "外国人",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_27"
+     ]
+    }
+   ],
+   "nuance": "Tout pays autre que le Japon : 外国に行く, aller à l'étranger. La personne se dit 外国人.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_192 (nuance d'ENTRY)",
+   "entree": "v_192",
+   "mot": "弾く",
+   "lot": "lot-09",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "引く",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_130"
+     ]
+    }
+   ],
+   "nuance": "Seulement pour les cordes et les claviers (ギター, ピアノ) ; les instruments à vent se jouent avec 吹く, les percussions avec 叩く. Homophone : 引く (tirer), un autre mot.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_192_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_193 (nuance d'ENTRY)",
+   "entree": "v_193",
+   "mot": "散歩",
+   "lot": "lot-09",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "犬の散歩",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "散歩する : se promener ; 公園を散歩する, se promener dans le parc ; 犬の散歩, la promenade du chien.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_196 (nuance d'ENTRY)",
+   "entree": "v_196",
+   "mot": "映画",
+   "lot": "lot-09",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "映画を見る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "L'œuvre ; la salle se dit 映画館. 映画を見る : regarder un film.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_198 (nuance d'ENTRY)",
+   "entree": "v_198",
+   "mot": "泳ぐ",
+   "lot": "lot-09",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "プールで泳ぐ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Le lieu se marque avec で : プールで泳ぐ.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_199 (nuance d'ENTRY)",
+   "entree": "v_199",
+   "mot": "遊ぶ",
+   "lot": "lot-09",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "友達と遊ぶ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Jouer, sortir se divertir ; avec と pour la personne : 友達と遊ぶ.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_243 (nuance d'ENTRY)",
+   "entree": "v_243",
+   "mot": "国",
+   "lot": "lot-09",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "国に帰る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "お国はどちらですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Désigne aussi le pays ou la région d'origine de quelqu'un : 国に帰る, rentrer au pays ; お国はどちらですか, d'où venez-vous ?",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_676 (nuance d'ENTRY)",
+   "entree": "v_676",
+   "mot": "歌",
+   "lot": "lot-09",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "歌を歌う",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "nuance": "歌を歌う : chanter une chanson.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_689 (nuance d'ENTRY)",
+   "entree": "v_689",
+   "mot": "絵",
+   "lot": "lot-09",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "絵を描く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "かく",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_556"
+     ]
+    }
+   ],
+   "nuance": "Une image dessinée ou peinte ; 絵を描く (かく) : dessiner, peindre.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_707 (nuance d'ENTRY)",
+   "entree": "v_707",
+   "mot": "釣り",
+   "lot": "lot-09",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "釣りに行く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "釣りをする, 釣りに行く : aller à la pêche.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_43 (nuance d'ENTRY)",
+   "entree": "v_43",
+   "mot": "隣",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "隣の家",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "L'emplacement immédiatement voisin : 隣の人, le voisin ; 隣の家, la maison d'à côté ; 隣の席, la place d'à côté.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_341 (nuance d'ENTRY)",
+   "entree": "v_341",
+   "mot": "そば",
+   "lot": "lot-10",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "蕎麦",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Tout près de quelqu'un ou de quelque chose : 駅のそば. Homophone : 蕎麦 (les nouilles soba), un autre mot.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_346 (nuance d'ENTRY)",
+   "entree": "v_346",
+   "mot": "中",
+   "lot": "lot-10",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "ちゅう",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "じゅう",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_384"
+     ]
+    }
+   ],
+   "nuance": "Avec の et に : 箱の中に, dans la boîte. Lu ちゅう ou じゅう, 〜中 est un suffixe, une autre unité.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_347_s1",
+   "entree": "v_347",
+   "mot": "先",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "この先",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "ペンの先",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "この先 : plus loin ; ペンの先 : la pointe du stylo.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_347_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_348_s2",
+   "entree": "v_348",
+   "mot": "前",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "三年前",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "食べる前に",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "三年前 : il y a trois ans ; 食べる前に : avant de manger.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_348_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_349 (nuance d'ENTRY)",
+   "entree": "v_349",
+   "mot": "北",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "北口",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Exemple : 北口, la sortie nord.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_349_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_350 (nuance d'ENTRY)",
+   "entree": "v_350",
+   "mot": "南",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "南口",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Exemple : 南口, la sortie sud.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_350_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_352 (nuance d'ENTRY)",
+   "entree": "v_352",
+   "mot": "外",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "外で遊ぶ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Par opposition à l'intérieur (中) : 外で遊ぶ, jouer dehors.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_356 (nuance d'ENTRY)",
+   "entree": "v_356",
+   "mot": "横",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "横に置く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "L'espace juste à côté ou le flanc : 横に置く ; aussi le sens horizontal, par opposition à 縦.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_358 (nuance d'ENTRY)",
+   "entree": "v_358",
+   "mot": "角",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "次の角を右に曲がる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "つの",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "L'angle de deux rues ou le coin d'un bâtiment : 次の角を右に曲がる, tourner à droite au prochain coin. Lu つの, 角 (la corne) est un autre mot.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_360 (nuance d'ENTRY)",
+   "entree": "v_360",
+   "mot": "近い",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "駅に近い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Une distance courte, dans l'espace ou dans le temps : 駅に近い, près de la gare.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_360_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_362 (nuance d'ENTRY)",
+   "entree": "v_362",
+   "mot": "遠い",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "駅から遠い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Une grande distance, dans l'espace ou dans le temps : 駅から遠い.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_597 (nuance d'ENTRY)",
+   "entree": "v_597",
+   "mot": "縦",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "縦に書く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "La dimension de haut en bas, ou le sens de la longueur ; contraire : 横 (l'horizontale, la largeur). 縦に書く : écrire verticalement.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_597_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_630 (nuance d'ENTRY)",
+   "entree": "v_630",
+   "mot": "下",
+   "lot": "lot-10",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "机の下に",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Avec に : 机の下に, sous le bureau.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_696 (nuance d'ENTRY)",
+   "entree": "v_696",
+   "mot": "表",
+   "lot": "lot-10",
+   "classe": "E-autre-mot",
+   "chaines": [
+    {
+     "chaine": "ひょう",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Le côté visible, la face avant, le recto, l'extérieur d'un bâtiment ; contraire : 裏 (l'envers). Lu ひょう, 表 (tableau) est un autre mot.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_696_s1"
+   ]
+  },
+  {
+   "sens": "v_704_s1",
+   "entree": "v_704",
+   "mot": "近く",
+   "lot": "lot-10",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "駅の近くに",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "駅の近くに : près de la gare.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_704_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_704_s2",
+   "entree": "v_704",
+   "mot": "近く",
+   "lot": "lot-10",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "近く結婚します",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "近く結婚します : il se marie prochainement.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_704_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_339_s1",
+   "entree": "v_339",
+   "mot": "こちら",
+   "lot": "lot-11",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "こっち",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_409",
+      "v_409"
+     ]
+    }
+   ],
+   "nuance": "Forme polie de こっち : こちらへどうぞ, par ici, je vous prie.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_339_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_339_s2",
+   "entree": "v_339",
+   "mot": "こちら",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "こちらこそ",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    },
+    {
+     "chaine": "こちらは田中です",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "こちらこそ : c'est moi qui vous remercie ; au téléphone, こちらは田中です.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_339_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_340_s1",
+   "entree": "v_340",
+   "mot": "そちら",
+   "lot": "lot-11",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "そっち",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_414",
+      "v_414"
+     ]
+    }
+   ],
+   "nuance": "Forme polie de そっち : une direction ou un endroit proche de l'interlocuteur.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_340_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_343_s1",
+   "entree": "v_343",
+   "mot": "どっち",
+   "lot": "lot-11",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "どちら",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_396",
+      "v_396"
+     ]
+    }
+   ],
+   "nuance": "Familier ; plus poli : どちら. Pour deux éléments comme pour deux directions.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_343_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_390_s1",
+   "entree": "v_390",
+   "mot": "いかが",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "お茶はいかがですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Forme polie de どう : いかがですか, comment allez-vous ?, qu'en pensez-vous ? Aussi pour proposer : お茶はいかがですか.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_390_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_393_s1",
+   "entree": "v_393",
+   "mot": "どう",
+   "lot": "lot-11",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "いかが",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_390",
+      "v_390"
+     ]
+    }
+   ],
+   "nuance": "La manière, l'état, l'avis : どうですか, comment est-ce ?, qu'en pensez-vous ? Plus poli : いかが.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_393_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_396_s1",
+   "entree": "v_396",
+   "mot": "どちら",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "コーヒーと紅茶とどちらがいいですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Pour choisir entre deux : コーヒーと紅茶とどちらがいいですか.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_396_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_396_s2",
+   "entree": "v_396",
+   "mot": "どちら",
+   "lot": "lot-11",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "どこ",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_395",
+      "v_395"
+     ]
+    }
+   ],
+   "nuance": "Forme polie de どこ : お国はどちらですか, d'où venez-vous ?",
+   "niveau": "sens",
+   "candidats377": [
+    "v_396_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_396_s3",
+   "entree": "v_396",
+   "mot": "どちら",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "どちら様ですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "どちら様ですか : à qui ai-je l'honneur ?",
+   "niveau": "sens",
+   "candidats377": [
+    "v_396_s3"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_396 (nuance d'ENTRY)",
+   "entree": "v_396",
+   "mot": "どちら",
+   "lot": "lot-11",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "どこ",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_395",
+      "v_395"
+     ]
+    }
+   ],
+   "nuance": "Forme polie ; plus familier : どっち, どれ, どこ.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_396_s1",
+    "v_396_s2",
+    "v_396_s3"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_398_s1",
+   "entree": "v_398",
+   "mot": "どの",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "どの本ですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Toujours devant un nom : どの本ですか, quel livre ?",
+   "niveau": "sens",
+   "candidats377": [
+    "v_398_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_399_s1",
+   "entree": "v_399",
+   "mot": "どれ",
+   "lot": "lot-11",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "どちら",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_396",
+      "v_396"
+     ]
+    },
+    {
+     "chaine": "どっち",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_343",
+      "v_343"
+     ]
+    }
+   ],
+   "nuance": "Parmi trois éléments ou plus ; entre deux, どちら ou どっち.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_399_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_400_s1",
+   "entree": "v_400",
+   "mot": "なぜ",
+   "lot": "lot-11",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "どうして",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_394",
+      "v_394"
+     ]
+    }
+   ],
+   "nuance": "Un peu plus formel ou écrit que どうして.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_400_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_402_s1",
+   "entree": "v_402",
+   "mot": "誰",
+   "lot": "lot-11",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "どなた",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_397",
+      "v_397"
+     ]
+    }
+   ],
+   "nuance": "Plus poli : どなた.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_402_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_404_s1",
+   "entree": "v_404",
+   "mot": "あちら",
+   "lot": "lot-11",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "あそこ",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_403",
+      "v_403"
+     ]
+    },
+    {
+     "chaine": "あっち",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_405",
+      "v_405"
+     ]
+    }
+   ],
+   "nuance": "Forme polie d'あそこ et d'あっち.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_404_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_404_s2",
+   "entree": "v_404",
+   "mot": "あちら",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "あちらは田中さんです",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "あちらは田中さんです : voici M. Tanaka (en le montrant).",
+   "niveau": "sens",
+   "candidats377": [
+    "v_404_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_405_s1",
+   "entree": "v_405",
+   "mot": "あっち",
+   "lot": "lot-11",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "あちら",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_404",
+      "v_404"
+     ]
+    }
+   ],
+   "nuance": "Familier ; plus poli : あちら.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_405_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_406_s1",
+   "entree": "v_406",
+   "mot": "あの",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "あの本",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Toujours devant un nom : あの本. Désigne ce qui est éloigné des deux interlocuteurs.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_406_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_409_s2",
+   "entree": "v_409",
+   "mot": "こっち",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "こっちの話",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "こっちの話 : notre affaire, de notre côté.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_409_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_412_s1",
+   "entree": "v_412",
+   "mot": "こんな",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "こんな本",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Toujours devant un nom : こんな本, ce genre de livre ; ce qui ressemble à ce qui est proche du locuteur.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_412_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_414_s2",
+   "entree": "v_414",
+   "mot": "そっち",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "そっちはどう",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "そっちはどう？ : et de ton côté ?",
+   "niveau": "sens",
+   "candidats377": [
+    "v_414_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_581_s1",
+   "entree": "v_581",
+   "mot": "あなた",
+   "lot": "lot-11",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "さん",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_372"
+     ]
+    }
+   ],
+   "nuance": "À employer avec précaution : on lui préfère le nom de la personne suivi de さん. Courant en revanche entre époux.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_581_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_585_s1",
+   "entree": "v_585",
+   "mot": "いくつ",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "おいくつですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Pour un nombre d'objets, avec le compteur général 〜つ ; aussi pour l'âge : おいくつですか, quel âge avez-vous ?",
+   "niveau": "sens",
+   "candidats377": [
+    "v_585_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_606_s1",
+   "entree": "v_606",
+   "mot": "皆",
+   "lot": "lot-11",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "皆さん",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_687"
+     ]
+    }
+   ],
+   "nuance": "Souvent écrit みんな. Plus respectueux, pour s'adresser à un groupe : 皆さん.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_606_s1"
+   ]
+  },
+  {
+   "sens": "v_688_s1",
+   "entree": "v_688",
+   "mot": "私",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "わたくし",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    },
+    {
+     "chaine": "私の本",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Neutre et poli, pour tous ; plus formel : わたくし. Possessif : 私の本, mon livre.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_688_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_691_s1",
+   "entree": "v_691",
+   "mot": "自分",
+   "lot": "lot-11",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "自分でやります",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Sa propre personne ; s'emploie aussi pour « moi, je » : 自分でやります, je le fais moi-même.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_691_s1"
+   ]
+  },
+  {
+   "sens": "v_310 (nuance d'ENTRY)",
+   "entree": "v_310",
+   "mot": "午前",
+   "lot": "lot-12",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "午前十時",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Aussi devant une heure : 午前十時, dix heures du matin. Contraire : 午後.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_310_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_312 (nuance d'ENTRY)",
+   "entree": "v_312",
+   "mot": "去年",
+   "lot": "lot-12",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "おととし",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_285",
+      "v_285"
+     ]
+    }
+   ],
+   "nuance": "Plus courant que おととし (il y a deux ans).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_312_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_318 (nuance d'ENTRY)",
+   "entree": "v_318",
+   "mot": "明日",
+   "lot": "lot-12",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "あす",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Se lit aussi あす dans un registre plus formel (lecture documentée par la fiche, non reprise comme lecture structurée).",
+   "niveau": "entree",
+   "candidats377": [
+    "v_318_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_649 (nuance d'ENTRY)",
+   "entree": "v_649",
+   "mot": "午後",
+   "lot": "lot-12",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "午後三時",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Aussi devant une heure : 午後三時, trois heures de l'après-midi. Contraire : 午前.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_649_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_670_s2",
+   "entree": "v_670",
+   "mot": "昼",
+   "lot": "lot-12",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "昼にする",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "昼ご飯",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_92"
+     ]
+    }
+   ],
+   "nuance": "昼にする : faire la pause déjeuner ; le repas se dit aussi 昼ご飯.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_670_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_291 (nuance d'ENTRY)",
+   "entree": "v_291",
+   "mot": "一月",
+   "lot": "lot-13",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "いちがつ",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Lecture japonaise (ひとつき), pour la durée. À ne pas confondre avec いちがつ, janvier.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_365 (nuance d'ENTRY)",
+   "entree": "v_365",
+   "mot": "ゼロ",
+   "lot": "lot-14",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "れい",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_389"
+     ]
+    }
+   ],
+   "nuance": "Emprunt ; s'emploie comme 零 (れい) pour dire le chiffre zéro. La source donne aussi la traduction « néant », sans la développer.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_475 (nuance d'ENTRY)",
+   "entree": "v_475",
+   "mot": "色",
+   "lot": "lot-15",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "茶色",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_693"
+     ]
+    },
+    {
+     "chaine": "黄色",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_490"
+     ]
+    }
+   ],
+   "nuance": "S'emploie aussi en composé pour nommer une teinte, comme dans 茶色 et 黄色.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_473 (nuance d'ENTRY)",
+   "entree": "v_473",
+   "mot": "緑",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "緑の色",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Souvent suivi de の pour qualifier un nom : 緑の色.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_473_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_440 (nuance d'ENTRY)",
+   "entree": "v_440",
+   "mot": "大きい",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "小さい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_445"
+     ]
+    }
+   ],
+   "nuance": "Une taille, un volume ou une superficie. Contraire : 小さい.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_441 (nuance d'ENTRY)",
+   "entree": "v_441",
+   "mot": "大きな",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "大きい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_440"
+     ]
+    }
+   ],
+   "nuance": "Toujours placé directement devant un nom, sans ajout de la particule な. Dérivé de 大きい. L'exemple source l'emploie aussi pour une voix forte : 大きなこえ. La source donne aussi la traduction « important », sans la développer.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_441_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_445 (nuance d'ENTRY)",
+   "entree": "v_445",
+   "mot": "小さい",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "大きい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_440"
+     ]
+    }
+   ],
+   "nuance": "Une taille, un volume ou une superficie. Contraire : 大きい.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_446 (nuance d'ENTRY)",
+   "entree": "v_446",
+   "mot": "小さな",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "小さい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_445"
+     ]
+    }
+   ],
+   "nuance": "Toujours placé directement devant un nom, sans ajout de la particule な. Dérivé de 小さい. La source donne aussi la traduction « modeste », sans la développer.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_468 (nuance d'ENTRY)",
+   "entree": "v_468",
+   "mot": "短い",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "長い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_485"
+     ]
+    }
+   ],
+   "nuance": "Une longueur dans l'espace (une corde, des cheveux) ou une durée. Contraire : 長い.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_468_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_448 (nuance d'ENTRY)",
+   "entree": "v_448",
+   "mot": "広い",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "狭い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_463"
+     ]
+    }
+   ],
+   "nuance": "Une grande superficie, une pièce spacieuse, un espace étendu. Contraire : 狭い.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_448_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_463 (nuance d'ENTRY)",
+   "entree": "v_463",
+   "mot": "狭い",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "広い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_448"
+     ]
+    }
+   ],
+   "nuance": "Une superficie restreinte, un passage étroit, une pièce exiguë. Contraire : 広い.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_463_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_443 (nuance d'ENTRY)",
+   "entree": "v_443",
+   "mot": "太い",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "細い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_469"
+     ]
+    }
+   ],
+   "nuance": "Un objet allongé ou cylindrique de forte circonférence : un tronc d'arbre, une jambe, une corde. Contraire : 細い.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_443_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_469 (nuance d'ENTRY)",
+   "entree": "v_469",
+   "mot": "細い",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "太い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_443"
+     ]
+    }
+   ],
+   "nuance": "Un objet allongé ou un membre de faible circonférence ou épaisseur ; aussi un chemin étroit (このみちは細いです). Contraire : 太い.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_469_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_435 (nuance d'ENTRY)",
+   "entree": "v_435",
+   "mot": "厚い",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "薄い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_477"
+     ]
+    }
+   ],
+   "nuance": "L'épaisseur d'un objet plat ou volumineux : un livre, un manteau, une planche. Contraire : 薄い. La source donne aussi la traduction « chaleureux (pour l'accueil) », sans la développer.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_435_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_477_s1",
+   "entree": "v_477",
+   "mot": "薄い",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "厚い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_435"
+     ]
+    }
+   ],
+   "nuance": "Un objet plat de faible épaisseur : une feuille de papier. Contraire : 厚い.",
+   "niveau": "sens",
+   "candidats377": [
+    "v_477_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_183 (nuance d'ENTRY)",
+   "entree": "v_183",
+   "mot": "低い",
+   "lot": "lot-15",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "値段は低くありません",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Une faible hauteur ou un niveau peu élevé : une température, une note, une voix, un prix (値段は低くありません). Pour dire « bon marché », on emploie plutôt 安い. Contraire : 高い.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_183_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_484_s1",
+   "entree": "v_484",
+   "mot": "重い",
+   "lot": "lot-15",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "軽い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_62"
+     ]
+    }
+   ],
+   "nuance": "Contraire : 軽い.",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_484_s1"
+   ]
+  },
+  {
+   "sens": "v_430 (nuance d'ENTRY)",
+   "entree": "v_430",
+   "mot": "下手",
+   "lot": "lot-16",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "上手",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_429"
+     ]
+    }
+   ],
+   "nuance": "Le manque d'habileté dans une activité : りょうりが下手です (cuisiner mal). Contraire : 上手.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_430_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_486 (nuance d'ENTRY)",
+   "entree": "v_486",
+   "mot": "難しい",
+   "lot": "lot-16",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "易しい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_456"
+     ]
+    }
+   ],
+   "nuance": "Une tâche, une question ou une situation qui demande de l'effort ou de la réflexion. Contraire : 易しい.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_486_s1"
+   ]
+  },
+  {
+   "sens": "v_453 (nuance d'ENTRY)",
+   "entree": "v_453",
+   "mot": "新しい",
+   "lot": "lot-17",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "古い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_436"
+     ]
+    }
+   ],
+   "nuance": "Ce qui vient d'être acquis ou fabriqué, ou qui est récent. Contraire : 古い.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_451 (nuance d'ENTRY)",
+   "entree": "v_451",
+   "mot": "強い",
+   "lot": "lot-17",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "弱い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_449"
+     ]
+    }
+   ],
+   "nuance": "La force physique, la robustesse ou l'intensité : あめが強いです (la pluie est forte). Contraire : 弱い.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_451_s1"
+   ]
+  },
+  {
+   "sens": "v_449 (nuance d'ENTRY)",
+   "entree": "v_449",
+   "mot": "弱い",
+   "lot": "lot-17",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "強い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_451"
+     ]
+    }
+   ],
+   "nuance": "Un manque de force physique, de résistance ou d'intensité : かぜが弱いです (le vent est faible). Contraire : 強い.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_449_s1"
+   ]
+  },
+  {
+   "sens": "v_483 (nuance d'ENTRY)",
+   "entree": "v_483",
+   "mot": "遅い",
+   "lot": "lot-17",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "はやい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_454",
+      "v_482"
+     ]
+    }
+   ],
+   "nuance": "La fiche donne はやい pour contraire, pour la vitesse comme pour l'heure.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_483_s2"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_461_s1",
+   "entree": "v_461",
+   "mot": "汚い",
+   "lot": "lot-17",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "きれい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_424",
+      "v_424"
+     ]
+    }
+   ],
+   "nuance": "Un endroit ou un objet qui manque de propreté. Contraire : きれい, au sens de « propre ».",
+   "niveau": "sens",
+   "candidats377": [
+    "v_461_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_489 (nuance d'ENTRY)",
+   "entree": "v_489",
+   "mot": "静か",
+   "lot": "lot-17",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "賑やか",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_478"
+     ]
+    }
+   ],
+   "nuance": "Un endroit sans bruit ni agitation, ou une atmosphère paisible et sereine. Contraire : 賑やか.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_489_s1"
+   ]
+  },
+  {
+   "sens": "v_710 (nuance d'ENTRY)",
+   "entree": "v_710",
+   "mot": "開く",
+   "lot": "lot-18",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "開ける",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_580"
+     ]
+    }
+   ],
+   "nuance": "Intransitif : une porte, une fenêtre, un magasin ou un contenant s'ouvre, de lui-même ou par une action. ドアが開きます (la porte s'ouvre). Désigne aussi l'état qui en résulte : être ouvert. Ouvrir quelque chose se dit 開ける.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_710_s1"
+   ]
+  },
+  {
+   "sens": "v_579 (nuance d'ENTRY)",
+   "entree": "v_579",
+   "mot": "閉まる",
+   "lot": "lot-18",
+   "classe": "D-exemple-construit",
+   "chaines": [
+    {
+     "chaine": "ドアが閉まりました",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Intransitif : une porte, une fenêtre ou un magasin se ferme, de lui-même. ドアが閉まりました (la porte s'est fermée). Désigne aussi l'état qui en résulte : être fermé. Fermer quelque chose se dit 閉める.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_579_s1"
+   ]
+  },
+  {
+   "sens": "v_709 (nuance d'ENTRY)",
+   "entree": "v_709",
+   "mot": "閉める",
+   "lot": "lot-18",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "閉まる",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_579"
+     ]
+    }
+   ],
+   "nuance": "Transitif : fermer une porte, une fenêtre, un tiroir ou un couvercle. Se fermer se dit 閉まる.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_709_s1"
+   ]
+  },
+  {
+   "sens": "v_561 (nuance d'ENTRY)",
+   "entree": "v_561",
+   "mot": "消す",
+   "lot": "lot-18",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "消える",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_560"
+     ]
+    }
+   ],
+   "nuance": "Transitif, pour une action volontaire. S'éteindre et disparaître se disent 消える. La source donne aussi la traduction « faire disparaître », sans la développer.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_561_s2"
+   ],
+   "dans147": [
+    "v_561_s1"
+   ]
+  },
+  {
+   "sens": "v_541 (nuance d'ENTRY)",
+   "entree": "v_541",
+   "mot": "取る",
+   "lot": "lot-18",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "撮る",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_171"
+     ]
+    }
+   ],
+   "nuance": "Prendre une photo s'écrit 撮る, de même lecture : c'est un autre mot.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_541_s1",
+    "v_541_s2"
+   ]
+  },
+  {
+   "sens": "v_130 (nuance d'ENTRY)",
+   "entree": "v_130",
+   "mot": "引く",
+   "lot": "lot-18",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "弾く",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_192"
+     ]
+    }
+   ],
+   "nuance": "Jouer d'un instrument à cordes ou du piano s'écrit 弾く, de même lecture : c'est un autre mot. La source donne aussi la traduction « tracer (une ligne) », sans la développer.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_130_s2"
+   ],
+   "dans147": [
+    "v_130_s1"
+   ]
+  },
+  {
+   "sens": "v_528 (nuance d'ENTRY)",
+   "entree": "v_528",
+   "mot": "並ぶ",
+   "lot": "lot-18",
+   "classe": "A-renvoi",
+   "chaines": [
+    {
+     "chaine": "並べる",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_529"
+     ]
+    }
+   ],
+   "nuance": "Intransitif. Aligner ou disposer des objets se dit 並べる.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_528_s2"
+   ],
+   "dans147": [
+    "v_528_s1"
+   ]
+  },
+  {
+   "sens": "v_529 (nuance d'ENTRY)",
+   "entree": "v_529",
+   "mot": "並べる",
+   "lot": "lot-18",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "並ぶ",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_528"
+     ]
+    }
+   ],
+   "nuance": "Transitif : ranger, aligner ou disposer des objets côte à côte, de manière ordonnée. つくえのうえにほんを並べます (je dispose les livres sur le bureau). Être aligné, faire la queue se disent 並ぶ. La source donne aussi la traduction « exposer », sans la développer.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_529_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_551 (nuance d'ENTRY)",
+   "entree": "v_551",
+   "mot": "座る",
+   "lot": "lot-19",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ている",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "nuance": "S'asseoir : いすに座ってください (veuillez vous asseoir sur la chaise). L'état « être assis » se dit à la forme en ている.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_551_s1"
+   ]
+  },
+  {
+   "sens": "v_568 (nuance d'ENTRY)",
+   "entree": "v_568",
+   "mot": "立つ",
+   "lot": "lot-19",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ている",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Se mettre debout : いすから立ってください (veuillez vous lever de la chaise). L'état « être debout » se dit à la forme en ている.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_568_s1"
+   ]
+  },
+  {
+   "sens": "v_569 (nuance d'ENTRY)",
+   "entree": "v_569",
+   "mot": "結婚",
+   "lot": "lot-19",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "する",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_181",
+      "v_181"
+     ]
+    },
+    {
+     "chaine": "結婚する",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "nuance": "L'union matrimoniale. Avec する, 結婚する : se marier. らいねん結婚します (je me marierai l'année prochaine).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_685 (nuance d'ENTRY)",
+   "entree": "v_685",
+   "mot": "生活",
+   "lot": "lot-19",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "する",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_181",
+      "v_181"
+     ]
+    }
+   ],
+   "nuance": "Le train-train quotidien, la vie de tous les jours, les conditions d'existence. Avec する : vivre, subvenir à ses besoins. まいにちたのしい生活をしています (je mène une vie quotidienne agréable tous les jours).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_685_s1"
+   ]
+  },
+  {
+   "sens": "v_516 (nuance d'ENTRY)",
+   "entree": "v_516",
+   "mot": "ある",
+   "lot": "lot-20",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "居る",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_548"
+     ]
+    }
+   ],
+   "nuance": "Pour les choses inanimées : objets, lieux, notions abstraites. Pour les êtres vivants, on emploie 居る.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_516_s1",
+    "v_516_s2"
+   ]
+  },
+  {
+   "sens": "v_548 (nuance d'ENTRY)",
+   "entree": "v_548",
+   "mot": "居る",
+   "lot": "lot-20",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ある",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_516",
+      "v_516"
+     ]
+    }
+   ],
+   "nuance": "L'existence ou la présence d'êtres animés, humains et animaux : へやのなかにこどもが居ます (il y a un enfant dans la pièce). Pour les objets inanimés, on emploie ある.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": [
+    "v_548_s1"
+   ]
+  },
+  {
+   "sens": "v_523_s1",
+   "entree": "v_523",
+   "mot": "出来る",
+   "lot": "lot-20",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "わたしはにほんごが出来る",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "La capacité ou la possibilité, physique ou mentale, de faire quelque chose : savoir faire, être capable. わたしはにほんごが出来る (je peux parler japonais).",
+   "niveau": "sens",
+   "candidats377": [
+    "v_523_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_544 (nuance d'ENTRY)",
+   "entree": "v_544",
+   "mot": "困る",
+   "lot": "lot-20",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ている",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Une situation délicate, un problème ou un embarras où l'on ne sait comment réagir : おかねがなくて、困っています (je n'ai pas d'argent, je suis dans l'embarras). Souvent à la forme en ている, pour un état qui dure.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_608_s1",
+   "entree": "v_608",
+   "mot": "やる",
+   "lot": "lot-20",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "する",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_181",
+      "v_181"
+     ]
+    }
+   ],
+   "nuance": "Familier, très employé à l'oral, pour する : s'adonner à une activité, s'occuper de quelque chose. あした、テニスをやるよ (demain, je fais du tennis !).",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_608_s1"
+   ]
+  },
+  {
+   "sens": "v_608_s2",
+   "entree": "v_608",
+   "mot": "やる",
+   "lot": "lot-20",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "上げる",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_527"
+     ]
+    }
+   ],
+   "nuance": "Donner à un animal, à une plante, ou à quelqu'un d'inférieur ; la fiche le rapproche de 上げる (« ageru »).",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_608_s2"
+   ]
+  },
+  {
+   "sens": "v_470 (nuance d'ENTRY)",
+   "entree": "v_470",
+   "mot": "終わる",
+   "lot": "lot-20",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "しごとが終わりました",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Intransitif : une action, un événement ou une période arrive à son terme. しごとが終わりました (le travail est terminé).",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_500_s1",
+   "entree": "v_500",
+   "mot": "また",
+   "lot": "lot-21",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "またね",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "nuance": "La répétition d'une action ou le retour d'un état, une fois de plus. S'emploie aussi pour prendre congé : またね (à plus, à bientôt) ; またあいましょう (à bientôt).",
+   "niveau": "sens",
+   "candidats377": [],
+   "dans147": [
+    "v_500_s1"
+   ]
+  },
+  {
+   "sens": "v_454 (nuance d'ENTRY)",
+   "entree": "v_454",
+   "mot": "早い",
+   "lot": "lot-21",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "速い",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_482"
+     ]
+    }
+   ],
+   "nuance": "Un moment matinal, ou ce qui arrive avant l'heure habituelle : あしたは早いです (demain, je commence ou je me lève tôt). Ne pas confondre avec 速い (rapide), qui s'écrit avec un autre kanji.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_417 (nuance d'ENTRY)",
+   "entree": "v_417",
+   "mot": "それでは",
+   "lot": "lot-23",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "じゃあ",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_413",
+      "v_413"
+     ]
+    }
+   ],
+   "nuance": "Forme polie et complète de jaa (じゃあ), selon la fiche ; registre formel.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_417_s1",
+    "v_417_s2",
+    "v_417_s3"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_654 (nuance d'ENTRY)",
+   "entree": "v_654",
+   "mot": "多い",
+   "lot": "lot-24",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "このとしょかんはほんがおおいです",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Qualifie une grande quantité de choses ou de personnes : このとしょかんはほんがおおいです (il y a beaucoup de livres dans cette bibliothèque). Lorsqu'il qualifie directement un nom, il se place généralement avant celui-ci.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_654_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_447 (nuance d'ENTRY)",
+   "entree": "v_447",
+   "mot": "少ない",
+   "lot": "lot-24",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "このまちはくるまがすくないです",
+     "classe": "B-transcription",
+     "renvoi": []
+    },
+    {
+     "chaine": "多い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_654"
+     ]
+    }
+   ],
+   "nuance": "Qualifie une quantité restreinte ou un nombre faible d'éléments ou de personnes : このまちはくるまがすくないです (il y a peu de voitures dans cette ville). Antonyme de 多い, selon la fiche.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_447_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_655 (nuance d'ENTRY)",
+   "entree": "v_655",
+   "mot": "大勢",
+   "lot": "lot-24",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "こうえんにおおぜいのひとがいます",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Une grande foule ou un nombre élevé de personnes, exclusivement pour des personnes ; suivi de の devant un nom : こうえんにおおぜいのひとがいます (il y a beaucoup de monde au parc). La fiche le dit aussi adverbe.",
+   "niveau": "entree",
+   "candidats377": [],
+   "dans147": []
+  },
+  {
+   "sens": "v_639 (nuance d'ENTRY)",
+   "entree": "v_639",
+   "mot": "全部",
+   "lot": "lot-24",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "りんごをぜんぶたべました",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "L'intégralité d'une quantité ou d'un groupe d'objets : りんごをぜんぶたべました (j'ai tout mangé des pommes). Souvent placé près du verbe, ou suivi de の lorsqu'il qualifie un nom. La fiche le dit aussi nom.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_639_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_509_s1",
+   "entree": "v_509",
+   "mot": "少し",
+   "lot": "lot-24",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "みずをすこしください",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Une faible quantité : みずをすこしください (donnez-moi un peu d'eau, s'il vous plaît).",
+   "niveau": "sens",
+   "candidats377": [
+    "v_509_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_509 (nuance d'ENTRY)",
+   "entree": "v_509",
+   "mot": "少し",
+   "lot": "lot-24",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ちょっと",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_497",
+      "v_497"
+     ]
+    }
+   ],
+   "nuance": "Plus neutre ou écrit que ちょっと, très proche d'usage. La fiche le dit aussi nom.",
+   "niveau": "entree",
+   "candidats377": [
+    "v_509_s1",
+    "v_509_s2",
+    "v_509_s3"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_471_s1",
+   "entree": "v_471",
+   "mot": "結構",
+   "lot": "lot-24",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "このえいがはけっこうおもしろいです",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Un degré tout à fait satisfaisant : このえいがはけっこうおもしろいです (ce film est assez intéressant).",
+   "niveau": "sens",
+   "candidats377": [
+    "v_471_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_517_s1",
+   "entree": "v_517",
+   "mot": "一番",
+   "lot": "lot-24",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "にほんごのなかでなにがいちばんすきですか",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Le superlatif absolu, « le plus… » de tous : にほんごのなかでなにがいちばんすきですか (qu'est-ce que vous aimez le plus en japonais ?).",
+   "niveau": "sens",
+   "candidats377": [
+    "v_517_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_546_s1",
+   "entree": "v_546",
+   "mot": "大体",
+   "lot": "lot-24",
+   "classe": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "しごとはだいたいおわりました",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "nuance": "Une approximation, grosso modo, sans entrer dans les détails : しごとはだいたいおわりました (le travail est à peu près terminé).",
+   "niveau": "sens",
+   "candidats377": [
+    "v_546_s1"
+   ],
+   "dans147": []
+  },
+  {
+   "sens": "v_546 (nuance d'ENTRY)",
+   "entree": "v_546",
+   "mot": "大体",
+   "lot": "lot-24",
+   "classe": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "たいてい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_519",
+      "v_519"
+     ]
+    }
+   ],
+   "nuance": "Très proche de たいてい, selon la fiche. La fiche le dit aussi nom, et donne « presque (la plupart du temps) ».",
+   "niveau": "entree",
+   "candidats377": [
+    "v_546_s1",
+    "v_546_s2"
+   ],
+   "dans147": []
+  }
+ ]
+}

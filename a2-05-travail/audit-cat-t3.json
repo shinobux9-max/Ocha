@@ -1,0 +1,162 @@
+{
+  "v_541_s1": {
+    "f": "A",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@G10"],
+    "c": "持つ, sens 1 « Tenir », dont la raison renvoie à ce sens, est sans catégorie (même tranche). 置く « Poser » est en espace › position et localisation : sa fiche décrit le lieu où l'objet est placé. Le criblage rapprochait cinq sens traduits « Prendre » (C1-a, C3-b) : 乗る (un transport), 撮る (une photo), 浴びる (une douche), かかる (du temps) et celui-ci ; ce sont cinq mots et cinq référents, que seul le français réunit ; aucun écart.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de saisir ou de prendre un objet avec la main » ; l'exemple dit « veuillez prendre le stylo qui est sur la table ». Un geste de la main sur un objet quelconque : aucun domaine d'A2-L3 ne le décrit, et seule une catégorie « Actions », que l'architecture refuse, l'accueillerait. L'emploi « prendre une photo » a été écarté comme confusion de la source (D1201) ; il ne donne aucun domaine à ce sens. La raison de D1202 tient."
+  },
+  "v_665_s1": {
+    "f": "A",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3r1"],
+    "c": "取る, sens 1 « Prendre », auquel la raison renvoie, est sans catégorie (même tranche). Le sens 2 de la même ENTRY, « Posséder », a été confirmé L. かばん « Sac », objet de l'exemple, est en habillement › sacs et contenants personnels.",
+    "v": "L",
+    "m": "La fiche décrit « l'action physique de tenir ou de porter quelque chose dans ses mains » ; l'exemple dit « je porte (tiens) mon sac en y allant ». Avoir un objet en main ou sur soi, quel qu'il soit : aucun domaine. Le sac de l'exemple est un contexte. « Porter » n'est pas ici un déplacement : la fiche dit « dans ses mains », non d'un lieu à un autre. Sur la lecture de cette fiche, et non par renvoi à 取る : la raison de D1310 tient."
+  },
+  "v_79_s1": {
+    "f": "A",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3pos"],
+    "c": "上げる, sens 2 « Lever », est en espace › mouvement et déplacement › monter, descendre : sa fiche décrit le fait de « lever, élever ou monter un objet », une direction. 引く, sens 1 « Tirer », est sans catégorie (même tranche). ボタン, sens 2 « Bouton (d'appareil) », est en technologie › appareils électroniques : c'est l'objet.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de pousser un objet, d'appuyer sur un bouton, ou d'appliquer un tampon/sceau » ; l'exemple dit « j'appuie sur le bouton de la porte ». Trois objets pour un même geste, exercer une pression (D1207) : dans deux des trois, rien ne se déplace. Le mouvement ne décrit donc pas le sens, à la différence de 上げる, et ni le bouton ni le tampon ne donnent un domaine commun. La raison de D1208 tient."
+  },
+  "v_130_s1": {
+    "f": "A",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3pos", "@L3r6"],
+    "c": "押す « Pousser » est sans catégorie (même tranche). 上げる, sens 2 « Lever », est en mouvement et déplacement › monter, descendre. Le sens 2 de la même ENTRY, « Chercher (dans un dictionnaire) », est en communication et langage › langues.",
+    "v": "L",
+    "m": "La fiche dit seulement : « son sens premier est de tirer » ; l'exemple illustre le sens 2, et ce sens repose sur cette phrase et sur la traduction « Tirer ». La fiche ne dit ni ce que l'on tire, ni vers où : elle ne décrit pas un déplacement dans une direction, comme celle de 上げる. Rien n'y désigne un domaine. Les deux autres emplois de la source ont été écartés (D1210, confusion avec 弾く ; D1211, non développé) et ne donnent aucun domaine à ce sens. La raison de D1212 tient."
+  },
+  "v_50_s2": {
+    "f": "A",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3com", "@L3r6"],
+    "c": "Le sens 1 de la même ENTRY, « Ouvrir (un parapluie) », est en habillement › accessoires vestimentaires. 見せる « Montrer » et 教える, sens 2 « Indiquer », sont en communication › transmission : leurs fiches disent « faire voir un objet ou une information », « indiquer une information ou un chemin à quelqu'un ». 座る et 立つ, des postures, sont sans catégorie (tranche suivante, non audités).",
+    "v": "L",
+    "m": "La fiche dit que le verbe s'emploie aussi pour « tendre la main ou pointer quelque chose » ; l'exemple illustre le sens 1, et ce sens repose sur ces mots et sur la traduction « Pointer ». La fiche décrit un geste, non le fait de faire savoir quelque chose à quelqu'un : elle ne nomme ni destinataire ni information, ce qui distingue ce sens de 見せる et de 教える. Elle ne décrit pas non plus une direction dans l'espace. Aucun domaine ne nomme un geste de la main. La raison de D1217 tient."
+  },
+  "v_522_s2": {
+    "f": "B",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3r6"],
+    "c": "かける, sens 3 « Accrocher », auquel la raison renvoie, et 貼る « Coller » sont sans catégorie (même tranche). 締める « Serrer » est en habillement › accessoires vestimentaires : sa fiche cite la cravate et la ceinture. 置く « Poser » est en position et localisation. Le sens 1 de la même ENTRY est sans catégorie (audité à part).",
+    "v": "L",
+    "m": "La fiche dit que le verbe signifie aussi « attacher/fixer quelque chose » ; l'exemple illustre le sens 1, et ce sens repose sur ces mots et sur les traductions « Fixer », « Attacher ». La fiche ne dit ni quoi, ni à quoi, ni où : aucun objet typique ne donne un domaine, à la différence de 締める, et elle ne décrit pas un lieu, à la différence de 置く. La raison de D1195 tient."
+  },
+  "v_164_s3": {
+    "f": "B",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3pos", "@L3r6"],
+    "c": "置く « Poser » est en espace › position et localisation : sa fiche décrit « poser ou placer un objet sur une surface (table, étagère, sol) » (D1220). Les sens 1 et 2 de la même ENTRY sont en communication › contact et en habillement › accessoires vestimentaires. 付ける, sens 2 « Fixer », dont la raison renvoie à ce sens, est sans catégorie (même tranche).",
+    "v": "L",
+    "m": "La fiche ne développe pas cet emploi : il repose sur la seule traduction « Accrocher ». Sa nuance dit que le sens du verbe « dépend entièrement du nom auquel il est associé » et s'oriente « vers le fait de projeter ou d'appliquer quelque chose sur un support » ; l'exemple illustre le sens 1. J'ai examiné « Position & localisation », qui porte 置く : la fiche de 置く décrit le lieu où l'objet est posé ; celle-ci ne décrit ni lieu ni objet pour « accrocher », et « un support » vaut pour ses trois sens. Elle n'est pas assez précise pour fonder une catégorie. La raison de D0521 tient."
+  },
+  "v_576_s1": {
+    "f": "B",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3pos", "@L3r1"],
+    "c": "置く « Poser » est en position et localisation, pour un objet placé sur une surface. テープ, sens 1 « Ruban adhésif », est en habitat › accessoires domestiques et 切手 « Timbre » en communication › transmission : ce sont des objets que la fiche cite. 付ける, sens 2 « Fixer », est sans catégorie (même tranche).",
+    "v": "L",
+    "m": "La fiche décrit « l'action de coller un timbre, une affiche, une étiquette ou du ruban adhésif sur une surface » ; l'exemple dit « je colle un timbre sur l'enveloppe ». Quatre objets de domaines différents, ce que D1204 relève : le timbre de l'exemple n'en est qu'un. « Sur une surface » rappelle 置く, mais le sens est ici la manière de fixer, par adhésion, non l'endroit où l'objet se trouve. Aucun domaine ne nomme le collage. La raison tient."
+  },
+  "v_539_s1": {
+    "f": "B",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3cuis", "@L3r1"],
+    "c": "作る, sens 2 « Préparer (un repas) », est en alimentation › cuisine et préparation. ナイフ « Couteau » est en alimentation › vaisselle et ustensiles › couverts. Le sens 2 de la même ENTRY est sans catégorie (audité à part).",
+    "v": "L",
+    "m": "La fiche décrit « l'action physique de trancher ou de couper un matériau avec un outil (ciseaux, couteau) » ; l'exemple dit « je coupe du papier avec des ciseaux ». A2-L3 nomme la découpe, mais en cuisine : la fiche parle d'« un matériau », et son exemple porte sur du papier. La catégorie de la cuisine ne décrirait qu'un cas, ce que D1198 dit. La raison tient."
+  },
+  "v_567_s1": {
+    "f": "B",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3net", "@LOT19"],
+    "c": "洗う « Laver » (lot 03) est en habitat › entretien domestique › nettoyage : sa fiche parle de « laver des objets, des vêtements ou des aliments avec de l'eau ». きれい, sens 2 « Propre », et 汚い, sens 1 « Sale », sont dans la même catégorie. 浴びる, sens 1 « Prendre (une douche) », est en hygiène et soins personnels › toilette corporelle.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de frotter pour nettoyer ou faire briller, le plus souvent utilisé pour se brosser les dents ou cirer des chaussures » ; l'exemple dit « je me brosse les dents tous les matins ». Les dents relèvent de l'hygiène de la personne, les chaussures de l'entretien des objets : deux niveaux 1, et la fiche met les dents en premier. Le sens est unique, par un choix arbitré au lot 18 (D1237). Aucune des deux catégories ne décrit le sens entier ; la doctrine du lot 19 s'applique. La raison de D1238 tient.",
+    "r": "Divergence signalée, sans verdict : 洗う, dont la fiche couvre aussi plusieurs domaines (objets, vêtements, aliments), porte une catégorie depuis le lot 03, quand 磨く n'en porte pas. 洗う n'est pas dans les 147 : c'est un point pour l'examen des autres candidats du volet 1. Si l'arbitrage jugeait « Nettoyage » suffisant pour 磨く, le cas deviendrait C ; la fiche, qui cite d'abord les dents, ne le soutient pas."
+  },
+  "v_580_s1": {
+    "f": "C",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3porte", "@L3r1", "@G44:transitif / intransitif"],
+    "c": "開く « S'ouvrir », auquel ce sens est relié par `transitive_of`, a été confirmé L : « portes et fenêtres » ne couvrait ni le magasin ni le contenant. 閉める « Fermer » est sans catégorie (même tranche). ドア, 戸 et 窓 sont en environnement construit › éléments architecturaux › portes et fenêtres, 箱 « Boîte » en habitat › rangement : ce sont les objets. 差す, sens 1, se traduit « Ouvrir (un parapluie) » : autre mot, autre référent (criblage, C1-a) ; aucun écart.",
+    "v": "L",
+    "m": "La fiche décrit « l'action intentionnelle d'ouvrir une porte, une fenêtre, une boîte ou un contenant » ; l'exemple dit « veuillez ouvrir la fenêtre ». La porte et la fenêtre relèvent d'un domaine, la boîte d'un autre : la fiche en nomme deux, et ranger le verbe avec ses objets ferait du contexte un domaine. Le verdict est cohérent avec celui de 開く. La raison de D1172 tient. Relevés du criblage : le type diffère de celui de 開く (`action` contre `evenement`, C3-e), ce qui est la différence attendue entre un transitif et son intransitif ; le renvoi de D1175 à la passe finale (C10-a) est soldé, la relation étant publiée depuis le lot 26 (D1573)."
+  },
+  "v_709_s1": {
+    "f": "C",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3porte", "@L3r1", "@G44:transitif / intransitif"],
+    "c": "閉まる « Se fermer », relié par `transitive_of`, a été confirmé L. 開ける « Ouvrir », auquel la raison renvoie, est sans catégorie (même tranche). 締める « Serrer », homophone que sa propre fiche demande de ne pas confondre, est en habillement › accessoires vestimentaires.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de fermer quelque chose (comme une porte, une fenêtre ou un couvercle) » ; sa traduction ajoute « un tiroir ». L'exemple, dont le texte japonais est altéré (D1182), se traduit « veuillez fermer la fenêtre ». Une porte, une fenêtre, un couvercle, un tiroir : des objets de domaines différents, introduits par « comme ». Aucun ne donne le domaine du verbe. Sur la lecture de cette fiche, et non par renvoi à 開ける : la raison de D1180 tient. Relevés du criblage : même différence de type attendue avec 閉まる (C3-e) ; le renvoi de D1183 (C10-a) est soldé par D1575."
+  },
+  "v_522_s1": {
+    "f": "C",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3equip", "@L3r1"],
+    "c": "消す, sens 1 « Éteindre », auquel la raison renvoie, est sans catégorie (même tranche) ; 消える, sens 1 « S'éteindre », a été confirmé L. Les appareils que cite la fiche sont publiés dans des catégories différentes : 電気, sens 2 « Lumière », en habitat › équipements domestiques › équipements fonctionnels ; ストーブ « Poêle (de chauffage) » en chauffage et climatisation ; テレビ « Télévision » en médias › télévision.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de mettre en marche un appareil électrique (lumière, climatiseur, télévision) » ; l'exemple dit « veuillez allumer la lumière de la pièce ». À la différence de 消す, la fiche ne parle pas du feu : j'ai donc examiné « Équipements domestiques ». Mais les trois appareils qu'elle cite relèvent, dans les données publiées, de deux niveaux 1 (habitat, médias) : aucune catégorie ne couvre « un appareil électrique », et ranger le verbe avec l'un d'eux ferait du contexte un domaine. La raison de D1194 tient."
+  },
+  "v_561_s1": {
+    "f": "C",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3equip", "@G44:transitif / intransitif"],
+    "c": "消える, sens 1 « S'éteindre », relié par `transitive_of`, a été confirmé L pour la même étendue (lumière, feu, source d'énergie). 付ける, sens 1 « Allumer », est sans catégorie (même tranche). Le sens 2 de la même ENTRY, « Effacer », est en communication et langage › écriture.",
+    "v": "L",
+    "m": "La fiche décrit « l'action intentionnelle d'éteindre un appareil électrique, une lumière ou un feu » ; l'exemple dit « veuillez éteindre la télévision avant de dormir ». Un appareil et un feu n'ont pas de domaine commun, ce que D1189 dit. Le verdict est cohérent avec celui de 消える. La raison tient. Relevés du criblage : différence de type attendue avec 消える (C3-e) ; le renvoi de D1192 (C10-a) est soldé par D1577."
+  },
+  "v_539_s2": {
+    "f": "C",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3com", "@LOT19"],
+    "c": "かける, sens 1 « Passer (un appel) », est en communication et langage › communication › contact. 消す, sens 1 « Éteindre », est sans catégorie (même tranche). 電話 « Téléphone (appareil) » est en technologie › appareils électroniques › téléphones.",
+    "v": "L",
+    "m": "La fiche dit que le verbe signifie aussi « couper une connexion / un appel » ; ses traductions donnent « Éteindre (un contact) » et « Raccrocher (un téléphone) » ; l'exemple illustre le sens 1. L'appel seul relèverait de « Contact », comme かける ; mais la fiche y joint une connexion, et un contact que l'on éteint, qui n'est pas une communication. Le sens est unique (D1197) et déborde ce domaine. La raison de D1199, qui l'explique, tient.",
+    "r": "La traduction principale publiée, « Raccrocher (un téléphone) », est plus étroite que le sens ; « Éteindre (un contact) » n'est qu'une autre traduction. Il en résulte une asymétrie visible avec かける, sens 1 « Passer (un appel) », catégorisé. Si le sens était réduit à l'appel, « Communication › Contact » conviendrait. Je le signale ; le découpage et la traduction ne sont pas l'objet de cet audit."
+  },
+  "v_637_s1": {
+    "f": "D",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@A9_31"],
+    "c": "Aucun autre sens publié n'exprime l'usage. 便利 « Pratique », qui porte l'axe utilité, est sans catégorie (L).",
+    "v": "L",
+    "m": "La fiche dit que le verbe signifie « utiliser un objet, un outil, de l'argent, une langue ou un service » ; l'exemple dit « j'utilise cet ordinateur ». Cinq sortes de choses, de l'économie au langage : la fiche nomme elle-même la généralité du sens. C'est l'action générique au sens le plus strict. La raison de D1206 tient. Relevé du criblage (C7-c) : la règle a vu « ou » dans la traduction « Employer (un objet ou une langue) » ; c'est une conjonction du français dans une glose, non un rôle du mot japonais. Aucune fonction `connecteur` n'est en cause."
+  },
+  "v_545_s1": {
+    "f": "D",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@DIM5"],
+    "c": "なる « Devenir » a été confirmé L : aucun sens publié ne range le changement dans un domaine. 着る « Mettre (un vêtement) » et 脱ぐ « Enlever (un vêtement) » sont en habillement › vêtements : leurs traductions nomment le vêtement.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de modifier, de transformer ou de remplacer quelque chose » ; l'exemple dit « je change la manière de lire ». « Quelque chose » : la fiche ne borne pas l'objet, et son exemple est abstrait. A2-DIM a examiné la transformation comme famille et ne l'a pas promue ; aucune catégorie ne la nomme. Le verdict est cohérent avec celui de なる. La raison de D1232 tient."
+  },
+  "v_532_s1": {
+    "f": "D",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3prod", "@L3r6"],
+    "c": "Le sens 2 de la même ENTRY, « Préparer (un repas) », est en alimentation › cuisine et préparation. 撮る « Prendre (une photo) » est en arts et création › arts visuels. 出来る, sens 2 « Être achevé / prêt », est sans catégorie (non audité ici).",
+    "v": "L",
+    "m": "La fiche décrit l'action « de fabriquer un objet […] ou de créer quelque chose de matériel ou d'immatériel » ; l'exemple illustre le sens 2. A2-L3 nomme la fabrication, mais dans « Production & industrie », avec l'assemblage et l'usinage : un domaine industriel, ce que D1236 relève. « Création artistique » ne décrirait que ce que crée un art. La fiche réunit le matériel et l'immatériel : aucun domaine ne couvre les deux. La raison tient."
+  },
+  "v_564_s1": {
+    "f": "D",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3r1"],
+    "c": "持つ « Tenir » est sans catégorie (même tranche) ; ある et 持つ, sens « Posséder », ont été confirmés L. 忘れる « Oublier » est en psychologie et esprit › mémoire. 財布 « Portefeuille », objet de l'exemple, est en habillement › sacs et contenants personnels.",
+    "v": "L",
+    "m": "La fiche décrit « l'action de perdre un objet matériel, de l'égarer au point de ne plus le retrouver » ; l'exemple dit « j'ai perdu mon portefeuille ». Ne plus avoir un objet, quel qu'il soit : aucun domaine ne nomme la perte, pas plus que la possession. Ce n'est pas un oubli : la fiche ne parle pas de mémoire. La conclusion de D0069 tient. Sa citation, elle, est inexacte dans la lettre (criblage, C9-a) : A2-GLOBAL §4.4 nomme l'« action générique », non l'« action générale » ; voir T4.3.",
+    "r": "D0069 est la seule raison de la tranche qui cite le §4.4 à l'appui de la formule « action générale ». L'écart est de formulation ; aucune donnée n'est en cause, et une décision validée ne se réécrit pas."
+  },
+  "v_541_s2": {
+    "f": "E",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3eval", "@L3r6"],
+    "c": "テスト « Examen » et 問題, sens 2 « Question (d'examen) », sont en éducation › évaluation scolaire › examens. 買う « Acheter » est en économie › achat et vente › achat. Le sens 1 de la même ENTRY est sans catégorie (audité à part).",
+    "v": "L",
+    "m": "La fiche dit que le verbe signifie aussi « obtenir quelque chose (comme une note ou un permis) » ; l'exemple illustre le sens 1. La note relèverait de l'évaluation scolaire, le permis de l'administration : deux domaines, que la fiche ne donne qu'en exemples (« comme ») d'un « quelque chose ». Aucun ne décrit le sens. La raison de D1203, qui le dit, tient."
+  },
+  "v_536_s3": {
+    "f": "E",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3com", "@L3eval", "@L3r6"],
+    "c": "Le sens 2 de la même ENTRY, « Envoyer (du courrier) », est en communication › transmission, comme 見せる « Montrer » (« faire voir un objet ou une information ») et 教える, sens 2 « Indiquer ». 渡す, sens 1 « Remettre », est sans catégorie (tranche suivante, non audité).",
+    "v": "L",
+    "m": "La fiche dit que le verbe exprime aussi l'action « de soumettre un document » ; l'exemple illustre le sens 2, et ce sens repose sur ces mots et sur la traduction « Présenter ». La fiche ne dit ni à qui, ni dans quel cadre : ni l'école ni l'administration, ce que D1225 relève. J'ai examiné « Transmission », que la raison ne discutait pas : soumettre un document, c'est le remettre pour qu'il soit reçu, non faire connaître une information à quelqu'un ; la fiche ne nomme aucun contenu communiqué. Elle n'est pas assez précise pour fonder cette catégorie. La raison tient.",
+    "r": "« Communication › Transmission » était la catégorie la plus proche, et porte le sens 2 de la même ENTRY. La question a été posée à l'arbitrage du 2026-10-08, qui confirme L : la soumission d'un document ne suffit pas à établir ce domaine."
+  },
+  "v_528_s1": {
+    "f": "E",
+    "n": ["@A5", "@G44:action générique", "@GEN", "@L3pos", "@G10", "@L3r6"],
+    "c": "Dans le même lot : 並べる « Aligner » (autre traduction publiée : « Mettre en rang ») et 置く « Poser » sont en espace › position et localisation, par un choix arbitré (D1229, D1220 ; choix 11 du lot 18) ; le sens 2 de la même ENTRY, « Être aligné », aussi. 待つ « Attendre » est sans catégorie (tranche suivante, non audité).",
+    "v": "C",
+    "m": "La fiche décrit en une phrase « le fait de se placer en ligne, de faire la file d'attente ou d'être disposé côte à côte de manière ordonnée » ; l'exemple dit « je fais la queue au guichet des billets ». Les trois termes disent une même notion spatiale : une disposition en ligne. Le lot 18 l'a reconnue pour l'état (« Être aligné », sens 2) et pour le transitif (並べる, dont « Mettre en rang » est une traduction publiée), tous deux en position et localisation ; il a laissé sans catégorie « Se mettre en rang », qui est la même disposition, prise par des personnes. Les deux sens de 並ぶ diffèrent par le référent et par le type (`action`, `etat`), non par le domaine. La fiche ne justifie pas la différence, et l'arbitrage du lot 18 n'a porté que sur la catégorie de 置く, de 並べる et du sens 2. Une catégorie publiée pour des sens comparables convient donc aussi à celui-ci : la condition de L n'est pas remplie.",
+    "k": "`category` : `null` → `espace_proprietes_spatiales › position_localisation`. L'avertissement `categorie-nulle` cesserait. Le type `action`, la particule に et la relation `transitive_of` de 並べる vers le sens 2 ne sont pas touchés.",
+    "r": "La question de savoir si faire la queue est d'abord une attente a été posée à l'arbitrage du 2026-10-08, qui confirme C : la catégorie est suffisamment pertinente au regard de la fiche entière et des comparables 並べる et 並ぶ, sens 2 ; `semantic_type: action` est conservé. La modification est retenue, non appliquée. Relevé du criblage (C10-a) : le renvoi de D1228 à la passe finale est soldé, la relation étant publiée sur 並べる (D1579), vers le sens 2."
+  }
+}

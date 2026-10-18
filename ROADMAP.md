@@ -2,7 +2,7 @@
 
 **Statut :** document de suivi global\
 **Branche concernée :** `ocha-v2`\
-**Dernière mise à jour :** 2026-10-12 (A2-05 en cours : volet 2 arbitré, volet 1 en cours, volet 3 non commencé ; aucune correction appliquée)
+**Dernière mise à jour :** 2026-10-18 (A2-05 en cours : volet 2 arbitré ; volet 1 : lots 1 et 2 arbitrés, lot 3 en cours, bloc A clos, 148 candidats arbitrés sur 377 ; volet 3 non commencé ; 185 corrections retenues, aucune appliquée)
 
 > Ce fichier répond à une question simple : **où en est Ocha v2, et que
 > reste-t-il à faire jusqu'à la version finale ?**
@@ -602,19 +602,68 @@ Points déjà réservés pour cet audit :
     sont des mots (山羊, 生活, 措置, 継続, 迅速) ;
 -   anomalies ou décisions transversales découvertes pendant les lots.
 
-**Avancement (au 2026-10-12).** **A2-05 est en cours ; l'étape 2 n'est pas terminée.** Trois volets,
-aux périmètres validés le 2026-10-07. **Volet 2** (audit individuel des 147 `null`) : terminé et
-arbitré le 2026-10-08, 147 sur 147 (L 136, F 2, C 9, N 0). **Volet 1** (cohérence rétroactive, axes
-C1 à C10) : criblage validé (443 candidats) ; lot 1 arbitré (19 sens : 14 conformes, 5 écarts) ;
-**377 candidats restent à examiner** ; lot 2, contrôle de provenance des nuances : tranche 1 (34
-unités), bloc 1 bis, tranches 2 à 5 et les 2 nuances hors JLPT arbitrés ; 148 des 278 nuances du
-plan recalculé sont arbitrées, **130 restent** (tranche 6 : 47 ; tranche 7 : 39 ; tranche 8 : 44) ;
-périmètre de la tranche 6 arbitré le 2026-10-12, audit de la livraison 6a autorisé, non commencé.
-**Volet 3** (contrôles globaux G1 à G7) : non commencé. **124 corrections retenues, dans 112 ENTRY,
-aucune appliquée** (dix modifications du volet 2, V1-1 à V1-5, V2-1 à V2-109) : `data/`, les lots,
-le journal, les registres, les snapshots, l'inventaire des avertissements, les outils et les tests
-sont ceux du commit `3d67594`. Relais : `docs/relecture/reprise-A2-05.md` ; liste des corrections :
-`docs/rapports/etape2-A2-05-bilan-volet2.md`, §8.
+**Dépendance apparue pendant l'audit** (périmètre de la cohérence rétroactive, arbitré le
+2026-10-07) : la fonction `interrogatif`, posée sur 17 sens sans définition normative, demande un
+addendum validé **avant la clôture de l'étape 2** ; l'examen de ces 17 sens en dépend. Séquence
+arbitrée le 2026-10-12 : adoption explicite de l'addendum, puis périmètre opérationnel de contrôle,
+puis examen des 17 sens et recherche d'omissions.
+
+**Avancement (au 2026-10-16).** **A2-05 est en cours ; l'étape 2 n'est pas terminée.** Trois volets, aux périmètres validés le
+2026-10-07. Les détails des arbitrages sont dans les rapports cités ; seul l'état est donné ici.
+
+- **Terminé et arbitré.** **Volet 2** (audit individuel des 147 `null`) : 147 sur 147, arbitré le
+  2026-10-08 (L 136, F 2, C 9, N 0). **Volet 1** (cohérence rétroactive, axes C1 à C10) : criblage
+  validé (443 candidats) ; **lot 1** arbitré (19 sens : 14 conformes, 5 écarts) ; **lot 2, contrôle
+  de provenance des nuances, clos documentairement le 2026-10-12** : les 278 nuances du plan sont
+  arbitrées (119 sourcées, 20 assumées, 139 écarts), avec, hors plan, les 34 unités de la tranche 1
+  et 2 nuances hors JLPT (bilan : `docs/rapports/etape2-A2-05-volet1-lot2-provenance-bilan.md`) ;
+  **lot 3, examen individuel des 377 candidats restants** : périmètre arbitré le 2026-10-12 (377
+  sens, 332 ENTRY, six blocs A à F, 40 livraisons ;
+  `docs/rapports/etape2-A2-05-volet1-lot3-perimetre.md`) ; livraisons **A1** (10 sens), **A2**
+  (9 sens), **A3** (9 sens), **A4** (8 sens), **A5** (11 sens), **A6** (11 sens) et **A7** (11 sens)
+  arbitrées : **les 69 sens du bloc A, 66 conformes et 3 écarts** (corrections V1-6, V1-7 et V1-8,
+  retenues). **Livraisons B1** (12 sens), **B2** (8 sens), **B3** (7 sens), **B4** (9 sens), **B5** (8 sens),
+  **B6** (9 sens), **B7** (9 sens), **B8** (7 sens) **et B9** (10 sens) arbitrées : 12, 8, 7, 9, 8, 7,
+  9, 7 et 10 conformes, et **2 écarts E1 en B6** (来る et 行く : `deictique`, corrections V1-9 et
+  V1-10, retenues) ; réserves documentaires : ページ en B3 ; 暗い et 明るい, sens 1, en B4 ; 練習 en
+  B5. **L'examen d'`espace_proprietes_spatiales` dans le bloc B est terminé** (B6 à B8). **148
+  candidats arbitrés sur 377 ; 229 restent**, dont 69 dans le bloc B et 17 dans le bloc F, suspendu. **Le bloc A est clos documentairement** (bilan arbitré le 2026-10-16 :
+  `docs/rapports/etape2-A2-05-volet1-lot3-blocA-bilan.md`).
+- **Proposé, non validé.** L'**étude de méthode est arbitrée** (2026-10-18 : neuf tranches T1 à T9 retenues en principe, sans déplacer aucun
+  sens ; T1 pilote ; T4 conditionnée au bilan du pilote ; périmètres générés, mais acceptés explicitement avant tout audit ;
+  relecture intégrale de chaque fiche maintenue). L'**outillage v2 est retenu en principe** (2026-10-18), sous réserve d'un contrôle final avant T1 ; contrôles des
+  motivations **bloquants par défaut** (attributions à vérifier en simple avertissement). L'**option B du checkpoint
+  (173 chemins) est retenue**, non exécutée : contrôle préalable entièrement conforme
+  (`docs/rapports/etape2-A2-05-checkpoint-B-controle.md`) ; plan de transition :
+  `docs/rapports/etape2-A2-05-plan-transition.md`. **Bloc B : 79 sens arbitrés sur 148 (B1 à B9) ; 69 restent.**
+  Une **proposition d'addendum sur la fonction
+  `interrogatif`** (préalable normatif E5, révision 3), recevable comme proposition prête pour un
+  arbitrage normatif distinct, **ni adoptée ni
+  normative**, rangée dans `docs/rapports/` et non dans `docs/conception/` ; numéro A10 seulement
+  pressenti. Aucune norme n'est modifiée.
+- **Corrections retenues, non appliquées.** **185 corrections, dans 165 ENTRY** : dix modifications
+  du volet 2, V1-1 à V1-5 (lot 1), V1-6 à V1-8 (lot 3, bloc A : type de 時間, sens 1, de ちょっと,
+  sens 2, et de 少し, sens 3), V1-9 et V1-10 (lot 3, B6 : `deictique` de 来る et de 行く), V2-1 à
+  V2-165 (provenance). `data/`, les lots, le journal, les
+  registres, les snapshots, l'inventaire des avertissements, les outils et les tests sont ceux du
+  commit `3d67594`. Liste : `docs/rapports/etape2-A2-05-bilan-volet2.md`, §8.
+- **Reste à faire, et blocages.** Les 229 candidats du lot 3, livraison par livraison, chacune sur
+  autorisation distincte. **Blocage : le bloc F (17 sens portant `interrogatif`) est suspendu**
+  au préalable E5, qui doit aboutir avant la clôture de l'étape 2, selon une séquence arbitrée :
+  adoption explicite de l'addendum ; puis périmètre opérationnel de contrôle, validé ; puis examen
+  des 17 sens et recherche d'omissions, comptabilisés séparément. Le rapport de conclusion du
+  criblage sur C6 et C9. Quatre vérifications hors périmètre (HP-1 à HP-4 : ひらがな, 漢字, 右, 左),
+  consignées, non commencées : leur examen individuel n'est pas autorisé, et leur cadre reste à
+  proposer. Deux questions de couverture d'A2-L3, consignées, restent à cadrer avant tout examen
+  normatif : QC-1 (la photographie ordinaire : 撮る, 写真, フィルム) et QC-2, provisoire (l'éclairage
+  d'un lieu : 暗い et 明るい, sens 1), documentaire, sans changement normatif. Le **volet 3** (contrôles globaux
+  G1 à G7), non commencé. Puis l'arbitrage global et l'application des corrections, sur
+  autorisations distinctes.
+- **Prochaine action.** Les autorisations distinctes de commit et de push du checkpoint B, après relecture de son
+  contrôle préalable ; puis la transition (plan) ; l'arbitrage normatif distinct de la proposition d'addendum. Aucun `git add`, commit ni push sans autorisations distinctes ; ni périmètre de T1 ni audit lexical.
+
+Les travaux postérieurs au checkpoint `558f150` (committé et poussé le 2026-10-12) sont
+documentaires et **ne sont ni committés ni poussés**. Relais : `docs/relecture/reprise-A2-05.md`.
 
 ------------------------------------------------------------------------
 

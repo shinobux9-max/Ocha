@@ -1,0 +1,124 @@
+// A2-05 · préalable normatif E5 : dossier préparatoire sur la fonction `interrogatif`. Lecture seule sur les données ; ne décide rien.
+// Usage : node prealable-E5.mjs <racine du dépôt>   (réécrit docs/rapports/etape2-A2-05-prealable-E5-interrogatif.md)
+import { readFileSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+const root = process.argv[2];
+if (!root) throw new Error('argument attendu : racine du dépôt');
+const txt = (p) => readFileSync(join(root, p), 'utf8');
+const read = (p) => JSON.parse(txt(p));
+const LF = String.fromCharCode(10);
+const vocab = [...read('data/n5/vocab.json'), ...read('data/vocab-hors-jlpt.json')];
+const sources = read('reconstruction/a2-04/sources/vocab.json');
+const srcMap = new Map(sources.map((e) => [e.id, e]));
+const journal = read('reconstruction/a2-04/journal.json');
+const crib = read('a2-05-travail/criblage/resultat.json');
+const registre = read('data/registries/linguistic-functions.json');
+const perimetre = txt('docs/rapports/etape2-A2-05-volet1-lot3-perimetre.md');
+const strip = (s) => String(s ?? '').replace(/<ruby>([^<]*)<rt>[^<]*<\/rt><\/[a-z]+>/g, '$1').replace(/<\/?[A-Za-z]+>/g, '').replace(/\*\*/g, '').replace(/\*/g, '').replace(/\s+/g, ' ').trim();
+const cat = (c) => (c ? [c.level_1, c.level_2, c.level_3].filter(Boolean).join(' › ') : 'null');
+const fct = (s) => [...(s.linguistic_functions?.grammatical ?? []), ...(s.linguistic_functions?.pragmatic_discourse ?? [])];
+const tous = vocab.flatMap((e) => e.senses.map((s) => ({ e, s })));
+const num = (d) => d.id.replace('A2-04-', '');
+
+// --- Les sens publiés qui portent la fonction
+const porteurs = tous.filter(({ s }) => fct(s).includes('interrogatif'));
+if (porteurs.length !== 17) throw new Error('17 sens attendus, trouvé ' + porteurs.length);
+if (porteurs.some(({ s }) => !(s.linguistic_functions.grammatical ?? []).includes('interrogatif'))) throw new Error('famille inattendue');
+const constat = crib.constats.interrogatif.map((x) => (typeof x === 'string' ? x : x.id)).sort();
+if (constat.length !== 17 || porteurs.some(({ s }) => !constat.includes(s.id))) throw new Error('les 17 sens ne sont pas ceux du constat du criblage');
+const entrees = [...new Set(porteurs.map(({ e }) => e.id))];
+const livraison = new Map([...perimetre.matchAll(/^\| \d+ \| (F\d) \| `(v_\d+_s\d+)` \|/gm)].map((m) => [m[2], m[1]]));
+if (porteurs.some(({ s }) => !livraison.has(s.id)) || livraison.size !== 17) throw new Error('bloc F : 17 sens attendus dans le périmètre arbitré');
+const compte = (L, f) => { const o = {}; for (const x of L) { const k = f(x); o[k] = (o[k] || 0) + 1; } return Object.entries(o).sort((a, b) => b[1] - a[1]).map(([k, n]) => '`' + k + '` : ' + n).join(' ; '); };
+const lotDe = (id) => crib.candidats.find((c) => c.id === id);
+if (porteurs.some(({ s }) => !lotDe(s.id) || lotDe(s.id).dans147.length)) throw new Error('un porteur est hors des candidats du volet 1');
+
+// --- Le journal
+const idsSrc = entrees.map((id) => 'n5_' + id);
+const decEntrees = journal.filter((d) => idsSrc.includes(d.entry));
+const decFonction = decEntrees.filter((d) => /linguistic_functions|fonction/i.test(d.field));
+const decCitant = journal.filter((d) => /interrogati/i.test(d.reason));
+const decTypeNul = decEntrees.filter((d) => /semantic_type/.test(d.field));
+if (decEntrees.some((d) => d.status !== 'validated')) throw new Error('décision non validée');
+// Les fonctions du registre, et leur emploi dans les données publiées
+const emploi = {}; for (const { s } of tous) for (const f of fct(s)) emploi[f] = (emploi[f] || 0) + 1;
+const DEFINIES = { deictique: 'A7', connecteur: 'A9', discours: 'A9', politesse: 'A9', quantificateur: 'A9', comparatif: 'A9', intensifieur: 'A9' };
+const fonctionsRegistre = registre.families.flatMap((f) => f.functions.map((x) => ({ famille: f.id, id: x.id })));
+if (!fonctionsRegistre.some((x) => x.id === 'interrogatif' && x.famille === 'grammatical')) throw new Error('registre : interrogatif absent');
+// Les fiches sources qui parlent d'interrogation sans que l'ENTRY publiée porte la fonction
+const voisines = sources.filter((f) => /interrog/i.test(String(f.nuance) + ' ' + f.type) && !idsSrc.includes(f.id));
+const sansMot = idsSrc.filter((id) => !/interrog/i.test(String(srcMap.get(id).nuance)));
+
+const P = [];
+P.push('# Étape 2 · A2-05 · Préalable normatif E5 — la fonction `interrogatif` : périmètre et questions à trancher', '');
+P.push('**Date** : 2026-10-12');
+P.push("**Statut** : **dossier préparatoire, non arbitré. Il ne définit rien.** Aucune définition d'`interrogatif` n'est proposée comme acquise, aucun addendum n'est rédigé ni présenté comme validé, aucune donnée n'est modifiée, aucun des 17 sens n'est jugé. Écrit par `a2-05-travail/prealable-E5.mjs`, en lecture seule. **Le bloc F du lot 3 (17 sens) reste suspendu jusqu'à l'adoption explicite d'E5.**", '');
+P.push("**Autorisation** : arbitrage du 2026-10-12 (ChatGPT, par délégation ; relayé par l'utilisateur) : « Autorisation de préparer, dans un dossier documentaire distinct, le périmètre et les questions normatives d'E5 concernant `interrogatif`. Identifier les 17 sens concernés, les valeurs actuellement publiées, les références applicables et les questions à trancher. Ne pas encore décider de la définition, ne pas présenter de nouvel addendum comme validé et ne pas modifier les données. »", '');
+P.push('## 1. D\'où vient E5', '');
+P.push("- **Le code E5** (périmètre de la cohérence rétroactive, §1, validé le 2026-10-07) : « si les normes actuelles ne permettent pas de trancher. Un E5 ne désigne aucune donnée comme fautive, et ne la déclare pas non plus conforme : il est rattaché à un chantier normatif nommé. »");
+P.push("- **L'E5 commun d'`interrogatif`** (même rapport, §4, arbitrage de R3) : « Elle est posée sur 17 sens et n'a aucune définition normative ; A9 constate lui-même qu'elle est appliquée sur un sens implicite. Ces 17 annotations ne sont pas fautives pour autant. […] **Cet E5 ne peut pas rester non résolu à la clôture de l'étape 2** […] : il est porté par un **chantier normatif séparé**, explicitement arbitré, avec un addendum validé conformément à la gouvernance. Ce chantier **doit aboutir avant la clôture de l'étape 2** ; les 17 annotations sont ensuite **contrôlées contre la définition obtenue**. »");
+P.push("- **Conséquence pour le lot 3** : les 17 sens forment le bloc F (livraisons F1 et F2 du périmètre arbitré). Leur examen suppose la définition ; ils ne peuvent recevoir ni « conforme » ni « écart » avant elle.", '');
+P.push('## 2. Les 17 sens, et leurs valeurs publiées', '');
+P.push('| N° | Sens | Mot | Traduction | Classe publiée | Catégorie publiée | Type publié | Fonctions publiées | Lot | Règles du criblage | Livraison |', '|---|---|---|---|---|---|---|---|---|---|---|');
+porteurs.forEach(({ e, s }, i) => { const c = lotDe(s.id); P.push('| ' + (i + 1) + ' | `' + s.id + '` | ' + e.word + ' | ' + s.meaning.primary + ' | `' + e.linguistic.grammatical_class + '` | `' + cat(s.category) + '` | `' + s.semantic_type + '` | ' + fct(s).map((x) => '`' + x + '`').join(', ') + ' | ' + String(c.lot).padStart(2, '0') + ' | ' + [...new Set(c.regles.map((g) => g.regle))].join(', ') + ' | ' + livraison.get(s.id) + ' |'); });
+P.push('');
+P.push('**Décomptes, calculés** : ' + porteurs.length + ' sens dans ' + entrees.length + ' ENTRY (どちら en porte trois). Classes : ' + compte(porteurs, ({ e }) => e.linguistic.grammatical_class) + '. Catégories : ' + porteurs.filter(({ s }) => !s.category).length + ' sens sans catégorie, ' + porteurs.filter(({ s }) => s.category).length + ' avec. Types : ' + compte(porteurs, ({ s }) => String(s.semantic_type)) + '. Lots : ' + compte(porteurs, ({ s }) => 'lot ' + String(lotDe(s.id).lot).padStart(2, '0')) + '. Fonctions cumulées avec `interrogatif` : ' + (porteurs.some(({ s }) => fct(s).length > 1) ? porteurs.filter(({ s }) => fct(s).length > 1).map(({ s }) => '`' + s.id + '`').join(', ') : 'aucune, sur aucun des 17 sens') + '.', '');
+P.push("**Ce sont tous les sens publiés qui portent la fonction** (N5 et hors JLPT), et ce sont les 17 du constat du criblage : contrôle fait par le script. Tous sont candidats du volet 1, aucun n'est un des 147 `null` du volet 2.", '');
+P.push('## 3. Ce que disent les fiches sources', '');
+P.push('| ENTRY | Mot | Type de la fiche | Ancien rangement | Traductions de la fiche | Nuance de la fiche |', '|---|---|---|---|---|---|');
+for (const id of idsSrc) { const f = srcMap.get(id); P.push('| `' + id + '` | ' + f.word + ' | ' + f.type + ' | `' + f.category + ' / ' + f.subcategory + '` | ' + [f.meanings.primary, ...(f.meanings.secondary ?? [])].join(' ; ') + ' | « ' + strip(f.nuance).replace(/\|/g, '/') + ' » |'); }
+P.push('');
+P.push("**Constat, calculé** : " + (sansMot.length ? (idsSrc.length - sansMot.length) + ' des ' + idsSrc.length + ' fiches emploient le mot « interrogatif » dans leur nuance ; ' + sansMot.map((x) => '`' + x + '`').join(', ') + ' ne l\'emploie pas.' : 'les ' + idsSrc.length + ' fiches emploient le mot « interrogatif » dans leur nuance (« pronom interrogatif », « adverbe interrogatif », « adjectif interrogatif », « mot interrogatif »).') + " Dans chaque fiche, « interrogatif » qualifie le mot lui-même ; aucune ne le donne comme un emploi parmi d'autres.", '');
+P.push("**Fiches qui parlent d'interrogation sans que l'ENTRY porte la fonction** : " + (voisines.length ? voisines.map((f) => '`' + f.id + '` ' + f.word + ' (« ' + strip(f.nuance) + ' »)').join(' ; ') : 'aucune') + '. Recherche du radical « interrog » dans le type et la nuance de toutes les fiches sources.', '');
+P.push('## 4. Comment la fonction a été posée', '');
+P.push('- **Aucune décision de journal ne porte sur le champ des fonctions de ces ' + entrees.length + ' ENTRY** : sur leurs ' + decEntrees.length + ' décisions, toutes validées, ' + decFonction.length + ' visent `linguistic_functions`. La fonction est dans les lots et dans les données publiées, sans raison journalisée. C\'est ce qu\'A9 (§1) appelle une application « sur un sens implicite ».');
+P.push('- **Le caractère interrogatif est en revanche invoqué pour justifier `semantic_type: null`** (A6) : ' + decTypeNul.length + ' décisions, une par sens, dont la raison est de la forme « unité interrogative : ni entité ni concept désigné, aucun type terminal ne s\'applique » : ' + decTypeNul.map(num).join(', ') + '. Les 17 sens sont publiés sans type.');
+P.push('- **Il est aussi invoqué pour la classe** de certaines ENTRY : ' + decEntrees.filter((d) => /grammatical_class/.test(d.field)).map((d) => num(d) + ' (' + srcMap.get(d.entry).word + ')').join(', ') + '.');
+P.push('- **Décisions du journal dont la raison emploie le radical « interrogati »** : ' + decCitant.length + ' (' + decCitant.map(num).join(', ') + '). Celles qui ne concernent pas les ' + entrees.length + ' ENTRY : ' + decCitant.filter((d) => !idsSrc.includes(d.entry)).map((d) => num(d) + ' (`' + d.entry + '` ' + (srcMap.get(d.entry)?.word ?? '') + ', ' + d.field + ')').join(' ; ') + '.');
+const d724 = journal.find((d) => d.id === 'A2-04-D0724');
+P.push('- **Un critère a déjà été employé, sans être écrit comme norme** : ' + num(d724) + ' (' + srcMap.get(d724.entry).word + ', lot 11, validée) refuse la fonction en ces termes : « ' + d724.reason + ' »', '');
+P.push('## 5. Références applicables', '');
+P.push('| Texte | Ce qu\'il dit d\'`interrogatif` | Ce qu\'il ne dit pas |', '|---|---|---|');
+P.push('| A2-LING-v1, §4 | la nomme, première de la famille GRAMMATICAL ; « ces familles constituent la structure V1 » | aucune définition, aucune frontière (§5 ne la mentionne pas) |');
+P.push('| A2-GLOBAL-v1, §8.3 et §8.4 | reprend l\'arbre des fonctions | aucune définition ; aucune des frontières du §8.4 ne la concerne |');
+P.push('| `data/registries/linguistic-functions.json` | `{ "id": "interrogatif", "label": "interrogatif" }`, famille `grammatical` | rien d\'autre |');
+P.push('| Addendum A7 (déictique), §3, point 3 | « un sens qui interroge sans renvoyer à un référent situé (la série en ど) n\'est pas déictique ; il relève d\'`interrogatif` » | c\'est une frontière de `deictique`, non une définition d\'`interrogatif` |');
+P.push('| Addendum A9, §1 | « `interrogatif` et `intensifieur` ont été appliquées avant le lot 20 sur un sens implicite (17 sens pour la première […]) » | — |');
+P.push('| Addendum A9, §2 | principes communs : le sens modélisé décide et la fiche l\'atteste (§2.1) ; jamais par la classe ni par la série morphologique (§2.2) ; polysémie et cumul (§2.3) | A9 les énonce pour **ses six fonctions** ; il ne les étend pas à `interrogatif` |');
+P.push('| Addendum A9, §3.3, frontière 1 | « un interrogatif poli » ne suffit pas à attribuer `politesse` | — |');
+P.push('| Addendum A9, §6 | « `interrogatif`, `modalite`, `aspect`, `temps`, `alternative` : non définies ; `interrogatif` reste appliquée aux sens validés sur un sens implicite (point ouvert inchangé) » | — |');
+P.push('| Doctrine du lot 20, maintenue par A9 | aucune fonction sans définition normative n\'est posée | elle n\'a pas retiré la fonction des 17 sens déjà validés |');
+P.push('| Addendum A6 | `semantic_type: null` permis « lorsqu\'aucun type sémantique terminal existant ne décrit correctement la nature du sens » | ne lie pas le `null` à une fonction |');
+P.push('| Périmètre de la cohérence rétroactive, §4, axe C4 | « la fonction ne justifie pas le `null` par elle-même » : la question d\'A6 se pose pour chaque sens | — |');
+P.push('| Addendum A5 | `category: null` | ne traite pas des interrogatifs |');
+P.push('');
+P.push('**Les fonctions du registre, leur définition et leur emploi dans les données publiées** (calculé) :', '');
+P.push('| Fonction | Famille | Définition normative | Sens publiés qui la portent |', '|---|---|---|---|');
+for (const x of fonctionsRegistre) P.push('| `' + x.id + '` | ' + x.famille + ' | ' + (DEFINIES[x.id] ?? '**aucune**') + ' | ' + (emploi[x.id] ?? 0) + ' |');
+const sansDefPosees = fonctionsRegistre.filter((x) => !DEFINIES[x.id] && emploi[x.id]);
+P.push('', '**`interrogatif` est ' + (sansDefPosees.length === 1 && sansDefPosees[0].id === 'interrogatif' ? 'la seule fonction sans définition qui soit posée dans les données publiées' : 'une des fonctions sans définition posées dans les données publiées (' + sansDefPosees.map((x) => '`' + x.id + '`').join(', ') + ')') + '.**', '');
+P.push("**Hors de ce dossier** : le mot « interrogatif » apparaît aussi dans `data/n4/vocab.json`, `data/n4/grammar.json` et `data/n5/grammar.json`, qui ne sont pas le vocabulaire reconstruit ; je ne les ai pas examinés. Les tests (`tests/lexicon/`, `tests/tools/validate-data.test.js`, `tests/reconstruction/assemble.test.js`) emploient `interrogatif` comme exemple d'identifiant du registre : une définition n'y changerait rien, l'identifiant et la famille restant ceux d'A2-LING.", '');
+P.push('## 6. Questions à trancher', '');
+P.push("Je les pose sans y répondre. Pour chacune, j'indique ce que les données montrent.", '');
+P.push("1. **Le critère.** Qu'est-ce qui fait qu'un sens porte `interrogatif` ? Les 17 sens publiés sont tous des mots par lesquels on demande une information (qui, quoi, où, quand, comment, pourquoi, combien, lequel). D0724 a employé le critère « le mot interroge », et A7 parle d'« un sens qui interroge ». Faut-il l'écrire ainsi, ou autrement ?");
+P.push("2. **Les principes communs d'A9.** Faut-il étendre à `interrogatif` les principes du §2 d'A9 : le rôle fait partie intégrante du sens modélisé et la fiche l'atteste ; jamais par la classe ni par la série morphologique ; cumul permis sous conditions, jamais de scission pour l'éviter ? Les 17 annotations ont été posées sans raison journalisée : si « jamais par la série » s'applique, chaque sens doit être justifié par sa fiche.");
+P.push("3. **La frontière avec les indéfinis.** 誰か « Quelqu'un » n'a pas la fonction (D0724) ; l'emploi いくら…ても n'est pas documenté et n'a fondé ni classe ni sens (D0372). Un mot formé sur un interrogatif mais qui n'interroge pas reste-t-il hors de la fonction, comme aujourd'hui ?");
+P.push("4. **La frontière avec `deictique`.** A7 (§3, point 3) l'a écrite du côté de `deictique`. Faut-il la reprendre du côté d'`interrogatif`, et dire si un cumul est possible ? Aucun des 17 sens ne cumule aujourd'hui les deux.");
+P.push("5. **La frontière avec le registre poli.** いかが, どなた et どちら (sens 2 et 3) sont des formes polies ; A9 dit qu'un interrogatif poli ne suffit pas à attribuer `politesse`. La définition doit-elle le rappeler ?");
+P.push("6. **Le rapport avec le type.** Les 17 sens sont sans type, chacun par une décision qui invoque son caractère interrogatif. Or l'axe C4 dit que « la fonction ne justifie pas le `null` par elle-même ». La définition doit-elle rester muette sur le type (la question d'A6 étant posée sens par sens au bloc F), ou dire quelque chose de ce lien ?");
+P.push("7. **Le rapport avec la catégorie.** " + porteurs.filter(({ s }) => s.category).length + " des 17 sens ont une catégorie (" + porteurs.filter(({ s }) => s.category).map(({ e, s }) => e.word + ' : `' + cat(s.category) + '`').join(' ; ') + ") ; " + porteurs.filter(({ s }) => !s.category).length + " n'en ont pas. Est-ce à la définition de dire quand un interrogatif reçoit la catégorie du domaine sur lequel il interroge, ou cela relève-t-il du seul examen individuel (axes C1 et C2) ?");
+P.push("8. **La forme.** Un addendum nouveau, propre à `interrogatif`, ou un complément d'A9 ? La gouvernance demande dans les deux cas un addendum explicite, validé avant d'être appliqué.");
+P.push("9. **L'étendue.** Le chantier porte-t-il sur `interrogatif` seule ? L'emploi des autres fonctions sans définition dans les données publiées est donné au tableau du §5.");
+P.push("10. **Les effets.** Après l'adoption : le contrôle des 17 annotations contre la définition est-il l'examen du bloc F, tel que le périmètre du lot 3 le prévoit ? Faut-il aussi rechercher les sens publiés qui devraient recevoir la fonction et ne l'ont pas ? Le relevé du §3 n'en trouve aucun par le vocabulaire des fiches, ce qui n'est pas une preuve.", '');
+P.push('## 7. Ce que ce dossier ne fait pas', '');
+P.push("Il ne propose aucune définition et ne rédige aucun addendum. Il ne juge aucun des 17 sens : ni leur fonction, ni leur type, ni leur catégorie. Il ne modifie ni les données publiées, ni les lots, ni le journal, ni les registres, ni les snapshots, ni A2-LING, ni A7, ni A9. Il ne rouvre aucune décision. **Limite** : les recherches portent sur le radical « interrog » dans les fiches et dans les raisons du journal ; une fiche qui décrirait une question sans employer ce mot m'échapperait.", '');
+P.push('## 8. Contrôles', '');
+P.push('| Contrôle | Résultat |', '|---|---|');
+P.push('| Sens publiés portant `interrogatif` | ' + porteurs.length + ', dans ' + entrees.length + ' ENTRY ; tous dans la famille `grammatical` |');
+P.push('| Identité avec le constat du criblage | 17 sur 17 |');
+P.push('| Identité avec le bloc F du périmètre arbitré | 17 sur 17 (' + compte(porteurs, ({ s }) => livraison.get(s.id)) + ') |');
+P.push('| Décisions de journal des ' + entrees.length + ' ENTRY | ' + decEntrees.length + ', toutes validées, aucune modifiée ; ' + decFonction.length + ' sur le champ des fonctions |');
+P.push('| Données modifiées | aucune |');
+writeFileSync(join(root, 'docs/rapports/etape2-A2-05-prealable-E5-interrogatif.md'), P.join(LF) + LF);
+console.log('E5 : ' + porteurs.length + ' sens, ' + entrees.length + ' ENTRY ; sans catégorie : ' + porteurs.filter(({ s }) => !s.category).length + ' ; décisions des ENTRY : ' + decEntrees.length + ' (fonctions : ' + decFonction.length + ' ; type : ' + decTypeNul.length + ') ; décisions citant « interrogati » : ' + decCitant.length + ' ; fiches voisines : ' + voisines.length + ' ; fiches sans le mot : ' + sansMot.length + ' ; fonctions sans définition posées : ' + sansDefPosees.map((x) => x.id + ' ' + emploi[x.id]).join(', ') + ' ; emploi : ' + JSON.stringify(emploi));

@@ -1,0 +1,15 @@
+{
+ "note": "Registre des tranches (outillage v2, en proposition). Regroupement retenu en principe par l'arbitrage de l'étude de méthode du 2026-10-18 ; aucun sens n'est déplacé du découpage arbitré le 2026-10-12. Les nombres de sens sont recalculés par sync-pilotage-v2.mjs à partir du registre de couverture.",
+ "tranches": [
+  { "id": "T1", "livraisons": ["B10", "B11", "B12"], "role": "pilote", "statut": "planifiée" },
+  { "id": "T2", "livraisons": ["B13", "B14"], "statut": "planifiée" },
+  { "id": "T3", "livraisons": ["B15", "B16"], "statut": "planifiée" },
+  { "id": "T4", "livraisons": ["C1", "C2", "C3", "C4"], "statut": "planifiée", "condition": "conditionnée au bilan du pilote ; divisible en deux" },
+  { "id": "T5", "livraisons": ["D2", "D3"], "statut": "planifiée" },
+  { "id": "T6", "livraisons": ["D6", "D7"], "statut": "planifiée" },
+  { "id": "T7", "livraisons": ["D1", "D4"], "statut": "planifiée" },
+  { "id": "T8", "livraisons": ["D5", "D8"], "statut": "planifiée" },
+  { "id": "T9", "livraisons": ["E1", "E2", "E3"], "statut": "planifiée" },
+  { "id": "F", "livraisons": ["F1", "F2"], "statut": "suspendue", "condition": "suspendue au préalable E5" }
+ ]
+}

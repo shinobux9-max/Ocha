@@ -1,0 +1,1941 @@
+{
+ "genere_par": "a2-05-travail/couverture-lot3.mjs",
+ "note": "registre calculé, jamais saisi ; il se régénère à chaque exécution",
+ "totaux": {
+  "sens": 377,
+  "arbitres": 148,
+  "proposes": 0,
+  "restants": 229,
+  "blocB": 148,
+  "blocBArbitres": 79
+ },
+ "livraisons": {
+  "A1": "arbitré",
+  "A2": "arbitré",
+  "A3": "arbitré",
+  "A4": "arbitré",
+  "A5": "arbitré",
+  "A6": "arbitré",
+  "A7": "arbitré",
+  "B1": "arbitré",
+  "B2": "arbitré",
+  "B3": "arbitré",
+  "B4": "arbitré",
+  "B5": "arbitré",
+  "B6": "arbitré",
+  "B7": "arbitré",
+  "B8": "arbitré",
+  "B9": "arbitré",
+  "B10": "absent",
+  "B11": "absent",
+  "B12": "absent",
+  "B13": "absent",
+  "B14": "absent",
+  "B15": "absent",
+  "B16": "absent",
+  "C1": "absent",
+  "C2": "absent",
+  "C3": "absent",
+  "C4": "absent",
+  "D1": "absent",
+  "D2": "absent",
+  "D3": "absent",
+  "D4": "absent",
+  "D5": "absent",
+  "D6": "absent",
+  "D7": "absent",
+  "D8": "absent",
+  "E1": "absent",
+  "E2": "absent",
+  "E3": "absent",
+  "F1": "absent",
+  "F2": "absent"
+ },
+ "sens": [
+  {
+   "id": "v_136_s1",
+   "livraison": "A1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_138_s2",
+   "livraison": "A1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_264_s1",
+   "livraison": "A1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_267_s1",
+   "livraison": "A1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_271_s1",
+   "livraison": "A1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_278_s1",
+   "livraison": "A1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_349_s1",
+   "livraison": "A1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_350_s1",
+   "livraison": "A1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_355_s1",
+   "livraison": "A1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_357_s1",
+   "livraison": "A1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_284_s1",
+   "livraison": "A2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_286_s1",
+   "livraison": "A2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_290_s1",
+   "livraison": "A2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_298_s1",
+   "livraison": "A2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_299_s1",
+   "livraison": "A2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_300_s1",
+   "livraison": "A2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_301_s1",
+   "livraison": "A2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_302_s1",
+   "livraison": "A2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_303_s1",
+   "livraison": "A2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_304_s1",
+   "livraison": "A3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_305_s1",
+   "livraison": "A3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_306_s1",
+   "livraison": "A3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_310_s1",
+   "livraison": "A3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_312_s1",
+   "livraison": "A3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_315_s1",
+   "livraison": "A3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_318_s1",
+   "livraison": "A3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_319_s1",
+   "livraison": "A3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_320_s1",
+   "livraison": "A3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_322_s1",
+   "livraison": "A4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_324_s1",
+   "livraison": "A4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_326_s1",
+   "livraison": "A4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_327_s1",
+   "livraison": "A4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_328_s1",
+   "livraison": "A4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_439_s1",
+   "livraison": "A4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_649_s1",
+   "livraison": "A4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_670_s1",
+   "livraison": "A4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_268_s1",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_292_s2",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_293_s1",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_294_s2",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_295_s2",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_296_s2",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_297_s2",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_307_s2",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_308_s2",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_309_s2",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_313_s2",
+   "livraison": "A5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_314_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_316_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_317_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_321_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_323_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_325_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_335_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_336_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_337_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_338_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_634_s1",
+   "livraison": "A6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_645_s1",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_501_s1",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_501_s2",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_502_s1",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_506_s1",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_540_s1",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_554_s1",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_497_s2",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_509_s3",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_517_s2",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_546_s2",
+   "livraison": "A7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_66_s1",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_95_s1",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_101_s1",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_104_s1",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_117_s1",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_122_s2",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_464_s1",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_477_s3",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_481_s1",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_532_s2",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_670_s2",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_171_s1",
+   "livraison": "B1",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_130_s2",
+   "livraison": "B2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_132_s2",
+   "livraison": "B2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_134_s1",
+   "livraison": "B2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_139_s1",
+   "livraison": "B2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_164_s1",
+   "livraison": "B2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_170_s2",
+   "livraison": "B2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_175_s2",
+   "livraison": "B2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_233_s1",
+   "livraison": "B2",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_513_s1",
+   "livraison": "B3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_536_s2",
+   "livraison": "B3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_556_s1",
+   "livraison": "B3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_561_s2",
+   "livraison": "B3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_574_s1",
+   "livraison": "B3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_623_s1",
+   "livraison": "B3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_702_s1",
+   "livraison": "B3",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_4_s1",
+   "livraison": "B4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_455_s1",
+   "livraison": "B4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_477_s2",
+   "livraison": "B4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_15_s1",
+   "livraison": "B4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_42_s1",
+   "livraison": "B4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_240_s1",
+   "livraison": "B4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_116_s2",
+   "livraison": "B4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_181_s2",
+   "livraison": "B4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_188_s2",
+   "livraison": "B4",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_124_s1",
+   "livraison": "B5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_511_s2",
+   "livraison": "B5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_570_s1",
+   "livraison": "B5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_636_s1",
+   "livraison": "B5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_214_s1",
+   "livraison": "B5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_215_s1",
+   "livraison": "B5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_239_s1",
+   "livraison": "B5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_246_s1",
+   "livraison": "B5",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_53_s1",
+   "livraison": "B6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_63_s1",
+   "livraison": "B6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_150_s1",
+   "livraison": "B6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_152_s1",
+   "livraison": "B6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_156_s1",
+   "livraison": "B6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_157_s1",
+   "livraison": "B6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_160_s1",
+   "livraison": "B6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_188_s1",
+   "livraison": "B6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_213_s1",
+   "livraison": "B6",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_259_s1",
+   "livraison": "B7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_360_s1",
+   "livraison": "B7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_527_s2",
+   "livraison": "B7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_528_s2",
+   "livraison": "B7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_529_s1",
+   "livraison": "B7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_535_s1",
+   "livraison": "B7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_536_s1",
+   "livraison": "B7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_550_s1",
+   "livraison": "B7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_557_s1",
+   "livraison": "B7",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_562_s2",
+   "livraison": "B8",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_563_s1",
+   "livraison": "B8",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_565_s1",
+   "livraison": "B8",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_571_s1",
+   "livraison": "B8",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_597_s1",
+   "livraison": "B8",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_642_s1",
+   "livraison": "B8",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_663_s2",
+   "livraison": "B8",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_8_s1",
+   "livraison": "B9",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_9_s1",
+   "livraison": "B9",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_10_s1",
+   "livraison": "B9",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_11_s2",
+   "livraison": "B9",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_13_s2",
+   "livraison": "B9",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_28_s1",
+   "livraison": "B9",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_31_s1",
+   "livraison": "B9",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_39_s1",
+   "livraison": "B9",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_49_s1",
+   "livraison": "B9",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_49_s2",
+   "livraison": "B9",
+   "etat": "arbitré"
+  },
+  {
+   "id": "v_175_s1",
+   "livraison": "B10",
+   "etat": "restant"
+  },
+  {
+   "id": "v_228_s1",
+   "livraison": "B10",
+   "etat": "restant"
+  },
+  {
+   "id": "v_265_s1",
+   "livraison": "B10",
+   "etat": "restant"
+  },
+  {
+   "id": "v_277_s1",
+   "livraison": "B10",
+   "etat": "restant"
+  },
+  {
+   "id": "v_316_s2",
+   "livraison": "B10",
+   "etat": "restant"
+  },
+  {
+   "id": "v_422_s1",
+   "livraison": "B10",
+   "etat": "restant"
+  },
+  {
+   "id": "v_423_s1",
+   "livraison": "B10",
+   "etat": "restant"
+  },
+  {
+   "id": "v_426_s1",
+   "livraison": "B10",
+   "etat": "restant"
+  },
+  {
+   "id": "v_433_s1",
+   "livraison": "B10",
+   "etat": "restant"
+  },
+  {
+   "id": "v_476_s1",
+   "livraison": "B11",
+   "etat": "restant"
+  },
+  {
+   "id": "v_559_s1",
+   "livraison": "B11",
+   "etat": "restant"
+  },
+  {
+   "id": "v_559_s2",
+   "livraison": "B11",
+   "etat": "restant"
+  },
+  {
+   "id": "v_577_s1",
+   "livraison": "B11",
+   "etat": "restant"
+  },
+  {
+   "id": "v_577_s2",
+   "livraison": "B11",
+   "etat": "restant"
+  },
+  {
+   "id": "v_635_s1",
+   "livraison": "B11",
+   "etat": "restant"
+  },
+  {
+   "id": "v_658_s1",
+   "livraison": "B11",
+   "etat": "restant"
+  },
+  {
+   "id": "v_681_s1",
+   "livraison": "B11",
+   "etat": "restant"
+  },
+  {
+   "id": "v_50_s1",
+   "livraison": "B12",
+   "etat": "restant"
+  },
+  {
+   "id": "v_64_s1",
+   "livraison": "B12",
+   "etat": "restant"
+  },
+  {
+   "id": "v_68_s1",
+   "livraison": "B12",
+   "etat": "restant"
+  },
+  {
+   "id": "v_82_s1",
+   "livraison": "B12",
+   "etat": "restant"
+  },
+  {
+   "id": "v_164_s2",
+   "livraison": "B12",
+   "etat": "restant"
+  },
+  {
+   "id": "v_566_s1",
+   "livraison": "B12",
+   "etat": "restant"
+  },
+  {
+   "id": "v_718_s1",
+   "livraison": "B12",
+   "etat": "restant"
+  },
+  {
+   "id": "v_100_s1",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_204_s1",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_219_s1",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_229_s1",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_248_s1",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_424_s2",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_461_s1",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_531_s1",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_612_s1",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_683_s1",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_713_s2",
+   "livraison": "B13",
+   "etat": "restant"
+  },
+  {
+   "id": "v_237_s1",
+   "livraison": "B14",
+   "etat": "restant"
+  },
+  {
+   "id": "v_254_s2",
+   "livraison": "B14",
+   "etat": "restant"
+  },
+  {
+   "id": "v_205_s1",
+   "livraison": "B14",
+   "etat": "restant"
+  },
+  {
+   "id": "v_80_s1",
+   "livraison": "B14",
+   "etat": "restant"
+  },
+  {
+   "id": "v_122_s1",
+   "livraison": "B14",
+   "etat": "restant"
+  },
+  {
+   "id": "v_263_s1",
+   "livraison": "B14",
+   "etat": "restant"
+  },
+  {
+   "id": "v_270_s1",
+   "livraison": "B14",
+   "etat": "restant"
+  },
+  {
+   "id": "v_274_s1",
+   "livraison": "B14",
+   "etat": "restant"
+  },
+  {
+   "id": "v_282_s1",
+   "livraison": "B14",
+   "etat": "restant"
+  },
+  {
+   "id": "v_473_s2",
+   "livraison": "B14",
+   "etat": "restant"
+  },
+  {
+   "id": "v_173_s1",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_311_s1",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_546_s1",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_650_s1",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_244_s1",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_22_s2",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_116_s1",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_527_s1",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_55_s1",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_62_s2",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_428_s2",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_621_s1",
+   "livraison": "B15",
+   "etat": "restant"
+  },
+  {
+   "id": "v_74_s2",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_165_s1",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_178_s1",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_204_s2",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_206_s1",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_616_s1",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_483_s2",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_149_s1",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_644_s1",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_141_s1",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_142_s1",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_534_s1",
+   "livraison": "B16",
+   "etat": "restant"
+  },
+  {
+   "id": "v_87_s1",
+   "livraison": "C1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_226_s1",
+   "livraison": "C1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_84_s1",
+   "livraison": "C1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_85_s1",
+   "livraison": "C1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_86_s1",
+   "livraison": "C1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_88_s1",
+   "livraison": "C1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_94_s1",
+   "livraison": "C1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_97_s1",
+   "livraison": "C1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_102_s1",
+   "livraison": "C1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_103_s1",
+   "livraison": "C1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_104_s2",
+   "livraison": "C2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_108_s1",
+   "livraison": "C2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_110_s1",
+   "livraison": "C2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_112_s1",
+   "livraison": "C2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_120_s1",
+   "livraison": "C2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_121_s1",
+   "livraison": "C2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_619_s1",
+   "livraison": "C2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_677_s1",
+   "livraison": "C2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_202_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_208_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_209_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_212_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_224_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_241_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_589_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_617_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_662_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_151_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_159_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_162_s1",
+   "livraison": "C3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_719_s1",
+   "livraison": "C4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_430_s1",
+   "livraison": "C4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_523_s1",
+   "livraison": "C4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_447_s1",
+   "livraison": "C4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_654_s1",
+   "livraison": "C4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_329_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_332_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_474_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_12_s2",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_14_s2",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_20_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_31_s2",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_638_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_656_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_427_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_185_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_269_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_192_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_419_s1",
+   "livraison": "D1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_339_s1",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_339_s2",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_340_s1",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_342_s1",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_392_s1",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_403_s1",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_404_s1",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_404_s2",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_405_s1",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_406_s1",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_407_s1",
+   "livraison": "D2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_408_s1",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_409_s1",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_409_s2",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_410_s1",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_411_s1",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_412_s1",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_414_s1",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_414_s2",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_415_s1",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_581_s1",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_688_s1",
+   "livraison": "D3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_330_s1",
+   "livraison": "D4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_331_s1",
+   "livraison": "D4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_333_s1",
+   "livraison": "D4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_334_s1",
+   "livraison": "D4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_359_s1",
+   "livraison": "D4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_311_s2",
+   "livraison": "D4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_663_s1",
+   "livraison": "D4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_631_s1",
+   "livraison": "D4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_2_s1",
+   "livraison": "D4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_429_s1",
+   "livraison": "D4",
+   "etat": "restant"
+  },
+  {
+   "id": "v_494_s1",
+   "livraison": "D5",
+   "etat": "restant"
+  },
+  {
+   "id": "v_502_s2",
+   "livraison": "D5",
+   "etat": "restant"
+  },
+  {
+   "id": "v_518_s1",
+   "livraison": "D5",
+   "etat": "restant"
+  },
+  {
+   "id": "v_519_s1",
+   "livraison": "D5",
+   "etat": "restant"
+  },
+  {
+   "id": "v_525_s1",
+   "livraison": "D5",
+   "etat": "restant"
+  },
+  {
+   "id": "v_344_s1",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_413_s1",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_413_s2",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_416_s1",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_417_s1",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_417_s2",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_417_s3",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_418_s1",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_418_s2",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_418_s3",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_499_s1",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_499_s2",
+   "livraison": "D6",
+   "etat": "restant"
+  },
+  {
+   "id": "v_584_s1",
+   "livraison": "D7",
+   "etat": "restant"
+  },
+  {
+   "id": "v_584_s2",
+   "livraison": "D7",
+   "etat": "restant"
+  },
+  {
+   "id": "v_586_s1",
+   "livraison": "D7",
+   "etat": "restant"
+  },
+  {
+   "id": "v_593_s1",
+   "livraison": "D7",
+   "etat": "restant"
+  },
+  {
+   "id": "v_595_s1",
+   "livraison": "D7",
+   "etat": "restant"
+  },
+  {
+   "id": "v_595_s2",
+   "livraison": "D7",
+   "etat": "restant"
+  },
+  {
+   "id": "v_595_s3",
+   "livraison": "D7",
+   "etat": "restant"
+  },
+  {
+   "id": "v_596_s1",
+   "livraison": "D7",
+   "etat": "restant"
+  },
+  {
+   "id": "v_599_s1",
+   "livraison": "D7",
+   "etat": "restant"
+  },
+  {
+   "id": "v_600_s1",
+   "livraison": "D7",
+   "etat": "restant"
+  },
+  {
+   "id": "v_471_s1",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_471_s2",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_497_s1",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_498_s1",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_509_s1",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_509_s2",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_515_s1",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_517_s1",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_520_s1",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_607_s1",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_639_s1",
+   "livraison": "D8",
+   "etat": "restant"
+  },
+  {
+   "id": "v_347_s1",
+   "livraison": "E1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_347_s2",
+   "livraison": "E1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_348_s1",
+   "livraison": "E1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_348_s2",
+   "livraison": "E1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_285_s1",
+   "livraison": "E1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_704_s1",
+   "livraison": "E1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_704_s2",
+   "livraison": "E1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_659_s1",
+   "livraison": "E1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_465_s1",
+   "livraison": "E1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_183_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_441_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_468_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_485_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_495_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_435_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_443_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_448_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_463_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_469_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_477_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_594_s1",
+   "livraison": "E2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_91_s1",
+   "livraison": "E3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_92_s1",
+   "livraison": "E3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_459_s1",
+   "livraison": "E3",
+   "etat": "restant"
+  },
+  {
+   "id": "v_401_s1",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_179_s1",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_343_s1",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_390_s1",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_391_s1",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_393_s1",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_394_s1",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_395_s1",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_396_s1",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_396_s2",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_396_s3",
+   "livraison": "F1",
+   "etat": "restant"
+  },
+  {
+   "id": "v_397_s1",
+   "livraison": "F2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_398_s1",
+   "livraison": "F2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_399_s1",
+   "livraison": "F2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_400_s1",
+   "livraison": "F2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_402_s1",
+   "livraison": "F2",
+   "etat": "restant"
+  },
+  {
+   "id": "v_585_s1",
+   "livraison": "F2",
+   "etat": "restant"
+  }
+ ]
+}

@@ -1,0 +1,11411 @@
+{
+ "statuts": {
+  "arbitré au lot 1": 3,
+  "arbitré en tranche 1": 33,
+  "faux positif à contre-vérifier": 83,
+  "hors chantier": 370,
+  "un caractère seulement": 44,
+  "à examiner": 151
+ },
+ "parTranche": [
+  {
+   "t": "1 bis",
+   "lots": [],
+   "complement": [
+    "04",
+    "07"
+   ],
+   "total": 10,
+   "faux positif à contre-vérifier": 2,
+   "un caractère seulement": 8
+  },
+  {
+   "t": "2",
+   "lots": [
+    "00",
+    "01"
+   ],
+   "complement": [],
+   "total": 43,
+   "faux positif à contre-vérifier": 11,
+   "un caractère seulement": 1,
+   "à examiner": 31
+  },
+  {
+   "t": "3",
+   "lots": [
+    "02",
+    "03"
+   ],
+   "complement": [],
+   "total": 36,
+   "faux positif à contre-vérifier": 2,
+   "un caractère seulement": 5,
+   "à examiner": 29
+  },
+  {
+   "t": "4",
+   "lots": [
+    "05",
+    "06"
+   ],
+   "complement": [],
+   "total": 30,
+   "faux positif à contre-vérifier": 3,
+   "un caractère seulement": 4,
+   "à examiner": 23
+  },
+  {
+   "t": "5",
+   "lots": [
+    "08",
+    "09"
+   ],
+   "complement": [],
+   "total": 29,
+   "faux positif à contre-vérifier": 3,
+   "un caractère seulement": 1,
+   "à examiner": 25
+  },
+  {
+   "t": "6",
+   "lots": [
+    "10",
+    "11"
+   ],
+   "complement": [],
+   "total": 47,
+   "faux positif à contre-vérifier": 8,
+   "un caractère seulement": 4,
+   "à examiner": 35
+  },
+  {
+   "t": "7",
+   "lots": [
+    "12",
+    "15",
+    "18"
+   ],
+   "complement": [],
+   "total": 39,
+   "faux positif à contre-vérifier": 20,
+   "un caractère seulement": 11,
+   "à examiner": 8
+  },
+  {
+   "t": "8",
+   "lots": [
+    "13",
+    "14",
+    "16",
+    "17",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24"
+   ],
+   "complement": [],
+   "total": 44,
+   "faux positif à contre-vérifier": 34,
+   "un caractère seulement": 10
+  }
+ ],
+ "tranche2": [
+  {
+   "sens": "v_226_s1",
+   "entree": "v_226",
+   "mot": "鍵",
+   "lot": "lot-00",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_226_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "鍵をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_226_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_420 (nuance d'ENTRY)",
+   "entree": "v_420",
+   "mot": "いい",
+   "lot": "lot-00",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_420_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "よかった",
+     "classe": "B-transcription",
+     "renvoi": []
+    },
+    {
+     "chaine": "よくない",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_420_s1"
+   ],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_555_s1",
+   "entree": "v_555",
+   "mot": "曲がる",
+   "lot": "lot-00",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_555_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "角を曲がる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "右に曲がる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_564 (nuance d'ENTRY)",
+   "entree": "v_564",
+   "mot": "無くす",
+   "lot": "lot-00",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_564_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "無くなる",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_564_s1"
+   ],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_15 (nuance d'ENTRY)",
+   "entree": "v_15",
+   "mot": "お巡りさん",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_15_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "交番",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_240"
+     ]
+    },
+    {
+     "chaine": "警官",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_42"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_15_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_20 (nuance d'ENTRY)",
+   "entree": "v_20",
+   "mot": "両親",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_20_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "ご両親",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_20_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_24 (nuance d'ENTRY)",
+   "entree": "v_24",
+   "mot": "叔母",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_24_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "伯母",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_25 (nuance d'ENTRY)",
+   "entree": "v_25",
+   "mot": "叔父",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_25_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "伯父",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_27 (nuance d'ENTRY)",
+   "entree": "v_27",
+   "mot": "外国人",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_27_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "外人",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_31 (nuance d'ENTRY)",
+   "entree": "v_31",
+   "mot": "子供",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_31_s1",
+    "v_31_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "お子さん",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_31_s1",
+    "v_31_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_35 (nuance d'ENTRY)",
+   "entree": "v_35",
+   "mot": "家族",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_35_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "ご家族",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_46 (nuance d'ENTRY)",
+   "entree": "v_46",
+   "mot": "体",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_46_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "体にいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "体が弱い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_46_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_47 (nuance d'ENTRY)",
+   "entree": "v_47",
+   "mot": "医者",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_47_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "お医者さん",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_48 (nuance d'ENTRY)",
+   "entree": "v_48",
+   "mot": "口",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_48_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "瓶の口",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_48_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_51 (nuance d'ENTRY)",
+   "entree": "v_51",
+   "mot": "手",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_51_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "手を洗う",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_51_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_54 (nuance d'ENTRY)",
+   "entree": "v_54",
+   "mot": "歯",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_54_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "歯を磨く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_54_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_55 (nuance d'ENTRY)",
+   "entree": "v_55",
+   "mot": "病気",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_55_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "病気になる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "病気です",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_55_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_56 (nuance d'ENTRY)",
+   "entree": "v_56",
+   "mot": "病院",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_56_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "病院に行く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_57 (nuance d'ENTRY)",
+   "entree": "v_57",
+   "mot": "目",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_57_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "目がいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "目が悪い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_57_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_58 (nuance d'ENTRY)",
+   "entree": "v_58",
+   "mot": "耳",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_58_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "耳がいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "耳が遠い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_58_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_59 (nuance d'ENTRY)",
+   "entree": "v_59",
+   "mot": "薬",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_59_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "薬を飲む",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_65_s2",
+   "entree": "v_65",
+   "mot": "頭",
+   "lot": "lot-01",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_65_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "頭がいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "頭を使う",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_65_s2"
+   ],
+   "corrections": [
+    "volet 2 n° 2 (`v_65_s2`)"
+   ],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_283 (nuance d'ENTRY)",
+   "entree": "v_283",
+   "mot": "風邪",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "風",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_283_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "風邪をひく",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_603 (nuance d'ENTRY)",
+   "entree": "v_603",
+   "mot": "髪",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "紙",
+     "kanji": true,
+     "absent": true
+    },
+    {
+     "c": "神",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_603_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "髪を切る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_603_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_633 (nuance d'ENTRY)",
+   "entree": "v_633",
+   "mot": "人",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "方",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_633_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "かた",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_667"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_633_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_657 (nuance d'ENTRY)",
+   "entree": "v_657",
+   "mot": "女",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_657_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "女性",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_657_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_660 (nuance d'ENTRY)",
+   "entree": "v_660",
+   "mot": "家内",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_660_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "奥さん",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_656"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_667 (nuance d'ENTRY)",
+   "entree": "v_667",
+   "mot": "方",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "人",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_667_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "どの方",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_667_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_686 (nuance d'ENTRY)",
+   "entree": "v_686",
+   "mot": "男",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_686_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "男性",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_686_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_687 (nuance d'ENTRY)",
+   "entree": "v_687",
+   "mot": "皆さん",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "皆",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_687_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "こんにちは",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "みんな",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_606",
+      "v_606"
+     ]
+    }
+   ],
+   "parLecture": [
+    "みんな"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_687_s1"
+   ],
+   "corrections": [
+    "volet 2 n° 5 (`v_687_s1`)"
+   ],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_716 (nuance d'ENTRY)",
+   "entree": "v_716",
+   "mot": "顔",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_716_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "変な顔をする",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "顔色",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_716_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_17 (nuance d'ENTRY)",
+   "entree": "v_17",
+   "mot": "お姉さん",
+   "lot": "lot-00",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "姉",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_17_s1",
+    "v_17_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "あね",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_30"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_18 (nuance d'ENTRY)",
+   "entree": "v_18",
+   "mot": "お母さん",
+   "lot": "lot-00",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "母",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_18_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "はは",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_37"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_19 (nuance d'ENTRY)",
+   "entree": "v_19",
+   "mot": "お父さん",
+   "lot": "lot-00",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "父",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_19_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "ちち",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_44_s1",
+   "entree": "v_44",
+   "mot": "お腹",
+   "lot": "lot-00",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_44_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "お腹がすいた",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_44_s1"
+   ],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_68_s1",
+   "entree": "v_68",
+   "mot": "履く",
+   "lot": "lot-00",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_68_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "きる",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_539",
+      "v_566"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_68_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_16 (nuance d'ENTRY)",
+   "entree": "v_16",
+   "mot": "お兄さん",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "兄",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_16_s1",
+    "v_16_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "あに",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_21"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_42 (nuance d'ENTRY)",
+   "entree": "v_42",
+   "mot": "警官",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_42_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "お巡りさん",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_15"
+     ]
+    }
+   ],
+   "parLecture": [
+    "お巡りさん"
+   ],
+   "candidats377": [
+    "v_42_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_61 (nuance d'ENTRY)",
+   "entree": "v_61",
+   "mot": "身体",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "体",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_61_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "からだ",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_46"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_61_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_465 (nuance d'ENTRY)",
+   "entree": "v_465",
+   "mot": "痛い",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_465_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "頭が痛い",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "頭が痛い"
+   ],
+   "candidats377": [
+    "v_465_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_656 (nuance d'ENTRY)",
+   "entree": "v_656",
+   "mot": "奥さん",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "妻",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_656_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "家内",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_660"
+     ]
+    }
+   ],
+   "parLecture": [
+    "家内"
+   ],
+   "candidats377": [
+    "v_656_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_690_s1",
+   "entree": "v_690",
+   "mot": "背",
+   "lot": "lot-01",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_690_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "背が高い",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "背が高い"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  },
+  {
+   "sens": "v_23 (nuance d'ENTRY)",
+   "entree": "v_23",
+   "mot": "友達",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "達",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_23_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2"
+  }
+ ],
+ "complement1bis": [
+  {
+   "sens": "v_270 (nuance d'ENTRY)",
+   "entree": "v_270",
+   "mot": "寒い",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_270_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "暑い",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_274"
+     ]
+    }
+   ],
+   "parLecture": [
+    "暑い"
+   ],
+   "candidats377": [
+    "v_270_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis"
+  },
+  {
+   "sens": "v_277 (nuance d'ENTRY)",
+   "entree": "v_277",
+   "mot": "熱い",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_277_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "暑い",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_274"
+     ]
+    }
+   ],
+   "parLecture": [
+    "暑い"
+   ],
+   "candidats377": [
+    "v_277_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis"
+  },
+  {
+   "sens": "v_154 (nuance d'ENTRY)",
+   "entree": "v_154",
+   "mot": "自動車",
+   "lot": "lot-04",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "車",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_154_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "04",
+   "tranche": "1 bis"
+  },
+  {
+   "sens": "v_249 (nuance d'ENTRY)",
+   "entree": "v_249",
+   "mot": "町",
+   "lot": "lot-04",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "市",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_249_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "04",
+   "tranche": "1 bis"
+  },
+  {
+   "sens": "v_674 (nuance d'ENTRY)",
+   "entree": "v_674",
+   "mot": "橋",
+   "lot": "lot-04",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "箸",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_674_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "04",
+   "tranche": "1 bis"
+  },
+  {
+   "sens": "v_257 (nuance d'ENTRY)",
+   "entree": "v_257",
+   "mot": "犬",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "匹",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_257_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis"
+  },
+  {
+   "sens": "v_258 (nuance d'ENTRY)",
+   "entree": "v_258",
+   "mot": "猫",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "匹",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_258_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis"
+  },
+  {
+   "sens": "v_261 (nuance d'ENTRY)",
+   "entree": "v_261",
+   "mot": "花",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "鼻",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_261_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis"
+  },
+  {
+   "sens": "v_262 (nuance d'ENTRY)",
+   "entree": "v_262",
+   "mot": "鳥",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "羽",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_262_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis"
+  },
+  {
+   "sens": "v_271 (nuance d'ENTRY)",
+   "entree": "v_271",
+   "mot": "春",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "桜",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_271_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_271_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis"
+  }
+ ],
+ "toutes": [
+  {
+   "sens": "v_17 (nuance d'ENTRY)",
+   "entree": "v_17",
+   "mot": "お姉さん",
+   "lot": "lot-00",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "姉",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_17_s1",
+    "v_17_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "あね",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_30"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_30",
+     "mot": "姉",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_18 (nuance d'ENTRY)",
+   "entree": "v_18",
+   "mot": "お母さん",
+   "lot": "lot-00",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "母",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_18_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "はは",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_37"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_37",
+     "mot": "母",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_19 (nuance d'ENTRY)",
+   "entree": "v_19",
+   "mot": "お父さん",
+   "lot": "lot-00",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "父",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_19_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "ちち",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_44_s1",
+   "entree": "v_44",
+   "mot": "お腹",
+   "lot": "lot-00",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_44_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "お腹がすいた",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_44_s1"
+   ],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_68_s1",
+   "entree": "v_68",
+   "mot": "履く",
+   "lot": "lot-00",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_68_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "きる",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_539",
+      "v_566"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_68_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_539",
+     "mot": "切る",
+     "lot": "18",
+     "tranche": "7"
+    },
+    {
+     "id": "v_566",
+     "mot": "着る",
+     "lot": "05",
+     "tranche": "4"
+    }
+   ]
+  },
+  {
+   "sens": "v_226_s1",
+   "entree": "v_226",
+   "mot": "鍵",
+   "lot": "lot-00",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_226_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "鍵をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_226_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_420 (nuance d'ENTRY)",
+   "entree": "v_420",
+   "mot": "いい",
+   "lot": "lot-00",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_420_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "よかった",
+     "classe": "B-transcription",
+     "renvoi": []
+    },
+    {
+     "chaine": "よくない",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_420_s1"
+   ],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_555_s1",
+   "entree": "v_555",
+   "mot": "曲がる",
+   "lot": "lot-00",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_555_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "角を曲がる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "右に曲がる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_564 (nuance d'ENTRY)",
+   "entree": "v_564",
+   "mot": "無くす",
+   "lot": "lot-00",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_564_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "無くなる",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_564_s1"
+   ],
+   "corrections": [],
+   "lotN": "00",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_15 (nuance d'ENTRY)",
+   "entree": "v_15",
+   "mot": "お巡りさん",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_15_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "交番",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_240"
+     ]
+    },
+    {
+     "chaine": "警官",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_42"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_15_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_240",
+     "mot": "交番",
+     "lot": "04",
+     "tranche": "1, arbitrée"
+    },
+    {
+     "id": "v_42",
+     "mot": "警官",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_16 (nuance d'ENTRY)",
+   "entree": "v_16",
+   "mot": "お兄さん",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "兄",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_16_s1",
+    "v_16_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "あに",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_21"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_21",
+     "mot": "兄",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_20 (nuance d'ENTRY)",
+   "entree": "v_20",
+   "mot": "両親",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_20_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "ご両親",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_20_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_23 (nuance d'ENTRY)",
+   "entree": "v_23",
+   "mot": "友達",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "達",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_23_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_24 (nuance d'ENTRY)",
+   "entree": "v_24",
+   "mot": "叔母",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_24_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "伯母",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_25 (nuance d'ENTRY)",
+   "entree": "v_25",
+   "mot": "叔父",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_25_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "伯父",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_27 (nuance d'ENTRY)",
+   "entree": "v_27",
+   "mot": "外国人",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_27_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "外人",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_31 (nuance d'ENTRY)",
+   "entree": "v_31",
+   "mot": "子供",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_31_s1",
+    "v_31_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "お子さん",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_31_s1",
+    "v_31_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_35 (nuance d'ENTRY)",
+   "entree": "v_35",
+   "mot": "家族",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_35_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "ご家族",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_42 (nuance d'ENTRY)",
+   "entree": "v_42",
+   "mot": "警官",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_42_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "お巡りさん",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_15"
+     ]
+    }
+   ],
+   "parLecture": [
+    "お巡りさん"
+   ],
+   "candidats377": [
+    "v_42_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_15",
+     "mot": "お巡りさん",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_46 (nuance d'ENTRY)",
+   "entree": "v_46",
+   "mot": "体",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_46_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "体にいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "体が弱い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_46_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_47 (nuance d'ENTRY)",
+   "entree": "v_47",
+   "mot": "医者",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_47_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "お医者さん",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_48 (nuance d'ENTRY)",
+   "entree": "v_48",
+   "mot": "口",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_48_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "瓶の口",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_48_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_51 (nuance d'ENTRY)",
+   "entree": "v_51",
+   "mot": "手",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_51_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "手を洗う",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_51_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_54 (nuance d'ENTRY)",
+   "entree": "v_54",
+   "mot": "歯",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_54_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "歯を磨く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_54_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_55 (nuance d'ENTRY)",
+   "entree": "v_55",
+   "mot": "病気",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_55_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "病気になる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "病気です",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_55_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_56 (nuance d'ENTRY)",
+   "entree": "v_56",
+   "mot": "病院",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_56_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "病院に行く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_57 (nuance d'ENTRY)",
+   "entree": "v_57",
+   "mot": "目",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_57_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "目がいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "目が悪い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_57_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_58 (nuance d'ENTRY)",
+   "entree": "v_58",
+   "mot": "耳",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_58_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "耳がいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "耳が遠い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_58_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_59 (nuance d'ENTRY)",
+   "entree": "v_59",
+   "mot": "薬",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_59_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "薬を飲む",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_61 (nuance d'ENTRY)",
+   "entree": "v_61",
+   "mot": "身体",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "体",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_61_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "からだ",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_46"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_61_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_46",
+     "mot": "体",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_65_s2",
+   "entree": "v_65",
+   "mot": "頭",
+   "lot": "lot-01",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_65_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "頭がいい",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "頭を使う",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_65_s2"
+   ],
+   "corrections": [
+    "volet 2 n° 2 (`v_65_s2`)"
+   ],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_283 (nuance d'ENTRY)",
+   "entree": "v_283",
+   "mot": "風邪",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "風",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_283_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "風邪をひく",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_282",
+     "mot": "風",
+     "lot": "07",
+     "tranche": "1, arbitrée"
+    }
+   ]
+  },
+  {
+   "sens": "v_465 (nuance d'ENTRY)",
+   "entree": "v_465",
+   "mot": "痛い",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_465_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "頭が痛い",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "頭が痛い"
+   ],
+   "candidats377": [
+    "v_465_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_603 (nuance d'ENTRY)",
+   "entree": "v_603",
+   "mot": "髪",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "紙",
+     "kanji": true,
+     "absent": true
+    },
+    {
+     "c": "神",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_603_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "髪を切る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_603_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_237",
+     "mot": "紙",
+     "lot": "03",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_633 (nuance d'ENTRY)",
+   "entree": "v_633",
+   "mot": "人",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "方",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_633_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "かた",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_667"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_633_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_667",
+     "mot": "方",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_656 (nuance d'ENTRY)",
+   "entree": "v_656",
+   "mot": "奥さん",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "妻",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_656_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "家内",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_660"
+     ]
+    }
+   ],
+   "parLecture": [
+    "家内"
+   ],
+   "candidats377": [
+    "v_656_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_660",
+     "mot": "家内",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_657 (nuance d'ENTRY)",
+   "entree": "v_657",
+   "mot": "女",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_657_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "女性",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_657_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_660 (nuance d'ENTRY)",
+   "entree": "v_660",
+   "mot": "家内",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_660_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "奥さん",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_656"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_656",
+     "mot": "奥さん",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_667 (nuance d'ENTRY)",
+   "entree": "v_667",
+   "mot": "方",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "人",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_667_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "どの方",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_667_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_633",
+     "mot": "人",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_686 (nuance d'ENTRY)",
+   "entree": "v_686",
+   "mot": "男",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_686_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "男性",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_686_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_687 (nuance d'ENTRY)",
+   "entree": "v_687",
+   "mot": "皆さん",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "皆",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_687_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "こんにちは",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "みんな",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_606",
+      "v_606"
+     ]
+    }
+   ],
+   "parLecture": [
+    "みんな"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_687_s1"
+   ],
+   "corrections": [
+    "volet 2 n° 5 (`v_687_s1`)"
+   ],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": [
+    {
+     "id": "v_606",
+     "mot": "皆",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_690_s1",
+   "entree": "v_690",
+   "mot": "背",
+   "lot": "lot-01",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_690_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "背が高い",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "背が高い"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_716 (nuance d'ENTRY)",
+   "entree": "v_716",
+   "mot": "顔",
+   "lot": "lot-01",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_716_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "変な顔をする",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "顔色",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_716_s1"
+   ],
+   "corrections": [],
+   "lotN": "01",
+   "tranche": "2",
+   "renvois": []
+  },
+  {
+   "sens": "v_66 (nuance d'ENTRY)",
+   "entree": "v_66",
+   "mot": "飲む",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_66_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "薬を飲む",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_66_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_84 (nuance d'ENTRY)",
+   "entree": "v_84",
+   "mot": "お弁当",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "お",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_84_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "駅弁",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_84_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_85 (nuance d'ENTRY)",
+   "entree": "v_85",
+   "mot": "お茶",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_85_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "紅茶",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_112"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_85_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_112",
+     "mot": "紅茶",
+     "lot": "02",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_86 (nuance d'ENTRY)",
+   "entree": "v_86",
+   "mot": "お酒",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_86_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "日本酒",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_86_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_88_s2",
+   "entree": "v_88",
+   "mot": "ご飯",
+   "lot": "lot-02",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_88_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "ご飯を食べる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_459",
+     "mot": "朝ご飯",
+     "lot": "00",
+     "tranche": "2"
+    },
+    {
+     "id": "v_91",
+     "mot": "晩ご飯",
+     "lot": "00",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_88 (nuance d'ENTRY)",
+   "entree": "v_88",
+   "mot": "ご飯",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "米",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_88_s1",
+    "v_88_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "こめ",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_88_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_90 (nuance d'ENTRY)",
+   "entree": "v_90",
+   "mot": "とり肉",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "鶏",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_90_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "にわとり",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_93 (nuance d'ENTRY)",
+   "entree": "v_93",
+   "mot": "カップ",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_93_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "コップ",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_230"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_230",
+     "mot": "コップ",
+     "lot": "02",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_95 (nuance d'ENTRY)",
+   "entree": "v_95",
+   "mot": "コーヒー",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_95_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "喫茶店",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_101"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_95_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_101",
+     "mot": "喫茶店",
+     "lot": "02",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_98 (nuance d'ENTRY)",
+   "entree": "v_98",
+   "mot": "レストラン",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_98_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "料理屋",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_104_s1",
+   "entree": "v_104",
+   "mot": "料理",
+   "lot": "lot-02",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_104_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "料理する",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_104_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_111 (nuance d'ENTRY)",
+   "entree": "v_111",
+   "mot": "箸",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "橋",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_111_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "お箸",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_674",
+     "mot": "橋",
+     "lot": "04",
+     "tranche": "1 bis"
+    }
+   ]
+  },
+  {
+   "sens": "v_120 (nuance d'ENTRY)",
+   "entree": "v_120",
+   "mot": "飲み物",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_120_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "飲み物は",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_120_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_121 (nuance d'ENTRY)",
+   "entree": "v_121",
+   "mot": "飴",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "雨",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_121_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_121_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_280",
+     "mot": "雨",
+     "lot": "07",
+     "tranche": "1, arbitrée"
+    }
+   ]
+  },
+  {
+   "sens": "v_211 (nuance d'ENTRY)",
+   "entree": "v_211",
+   "mot": "ナイフ",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_211_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "包丁",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_225 (nuance d'ENTRY)",
+   "entree": "v_225",
+   "mot": "お皿",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "皿",
+     "kanji": true,
+     "absent": false
+    },
+    {
+     "c": "お",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_225_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_230 (nuance d'ENTRY)",
+   "entree": "v_230",
+   "mot": "コップ",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_230_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "カップ",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_93"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_93",
+     "mot": "カップ",
+     "lot": "02",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_427_s2",
+   "entree": "v_427",
+   "mot": "まずい",
+   "lot": "lot-02",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_427_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "まずいことになった",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_427_s2"
+   ],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_427 (nuance d'ENTRY)",
+   "entree": "v_427",
+   "mot": "まずい",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_427_s1",
+    "v_427_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "おいしくない",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_427_s1"
+   ],
+   "dans147": [
+    "v_427_s2"
+   ],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_464_s2",
+   "entree": "v_464",
+   "mot": "甘い",
+   "lot": "lot-02",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_464_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "子供に甘い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "考えが甘い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_464_s2"
+   ],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_481 (nuance d'ENTRY)",
+   "entree": "v_481",
+   "mot": "辛い",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_481_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "しょっぱい",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "つらい",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_481_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_677 (nuance d'ENTRY)",
+   "entree": "v_677",
+   "mot": "水",
+   "lot": "lot-02",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_677_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "お湯",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "おゆ",
+     "classe": "B-romaji",
+     "renvoi": []
+    },
+    {
+     "chaine": "お水",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "おゆ"
+   ],
+   "candidats377": [
+    "v_677_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "02",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_33 (nuance d'ENTRY)",
+   "entree": "v_33",
+   "mot": "家",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_33_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "うち",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_34 (nuance d'ENTRY)",
+   "entree": "v_34",
+   "mot": "家庭",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "家",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_34_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "いえ",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_33"
+     ]
+    },
+    {
+     "chaine": "家庭料理",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_33",
+     "mot": "家",
+     "lot": "03",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_96 (nuance d'ENTRY)",
+   "entree": "v_96",
+   "mot": "テーブル",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "机",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_96_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_145",
+     "mot": "机",
+     "lot": "03",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_208_s1",
+   "entree": "v_208",
+   "mot": "お風呂",
+   "lot": "lot-03",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_208_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "お風呂に入る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_208_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_213",
+     "mot": "入る",
+     "lot": "04",
+     "tranche": "1, arbitrée"
+    }
+   ]
+  },
+  {
+   "sens": "v_208 (nuance d'ENTRY)",
+   "entree": "v_208",
+   "mot": "お風呂",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "お",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_208_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_208_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_209",
+     "mot": "ふろ",
+     "lot": "03",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_209_s1",
+   "entree": "v_209",
+   "mot": "ふろ",
+   "lot": "lot-03",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_209_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "お風呂に入る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "入る",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_213"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_209_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_213",
+     "mot": "入る",
+     "lot": "04",
+     "tranche": "1, arbitrée"
+    }
+   ]
+  },
+  {
+   "sens": "v_209 (nuance d'ENTRY)",
+   "entree": "v_209",
+   "mot": "ふろ",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "お",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_209_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "お風呂",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_208"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_209_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_208",
+     "mot": "お風呂",
+     "lot": "03",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_210 (nuance d'ENTRY)",
+   "entree": "v_210",
+   "mot": "ドア",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "戸",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_210_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_218",
+     "mot": "戸",
+     "lot": "03",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_229 (nuance d'ENTRY)",
+   "entree": "v_229",
+   "mot": "ちり紙",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_229_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "トイレットペーパー",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "ティッシュ",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_229_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_237 (nuance d'ENTRY)",
+   "entree": "v_237",
+   "mot": "紙",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "髪",
+     "kanji": true,
+     "absent": true
+    },
+    {
+     "c": "神",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_237_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "枚の紙",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_237_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_603",
+     "mot": "髪",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_507 (nuance d'ENTRY)",
+   "entree": "v_507",
+   "mot": "アパート",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_507_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "マンション",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_589 (nuance d'ENTRY)",
+   "entree": "v_589",
+   "mot": "お手洗い",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_589_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "トイレ",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_617"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_589_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_617",
+     "mot": "トイレ",
+     "lot": "03",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_708 (nuance d'ENTRY)",
+   "entree": "v_708",
+   "mot": "門",
+   "lot": "lot-03",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "戸",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_708_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ドア",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_210"
+     ]
+    }
+   ],
+   "parLecture": [
+    "ドア"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": [
+    {
+     "id": "v_210",
+     "mot": "ドア",
+     "lot": "03",
+     "tranche": "3"
+    },
+    {
+     "id": "v_218",
+     "mot": "戸",
+     "lot": "03",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_713_s2",
+   "entree": "v_713",
+   "mot": "電気",
+   "lot": "lot-03",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_713_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "電気をつける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "電気を消す",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_713_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "03",
+   "tranche": "3",
+   "renvois": []
+  },
+  {
+   "sens": "v_154 (nuance d'ENTRY)",
+   "entree": "v_154",
+   "mot": "自動車",
+   "lot": "lot-04",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "車",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_154_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "04",
+   "tranche": "1 bis",
+   "renvois": [
+    {
+     "id": "v_158",
+     "mot": "車",
+     "lot": "04",
+     "tranche": "1 bis"
+    }
+   ]
+  },
+  {
+   "sens": "v_249 (nuance d'ENTRY)",
+   "entree": "v_249",
+   "mot": "町",
+   "lot": "lot-04",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "市",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_249_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "04",
+   "tranche": "1 bis",
+   "renvois": []
+  },
+  {
+   "sens": "v_674 (nuance d'ENTRY)",
+   "entree": "v_674",
+   "mot": "橋",
+   "lot": "lot-04",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "箸",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_674_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "04",
+   "tranche": "1 bis",
+   "renvois": [
+    {
+     "id": "v_111",
+     "mot": "箸",
+     "lot": "02",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_71 (nuance d'ENTRY)",
+   "entree": "v_71",
+   "mot": "スカート",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_71_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "はく",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_68",
+      "v_68"
+     ]
+    },
+    {
+     "chaine": "スカートをはく",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": [
+    {
+     "id": "v_68",
+     "mot": "履く",
+     "lot": "00",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_72 (nuance d'ENTRY)",
+   "entree": "v_72",
+   "mot": "ズボン",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_72_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "はく",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_68",
+      "v_68"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": [
+    {
+     "id": "v_68",
+     "mot": "履く",
+     "lot": "00",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_74_s2",
+   "entree": "v_74",
+   "mot": "ボタン",
+   "lot": "lot-05",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_74_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "ボタンを押す",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_74_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_180 (nuance d'ENTRY)",
+   "entree": "v_180",
+   "mot": "お金",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "お",
+     "kanji": false,
+     "absent": false
+    },
+    {
+     "c": "金",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_180_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_234 (nuance d'ENTRY)",
+   "entree": "v_234",
+   "mot": "傘",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_234_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "日傘",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_566 (nuance d'ENTRY)",
+   "entree": "v_566",
+   "mot": "着る",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_566_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "はく",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_68",
+      "v_68"
+     ]
+    }
+   ],
+   "parLecture": [
+    "はく"
+   ],
+   "candidats377": [
+    "v_566_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": [
+    {
+     "id": "v_68",
+     "mot": "履く",
+     "lot": "00",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_572 (nuance d'ENTRY)",
+   "entree": "v_572",
+   "mot": "脱ぐ",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_572_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "靴を脱ぐ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_614 (nuance d'ENTRY)",
+   "entree": "v_614",
+   "mot": "スリッパ",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_614_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "玄関",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_248"
+     ]
+    }
+   ],
+   "parLecture": [
+    "玄関"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": [
+    {
+     "id": "v_248",
+     "mot": "玄関",
+     "lot": "03",
+     "tranche": "3"
+    }
+   ]
+  },
+  {
+   "sens": "v_618 (nuance d'ENTRY)",
+   "entree": "v_618",
+   "mot": "ハンカチ",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_618_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "ティッシュ",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_671 (nuance d'ENTRY)",
+   "entree": "v_671",
+   "mot": "時計",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_671_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "目覚まし時計",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_671_s1"
+   ],
+   "corrections": [
+    "volet 2 n° 7 (`v_671_s1`)"
+   ],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_679 (nuance d'ENTRY)",
+   "entree": "v_679",
+   "mot": "洋服",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_679_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "和服",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "着物",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_701 (nuance d'ENTRY)",
+   "entree": "v_701",
+   "mot": "買い物",
+   "lot": "lot-05",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_701_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "買い物に行く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "05",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_32 (nuance d'ENTRY)",
+   "entree": "v_32",
+   "mot": "学生",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_32_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "生徒",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_38"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": [
+    {
+     "id": "v_38",
+     "mot": "生徒",
+     "lot": "06",
+     "tranche": "4"
+    }
+   ]
+  },
+  {
+   "sens": "v_123 (nuance d'ENTRY)",
+   "entree": "v_123",
+   "mot": "クラス",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_123_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "教室",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_133"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": [
+    {
+     "id": "v_133",
+     "mot": "教室",
+     "lot": "06",
+     "tranche": "4"
+    }
+   ]
+  },
+  {
+   "sens": "v_131 (nuance d'ENTRY)",
+   "entree": "v_131",
+   "mot": "授業",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_131_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "授業に出る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_132_s2",
+   "entree": "v_132",
+   "mot": "教える",
+   "lot": "lot-06",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_132_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "道を教える",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_132_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_133 (nuance d'ENTRY)",
+   "entree": "v_133",
+   "mot": "教室",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_133_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "クラス",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_123"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": [
+    {
+     "id": "v_123",
+     "mot": "クラス",
+     "lot": "06",
+     "tranche": "4"
+    }
+   ]
+  },
+  {
+   "sens": "v_134 (nuance d'ENTRY)",
+   "entree": "v_134",
+   "mot": "本",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "冊",
+     "kanji": true,
+     "absent": false
+    },
+    {
+     "c": "本",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_134_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_134_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_135 (nuance d'ENTRY)",
+   "entree": "v_135",
+   "mot": "知る",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_135_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "知っていない",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_136 (nuance d'ENTRY)",
+   "entree": "v_136",
+   "mot": "英語",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "語",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_136_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_136_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_138_s1",
+   "entree": "v_138",
+   "mot": "言葉",
+   "lot": "lot-06",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_138_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "先生の言葉",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_138_s2",
+   "entree": "v_138",
+   "mot": "言葉",
+   "lot": "lot-06",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_138_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "日本の言葉",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_138_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_170_s2",
+   "entree": "v_170",
+   "mot": "字",
+   "lot": "lot-06",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_170_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "字が上手だ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_170_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_513_s2",
+   "entree": "v_513",
+   "mot": "意味",
+   "lot": "lot-06",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_513_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "意味がない",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_513_s2"
+   ],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_538 (nuance d'ENTRY)",
+   "entree": "v_538",
+   "mot": "分かる",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_538_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "日本語が分かる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_553 (nuance d'ENTRY)",
+   "entree": "v_553",
+   "mot": "忘れる",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_553_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "名前を忘れる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "傘を忘れる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_556 (nuance d'ENTRY)",
+   "entree": "v_556",
+   "mot": "書く",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_556_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "描く",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_556_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_570 (nuance d'ENTRY)",
+   "entree": "v_570",
+   "mot": "練習",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_570_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "C",
+   "chaines": [
+    {
+     "chaine": "練習する",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_570_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_647 (nuance d'ENTRY)",
+   "entree": "v_647",
+   "mot": "勉強",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_647_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "習う",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_41"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": [
+    {
+     "id": "v_41",
+     "mot": "習う",
+     "lot": "06",
+     "tranche": "4"
+    }
+   ]
+  },
+  {
+   "sens": "v_666 (nuance d'ENTRY)",
+   "entree": "v_666",
+   "mot": "文章",
+   "lot": "lot-06",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "文",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_666_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "06",
+   "tranche": "4",
+   "renvois": []
+  },
+  {
+   "sens": "v_257 (nuance d'ENTRY)",
+   "entree": "v_257",
+   "mot": "犬",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "匹",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_257_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis",
+   "renvois": [
+    {
+     "id": "v_648",
+     "mot": "匹",
+     "lot": "07",
+     "tranche": "1, arbitrée"
+    }
+   ]
+  },
+  {
+   "sens": "v_258 (nuance d'ENTRY)",
+   "entree": "v_258",
+   "mot": "猫",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "匹",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_258_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis",
+   "renvois": [
+    {
+     "id": "v_648",
+     "mot": "匹",
+     "lot": "07",
+     "tranche": "1, arbitrée"
+    }
+   ]
+  },
+  {
+   "sens": "v_261 (nuance d'ENTRY)",
+   "entree": "v_261",
+   "mot": "花",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "鼻",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_261_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis",
+   "renvois": [
+    {
+     "id": "v_67",
+     "mot": "鼻",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_262 (nuance d'ENTRY)",
+   "entree": "v_262",
+   "mot": "鳥",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "羽",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_262_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis",
+   "renvois": []
+  },
+  {
+   "sens": "v_270 (nuance d'ENTRY)",
+   "entree": "v_270",
+   "mot": "寒い",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_270_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "暑い",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_274"
+     ]
+    }
+   ],
+   "parLecture": [
+    "暑い"
+   ],
+   "candidats377": [
+    "v_270_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis",
+   "renvois": [
+    {
+     "id": "v_274",
+     "mot": "暑い",
+     "lot": "07",
+     "tranche": "1, arbitrée"
+    },
+    {
+     "id": "v_265",
+     "mot": "冷たい",
+     "lot": "07",
+     "tranche": "1, arbitrée"
+    }
+   ]
+  },
+  {
+   "sens": "v_271 (nuance d'ENTRY)",
+   "entree": "v_271",
+   "mot": "春",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "桜",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_271_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_271_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis",
+   "renvois": []
+  },
+  {
+   "sens": "v_277 (nuance d'ENTRY)",
+   "entree": "v_277",
+   "mot": "熱い",
+   "lot": "lot-07",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_277_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "暑い",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_274"
+     ]
+    }
+   ],
+   "parLecture": [
+    "暑い"
+   ],
+   "candidats377": [
+    "v_277_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "07",
+   "tranche": "1 bis",
+   "renvois": [
+    {
+     "id": "v_274",
+     "mot": "暑い",
+     "lot": "07",
+     "tranche": "1, arbitrée"
+    }
+   ]
+  },
+  {
+   "sens": "v_52 (nuance d'ENTRY)",
+   "entree": "v_52",
+   "mot": "手紙",
+   "lot": "lot-08",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_52_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "手紙を書く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "手紙を出す",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_164_s1",
+   "entree": "v_164",
+   "mot": "かける",
+   "lot": "lot-08",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_164_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "電話をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "友達に電話をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_164_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_164_s2",
+   "entree": "v_164",
+   "mot": "かける",
+   "lot": "lot-08",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_164_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "めがねをかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_164_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_164_s3",
+   "entree": "v_164",
+   "mot": "かける",
+   "lot": "lot-08",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_164_s3"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "壁に絵をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_164_s3"
+   ],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_168 (nuance d'ENTRY)",
+   "entree": "v_168",
+   "mot": "写真",
+   "lot": "lot-08",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_168_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "写真を撮る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_169_s1",
+   "entree": "v_169",
+   "mot": "呼ぶ",
+   "lot": "lot-08",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_169_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "名前を呼ぶ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "友達を呼ぶ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_169_s2",
+   "entree": "v_169",
+   "mot": "呼ぶ",
+   "lot": "lot-08",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_169_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "と呼ぶ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_173 (nuance d'ENTRY)",
+   "entree": "v_173",
+   "mot": "番号",
+   "lot": "lot-08",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_173_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "部屋の番号",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_173_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_174 (nuance d'ENTRY)",
+   "entree": "v_174",
+   "mot": "答える",
+   "lot": "lot-08",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_174_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "質問に答える",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_175_s1",
+   "entree": "v_175",
+   "mot": "聞く",
+   "lot": "lot-08",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_175_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "音楽を聞く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_175_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_175_s2",
+   "entree": "v_175",
+   "mot": "聞く",
+   "lot": "lot-08",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_175_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "先生に聞く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_175_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_176 (nuance d'ENTRY)",
+   "entree": "v_176",
+   "mot": "言う",
+   "lot": "lot-08",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_176_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "と言います",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "田中と言います",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "ゆう",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "ゆう"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_177 (nuance d'ENTRY)",
+   "entree": "v_177",
+   "mot": "話す",
+   "lot": "lot-08",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_177_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "日本語を話す",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "日本語で話す",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_178_s2",
+   "entree": "v_178",
+   "mot": "電話",
+   "lot": "lot-08",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_178_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "電話をかける",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_203 (nuance d'ENTRY)",
+   "entree": "v_203",
+   "mot": "テレビ",
+   "lot": "lot-08",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_203_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "テレビを見る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_697 (nuance d'ENTRY)",
+   "entree": "v_697",
+   "mot": "見せる",
+   "lot": "lot-08",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_697_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "写真を友達に見せる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_699_s2",
+   "entree": "v_699",
+   "mot": "話",
+   "lot": "lot-08",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_699_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "昔の話",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_699 (nuance d'ENTRY)",
+   "entree": "v_699",
+   "mot": "話",
+   "lot": "lot-08",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_699_s1",
+    "v_699_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "話す",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_177"
+     ]
+    }
+   ],
+   "parLecture": [
+    "話す"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "08",
+   "tranche": "5",
+   "renvois": [
+    {
+     "id": "v_177",
+     "mot": "話す",
+     "lot": "08",
+     "tranche": "5"
+    }
+   ]
+  },
+  {
+   "sens": "v_26 (nuance d'ENTRY)",
+   "entree": "v_26",
+   "mot": "外国",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_26_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "外国に行く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "外国人",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_27"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": [
+    {
+     "id": "v_27",
+     "mot": "外国人",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_192 (nuance d'ENTRY)",
+   "entree": "v_192",
+   "mot": "弾く",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_192_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "引く",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_130"
+     ]
+    }
+   ],
+   "parLecture": [
+    "引く"
+   ],
+   "candidats377": [
+    "v_192_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": [
+    {
+     "id": "v_130",
+     "mot": "引く",
+     "lot": "18",
+     "tranche": "7"
+    },
+    {
+     "id": "v_189",
+     "mot": "ギター",
+     "lot": "09",
+     "tranche": "5"
+    },
+    {
+     "id": "v_266",
+     "mot": "吹く",
+     "lot": "07",
+     "tranche": "1, arbitrée"
+    }
+   ]
+  },
+  {
+   "sens": "v_193 (nuance d'ENTRY)",
+   "entree": "v_193",
+   "mot": "散歩",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_193_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "犬の散歩",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_196 (nuance d'ENTRY)",
+   "entree": "v_196",
+   "mot": "映画",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_196_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "映画を見る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": [
+    {
+     "id": "v_669",
+     "mot": "映画館",
+     "lot": "09",
+     "tranche": "5"
+    }
+   ]
+  },
+  {
+   "sens": "v_197 (nuance d'ENTRY)",
+   "entree": "v_197",
+   "mot": "歌う",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "歌",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_197_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": [
+    {
+     "id": "v_676",
+     "mot": "歌",
+     "lot": "09",
+     "tranche": "5"
+    }
+   ]
+  },
+  {
+   "sens": "v_198 (nuance d'ENTRY)",
+   "entree": "v_198",
+   "mot": "泳ぐ",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_198_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "プールで泳ぐ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_199 (nuance d'ENTRY)",
+   "entree": "v_199",
+   "mot": "遊ぶ",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_199_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "友達と遊ぶ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_243 (nuance d'ENTRY)",
+   "entree": "v_243",
+   "mot": "国",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_243_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "国に帰る",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "お国はどちらですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_676 (nuance d'ENTRY)",
+   "entree": "v_676",
+   "mot": "歌",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_676_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "歌を歌う",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "歌を歌う"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_689 (nuance d'ENTRY)",
+   "entree": "v_689",
+   "mot": "絵",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_689_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "絵を描く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "かく",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_556"
+     ]
+    }
+   ],
+   "parLecture": [
+    "かく"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": [
+    {
+     "id": "v_556",
+     "mot": "書く",
+     "lot": "06",
+     "tranche": "4"
+    }
+   ]
+  },
+  {
+   "sens": "v_707 (nuance d'ENTRY)",
+   "entree": "v_707",
+   "mot": "釣り",
+   "lot": "lot-09",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_707_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "釣りに行く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "09",
+   "tranche": "5",
+   "renvois": []
+  },
+  {
+   "sens": "v_43 (nuance d'ENTRY)",
+   "entree": "v_43",
+   "mot": "隣",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_43_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "隣の家",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_341 (nuance d'ENTRY)",
+   "entree": "v_341",
+   "mot": "そば",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_341_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "蕎麦",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_345 (nuance d'ENTRY)",
+   "entree": "v_345",
+   "mot": "上",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "の",
+     "kanji": false,
+     "absent": false
+    },
+    {
+     "c": "に",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_345_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_346 (nuance d'ENTRY)",
+   "entree": "v_346",
+   "mot": "中",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "の",
+     "kanji": false,
+     "absent": false
+    },
+    {
+     "c": "に",
+     "kanji": false,
+     "absent": false
+    },
+    {
+     "c": "中",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_346_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "ちゅう",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    },
+    {
+     "chaine": "じゅう",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_384"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_384",
+     "mot": "十",
+     "lot": "14",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_347_s1",
+   "entree": "v_347",
+   "mot": "先",
+   "lot": "lot-10",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_347_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "この先",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "ペンの先",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_347_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_348_s2",
+   "entree": "v_348",
+   "mot": "前",
+   "lot": "lot-10",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_348_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "三年前",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "食べる前に",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_348_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_349 (nuance d'ENTRY)",
+   "entree": "v_349",
+   "mot": "北",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_349_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "北口",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_349_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_350 (nuance d'ENTRY)",
+   "entree": "v_350",
+   "mot": "南",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_350_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "南口",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_350_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_352 (nuance d'ENTRY)",
+   "entree": "v_352",
+   "mot": "外",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "中",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_352_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "外で遊ぶ",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_346",
+     "mot": "中",
+     "lot": "10",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_354 (nuance d'ENTRY)",
+   "entree": "v_354",
+   "mot": "後ろ",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "の",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_354_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_356 (nuance d'ENTRY)",
+   "entree": "v_356",
+   "mot": "横",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "縦",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_356_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "横に置く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_597",
+     "mot": "縦",
+     "lot": "10",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_358 (nuance d'ENTRY)",
+   "entree": "v_358",
+   "mot": "角",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "角",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_358_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "次の角を右に曲がる",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "つの",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_360 (nuance d'ENTRY)",
+   "entree": "v_360",
+   "mot": "近い",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_360_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "駅に近い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_360_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_362 (nuance d'ENTRY)",
+   "entree": "v_362",
+   "mot": "遠い",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_362_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "駅から遠い",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_597 (nuance d'ENTRY)",
+   "entree": "v_597",
+   "mot": "縦",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "横",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_597_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "縦に書く",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_597_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_356",
+     "mot": "横",
+     "lot": "10",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_630 (nuance d'ENTRY)",
+   "entree": "v_630",
+   "mot": "下",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_630_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "机の下に",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "机の下に"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_696 (nuance d'ENTRY)",
+   "entree": "v_696",
+   "mot": "表",
+   "lot": "lot-10",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "裏",
+     "kanji": true,
+     "absent": false
+    },
+    {
+     "c": "表",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_696_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "E",
+   "chaines": [
+    {
+     "chaine": "ひょう",
+     "classe": "E-autre-mot",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_696_s1"
+   ],
+   "corrections": [
+    "volet 2 n° 3 (`v_696_s1`)"
+   ],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_704_s1",
+   "entree": "v_704",
+   "mot": "近く",
+   "lot": "lot-10",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_704_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "駅の近くに",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "駅の近くに"
+   ],
+   "candidats377": [
+    "v_704_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_704_s2",
+   "entree": "v_704",
+   "mot": "近く",
+   "lot": "lot-10",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_704_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "近く結婚します",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_704_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "10",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_339_s1",
+   "entree": "v_339",
+   "mot": "こちら",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_339_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "こっち",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_409",
+      "v_409"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_339_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_409",
+     "mot": "こっち",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_339_s2",
+   "entree": "v_339",
+   "mot": "こちら",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_339_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "こちらこそ",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    },
+    {
+     "chaine": "こちらは田中です",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_339_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_340_s1",
+   "entree": "v_340",
+   "mot": "そちら",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_340_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "そっち",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_414",
+      "v_414"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_340_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_414",
+     "mot": "そっち",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_343_s1",
+   "entree": "v_343",
+   "mot": "どっち",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_343_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "どちら",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_396",
+      "v_396"
+     ]
+    }
+   ],
+   "parLecture": [
+    "どちら"
+   ],
+   "candidats377": [
+    "v_343_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_396",
+     "mot": "どちら",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_390_s1",
+   "entree": "v_390",
+   "mot": "いかが",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_390_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "お茶はいかがですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_390_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_393",
+     "mot": "どう",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_393_s1",
+   "entree": "v_393",
+   "mot": "どう",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_393_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "いかが",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_390",
+      "v_390"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_393_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_390",
+     "mot": "いかが",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_396_s1",
+   "entree": "v_396",
+   "mot": "どちら",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_396_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "コーヒーと紅茶とどちらがいいですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_396_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_396_s2",
+   "entree": "v_396",
+   "mot": "どちら",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_396_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "どこ",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_395",
+      "v_395"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_396_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_395",
+     "mot": "どこ",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_396_s3",
+   "entree": "v_396",
+   "mot": "どちら",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_396_s3"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "どちら様ですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_396_s3"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_396 (nuance d'ENTRY)",
+   "entree": "v_396",
+   "mot": "どちら",
+   "lot": "lot-11",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_396_s1",
+    "v_396_s2",
+    "v_396_s3"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "どこ",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_395",
+      "v_395"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_396_s1",
+    "v_396_s2",
+    "v_396_s3"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_395",
+     "mot": "どこ",
+     "lot": "11",
+     "tranche": "6"
+    },
+    {
+     "id": "v_343",
+     "mot": "どっち",
+     "lot": "11",
+     "tranche": "6"
+    },
+    {
+     "id": "v_399",
+     "mot": "どれ",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_397_s1",
+   "entree": "v_397",
+   "mot": "どなた",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [
+    {
+     "c": "誰",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_397_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_397_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_402",
+     "mot": "誰",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_398_s1",
+   "entree": "v_398",
+   "mot": "どの",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_398_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "どの本ですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_398_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_399_s1",
+   "entree": "v_399",
+   "mot": "どれ",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_399_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "どちら",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_396",
+      "v_396"
+     ]
+    },
+    {
+     "chaine": "どっち",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_343",
+      "v_343"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_399_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_396",
+     "mot": "どちら",
+     "lot": "11",
+     "tranche": "6"
+    },
+    {
+     "id": "v_343",
+     "mot": "どっち",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_400_s1",
+   "entree": "v_400",
+   "mot": "なぜ",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_400_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "どうして",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_394",
+      "v_394"
+     ]
+    }
+   ],
+   "parLecture": [
+    "どうして"
+   ],
+   "candidats377": [
+    "v_400_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_394",
+     "mot": "どうして",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_402_s1",
+   "entree": "v_402",
+   "mot": "誰",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_402_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "どなた",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_397",
+      "v_397"
+     ]
+    }
+   ],
+   "parLecture": [
+    "どなた"
+   ],
+   "candidats377": [
+    "v_402_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_397",
+     "mot": "どなた",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_404_s1",
+   "entree": "v_404",
+   "mot": "あちら",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_404_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "あそこ",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_403",
+      "v_403"
+     ]
+    },
+    {
+     "chaine": "あっち",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_405",
+      "v_405"
+     ]
+    }
+   ],
+   "parLecture": [
+    "あそこ"
+   ],
+   "candidats377": [
+    "v_404_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_403",
+     "mot": "あそこ",
+     "lot": "11",
+     "tranche": "6"
+    },
+    {
+     "id": "v_405",
+     "mot": "あっち",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_404_s2",
+   "entree": "v_404",
+   "mot": "あちら",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_404_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "あちらは田中さんです",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_404_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_405_s1",
+   "entree": "v_405",
+   "mot": "あっち",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_405_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "あちら",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_404",
+      "v_404"
+     ]
+    }
+   ],
+   "parLecture": [
+    "あちら"
+   ],
+   "candidats377": [
+    "v_405_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_404",
+     "mot": "あちら",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_406_s1",
+   "entree": "v_406",
+   "mot": "あの",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_406_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "あの本",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_406_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_409_s2",
+   "entree": "v_409",
+   "mot": "こっち",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_409_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "こっちの話",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_409_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_412_s1",
+   "entree": "v_412",
+   "mot": "こんな",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_412_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "こんな本",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_412_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_414_s2",
+   "entree": "v_414",
+   "mot": "そっち",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_414_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "そっちはどう",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_414_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_581_s1",
+   "entree": "v_581",
+   "mot": "あなた",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_581_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "さん",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_372"
+     ]
+    }
+   ],
+   "parLecture": [
+    "さん"
+   ],
+   "candidats377": [
+    "v_581_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_372",
+     "mot": "三",
+     "lot": "14",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_585_s1",
+   "entree": "v_585",
+   "mot": "いくつ",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [
+    {
+     "c": "つ",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_585_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "おいくつですか",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_585_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_606_s1",
+   "entree": "v_606",
+   "mot": "皆",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_606_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "皆さん",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_687"
+     ]
+    }
+   ],
+   "parLecture": [
+    "皆さん"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_606_s1"
+   ],
+   "corrections": [
+    "volet 2 n° 4 (`v_606_s1`)"
+   ],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_687",
+     "mot": "皆さん",
+     "lot": "01",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_688_s1",
+   "entree": "v_688",
+   "mot": "私",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_688_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "わたくし",
+     "classe": "C-forme-de-l-entree",
+     "renvoi": []
+    },
+    {
+     "chaine": "私の本",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_688_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_691_s1",
+   "entree": "v_691",
+   "mot": "自分",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_691_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "自分でやります",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_691_s1"
+   ],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": []
+  },
+  {
+   "sens": "v_700_s1",
+   "entree": "v_700",
+   "mot": "誰か",
+   "lot": "lot-11",
+   "niveau": "sens",
+   "uns": [
+    {
+     "c": "誰",
+     "kanji": true,
+     "absent": false
+    },
+    {
+     "c": "か",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_700_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_700_s1"
+   ],
+   "corrections": [],
+   "lotN": "11",
+   "tranche": "6",
+   "renvois": [
+    {
+     "id": "v_402",
+     "mot": "誰",
+     "lot": "11",
+     "tranche": "6"
+    }
+   ]
+  },
+  {
+   "sens": "v_286 (nuance d'ENTRY)",
+   "entree": "v_286",
+   "mot": "さ来年",
+   "lot": "lot-12",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "さ",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_286_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_286_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "12",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_326",
+     "mot": "来年",
+     "lot": "12",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_310 (nuance d'ENTRY)",
+   "entree": "v_310",
+   "mot": "午前",
+   "lot": "lot-12",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_310_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "午前十時",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_310_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "12",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_649",
+     "mot": "午後",
+     "lot": "12",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_312 (nuance d'ENTRY)",
+   "entree": "v_312",
+   "mot": "去年",
+   "lot": "lot-12",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_312_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "おととし",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_285",
+      "v_285"
+     ]
+    }
+   ],
+   "parLecture": [
+    "おととし"
+   ],
+   "candidats377": [
+    "v_312_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "12",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_285",
+     "mot": "おととし",
+     "lot": "00",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_318 (nuance d'ENTRY)",
+   "entree": "v_318",
+   "mot": "明日",
+   "lot": "lot-12",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_318_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "あす",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "あす"
+   ],
+   "candidats377": [
+    "v_318_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "12",
+   "tranche": "7",
+   "renvois": []
+  },
+  {
+   "sens": "v_322 (nuance d'ENTRY)",
+   "entree": "v_322",
+   "mot": "晩",
+   "lot": "lot-12",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "夜",
+     "kanji": true,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_322_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_322_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "12",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_315",
+     "mot": "夜",
+     "lot": "12",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_359 (nuance d'ENTRY)",
+   "entree": "v_359",
+   "mot": "近々",
+   "lot": "lot-12",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "々",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_359_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_359_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "12",
+   "tranche": "7",
+   "renvois": []
+  },
+  {
+   "sens": "v_649 (nuance d'ENTRY)",
+   "entree": "v_649",
+   "mot": "午後",
+   "lot": "lot-12",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_649_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "午後三時",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_649_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "12",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_310",
+     "mot": "午前",
+     "lot": "12",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_670_s1",
+   "entree": "v_670",
+   "mot": "昼",
+   "lot": "lot-12",
+   "niveau": "sens",
+   "uns": [
+    {
+     "c": "夜",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_670_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_670_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "12",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_315",
+     "mot": "夜",
+     "lot": "12",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_670_s2",
+   "entree": "v_670",
+   "mot": "昼",
+   "lot": "lot-12",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_670_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "昼にする",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    },
+    {
+     "chaine": "昼ご飯",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_92"
+     ]
+    }
+   ],
+   "parLecture": [
+    "昼ご飯"
+   ],
+   "candidats377": [
+    "v_670_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "12",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_92",
+     "mot": "昼ご飯",
+     "lot": "00",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_291 (nuance d'ENTRY)",
+   "entree": "v_291",
+   "mot": "一月",
+   "lot": "lot-13",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_291_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "いちがつ",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "13",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_365 (nuance d'ENTRY)",
+   "entree": "v_365",
+   "mot": "ゼロ",
+   "lot": "lot-14",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "零",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_365_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "れい",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_389"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "14",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_389",
+     "mot": "零",
+     "lot": "14",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_632 (nuance d'ENTRY)",
+   "entree": "v_632",
+   "mot": "二十歳",
+   "lot": "lot-14",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "歳",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_632_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "14",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_475 (nuance d'ENTRY)",
+   "entree": "v_475",
+   "mot": "色",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_475_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "茶色",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_693"
+     ]
+    },
+    {
+     "chaine": "黄色",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_490"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_693",
+     "mot": "茶色",
+     "lot": "15",
+     "tranche": "7"
+    },
+    {
+     "id": "v_490",
+     "mot": "黄色",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_466 (nuance d'ENTRY)",
+   "entree": "v_466",
+   "mot": "白",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "黒",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_466_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_492",
+     "mot": "黒",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_467 (nuance d'ENTRY)",
+   "entree": "v_467",
+   "mot": "白い",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "白",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_467_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_466",
+     "mot": "白",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_480 (nuance d'ENTRY)",
+   "entree": "v_480",
+   "mot": "赤い",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "赤",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_480_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_479",
+     "mot": "赤",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_490 (nuance d'ENTRY)",
+   "entree": "v_490",
+   "mot": "黄色",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "黄",
+     "kanji": true,
+     "absent": false
+    },
+    {
+     "c": "色",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_490_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_475",
+     "mot": "色",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_492 (nuance d'ENTRY)",
+   "entree": "v_492",
+   "mot": "黒",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "白",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_492_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_466",
+     "mot": "白",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_493 (nuance d'ENTRY)",
+   "entree": "v_493",
+   "mot": "黒い",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "黒",
+     "kanji": true,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_493_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_492",
+     "mot": "黒",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_473 (nuance d'ENTRY)",
+   "entree": "v_473",
+   "mot": "緑",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "の",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_473_s1",
+    "v_473_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "緑の色",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "緑の色"
+   ],
+   "candidats377": [
+    "v_473_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": []
+  },
+  {
+   "sens": "v_693 (nuance d'ENTRY)",
+   "entree": "v_693",
+   "mot": "茶色",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "の",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_693_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": []
+  },
+  {
+   "sens": "v_440 (nuance d'ENTRY)",
+   "entree": "v_440",
+   "mot": "大きい",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_440_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "小さい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_445"
+     ]
+    }
+   ],
+   "parLecture": [
+    "小さい"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_445",
+     "mot": "小さい",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_441 (nuance d'ENTRY)",
+   "entree": "v_441",
+   "mot": "大きな",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "な",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_441_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "大きい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_440"
+     ]
+    }
+   ],
+   "parLecture": [
+    "大きい"
+   ],
+   "candidats377": [
+    "v_441_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_440",
+     "mot": "大きい",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_445 (nuance d'ENTRY)",
+   "entree": "v_445",
+   "mot": "小さい",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_445_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "大きい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_440"
+     ]
+    }
+   ],
+   "parLecture": [
+    "大きい"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_440",
+     "mot": "大きい",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_446 (nuance d'ENTRY)",
+   "entree": "v_446",
+   "mot": "小さな",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "な",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_446_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "小さい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_445"
+     ]
+    }
+   ],
+   "parLecture": [
+    "小さい"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_445",
+     "mot": "小さい",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_468 (nuance d'ENTRY)",
+   "entree": "v_468",
+   "mot": "短い",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_468_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "長い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_485"
+     ]
+    }
+   ],
+   "parLecture": [
+    "長い"
+   ],
+   "candidats377": [
+    "v_468_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_485",
+     "mot": "長い",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_448 (nuance d'ENTRY)",
+   "entree": "v_448",
+   "mot": "広い",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_448_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "狭い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_463"
+     ]
+    }
+   ],
+   "parLecture": [
+    "狭い"
+   ],
+   "candidats377": [
+    "v_448_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_463",
+     "mot": "狭い",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_463 (nuance d'ENTRY)",
+   "entree": "v_463",
+   "mot": "狭い",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_463_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "広い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_448"
+     ]
+    }
+   ],
+   "parLecture": [
+    "広い"
+   ],
+   "candidats377": [
+    "v_463_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_448",
+     "mot": "広い",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_443 (nuance d'ENTRY)",
+   "entree": "v_443",
+   "mot": "太い",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_443_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "細い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_469"
+     ]
+    }
+   ],
+   "parLecture": [
+    "細い"
+   ],
+   "candidats377": [
+    "v_443_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_469",
+     "mot": "細い",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_469 (nuance d'ENTRY)",
+   "entree": "v_469",
+   "mot": "細い",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_469_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "太い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_443"
+     ]
+    }
+   ],
+   "parLecture": [
+    "太い"
+   ],
+   "candidats377": [
+    "v_469_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_443",
+     "mot": "太い",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_435 (nuance d'ENTRY)",
+   "entree": "v_435",
+   "mot": "厚い",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_435_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "薄い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_477"
+     ]
+    }
+   ],
+   "parLecture": [
+    "薄い"
+   ],
+   "candidats377": [
+    "v_435_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_477",
+     "mot": "薄い",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_477_s1",
+   "entree": "v_477",
+   "mot": "薄い",
+   "lot": "lot-15",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_477_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "厚い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_435"
+     ]
+    }
+   ],
+   "parLecture": [
+    "厚い"
+   ],
+   "candidats377": [
+    "v_477_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_435",
+     "mot": "厚い",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_183 (nuance d'ENTRY)",
+   "entree": "v_183",
+   "mot": "低い",
+   "lot": "lot-15",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_183_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "値段は低くありません",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_183_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_185",
+     "mot": "安い",
+     "lot": "05",
+     "tranche": "4"
+    },
+    {
+     "id": "v_188",
+     "mot": "高い",
+     "lot": "05",
+     "tranche": "4"
+    }
+   ]
+  },
+  {
+   "sens": "v_484_s1",
+   "entree": "v_484",
+   "mot": "重い",
+   "lot": "lot-15",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_484_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "軽い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_62"
+     ]
+    }
+   ],
+   "parLecture": [
+    "軽い"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_484_s1"
+   ],
+   "corrections": [],
+   "lotN": "15",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_62",
+     "mot": "軽い",
+     "lot": "15",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_444 (nuance d'ENTRY)",
+   "entree": "v_444",
+   "mot": "好き",
+   "lot": "lot-16",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "が",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_444_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "16",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_429 (nuance d'ENTRY)",
+   "entree": "v_429",
+   "mot": "上手",
+   "lot": "lot-16",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "が",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_429_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_429_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "16",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_430 (nuance d'ENTRY)",
+   "entree": "v_430",
+   "mot": "下手",
+   "lot": "lot-16",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_430_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "上手",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_429"
+     ]
+    }
+   ],
+   "parLecture": [
+    "上手"
+   ],
+   "candidats377": [
+    "v_430_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "16",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_429",
+     "mot": "上手",
+     "lot": "16",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_486 (nuance d'ENTRY)",
+   "entree": "v_486",
+   "mot": "難しい",
+   "lot": "lot-16",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_486_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "易しい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_456"
+     ]
+    }
+   ],
+   "parLecture": [
+    "易しい"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_486_s1"
+   ],
+   "corrections": [],
+   "lotN": "16",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_456",
+     "mot": "易しい",
+     "lot": "16",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_453 (nuance d'ENTRY)",
+   "entree": "v_453",
+   "mot": "新しい",
+   "lot": "lot-17",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_453_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "古い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_436"
+     ]
+    }
+   ],
+   "parLecture": [
+    "古い"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "17",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_436",
+     "mot": "古い",
+     "lot": "17",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_451 (nuance d'ENTRY)",
+   "entree": "v_451",
+   "mot": "強い",
+   "lot": "lot-17",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_451_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "弱い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_449"
+     ]
+    }
+   ],
+   "parLecture": [
+    "弱い"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_451_s1"
+   ],
+   "corrections": [],
+   "lotN": "17",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_449",
+     "mot": "弱い",
+     "lot": "17",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_449 (nuance d'ENTRY)",
+   "entree": "v_449",
+   "mot": "弱い",
+   "lot": "lot-17",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_449_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "強い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_451"
+     ]
+    }
+   ],
+   "parLecture": [
+    "強い"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_449_s1"
+   ],
+   "corrections": [],
+   "lotN": "17",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_451",
+     "mot": "強い",
+     "lot": "17",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_483 (nuance d'ENTRY)",
+   "entree": "v_483",
+   "mot": "遅い",
+   "lot": "lot-17",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_483_s1",
+    "v_483_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "はやい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_454",
+      "v_482"
+     ]
+    }
+   ],
+   "parLecture": [
+    "はやい"
+   ],
+   "candidats377": [
+    "v_483_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "17",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_454",
+     "mot": "早い",
+     "lot": "21",
+     "tranche": "8"
+    },
+    {
+     "id": "v_482",
+     "mot": "速い",
+     "lot": "17",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_461_s1",
+   "entree": "v_461",
+   "mot": "汚い",
+   "lot": "lot-17",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_461_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "きれい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_424",
+      "v_424"
+     ]
+    }
+   ],
+   "parLecture": [
+    "きれい"
+   ],
+   "candidats377": [
+    "v_461_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "17",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_424",
+     "mot": "きれい",
+     "lot": "00",
+     "tranche": "2"
+    }
+   ]
+  },
+  {
+   "sens": "v_489 (nuance d'ENTRY)",
+   "entree": "v_489",
+   "mot": "静か",
+   "lot": "lot-17",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_489_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "賑やか",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_478"
+     ]
+    }
+   ],
+   "parLecture": [
+    "賑やか"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_489_s1"
+   ],
+   "corrections": [],
+   "lotN": "17",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_478",
+     "mot": "賑やか",
+     "lot": "17",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_710 (nuance d'ENTRY)",
+   "entree": "v_710",
+   "mot": "開く",
+   "lot": "lot-18",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_710_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "開ける",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_580"
+     ]
+    }
+   ],
+   "parLecture": [
+    "開ける"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_710_s1"
+   ],
+   "corrections": [],
+   "lotN": "18",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_580",
+     "mot": "開ける",
+     "lot": "18",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_579 (nuance d'ENTRY)",
+   "entree": "v_579",
+   "mot": "閉まる",
+   "lot": "lot-18",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_579_s1"
+   ],
+   "statut": "à examiner",
+   "motif": "D",
+   "chaines": [
+    {
+     "chaine": "ドアが閉まりました",
+     "classe": "D-exemple-construit",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_579_s1"
+   ],
+   "corrections": [],
+   "lotN": "18",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_709",
+     "mot": "閉める",
+     "lot": "18",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_709 (nuance d'ENTRY)",
+   "entree": "v_709",
+   "mot": "閉める",
+   "lot": "lot-18",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_709_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "閉まる",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_579"
+     ]
+    }
+   ],
+   "parLecture": [
+    "閉まる"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_709_s1"
+   ],
+   "corrections": [],
+   "lotN": "18",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_579",
+     "mot": "閉まる",
+     "lot": "18",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_561 (nuance d'ENTRY)",
+   "entree": "v_561",
+   "mot": "消す",
+   "lot": "lot-18",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_561_s1",
+    "v_561_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "消える",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_560"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_561_s2"
+   ],
+   "dans147": [
+    "v_561_s1"
+   ],
+   "corrections": [],
+   "lotN": "18",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_560",
+     "mot": "消える",
+     "lot": "18",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_541 (nuance d'ENTRY)",
+   "entree": "v_541",
+   "mot": "取る",
+   "lot": "lot-18",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_541_s1",
+    "v_541_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "撮る",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_171"
+     ]
+    }
+   ],
+   "parLecture": [
+    "撮る"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_541_s1",
+    "v_541_s2"
+   ],
+   "corrections": [],
+   "lotN": "18",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_171",
+     "mot": "撮る",
+     "lot": "08",
+     "tranche": "5"
+    }
+   ]
+  },
+  {
+   "sens": "v_130 (nuance d'ENTRY)",
+   "entree": "v_130",
+   "mot": "引く",
+   "lot": "lot-18",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_130_s1",
+    "v_130_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "弾く",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_192"
+     ]
+    }
+   ],
+   "parLecture": [
+    "弾く"
+   ],
+   "candidats377": [
+    "v_130_s2"
+   ],
+   "dans147": [
+    "v_130_s1"
+   ],
+   "corrections": [],
+   "lotN": "18",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_192",
+     "mot": "弾く",
+     "lot": "09",
+     "tranche": "5"
+    }
+   ]
+  },
+  {
+   "sens": "v_528 (nuance d'ENTRY)",
+   "entree": "v_528",
+   "mot": "並ぶ",
+   "lot": "lot-18",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_528_s1",
+    "v_528_s2"
+   ],
+   "statut": "à examiner",
+   "motif": "A",
+   "chaines": [
+    {
+     "chaine": "並べる",
+     "classe": "A-renvoi",
+     "renvoi": [
+      "v_529"
+     ]
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_528_s2"
+   ],
+   "dans147": [
+    "v_528_s1"
+   ],
+   "corrections": [
+    "volet 2 n° 6 (`v_528_s1`)"
+   ],
+   "lotN": "18",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_529",
+     "mot": "並べる",
+     "lot": "18",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_529 (nuance d'ENTRY)",
+   "entree": "v_529",
+   "mot": "並べる",
+   "lot": "lot-18",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_529_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "並ぶ",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_528"
+     ]
+    }
+   ],
+   "parLecture": [
+    "並ぶ"
+   ],
+   "candidats377": [
+    "v_529_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "18",
+   "tranche": "7",
+   "renvois": [
+    {
+     "id": "v_528",
+     "mot": "並ぶ",
+     "lot": "18",
+     "tranche": "7"
+    }
+   ]
+  },
+  {
+   "sens": "v_551 (nuance d'ENTRY)",
+   "entree": "v_551",
+   "mot": "座る",
+   "lot": "lot-19",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_551_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ている",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "ている"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_551_s1"
+   ],
+   "corrections": [],
+   "lotN": "19",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_568 (nuance d'ENTRY)",
+   "entree": "v_568",
+   "mot": "立つ",
+   "lot": "lot-19",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_568_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ている",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "ている"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_568_s1"
+   ],
+   "corrections": [],
+   "lotN": "19",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_569 (nuance d'ENTRY)",
+   "entree": "v_569",
+   "mot": "結婚",
+   "lot": "lot-19",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_569_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "する",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_181",
+      "v_181"
+     ]
+    },
+    {
+     "chaine": "結婚する",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "する",
+    "結婚する"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "19",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_181",
+     "mot": "する",
+     "lot": "20",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_558 (nuance d'ENTRY)",
+   "entree": "v_558",
+   "mot": "死ぬ",
+   "lot": "lot-19",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "ぬ",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_558_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_558_s1"
+   ],
+   "corrections": [],
+   "lotN": "19",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_685 (nuance d'ENTRY)",
+   "entree": "v_685",
+   "mot": "生活",
+   "lot": "lot-19",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_685_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "する",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_181",
+      "v_181"
+     ]
+    }
+   ],
+   "parLecture": [
+    "する"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_685_s1"
+   ],
+   "corrections": [],
+   "lotN": "19",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_181",
+     "mot": "する",
+     "lot": "20",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_516 (nuance d'ENTRY)",
+   "entree": "v_516",
+   "mot": "ある",
+   "lot": "lot-20",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_516_s1",
+    "v_516_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "居る",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_548"
+     ]
+    }
+   ],
+   "parLecture": [
+    "居る"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_516_s1",
+    "v_516_s2"
+   ],
+   "corrections": [],
+   "lotN": "20",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_548",
+     "mot": "居る",
+     "lot": "20",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_548 (nuance d'ENTRY)",
+   "entree": "v_548",
+   "mot": "居る",
+   "lot": "lot-20",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_548_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ある",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_516",
+      "v_516"
+     ]
+    }
+   ],
+   "parLecture": [
+    "ある"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_548_s1"
+   ],
+   "corrections": [],
+   "lotN": "20",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_516",
+     "mot": "ある",
+     "lot": "20",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_523_s1",
+   "entree": "v_523",
+   "mot": "出来る",
+   "lot": "lot-20",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_523_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "わたしはにほんごが出来る",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "わたしはにほんごが出来る"
+   ],
+   "candidats377": [
+    "v_523_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "20",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_524 (nuance d'ENTRY)",
+   "entree": "v_524",
+   "mot": "なる",
+   "lot": "lot-20",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "い",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_524_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_524_s1"
+   ],
+   "corrections": [],
+   "lotN": "20",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_544 (nuance d'ENTRY)",
+   "entree": "v_544",
+   "mot": "困る",
+   "lot": "lot-20",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_544_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ている",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "ている"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "20",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_608_s1",
+   "entree": "v_608",
+   "mot": "やる",
+   "lot": "lot-20",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_608_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "する",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_181",
+      "v_181"
+     ]
+    }
+   ],
+   "parLecture": [
+    "する"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_608_s1"
+   ],
+   "corrections": [],
+   "lotN": "20",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_181",
+     "mot": "する",
+     "lot": "20",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_608_s2",
+   "entree": "v_608",
+   "mot": "やる",
+   "lot": "lot-20",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_608_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "上げる",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_527"
+     ]
+    }
+   ],
+   "parLecture": [
+    "上げる"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_608_s2"
+   ],
+   "corrections": [],
+   "lotN": "20",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_527",
+     "mot": "上げる",
+     "lot": "19",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_470 (nuance d'ENTRY)",
+   "entree": "v_470",
+   "mot": "終わる",
+   "lot": "lot-20",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_470_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "しごとが終わりました",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "20",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_675 (nuance d'ENTRY)",
+   "entree": "v_675",
+   "mot": "次",
+   "lot": "lot-20",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "の",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_675_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_675_s1"
+   ],
+   "corrections": [],
+   "lotN": "20",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_500_s1",
+   "entree": "v_500",
+   "mot": "また",
+   "lot": "lot-21",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_500_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "またね",
+     "classe": "B-romaji",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [
+    "またね"
+   ],
+   "candidats377": [],
+   "dans147": [
+    "v_500_s1"
+   ],
+   "corrections": [
+    "volet 2 n° 9 (`v_500_s1`)"
+   ],
+   "lotN": "21",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_454 (nuance d'ENTRY)",
+   "entree": "v_454",
+   "mot": "早い",
+   "lot": "lot-21",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_454_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "速い",
+     "classe": "B-transcription",
+     "renvoi": [
+      "v_482"
+     ]
+    }
+   ],
+   "parLecture": [
+    "速い"
+   ],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "21",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_482",
+     "mot": "速い",
+     "lot": "17",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_438 (nuance d'ENTRY)",
+   "entree": "v_438",
+   "mot": "同じ",
+   "lot": "lot-22",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "な",
+     "kanji": false,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_438_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_438_s1"
+   ],
+   "corrections": [],
+   "lotN": "22",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_605 (nuance d'ENTRY)",
+   "entree": "v_605",
+   "mot": "他",
+   "lot": "lot-22",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "に",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_605_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [
+    "v_605_s1"
+   ],
+   "corrections": [],
+   "lotN": "22",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_417 (nuance d'ENTRY)",
+   "entree": "v_417",
+   "mot": "それでは",
+   "lot": "lot-23",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_417_s1",
+    "v_417_s2",
+    "v_417_s3"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "じゃあ",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_413",
+      "v_413"
+     ]
+    }
+   ],
+   "parLecture": [
+    "じゃあ"
+   ],
+   "candidats377": [
+    "v_417_s1",
+    "v_417_s2",
+    "v_417_s3"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "23",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_413",
+     "mot": "じゃあ",
+     "lot": "23",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_654 (nuance d'ENTRY)",
+   "entree": "v_654",
+   "mot": "多い",
+   "lot": "lot-24",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_654_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "このとしょかんはほんがおおいです",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_654_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_447 (nuance d'ENTRY)",
+   "entree": "v_447",
+   "mot": "少ない",
+   "lot": "lot-24",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_447_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "このまちはくるまがすくないです",
+     "classe": "B-transcription",
+     "renvoi": []
+    },
+    {
+     "chaine": "多い",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_654"
+     ]
+    }
+   ],
+   "parLecture": [
+    "多い"
+   ],
+   "candidats377": [
+    "v_447_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_654",
+     "mot": "多い",
+     "lot": "24",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_655 (nuance d'ENTRY)",
+   "entree": "v_655",
+   "mot": "大勢",
+   "lot": "lot-24",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_655_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "こうえんにおおぜいのひとがいます",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_520 (nuance d'ENTRY)",
+   "entree": "v_520",
+   "mot": "たくさん",
+   "lot": "lot-24",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "な",
+     "kanji": false,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_520_s1"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_520_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_639 (nuance d'ENTRY)",
+   "entree": "v_639",
+   "mot": "全部",
+   "lot": "lot-24",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "の",
+     "kanji": false,
+     "absent": false
+    }
+   ],
+   "sensDe": [
+    "v_639_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "りんごをぜんぶたべました",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_639_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_509_s1",
+   "entree": "v_509",
+   "mot": "少し",
+   "lot": "lot-24",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_509_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "みずをすこしください",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_509_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_509 (nuance d'ENTRY)",
+   "entree": "v_509",
+   "mot": "少し",
+   "lot": "lot-24",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_509_s1",
+    "v_509_s2",
+    "v_509_s3"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "ちょっと",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_497",
+      "v_497"
+     ]
+    }
+   ],
+   "parLecture": [
+    "ちょっと"
+   ],
+   "candidats377": [
+    "v_509_s1",
+    "v_509_s2",
+    "v_509_s3"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_497",
+     "mot": "ちょっと",
+     "lot": "24",
+     "tranche": "8"
+    }
+   ]
+  },
+  {
+   "sens": "v_471_s1",
+   "entree": "v_471",
+   "mot": "結構",
+   "lot": "lot-24",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_471_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "このえいがはけっこうおもしろいです",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_471_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_471 (nuance d'ENTRY)",
+   "entree": "v_471",
+   "mot": "結構",
+   "lot": "lot-24",
+   "niveau": "entree",
+   "uns": [
+    {
+     "c": "な",
+     "kanji": false,
+     "absent": true
+    }
+   ],
+   "sensDe": [
+    "v_471_s1",
+    "v_471_s2"
+   ],
+   "statut": "un caractère seulement",
+   "motif": "S1",
+   "chaines": [],
+   "parLecture": [],
+   "candidats377": [
+    "v_471_s1",
+    "v_471_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_517_s1",
+   "entree": "v_517",
+   "mot": "一番",
+   "lot": "lot-24",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_517_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "にほんごのなかでなにがいちばんすきですか",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_517_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_546_s1",
+   "entree": "v_546",
+   "mot": "大体",
+   "lot": "lot-24",
+   "niveau": "sens",
+   "uns": [],
+   "sensDe": [
+    "v_546_s1"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-transcription",
+   "chaines": [
+    {
+     "chaine": "しごとはだいたいおわりました",
+     "classe": "B-transcription",
+     "renvoi": []
+    }
+   ],
+   "parLecture": [],
+   "candidats377": [
+    "v_546_s1"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": []
+  },
+  {
+   "sens": "v_546 (nuance d'ENTRY)",
+   "entree": "v_546",
+   "mot": "大体",
+   "lot": "lot-24",
+   "niveau": "entree",
+   "uns": [],
+   "sensDe": [
+    "v_546_s1",
+    "v_546_s2"
+   ],
+   "statut": "faux positif à contre-vérifier",
+   "motif": "B-romaji",
+   "chaines": [
+    {
+     "chaine": "たいてい",
+     "classe": "B-romaji",
+     "renvoi": [
+      "v_519",
+      "v_519"
+     ]
+    }
+   ],
+   "parLecture": [
+    "たいてい"
+   ],
+   "candidats377": [
+    "v_546_s1",
+    "v_546_s2"
+   ],
+   "dans147": [],
+   "corrections": [],
+   "lotN": "24",
+   "tranche": "8",
+   "renvois": [
+    {
+     "id": "v_519",
+     "mot": "たいてい",
+     "lot": "21",
+     "tranche": "8"
+    }
+   ]
+  }
+ ]
+}

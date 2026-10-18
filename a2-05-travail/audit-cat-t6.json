@@ -1,0 +1,95 @@
+{
+  "v_181_s1": {
+    "f": "A",
+    "b": "« action générique », élément hors hiérarchie (A2-L3 §6), au sens le plus strict",
+    "n": ["@A5", "@G44:action générique", "@AFF", "@L3r6"],
+    "c": "やる, sens 1 « Faire », relié par `equivalent_to`, est sans catégorie (même tranche). Le sens 2 de la même ENTRY, « Coûter (pour un prix) », est en économie › prix. 働く « Travailler », 作る sens 2 « Préparer (un repas) » et 洗う « Laver » portent une catégorie : leurs fiches nomment ce que l'on fait.",
+    "v": "L",
+    "m": "La fiche dit seulement que le verbe a pour « sens principal » celui de « faire » ; l'exemple illustre le sens 2, et les anciens exemples disent faire ses devoirs, un travail, le ménage. Le fondement réel est nommé par l'architecture : c'est l'« action générique » d'A2-L3 (§6), au sens le plus strict ; « faire » n'a pas d'objet propre, et toute catégorie serait celle de ce que l'on fait, non du verbe. La raison de D1331 (« action la plus générale ») dit la même chose. Cohérence avec やる : même sens, même type `action`, même absence de catégorie, et la relation `equivalent_to` les relie ; rien ne les distingue quant au domaine. Relevé du criblage (C10-a) : le renvoi de D1332 à la passe finale est soldé, la relation étant publiée (D1585)."
+  },
+  "v_608_s1": {
+    "f": "A",
+    "b": "« action générique » au sens strict ; « Jeux » et « Sports » examinés et écartés",
+    "n": ["@A5", "@G44:action générique", "@AFF", "@L3jeux", "@L3r1"],
+    "c": "する, sens 1 « Faire », relié par `equivalent_to`, est sans catégorie (même tranche). Le sens 2 de la même ENTRY, « Donner », a été confirmé L. 遊ぶ « S'amuser » est en loisirs et jeux › loisirs ; スポーツ « Sport » en sports › pratique sportive.",
+    "v": "L",
+    "m": "La fiche dit que le verbe est un « synonyme familier de suru (faire) », « très employé à l'oral pour exprimer l'action de s'adonner à une activité ou de s'occuper de quelque chose » ; l'exemple dit « demain, je fais (joue au) tennis ». Le fondement réel est le même que pour する : l'« action générique ». L'exemple porte sur un sport, et « Jouer (à un jeu, un sport) » est une autre traduction publiée : j'ai donc examiné les jeux et les sports. La fiche dit « une activité », « quelque chose » : le tennis n'est qu'un cas, et les anciens exemples parlent d'un travail et de devoirs. La raison de D1334 tient, par la fiche et non par le seul renvoi à する. Cohérence avec する : les deux sens sont traités de la même façon, et le registre familier de やる reste en nuance. Relevé du criblage (C10-a) : les renvois de D1336 et D1337 à la passe finale sont soldés ; les relations sont publiées sur する (D1585) et sur 上げる (D1587)."
+  },
+  "v_424_s1": {
+    "f": "B",
+    "b": "« propriété générale » (A2-L3 §6) ; « Vue » et « Apparence physique » examinées et écartées",
+    "n": ["@A5", "@G44:propriété générale", "@AFF", "@L3vue", "@L3r6"],
+    "c": "立派, sens 1 « Magnifique », dont la raison renvoie à ce sens, et いい « Bon » sont arbitrés L. かわいい « Mignon » est en émotions › affection, sa fiche nommant l'affection. うるさい, sens 1 « Bruyant », est en sens et perception › ouïe. Le sens 2 de la même ENTRY, « Propre », est en entretien domestique › nettoyage.",
+    "v": "L",
+    "m": "La fiche dit que l'adjectif s'applique « à la beauté visuelle (paysage, personne) » ; l'exemple dit « de jolies fleurs sont écloses ». Le fondement réel est la « propriété générale » : la raison de D0066 parle d'« appréciation esthétique générale », ce qui revient au même sans employer la formule. Deux catégories ont été examinées. « Apparence physique » décrit une personne ; la fiche nomme aussi un paysage, et l'exemple des fleurs. « Vue » : la fiche dit « visuelle », mais la beauté est un jugement porté sur ce que l'on voit, non une qualité perçue comme l'est le bruit pour うるさい. Aucune catégorie ne décrit le sens. La raison tient."
+  },
+  "v_458_s1": {
+    "f": "B",
+    "b": "« propriété générale » : la fiche nomme trois sortes de référents",
+    "n": ["@A5", "@G44:propriété générale", "@AFF", "@DIM16"],
+    "c": "便利 « Pratique », de la même famille source, est arbitré L, avec l'axe utilité. いい et 立派 sont arbitrés L. Aucun autre sens publié n'exprime la notoriété.",
+    "v": "L",
+    "m": "La fiche décrit « une personne, un lieu ou une chose qui jouit d'une grande notoriété ou d'une popularité reconnue » ; l'exemple dit « c'est une ville célèbre ». Le fondement réel est la « propriété générale » : trois sortes de référents, nommées par la fiche, sans domaine commun. A2-L3 ne nomme pas la notoriété ; les médias, qui la produisent, ne la décrivent pas. D1111 relève aussi qu'aucun axe d'A2-DIM ne la porte : c'est exact, et aucune dimension n'est proposée. La raison tient."
+  },
+  "v_506_s2": {
+    "f": "B",
+    "b": "« propriété générale », appliquée à une action ; « Habileté » examinée et écartée",
+    "n": ["@A5", "@G44:propriété générale", "@AFF", "@L3cap", "@A9_36", "@DIM5b"],
+    "c": "いい « Bon », auquel la raison renvoie, est arbitré L. 上手 « Doué » est en capacités et aptitudes › habileté : sa fiche qualifie la personne. ゆっくり, sens 2 « Tranquillement », est arbitré L. Le sens 1 de la même ENTRY, « Souvent », est en temps › fréquence.",
+    "v": "L",
+    "m": "La fiche dit que l'adverbe exprime aussi « la réussite d'une action faite de manière approfondie ou satisfaisante (bien / habilement) » ; l'exemple illustre le sens 1, et un ancien exemple dit « je le connais bien ». Le fondement réel est une appréciation générale, portée sur une action quelconque. « Habilement » évoque l'habileté, qui porte 上手 : mais 上手 qualifie une personne par son talent, et ce sens dit qu'une action est bien faite, y compris connaître, où il n'y a pas d'habileté. Aucune catégorie ne décrit le sens. La raison de D1374 tient, sur la fiche et non par le seul renvoi à いい. Relevés du criblage. Fonction (C7-c), vérifiée indépendamment : le mot désigne lui-même la qualité de l'action ; il ne modifie pas le degré d'une propriété exprimée par un autre mot, et n'est pas un `intensifieur`. Dimension : « réussite / échec » est une famille qu'A2-DIM n'a pas promue ; aucune n'est proposée.",
+    "r": "Type : よく, sens 2, et ゆっくり sont typés `propriete`, だんだん `concept_abstrait` ; c'est le point de contrôle du volet 1 sur le type des adverbes de manière. Aucun changement n'est proposé."
+  },
+  "v_511_s1": {
+    "f": "C",
+    "b": "aucun domaine : une difficulté se rencontre dans toute situation ; « Conflit » examiné et écarté",
+    "n": ["@A5", "@AFF", "@L3conf", "@STca", "@G10"],
+    "c": "Le sens 2 de la même ENTRY, « Question (d'examen) », est en éducation › évaluation scolaire › examens. 意味, sens 2 « Intérêt », de la même famille source, est arbitré L. 本当 et 生活 sont arbitrés L, avec `concept_abstrait` pour type propre. 難しい « Difficile » porte l'axe difficulté.",
+    "v": "L",
+    "m": "La fiche dit que le nom désigne aussi « un problème / différend qui pose une difficulté dans une situation » ; l'exemple illustre le sens 2, et un ancien exemple dit « il n'y a pas de gros problème à ce sujet ». Le fondement réel est l'absence de tout domaine : une difficulté se rencontre dans n'importe quelle situation. « Différend » évoque le conflit, que A2-L3 nomme sous les relations interpersonnelles ; mais la fiche le donne comme un cas de problème, non comme le sens. La raison de D1359 tient. Relevé du criblage, type (C3-0), vérifié indépendamment : un problème est un concept non matériel, qui n'est ni une information (comme la question d'examen du sens 2), ni un état, ni un événement ; `concept_abstrait` est ici le type propre.",
+    "r": "La fiche dit que le problème « pose une difficulté », et A2-DIM a un axe facilité / difficulté, que portent 難しい et 大変. Je ne le propose pas : le nom désigne ce qui fait difficulté, il ne qualifie rien comme difficile ; l'axe ne décrit pas directement le sens. Je le signale."
+  },
+  "v_605_s1": {
+    "f": "C",
+    "b": "« identité / différence », élément hors hiérarchie (A2-L3 §6) ; « Reste » examiné et écarté",
+    "n": ["@A5", "@G44:identité / différence", "@AFF", "@L3tot", "@STca", "@ST4b", "@Q4"],
+    "c": "後, sens 3 « Le reste », est en nombres et quantification › totalité et partie › reste (D0953 : « ce qui reste d'un tout »), type `concept_abstrait`. 同じ « Même » et 違う, sens 1 « Être différent », sont arbitrés L, sur l'identité et la différence. 全部 « Tout » est en totalité.",
+    "v": "L",
+    "m": "La fiche décrit « ce qui est différent, additionnel ou extérieur à un élément donné » ; l'exemple se traduit « y a-t-il autre chose ? ». Le fondement réel est nommé par l'architecture : c'est l'altérité, c'est-à-dire la différence, élément hors hiérarchie (« identité / différence »), comme pour 同じ et 違う. « Le reste » est une autre traduction publiée, et 後, sens 3, porte la catégorie du reste : je l'ai examinée. Le reste d'un tout est une partie ; la fiche de 他 ne parle d'aucun tout : elle dit ce qui n'est pas l'élément donné, en plus ou à part. La catégorie n'en décrirait qu'une traduction. La conclusion de D1427 tient. Relevés du criblage. Type (C3-0), vérifié indépendamment : l'altérité est un concept non matériel ; A2-ST (§4) rappelle que l'identité et la différence ne sont pas des types, mais le type dit ici la nature abstraite du référent, non la relation ; `concept_abstrait` n'est pas un type de secours. Fonction (C10-a) : D1428 refusait `alternative`, qui n'a toujours pas de définition normative ; le verdict n'en dépend pas.",
+    "r": "Divergence signalée, sans verdict sur 後 : « Le reste » est catégorisé comme sens de 後 et n'est qu'une traduction, sans catégorie, pour 他. La question a été posée à l'arbitrage du 2026-10-08, qui confirme L : « Le reste » ne suffit pas à imposer la catégorie de 後, sens 3."
+  },
+  "v_664_s2": {
+    "f": "C",
+    "b": "aucune catégorie ne décrit un point d'une chose ou d'une situation ; « Totalité & partie › Partie » examinée et écartée",
+    "n": ["@A5", "@AFF", "@L3tot", "@STca", "@L3r6"],
+    "c": "Le sens 1 de la même ENTRY, « Endroit », est en position et localisation, type `lieu`. 半 et 半分 « Moitié » sont en nombres et quantification › proportions › fraction ; 全部 « Tout » en totalité ; 後, sens 3 « Le reste », en reste : des parts d'un tout. 問題 et 他 sont dans la même tranche.",
+    "v": "L",
+    "m": "La fiche dit que le nom désigne aussi « un point/une partie spécifique d'une chose ou d'une situation » ; l'exemple illustre le sens 1. Le registre a une catégorie qui porte le mot de la traduction : « Totalité & partie › Partie ». Je l'ai examinée de près. Elle appartient à la quantification : la part d'un tout, comme la moitié ou le reste. La fiche dit « un point », un endroit précis d'une chose ou d'une situation, au sens où l'on parle d'un point d'un texte : ce n'est pas une quantité. Le sens prolonge le sens 1, un lieu, vers l'abstrait, et aucun domaine ne le décrit. Le fondement réel est cette absence, non la formule de D1355 (« notion générale ») ; la conclusion tient. Relevé du criblage, type (C3-0), vérifié indépendamment : un point d'une chose ou d'une situation est un concept non matériel ; ce n'est plus un `lieu` ; `concept_abstrait` est ici le type propre.",
+    "r": "La traduction principale publiée, « Partie », est le second des deux mots de la fiche (« un point / une partie ») et porte le nom d'une catégorie de quantification qui ne convient pas. « Point » rendrait mieux le sens. Je le signale ; la traduction n'est pas l'objet de cet audit."
+  },
+  "v_684_s1": {
+    "f": "D",
+    "b": "« objet / artefact générique », élément hors hiérarchie (A2-L3 §6), à la lettre",
+    "n": ["@A5", "@G44:objet / artefact générique", "@AFF", "@L3r5"],
+    "c": "時計 et カレンダー (C retenus), 荷物 et たばこ, sens 1 (L), sont les autres objets sans catégorie de l'inventaire : des objets spécialisés. 84 des 89 sens publiés de type `objet_artefact` portent une catégorie. Aucun autre sens publié ne désigne un objet quelconque.",
+    "v": "L",
+    "m": "La fiche décrit un « nom générique désignant un objet tangible, une chose matérielle, ou par extension une entité concrète » ; l'exemple dit « j'ai perdu une chose importante ». Le fondement réel est nommé par l'architecture, à la lettre : c'est l'« objet / artefact générique », premier élément de la liste hors hiérarchie. La règle 5 d'A2-L3, qui a conduit à ranger 時計 et カレンダー, vaut pour un objet spécialisé ; celui-ci est, par définition, l'objet sans spécialité. C'est le seul objet du corpus dont le `null` soit la réponse directe de l'architecture. La raison de D1352 (« nom générique ») tient."
+  },
+  "v_521_s1": {
+    "f": "E",
+    "b": "« possibilité / nécessité », élément hors hiérarchie (A2-L3 §6) : une modalité, portée par une dimension",
+    "n": ["@A5", "@G44:possibilité / nécessité", "@AFF", "@DIMmod", "@Q4"],
+    "c": "ちょうど « Exactement », 違う sens 2 et 本当 « Vérité » sont arbitrés L, sans catégorie et avec un axe d'A2-DIM. 出来る, sens 1 « Pouvoir », porte l'axe possibilité et la catégorie de l'aptitude, sa fiche parlant de la capacité d'une personne.",
+    "v": "L",
+    "m": "La fiche décrit « une probabilité ou une supposition de l'ordre de 70 à 80 % de chance qu'un fait se produise ou soit vrai » ; l'exemple dit « demain, il pleuvra peut-être ». Ce sens porte deux avertissements ; son `type-nul` est arbitré L et n'est pas rouvert : seul l'avertissement de catégorie est examiné ici. Le fondement réel est nommé par l'architecture : la probabilité est une modalité, de la famille « possibilité / nécessité » qu'A2-L3 place hors hiérarchie ; « Probabilités », sous les mathématiques, désigne une discipline. La raison de D1432 (« une estimation du locuteur, sans domaine thématique ») tient. Relevés du criblage. Dimension (C5-0), vérifiée indépendamment : A2-DIM a un axe « Probabilité », à pôle unique, dans la modalité conceptuelle ; la fiche dit « une probabilité » ; l'axe décrit directement le sens, et il est le seul à le faire : l'axe certitude / incertitude dirait le degré d'assurance du locuteur, que la fiche chiffre justement comme une probabilité. Fonction (C10-a) : D1434 refusait `modalite`, qui n'a toujours pas de définition normative ; A2-DIM distingue d'ailleurs la modalité conceptuelle de la modalité grammaticale ; le verdict n'en dépend pas."
+  },
+  "v_523_s2": {
+    "f": "E",
+    "b": "aucune catégorie de l'achèvement ; « Début / fin » et « Fabrication » examinées et écartées",
+    "n": ["@A5", "@AFF", "@L3fin", "@STres", "@DIM5b", "@L3r6"],
+    "c": "終わる « Finir » et 始まる « Commencer » sont en temps › chronologie › début et fin, type `evenement` : la fiche de 終わる parle d'« une action, un événement ou une période [qui] arrive à son terme ». 作る, sens 1 « Fabriquer », et なる « Devenir » sont arbitrés L. Le sens 1 de la même ENTRY, « Pouvoir », est en capacités et aptitudes › aptitude.",
+    "v": "L",
+    "m": "La fiche dit que le verbe exprime aussi « le fait qu'une chose soit terminée ou fabriquée » ; l'exemple illustre le sens 1, et un ancien exemple dit « ce travail peut être fait d'ici demain ». Le fondement réel est l'absence de catégorie : A2-L3 ne nomme pas l'achèvement, et A2-DIM range l'« accomplissement » parmi les familles non promues. « Début / fin », qui porte 終わる, décrit le terme d'une action ou d'une période dans le temps ; ce sens dit qu'une chose existe, faite ou prête : son objet est le produit, non le moment. « Fabrication » est un domaine industriel, déjà écarté pour 作る. La conclusion de D1317 tient ; sa formule, « résultat général », n'est pas un élément de la liste hors hiérarchie. Relevé du criblage, type (C3-c), vérifié indépendamment : `resultat` ne se trouve sur aucun autre des 145 sens de verbes. A2-ST le définit comme « entité ou état conceptualisé principalement comme l'aboutissement d'une action, d'un processus ou d'un événement » : « être achevé, prêt » y répond exactement, mieux qu'`evenement` (rien ne survient) ou qu'`etat` (qui ne dirait pas l'aboutissement). Le couple est rare, non fautif ; il vient d'un choix arbitré au lot 20 (D1316).",
+    "r": "Les lots 18 et 19 ont mis en nuance l'état qui résulte d'un événement (開く, 立つ, 座る) ; ici la fiche donne le résultat comme le sens lui-même, sans événement distinct : le traitement diffère parce que les fiches diffèrent. A2-DIM a un axe complet / incomplet : je ne le propose pas, la fiche parlant d'une chose faite ou prête, non de la complétude d'un tout."
+  }
+}

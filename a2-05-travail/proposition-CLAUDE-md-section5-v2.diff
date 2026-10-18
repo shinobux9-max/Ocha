@@ -1,0 +1,29 @@
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -113,18 +113,17 @@
+   sur 147 (L 136, F 2, C 9, N 0). **Volet 1** (cohérence rétroactive, axes C1 à C10) : criblage
+   validé (443 candidats) ; lot 1 arbitré (19 sens : 14 conformes, 5 écarts) ; lot 2, contrôle de
+   provenance des nuances, clos le 2026-10-12 (278 nuances arbitrées : 119 sourcées, 20 assumées, 139
+-  écarts) ; **lot 3, examen individuel des 377 candidats restants** (périmètre arbitré le
+-  2026-10-12 : six blocs A à F, 40 livraisons, chacune sur une autorisation distincte) : livraisons
+-  A1 à A4 arbitrées, **36 sens sur 377, 341 restent**, dont 33 du bloc A et 17 du bloc F. **Le bloc
+-  F (17 sens portant `interrogatif`) est suspendu** au préalable E5 : une proposition d'addendum
++  écarts) ; **lot 3, examen individuel des 377 candidats restants, en cours** (périmètre arbitré le
++  2026-10-12 : six blocs A à F, 40 livraisons, chacune sur une autorisation distincte). **Le bloc F
++  (17 sens portant `interrogatif`) est suspendu** au préalable E5 : une proposition d'addendum
+   existe, **ni adoptée ni normative** (A10 seulement pressenti) ; ni examen du bloc F ni recherche
+   d'omissions avant son adoption et l'accord sur un périmètre opérationnel. Quatre vérifications hors
+   périmètre (HP-1 à HP-4) sont consignées, non commencées. **Volet 3** (contrôles globaux G1 à G7) :
+-  non commencé. **180 corrections retenues, dans 161 ENTRY, aucune appliquée** (dix modifications du
+-  volet 2, V1-1 à V1-5, V2-1 à V2-165 ; V1-6 libre) : `data/`, les lots, le journal, les registres,
+-  les snapshots, l'inventaire des avertissements, les outils et les tests sont ceux du commit
+-  `3d67594`. **L'état courant et la prochaine action sont dans `ETAT-ACTUEL.md`** (« Étape en
+-  cours ») ; relais : `docs/relecture/reprise-A2-05.md` ; liste des corrections :
++  non commencé. **Les corrections retenues ne sont pas appliquées** : `data/`, les lots, le journal,
++  les registres, les snapshots, l'inventaire des avertissements, les outils et les tests sont ceux
++  du commit `3d67594`. **Les décomptes à jour (sens arbitrés, corrections retenues), la livraison
++  autorisée et la prochaine action sont dans `ETAT-ACTUEL.md`** (« Étape en cours ») ; relais :
++  `docs/relecture/reprise-A2-05.md` ; liste des corrections :
+   `docs/rapports/etape2-A2-05-bilan-volet2.md`, §8 ; rapports de livraison du lot 3 :
+   `docs/rapports/etape2-A2-05-volet1-lot3-*.md`. `ocha-v2` et `origin/ocha-v2` sont à `558f150`
+   (checkpoint documentaire du 2026-10-12, committé et poussé) ; les travaux postérieurs ne sont ni

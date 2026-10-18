@@ -106,24 +106,29 @@ faut savoir est dans le dépôt.
   entrée n'y entre que par un arbitrage explicite ; ce n'est pas une règle générale (« la graphie
   kana courante l'emporte »). Les deux entrées du lot 26 sont validées avec lui (D1610, D1612).
 
-## 5. Où l'on en est (au 2026-10-12)
+## 5. Où l'on en est (au 2026-10-13)
 
 - **A2-05 est en cours ; l'étape 2 n'est pas terminée.** Trois volets, aux périmètres validés le
   2026-10-07. **Volet 2** (audit individuel des 147 `null`) : terminé et arbitré le 2026-10-08, 147
   sur 147 (L 136, F 2, C 9, N 0). **Volet 1** (cohérence rétroactive, axes C1 à C10) : criblage
-  validé (443 candidats) ; lot 1 arbitré (19 sens : 14 conformes, 5 écarts) ; **377 candidats
-  restent à examiner** ; lot 2, contrôle de provenance des nuances : tranche 1 (34 unités), bloc 1
-  bis, tranches 2 à 5 et les 2 nuances hors JLPT arbitrés ; 148 des 278 nuances du plan recalculé
-  sont arbitrées, **130 restent** (tranche 6 : 47 ; tranche 7 : 39 ; tranche 8 : 44) ; périmètre de
-  la tranche 6 arbitré le 2026-10-12, audit de la livraison 6a autorisé, non commencé. **Volet 3**
-  (contrôles globaux G1 à G7) : non commencé. **124 corrections retenues, dans 112 ENTRY, aucune
-  appliquée** (dix modifications du volet 2, V1-1 à V1-5, V2-1 à V2-109) : `data/`, les lots, le
-  journal, les registres, les snapshots, l'inventaire des avertissements, les outils et les tests
-  sont ceux du commit `3d67594`. Relais : `docs/relecture/reprise-A2-05.md` ; liste des
-  corrections : `docs/rapports/etape2-A2-05-bilan-volet2.md`, §8. Avant ce checkpoint, `ocha-v2` et
-  `origin/ocha-v2` étaient à `5a8687b` (clôture documentaire de 5.17, committée et poussée). Les
-  puces suivantes décrivent A2-04 tel qu'il s'est clos le 2026-10-07 ; là où elles annoncent A2-05
-  comme « prochaine étape », lire : en cours.
+  validé (443 candidats) ; lot 1 arbitré (19 sens : 14 conformes, 5 écarts) ; lot 2, contrôle de
+  provenance des nuances, clos le 2026-10-12 (278 nuances arbitrées : 119 sourcées, 20 assumées, 139
+  écarts) ; **lot 3, examen individuel des 377 candidats restants, en cours** (périmètre arbitré le
+  2026-10-12 : six blocs A à F, 40 livraisons, chacune sur une autorisation distincte). **Le bloc F
+  (17 sens portant `interrogatif`) est suspendu** au préalable E5 : une proposition d'addendum
+  existe, **ni adoptée ni normative** (A10 seulement pressenti) ; ni examen du bloc F ni recherche
+  d'omissions avant son adoption et l'accord sur un périmètre opérationnel. Quatre vérifications hors
+  périmètre (HP-1 à HP-4) sont consignées, non commencées. **Volet 3** (contrôles globaux G1 à G7) :
+  non commencé. **Les corrections retenues ne sont pas appliquées** : `data/`, les lots, le journal,
+  les registres, les snapshots, l'inventaire des avertissements, les outils et les tests sont ceux
+  du commit `3d67594`. **Les décomptes à jour (sens arbitrés, corrections retenues), la livraison
+  autorisée et la prochaine action sont dans `ETAT-ACTUEL.md`** (« Étape en cours ») ; relais :
+  `docs/relecture/reprise-A2-05.md` ; liste des corrections :
+  `docs/rapports/etape2-A2-05-bilan-volet2.md`, §8 ; rapports de livraison du lot 3 :
+  `docs/rapports/etape2-A2-05-volet1-lot3-*.md`. `ocha-v2` et `origin/ocha-v2` sont à `558f150`
+  (checkpoint documentaire du 2026-10-12, committé et poussé) ; les travaux postérieurs ne sont ni
+  committés ni poussés. Les puces suivantes décrivent A2-04 tel qu'il s'est clos le 2026-10-07 ; là
+  où elles annoncent A2-05 comme « prochaine étape », lire : en cours.
 - **Lots 0 à 26 validés**, corrections de 5.13-C et passe finale 5.16 (lot 26) comprises : assemblage
   réel attendu, partiel et complet, **684 ENTRY, 35 retraits, 0 entrée écartée**, 0 problème, 0
   erreur, 0 attente ; 1 613 décisions validées (D0001 à D1613), aucune proposition en cours. **Toutes
