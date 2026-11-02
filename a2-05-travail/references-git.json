@@ -4,5 +4,15 @@
   "commit": "78031638c0f81dca1b167e3f57f5a891767fc4cb",
   "libelle": "checkpoint B, 2026-10-18, 177 chemins"
  },
- "checkpoint": null
+ "checkpoint": {
+  "commit": "27b27ce0f0b6e62e0686a97194231fe23865b7a9",
+  "date": "2026-11-02",
+  "libelle": "Checkpoint documentaire A2-05 — lot 3, T1 à T9 clos, révision 4 d'E5 en proposition, bloc F préparatoire, aucune correction lexicale appliquée.",
+  "verification": {
+   "head": "27b27ce0f0b6e62e0686a97194231fe23865b7a9",
+   "origin_local": "27b27ce0f0b6e62e0686a97194231fe23865b7a9",
+   "distant_reel": "27b27ce0f0b6e62e0686a97194231fe23865b7a9",
+   "sceau": "23391df72644ce3a41dccdeaf5b676838119891ebb5e431a58c9add1fe1643a0"
+  }
+ }
 }
