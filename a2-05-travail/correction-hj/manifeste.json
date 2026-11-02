@@ -1,0 +1,14 @@
+{
+ "genere_par": "a2-05-travail/correction-hj/appliquer.mjs",
+ "date": "2026-10-20",
+ "modules": {
+  "lot3-commun-v2.mjs": {
+   "depart_sha256": "b91dd4e4c130b01ec4049fba983f12faa591029a20b0f4d5e642fb7d6e8aa849",
+   "final_sha256": "cbd42c6c874c6c71c84d560010787e3f82187ed963a350f6e387b9d9c45efbde"
+  },
+  "perimetre-v2.mjs": {
+   "depart_sha256": "a12eeeecc27a785742c7d3c6369a3940ba4cd9d92f61567bc99987bb5bec98d2",
+   "final_sha256": "bc8cdfb7540b85ba8ec9b86202a6d3cf25e684dac068eaa73659759c381dc1a0"
+  }
+ }
+}

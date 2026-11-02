@@ -1,0 +1,11 @@
+{
+ "genere_par": "a2-05-travail/correction-comparables/appliquer.mjs",
+ "date": "2026-10-22",
+ "modules": {
+  "perimetre-v2.mjs": {
+   "depart_sha256": "bc8cdfb7540b85ba8ec9b86202a6d3cf25e684dac068eaa73659759c381dc1a0",
+   "final_sha256": "d40aea3cc3e7916d1194b143563292c8e0bb8cba95f7da02c18332beb5ecfaac",
+   "diff_sha256": "96bf54536a41e6ff2d7a39e49fd9cea8725ebe02757b4f98536eaf90f3378b4c"
+  }
+ }
+}

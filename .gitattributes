@@ -1,0 +1,59 @@
+# Fins de ligne : fige à la restauration les octets des zones contrôlées, quelle que soit la configuration du poste (A2-05 ; docs/rapports/etape2-A2-05-diagnostic-restauration-git.md).
+/a2-05-travail/** -text
+/docs/** -text
+/reconstruction/** -text
+/data/** -text
+/CLAUDE.md text eol=crlf
+/ETAT-ACTUEL.md text eol=crlf
+/ROADMAP.md text eol=crlf
+/REGLES-CONSTRUCTION.md -text
+/a2-05-travail/versions-finales/CLAUDE.md text eol=crlf
+/a2-05-travail/versions-finales/depart/CLAUDE.md text eol=crlf
+/a2-05-travail/versions-finales/depart/docs/relecture/note-relais.md text eol=crlf
+/a2-05-travail/versions-finales/docs/relecture/note-relais.md text eol=crlf
+/data/kanji_jouyou_fr.json text eol=crlf
+/data/lieux.json text eol=crlf
+/data/mapping.json text eol=crlf
+/data/n1/kanji.json text eol=crlf
+/data/n2/kanji.json text eol=crlf
+/data/n3/kanji.json text eol=crlf
+/data/n4/exemples.json text eol=crlf
+/data/n4/kanji.json text eol=crlf
+/data/n4/vocab.json text eol=crlf
+/data/n5/exemples.json text eol=crlf
+/data/n5/kanji.json text eol=crlf
+/data/n5/particles.json text eol=crlf
+/data/registres.json text eol=crlf
+/docs/conception/00-sommaire.md text eol=crlf
+/docs/conception/addendum-A9-fonctions-linguistiques.md text eol=crlf
+/docs/conception/legacy/a2/Ocha_Decisions_A2_Unite_Apprentissage_Tags.md text eol=crlf
+/docs/legacy/REGLES-CONSTRUCTION.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot21-perimetre.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot21-proposition.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot21-valide.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot22-perimetre.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot22-proposition.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot22-valide.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot23-perimetre.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot23-prealable-normatif.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot23-proposition.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot23-valide.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot24-perimetre.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot24-proposition.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot24-valide.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot25-perimetre.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot25-prealable-classe-nado.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot25-proposition.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot25-valide.md text eol=crlf
+/docs/rapports/etape2-A2-04-lot26-perimetre-5-16.md text eol=crlf
+/docs/relecture/note-relais.md text eol=crlf
+/reconstruction/a2-04/journal.json text eol=crlf
+/reconstruction/a2-04/lots/lot-21.json text eol=crlf
+/reconstruction/a2-04/lots/lot-22.json text eol=crlf
+/reconstruction/a2-04/lots/lot-23.json text eol=crlf
+/reconstruction/a2-04/lots/lot-24.json text eol=crlf
+/reconstruction/a2-04/lots/lot-25.json text eol=crlf
+/reconstruction/a2-04/lots/lot-26.json text eol=crlf
+/reconstruction/a2-04/rapports/lot-21.md text eol=crlf
+/reconstruction/a2-04/rapports/lot-22.md text eol=crlf
+/reconstruction/a2-04/rapports/lot-25.md text eol=crlf

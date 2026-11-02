@@ -125,8 +125,8 @@ faut savoir est dans le dépôt.
   autorisée et la prochaine action sont dans `ETAT-ACTUEL.md`** (« Étape en cours ») ; relais :
   `docs/relecture/reprise-A2-05.md` ; liste des corrections :
   `docs/rapports/etape2-A2-05-bilan-volet2.md`, §8 ; rapports de livraison du lot 3 :
-  `docs/rapports/etape2-A2-05-volet1-lot3-*.md`. `ocha-v2` et `origin/ocha-v2` sont à `558f150`
-  (checkpoint documentaire du 2026-10-12, committé et poussé) ; les travaux postérieurs ne sont ni
+  `docs/rapports/etape2-A2-05-volet1-lot3-*.md`. `ocha-v2` et `origin/ocha-v2` sont à `7803163`
+  (checkpoint B du 2026-10-18, committé et poussé) ; les travaux postérieurs ne sont ni
   committés ni poussés. Les puces suivantes décrivent A2-04 tel qu'il s'est clos le 2026-10-07 ; là
   où elles annoncent A2-05 comme « prochaine étape », lire : en cours.
 - **Lots 0 à 26 validés**, corrections de 5.13-C et passe finale 5.16 (lot 26) comprises : assemblage

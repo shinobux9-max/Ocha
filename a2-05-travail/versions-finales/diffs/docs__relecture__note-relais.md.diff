@@ -1,0 +1,7 @@
+--- a/docs/relecture/note-relais.md
++++ b/docs/relecture/note-relais.md
+@@ -1,2 +1,4 @@
++**Note gelée** (décision D6, arbitrage du 2026-10-20) : elle n'est plus mise à jour depuis le 2026-10-12 et ne décrit plus l'état du projet ; son historique est conservé tel quel ci-dessous. Le relais de reprise en service est `docs/relecture/reprise-A2-05.md` ; chaque export d'A2-05 porte sa propre note (`--note`). `tools/export-relecture.mjs` reprend encore cette note par défaut quand `--note` est omis : ne pas l'omettre.
++
+ Cette note est écrite à la main par Claude Code et mise à jour avant chaque export. Elle dit ce
+ que l'outil ne peut pas déduire des données : les rôles, les consignes, qui a décidé quoi, et ce

@@ -1,0 +1,67 @@
+conforme périmètre de T6 = proposition relue, au statut de proposition, sans §0 : d0d4e113a85b…
+conforme manifeste : 37 empreintes identiques ; périmètre de T6 absent : 37 entrées
+conforme configuration : ARBITRAGE non renseigné
+conforme rubriques « Proposé, non validé » et « Prochaine action » identiques dans les deux documents proposés
+conforme §8.97 : aucune ligne de tableau (comptage des corrections et des réservations inchangé)
+conforme clone jetable : code 0
+conforme node --check, version proposée de a2-05-travail/controle-bilan-pilote.mjs : code 0
+conforme node --check, version proposée de a2-05-travail/recalcul-T5-perimetre.mjs : code 0
+conforme node --check, version proposée de a2-05-travail/recalcul-T6-perimetre.mjs : code 0
+   E0 rel (code 0) : 30 conformes sur 30
+   E0 cov (code 0) : couverture : 274 arbitrés, 0 proposés, 103 restants, sur 377 ; bloc B : 148/148 ; livraisons arbitrées : A1, A2, A3, A4, A5, A6, A7, B1, B2, B3, B4, B5, B6, B7, B8, B9
+   E0 emp (code 0) : empreintes : 37 rapports contrôlés, identiques
+   E0 cbp (code 0) : contrôle conforme
+   E0 rec5 (code 0) : recalcul conforme
+   E0 rec6 (code 0) : recalcul conforme
+   E0 ap (code 0) : aperçu : plan cd0d527470ac5436 ; sans commit
+conforme E0 (départ) : relais 30 sur 30 ; couverture 274/103 ; manifeste, contrôle du bilan du pilote, recalculs de T5 et de T6 conformes ; aperçu vide
+conforme périmètre régénéré avec ARBITRAGE : seuls changent la ligne de statut et le §0 inséré : génération code 0 ; §0 : 10 lignes (attendu 10) ; 614b7503d324…
+   E1 rel (code 1) : 29 conformes sur 30 | ÉCART    C9a  couverture et empreintes du manifeste réel (calculerEtat sans refus) ; entrées de HEAD inchangées ; entrées nouvelles = rapports de tranche arbitrés et périmètres acceptés (un périmètre accepté peut précéde
+   E1 cov (code 0) : couverture : 274 arbitrés, 0 proposés, 103 restants, sur 377 ; bloc B : 148/148 ; livraisons arbitrées : A1, A2, A3, A4, A5, A6, A7, B1, B2, B3, B4, B5, B6, B7, B8, B9
+   E1 emp (code 0) : empreintes : 37 rapports contrôlés, identiques ; rapports arbitrés hors du manifeste : docs/rapports/etape2-A2-05-volet1-lot3-T6-perimetre.md
+   E1 cbp (code 0) : contrôle conforme
+   E1 rec5 (code 0) : recalcul conforme
+   E1 rec6 (code 0) : recalcul conforme
+   E1 ap (code 0) : aperçu : plan 17b2097394f118df ; sans commit
+conforme E1 (consolidation documentaire, contrôles d'origine) : relais 29 sur 30, seul écart C9a ; périmètre accepté signalé hors du manifeste ; contrôles conformes ; aperçu vide : empreintes : 37 rapports contrôlés, identiques ; rapports arbitrés hors du manifeste : docs/rapports/etape2-A2-05-volet1-lot3-T6-perimetre.md
+   E2 rel (code 1) : 29 conformes sur 30 | ÉCART    C9a  couverture et empreintes du manifeste réel (calculerEtat sans refus) ; entrées de HEAD inchangées ; entrées nouvelles = rapports de tranche arbitrés et périmètres acceptés (un périmètre accepté peut précéde
+   E2 cov (code 0) : couverture : 274 arbitrés, 0 proposés, 103 restants, sur 377 ; bloc B : 148/148 ; livraisons arbitrées : A1, A2, A3, A4, A5, A6, A7, B1, B2, B3, B4, B5, B6, B7, B8, B9
+   E2 emp (code 0) : empreintes : 37 rapports contrôlés, identiques ; rapports arbitrés hors du manifeste : docs/rapports/etape2-A2-05-volet1-lot3-T6-perimetre.md
+   E2 cbp (code 1) : 2 écart(s) | ÉCART    T6 : périmètre accepté protégé au manifeste, empreinte identique : absent du manifeste | ÉCART    manifeste : 38 empreintes recalculées, identiques ; périmètre de T5 (36e entrée), rapport arbitré de T5 (37e entrée), périmètre de T6 (38e entrée) : 37 entrées ; différentes : aucune
+   E2 rec5 (code 0) : recalcul conforme
+   E2 rec6 (code 1) : 1 écart(s) | ÉCART    manifeste : 38 empreintes recalculées, identiques ; périmètre accepté de T6 protégé (38e entrée) : 37 entrées ; différentes : aucune
+   E2 ap (code 0) : aperçu : plan 17b2097394f118df ; sans commit
+conforme E2 (contrôles remplacés, 37 empreintes) : contrôle du bilan du pilote, exactement deux écarts (T6 hors du manifeste ; 37 au lieu de 38) ; recalcul de T5 conforme ; recalcul de T6, seul écart le manifeste ; relais 29 sur 30 (C9a) ; aperçu vide
+conforme E3 : ajout par l'outil réel, seul le périmètre accepté de T6 (38 entrées, les 37 précédentes inchangées) : manifeste : 1 rapport(s) ajouté(s) : docs/rapports/etape2-A2-05-volet1-lot3-T6-perimetre.md
+   E3 rel (code 0) : 30 conformes sur 30
+   E3 cov (code 0) : couverture : 274 arbitrés, 0 proposés, 103 restants, sur 377 ; bloc B : 148/148 ; livraisons arbitrées : A1, A2, A3, A4, A5, A6, A7, B1, B2, B3, B4, B5, B6, B7, B8, B9
+   E3 emp (code 0) : empreintes : 38 rapports contrôlés, identiques
+   E3 cbp (code 0) : contrôle conforme
+   E3 rec5 (code 0) : recalcul conforme
+   E3 rec6 (code 0) : recalcul conforme
+   E3 ap (code 0) : aperçu : plan d69f8b1a134f37c2 ; sans commit
+conforme E3 (38 empreintes) : contrôle du bilan du pilote, recalculs de T5 et de T6 conformes ; relais 30 sur 30 (C9a résolu ; Q11 lit le manifeste) ; aperçu non vide (bloc d'état resté à 37) : plan d69f8b1a134f37c2 ; 4 hunk(s)
+conforme E3 : l'aperçu ne change que le marqueur et la ligne « Contrôles » des blocs (37 → 38 rapports) : aucune autre ligne
+constat  E3, a2-05-travail/controle-bilan-pilote.mjs d'origine (37 empreintes exigées) : code 1 ; manifeste : 37 empreintes recalculées, identiques ; périmètre de T5 (36e entrée) et rapport arbitré de T5 (37e entrée) :
+constat  E3, a2-05-travail/recalcul-T5-perimetre.mjs d'origine (37 empreintes exigées) : code 1 ; manifeste : 37 empreintes recalculées, identiques ; périmètre de T5 (36e entrée) et rapport arbitré de T5 (37e entrée) p
+constat  E3, a2-05-travail/recalcul-T6-perimetre.mjs d'origine (37 empreintes exigées) : code 1 ; manifeste : 37 empreintes recalculées, identiques ; périmètre de T6 hors du manifeste : 38 entrées ; différentes : aucun
+   E4 rel (code 0) : 30 conformes sur 30
+   E4 cov (code 0) : couverture : 274 arbitrés, 0 proposés, 103 restants, sur 377 ; bloc B : 148/148 ; livraisons arbitrées : A1, A2, A3, A4, A5, A6, A7, B1, B2, B3, B4, B5, B6, B7, B8, B9
+   E4 emp (code 0) : empreintes : 38 rapports contrôlés, identiques
+   E4 cbp (code 0) : contrôle conforme
+   E4 rec5 (code 0) : recalcul conforme
+   E4 rec6 (code 0) : recalcul conforme
+   E4 ap (code 0) : aperçu : plan d69f8b1a134f37c2 ; sans commit
+conforme E4 (bloc synchronisé) : relais 30 sur 30 ; tous les contrôles conformes ; aperçu vide : appliqué, plan d69f8b1a134f37c2 ; plan suivant d69f8b1a134f37c2
+conforme proposé : a2-05-travail/perimetre-T6.mjs : +10 / -2 lignes ; 502e07a0e346…
+conforme proposé : docs/rapports/etape2-A2-05-volet1-lot3-T6-perimetre.md : +11 / -1 lignes ; 614b7503d324…
+conforme proposé : ETAT-ACTUEL.md : +3 / -2 lignes ; 24f6eebe3e34…
+conforme proposé : ROADMAP.md : +2 / -2 lignes ; 0f7093b89308…
+conforme proposé : docs/rapports/etape2-A2-05-bilan-volet2.md : +16 / -0 lignes ; c5633415cbc3…
+conforme proposé : a2-05-travail/controle-bilan-pilote.mjs : +15 / -3 lignes ; 0022122f6ab0…
+conforme proposé : a2-05-travail/recalcul-T5-perimetre.mjs : +6 / -3 lignes ; 44b49ef9b658…
+conforme proposé : a2-05-travail/recalcul-T6-perimetre.mjs : +12 / -4 lignes ; 0a8113c04c94…
+conforme proposé : a2-05-travail/empreintes-rapports-arbitres.json : +8 / -1 lignes ; 01e57a0f23a3…
+conforme proposition à sauvegarder (a2-05-travail/arbitrage-T6/proposition-T6-perimetre.md) : copie exacte du périmètre relu : d0d4e113a85b…
+conforme dépôt réel inchangé (12 fichiers témoins ; proposition non sauvegardée à sa place) : aucune modification
+préparation conforme

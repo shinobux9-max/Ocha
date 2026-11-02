@@ -1,0 +1,8 @@
+{
+ "role": "références Git d'A2-05 : technique, non normatif. `historique` ne change pas ; `checkpoint` ne s'écrit que par `a2-05-travail/cloture-checkpoint.mjs`, après un push, sur autorisation ; git fait foi pour HEAD et le distant.",
+ "historique": {
+  "commit": "78031638c0f81dca1b167e3f57f5a891767fc4cb",
+  "libelle": "checkpoint B, 2026-10-18, 177 chemins"
+ },
+ "checkpoint": null
+}

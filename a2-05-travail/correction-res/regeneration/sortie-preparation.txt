@@ -1,0 +1,47 @@
+conforme P1 générateur réel à son empreinte, correction non appliquée : d40aea3cc3e7…
+conforme P2 recalcul de T9, version actuelle : 63aaa07c854f…
+conforme P3 criblage à son empreinte : aef9e029f25c…
+conforme P4 manifeste : 44 entrées : 2c74018e3b04…
+conforme P5 motif de lecture présent une fois dans le générateur
+conforme P6 index vide
+conforme R0 correctif identique à celui relu et accepté sur le fond : 6537c0ee3681…
+conforme R0 générateur : une seule ligne change : 1 ligne
+conforme R1 identifiants lus au découpage : RES seul s'ajoute, aucune règle perdue : 23 → 24
+conforme copie jetable identique au dépôt réel : 2130 fichiers
+conforme N1 non-régression : T1 à T8, F et 37 livraisons hors bloc E : texte identique octet pour octet, ancien et proposé : 46 groupes ; produits : 46 ; différents : aucun
+conforme N2 ancien générateur sur T9 : arrêt exact : règle RES : définition introuvable
+conforme N3 générateur proposé sur T9 : 24 sens, 21 ENTRY, 15 règles dont RES : C1-a, C1-b, C1-f, C10-a, C2-0, C3-0, C3-b, C4-0, C7-b, C7-c, C7-e, C8-a, C8-b, C8-c, RES
+conforme N4 T9 : hors des mentions de RES (24 lignes du §2, 24 relevés, le compte des règles, une ligne de règle), texte identique à celui de l'ancien générateur sur un criblage sans RES : ancien : produit
+conforme N5 ligne RES du §3 : définition du découpage, 24 sens désignés : | RES | point déjà réservé à A2-05 par un lot | 先 (s1), 先 (s2), 前 (s1), 前 (s2), …
+conforme N6 livraison E1 produite : 9 sens
+conforme N6 livraison E2 produite : 12 sens
+conforme N6 livraison E3 produite : 3 sens
+conforme N7 marque non définie refusée : QQQ : règle QQQ : définition introuvable
+conforme N7 marque non définie refusée : C99-z : règle C99-z : définition introuvable
+conforme N7 marque non définie refusée : RES2 : règle RES2 : définition introuvable
+conforme N7 marque non définie refusée : res : règle res : définition introuvable
+conforme N7 marque non définie refusée : RESERVE : règle RESERVE : définition introuvable
+conforme N7 marque non définie refusée : XRES : règle XRES : définition introuvable
+conforme N7 marque non définie refusée : C1 : règle C1 : définition introuvable
+conforme N8 sans définition au découpage, RES reste refusée : aucune définition inventée : règle RES : définition introuvable
+conforme N9 périmètre protégé de T8 : réécriture refusée : 8-perimetre.md : périmètre arbitré, protégé par le manifeste
+conforme N9 périmètre protégé de T9 : réécriture refusée : 9-perimetre.md : périmètre arbitré, protégé par le manifeste
+conforme A1 recalcul non adapté : un seul écart, l'empreinte du générateur : le verrou fonctionne : générateur et criblage inchangés (défaut non corrigé, marques conservé
+conforme A2 recalcul adapté : 33 contrôles conformes : 33 ; code 0
+conforme A3 T5 : code 0 ; recalcul conforme
+conforme A3 T6 : code 0 ; recalcul conforme
+conforme A3 T7 : code 0 ; recalcul conforme
+conforme A3 T8 : code 0 ; recalcul conforme
+conforme A3 pilote : code 0 ; contrôle conforme
+conforme A3 couverture : code 0 ; couverture : 336 arbitrés, 0 proposés, 41 restants, sur 377 ; bloc B : 148/148 ; livraisons arbitrées : A1, A2, A3, A4, 
+conforme A3 empreintes : code 0 ; empreintes : 44 rapports contrôlés, identiques
+conforme A4 relais : 30 sur 30 : 30 conformes sur 30
+conforme A5 aperçu vide : le plan et les blocs ne dépendent pas de ce correctif : aperçu : plan 7d25ea8442b9dd06 ; sans commit
+conforme A6 deux fichiers modifiés, aucun autre : découpage, criblage, registre, données, normes et rapports inchangés : a2-05-travail/perimetre-v2.mjs, a2-05-travail/recalcul-T9-perimetre.mjs
+conforme A7 node --check des deux fichiers
+conforme A8 perimetre-T9.mjs relancé après correction : refus, rapport accepté inchangé : new Error(SORTIE + ' : périmètre arbitré, protégé par le manifeste');
+conforme S1 générateur revenu à l'ancien motif : 1 écart(s)
+conforme S2 motif élargi au-delà de RES : 1 écart(s)
+conforme R2 diff du générateur identique au diff relu, à partir du premier @@
+conforme dépôt réel inchangé ; index vide : 2130 fichiers
+régénération de la correction RES conforme

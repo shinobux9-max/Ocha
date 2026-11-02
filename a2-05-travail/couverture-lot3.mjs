@@ -1,6 +1,7 @@
 // A2-05 · volet 1 · lot 3 : registre de couverture des 377 sens (outillage v2, en proposition). Lecture seule sur les données.
 // Pour chaque sens du découpage arbitré : sa livraison, l'état de son rapport (arbitré, proposé, absent), et le contrôle qu'il est
-// examiné dans le rapport de sa livraison et dans aucun autre (titres « #### `id` »).
+// examiné dans le rapport de sa livraison, ou dans le rapport de la tranche qui la couvre (registre des tranches), et dans aucun autre
+// (titres « #### `id` »). Une livraison n'a jamais à la fois son propre rapport et le rapport d'une tranche (chevauchement refusé).
 // Usage : node couverture-lot3.mjs <racine du dépôt> [--ecrire]   (--ecrire : écrit a2-05-travail/couverture-lot3.json)
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, resolve } from 'node:path';
@@ -8,6 +9,8 @@ import { fileURLToPath } from 'node:url';
 
 const LF = String.fromCharCode(10);
 const R = 'docs/rapports/etape2-A2-05-volet1-lot3-';
+const TRANCHES = 'a2-05-travail/registre-tranches.json';
+const statut = (t) => (/^\*\*Statut\*\* : \*\*arbitré le /m.test(t) ? 'arbitré' : /^\*\*Statut\*\* : \*\*proposition, non arbitrée\.\*\*/m.test(t) ? 'proposé' : 'inconnu');
 
 /** Calcule le registre. Lève une erreur à la première omission, au premier doublon ou au premier sens inconnu. */
 export function couverture(root) {
@@ -27,20 +30,37 @@ export function couverture(root) {
     for (const m of t.matchAll(/^#### `((?:hj_)?v_\d+_s\d+)` /gm)) { if (!vus.has(m[1])) vus.set(m[1], []); vus.get(m[1]).push(l); }
   }
   const attendu = new Map(lignes.map((x) => [x.id, x.livraison]));
+  // Rapports de tranche : chacun couvre exactement les livraisons de sa tranche ; aucune de ces livraisons n'a son propre rapport
+  const reg = existsSync(join(root, TRANCHES)) ? JSON.parse(txt(TRANCHES)).tranches : [];
+  const trancheDe = new Map(reg.flatMap((t) => t.livraisons.map((l) => [l, t.id]))); const etatsT = new Map();
+  for (const t of reg) {
+    const p = R + t.id + '.md'; if (!existsSync(join(root, p))) continue;
+    const tx = txt(p); const e = statut(tx); if (e === 'inconnu') throw new Error(p + ' : statut illisible');
+    for (const l of t.livraisons) if (etats.get(l) !== 'absent') throw new Error(t.id + ' : la livraison ' + l + ' a aussi son propre rapport (chevauchement)');
+    etatsT.set(t.id, e);
+    for (const m of tx.matchAll(/^#### `((?:hj_)?v_\d+_s\d+)` /gm)) { if (!vus.has(m[1])) vus.set(m[1], []); vus.get(m[1]).push(t.id); }
+  }
   for (const [id, ls] of vus) {
     if (!attendu.has(id)) throw new Error(id + ' : examiné en ' + ls.join(', ') + ', absent du découpage du lot 3');
     if (ls.length > 1) throw new Error(id + ' : examiné dans plusieurs rapports (' + ls.join(', ') + ')');
-    if (ls[0] !== attendu.get(id)) throw new Error(id + ' : examiné en ' + ls[0] + ', alors que le découpage le range en ' + attendu.get(id));
+    if (ls[0] !== attendu.get(id) && ls[0] !== trancheDe.get(attendu.get(id))) throw new Error(id + ' : examiné en ' + ls[0] + ', alors que le découpage le range en ' + attendu.get(id) + (trancheDe.has(attendu.get(id)) ? ' (tranche ' + trancheDe.get(attendu.get(id)) + ')' : ''));
   }
   for (const l of livraisons) if (etats.get(l) !== 'absent') {
     const manquants = lignes.filter((x) => x.livraison === l && !vus.has(x.id)).map((x) => x.id);
     if (manquants.length) throw new Error(l + ' : sens du découpage absents du rapport : ' + manquants.join(', '));
   }
-  const sens = lignes.map((x) => ({ id: x.id, livraison: x.livraison, etat: etats.get(x.livraison) === 'absent' ? 'restant' : etats.get(x.livraison) }));
+  for (const [tid] of etatsT) {
+    const manquants = lignes.filter((x) => trancheDe.get(x.livraison) === tid && !vus.has(x.id)).map((x) => x.id);
+    if (manquants.length) throw new Error(tid + ' : sens de la tranche absents du rapport : ' + manquants.join(', '));
+  }
+  // État d'un sens : celui du rapport de sa livraison, sinon celui du rapport de sa tranche, sinon restant
+  const etatDe = (l) => (etats.get(l) !== 'absent' ? etats.get(l) : etatsT.get(trancheDe.get(l)) ?? 'restant');
+  const sens = lignes.map((x) => ({ id: x.id, livraison: x.livraison, etat: etatDe(x.livraison), rapport: etats.get(x.livraison) !== 'absent' ? x.livraison : etatsT.has(trancheDe.get(x.livraison)) ? trancheDe.get(x.livraison) : null }));
   const compte = (e) => sens.filter((s) => s.etat === e).length;
   const blocB = sens.filter((s) => s.livraison[0] === 'B');
   return {
-    sens, etats: Object.fromEntries(etats),
+    sens, etats: Object.fromEntries(etats), tranches: Object.fromEntries(etatsT),
+    tranchesArbitrees: [...etatsT].filter(([, x]) => x === 'arbitré').map(([t]) => t), tranchesProposees: [...etatsT].filter(([, x]) => x === 'proposé').map(([t]) => t),
     arbitrees: livraisons.filter((l) => etats.get(l) === 'arbitré'), proposees: livraisons.filter((l) => etats.get(l) === 'proposé'),
     totaux: { sens: 377, arbitres: compte('arbitré'), proposes: compte('proposé'), restants: compte('restant'), blocB: blocB.length, blocBArbitres: blocB.filter((s) => s.etat === 'arbitré').length }
   };

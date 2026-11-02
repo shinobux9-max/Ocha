@@ -1,0 +1,68 @@
+{
+  "objet": "§0 arbitré du rapport de T4, en structure : référence du contrôle de son intégrité",
+  "document": "docs/rapports/etape2-A2-05-volet1-lot3-T4.md",
+  "provenance": {
+    "note": "a2-05-travail/note-export-lot3-T4-reservation.md",
+    "partie": "Partie 2 · §0 corrigé du rapport de T4 (tel que le module v2 l'écrirait)",
+    "ligne": 72,
+    "empreinte_note": "60015c067236bcf3030258ca99563fc634ecc7a75fae325155115d3ed03c2011"
+  },
+  "arbitrage": "arbitrage du 2026-10-24 (ChatGPT, par délégation ; relayé par l'utilisateur) ; numérotation, lecture B",
+  "etabli_le": "2026-10-25",
+  "statut": "proposition, non appliquée",
+  "s0": {
+    "intitule": "## 0. Arbitrage",
+    "decision": "Arbitrage du 2026-10-24 (ChatGPT, par délégation ; relayé par l'utilisateur) : « Après relecture intégrale des 35 sens, l'arbitrage recommandé diffère de la proposition initiale. **Retenir 28 conformités et 7 écarts.** »",
+    "synthese": "**28 conformes, 7 écarts, aucun suspendu**, contre 26 conformes et 9 écarts proposés : deux écarts proposés ne sont pas retenus (お風呂, ベッド). La proposition est conservée ci-dessous, telle qu'elle a été livrée ; ses verdicts du §1 et ses fiches d'examen ne sont pas modifiés.",
+    "entete": "| Point | Arbitrage |",
+    "separateur": "|---|---|",
+    "points": [
+      {
+        "point": "Écarts retenus (7)",
+        "arbitrage": "果物, 鍵, お茶, お酒, 紅茶, 飲み物, 水 : **V1-15 à V1-21 retenues**, telles que proposées (retraits de tags de lieu), non appliquées aux données. Les tags `lieu_restaurant` de お茶, 紅茶 et 水 sont conservés."
+      },
+      {
+        "point": "お風呂 (`v_208_s1`)",
+        "arbitrage": "**Écart proposé non retenu ; V1-22 non retenue, identifiant réservé.** Conforme, avec réserve documentaire : `lieu_hotel` conservé. D0258, décision d'une autre ENTRY (ふろ), mentionne explicitement l'emploi hôtelier de お風呂 ; elle n'est ni réattribuée à お風呂 ni comptée parmi ses décisions applicables. Le tag reste hérité : sa pertinence n'est pas présentée comme démontrée par la fiche."
+      },
+      {
+        "point": "ベッド (`v_212_s1`)",
+        "arbitrage": "**Écart proposé non retenu ; V1-23 non retenue, identifiant réservé.** Conforme, avec réserve documentaire : `lieu_hotel` conservé. D0254, décision d'une autre ENTRY (エレベーター), présente ベッド comme vocabulaire du service hôtelier ; elle n'est ni réattribuée à ベッド ni comptée parmi ses décisions applicables. Le tag reste hérité : sa pertinence n'est pas présentée comme démontrée par la fiche."
+      },
+      {
+        "point": "Autres conformités (26)",
+        "arbitrage": "Retenues telles que proposées, avec leurs réserves (dont les tags fondés sur une décision validée de l'ENTRY : ご飯 sens 1, 料理 sens 2, パン, 牛乳, 飴, エレベーター). Points sans correction confirmés : カレー (D0171 maintenue), 部屋, お手洗い (aucun ajout de tag), トイレ, 電車."
+      },
+      {
+        "point": "Numérotation",
+        "arbitrage": "**V1-22 et V1-23 sont définitivement réservés** aux deux propositions non retenues de T4 (décision du 2026-10-24) : ils ne deviennent pas des corrections retenues et ne seront jamais réattribués ; le prochain identifiant disponible est **V1-24**."
+      },
+      {
+        "point": "Limites",
+        "arbitrage": "Aucun audit transversal des tags ; aucune doctrine nouvelle."
+      }
+    ],
+    "liste": "**Liste globale : V1-15 à V1-21 s'ajoutent (bilan du volet 2, §8.91), non appliquées ; V1-22 et V1-23 n'y sont pas inscrites, et figurent au tableau des identifiants réservés du même §8.91.** Comptes attendus par l'arbitrage, calculés par les outils et non imposés à la main : 252 sens arbitrés sur 377, 125 restants ; bloc B, 148 sur 148 ; 196 corrections dans 172 ENTRY ; prochain identifiant disponible : V1-24."
+  },
+  "faits": {
+    "conformes": 28,
+    "ecarts": 7,
+    "proposes": {
+      "conformes": 26,
+      "ecarts": 9
+    },
+    "retenues": [
+      "V1-15",
+      "V1-16",
+      "V1-17",
+      "V1-18",
+      "V1-19",
+      "V1-20",
+      "V1-21"
+    ],
+    "reservees": [
+      "V1-22",
+      "V1-23"
+    ]
+  }
+}

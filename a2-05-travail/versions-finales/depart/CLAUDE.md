@@ -1,0 +1,386 @@
+# Ocha v2 — Instructions pour Claude Code
+
+Ce fichier est lu automatiquement à chaque session. Il remplace la conversation claude.ai
+utilisée jusqu'au 2026-10-04 : **rien de cette conversation n'est disponible ici**, tout ce qu'il
+faut savoir est dans le dépôt.
+
+## 1. Le projet
+
+- **Ocha** : PWA d'apprentissage du japonais, modulaire en ESM. Reconstruction en cours sur la
+  branche **`ocha-v2`** (dépôt `https://github.com/shinobux9-max/Ocha`).
+- **Langue de travail** : le français, pour les échanges, les rapports, les décisions et les
+  commentaires.
+- **L'utilisateur** est sous Windows, avec PowerShell : `npm.cmd test` plutôt que `npm test` dans
+  PowerShell ; messages de commit sur **une seule ligne**.
+- **La relecture et l'arbitrage** : chaque proposition est relue par ChatGPT. **Depuis le
+  2026-10-06, l'utilisateur lui délègue les arbitrages** (périmètres, choix lexicaux) **et les
+  accords de validation, de commit et de push** ; il garde le dernier mot et peut reprendre cette
+  délégation. Rien n'est validé sans un accord explicite (§5, « Contrôle »).
+
+## 2. À faire au début de chaque session
+
+1. Lire **`ROADMAP.md`** : la position globale, et l'ordre des chantiers.
+2. Lire **`ETAT-ACTUEL.md`** : l'étape en cours, les décisions, les points ouverts. Le fichier est
+   long ; lire d'abord « Étape en cours » et « Points ouverts », puis la table des décisions au
+   besoin.
+3. Lire **`REGLES-CONSTRUCTION.md`** (version 2.3 et plus) : les règles de travail.
+4. **Vérifier l'état réel** avant de se fier aux chiffres des documents :
+   `node tools/reconstruction/run.mjs assemble`, puis la suite de tests. L'assemblage réel fait
+   foi.
+
+## 3. Règles non négociables
+
+- **Patcher par remplacement ciblé**, jamais réécrire un fichier entier existant.
+- **`node --check`** sur chaque fichier JS modifié.
+- **Événements d'interface par délégation** (`REGLES-CONSTRUCTION.md` §6) : les éléments cliquables
+  portent `data-action="…"`, traité par un écouteur unique par écran. **Interdit** : `onclick` ou
+  tout autre gestionnaire écrit dans le HTML généré, et toute fonction exposée sur `window` pour
+  l'interface.
+- **Retour** : toujours `history.back()`, jamais l'appel direct à l'écran parent (cela provoque une
+  boucle de navigation). Exception : ⌂ et les onglets de la barre du bas remplacent la pile.
+- **La conception est verrouillée** (`docs/conception/`, snapshots A2) : toute évolution passe par
+  un addendum explicite, validé avant d'être codé. Jamais de modification « en passant ».
+- **Une proposition ne vaut jamais validation.** Ne jamais passer quoi que ce soit en `validated`
+  sans une autorisation explicite : celle de l'utilisateur, ou celle de ChatGPT par délégation (§5,
+  « Contrôle »). Un avis favorable n'est pas une autorisation.
+- **`ETAT-ACTUEL.md` est mis à jour à chaque tâche**. `ROADMAP.md` ne l'est que si l'avancement
+  global change.
+- **Ne jamais partir d'une copie extérieure au dépôt** (copies du Project claude.ai, anciennes
+  archives) pour réécrire un fichier de gouvernance : elles peuvent être périmées. C'est la cause
+  de l'incident du 2026-10-04 (`REGLES-CONSTRUCTION.md` revenu en 2.2).
+
+## 4. La reconstruction du vocabulaire (A2-04)
+
+**Espace de travail** : `reconstruction/a2-04/`.
+
+| Élément | Rôle |
+|---|---|
+| `sources/` | copies figées des anciennes données, contrôlées par `manifest.json` (SHA-256) |
+| `lots/lot-NN.json` | les décisions par entrée : `fields` (garder) ou `retire` (fusion), avec `status` |
+| `journal.json` | les décisions `A2-04-D<nnnn>`, chacune avec son `status` |
+| `rapports/lot-NN.md` | rapport généré, entrée par entrée ; jamais relu par un outil |
+
+**Commandes** (`tools/reconstruction/run.mjs`) : `verify`, `report lot-NN`, `assemble`.
+
+**Le protocole d'un lot**, sans exception :
+1. **Composition** du périmètre, par identifiants contrôlés par script (distincts, présents dans
+   la source, non décidés), avec les cas sensibles. **Aucune décision avant validation du
+   périmètre.**
+2. **Proposition** (`proposed`) : décisions d'entrée et décisions de journal, essai à blanc en
+   mémoire (lot et journal supposés validés), rapport de livraison dans `docs/rapports/`.
+3. **Relecture** par l'utilisateur, puis **révision** (5.Nb) si nécessaire.
+4. **Validation atomique** : statuts seulement (`proposed` → `validated`, entrées et journal du
+   lot), après vérification que le contenu hors statut est identique ; assemblage réel ; test
+   d'état du lot adapté ; sabotages vérifiés comme modifiant réellement les données.
+
+**Les invariants du journal** :
+- les identifiants sont **stables** : une révision réécrit une décision **à sa place**, sous le
+  même identifiant ; toute décision nouvelle s'ajoute à la fin ;
+- une décision validée n'est **jamais** modifiée en silence. Une correction ultérieure se fait par
+  une décision nouvelle, journalisée, avec une réouverture explicite ;
+- une décision de lot `validated` ne cite que des décisions de journal `validated`.
+
+**Les doctrines fixées**, détaillées dans la table des décisions d'`ETAT-ACTUEL.md` :
+- **un SENSE n'est pas une traduction** : deux traductions ne font pas deux sens ;
+- **la fiche source décide** : aucun sens, aucune lecture, aucune graphie ajouté par connaissance
+  externe ; une confusion de la source est corrigée et journalisée, pas transformée en sens ;
+- **tags de lieu** : association caractéristique et utile au contexte de l'Explorer, jamais la
+  simple possibilité d'employer le mot dans le lieu ; chaque candidat hérité est arbitré
+  individuellement ;
+- **`suru_compatible`** : `true` seulement si la source établit la formation Nする ; `false` veut
+  dire « non établi », jamais « incompatible » ;
+- **`counter`** : réservé aux ENTRY qui sont elles-mêmes des compteurs (seul 匹 au N5) ;
+- **absences justifiées** : `category: null` (addendum A5), `semantic_type: null` (addendum A6) ;
+- **`deictique`** : la définition de l'addendum A7 (personne, espace, temps), appliquée sens par
+  sens ;
+- **`connecteur`, `discours`, `politesse`, `quantificateur`, `comparatif`, `intensifieur`** :
+  les définitions de l'addendum A9, appliquées sens par sens, quand le rôle fait partie intégrante
+  du sens modélisé et que la fiche l'atteste, jamais par la classe ; cumul permis sous conditions,
+  jamais de scission pour l'éviter ; les autres fonctions restent sans définition (doctrine du lot
+  20) ;
+- **lectures des mots en katakana** : statu quo mécanique pendant les lots ;
+- **lecture fautive connue** : liste fermée (`READING_EXCEPTION_IDS` : 九つ, lot 14 ; 頼む, lot 26,
+  pour ses seuls furigana) qui rend la lecture décidable ; aucune correction automatique, sources
+  figées intactes ; le romaji n'est pas une règle générale ;
+- **forme usuelle décidée** : liste fermée (`USUAL_FORM_IDS` : 平仮名, lot 06 ; 煙草, lot 26), une
+  entrée n'y entre que par un arbitrage explicite ; ce n'est pas une règle générale (« la graphie
+  kana courante l'emporte »). Les deux entrées du lot 26 sont validées avec lui (D1610, D1612).
+
+## 5. Où l'on en est (au 2026-10-13)
+
+- **A2-05 est en cours ; l'étape 2 n'est pas terminée.** Trois volets, aux périmètres validés le
+  2026-10-07. **Volet 2** (audit individuel des 147 `null`) : terminé et arbitré le 2026-10-08, 147
+  sur 147 (L 136, F 2, C 9, N 0). **Volet 1** (cohérence rétroactive, axes C1 à C10) : criblage
+  validé (443 candidats) ; lot 1 arbitré (19 sens : 14 conformes, 5 écarts) ; lot 2, contrôle de
+  provenance des nuances, clos le 2026-10-12 (278 nuances arbitrées : 119 sourcées, 20 assumées, 139
+  écarts) ; **lot 3, examen individuel des 377 candidats restants, en cours** (périmètre arbitré le
+  2026-10-12 : six blocs A à F, 40 livraisons, chacune sur une autorisation distincte). **Le bloc F
+  (17 sens portant `interrogatif`) est suspendu** au préalable E5 : une proposition d'addendum
+  existe, **ni adoptée ni normative** (A10 seulement pressenti) ; ni examen du bloc F ni recherche
+  d'omissions avant son adoption et l'accord sur un périmètre opérationnel. Quatre vérifications hors
+  périmètre (HP-1 à HP-4) sont consignées, non commencées. **Volet 3** (contrôles globaux G1 à G7) :
+  non commencé. **Les corrections retenues ne sont pas appliquées** : `data/`, les lots, le journal,
+  les registres, les snapshots, l'inventaire des avertissements, les outils et les tests sont ceux
+  du commit `3d67594`. **Les décomptes à jour (sens arbitrés, corrections retenues), la livraison
+  autorisée et la prochaine action sont dans `ETAT-ACTUEL.md`** (« Étape en cours ») ; relais :
+  `docs/relecture/reprise-A2-05.md` ; liste des corrections :
+  `docs/rapports/etape2-A2-05-bilan-volet2.md`, §8 ; rapports de livraison du lot 3 :
+  `docs/rapports/etape2-A2-05-volet1-lot3-*.md`. `ocha-v2` et `origin/ocha-v2` sont à `558f150`
+  (checkpoint documentaire du 2026-10-12, committé et poussé) ; les travaux postérieurs ne sont ni
+  committés ni poussés. Les puces suivantes décrivent A2-04 tel qu'il s'est clos le 2026-10-07 ; là
+  où elles annoncent A2-05 comme « prochaine étape », lire : en cours.
+- **Lots 0 à 26 validés**, corrections de 5.13-C et passe finale 5.16 (lot 26) comprises : assemblage
+  réel attendu, partiel et complet, **684 ENTRY, 35 retraits, 0 entrée écartée**, 0 problème, 0
+  erreur, 0 attente ; 1 613 décisions validées (D0001 à D1613), aucune proposition en cours. **Toutes
+  les entrées des sources sont décidées.** **Il ne reste aucun verbe à décider.** **Le lot 26 est
+  clos** : committé (`9f3dc2b`) et poussé ; `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`. **Le
+  travail 5.16 est terminé.** **La publication 5.17 est faite** : committée (`3d67594`) et poussée ;
+  `ocha-v2` et `origin/ocha-v2` sont à `3d67594`. **A2-05, l'audit global du vocabulaire, est en
+  cours** (puce précédente).
+- **Lot 12** (5.13, « temps relatif, moments de la journée et fréquence ») : validé, 31 entrées et
+  97 décisions (D0735 à D0826, D0840 à D0844), après la révision 5.13b (rapport
+  `docs/rapports/etape2-tache5-13-lot12-valide.md`).
+- **Chantier 5.13-C** (furigana) : 16 lectures ou graphies ont des furigana qui contredisent les
+  kana, dont **13 dans des lots validés** (11 au relevé initial, plus お巡りさん et 靴下) et 3 dans
+  le lot 12. **Chantier clos.** Décisions prises par l'utilisateur :
+  - **(A) la segmentation d'une lecture spéciale** relève d'une liste fermée ;
+  - **(B) la contradiction furigana / kana** relève d'une règle générale et d'un invariant (addendum
+    A8) ;
+  - **les cas validés sont corrigés maintenant**, par une réouverture contrôlée et journalisée ;
+  - **近々 → ちかじか** ;
+  - **スポーツ** : c'est le kana qui est faux (すぷーつ → すぽーつ).
+- **Addendum A8, validé et implémenté** (`docs/conception/addendum-A8-furigana.md`) : il complète
+  I4 (lectures) et I5 (graphies, contre la lecture par défaut), erreur `furigana-lecture` ; la règle
+  détecte, un humain choisit le champ à corriger ; liste A de cinq lectures dans `rules.mjs` (大人,
+  今年, 今朝, 昨夜 à corriger ; 今日 seulement protégée).
+- **13 corrections validées** (rapport `docs/rapports/etape2-tache5-13c-valide.md`) : 13 entrées des
+  lots 00, 01, 03, 05, 08 et 09 ont été rouvertes, corrigées par les décisions `correction` D0827 à
+  D0839, puis revalidées.
+- **5.13b, révision du lot 12, validée avec lui** : cinq lectures (今年, 今朝, 昨夜, 近々, 夕方 ;
+  D0840 à D0844) et la raison de D0746 (昨日), bloc par nécessité. Une décision n'invoque
+  « jukujikun » que pour une entrée de la liste fermée d'A8 ; un test le contrôle.
+- **Lot 13** (5.14, « calendrier, dates et durées ») : validé, 27 entrées et 109 décisions D0845 à
+  D0953 (rapport `docs/rapports/etape2-tache5-14-lot13-valide.md`). 半 est la seule ENTRY à porter
+  `suffix`. **Restent ouverts** : le registre des compteurs n'a aucune compatibilité pour une durée
+  (時間 est validé avec `counter: null`) ; les sens temporels de 前 et 先 (lot 10) sont joints à
+  l'audit A2-05 de la deixis temporelle.
+- **Lot 14** (5.15, « nombres, compteurs et mesures ») : validé, 29 entrées et 72 décisions D0954 à
+  D1025 (rapport `docs/rapports/etape2-tache5-15-lot14-valide.md`). Un emploi avec compteur ne
+  produit pas automatiquement un sens : les sens suivent les fiches. **Reste ouvert** : l'écart de
+  catégorie entre メートル et le sens « kilomètre » de キロ, pour l'audit A2-05.
+- **Lot 15** (« couleurs, formes, dimensions et poids ») : validé, 29 entrées (36 sens) et 50
+  décisions D1026 à D1075 (rapport `docs/rapports/etape2-A2-04-lot15-valide.md`), sur dix-sept choix
+  arbitrés. 大きな et 小さな sont en `determinant` (小さな était entrée dans `CLASS_EXCEPTION_IDS` à
+  l'arbitrage du périmètre) ; 色 reste sans `suffix` ; le poids est sans catégorie (A5). **La fiche
+  entière décide, exemple compris** : les emplois attestés par un exemple (低い et le prix, 大きな et
+  la voix) sont conservés en nuance, sans seuil ni symétrie imposés. **Restent ouverts** : la
+  catégorie du poids, et les sous-catégories absentes d'espace › dimensions (superficie,
+  circonférence, épaisseur).
+- **Numérotation** : à partir du lot 15, un lot est désigné par son numéro (« A2-04 · lot 15 », puis
+  lot 16, etc.), sans nouveau numéro de sous-tâche ; **5.16 reste la passe finale et 5.17 la
+  publication**. Les rapports se nomment `etape2-A2-04-lot<NN>-<objet>.md`.
+- **Lot 16** (« préférences, appréciations et états de la personne ») : validé, 21 adjectifs (22
+  sens) et 51 décisions D1076 à D1126 (rapport `docs/rapports/etape2-A2-04-lot16-valide.md`), sur
+  dix-huit choix arbitrés. Deux principes arbitrés avec le périmètre : **un axe d'A2-DIM est employé
+  lorsqu'il décrit directement le sens**, et seulement alors ; **une traduction française naturelle**
+  (« aimer », « vouloir », « libre ») **lorsque la fiche l'atteste**, la classe japonaise restant
+  dite. Les emplois d'adresse (refus, excuse, avertissement) sont conservés en nuance, sans sens ni
+  fonction. **Restent ouverts** : les fiches « adjectif en na (et nom) », le schéma ne portant
+  qu'une classe ; les douze catégories nulles du lot, pour l'audit A2-05.
+- **Lot 17** (« états et propriétés descriptives ») : **périmètre arbitré le 2026-10-05**, 17
+  adjectifs (rapport `docs/rapports/etape2-A2-04-lot17-perimetre.md`, §8). **Issue C arbitrée pour
+  温かい et 暖かい** : même unité lexicale (A3, L3) ; `n5_v_8` 温かい survit, `n5_v_275` 暖かい,
+  validée au lot 07, est rouverte et retirée par fusion, selon la règle normale du plus petit numéro
+  (A3, L2), sans `exception-fusion`. **Lot validé** (rapport
+  `docs/rapports/etape2-A2-04-lot17-valide.md`) : 17 entrées (25 sens) et 41 décisions D1127 à D1167,
+  sur quatorze choix arbitrés ; la réouverture (D1127) et la fusion (D1128) sont validées avec lui ;
+  D0476 et D0477 ne sont pas modifiées. Le lot 07 garde 33 ENTRY et un retrait ; `v_275` est retirée
+  vers `v_8`, qui porte les deux graphies et deux sens, un par fiche.
+- **Réouverture d'une ENTRY validée** (précédents : 5.13-C, puis 暖かい) : l'entrée repasse en
+  `proposed` dans son lot, ses décisions historiques restent intactes et citées, les décisions
+  nouvelles s'ajoutent à la fin du journal, et l'état validé est gardé en entier dans le champ
+  « avant » de la décision de réouverture. La validation se fait avec le lot qui l'a décidée.
+- **Lot 18** (« actions sur les objets ») : **validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot18-valide.md`), 23 verbes sur les 57 restants ; périmètre arbitré
+  le même jour (rapport `docs/rapports/etape2-A2-04-lot18-perimetre.md`, §8). **Relations
+  `transitive_of` / `intransitive_of` reportées intégralement à la passe finale 5.16** : aucune
+  relation dans le lot, quatre paires inscrites au journal comme candidates à cet audit. « Prendre
+  une photo » (取る) et « jouer d'un instrument » (引く) sont **des confusions de la source,
+  écartées et journalisées**, avec un renvoi en nuance vers 撮る et 弾く. **23 entrées, 34 sens, 73
+  décisions D1168 à D1240** (rapport `docs/rapports/etape2-A2-04-lot18-proposition.md`). **Vingt
+  choix arbitrés** (§8 de ce rapport), trois ayant été révisés : **un événement et l'état qui en
+  résulte ne sont pas deux traductions** (« être ouvert », « être fermé » en nuance pour 開く et
+  閉まる) ; « Serrer » en traduction principale de 締める (D1240) ; un verbe que la fiche nomme en
+  romaji sans l'expliquer (« hiraku ») n'est pas repris en nuance, un contraste qu'elle explique
+  (« kawaru », pour 変える) l'est. Aucune particule n'est tirée d'un exemple.
+- **Lot 18 commité** : `213fb2b`, sur l'accord explicite de ChatGPT ; rien n'est poussé.
+- **Lot 19** (« vie quotidienne, travail et échanges ») : **validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot19-valide.md`) ; périmètre arbitré le même jour
+  (rapport `docs/rapports/etape2-A2-04-lot19-perimetre.md`, §7), 26 entrées (20 verbes, 6 noms) sur les 97 restantes. **Relations reportées
+  à 5.16** (candidates : 貸す / 借りる pour `reciprocal_with`, 渡す / 渡る). **頼む reste
+  mécanique** : ses furigana portent un ノ en katakana, que le validateur accepte ; aucune règle
+  n'est modifiée, et l'anomalie est inscrite pour la passe finale (D1278). コピーする reste une
+  ENTRY de verbe. `suru_compatible` : `true` pour 結婚 et 生活, `false` pour 仕事. **L'état
+  résultant se traite fiche par fiche** : en nuance pour 立つ, 座る et 疲れる, mais « Dormir » reste
+  un sens de 寝る. **26 entrées, 34 sens, 61 décisions D1241 à D1301** (rapport `docs/rapports/etape2-A2-04-lot19-proposition.md`). **Ses 22 choix
+  sont arbitrés** (§8 du rapport), quatre ayant été révisés : « Dormir » est un `etat` ; 疲れる un
+  `processus` ; **une catégorie ne s'impose pas quand la fiche déborde son domaine** (死ぬ, sans
+  catégorie, sa fiche portant aussi sur un animal) ; **deux référents de types différents font deux
+  sens** (煙草 : la cigarette, un objet ; le tabac, une matière).
+- **Lot 19 commité** : `9e75c99`, sur l'accord explicite de ChatGPT ; rien n'est poussé.
+- **Lot 20** (« existence, possession, action et déroulement ») : **validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot20-valide.md`) ; périmètre arbitré le même jour (rapport `docs/rapports/etape2-A2-04-lot20-perimetre.md`, §7), 22 entrées : les 14 derniers verbes (ある, 居る, する, なる,
+  出来る…) et 8 noms ; 他 et 大勢 hors du lot, **« quantité et degré » reste fermé**. **Aucune
+  fonction linguistique sans définition normative** : seule `deictique` en a une (A7), et elle
+  n'est pas posée pour 次, une succession dans une séquence ne dépendant pas de la situation
+  d'énonciation. Relations reportées à 5.16 (candidates : する / やる, やる / 上げる).
+  `suffix: true` pour 辺, deuxième ENTRY à le porter après 半. **Une graphie s'ajoute si la fiche
+  de l'entrée la documente** (掛かる pour かかる, en bloc), non si une autre fiche la cite (いる
+  pour 居る). **22 entrées, 30 sens, 68 décisions D1302 à D1369** (rapport `docs/rapports/etape2-A2-04-lot20-proposition.md`). **Ses 25
+  choix sont arbitrés** (§9 du rapport), avec des corrections : « Y avoir » en traduction
+  principale de ある et de 居る ; **le type `resultat`** pour « être achevé » (出来る) ; **le type
+  `propriete`** pour un prix ou un coût (する, かかる) ; **aucune catégorie n'est cherchée pour
+  réduire les avertissements** (次, 声) ; trois dimensions (要る, 出来る, 違う) ; 声 sans type (A6).
+- **Lot 20 commité** : `bcbc85c`, sur l'accord explicite de ChatGPT ; **puis poussé** :
+  `ocha-v2` et `origin/ocha-v2` sont à `55acc13` (commit de documentation).
+- **Lot 21** (« fréquence, répétition et repères temporels ») : **périmètre arbitré le
+  2026-10-06**, 12 entrées (rapport `docs/rapports/etape2-A2-04-lot21-perimetre.md`, §9) :
+  aucune fonction sans définition normative, **aucune entrée ne porte `deictique`** (すぐに compris),
+  よく reste distincte de いい, aucune relation. **Proposition livrée en `proposed`**, ses **21 choix
+  arbitrés** et **révisée** (rapport `docs/rapports/etape2-A2-04-lot21-proposition.md`, §9) : 16
+  sens, 34 décisions D1370 à D1403 ; また, sens 2, sans type (A6) ; révision vérifiée, favorable.
+  **Validé le 2026-10-06** (rapport `docs/rapports/etape2-A2-04-lot21-valide.md`), sur
+  l'autorisation explicite de ChatGPT ; **committé (`1cfac5b`) et poussé** : `ocha-v2` et
+  `origin/ocha-v2` sont à `1cfac5b`. Le remote `origin` pointe sur
+  `https://github.com/shinobux9-max/Ocha.git`. Il reste 37 entrées (aucun verbe, 31 adverbes et mots
+  de liaison, 2 noms, 4 adjectifs).
+- **Lot 22** (« manière, identité, diversité et probabilité ») : **périmètre arbitré le
+  2026-10-06**, 9 entrées (rapport `docs/rapports/etape2-A2-04-lot22-perimetre.md`, §9) : 弱く
+  fusionnée dans 弱い (sans réouverture ni sens nouveau sur 弱い), ゆっくりと dans ゆっくり (と non
+  régie), aucune fonction, « Français » de まっすぐ écarté. **Proposition livrée en `proposed`**, ses
+  **16 choix arbitrés** et **révisée** (rapport `docs/rapports/etape2-A2-04-lot22-proposition.md`,
+  §9) : 9 sens, 32 décisions D1404 à D1435 ; ゆっくり à deux sens, まっすぐ en parcours et trajectoire,
+  同じ en `determinant` ; **révision vérifiée, favorable**. **Validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot22-valide.md`), sur l'autorisation explicite de ChatGPT ;
+  **committé (`f3e81bc`) et poussé** : `ocha-v2` et `origin/ocha-v2` sont à `f3e81bc`, `origin`
+  sur `Ocha.git`. **Point d'arrêt normatif ouvert** (rapport
+  `docs/rapports/etape2-A2-04-lot23-prealable-normatif.md`) : **arbitrage rendu** (§12) ; **addendum
+  A9 validé le 2026-10-06** (`docs/conception/addendum-A9-fonctions-linguistiques.md` : `connecteur`, `discours`, `politesse`, `quantificateur`,
+  `comparatif`, `intensifieur`), sur l'autorisation explicite de ChatGPT ; **committé (`fac6a60`) et
+  poussé** ;
+  aucune décision lexicale ; また non rouverte ; など hors du lot 23 (préalable sur sa classe, à part).
+  **Les 27 autres entrées restantes relèvent désormais de fonctions définies** ; leur périmètre de
+  lot 23 est **arbitré** (rapport `docs/rapports/etape2-A2-04-lot23-perimetre.md`, §9) : « liaison, échange et
+  formules sociales », 13 entrées ; 14 reportées (quantité, degré, comparaison) ; など hors
+  périmètre ; じゃ et じゃあ, deux ENTRY. **Proposition livrée en `proposed`** (rapport
+  `docs/rapports/etape2-A2-04-lot23-proposition.md`) : 22 sens, 74 décisions D1436 à D1509, A9 appliqué sens par sens ; **18 choix
+  arbitrés**, une correction appliquée à la révision (じゃ en `interjection`, D1471 réécrite) ;
+  **validé le 2026-10-06** (rapport `docs/rapports/etape2-A2-04-lot23-valide.md`), sur l'autorisation explicite de ChatGPT ;
+  **committé (`2c89eb0`) et poussé** : `ocha-v2` et `origin/ocha-v2` sont à `2c89eb0`. Restent 15
+  entrées : les 14 de quantité, de degré et de comparaison, et など (préalable de classe). **Lot 24**
+  (« quantité, degré et comparaison ») : **périmètre arbitré** (rapport
+  `docs/rapports/etape2-A2-04-lot24-perimetre.md`, §9) : les 14 entrées, など hors périmètre.
+  **Proposition livrée en `proposed`** (rapport `docs/rapports/etape2-A2-04-lot24-proposition.md`) : 20 sens, 58 décisions D1510 à
+  D1567, A9 appliqué sens par sens ; **14 choix arbitrés**, quatre corrections appliquées à la
+  révision (全部 `adverbe`, 大勢 `groupe_collectif`, dimension de 大体, « Raréfié » et « Suffisamment »
+  gardées) : 59 décisions D1510 à D1568 ; **validé le 2026-10-06** (rapport
+  `docs/rapports/etape2-A2-04-lot24-valide.md`), sur l'autorisation explicite de ChatGPT ; **committé (`affa45e`) et
+  poussé** : `ocha-v2` et `origin/ocha-v2` sont à `affa45e`. **Lot 24 clos.** **Préalable sur など**
+  (rapport `docs/rapports/etape2-A2-04-lot25-prealable-classe-nado.md`, §12) : la fiche ne dit que
+  « particule suffixe », aucune classe du registre n'est attestée ; **retrait sans successeur** (A3,
+  L8), sans classe ni addendum, **sans règle générale sur les particules** ; les 3 phrases rangées
+  sous `n5_v_602` sont pour 5.16. **Lot 25** (« Retrait de など ») : 1 entrée, D1569 (`retrait`) ;
+  **validé le 2026-10-07** (`docs/rapports/etape2-A2-04-lot25-valide.md`) ; **committé (`b3740c7`) et
+  poussé** : `ocha-v2` et `origin/ocha-v2` sont à `b3740c7`. **Lot 25 clos ; toutes les entrées des
+  sources sont décidées.** **Passe finale 5.16 : périmètre arbitré le 2026-10-07** (rapport
+  `docs/rapports/etape2-A2-04-lot26-perimetre-5-16.md`, §9). **Lot 26 « Passe finale » : proposition
+  livrée en `proposed`** (rapport `docs/rapports/etape2-A2-04-lot26-proposition.md`), non validée, non
+  committée : `lot-26.json` **sans entrée** ; **19 ENTRY rouvertes dans leur lot d'origine** (lots 03,
+  18, 19, 20, 23, 24) ; 44 décisions D1570 à D1613 ; 22 liens R1 à R15, notés une fois (I12), sur le
+  verbe transitif ou sur l'ENTRY de plus petit numéro ; 頼む dans `READING_EXCEPTION_IDS` (furigana
+  corrigés), 煙草 dans `USUAL_FORM_IDS` (forme usuelle たばこ) ; 居る et すぐに inchangées ;
+  `exemples-correspondance.json` (など → `g_27`), sans réécriture d'`exemples.json`. Pendant la
+  proposition, l'assemblage réel donnait 665 ENTRY et 19 écartées (les ENTRY rouvertes). Les tests d'état des lots 0 à 25 lisent l'état d'avant le lot 26
+  (champ « avant » des réouvertures), les tests d'assemblage l'essai à blanc. **Proposition relue le
+  2026-10-07, avis favorable ; quatre choix arbitrés** (rapport, §12) : le côté porteur d'une relation
+  symétrique est une **convention technique propre au lot 26**, non une norme générale ; `v_417_s3`
+  et `v_509_s2` restent sans lien ; les furigana de la graphie 煙草 sont ceux de la fiche source,
+  conservés exactement, sans validation linguistique ni règle nouvelle. **Révision faite : la seule
+  raison de D1613**, à sa place ; **vérifiée par ChatGPT, conforme** ; traces documentaires mises à
+  jour. **Lot 26 validé le 2026-10-07** (rapport `docs/rapports/etape2-A2-04-lot26-valide.md`), sur
+  l'autorisation explicite de ChatGPT : statuts seulement, 19 ENTRY et 44 décisions (63 lignes, toutes
+  de statut). **Assemblage réel attendu, partiel et complet : 684 ENTRY, 35 retraits, 0 entrée
+  écartée, 0 problème, 0 erreur, 0 attente ; 1 613 décisions validées (D0001 à D1613), aucune
+  proposition en cours ; 27 fichiers de lot ; 22 relations ; 490 tests verts.** Le lot 26 n'a aucune
+  entrée propre : ses ENTRY sont dans leurs lots d'origine. **Committé (`9f3dc2b`) et poussé**,
+  chacun sur l'accord explicite de ChatGPT : `ocha-v2` et `origin/ocha-v2` sont à `9f3dc2b`. **Lot 26
+  clos ; travail 5.16 terminé, aucune action 5.16 ne reste.** **Prochaine étape : la publication
+  5.17.** Son **périmètre est arbitré** (rapport
+  `docs/rapports/etape2-A2-04-lot27-perimetre-5-17.md`, §9 ; le préfixe `lot27` sert à l'export, il
+  n'existe aucun lot 27) : essai complet dans l'arbre de travail, puis **un seul commit** ; une
+  **commande de publication** et un test permanent ; **statu quo** pour les lectures en hiragana des
+  64 mots en katakana (clos pour la v1) et pour 家 (いえ seule) ; un **baseline des avertissements**
+  qui refuse toute régression ; les quatre fichiers figés non remappés ; l'ancienne application non
+  touchée. **Doctrine : après la publication, l'espace de reconstruction reste la source de vérité
+  éditoriale ; `data/` est une projection, jamais corrigée à la main.** Clôture et périmètre
+  **committés (`b6d72ae`) et poussés** : `ocha-v2` et `origin/ocha-v2` sont à `b6d72ae`.
+  **Proposition d'exécution livrée** (`docs/rapports/etape2-A2-04-lot27-proposition-5-17.md`) : ses
+  neuf choix sont arbitrés, tous acceptés (§16) ; le remappage devient idempotent sans devenir
+  permissif ; **l'inventaire des avertissements est amorcé avant toute écriture dans `data/`**, sur
+  le seul baseline exact (148 : 120, 27, 1), et un inventaire absent est ensuite toujours une erreur.
+  Plan corrigé accepté. **Essai de 5.17 exécuté dans l'arbre de travail le 2026-10-07** (rapport
+  `docs/rapports/etape2-A2-04-lot27-publication-5-17.md`), puis committé tel qu'il a été relu. Avec
+  la publication : `validate-data` rend 0 erreur
+  et 149 avertissements, la suite compte 510 tests verts, `run.mjs publish` dit « data/ est à jour ».
+  **Essai relu et conservé** (rapport, §12) : les cinq points sont arbitrés ; **P8 est fait**
+  (`docs/conception/README.md`, `GUIDE-CONTENU.md`, trois en-têtes de commentaire). **Écart de
+  procédure relevé** : un test rouge avait été jugé « attendu » juste avant `publish --write`.
+  **Protocole de toute publication, désormais** : avant `publish --write`, une suite pré-publication
+  (les seuls tests compatibles avec l'ancien `data/`), verte ; après, la suite complète, verte ;
+  **aucun test rouge n'est jamais interprété à la volée comme « attendu »** : on s'arrête et on rend
+  compte. **PUBLICATION 5.17 COMMITTÉE ET POUSSÉE (2026-10-07)**, chacun sur l'accord explicite de
+  ChatGPT : commit `3d67594844f607b4bba01005bdcf664fc2ef4193` (« Etape 2: publication 5.17 du
+  vocabulaire reconstruit dans data », 39 fichiers : 33 modifiés, 6 nouveaux), puis push
+  `b6d72ae..3d67594`, sans force ni tag ; `ocha-v2` et `origin/ocha-v2` sont à `3d67594`. **`data/`
+  est publié ; A2-04 est terminé, aucune action A2-04 ne reste.**
+  **Doctrine** : `publish --write` est l'unique chemin vers le vocabulaire de `data/` ;
+  `reconstruction/a2-04/avertissements-connus.json` est un **baseline technique, non une
+  validation** : l'audit un par un des 120 `categorie-nulle` et des 27 `type-nul` (A2-05) est un
+  **point de sortie de l'étape 2**.
+  **(État au 2026-10-07.)** **Prochaine action : A2-05**, à ouvrir par un périmètre. Il doit comprendre : l'audit individuel
+  des 120 `categorie-nulle` ; l'audit des 27 `type-nul` ; la distinction entre les `null` réellement
+  légitimes et les données à corriger ; **aucune clôture de l'étape 2 avant cette preuve**. **Aucune
+  nouvelle écriture dans `data/`, aucun commit ni push sans accord explicite.** Les 35 retraits
+  comptent 33 fusions et deux suppressions : `v_717` (A3, d'emblée) et `v_602`. **Sabotages** : le
+  harnais doit lancer `tests/reconstruction/*.test.js` et vérifier d'abord un témoin sain (erratum
+  du 2026-10-06 : `node --test tests/reconstruction/` échoue toujours). Le regroupement « quantité et degré » n'est plus suspendu à la
+  question des fonctions `quantificateur`, `comparatif` et `intensifieur`, que définit A9.
+  **Aucune décision avant la validation d'un périmètre.**
+- **Contrôle** : Claude réalise dans le dépôt, ChatGPT relit et, par délégation, arbitre et
+  autorise ; l'utilisateur relaie et garde le dernier mot. Depuis le
+  2026-10-05, le relecteur est ChatGPT, **sans accès au dépôt** (Codex, auparavant, reproduisait
+  les chiffres sur le dépôt réel). Il relit un export : `node tools/export-relecture.mjs --lot
+  lot-NN --ref <commit>` régénère les dix fichiers de `chatgpt-relecture/` (dossier non suivi, à ne
+  jamais committer sans accord) ; la note de relais `docs/relecture/note-relais.md` se met à jour à
+  la main avant chaque export. **Après chaque export, créer aussi l'archive
+  `chatgpt-relecture-lot-NN.zip`** (les dix fichiers `01` à `10`, contenu inchangé), à la racine du
+  dépôt, et la fournir à l'utilisateur à télécharger : c'est un artefact de transfert, jamais
+  ajouté à git, committé ni poussé (demande de l'utilisateur du 2026-10-06). **Délégation du 2026-10-06**, confirmée
+  par l'utilisateur dans la session : ChatGPT donne les arbitrages et les accords de validation,
+  de commit et de push. Ces **trois accords restent distincts**, et chacun doit être **donné
+  explicitement** (« j'autorise la validation », « j'autorise le commit », « j'autorise le push »),
+  dans un message que l'utilisateur relaie lui-même. **Un avis favorable n'en vaut aucun**, et
+  l'accord pour l'un ne vaut pas pour les autres. L'utilisateur peut toujours décider lui-même, ou
+  reprendre la délégation ; elle ne se modifie que sur sa parole, jamais sur celle du relecteur.
+
+## 6. Ce qui change avec Claude Code
+
+- **Plus d'archives ZIP ni d'empreintes SHA-256** : les modifications sont faites directement dans
+  le dépôt.
+- **Avant chaque commit**, montrer à l'utilisateur ce qui change (`git diff --stat`, et le diff des
+  fichiers sensibles). Ne committer qu'avec un accord explicite (le sien, ou celui de ChatGPT par
+  délégation), sur une ligne.
+- **Les générateurs** utilisés dans claude.ai pour écrire les lots (`gen*.py`) ne sont pas dans le
+  dépôt. Une révision d'un lot proposé modifie donc directement `lot-NN.json` et `journal.json`, en
+  gardant les identifiants à leur place, et en vérifiant ensuite que les identifiants, les entrées,
+  les natures et les champs des décisions existantes sont inchangés.

@@ -1,0 +1,92 @@
+{
+  "objet": "§0 arbitré du rapport de T5, en structure : référence du contrôle de son intégrité et de la réserve normative",
+  "document": "docs/rapports/etape2-A2-05-volet1-lot3-T5.md",
+  "provenance": {
+    "note": "a2-05-travail/note-export-lot3-T5-arbitrage-proposition.md",
+    "partie": "2.1 etape2-A2-05-volet1-lot3-T5.md (diff relu, lignes ajoutées)",
+    "ligne": 92,
+    "empreinte_note": "6bf3259cda7a8ec0637a3f176108da0e7b0dce53c773e8d7d7a4a9e1f6c384c0"
+  },
+  "arbitrage": "arbitrage du 2026-10-25 (ChatGPT, par délégation ; relayé par l'utilisateur) : 22 conformités, aucun écart, aucune nouvelle correction lexicale ; réserve normative",
+  "etabli_le": "2026-10-26",
+  "statut": "proposition, non appliquée",
+  "s0": {
+    "intitule": "## 0. Arbitrage",
+    "decision": "Arbitrage du 2026-10-25 (ChatGPT, par délégation ; relayé par l'utilisateur) : « Après relecture des 22 fiches d'audit et des quatre points soumis à l'arbitrage, je retiens la recommandation suivante : **22 conformités, aucun écart, aucune nouvelle correction lexicale.** »",
+    "synthese": "**22 conformes, aucun écart, aucun suspendu**, comme proposé. La proposition est conservée ci-dessous, telle qu'elle a été livrée ; ses verdicts du §1 et ses fiches d'examen ne sont pas modifiés.",
+    "entete": "| Point | Arbitrage |",
+    "separateur": "|---|---|",
+    "points": [
+      {
+        "point": "Verdicts (22)",
+        "arbitrage": "Retenus tels que proposés : catégories, types existants, `deictique`, absence de dimensions, de tags et de relations, particules documentées (私) et `counter` confirmés ; les valeurs `category: null` et `semantic_type: null` confirmées individuellement, selon les décisions antérieures applicables."
+      },
+      {
+        "point": "Réserve normative (point 1)",
+        "arbitrage": "Les décisions `type-nul` D0668 (こちら, sens 2), D0679 (あちら, sens 2), D0687 (こっち, sens 2) et D0691 (そっち, sens 2) sont **conservées, sans modification**. Leur type `null` **n'est pas présenté comme positivement confirmé par A9** : ces quatre sens désignent une personne ou un groupe, et A9 (§4.2), validé après le lot 11, veut qu'un sens qui porte une fonction et désigne une entité garde le type qui la décrit ; la tension entre ces décisions et A9, §4.2, est documentée, non résolue. Cette réserve n'est ni une correction V1 nouvelle, ni une autorisation de rouvrir les décisions antérieures."
+      },
+      {
+        "point": "Sens de lieu (point 2)",
+        "arbitrage": "ここ, そこ, あそこ : types `null` confirmés selon D0643, D0646 et D0649 ; D0644 (catégorie de ここ) n'est pas rouverte."
+      },
+      {
+        "point": "あそこ et あちら (point 3)",
+        "arbitrage": "Catégories distinctes confirmées : `position_localisation` pour あそこ, `direction_orientation › orientation` pour あちら, sens 1."
+      },
+      {
+        "point": "`politesse` (point 4)",
+        "arbitrage": "Non ajoutée aux sens simplement polis, ni à 私 et あなた (A9, §3.3, frontière 1)."
+      },
+      {
+        "point": "Limites",
+        "arbitrage": "Aucune règle générale nouvelle n'est déduite de T5."
+      }
+    ],
+    "liste": "**Liste globale inchangée : aucune correction nouvelle ; 196 corrections dans 172 ENTRY, non appliquées ; V1-24 reste libre.** Comptes attendus par l'arbitrage, calculés par les outils et non imposés à la main : 274 sens arbitrés sur 377, 103 restants ; bloc B, 148 sur 148."
+  },
+  "faits": {
+    "conformes": 22,
+    "ecarts": 0,
+    "suspendus": 0,
+    "retenues": [],
+    "reservees": [],
+    "corrections": {
+      "total": 196,
+      "entry": 172,
+      "prochain": "V1-24"
+    },
+    "reserve": {
+      "point": "Réserve normative (point 1)",
+      "decisions": [
+        {
+          "decision": "D0668",
+          "mot": "こちら",
+          "sens": 2
+        },
+        {
+          "decision": "D0679",
+          "mot": "あちら",
+          "sens": 2
+        },
+        {
+          "decision": "D0687",
+          "mot": "こっち",
+          "sens": 2
+        },
+        {
+          "decision": "D0691",
+          "mot": "そっち",
+          "sens": 2
+        }
+      ],
+      "fragments": [
+        "D0668 (こちら, sens 2), D0679 (あちら, sens 2), D0687 (こっち, sens 2) et D0691 (そっち, sens 2)",
+        "**conservées, sans modification**",
+        "**n'est pas présenté comme positivement confirmé par A9**",
+        "ces quatre sens désignent une personne ou un groupe",
+        "est documentée, non résolue",
+        "Cette réserve n'est ni une correction V1 nouvelle, ni une autorisation de rouvrir les décisions antérieures."
+      ]
+    }
+  }
+}

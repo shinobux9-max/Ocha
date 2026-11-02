@@ -1,0 +1,17 @@
+{
+ "genere_par": "a2-05-travail/correction-c9a/appliquer.mjs",
+ "date": "2026-10-22",
+ "modules": {
+  "empreintes-lot3.mjs": {
+   "depart_sha256": "34e0d5696ce90359f0ebcff2172ad8191033e12f93190940113d96881a94b3e7",
+   "final_sha256": "bac08d6c39622fea53bbbbde5609599103acea894f43312635fea329aec77e9e",
+   "diff_sha256": "33b8055c132ae15406142ed9eb587c93530fdacfda6e89a4995ca9b0da8270f9"
+  },
+  "controle-relais-allege.mjs": {
+   "depart_sha256": "779ef8460dcb34982d8e14f12fb9386d29b4a5ac97932dd5e94b893d0df3d4fc",
+   "final_sha256": "cd8e307e5664355ace8419cb05c27c95c801fed0f3f6f9e5a8874ece782bde24",
+   "diff_sha256": "6475cad02e3c38bfc5db7c55f95e54295192cc91cc1a3a8a9b48bcc5a0b26a3e"
+  }
+ },
+ "manifeste_empreintes_depart_sha256": "826d6d164e9cf1d1749727fd6169f4263286b8af1cdf912818443659046f75e9"
+}

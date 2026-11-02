@@ -1,0 +1,14 @@
+{
+ "genere_par": "a2-05-travail/correction-couverture/appliquer.mjs",
+ "date": "2026-10-20",
+ "modules": {
+  "couverture-lot3.mjs": {
+   "depart_sha256": "545b79fc6818ca03e0bd6f1ee8be50014f714b202a164afdd71516d160c4d22f",
+   "final_sha256": "3de20300a501e5d161c5305ef47f7172701a1d5b29112ec1bd7233eb878b8bdb"
+  },
+  "empreintes-lot3.mjs": {
+   "depart_sha256": "b4eb136b35ccebe8620c3451bec37c60a3c323331d4cf024fc3d9ee6dbcca6f5",
+   "final_sha256": "34e0d5696ce90359f0ebcff2172ad8191033e12f93190940113d96881a94b3e7"
+  }
+ }
+}

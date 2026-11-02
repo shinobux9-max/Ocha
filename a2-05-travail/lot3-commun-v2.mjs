@@ -23,6 +23,11 @@ const fonctions = (s) => { const f = fonctionsDe(s); return f.length ? f.map((x)
 // Normalisation pour comparer une citation à son texte d'origine : balises, emphases, guillemets et espaces neutralisés
 export const norm = (s) => strip(s).replace(/[«»"“”„]/g, ' ').replace(/[’‘]/g, "'").replace(/\s+/g, ' ').trim().toLowerCase();
 
+/** Identifiants sous lesquels une ENTRY est citée dans les bilans : l'identifiant publié et, pour une ENTRY hors JLPT, son identifiant source
+ *  canonique (`v_718` → `hj_v_1`, `v_719` → `hj_v_2`). Pour une ENTRY N5, l'identifiant source est « n5_ » + l'identifiant publié : les deux
+ *  coïncident une fois le préfixe retiré, et la liste n'a qu'un élément (aucun doublon). */
+export const identifiantsCites = (eid, sid) => [...new Set([eid, String(sid ?? '').replace(/^n5_/, '')].filter(Boolean))];
+
 /** Correspondance canonique : identifiant publié → identifiant source, par la table de l'assemblage (entrées validées, non retirées). */
 export function correspondance(root) {
   const work = join(root, 'reconstruction', 'a2-04');
@@ -115,6 +120,7 @@ export function produire(cfg) {
   if (!cfg.nonreg) for (const id of IDS) if (etatDe.get(id) === 'arbitré') throw new Error(id + ' : déjà arbitré (' + livraisonDe.get(id) + ')');
   const liste = cfg.liste ?? { n: 185, entry: 165, libre: 'V1-11' };
   const tient = (l, eid) => l.includes('`' + eid + '`') || l.includes('`' + eid + '_');
+  const tientE = (l, eid, sid) => identifiantsCites(eid, sid).some((x) => tient(l, x)); // identifiant publié et, hors JLPT, identifiant source
   const bilanCorr = bilanV2.replace(/^## 7\. [\s\S]*?(?=^## 8\. )/m, '');
 
   const fiches = IDS.map((id) => {
@@ -125,8 +131,8 @@ export function produire(cfg) {
     if (c.dans147.length) throw new Error(id + ' : sens des 147, hors du lot 3');
     if (!F[id] || !['conforme', 'écart', 'suspendu'].includes(F[id].v)) throw new Error(id + ' : fiche d\'examen absente ou verdict inconnu');
     const regles = c.regles.map((g) => g.regle);
-    const corr = bilanCorr.split(LF).filter((l) => /^\| (V[12]-\d+|\d+) \|/.test(l) && tient(l, eid)).map((l) => l.split('|')[1].trim() + ' (' + l.split('|')[2].trim() + ', ' + l.split('|')[5].trim() + ')');
-    const prov = bilanProv.split(LF).filter((l) => /^\| \d+ \|/.test(l) && tient(l, eid)).map((l) => { const k = l.split('|').map((x) => x.trim()); return k[3] + ' : ' + k[7] + ' (' + k[2] + ')'; });
+    const corr = bilanCorr.split(LF).filter((l) => /^\| (V[12]-\d+|\d+) \|/.test(l) && tientE(l, eid, sid)).map((l) => l.split('|')[1].trim() + ' (' + l.split('|')[2].trim() + ', ' + l.split('|')[5].trim() + ')');
+    const prov = bilanProv.split(LF).filter((l) => /^\| \d+ \|/.test(l) && tientE(l, eid, sid)).map((l) => { const k = l.split('|').map((x) => x.trim()); return k[3] + ' : ' + k[7] + ' (' + k[2] + ')'; });
     const dec = journal.filter((d) => d.entry === sid);
     if (dec.some((d) => d.status !== 'validated')) throw new Error(id + ' : décision non validée');
     const rangS = e.senses.indexOf(s) + 1;

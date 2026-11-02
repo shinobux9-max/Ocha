@@ -1,0 +1,48 @@
+conforme  découpage : 17 lignes distinctes, 361 à 377, contiguës, dernières des 377
+conforme  F1 : 11 sens, 9 ENTRY, 361 à 371 ; F2 : 6 sens, 6 ENTRY, 372 à 377 ; 15 ENTRY
+conforme  exhaustivité : porteurs publiés d'`interrogatif` = les 17 sens du bloc F, ni plus ni moins
+conforme  aucun cumul : `interrogatif` seule sur les 17 sens
+conforme  publié : 17 types nuls ; 5 catégories, 12 sans
+conforme  population de la recherche d'omissions citée : 824 sens publiés, 807 sans la fonction
+conforme  périmètre, §2 : mêmes sens, même ordre, valeurs publiées
+conforme  analyse, §2 : ligne, livraison, SENSE, ENTRY, mot, traduction et lot égaux au découpage et aux données
+conforme  analyse, §2 : règles égales au criblage ; aucune marque RES ; aucun sens des 147
+conforme  analyse, §2 : corrections égales au bilan, sens par sens ; aucune V1-n
+conforme  neuf corrections retenues, toutes de `nuance`
+conforme  les 15 fiches emploient « interrogatif » dans leur nuance
+conforme  42 décisions, toutes validées ; aucune sur `linguistic_functions`
+conforme  les 17 décisions `type-nul` : identiques au journal, citées par les deux documents
+conforme  D0724 citée exactement ; 誰か hors des 377
+conforme  passages cités retrouvés mot pour mot
+conforme  aucun addendum A10 dans `docs/conception/` : A1 à A9 seulement ; numéro libre
+conforme  proposition d'addendum toujours non normative
+conforme  registre : tranche F, F1 et F2, suspendue
+conforme  les deux documents sont en proposition, sans §0
+conforme  aucun verdict dans les deux documents
+conforme  aucune correction nouvelle : aucun identifiant à partir de V1-32
+conforme  non-régression : data/, reconstruction/, tests/, tools/, docs/conception/ sans modification
+conforme  index vide
+conforme  HEAD à 7803163
+conforme  non-régression : 45 empreintes recalculées, identiques
+conforme  périmètre et analyse hors du manifeste
+conforme  fichier d'addendum pressenti absent
+
+28 conformes sur 28
+détecté   sens retiré de l'analyse — analyse, §2 : ligne, livraison, SENSE, ENTRY, mot, traduction et lot égaux au découpage et aux données
+détecté   sens retiré du périmètre — périmètre, §2 : mêmes sens, même ordre, valeurs publiées
+détecté   fonction posée sur un autre sens — exhaustivité : porteurs publiés d'`interrogatif` = les 17 sens du bloc F, ni plus ni moins
+détecté   fonction retirée d'un sens — exhaustivité : porteurs publiés d'`interrogatif` = les 17 sens du bloc F, ni plus ni moins
+détecté   cumul ajouté — aucun cumul : `interrogatif` seule sur les 17 sens
+détecté   type posé — publié : 17 types nuls ; 5 catégories, 12 sans
+détecté   traduction altérée dans l'analyse — analyse, §2 : ligne, livraison, SENSE, ENTRY, mot, traduction et lot égaux au découpage et aux données
+détecté   correction oubliée dans l'analyse — analyse, §2 : corrections égales au bilan, sens par sens ; aucune V1-n
+détecté   décision dévalidée — 42 décisions, toutes validées ; aucune sur `linguistic_functions`
+détecté   décision de fonction inventée — 42 décisions, toutes validées ; aucune sur `linguistic_functions`
+détecté   citation altérée — passages cités retrouvés mot pour mot
+détecté   addendum A10 présent — aucun addendum A10 dans `docs/conception/` : A1 à A9 seulement ; numéro libre
+détecté   proposition devenue normative — proposition d'addendum toujours non normative
+détecté   tranche F rouverte au registre — registre : tranche F, F1 et F2, suspendue
+détecté   verdict glissé dans l'analyse — aucun verdict dans les deux documents
+détecté   statut arbitré — les deux documents sont en proposition, sans §0
+témoin sain : conforme
+16 sabotages détectés sur 16

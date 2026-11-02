@@ -1,0 +1,52 @@
+// A2-05 · T9 : essai du script O3 sur une copie jetable, jamais sur le dépôt réel. Usage : node essayer-O3.mjs <racine du dépôt>
+// Refus avant écriture, chacun sur la précondition visée ; exécution nominale ; seconde exécution refusée ; dépôt réel inchangé. Code 1 au premier écart constaté en fin de lecture.
+import { readFileSync, writeFileSync, mkdtempSync, mkdirSync, cpSync, readdirSync, rmSync, statSync, existsSync } from 'node:fs';
+import { join, resolve } from 'node:path';
+import { tmpdir } from 'node:os';
+import { createHash } from 'node:crypto';
+import { spawnSync } from 'node:child_process';
+
+const root = resolve(process.argv[2] ?? ''); if (!process.argv[2]) throw new Error('argument attendu : racine du dépôt');
+const W = 'a2-05-travail/', T9 = W + 'arbitrage-T9/', A = T9 + 'application-O3/', SCR = A + 'appliquer-O3.mjs', APERCU = W + 'sync-stable-apercu.md', MAN = W + 'empreintes-rapports-arbitres.json', ETAT = 'ETAT-ACTUEL.md', ROAD = 'ROADMAP.md', BIL = 'docs/rapports/etape2-A2-05-bilan-volet2.md', GEN = W + 'perimetre-v2.mjs', CRB = W + 'criblage/resultat.json';
+const RELU = T9 + 'application-O2/apercu-O3/apercu.md', M43 = T9 + 'application-O2/depart/empreintes-rapports-arbitres.json';
+const EXCLUS = ['.git', 'node_modules', 'chatgpt-relecture'];
+let ko = 0; const ok = (b, l, d) => { if (!b) ko++; console.log((b ? 'conforme ' : 'ÉCART    ') + l + (d ? ' : ' + d : '')); };
+const instantane = (r) => { const h = {}; const m = (d) => { for (const e of readdirSync(join(r, d))) { const p = d ? d + '/' + e : e; if (!d && EXCLUS.includes(e)) continue; if (p.endsWith('.zip') || p === APERCU) continue; if (statSync(join(r, p)).isDirectory()) m(p); else h[p] = createHash('sha256').update(readFileSync(join(r, p))).digest('hex'); } }; m(''); return h; };
+const diff = (a, b) => [...new Set([...Object.keys(a), ...Object.keys(b)])].filter((p) => a[p] !== b[p]).sort();
+const reel0 = instantane(root);
+const tmp = mkdtempSync(join(tmpdir(), 'ocha-essai-o3-t9-')); const C = join(tmp, 'arbre'); const f = (p) => join(C, p);
+const cl = spawnSync('git', ['clone', '--quiet', '--shared', '--no-checkout', root, C], { encoding: 'utf8' }); spawnSync('git', ['read-tree', 'HEAD'], { cwd: C });
+for (const e of readdirSync(root)) if (!EXCLUS.includes(e) && !e.endsWith('.zip')) cpSync(join(root, e), join(C, e), { recursive: true });
+ok(cl.status === 0 && !diff(reel0, instantane(C)).length, 'copie jetable identique au dépôt réel', Object.keys(reel0).length + ' fichiers');
+const lancer = () => { const r = spawnSync(process.execPath, [f(SCR), C], { cwd: C, encoding: 'utf8', maxBuffer: 1 << 28 }); return { code: r.status, out: ((r.stdout ?? '') + (r.stderr ?? '')).trim() }; };
+const premier = (r) => (r.out.split('\n').find((l) => /^ÉCART/.test(l)) ?? r.out.slice(0, 120)).slice(0, 130);
+const refus = (nom, re, sansDepart = true) => { const av = instantane(C); const r = lancer(); const ch = diff(av, instantane(C)); ok(r.code === 1 && re.test(premier(r)) && /ARRÊT : premier écart, avant écriture/.test(r.out) && !ch.length && (!sansDepart || !existsSync(f(A + 'depart'))), nom, premier(r) + ' ; modifiés : ' + (ch.join(', ') || 'aucun')); };
+// Altération de fichier le temps d'un refus, puis retour au contenu d'origine
+const altere = (nom, p, fn, re) => { const o = readFileSync(f(p)); writeFileSync(f(p), fn(o)); refus(nom, re); writeFileSync(f(p), o); };
+const espace = (o) => Buffer.concat([o, Buffer.from(' ')]);
+const etat0 = instantane(C);
+writeFileSync(f(W + 'zz-index.txt'), 'x\n'); spawnSync('git', ['add', W + 'zz-index.txt'], { cwd: C });
+refus('R1 index non vide', /P1 index vide/);
+spawnSync('git', ['rm', '--cached', '--quiet', W + 'zz-index.txt'], { cwd: C }); rmSync(f(W + 'zz-index.txt'));
+mkdirSync(f(A + 'depart')); refus('R2 sauvegarde déjà présente', /P2 sauvegarde/, false); rmSync(f(A + 'depart'), { recursive: true });
+altere('R3 manifeste modifié', MAN, espace, /P3 manifeste/);
+altere('R4 rapport protégé modifié', 'docs/rapports/etape2-A2-05-volet1-lot3-T9-perimetre.md', espace, /P3 manifeste/);
+altere('R5 référence des 43 entrées historiques altérée', M43, (o) => { const m = JSON.parse(o); const e = Object.entries(m.empreintes); [e[3], e[4]] = [e[4], e[3]]; m.empreintes = Object.fromEntries(e); return Buffer.from(JSON.stringify(m, null, 1) + '\n'); }, /P4 les 43 entrées historiques/);
+altere('R6 générateur modifié (correction RES appliquée par erreur)', GEN, espace, /P6 générateur et criblage/);
+altere('R7 criblage modifié', CRB, espace, /P6 générateur et criblage/);
+altere('R8 ETAT-ACTUEL.md modifié', ETAT, espace, /P7 documents de pilotage/);
+altere('R9 ROADMAP.md modifié', ROAD, espace, /P7 documents de pilotage/);
+altere('R10 état calculé différent (V1-24 retirée du bilan) : plan refusé', BIL, (o) => Buffer.from(o.toString('utf8').replace(/^\| V1-24 \|.*\n/m, ''), 'utf8'), /P8 aperçu relancé/);
+altere('R11 aperçu relu modifié', RELU, espace, /P10 diff régénéré = diff relu/);
+ok(!diff(etat0, instantane(C)).length, 'témoin : copie revenue à l\'état de départ');
+const N = lancer();
+console.log(N.out.split('\n').filter((l) => /^(ÉCART|ARRÊT)|^conforme C/.test(l)).map((l) => '   ' + l.slice(0, 150)).join('\n'));
+const chN = diff(etat0, instantane(C)).filter((p) => !p.startsWith(A + 'depart/') && !p.startsWith(A + 'sorties/'));
+ok(N.code === 0 && /O3 conforme$/.test(N.out), 'exécution nominale sur la copie', 'code ' + N.code + ' ; ' + N.out.split('\n').filter((l) => l.startsWith('conforme')).length + ' vérifications conformes');
+ok(JSON.stringify(chN) === JSON.stringify([ETAT, ROAD].sort()), 'seuls les deux documents de pilotage ont changé, hors traces', chN.join(', '));
+const etatN = instantane(C); const r2 = lancer(); ok(r2.code === 1 && !diff(etatN, instantane(C)).length, 'seconde exécution refusée, sans modification', premier(r2));
+rmSync(tmp, { recursive: true, force: true });
+const ch = diff(reel0, instantane(root)); ok(!ch.length, 'dépôt réel inchangé', ch.join(', ') || Object.keys(reel0).length + ' fichiers');
+ok(!spawnSync('git', ['diff', '--cached', '--name-only'], { cwd: root, encoding: 'utf8' }).stdout.trim(), 'index réel vide');
+console.log(ko ? ko + ' écart(s)' : 'essai conforme');
+process.exit(ko ? 1 : 0);

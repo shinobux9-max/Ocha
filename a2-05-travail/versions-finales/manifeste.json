@@ -1,0 +1,47 @@
+{
+ "genere_par": "a2-05-travail/versions-finales/generer.mjs",
+ "date": "2026-10-20",
+ "statut": "proposition, non appliquée",
+ "documents": {
+  "docs/relecture/reprise-A2-05.md": {
+   "depart_sha256": "7f4b6c5d3ada7f4b33e2726a84c7dc372b52b9778f6d6b4ae656d009ca5d5635",
+   "final_sha256": "a651cc84229efb893f11310209c1c05c4e810d53dffcb00fc5e2d3c859466e09",
+   "octets_depart": 268511,
+   "octets_final": 9051,
+   "fins_de_ligne": "LF",
+   "lignes_ajoutees": 55,
+   "lignes_retirees": 627,
+   "diff": "a2-05-travail/versions-finales/diffs/docs__relecture__reprise-A2-05.md.diff"
+  },
+  "CLAUDE.md": {
+   "depart_sha256": "e86674789b55062a343d042a9d591630ed084360ac6d809290858dbe7be68e49",
+   "final_sha256": "c5fa224bad1ea3ff042844ffdf6c5fc5898ae98e7f06a0b91f24d5ab30d78a04",
+   "octets_depart": 34288,
+   "octets_final": 34277,
+   "fins_de_ligne": "CRLF",
+   "lignes_ajoutees": 2,
+   "lignes_retirees": 2,
+   "diff": "a2-05-travail/versions-finales/diffs/CLAUDE.md.diff"
+  },
+  "docs/relecture/note-relais.md": {
+   "depart_sha256": "1477d3133f6f626e8b069f0371ea7987942ffbe418253ad807d2be04aa37eab1",
+   "final_sha256": "e14235f11861ebd328da6b803f9617dacb18e6093b270231510bfcafce8adaec",
+   "octets_depart": 36360,
+   "octets_final": 36798,
+   "fins_de_ligne": "CRLF",
+   "lignes_ajoutees": 2,
+   "lignes_retirees": 0,
+   "diff": "a2-05-travail/versions-finales/diffs/docs__relecture__note-relais.md.diff"
+  },
+  "docs/rapports/etape2-A2-05-bilan-volet2.md": {
+   "depart_sha256": "31fc43ac1c19f764366eb856f61ae5eb2954b303874b6e3c9d6f6154efa34e04",
+   "final_sha256": "bfb059295aae8e76832ba4c0506f308f844e4221bd86c5ac3dd5fd6f8801fc25",
+   "octets_depart": 180844,
+   "octets_final": 185254,
+   "fins_de_ligne": "LF",
+   "lignes_ajoutees": 16,
+   "lignes_retirees": 0,
+   "diff": "a2-05-travail/versions-finales/diffs/docs__rapports__etape2-A2-05-bilan-volet2.md.diff"
+  }
+ }
+}

@@ -1,0 +1,49 @@
+conforme P1 générateur à son empreinte relue : d40aea3cc3e7…
+conforme P2 recalcul de T9 à son empreinte relue : dadfd65262dd…
+conforme P3 criblage à son empreinte relue : aef9e029f25c…
+conforme P4 motif de lecture présent une fois dans le générateur
+conforme P5 consolidation proposée présente, pour la simulation de l'état consolidé
+conforme P6 index vide
+conforme R0 générateur : une seule ligne change : 1 ligne
+conforme R1 identifiants lus au découpage : RES seul s'ajoute, aucune règle perdue : 23 → 24
+conforme copie jetable identique au dépôt réel : 2076 fichiers
+conforme N1 non-régression : T1 à T8, F et 37 livraisons hors bloc E : texte identique octet pour octet, ancien et proposé : 46 groupes ; produits : 46 ; différents : aucun
+conforme N2 ancien générateur sur T9 : arrêt exact : règle RES : définition introuvable
+conforme N3 générateur proposé sur T9 : 24 sens, 21 ENTRY, 15 règles dont RES : C1-a, C1-b, C1-f, C10-a, C2-0, C3-0, C3-b, C4-0, C7-b, C7-c, C7-e, C8-a, C8-b, C8-c, RES
+ÉCART    N4 T9 : hors des mentions de RES (24 lignes du §2, 24 relevés, le compte des règles, une ligne de règle), texte identique à celui de l'ancien générateur sur un criblage sans RES : ancien : produit
+conforme N5 ligne RES du §3 : définition du découpage, 24 sens désignés : | RES | point déjà réservé à A2-05 par un lot | 先 (s1), 先 (s2), 前 (s1), 前 (s2), …
+conforme N6 livraison E1 produite : 9 sens
+conforme N6 livraison E2 produite : 12 sens
+conforme N6 livraison E3 produite : 3 sens
+conforme N7 règle inconnue toujours refusée : règle QQQ : définition introuvable
+conforme N8 règle de forme C inconnue toujours refusée : règle C99-z : définition introuvable
+ÉCART    N9 sans définition au découpage, RES reste refusée : aucune définition inventée : empreinte modifiée : docs/rapports/etape2-A2-05-volet1-lot3-perimetre.md
+conforme N10 périmètre protégé : réécriture toujours refusée : 8-perimetre.md : périmètre arbitré, protégé par le manifeste
+conforme A1 recalcul de T9 non adapté : un seul écart, l'empreinte du générateur : le verrou fonctionne : générateur et criblage inchangés (défaut non corrigé, marques conservé
+   A couverture (code 0) : couverture : 336 arbitrés, 0 proposés, 41 restants, sur 377 ; bloc B : 148/148 ; livraisons arbitrées : A1, A2, A3, A4, 
+   A empreintes (code 0) : empreintes : 43 rapports contrôlés, identiques
+   A pilote (code 0) : contrôle conforme
+   A T5 (code 0) : recalcul conforme
+   A T6 (code 0) : recalcul conforme
+   A T7 (code 0) : recalcul conforme
+   A T8 (code 0) : recalcul conforme
+   A T9 (code 0) : recalcul conforme
+conforme A2 état actuel : contrôles en service à 0
+conforme A3 relais : 30 sur 30 : 30 conformes sur 30
+conforme A4 aperçu vide : aperçu : plan d4df4192c80e30fb ; sans commit
+conforme A5 deux fichiers modifiés, aucun autre : découpage, criblage, registre, données, normes et rapports inchangés : a2-05-travail/perimetre-v2.mjs, a2-05-travail/recalcul-T9-perimetre.mjs
+conforme A6 node --check des deux fichiers
+conforme B1 état consolidé : recalcul adapté, puis corrigé par les mêmes ancres, à 0 : recalcul conforme
+conforme B2 perimetre-T9.mjs relancé après correction : refus, rapport accepté inchangé : défaut RES non reproduit à l\'identique : « ' + refus + ' » 
+   B couverture (code 0) : couverture : 336 arbitrés, 0 proposés, 41 restants, sur 377 ; bloc B : 148/148 ; livraisons arbitrées : A1, A2, A3, A4, 
+   B empreintes (code 0) : empreintes : 44 rapports contrôlés, identiques
+   B pilote (code 0) : contrôle conforme
+   B T5 (code 0) : recalcul conforme
+   B T6 (code 0) : recalcul conforme
+   B T7 (code 0) : recalcul conforme
+   B T8 (code 0) : recalcul conforme
+   B T9 (code 0) : recalcul conforme
+conforme B3 état consolidé, 44e entrée : contrôles en service à 0 : manifeste : 1 rapport(s) ajouté(s) : docs/rapports/etape2-A2-05-volet1-lot3-T9-perimetre.md
+conforme B4 périmètre accepté de T9, protégé : réécriture refusée par le générateur corrigé : 9-perimetre.md : périmètre arbitré, protégé par le manifeste
+conforme dépôt réel inchangé ; index vide : 2076 fichiers
+2 écart(s) ; aucune proposition écrite

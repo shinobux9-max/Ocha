@@ -1,0 +1,52 @@
+{
+  "objet": "§0 arbitré du bilan du pilote, en structure : référence du contrôle de son intégrité",
+  "document": "docs/rapports/etape2-A2-05-volet1-lot3-bilan-pilote.md",
+  "provenance": {
+    "note": "a2-05-travail/note-export-lot3-T4-acceptation.md",
+    "partie": "Partie 1 · Bilan du pilote : §0 inscrit",
+    "ligne": 34,
+    "empreinte_note": "9748067479bb4f5f67a438fdd0f304b649cb53a9a6b75f68c312a7b2f3bc24df"
+  },
+  "arbitrage": "arbitrage du 2026-10-23 (ChatGPT, par délégation ; relayé par l'utilisateur)",
+  "etabli_le": "2026-10-24",
+  "statut": "proposition, non appliquée",
+  "s0": {
+    "intitule": "## 0. Arbitrage",
+    "decision": "Arbitrage du 2026-10-23 (ChatGPT, par délégation ; relayé par l'utilisateur) : « **J'accepte le bilan du pilote T1–T3**, avec les faits, limites et réserves exposés dans `etape2-A2-05-volet1-lot3-bilan-pilote.md`. » Statut de la proposition livrée : « proposition, non arbitrée » ; elle est conservée ci-dessous, telle qu'elle a été livrée, à la seule exception de la ligne de statut.",
+    "entete": "| Point | Arbitrage |",
+    "separateur": "|---|---|",
+    "points": [
+      {
+        "point": "Faits retenus",
+        "arbitrage": "69 sens examinés : 65 conformes, 4 écarts ; 69 verdicts proposés puis retenus, sans inversion ; lecture intégrale et justification individuelle maintenues ; 13 incidents recensés, avec leurs statuts documentés."
+      },
+      {
+        "point": "Mesures",
+        "arbitrage": "Temps et charge de relecture non mesurés : **aucune estimation rétrospective ne doit être présentée comme une mesure** (l'extrapolation du §3 reste une extrapolation)."
+      },
+      {
+        "point": "Défauts ouverts",
+        "arbitrage": "Les deux défauts d'affichage ouverts (« 2 écart » ; répétition `C8-b`) restent ouverts, **sans correction autorisée**."
+      },
+      {
+        "point": "Condition du registre",
+        "arbitrage": "**La condition « bilan du pilote » de T4 est considérée comme satisfaite.** `registre-tranches.json` n'est pas modifié."
+      },
+      {
+        "point": "T4",
+        "arbitrage": "Périmètre accepté sans ajout ni retrait, **en une seule tranche** (C1 à C4, 35 sens, 35 ENTRY) ; la division C1–C2 / C3–C4 n'est pas retenue et reste un repli, **uniquement sur nouvelle décision explicite** (inscription : `etape2-A2-05-volet1-lot3-T4-perimetre.md`, §0)."
+      },
+      {
+        "point": "Garde-fous",
+        "arbitrage": "Les dispositions des §7 et §8 sont retenues pour le futur audit de T4 ; aucun audit transversal des tags n'est ouvert."
+      }
+    ]
+  },
+  "faits": {
+    "sens": 69,
+    "conformes": 65,
+    "ecarts": 4,
+    "verdicts_retenus": 69,
+    "incidents": 13
+  }
+}
