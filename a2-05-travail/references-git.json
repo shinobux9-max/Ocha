@@ -5,14 +5,14 @@
   "libelle": "checkpoint B, 2026-10-18, 177 chemins"
  },
  "checkpoint": {
-  "commit": "27b27ce0f0b6e62e0686a97194231fe23865b7a9",
-  "date": "2026-11-02",
-  "libelle": "Checkpoint documentaire A2-05 — lot 3, T1 à T9 clos, révision 4 d'E5 en proposition, bloc F préparatoire, aucune correction lexicale appliquée.",
+  "commit": "c6cfbd98cf6d8ef586405ecd7d40235a960ef763",
+  "date": "2026-11-06",
+  "libelle": "Checkpoint documentaire A2-05 — A10 installé, lot 3 entièrement arbitré, recherche d'omissions d'interrogatif close, volet 3 cadré, aucune correction lexicale appliquée.",
   "verification": {
-   "head": "27b27ce0f0b6e62e0686a97194231fe23865b7a9",
-   "origin_local": "27b27ce0f0b6e62e0686a97194231fe23865b7a9",
-   "distant_reel": "27b27ce0f0b6e62e0686a97194231fe23865b7a9",
-   "sceau": "23391df72644ce3a41dccdeaf5b676838119891ebb5e431a58c9add1fe1643a0"
+   "head": "c6cfbd98cf6d8ef586405ecd7d40235a960ef763",
+   "origin_local": "c6cfbd98cf6d8ef586405ecd7d40235a960ef763",
+   "distant_reel": "c6cfbd98cf6d8ef586405ecd7d40235a960ef763",
+   "sceau": "cba058b444d21119a259453937ead6cd6323fd21029e6ef663ab1aa1c37447a4"
   }
  }
 }
