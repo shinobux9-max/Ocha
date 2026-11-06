@@ -1,0 +1,13 @@
+$ node --input-type=module -e import {planifier} from './a2-05-travail/sync-stable.mjs'; const p=planifier('.'); let n=0; for(const [k,s] of Object.entries(p.sorties)){ if(s.apres===s.avant) continue; n++; const a=s.avant.split(/\r?\n/), b=s.apres.split(/\r?\n/); console.log('== '+k); a.forEach((l,i)=>{ if(l!==b[i]) console.log('- '+l+'\n+ '+b[i]); }); } console.log(n?'aperçu non vide : '+n+' documents (non synchronisés)':'aperçu vide')
+== ETAT-ACTUEL.md
+- <!-- a2-05:etat:debut empreinte=d9f813490811fd9a (bloc généré par a2-05-travail/sync-stable.mjs ; ne pas modifier à la main) -->
++ <!-- a2-05:etat:debut empreinte=ad9b2ae4bc30d1ae (bloc généré par a2-05-travail/sync-stable.mjs ; ne pas modifier à la main) -->
+- - **Lot 3** : 360 sens arbitrés sur 377 ; 17 restent (0 proposés). **Bloc B** : 148 sur 148.
++ - **Lot 3** : 360 sens arbitrés sur 377 ; 17 restent (17 proposés). **Bloc B** : 148 sur 148.
+== ROADMAP.md
+- <!-- a2-05:etat:debut empreinte=d9f813490811fd9a (bloc généré par a2-05-travail/sync-stable.mjs ; ne pas modifier à la main) -->
++ <!-- a2-05:etat:debut empreinte=ad9b2ae4bc30d1ae (bloc généré par a2-05-travail/sync-stable.mjs ; ne pas modifier à la main) -->
+- - **Lot 3** : 360 sens arbitrés sur 377 ; 17 restent (0 proposés). **Bloc B** : 148 sur 148.
++ - **Lot 3** : 360 sens arbitrés sur 377 ; 17 restent (17 proposés). **Bloc B** : 148 sur 148.
+aperçu non vide : 2 documents (non synchronisés)
+[code de sortie : 0]

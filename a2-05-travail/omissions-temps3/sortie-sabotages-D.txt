@@ -1,0 +1,29 @@
+Essais de sabotage de rediger-rapport-D.mjs, sur copies jetables (scratchpad/sab-D), 2026-11-04
+--- T0
+témoin sain
+rédaction conforme ; {"ne relève pas de la fonction":53,"relève de la fonction":0,"à arbitrer":0}
+--- S1
+D0651 retirée du R5 de v_403_s1
+ÉCART    v_403 : décision de journal de l'ENTRY non citée : D0651
+ÉCART    analyses complètes, conclusions admises, familles conformes ; décisions, livraisons, corrections et porteurs cités exacts et complets ; frontières demandées examinées ; relevé des questions exact
+ARRÊT : rien n'est écrit
+--- S2
+livraison du lot 3 fausse pour v_359_s1 (D4 -> D5)
+ÉCART    v_359_s1 : livraison du lot 3 citée inexacte ou absente : D5 / D4
+ÉCART    analyses complètes, conclusions admises, familles conformes ; décisions, livraisons, corrections et porteurs cités exacts et complets ; frontières demandées examinées ; relevé des questions exact
+ARRÊT : rien n'est écrit
+--- S3
+frontière de la classe et de la série retirée du R3 de v_412_s1
+ÉCART    v_412_s1 : frontière de la classe et de la série (A10, §3, point 2) non examinée en R3
+ÉCART    analyses complètes, conclusions admises, familles conformes ; décisions, livraisons, corrections et porteurs cités exacts et complets ; frontières demandées examinées ; relevé des questions exact
+ARRÊT : rien n'est écrit
+--- S4
+porteur cité faux dans le R2 de v_407_s1 (v_401 -> v_403)
+ÉCART    v_407_s1 : porteur cité sans la fonction : v_403
+ÉCART    analyses complètes, conclusions admises, familles conformes ; décisions, livraisons, corrections et porteurs cités exacts et complets ; frontières demandées examinées ; relevé des questions exact
+ARRÊT : rien n'est écrit
+--- S5
+famille fausse pour v_581_s1 (a -> c)
+ÉCART    v_581_s1 : famille non conforme à la fonction publiée : c / a
+ÉCART    analyses complètes, conclusions admises, familles conformes ; décisions, livraisons, corrections et porteurs cités exacts et complets ; frontières demandées examinées ; relevé des questions exact
+ARRÊT : rien n'est écrit

@@ -1,0 +1,17 @@
+conforme découpage accepté et mesure prise en acte, à leurs empreintes
+conforme groupe D : 53 sens, 40 ENTRY : 53 sens, 40 ENTRY
+conforme groupe D : chaque sens porte T2-classe ; aucun autre filtre que T2-classe et T2-nuls
+conforme filtres d'origine identiques à la mesure
+conforme aucune ENTRY du groupe D dans un autre groupe
+conforme chaque sens rattaché à une ENTRY du groupe, chaque ENTRY a un sens
+conforme corrections retenues lues dans le bilan : 204 : 204
+conforme D : toutes les fiches présentes, chacune dans un lot validé : 41 fiches
+conforme D : chaque ENTRY a des décisions de journal, toutes validées : 148 décisions
+conforme D : aucune décision n'emploie le vocabulaire de la question (le groupe ne relève pas de T2-journal)
+conforme D : chaque ENTRY est de classe pronom, determinant ou adverbe
+conforme D : aucun sens de ces ENTRY ne porte la fonction
+conforme D : sens publiés non candidats de ces ENTRY, hors des 234 : 0 : aucun
+répartition par classe : {"pronom":{"entry":10,"sens":12},"determinant":{"entry":7,"sens":7},"adverbe":{"entry":23,"sens":34}}
+fonctions publiées : {"deictique":15,"aucune":28,"intensifieur":5,"politesse":1,"quantificateur":4,"comparatif":1}
+écrits : a2-05-travail/omissions-temps3/perimetre-D.json, a2-05-travail/omissions-temps3/dossier-D.md
+préparation conforme ; aucun verdict

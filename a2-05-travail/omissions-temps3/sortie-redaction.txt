@@ -1,0 +1,6 @@
+conforme périmètre : 39 sens, 31 ENTRY
+conforme une analyse par sens du périmètre, et aucune autre : 39 analyses
+conforme analyses complètes, conclusions admises, décisions, livraisons et corrections citées exactes
+conforme recueil : 32 fiches sources complètes : 32 fiches, 91 anciens exemples
+écrits : a2-05-travail/omissions-temps3/rapport-relecture-A.md, a2-05-travail/omissions-temps3/fiches-A.md
+rédaction conforme ; {"ne relève pas de la fonction":39,"relève de la fonction":0,"à arbitrer":0}

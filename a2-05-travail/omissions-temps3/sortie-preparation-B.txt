@@ -1,0 +1,12 @@
+conforme découpage accepté et mesure prise en acte, à leurs empreintes
+conforme groupe B : 18 sens, 15 ENTRY : 18 sens, 15 ENTRY
+conforme groupe B : chaque sens porte T2-journal, aucun ne porte un filtre du temps 1
+conforme filtres d'origine identiques à la mesure
+conforme aucune ENTRY du groupe B dans un autre groupe
+conforme corrections retenues lues dans le bilan : 204 : 204
+conforme B : toutes les fiches présentes, chacune dans un lot validé : 15 fiches
+conforme B : chaque ENTRY a des décisions de journal, toutes validées : 53 décisions
+conforme B : chaque ENTRY a au moins une décision qui emploie le vocabulaire de la question (motif de T2-journal) : 17 décisions
+conforme B : sens publiés non candidats de ces ENTRY, hors des 234 : 0 : aucun
+écrits : a2-05-travail/omissions-temps3/perimetre-B.json, a2-05-travail/omissions-temps3/dossier-B.md
+préparation conforme ; aucun verdict

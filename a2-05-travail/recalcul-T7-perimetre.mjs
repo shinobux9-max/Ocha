@@ -131,9 +131,9 @@ ctl(!rel.length, 'relations publiées touchant T7', rel.length ? rel.map((r) => 
 const autres = pub.filter((e) => entries.includes(e.id)).flatMap((e) => e.senses.filter((s) => !ids.includes(s.id)).map((s) => ({ w: e.word, id: s.id, o: livDe.has(s.id) ? livDe.get(s.id) + (arbitres.has(s.id) ? ' arbitré' : ' restant') : 'hors des 377' })));
 ctl(autres.length === 7 && !autres.some((x) => / restant$/.test(x.o)), 'autres sens des mêmes ENTRY : aucun restant', autres.map((x) => x.w + ' `' + x.id + '` ' + x.o).join(', '));
 
-// 12. Frontières : aucun sens de T7 dans T8, T9 ou F ; T8 = D5, D8 ; T9 = E1, E2, E3 ; F = F1, F2, suspendue
+// 12. Frontières : aucun sens de T7 dans T8, T9 ou F ; T8 = D5, D8 ; T9 = E1, E2, E3 ; F = F1, F2, une seule livraison F, planifiée (périmètre accepté le 2026-11-03)
 const tr = (id) => reg.find((t) => t.id === id);
-ctl(tr('T8')?.livraisons.join() === 'D5,D8' && tr('T9')?.livraisons.join() === 'E1,E2,E3' && tr('F')?.livraisons.join() === 'F1,F2' && tr('F')?.statut === 'suspendue' && !ids.some((id) => ['D5', 'D8', 'E1', 'E2', 'E3', 'F1', 'F2'].includes(livDe.get(id))), 'frontières : T8 (D5, D8), T9 (E1, E2, E3), F (F1, F2, suspendue), disjointes de T7', 'restants : T8 ' + (parTr.T8 ?? 0) + ', T9 ' + (parTr.T9 ?? 0) + ', F ' + (parTr.F ?? 0));
+ctl(tr('T8')?.livraisons.join() === 'D5,D8' && tr('T9')?.livraisons.join() === 'E1,E2,E3' && tr('F')?.livraisons.join() === 'F1,F2' && tr('F')?.statut === 'planifiée' && tr('F')?.livraison === 'F' && !ids.some((id) => ['D5', 'D8', 'E1', 'E2', 'E3', 'F1', 'F2'].includes(livDe.get(id))), 'frontières : T8 (D5, D8), T9 (E1, E2, E3), F (F1, F2, livraison unique F, planifiée), disjointes de T7', 'restants : T8 ' + (parTr.T8 ?? 0) + ', T9 ' + (parTr.T9 ?? 0) + ', F ' + (parTr.F ?? 0));
 
 // 13. Comparables du lot 1 : étiquette du générateur conforme au verdict arbitré
 const lot1 = new Map([...txt('docs/rapports/etape2-A2-05-coherence-retroactive.md').matchAll(new RegExp('^#### `(' + ID + ')` · [^\\n]* — \\*\\*([^*]+)\\*\\*$', 'gm'))].map((m) => [m[1], m[2]]));

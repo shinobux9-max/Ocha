@@ -1,0 +1,3 @@
+$ node a2-05-travail/empreintes-lot3.mjs .
+empreintes : 45 rapports contrôlés, identiques
+[code de sortie : 0]

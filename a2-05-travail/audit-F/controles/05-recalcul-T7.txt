@@ -1,0 +1,33 @@
+$ node a2-05-travail/recalcul-T7-perimetre.mjs .
+conforme liste globale : 377 lignes, 377 distinctes, numérotées 1 à 377
+conforme D1 et D4 contre la synthèse : D1 14/14, D4 10/10
+conforme deux segments contigus ; intervalle = D2 et D3 : D1 lignes 253 à 266 ; D4 lignes 289 à 298 ; entre les deux : 22 lignes (D2, D3)
+conforme aucun doublon de sens ; ENTRY distinctes : 24 sens, 24 ENTRY
+conforme les 24 sens examinés dans le seul rapport de T7, arbitré (25 rapports de livraison et de tranche lus) : aucun examiné ailleurs
+conforme inventaire des restants (liste globale moins les sens des rapports arbitrés) : 360 arbitrés, 17 restants ; hors de la liste globale : aucun ; par livraison : F1 11, F2 6
+conforme les 296 sens arbitrés à la clôture de T6 restent arbitrés (empreinte de leur liste triée, `7c5254d7…`) : 296 lus, 360 arbitrés en tout
+conforme restants par tranche du registre ; T7 (D1, D4) entièrement arbitrée, statut du registre non modifié : F 17
+conforme sens du périmètre généré = découpage (ordre et livraison) : 24 sens, 24 ENTRY
+conforme catégories, types et fonctions du §2 = état publié (data/) : 24 sens identiques
+conforme chaque sens de T7 candidat sur C7-b ou C7-c, une fois (fonction absente relevée) : quantificateur 9 (毎年, 毎月, 毎日, 毎晩, 毎朝, 毎週, 近々, 二人, 大好き) ; discours 4 (美味しい, まずい, 安い, 上手) ; politesse 3 (おじさん, おばさん, 奥さん) ; connecteur 5 (両親, 子供, 兄弟, 弾く, 半) ; deictique 2 (天気, 向こう) ; comparatif 1 (後)
+conforme `C7-b` (sans `deictique`, décidé avant A7) : 天気 et 向こう seulement ; les 22 autres `C7-c` : 22 sens `C7-c`
+conforme aucune fonction d'A9 dans T7 ; `deictique` sur 近々 et 後 (sens 1) seulement : 22 sens sans fonction ; 近々 deictique, 後 deictique
+conforme sens publiés portant une fonction d'A9 : en D6 et D7 (T6, arbitrée), D8 (T8) et E2 (T9) seulement : 34 sens : D6 12, D8 11, E2 1, D7 10
+conforme chaque ENTRY validée dans son lot d'origine (colonne du découpage) : lots 00, 01, 02, 05, 07, 09, 10, 12, 13, 14, 16
+conforme décisions de journal par ENTRY = §5 du générateur (toutes validées) : 43 décisions (correction 3, decision 30, abandon 9, categorie-nulle 1) ; lots lot-00, lot-01, lot-02, lot-05, lot-07, lot-09, lot-10, lot-12, lot-13, lot-14, lot-16
+conforme décisions de fonction sur ces ENTRY (lots 12 et 13, A7) : D0796, D0819, D0821, D0823, D0825, D0908, D0952
+conforme corrections retenues sur les ENTRY de T7 au périmètre : six V2-n (provenance des nuances), égales au générateur : recalcul V2-17, V2-34, V2-38, V2-56, V2-67, V2-68 ; générateur V2-17, V2-34, V2-38, V2-56, V2-67, V2-68
+conforme V1-24 retenue une fois, sur `v_427_s1`, champ `meaning.alternatives` seul : 1 ligne(s)
+conforme provenance et corrections du découpage (huit lignes renseignées, seize « — ») : 24 lignes conformes
+conforme relations publiées touchant T7 : aucune
+conforme autres sens des mêmes ENTRY : aucun restant : おじさん `v_12_s1` hors des 377, おばさん `v_14_s1` hors des 377, 子供 `v_31_s1` B9 arbitré, 半 `v_311_s1` B15 arbitré, まずい `v_427_s2` hors des 377, 後 `v_663_s2` B8 arbitré, 後 `v_663_s3` hors des 377
+conforme frontières : T8 (D5, D8), T9 (E1, E2, E3), F (F1, F2, livraison unique F, planifiée), disjointes de T7 : restants : T8 0, T9 0, F 17
+conforme sens du lot 1 ; étiquettes des comparables conformes : 19 lus ; parmi les comparables : v_455_s2, v_4_s2, v_1_s2
+conforme périmètre accepté (§0) ; hors du statut et du §0, identique à la proposition sauvegardée : proposition 046c68e4c982… ; §0 : 10 lignes ; Statut : périmètre accepté le 2026-10-29 (§0
+conforme périmètre accepté identique à sa version acceptée (empreinte fixée, indépendante du manifeste) : a93a75cc4da8…
+conforme rapport arbitré de T7 (§0) ; hors du statut et du §0, identique à la proposition sauvegardée : a55489944070… ; §0 : 17 lignes
+conforme §0 de T7 : 23 conformes, 1 écart, 0 suspendu ; 向こう lecture A ; 後 maintenue ; V1-24 retenue : présents
+conforme manifeste : au moins 40 empreintes recalculées, toutes identiques ; les 39 premières entrées dans leur ordre ; périmètre accepté de T7 protégé (40e entrée) : 45 entrées ; 39 premières 4b46ca6736e6… ; périmètre de T7 : 40e entrée ; différentes : aucune
+conforme rapport arbitré de T7 absent du manifeste ou en 41e entrée : 41e entrée
+recalcul conforme
+[code de sortie : 0]

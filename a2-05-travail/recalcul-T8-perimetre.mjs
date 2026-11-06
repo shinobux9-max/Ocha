@@ -129,9 +129,9 @@ ctl(rel.length === 1 && rel[0].de === 'v_497_s1' && rel[0].type === 'similar_to'
 const autres = pub.filter((e) => entries.includes(e.id)).flatMap((e) => e.senses.filter((s) => !ids.includes(s.id)).map((s) => ({ w: e.word, id: s.id, o: livDe.has(s.id) ? livDe.get(s.id) + (arbitres.has(s.id) ? ' arbitré' : ' restant') : 'hors des 377' })));
 ctl(autres.length === 5 && !autres.some((x) => / restant$/.test(x.o)), 'autres sens des mêmes ENTRY : aucun restant', autres.map((x) => x.w + ' `' + x.id + '` ' + x.o).join(', '));
 
-// 12. Frontières : aucun sens de T8 dans T9 ou F ; T9 = E1, E2, E3 ; F = F1, F2, suspendue ; aucun comparable du bloc F
+// 12. Frontières : aucun sens de T8 dans T9 ou F ; T9 = E1, E2, E3 ; F = F1, F2, une seule livraison F, planifiée (périmètre accepté le 2026-11-03) ; aucun comparable du bloc F
 const tr = (id) => reg.find((t) => t.id === id);
-ctl(tr('T9')?.livraisons.join() === 'E1,E2,E3' && tr('F')?.livraisons.join() === 'F1,F2' && tr('F')?.statut === 'suspendue' && !ids.some((id) => ['E1', 'E2', 'E3', 'F1', 'F2'].includes(livDe.get(id))) && !/^- \*\*Comparables du bloc F\*\*/m.test(gen), 'frontières : T9 (E1, E2, E3), F (F1, F2, suspendue), disjointes de T8 ; aucun comparable du bloc F', 'restants : T9 ' + (parTr.T9 ?? 0) + ', F ' + (parTr.F ?? 0));
+ctl(tr('T9')?.livraisons.join() === 'E1,E2,E3' && tr('F')?.livraisons.join() === 'F1,F2' && tr('F')?.statut === 'planifiée' && tr('F')?.livraison === 'F' && !ids.some((id) => ['E1', 'E2', 'E3', 'F1', 'F2'].includes(livDe.get(id))) && !/^- \*\*Comparables du bloc F\*\*/m.test(gen), 'frontières : T9 (E1, E2, E3), F (F1, F2, livraison unique F, planifiée), disjointes de T8 ; aucun comparable du bloc F', 'restants : T9 ' + (parTr.T9 ?? 0) + ', F ' + (parTr.F ?? 0));
 
 // 13. Comparables du lot 1 : étiquette du générateur conforme au verdict arbitré
 const lot1 = new Map([...txt('docs/rapports/etape2-A2-05-coherence-retroactive.md').matchAll(new RegExp('^#### `(' + ID + ')` · [^\\n]* — \\*\\*([^*]+)\\*\\*$', 'gm'))].map((m) => [m[1], m[2]]));

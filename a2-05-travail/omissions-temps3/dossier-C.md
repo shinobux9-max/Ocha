@@ -1,0 +1,307 @@
+# Dossier factuel du groupe C (généré ; aucun verdict)
+
+## Les 3 sens
+
+| N° | SENSE | ENTRY | Mot | Traduction publiée | Filtres d'origine | Catégorie publiée | Type | Fonctions | Lot 3 |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | `v_494_s1` | `v_494` | いつも | Toujours | `T2-classe`, `T2-serie` | `temps › frequence › frequent` | `concept_abstrait` | — | D5 |
+| 2 | `v_499_s1` | `v_499` | どうも | Merci | `T2-classe`, `T2-serie` | `null` | `null` | `politesse` | D6 |
+| 3 | `v_499_s2` | `v_499` | どうも | Vraiment | `T2-classe`, `T2-serie` | `null` | `null` | `intensifieur` | D6 |
+
+## Motif du filtre T2-serie : porteurs dont une forme est contenue dans une graphie du candidat
+
+| ENTRY | Mot | Porteur | Forme contenue | Sens porteurs d'`interrogatif` |
+|---|---|---|---|---|
+| `v_494` | いつも | `v_391` いつ | いつ | `v_391_s1` Quand |
+| `v_499` | どうも | `v_393` どう | どう | `v_393_s1` Comment |
+
+Les porteurs sont cités pour expliquer le filtre ; ils ne sont pas relus.
+
+## Les 2 ENTRY : sources, décisions, corrections
+
+| ENTRY | Mot | Classe | Fiche source (lot) | Anciens exemples | Sens publiés | Décisions de journal | Corrections retenues, non appliquées |
+|---|---|---|---|---|---|---|---|
+| `v_494` | いつも | `adverbe` | `n5_v_494` (lot-21) | 3 | `v_494_s1` | D1370 | — |
+| `v_499` | どうも | `adverbe` | `n5_v_499` (lot-23) | 3 | `v_499_s1`, `v_499_s2` | D1504, D1505, D1506, D1507, D1508, D1509 | — |
+
+## `v_494` いつも
+
+### Fiche source `n5_v_494` (lot-21), en entier
+
+```json
+{
+ "id": "n5_v_494",
+ "level": "N5",
+ "word": "いつも",
+ "word_furigana": "いつも",
+ "reading": "いつも",
+ "romaji": "itsumo",
+ "meanings": {
+  "primary": "Toujours",
+  "secondary": [
+   "Habituellement",
+   "En tout temps"
+  ]
+ },
+ "nuance": "**Adverbe** exprimant une action ou un état qui se répète régulièrement sans exception notable, ou une habitude constante.",
+ "type": "adverbe",
+ "group": "adverbe",
+ "category": "adverbes_expressions",
+ "subcategory": "frequence",
+ "kanji_list": [],
+ "particles": [],
+ "example": {
+  "japanese": "わたし は **いつも** あさごはん を たべ ます 。",
+  "romaji": "watashi wa itsumo asagohan o tabemasu.",
+  "french": "Je prends **toujours** mon petit-déjeuner.",
+  "highlight": [
+   "いつも",
+   "itsumo"
+  ]
+ }
+}
+```
+
+### Anciens exemples de `n5_v_494` (3), en entier
+
+```json
+[
+ {
+  "japanese": "<ruby>彼<rt>かれ</rt></ruby> は いつも <ruby>朝<rt>あさ</rt></ruby> <ruby>早<rt>はや</rt></ruby>く <ruby>起<rt>お</rt></ruby>きます",
+  "romaji": "kare wa itsumo asa hayaku okimasu.",
+  "french": "Il se lève **toujours** tôt le matin.",
+  "highlight": [
+   "いつも",
+   "itsumo"
+  ]
+ },
+ {
+  "japanese": "<ruby>私<rt>わたし</rt></ruby> は いつも この <ruby>電車<rt>でんしゃ</rt></ruby> で <ruby>会社<rt>かいしゃ</rt></ruby> へ <ruby>行<rt>い</rt></ruby>きます",
+  "romaji": "watashi wa itsumo kono densha de kaisha e ikimasu.",
+  "french": "Je prends **toujours** ce train pour aller au bureau.",
+  "highlight": [
+   "いつも",
+   "itsumo"
+  ]
+ },
+ {
+  "japanese": "そこ は いつも <ruby>多<rt>おお</rt></ruby>くの <ruby>人<rt>ひと</rt></ruby> で <ruby>賑<rt>にぎ</rt></ruby>やか です",
+  "romaji": "soko wa itsumo ooku no hito de nigiyaka desu.",
+  "french": "C'est **toujours** animé par beaucoup de monde là-bas.",
+  "highlight": [
+   "いつも",
+   "itsumo"
+  ]
+ }
+]
+```
+
+### ENTRY publiée `v_494`, en entier
+
+```json
+{
+ "id": "v_494",
+ "level": "N5",
+ "word": "いつも",
+ "writings": [],
+ "readings": [
+  {
+   "kana": "いつも",
+   "romaji": "itsumo",
+   "furigana": "いつも",
+   "default": true,
+   "note": null
+  }
+ ],
+ "linguistic": {
+  "grammatical_class": "adverbe",
+  "group": null,
+  "suru_compatible": false,
+  "suffix": false,
+  "counter": null
+ },
+ "nuance": "Une action ou un état qui se répète régulièrement, sans exception notable ; une habitude constante : わたしはいつもあさごはんをたべます (je prends toujours mon petit-déjeuner).",
+ "tags": [],
+ "retired_sense_ids": [],
+ "senses": [
+  {
+   "id": "v_494_s1",
+   "meaning": {
+    "primary": "Toujours",
+    "alternatives": [
+     "Habituellement",
+     "En tout temps"
+    ]
+   },
+   "category": {
+    "level_1": "temps",
+    "level_2": "frequence",
+    "level_3": "frequent"
+   },
+   "semantic_type": "concept_abstrait",
+   "dimensions": [],
+   "relations": [],
+   "linguistic_functions": {
+    "grammatical": [],
+    "pragmatic_discourse": []
+   }
+  }
+ ]
+}
+```
+
+### Décisions de journal (1), en entier
+
+- **D1370** (lot-21 ; senses ; decision ; avant : `["Toujours","Habituellement","En tout temps"]` ; après : `"un seul sens"`) : « Un seul sens : la fiche décrit une action ou un état qui se répète régulièrement « sans exception notable », une habitude constante ; ses trois traductions disent ce même référent. Catégorie temps › fréquence › fréquent, et type concept_abstrait, comme 毎日, 毎週 et les autres mots de fréquence validés (lots 00 et 12). Aucune dimension : la fréquence est dite par la catégorie, et l'habitude n'est qu'une manière de la décrire ; 毎日 n'en porte pas. La fiche ne donne aucune particule. »
+
+## `v_499` どうも
+
+### Fiche source `n5_v_499` (lot-23), en entier
+
+```json
+{
+ "id": "n5_v_499",
+ "level": "N5",
+ "word": "どうも",
+ "word_furigana": "どうも",
+ "reading": "どうも",
+ "romaji": "doumo",
+ "meanings": {
+  "primary": "Merci",
+  "secondary": [
+   "Bien des choses",
+   "Vraiment (particule d'atténuation)"
+  ]
+ },
+ "nuance": "**Adverbe** / formule abrégée utilisée seule pour remercier de façon familière mais polie (raccourci de *doumo arigatou*), ou pour exprimer un vague sentiment de gêne ou d'incertitude.",
+ "type": "adverbe",
+ "group": "adverbe",
+ "category": "adverbes_expressions",
+ "subcategory": "politesse",
+ "kanji_list": [],
+ "particles": [],
+ "example": {
+  "japanese": "「 てつだって くれて 、 **どうも** 。」",
+  "romaji": "\"tetsudatte kurete, doumo.\"",
+  "french": "« **Merci** de m'avoir aidé. »",
+  "highlight": [
+   "どうも",
+   "doumo"
+  ]
+ }
+}
+```
+
+### Anciens exemples de `n5_v_499` (3), en entier
+
+```json
+[
+ {
+  "japanese": "「<ruby>手伝<rt>てつだ</rt></ruby>ってくれてありがとう」「どうも」",
+  "romaji": "'tetsudatte kurete arigatou' 'doumo.'",
+  "french": "« Merci de m'avoir aidé. » « De rien / **Merci** ! »",
+  "highlight": [
+   "どうも",
+   "doumo"
+  ]
+ },
+ {
+  "japanese": "どうも <ruby>失礼<rt>しつれい</rt></ruby> します",
+  "romaji": "doumo shitsurei shimasu.",
+  "french": "Je vous demande **mille** excuses / Au revoir.",
+  "highlight": [
+   "どうも",
+   "doumo"
+  ]
+ },
+ {
+  "japanese": "どうも ありがとうございます",
+  "romaji": "doumo arigatou gozaimasu.",
+  "french": "Merci **infiniment**.",
+  "highlight": [
+   "どうも",
+   "doumo"
+  ]
+ }
+]
+```
+
+### ENTRY publiée `v_499`, en entier
+
+```json
+{
+ "id": "v_499",
+ "level": "N5",
+ "word": "どうも",
+ "writings": [],
+ "readings": [
+  {
+   "kana": "どうも",
+   "romaji": "doumo",
+   "furigana": "どうも",
+   "default": true,
+   "note": null
+  }
+ ],
+ "linguistic": {
+  "grammatical_class": "adverbe",
+  "group": null,
+  "suru_compatible": false,
+  "suffix": false,
+  "counter": null
+ },
+ "nuance": "La fiche mentionne aussi un emploi pour exprimer un vague sentiment de gêne ou d'incertitude, et la traduction « bien des choses », sans les développer.",
+ "tags": [],
+ "retired_sense_ids": [],
+ "senses": [
+  {
+   "id": "v_499_s1",
+   "meaning": {
+    "primary": "Merci",
+    "alternatives": []
+   },
+   "category": null,
+   "semantic_type": null,
+   "dimensions": [],
+   "relations": [],
+   "linguistic_functions": {
+    "grammatical": [],
+    "pragmatic_discourse": [
+     "politesse"
+    ]
+   },
+   "particles": [],
+   "nuance": "Pour remercier, seul, de façon familière mais polie ; raccourci de doumo arigatou : てつだってくれて、どうも (merci de m'avoir aidé)."
+  },
+  {
+   "id": "v_499_s2",
+   "meaning": {
+    "primary": "Vraiment",
+    "alternatives": []
+   },
+   "category": null,
+   "semantic_type": null,
+   "dimensions": [],
+   "relations": [],
+   "linguistic_functions": {
+    "grammatical": [],
+    "pragmatic_discourse": [
+     "intensifieur"
+    ]
+   },
+   "particles": [],
+   "nuance": "Particule d'atténuation, selon la fiche."
+  }
+ ]
+}
+```
+
+### Décisions de journal (6), en entier
+
+- **D1504** (lot-23 ; senses ; decision ; avant : `["Merci","Bien des choses","Vraiment (particule d'atténuation)"]` ; après : `["S1 Merci","S2 Vraiment"]`) : « Deux sens (arbitrage du périmètre du lot 23 : « Vraiment (particule d'atténuation) » est un sens distinct de « Merci ») : la formule « utilisée seule pour remercier de façon familière mais polie (raccourci de doumo arigatou) », que l'exemple illustre (merci de m'avoir aidé) ; l'emploi que la fiche traduit « vraiment » et qualifie de « particule d'atténuation ». Le « vague sentiment de gêne ou d'incertitude » reste en nuance, la fiche ne le développant pas. Classe adverbe mécanique (type de la source). La fiche ne donne aucune particule : aucune pour les deux sens. »
+- **D1505** (lot-23 ; senses ; abandon ; avant : `["Bien des choses"]` ; après : `null`) : « Traduction de la source que ni la nuance ni l'exemple ne développent : elle n'est pas reprise en sens, et elle est signalée en nuance (traductions non développées, lots 15 et 16). »
+- **D1506** (lot-23 ; sens 1 · linguistic_functions ; decision ; avant : `null` ; après : `{"grammatical":[],"pragmatic_discourse":["politesse"]}`) : « Sens 1, fonction politesse (A9, §3.3) : remercier est un acte social conventionnel, accompli par la formule seule ; c'est le sens lui-même. Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle. »
+- **D1507** (lot-23 ; sens 2 · linguistic_functions ; decision ; avant : `null` ; après : `{"grammatical":[],"pragmatic_discourse":["intensifieur"]}`) : « Sens 2, fonction intensifieur (A9, §3.6) : la fiche dit l'emploi « particule d'atténuation » et le traduit « vraiment » : il modifie le degré de ce qu'il accompagne, sans le désigner lui-même ; A9 couvre l'atténuation comme le renforcement. Alternative laissée à l'arbitrage : aucune fonction, la fiche ne disant pas ce que la particule modifie (le sens exigerait alors une décision categorie-nulle). Sans catégorie : le sens est un rôle dans l'échange ou entre énoncés, sans domaine thématique (A2-LING, §5 ; A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle. »
+- **D1508** (lot-23 ; sens 1 · semantic_type ; type-nul ; avant : `null` ; après : `null`) : « Aucun type : どうも ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6. »
+- **D1509** (lot-23 ; sens 2 · semantic_type ; type-nul ; avant : `null` ; après : `null`) : « Aucun type : どうも ne désigne ni une entité, ni une occurrence, ni une condition, ni une abstraction ; son sens est son rôle (addendum A9, §4.2). concept_abstrait ne sert pas de type de secours (D1403). Addendum A6. »
+

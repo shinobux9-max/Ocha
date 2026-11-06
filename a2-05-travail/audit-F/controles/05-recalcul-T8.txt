@@ -1,0 +1,35 @@
+$ node a2-05-travail/recalcul-T8-perimetre.mjs .
+conforme liste globale : 377 lignes, 377 distinctes, numérotées 1 à 377
+conforme D5 et D8 contre la synthèse : D5 5/5, D8 11/11
+conforme deux segments contigus ; intervalle = D6 et D7 : D5 lignes 299 à 303 ; D8 lignes 326 à 336 ; entre les deux : 22 lignes, D6, D7
+conforme aucun doublon de sens ; ENTRY distinctes : 16 sens, 14 ENTRY
+conforme les 16 sens examinés dans le seul rapport de T8, arbitré (25 rapports de livraison et de tranche lus) : aucun examiné ailleurs
+conforme inventaire des restants (liste globale moins les sens des rapports arbitrés) : 360 arbitrés, 17 restants ; hors de la liste globale : aucun ; par livraison : F1 11, F2 6
+conforme les 320 sens arbitrés à la clôture de T7 restent arbitrés (empreinte de leur liste triée, `5fb670af…`) : 320 lus, 360 arbitrés en tout
+conforme restants par tranche du registre : T9 24, ou aucun une fois arbitrée, F 17 ; T8 = D5 et D8, entièrement arbitrée, statut du registre non modifié : F 17
+conforme sens du périmètre généré = découpage (ordre et livraison) : 16 sens, 14 ENTRY
+conforme catégories, types et fonctions du §2 = état publié (data/) : 16 sens identiques
+conforme C7-c sur les 5 sens de D5, une fois chacun ; aucun sens de D8 : いつも, もう, すぐに, たいてい, まっすぐ
+conforme D5 sans fonction ; D8 : une fonction d'A9 sur chaque sens, celle du relevé ; un seul cumul, もっと : 11 sens de D8 conformes au relevé
+conforme aucun sens de T8 ne porte deictique : aucun
+conforme tous les sens publiés quantificateur (4) et comparatif (2) sont en D8 ; intensifieur 5 sur 7, politesse 1 sur 6 : {"connecteur":{"D6":4,"D7":4},"discours":{"D6":6,"D7":4},"politesse":{"D6":3,"D8":1,"D7":2},"intensifieur":{"D8":5,"E2":1,"D6":1},"quantificateur":{"D8":4},"comparatif":{"D8":2}}
+conforme sens publiés portant une fonction d'A9 : en D6 et D7 (T6, arbitrée), D8 (T8) et E2 (T9) seulement : 34 sens
+conforme chaque ENTRY validée dans son lot d'origine (colonne du découpage) : lots 21, 22, 24
+conforme décisions de journal par ENTRY = §5 du générateur (toutes validées) : 56 décisions (decision 38, abandon 6, categorie-nulle 1, type-nul 11) ; lots lot-21, lot-22, lot-24, lot-26
+conforme décisions de fonction sur ces ENTRY (lots 21 et 24) : D1390, D1392, D1522, D1526, D1529, D1530, D1531, D1537, D1538, D1541, D1544, D1548, D1549, D1553, D1557, D1558
+conforme les 11 types nuls, sens de D8 exactement, chacun porté par une décision type-nul validée de son rang : 11 décisions
+conforme corrections retenues sur les ENTRY de T8 : V1-7 et V1-8, égales au générateur ; aucune sur l'un des 16 sens : recalcul V1-7, V1-8 ; générateur V1-7, V1-8
+conforme provenance et corrections du découpage (sept lignes renseignées, neuf « — ») : 16 lignes conformes
+conforme relation publiée touchant T8 : ちょっと s1 similar_to 少し s1, seule : v_497_s1 similar_to v_509_s1
+conforme autres sens des mêmes ENTRY : aucun restant : ちょっと `v_497_s2` A7 arbitré, もう `v_502_s1` A7 arbitré, 少し `v_509_s3` A7 arbitré, 一番 `v_517_s2` A7 arbitré, まっすぐ `v_525_s2` hors des 377
+conforme frontières : T9 (E1, E2, E3), F (F1, F2, livraison unique F, planifiée), disjointes de T8 ; aucun comparable du bloc F : restants : T9 0, F 17
+conforme sens du lot 1 ; étiquettes des comparables conformes : 19 lus ; parmi les comparables : v_663_s3
+conforme périmètre accepté (§0) ; hors du statut et du §0, identique à la proposition sauvegardée : c087860fb89d… ; §0 : 12 lignes
+conforme périmètre accepté identique à sa version acceptée (empreinte fixée, indépendante du manifeste) : 5b46f9353e38…
+conforme rapport arbitré de T8 (§0) ; hors du statut et du §0, identique à la proposition sauvegardée : 2a42fb845850… ; §0 : 15 lignes
+conforme §0 de T8 : 16 conformes, 0 écart, 0 suspendu ; すぐに, あまり et もっと tels qu'arbitrés : présents
+conforme inventaire des 57 du rapport = 16 sens de T8, 24 de T9 et 17 de F, chacun une fois : 57 sens
+conforme manifeste : au moins 41 empreintes recalculées, toutes identiques ; les 41 premières dans leur ordre ; périmètre de T8 absent ou en 42e entrée : 45 entrées ; 41 premières 0e811b31ce22… ; différentes : aucune
+conforme rapport arbitré de T8 absent du manifeste ou en 43e entrée : 43e entrée
+recalcul conforme
+[code de sortie : 0]

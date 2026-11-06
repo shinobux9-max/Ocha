@@ -1,0 +1,18 @@
+conforme dossier factuel du périmètre accepté, à son empreinte : 7aa1d5915bdb8646
+conforme périmètre : 53 sens, 40 ENTRY
+conforme une analyse par sens du périmètre, et aucune autre : 53 analyses
+conforme les 148 décisions de journal des 40 ENTRY, chacune citée : 148 décisions
+conforme les 12 corrections retenues des 9 ENTRY, chacune citée : 12 corrections
+conforme v_404_s1 : frontière du registre poli (A10, §4, point 3) examinée en R3
+conforme v_404_s2 : frontière du registre poli (A10, §4, point 3) examinée en R3
+conforme v_471_s2 : frontière du registre poli (A10, §4, point 3) examinée en R3
+conforme 小さな : frontière des indéfinis (A10, §4, point 1) examinée en R3, pour 何か
+conforme また, sens 2 : cumul (A10, §6) apprécié avec la correction retenue, en R4
+conforme relevé des phrases traduites par une question identique au relevé calculé : 17 phrases
+conforme 自分 : interrogation indirecte (何をするか) présente dans l'ancien exemple 3
+conforme sources : 41 fiches, 123 anciens exemples : 41 fiches, 123 anciens exemples
+conforme décisions de type rapprochées de 何 et いくら : 13, toutes citées en R5 : D0649, D0678, D0679, D0693, D0660, D0638, D0643, D0686, D0687, D0654, D0631, D0701, D0657
+conforme analyses complètes, conclusions admises, familles conformes ; décisions, livraisons, corrections et porteurs cités exacts et complets ; frontières demandées examinées ; relevé des questions exact
+conforme recueil : 41 fiches sources complètes, 123 anciens exemples : 41 fiches, 123 anciens exemples
+écrits : a2-05-travail/omissions-temps3/rapport-relecture-D.md, a2-05-travail/omissions-temps3/fiches-D.md
+rédaction conforme ; {"ne relève pas de la fonction":53,"relève de la fonction":0,"à arbitrer":0}

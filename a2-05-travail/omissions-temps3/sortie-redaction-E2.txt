@@ -1,0 +1,37 @@
+conforme dossier factuel du périmètre E accepté, à son empreinte : 0f4682d8b00a2d3b
+conforme livraison E2 : 30 sens dans 27 ENTRY de classe `adjectif_i` ou `adjectif_na` : 27 ENTRY, 30 sens
+conforme adjectifs en i : 15 ENTRY, 17 sens ; adjectifs en na : 12 ENTRY, 13 sens
+conforme une analyse par sens de E2, et aucune autre : 30 analyses
+conforme les 84 décisions de journal des 27 ENTRY, chacune citée : 84 décisions
+conforme les 10 corrections retenues des 7 ENTRY, chacune citée : 10 corrections
+conforme verdicts du volet 2 : L 30 : L 30
+conforme valeurs nulles : catégorie 30 (aucun type nul) : catégorie 30
+conforme v_420_s1 : contenu de la question et porteur ; frontière de l'information demandée et de l'information désignée (A10, §2) examinée en R3
+conforme v_427_s2 : contenu de la question et porteur ; frontière de l'information demandée et de l'information désignée (A10, §2) examinée en R3
+conforme v_457_s1 : contenu de la question et porteur ; frontière de l'information demandée et de l'information désignée (A10, §2) examinée en R3
+conforme v_512_s1 : contenu de la question et porteur ; frontière de l'information demandée et de l'information désignée (A10, §2) examinée en R3
+conforme v_420_s1 : énoncé en ね ou question en か ; marques grammaticales (A10, §4, point 5) examinées en R3
+conforme v_457_s1 : énoncé en ね ou question en か ; marques grammaticales (A10, §4, point 5) examinées en R3
+conforme v_495_s2 : énoncé en ね ou question en か ; marques grammaticales (A10, §4, point 5) examinées en R3
+conforme v_512_s1 : énoncé en ね ou question en か ; marques grammaticales (A10, §4, point 5) examinées en R3
+conforme v_609_s1 : énoncé en ね ou question en か ; marques grammaticales (A10, §4, point 5) examinées en R3
+conforme v_456_s1 : 質問 dans la fiche, frontière du sens qui nomme une question (A10, §4, point 4) examinée en R3
+conforme v_452_s1 : emploi d'adresse ; frontière du registre poli (A10, §4, point 3) examinée en R3
+conforme v_512_s1 : emploi d'adresse ; frontière du registre poli (A10, §4, point 3) examinée en R3
+conforme v_432_s1 : dimension publiée ; A10, §5, point 3 examiné en R3
+conforme v_442_s1 : dimension publiée ; A10, §5, point 3 examiné en R3
+conforme v_456_s1 : dimension publiée ; A10, §5, point 3 examiné en R3
+conforme まずい : la question de la fiche rattachée au sens 1, non candidat ; sens par sens (A10, §3, point 3)
+conforme いい : les demandes de permission, absentes de ses fiches, renvoyées à E3
+conforme décisions qui parlent des fonctions (D1113, D1424, D0074) confrontées ; intensifieur du sens 1 de 大変 examiné en R4
+conforme relevé des phrases traduites par une question identique au relevé calculé : 12 phrases : 12 phrases
+conforme formes : 6 énoncés en ね, 3 questions ouvertes en どう, 3 questions fermées en か
+conforme 質問 nommé dans une phrase : 易しい, ancien exemple 2 : 1 phrase(s)
+conforme mots interrogatifs dans les phrases : どう seul, dans trois questions ouvertes : n5_v_420 · ancien exemple 3, n5_v_427 · ancien exemple 3, n5_v_583 · ancien exemple 2
+conforme furigana hors balise ruby : une phrase, 強い ancien exemple 3, balise `</gem>` (observation hors périmètre) : n5_v_451 · ancien exemple 3
+conforme sources : 31 fiches, 93 anciens exemples, 124 phrases : 31 fiches, 93 anciens exemples, 124 phrases
+conforme neuf sens non candidats ; trois décisions qui portent sur les fonctions ou en parlent (D0074, D1113, D1424)
+conforme analyses complètes, conclusions admises, groupes conformes ; décisions, corrections, verdicts du volet 2 et porteurs cités exacts et complets ; frontières demandées examinées ; relevés exacts
+conforme recueil : 31 fiches sources complètes, 93 anciens exemples, 84 décisions : 31 fiches, 93 anciens exemples, 84 décisions
+écrits : a2-05-travail/omissions-temps3/rapport-relecture-E2.md, a2-05-travail/omissions-temps3/fiches-E2.md
+rédaction conforme ; {"ne relève pas de la fonction":30,"relève de la fonction":0,"à arbitrer":0}

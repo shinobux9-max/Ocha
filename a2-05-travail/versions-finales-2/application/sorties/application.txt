@@ -1,0 +1,68 @@
+--- Préconditions
+conforme P1 HEAD descend du commit de clôture : 39cce13
+conforme P2 index vide
+conforme P3 sauvegarde absente, opération jamais lancée
+conforme P4 préservé : CLAUDE.md : c5fa224bad1e…
+conforme P4 préservé : docs/conception/addendum-A10-interrogatif.md : 5c62ac323364…
+conforme P4 préservé : docs/conception/00-sommaire.md : 2c9e2cfff2d7…
+conforme P4 préservé : .gitattributes : 5710749f06c7…
+conforme P4 préservé : ETAT-ACTUEL.md : 8b05e41309e5…
+conforme P4 préservé : ROADMAP.md : 058f9faa7578…
+conforme P4 préservé : docs/rapports/etape2-A2-05-bilan-volet2.md : 58a2d44aaddd…
+conforme P5 installation et consignation d'A10 faites
+conforme P6 données, lots, journal, registres, tests et outils sans modification
+conforme P7 manifeste des rapports : 45 empreintes conformes
+conforme P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/manifeste.json : 2a36c47dfe94fae6
+conforme P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/generer.mjs : b4003e54f8b4cca2
+conforme P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/depart/docs/relecture/reprise-A2-05.md : d0586d42795b00fb
+conforme P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/docs/relecture/reprise-A2-05.md : c3bdc60ae05398ba
+conforme P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/diffs/docs__relecture__reprise-A2-05.md.diff : a04c1bbf729f9895
+conforme P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/proposition/controle-relais-allege.mjs : ba0714432d2ef03a
+conforme P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/proposition/diffs/controle-relais-allege.mjs.diff : 47cf572e05e5aba6
+conforme P8 version figée ou proposition relue : a2-05-travail/versions-finales/manifeste.json : d67a0e2962955e92
+conforme P8 version figée ou proposition relue : a2-05-travail/versions-finales/docs/relecture/reprise-A2-05.md : a651cc84229efb89
+conforme P9 manifeste 2 : chaîné au manifeste 1, départ et final attendus
+conforme P10 empreinte de départ : docs/relecture/reprise-A2-05.md : d0586d42795b00fb
+conforme P10 empreinte de départ : a2-05-travail/controle-relais-allege.mjs : b91ed6ddf43ef7e2
+conforme P11 diff du contrôle régénéré = diff relu, octet pour octet
+conforme P12 relais de départ (contrôle installé) : 29 sur 30, C9b seul : 29 conformes sur 30 ; écarts : C9b
+conforme P13 recalcul de T5 : code 0
+conforme P13 recalcul de T6 : code 0
+conforme P13 recalcul de T7 : code 0
+conforme P13 recalcul de T8 : code 0
+conforme P13 recalcul de T9 : code 0
+conforme P13 contrôle du pilote : code 0
+--- Sauvegarde et application
+conforme original sauvegardé : docs/relecture/reprise-A2-05.md
+conforme original sauvegardé : a2-05-travail/controle-relais-allege.mjs
+conforme écrit : docs/relecture/reprise-A2-05.md : c3bdc60ae05398ba
+conforme écrit : a2-05-travail/controle-relais-allege.mjs : ba0714432d2ef03a
+--- Contrôles après application
+conforme C1 diff réel écrit : docs/relecture/reprise-A2-05.md
+conforme C1 diff réel écrit : a2-05-travail/controle-relais-allege.mjs
+conforme C2 relais (contrôle adapté) : 29 sur 30, C9b seul, écart temporaire levé au prochain commit : 29 conformes sur 30 ; écarts : C9b
+conforme C3 Q7 : le relais constate le statut normatif d'A10 : juste Q7 E5 est-il normatif ? → oui
+conforme C4 relais --strict : écarts attendus seuls : 29 conformes sur 30 ; écarts : C9b
+conforme C5 manifeste des rapports : 45 empreintes conformes
+conforme C6 recalcul de T5 : code 0
+conforme C6 recalcul de T6 : code 0
+conforme C6 recalcul de T7 : code 0
+conforme C6 recalcul de T8 : code 0
+conforme C6 recalcul de T9 : code 0
+conforme C6 contrôle du pilote : code 0
+conforme C7 couverture : 360/377 : couverture : 360 arbitrés, 0 proposés, 17 restants, sur 377 ; bloc B :
+conforme C8 204 corrections dans 177 ENTRY, aucune appliquée : {"arbitres":360,"restants":17,"proposes":0,"corrections":204,"entry":177,"libre":"V1-32","reserves":["V1-22","V1-23"]}
+conforme C9 run.mjs assemble : code 0
+conforme C9 run.mjs verify : code 0
+conforme C10 510 tests : code 0 ; 510 sur 510
+conforme C11 arbre entier comparé : les deux fichiers visés seuls ; versions figées 1 et 2, candidat et pilotage intacts : 2588 fichiers
+conforme C12 préservé : CLAUDE.md
+conforme C12 préservé : docs/conception/addendum-A10-interrogatif.md
+conforme C12 préservé : docs/conception/00-sommaire.md
+conforme C12 préservé : .gitattributes
+conforme C12 préservé : ETAT-ACTUEL.md
+conforme C12 préservé : ROADMAP.md
+conforme C12 préservé : docs/rapports/etape2-A2-05-bilan-volet2.md
+conforme C13 index vide
+conforme C14 git diff --check : code 0
+mise en service de la version figée 2 du relais et du contrôle adapté conforme ; relais à 29 sur 30, C9b seul, jusqu'au prochain commit

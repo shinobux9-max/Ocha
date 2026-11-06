@@ -1,0 +1,33 @@
+﻿conforme relevé v_2_s1 (composé de 何 (série), « Quelque » non pris pour « quel ») : T2-serie
+conforme relevé v_3_s1 (mot interrogatif dans une alternative publiée) : T1-mots
+conforme relevé v_4_s1 (radical dans la nuance de la fiche, en gras) : T1-radicaux
+conforme relevé v_5_s1 (« ? » dans la nuance publiée ; « où » hors d'une traduction ne compte pas) : T1-point
+conforme relevé v_7_s1 (classe `adverbe` seule) : T2-classe
+conforme relevé v_8_s1 (catégorie et type nuls, sans fonction) : T2-nuls
+conforme relevé v_10_s1 (décision de journal) : T2-journal
+conforme relevé v_11_s1 (fiche retirée par fusion vers l'ENTRY, balises ruby retirées) : T1-radicaux
+conforme relevé v_14_s1 (trois filtres, un seul candidat) : T1-radicaux, T1-point, T1-mots
+conforme relevé v_15_s1 (forme élidée « qu' ») : T1-mots
+conforme relevé v_16_s2 (sens par sens : s1 non relevé) : T1-mots
+conforme relevé v_18_s1 (composé de いつ) : T2-serie
+conforme relevé v_718_s1 (fiche hors JLPT trouvée par `HJ_IDS`) : T1-radicaux
+conforme relevé v_22_s1 (graphie formée sur どう) : T2-serie
+conforme non relevé v_1_s1 (porteur, hors population)
+conforme non relevé v_19_s1 (porteur, hors population)
+conforme non relevé v_6_s1 (question seulement dans l'exemple)
+conforme non relevé v_9_s1 (nul mais porteur d'une fonction)
+conforme non relevé v_13_s1 (« Lorsque », « Quiche », « Presque », « Quelques »)
+conforme non relevé v_16_s1 (autre sens de la même ENTRY)
+conforme non relevé v_17_s1 (catégorie source « questions » : X1 seulement, désactivé)
+conforme non relevé v_21_s1 (porteur, hors population)
+conforme non relevé v_20_s1 (lecture どうぶつ : seules les graphies du candidat sont comparées)
+conforme aucun autre candidat : v_2_s1, v_3_s1, v_4_s1, v_5_s1, v_7_s1, v_8_s1, v_10_s1, v_11_s1, v_14_s1, v_15_s1, v_16_s2, v_18_s1, v_718_s1, v_22_s1
+conforme couverture : population 20, porteurs à part, 14 relevés (8 par le temps 1, 6 par le seul temps 2), 6 non relevés : {"p":20,"r":14,"t1":8,"t2":6,"n":6}
+conforme décompte par filtre, doublons comptés dans chaque filtre et une seule fois au total : {"T1-radicaux":4,"T1-point":2,"T1-mots":4,"T2-classe":1,"T2-nuls":1,"T2-serie":3,"T2-journal":1}
+conforme X1 sur option : v_17_s1 relevé par X1 seul
+conforme filtres : 3 du temps 1, 4 du temps 2, X1 proposé hors A10
+conforme copie : ligne de commande refusée sans `--execution-autorisee` : code 2
+conforme copie : aucun fichier écrit par le refus
+conforme dépôt réel inchangé par l'essai
+
+essai conforme

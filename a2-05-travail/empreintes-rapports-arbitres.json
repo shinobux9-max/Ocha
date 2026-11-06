@@ -47,7 +47,9 @@
   "docs/rapports/etape2-A2-05-volet1-lot3-T8-perimetre.md": "5b46f9353e38fb9f4b522d4363fe2b843de52819e214847cfdb5e35f508e96bb",
   "docs/rapports/etape2-A2-05-volet1-lot3-T8.md": "dae4d0579d539e923183b88b0443560a2d79af7a2701144cac3cfea9584410e8",
   "docs/rapports/etape2-A2-05-volet1-lot3-T9-perimetre.md": "85faf16c39db3e262524bb98b6fa8e6f60afe97a37d694e8119d7a5138933e88",
-  "docs/rapports/etape2-A2-05-volet1-lot3-T9.md": "73d4dee6568694cc4509d00a084b8f3b1581f8404d65f88b2a61be074c80df6a"
+  "docs/rapports/etape2-A2-05-volet1-lot3-T9.md": "73d4dee6568694cc4509d00a084b8f3b1581f8404d65f88b2a61be074c80df6a",
+  "docs/rapports/etape2-A2-05-volet1-lot3-F.md": "3a2e3f242d701db611facf9a49cca16f75eb890595ec15ecbefdad569e09acfb",
+  "docs/rapports/etape2-A2-05-volet1-lot3-F-perimetre-operationnel.md": "e2a27bb6a049772056ad193b1b1b10ecf64a132552e6fcf859b0d3eb3a567561"
  },
  "ajouts": [
   {
@@ -151,6 +153,13 @@
    "date": "2026-11-01",
    "chemins": [
     "docs/rapports/etape2-A2-05-volet1-lot3-T9.md"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "chemins": [
+    "docs/rapports/etape2-A2-05-volet1-lot3-F.md",
+    "docs/rapports/etape2-A2-05-volet1-lot3-F-perimetre-operationnel.md"
    ]
   }
  ]

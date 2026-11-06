@@ -1,0 +1,48 @@
+conforme dossier factuel du périmètre E accepté, à son empreinte : 0f4682d8b00a2d3b
+conforme livraison E3 : 52 sens dans 43 ENTRY de classe `verbe` : 43 ENTRY, 52 sens
+conforme groupes de lecture : a 19 ENTRY et 23 sens ; b 10 et 10 ; c 9 et 13 ; d 5 et 6 : 19/23, 10/10, 9/13, 5/6
+conforme une analyse par sens de E3, et aucune autre : 52 analyses
+conforme les 154 décisions de journal des 43 ENTRY, chacune citée : 154 décisions
+conforme les 11 corrections retenues des 7 ENTRY, chacune citée : 11 corrections
+conforme verdicts du volet 2 : L 51, C 1 (並ぶ, sens 1) : L 51, C 1
+conforme valeurs nulles : catégorie 52 (aucun type nul) : catégorie 52
+conforme v_526_s1 : phrase en forme de question ; information demandée et information désignée (A10, §2) et marques grammaticales (§4, point 5) examinées en R3
+conforme v_533_s1 : phrase en forme de question ; information demandée et information désignée (A10, §2) et marques grammaticales (§4, point 5) examinées en R3
+conforme v_576_s1 : phrase en forme de question ; information demandée et information désignée (A10, §2) et marques grammaticales (§4, point 5) examinées en R3
+conforme v_580_s1 : phrase en forme de question ; information demandée et information désignée (A10, §2) et marques grammaticales (§4, point 5) examinées en R3
+conforme v_637_s1 : phrase en forme de question ; information demandée et information désignée (A10, §2) et marques grammaticales (§4, point 5) examinées en R3
+conforme v_608_s1 : phrase en forme de question ; information demandée et information désignée (A10, §2) et marques grammaticales (§4, point 5) examinées en R3
+conforme v_665_s2 : phrase en forme de question ; information demandée et information désignée (A10, §2) et marques grammaticales (§4, point 5) examinées en R3
+conforme v_564_s1 : phrase en forme de question ; information demandée et information désignée (A10, §2) et marques grammaticales (§4, point 5) examinées en R3
+conforme v_573_s1 : phrase en forme de question ; information demandée et information désignée (A10, §2) et marques grammaticales (§4, point 5) examinées en R3
+conforme v_526_s1 : demande de permission ; le verbe nomme l'action soumise à l'accord, いい relu en E2, contenu et porteur distingués en R2
+conforme v_533_s1 : demande de permission ; le verbe nomme l'action soumise à l'accord, いい relu en E2, contenu et porteur distingués en R2
+conforme v_576_s1 : demande de permission ; le verbe nomme l'action soumise à l'accord, いい relu en E2, contenu et porteur distingués en R2
+conforme v_580_s1 : demande de permission ; le verbe nomme l'action soumise à l'accord, いい relu en E2, contenu et porteur distingués en R2
+conforme v_637_s1 : demande de permission ; le verbe nomme l'action soumise à l'accord, いい relu en E2, contenu et porteur distingués en R2
+conforme v_608_s1 : question fermée en か ; contenu et porteur distingués en R2
+conforme v_665_s2 : question fermée en か ; contenu et porteur distingués en R2
+conforme v_564_s1 : question ouverte ; porteur cité (`v_393`)
+conforme v_573_s1 : question ouverte ; porteur cité (`v_179`)
+conforme v_361_s1 : 質問 dans la fiche, frontière du sens qui nomme une question (A10, §4, point 4) examinée en R3
+conforme v_361_s2 : emploi de réplique ; frontière des emplois d'adresse (A10, §4, point 3) examinée en R3, avec D1327
+conforme v_361_s2 : dimension publiée ; A10, §5, point 3 examiné en R3
+conforme v_573_s1 : dimension publiée ; A10, §5, point 3 examiné en R3
+conforme する : la question des fiches de 無くす, où figure する, lue en R2 sans en tirer la fonction
+conforme limites dites en R2 pour les huit sens qu'aucune phrase n'illustre : v_164_s3, v_50_s2, v_522_s2, v_539_s2, v_541_s2, v_608_s2, v_642_s2, v_642_s3
+conforme cinq décisions marquées par le dossier comme parlant des fonctions (D1184, D1305, D1319, D1323, D1327) : D1184,D1305,D1319,D1323,D1327
+conforme décisions qui parlent des fonctions confrontées en R5 ; D1184, faux positif du filtre, dite comme telle
+conforme relevé des phrases traduites par une question identique au relevé calculé : 10 phrases : 10 phrases
+conforme formes : 5 demandes de permission en 〜てもいいですか, 3 questions ouvertes (どう, いくら), 2 questions fermées en か
+conforme 〜てもいい : les cinq demandes de permission, et elles seules
+conforme 質問 nommé dans une phrase : 違う, ancien exemple 1 : n5_v_361 · ancien exemple 1
+conforme どうぞ, formule d'invitation ou d'accord, non interrogatif : trois phrases : n5_v_526 · ancien exemple 3, n5_v_533 · ancien exemple 3, n5_v_551 · ancien exemple 1
+conforme mots interrogatifs dans les phrases : どう (deux fois) et いくら, dans les trois questions ouvertes : n5_v_564 · ancien exemple 3, n5_v_573 · ancien exemple 2, n5_v_601 · ancien exemple 3
+conforme furigana hors balise ruby et balises étrangères : aucune phrase des 45 fiches : 0 / 0
+conforme caractères latins dans le japonais : ある, ancien exemple 3 (« or ») ; 閉める, exemple (D1182) : n5_v_516 · ancien exemple 3, n5_v_709 · exemple
+conforme sources : 45 fiches, 135 anciens exemples, 180 phrases : 45 fiches, 135 anciens exemples, 180 phrases
+conforme seize sens non candidats dans 14 ENTRY, tous catégorisés et typés, sans fonction publiée : 16 sens, 14 ENTRY
+conforme analyses complètes, conclusions admises, groupes conformes ; décisions, corrections, verdicts du volet 2 et porteurs cités exacts et complets ; frontières demandées examinées ; limites dites ; relevés exacts
+conforme recueil : 45 fiches sources complètes, 135 anciens exemples, 154 décisions : 45 fiches, 135 anciens exemples, 154 décisions
+écrits : a2-05-travail/omissions-temps3/rapport-relecture-E3.md, a2-05-travail/omissions-temps3/fiches-E3.md
+rédaction conforme ; {"ne relève pas de la fonction":52,"relève de la fonction":0,"à arbitrer":0}

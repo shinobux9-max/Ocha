@@ -1,0 +1,30 @@
+$ node a2-05-travail/recalcul-T6-perimetre.mjs .
+conforme liste globale : 377 lignes, 377 distinctes
+conforme D6 et D7 contre la synthèse : D6 12/12, D7 10/10 (lignes 304 à 325)
+conforme lignes contiguës du découpage : 304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325
+conforme aucun doublon de sens ; ENTRY distinctes : 22 sens, 13 ENTRY
+conforme les 22 sens examinés dans le seul rapport de T6, arbitré (25 rapports de livraison et de tranche lus) : 22 sens, un seul rapport, arbitré
+conforme inventaire des restants (liste globale moins les sens des rapports arbitrés) : 360 arbitrés, 17 restants ; hors de la liste globale : aucun ; par livraison : F1 11, F2 6
+conforme les 296 sens arbitrés après T6 restent arbitrés (rapports arbitrés des 37 premières entrées du manifeste et rapport de T6) : 22 rapports, 296 sens, 7c5254d7d18a…
+conforme contenu des 39 documents protégés après T6 inchangé (38 premières entrées du manifeste et rapport de T6 ; empreinte fixée, recalculée sans le manifeste) : 65495b5d3bb5… ; absents : aucun
+conforme restants par tranche du registre ; T6 (D6, D7) entièrement arbitrée, statut du registre non modifié : F 17
+conforme sens du périmètre généré = découpage (ordre et livraison) : 22 sens, 13 ENTRY
+conforme catégories, types et fonctions du §2 = état publié (data/) : 22 sens identiques
+conforme ENTRY de T6 = lot 23 entier ; leurs sens publiés = les 22 : 13 ENTRY au lot 23 ; 22 sens publiés sur ces ENTRY
+conforme chaque sens de T6 porte une fonction d'A9 : はい discours, じゃあ connecteur, じゃあ discours, それから connecteur, それでは connecteur, それでは discours, それでは discours+politesse, では connecteur, では discours, では discours+politesse, どうも politesse, どうも intensifieur, いいえ discours, いいえ politesse, ええ discours, しかし connecteur, じゃ connecteur, じゃ discours, じゃ discours, そうして connecteur, でも connecteur, どうぞ politesse
+conforme tous les sens publiés `connecteur` et `discours` sont dans T6 : connecteur 8, discours 10
+conforme `politesse` et `intensifieur` hors de T6 : en D8 (T8) et E2 (T9), restants ou arbitrés : connecteur 8 (T6 8) ; discours 10 (T6 10) ; politesse 6 (T6 5 ; hors T6 : 結構 `v_471_s2` D8 arbitré) ; intensifieur 7 (T6 1 ; hors T6 : 結構 `v_471_s1` D8 arbitré, 大変 `v_495_s1` E2 arbitré, とても `v_498_s1` D8 arbitré, 少し `v_509_s2` D8 arbitré, あまり `v_515_s1` D8 arbitré, もっと `v_607_s1` D8 arbitré) ; quantificateur 4 (T6 0 ; hors T6 : ちょっと `v_497_s1` D8 arbitré, 少し `v_509_s1` D8 arbitré, たくさん `v_520_s1` D8 arbitré, 全部 `v_639_s1` D8 arbitré) ; comparatif 2 (T6 0 ; hors T6 : 一番 `v_517_s1` D8 arbitré, もっと `v_607_s1` D8 arbitré)
+conforme `category: null` et `semantic_type: null` sur les 22 sens : 22 sur 22
+conforme une décision type-nul validée par sens : 22 décisions type-nul ; une par sens
+conforme décisions de journal par ENTRY = §5 du générateur (toutes validées) : 90 décisions (decision 65, type-nul 22, abandon 3) ; lots lot-23, lot-26 ; aucune de nature categorie-nulle : true
+conforme aucune correction retenue (V1-n, V2-n, modifications du volet 2) sur les ENTRY de T6 : recalcul aucune ; générateur aucune
+conforme modification n°1 du volet 2 (また sens 2, `connecteur`, retenue, non appliquée) : 1 ligne ; état publié de また sens 2 : aucune fonction
+conforme provenance et corrections du découpage : それでは « ENTRY : sourcé », les autres « — » : 22 lignes conformes
+conforme relations publiées touchant T6 : toutes internes : 10 relations (v_344_s1 equivalent_to v_586_s1, v_344_s1 opposed_to v_584_s1, v_413_s1 equivalent_to v_417_s1, v_413_s2 equivalent_to v_417_s2, v_416_s1 equivalent_to v_596_s1, v_418_s1 equivalent_to v_595_s1, v_418_s2 equivalent_to v_595_s2, v_418_s3 equivalent_to v_595_s3, v_584_s1 opposed_to v_586_s1, v_593_s1 equivalent_to v_599_s1) ; sans lien : v_417_s3, v_499_s1, v_499_s2, v_584_s2, v_600_s1
+conforme sens du lot 1 ; étiquettes des comparables conformes : 19 lus ; parmi les comparables : aucun
+conforme périmètre accepté (§0) ; hors du statut et du §0, identique à la proposition sauvegardée : proposition d0d4e113a85b… ; §0 : 10 lignes ; Statut : périmètre accepté le 2026-10-27 (§0
+conforme périmètre accepté identique à sa version acceptée (empreinte fixée, indépendante du manifeste) : 614b7503d324…
+conforme manifeste : au moins 38 empreintes recalculées, toutes identiques ; périmètre accepté de T6 protégé (38e entrée) ; rapport arbitré de T6 absent ou 39e entrée : 45 entrées ; rapport de T6 : 39e entrée ; différentes : aucune
+conforme rapport arbitré de T6 (§0) ; hors du statut et du §0, identique à la proposition sauvegardée : proposition 858bc41c252a… ; §0 : 17 lignes ; Statut : arbitré le 2026-10-29 (
+recalcul conforme
+[code de sortie : 0]

@@ -1,0 +1,22 @@
+{
+ "genere_par": "a2-05-travail/versions-finales-2/generer.mjs",
+ "version": 2,
+ "statut": "proposition, non appliquée",
+ "motif": "adoption d'A10 le 2026-11-03",
+ "precede": {
+  "manifeste": "a2-05-travail/versions-finales/manifeste.json",
+  "sha256": "d67a0e2962955e924f15e4b4dc0a428ab08918e56223f33ba4af618d61265d21"
+ },
+ "documents": {
+  "docs/relecture/reprise-A2-05.md": {
+   "depart_sha256": "d0586d42795b00fb5360de4f91585e3ea65dc91355cf92e9e9faca28b2061344",
+   "final_sha256": "c3bdc60ae05398bafa783ef4931a295be79d0defb4798a9f370d87f2c36b0b55",
+   "octets_depart": 9213,
+   "octets_final": 9644,
+   "fins_de_ligne": "LF",
+   "lignes_ajoutees": 5,
+   "lignes_retirees": 5,
+   "diff": "a2-05-travail/versions-finales-2/diffs/docs__relecture__reprise-A2-05.md.diff"
+  }
+ }
+}

@@ -1,0 +1,33 @@
+--- a/docs/relecture/reprise-A2-05.md
++++ b/docs/relecture/reprise-A2-05.md
+@@ -2,5 +2,5 @@
+ 
+ **Objet** : reprendre A2-05 dans une session neuve, ou ouvrir une relecture dans une conversation neuve. **Ce relais ne décide rien et ne fait pas foi** : en cas d'écart, les documents du §3 l'emportent, et le relais se corrige.
+-**Rédigé** : 2026-10-20 (arbitrage des décisions D1 à D6). **L'historique n'est pas ici** : ancien relais complet dans git (`git show 78031638:docs/relecture/reprise-A2-05.md`) ; un cycle par sous-section dans le bilan du volet 2, §8 ; une ligne par tâche dans le journal d'`ETAT-ACTUEL.md`.
++**Rédigé** : 2026-10-20 (arbitrage des décisions D1 à D6) ; **révisé** pour l'adoption d'A10 (versions figées 2 : `a2-05-travail/versions-finales-2/manifeste.json`). **L'historique n'est pas ici** : ancien relais complet dans git (`git show 78031638:docs/relecture/reprise-A2-05.md`) ; un cycle par sous-section dans le bilan du volet 2, §8 ; une ligne par tâche dans le journal d'`ETAT-ACTUEL.md`.
+ 
+ ## 1. Rôles et accords
+@@ -16,5 +16,5 @@
+ - **Corrections** : retenues, **aucune appliquée**. `data/`, les lots, le journal, les registres, les snapshots, l'inventaire des avertissements, les outils et les tests sont ceux du commit `3d67594`.
+ - **Transition vers l'outillage v2** (`docs/rapports/etape2-A2-05-plan-transition.md`) : étape 1, le checkpoint B, est faite ; l'étape 2, la synchronisation stable, est appliquée (plan `89fa2e8a0a2c245b`) et acceptée ; l'étape 3 est ce relais allégé (arbitrage et rapport : `docs/rapports/etape2-A2-05-relais-allege-proposition.md`) ; les étapes 4 à 7 (contrôle final, périmètre de T1, pilote T1, bilan) ne sont pas commencées.
+-- **Préparé ou retenu en principe, non mis en œuvre** : l'outillage v2 (`a2-05-travail/lot3-commun-v2.mjs`, `a2-05-travail/perimetre-v2.mjs` ; contrôle final avant T1) ; les tranches T1 à T9, planifiées, et F, suspendue (`a2-05-travail/registre-tranches.json`). **Proposé, non adopté** : l'addendum E5.
++- **Préparé ou retenu en principe, non mis en œuvre** : l'outillage v2 (`a2-05-travail/lot3-commun-v2.mjs`, `a2-05-travail/perimetre-v2.mjs` ; contrôle final avant T1) ; les tranches T1 à T9, planifiées, et F, suspendue (`a2-05-travail/registre-tranches.json`). **Proposé, non adopté** : aucun addendum. **Adopté** : l'addendum A10 sur `interrogatif`, issu de la proposition E5, validé et installé le 2026-11-03 (`docs/conception/addendum-A10-interrogatif.md`).
+ 
+ ## 3. Documents qui font foi
+@@ -25,7 +25,7 @@
+ | État, prochaine action, journal | `ETAT-ACTUEL.md` (« Étape en cours », bloc `a2-05:etat`) ; `ROADMAP.md` |
+ | Snapshots A2 (versions actives) | `docs/conception/a2/` : `A2-L3-v1`, `A2-ST-v1`, `A2-DIM-v1`, **`A2-REL-v1.1`** (remplace v1), `A2-LING-v1`, `A2-GLOBAL-v1` ; tableau des versions : `docs/conception/a2/README.md` |
+-| Addenda validés | `docs/conception/addendum-A1-…` à `addendum-A9-…` ; le plus souvent en cause : A5 (`category: null`), A6 (`semantic_type: null`), A7 (`deictique`), A9 (fonctions) |
++| Addenda validés | `docs/conception/addendum-A1-…` à `addendum-A10-…` ; le plus souvent en cause : A5 (`category: null`), A6 (`semantic_type: null`), A7 (`deictique`), A9 (fonctions), A10 (`interrogatif`, bloc F) |
+ | Registres | `data/registries/*.json` (catégories, types, dimensions, fonctions, relations, classes, compteurs, tags) |
+-| Non normatif | `docs/conception/legacy/a2/` (éclaire, ne fonde aucun verdict) ; la proposition d'addendum E5 sur `interrogatif` (`docs/rapports/etape2-A2-05-prealable-E5-proposition-addendum.md`), **ni adoptée ni normative** ; ce relais |
++| Non normatif | `docs/conception/legacy/a2/` (éclaire, ne fonde aucun verdict) ; la proposition d'addendum E5 sur `interrogatif` (`docs/rapports/etape2-A2-05-prealable-E5-proposition-addendum.md`), document historique : seul A10, adopté le 2026-11-03, fait foi ; ce relais |
+ | Arbitrages et leurs motivations | `docs/rapports/etape2-A2-05-bilan-volet2.md`, §8 (un cycle par sous-section ; la plus récente en dernier) ; le §0 de chaque rapport arbitré |
+ | Liste des corrections retenues | bilan du volet 2, §2 et §8 (V1-n, V2-n, et les dix modifications du volet 2) |
+@@ -49,5 +49,5 @@
+ ## 5. Restrictions en vigueur
+ 
+-- **Fermés jusqu'à décision explicite** : QC-1, QC-2, HP-1 à HP-4, G1 à G7 (volet 3), le bloc F et E5, le balayage global des relations. **Aucun périmètre de T1 n'est accepté.**
++- **Fermés jusqu'à décision explicite** : QC-1, QC-2, HP-1 à HP-4, G1 à G7 (volet 3), le bloc F (A10 adopté ; ni examen ni recherche d'omissions avant l'accord sur un périmètre opérationnel), le balayage global des relations. **Aucun périmètre de T1 n'est accepté.**
+ - **Aucune autorisation implicite** : sans accord spécifique, on ne modifie ni les données, ni les normes, ni les registres, ni les snapshots, ni les tests ; on n'applique aucune correction ; on ne lance aucun audit lexical.
+ - **Six opérations, six accords** : préparer ; auditer (seulement sur un périmètre accepté) ; arbitrer ; indexer ; committer ; pousser.

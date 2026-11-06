@@ -1,0 +1,21 @@
+$ node a2-05-travail/recalcul-T5-perimetre.mjs .
+conforme liste globale : 377 lignes, 377 distinctes
+conforme D2 et D3 contre la synthèse : D2 11/11, D3 11/11 (lignes 267 à 288)
+conforme lignes contiguës du découpage : 267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288
+conforme aucun doublon de sens ; ENTRY distinctes : 22 sens, 18 ENTRY
+conforme les 22 sens examinés dans le seul rapport de T5, arbitré (25 rapports de livraison et de tranche lus) : 22 sens, un seul rapport, arbitré
+conforme inventaire des restants (liste globale moins les sens des rapports arbitrés) : 360 arbitrés, 17 restants ; hors de la liste globale : aucun ; par livraison : F1 11, F2 6
+conforme les 274 sens arbitrés à la date de T5 restent arbitrés (rapports arbitrés des 37 premières entrées du manifeste) : 21 rapports, 274 sens, d5a47033a3e9…
+conforme restants par tranche du registre ; T5 (D2, D3) entièrement arbitrée, statut du registre non modifié : F 17
+conforme sens du périmètre généré = découpage (ordre et livraison) : 22 sens, 18 ENTRY
+conforme catégories et types du §2 = état publié (data/) : 22 sens identiques
+conforme deixis : les 22 sens de T5 portent `deictique` ; les autres sens `deictique` restants sont temporels, en D4 : 43 sens publiés ; restants : 0 (T5 0 ; hors T5 : )
+conforme décisions de journal par ENTRY = §5 du générateur (toutes validées) : 62 décisions, dont 20 de nature type-nul
+conforme chaque type nul de T5 porte une décision type-nul : 20 décisions type-nul ; 20 types nuls
+conforme corrections retenues (V1-n, V2-n, modifications du volet 2) : recalcul V2-124, V2-125, V2-126, V2-127, V2-128, V2-129, V2-130, V2-131, V2-132, V2-143 ; générateur V2-124, V2-125, V2-126, V2-127, V2-128, V2-129, V2-130, V2-131, V2-132, V2-143
+constat  corrections V1-n ou modifications du volet 2 sur les ENTRY de T5 : aucune
+conforme sens du lot 1 ; étiquettes des comparables conformes : 19 lus ; parmi les comparables : aucun
+conforme périmètre accepté (§0) ; hors du statut et du §0, identique à la proposition sauvegardée : §0 : 10 lignes ; Statut : périmètre accepté le 2026-10-25 (§0
+conforme manifeste : au moins 37 empreintes recalculées, toutes identiques ; périmètre de T5 (36e entrée) et rapport arbitré de T5 (37e entrée) protégés : 45 entrées ; différentes : aucune
+recalcul conforme
+[code de sortie : 0]

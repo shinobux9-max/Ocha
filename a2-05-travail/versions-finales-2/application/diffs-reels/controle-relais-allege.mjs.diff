@@ -1,0 +1,91 @@
+diff --git a/avant/controle-relais-allege.mjs b/apres/controle-relais-allege.mjs
+index f935610..b262f42 100644
+--- a/avant/controle-relais-allege.mjs
++++ b/apres/controle-relais-allege.mjs
+@@ -24,7 +24,15 @@ const APRES = process.argv.includes('--apres-application');
+ // --strict : à la clôture d'un checkpoint, exige que tout soit poussé et que rien ne suive la référence déclarée, sinon le fichier de références lui-même
+ const STRICT = process.argv.includes('--strict'), REF = 'a2-05-travail/references-git.json';
+ const dep = (p) => lire(APRES ? VF + '/depart/' + p : p);
+-const c = lire(CAND), ancien = dep(ANCIEN), etat = lire('ETAT-ACTUEL.md');
++// Versions figées 2 (adoption d'A10) : le relais vérifié est la version finale 2 ; le candidat et la version 1 restent les preuves de l'étape 3, contrôlées en C10b
++const VF2 = 'a2-05-travail/versions-finales-2';
++const c = lire(VF2 + '/' + ANCIEN), c1 = lire(CAND), ancien = dep(ANCIEN), etat = lire('ETAT-ACTUEL.md');
++// Statut d'E5 : la vérité vient de `docs/conception/` (A10 présent, au sommaire, validé à une date), jamais de la prose ; relais et « Étape en cours » doivent dire la même chose, à la même date
++const A10 = 'docs/conception/addendum-A10-interrogatif.md';
++const dateA10 = !existsSync(join(root, A10)) ? 'non' : /^\| A10 \| `addendum-A10-interrogatif\.md` \|/m.test(lire('docs/conception/00-sommaire.md')) ? (lire(A10).match(/^\*\*Statut\*\* : 🔒 validé le (\d{4}-\d{2}-\d{2}) /m) ?? [])[1] ?? '?' : '?';
++const statutE5 = (t) => (t.match(/\*\*Addendum A10 adopté et installé le (\d{4}-\d{2}-\d{2})\*\*/) ?? [])[1] ?? (/ni adoptée ni\s+normative/.test(t) ? 'non' : '?');
++// Un relais qui dirait à la fois « adopté » et « ni adoptée ni normative » se contredit : '?' (écart)
++const statutRelais = (t) => { const d = (t.match(/\*\*Adopté\*\* : l'addendum A10 [^\n]*installé le (\d{4}-\d{2}-\d{2})/) ?? [])[1], non = /ni adoptée ni\s+normative/.test(t); return d ? (non ? '?' : d) : (/E5[^\n]*ni adoptée ni normative/.test(t) ? 'non' : '?'); };
+ const res = []; const ok = (id, nom, cond, detail = '') => res.push({ id, nom, ok: !!cond, detail });
+ 
+ // C1 · taille
+@@ -62,9 +70,9 @@ const exig = [
+   ['1 · branche', /`ocha-v2`/], ['1 · dernier commit confirmé', /78031638c0f81dca1b167e3f57f5a891767fc4cb/], ['1 · étape', /A2-05/],
+   ['1 · lots, blocs, tranches', /lot 3 en cours[\s\S]*bloc B ouvert[\s\S]*tranches/], ['1 · décomptes et numéro libre', /prochain numéro libre/],
+   ['1 · corrections retenues / appliquées', /aucune appliquée/], ['2 · arbitrages et motivations', /Arbitrages et leurs motivations/],
+-  ['2 · proposé / validé / préparé', /\*\*Préparé ou retenu en principe, non mis en œuvre\*\*[^\n]*\*\*Proposé, non adopté\*\*[\s\S]*ni adoptée ni normative/], ['3 · gouvernance', /`CLAUDE\.md`, `REGLES-CONSTRUCTION\.md`/],
+-  ['3 · A2-REL-v1.1', /A2-REL-v1\.1/], ['3 · addenda', /Addenda validés/], ['3 · priorité des normes', /ne fait pas foi[\s\S]*l'emportent/],
+-  ['4 · chantiers fermés', /QC-1, QC-2, HP-1 à HP-4, G1 à G7[\s\S]*bloc F et E5[\s\S]*relations/], ['4 · corrections non appliquées', /on n'applique aucune correction/],
++  ['2 · proposé / validé / préparé ; statut d\'E5 celui de docs/conception/', { test: (t) => /\*\*Préparé ou retenu en principe, non mis en œuvre\*\*[^\n]*\*\*Proposé, non adopté\*\*/.test(t) && dateA10 !== '?' && statutRelais(t) === dateA10 }], ['3 · gouvernance', /`CLAUDE\.md`, `REGLES-CONSTRUCTION\.md`/],
++  ['3 · A2-REL-v1.1', /A2-REL-v1\.1/], ['3 · addenda (A10 compris s\'il est adopté)', { test: (t) => /Addenda validés/.test(t) && (dateA10 === 'non' || /^\| Addenda validés \|[^\n]*`addendum-A10-…`/m.test(t)) }], ['3 · priorité des normes', /ne fait pas foi[\s\S]*l'emportent/],
++  ['4 · chantiers fermés (E5 seulement tant qu\'A10 n\'est pas adopté)', { test: (t) => /QC-1, QC-2, HP-1 à HP-4, G1 à G7[\s\S]*bloc F[\s\S]*relations/.test(t) && (dateA10 === 'non' ? /bloc F et E5/.test(t) : !/Fermés jusqu'à décision explicite\*\*[^\n]*E5/.test(t)) }], ['4 · corrections non appliquées', /on n'applique aucune correction/],
+   ['4 · aucune autorisation implicite', /Aucune autorisation implicite/], ['4 · séparation des opérations', /préparer ; auditer[^\n]*arbitrer ; indexer ; committer ; pousser/],
+   ['5 · renvoi à la rubrique qui fait foi (D2)', /## 6\. Prochaine action\n\n\*\*Fait foi\*\* : la rubrique « Prochaine action » d'`ETAT-ACTUEL\.md`/], ['5 · aucune tâche datée (D2)', /aucune copie/],
+   ['2 · quatre états (D2)', /\*\*proposé\*\*[^\n]*\*\*arbitré\*\*[^\n]*\*\*appliqué\*\*[^\n]*\*\*committé \/ poussé\*\*[^\n]*/], ['2 · aucun statut normatif nouveau (D2)', /ne crée aucun statut normatif nouveau/],
+@@ -90,7 +98,7 @@ ok('C5c', 'aucune tranche acceptée ni ouverte (« aucun périmètre de T1 »)',
+ const enCours = etat.slice(etat.indexOf('## Étape en cours'), etat.indexOf('**Tâche précédente, terminée'));
+ const fermes = ['QC-1', 'QC-2', 'HP-1 à HP-4', 'G1', 'bloc F', 'E5'].filter((s) => !enCours.includes(s));
+ ok('C5d', 'chantiers fermés du candidat présents dans « Étape en cours »', !fermes.length, fermes.join(', ') || 'six présents');
+-ok('C5e', 'état de la transition cohérent avec ETAT-ACTUEL.md', /checkpoint B est committé et poussé/.test(enCours) && /acceptée et appliquée le 2026-10-18/.test(enCours) && /3d67594/.test(enCours) && /ni adoptée ni\s+normative/.test(enCours), 'checkpoint B ; étape 2 ; 3d67594 ; E5 non normatif');
++ok('C5e', 'état de la transition cohérent avec ETAT-ACTUEL.md ; statut d\'E5 cohérent avec `docs/conception/`', /checkpoint B est committé et poussé/.test(enCours) && /acceptée et appliquée le 2026-10-18/.test(enCours) && /3d67594/.test(enCours) && dateA10 !== '?' && statutE5(enCours) === dateA10, 'checkpoint B ; étape 2 ; 3d67594 ; E5 : ' + statutE5(enCours) + ' ; A10 : ' + dateA10);
+ const pa = (t) => (t.match(/^- \*\*Prochaine action\.\*\*[^\n]*/m) ?? [''])[0];
+ ok('C5f', 'rubrique « Prochaine action » (qui fait foi) identique dans les deux documents : documents, autorisation, interdits', pa(etat) === pa(lire('ROADMAP.md')) && /\.md`/.test(pa(etat)) && /autorisation/.test(pa(etat)) && /Aucun `git add`, commit ni push/.test(pa(etat)) && /T1/.test(pa(etat)), pa(etat).slice(0, 90) + '…');
+ 
+@@ -135,7 +143,7 @@ const Q = [
+   ['Q4 Corrections retenues / ENTRY / appliquées', () => corpsE().match(/: (\d+), dans (\d+) ENTRY/).slice(1).join('/') + (c.includes('aucune appliquée') ? '/0' : '/?'), () => v.corrections + '/' + v.entry + '/0'],
+   ['Q5 Prochain numéro libre', () => corpsE().match(/prochain numéro libre : (V1-\d+)/)[1], () => v.libre],
+   ['Q6 Version active des relations', () => c.match(/\*\*`(A2-REL-v[\d.]+)`\*\*/)?.[1], () => (lire('docs/conception/a2/README.md').match(/version active des\s+relations est `(A2-REL-v[\d.]+)`/) ?? [])[1]],
+-  ['Q7 E5 est-il normatif ?', () => (/E5[^\n]*ni adoptée ni normative/.test(c) ? 'non' : 'oui'), () => (/ni adoptée ni\s+normative/.test(enCours) ? 'non' : 'oui')],
++  ['Q7 E5 est-il normatif ?', () => { const s = statutRelais(c); return s === 'non' ? 'non' : s === '?' ? 'relais muet' : 'oui'; }, () => (dateA10 === 'non' ? 'non' : dateA10 === '?' ? 'A10 incohérent' : 'oui')],
+   ['Q8 Un périmètre de T1 est-il accepté ?', () => (/Aucun périmètre de T1 n'est accepté/.test(c) ? 'non' : 'oui'), () => (reg.tranches[0].statut === 'planifiée' ? 'non' : 'oui')],
+   ['Q9 Un avis favorable autorise-t-il un commit ?', () => (/avis favorable n'en vaut aucun/.test(c) ? 'non' : 'oui'), () => (/Un avis favorable n'en vaut aucun/.test(cl) ? 'non' : 'oui')],
+   ['Q10 Où sont les motivations des arbitrages ?', () => (c.match(/`(docs\/rapports\/etape2-A2-05-bilan-volet2\.md)`, §8/) ?? [])[1], () => (/^### 8\.64 /m.test(bilan) ? 'docs/rapports/etape2-A2-05-bilan-volet2.md' : null)],
+@@ -163,7 +171,7 @@ const protR = git('status', '--porcelain', '--', 'data', 'reconstruction', 'tool
+ if (!APRES) ok('C9b', 'données, normes, registres, snapshots, outils, tests et CLAUDE.md non modifiés', prot === '', prot || 'aucune modification');
+ else ok('C9b', 'données, normes, registres, snapshots, outils et tests non modifiés (CLAUDE.md, modifié sur autorisation : C10a et C10c)', prot === '', prot || 'aucune modification');
+ if (!APRES) ok('C9c', 'relais en service non remplacé', /^# A2-05 · Relais de reprise$/m.test(ancien) && octetsAncien > 200000 && !ancien.includes('CANDIDAT, NON EN SERVICE'), octetsAncien + ' octets');
+-else { const live = lire(ANCIEN); const sansGit = (t) => t.split('\n').filter((l) => !l.startsWith('- **Git** :')).join('\n'); ok('C9c', 'relais mis en service : relais en service = version finale ; ancien relais (départ) intact dans la sauvegarde et lisible dans git', sansGit(live) === sansGit(lire(VF + '/' + ANCIEN)) && live !== ancien && /^# A2-05 · Relais de reprise$/m.test(ancien) && octetsAncien > 200000 && anc.code === 0, Buffer.byteLength(live) + ' octets en service ; départ ' + octetsAncien); }
++else { const live = lire(ANCIEN); const sansGit = (t) => t.split('\n').filter((l) => !l.startsWith('- **Git** :')).join('\n'); ok('C9c', 'relais mis en service : relais en service = version finale 2 ; ancien relais (départ) intact dans la sauvegarde et lisible dans git', sansGit(live) === sansGit(lire(VF2 + '/' + ANCIEN)) && live !== ancien && /^# A2-05 · Relais de reprise$/m.test(ancien) && octetsAncien > 200000 && anc.code === 0, Buffer.byteLength(live) + ' octets en service ; départ ' + octetsAncien); }
+ 
+ // C10 · versions finales (a2-05-travail/versions-finales/, générées par generer.mjs) : départ inchangé, différences limitées au périmètre arbitré
+ const { createHash } = await import('node:crypto');
+@@ -176,11 +184,16 @@ const suiteBilan = (p, m) => { if (p !== BILAN) return false; const fin = brut(V
+   return t.length > 0 && n.every((x, i) => +x === 67 + i) && h(brut(VF + '/' + p)) === m.final_sha256; };
+ // Le relais en service peut différer de sa version figée par sa seule ligne « Git », à la forme exacte ci-dessous ; la version figée et son empreinte ne changent pas
+ const LIGNE_GIT = /^- \*\*Git\*\* : branche `ocha-v2`\. Référence historique : `([0-9a-f]{40})` \(checkpoint B, 2026-10-18, 177 chemins\)\. Dernier checkpoint déclaré : `a2-05-travail\/references-git\.json`\. \*\*Les travaux postérieurs à ce checkpoint ne sont ni committés ni poussés, sauf mention contraire d'`ETAT-ACTUEL\.md`\.\*\* À vérifier par `git rev-parse HEAD origin\/ocha-v2` et `git ls-remote origin refs\/heads\/ocha-v2` avant de s'y fier\.$/;
+-const suiteRelais = (p, m) => { if (p !== ANCIEN || h(brut(VF + '/' + p)) !== m.final_sha256) return false; const v = brut(VF + '/' + p).split('\n'), l = brut(p).split('\n'), d = l.map((x, i) => (x !== v[i] ? i : -1)).filter((i) => i >= 0); return l.length === v.length && d.length === 1 && v[d[0]].startsWith('- **Git** :') && LIGNE_GIT.exec(l[d[0]])?.[1] === refHist; };
+-const changes = Object.entries(man).filter(([p, m]) => (APRES ? (h(brut(p)) !== m.final_sha256 && !suiteBilan(p, m) && !suiteRelais(p, m)) || h(brut(VF + '/depart/' + p)) !== m.depart_sha256 : h(brut(p)) !== m.depart_sha256) || h(brut(VF + '/' + p)) !== m.final_sha256).map(([p]) => p);
+-ok('C10a', APRES ? 'documents réels = versions finales du manifeste (bilan : version finale suivie seulement de sous-sections §8.67 et suivantes) ; sauvegarde de départ = empreintes de départ' : 'documents réels inchangés depuis la génération ; versions finales conformes au manifeste', Object.keys(man).length === 4 && !changes.length, Object.keys(man).length + ' documents' + (changes.length ? ' ; écart : ' + changes.join(', ') : ''));
++const ligneGit = (texte, fige) => { const v = fige.split('\n'), l = texte.split('\n'), d = l.map((x, i) => (x !== v[i] ? i : -1)).filter((i) => i >= 0); return l.length === v.length && (!d.length || (d.length === 1 && v[d[0]].startsWith('- **Git** :') && LIGNE_GIT.exec(l[d[0]])?.[1] === refHist)); };
++// Versions figées 2 : manifeste 1 intact (empreinte citée par le manifeste 2) ; départ 2 = version finale 1 à la ligne « Git » près ; final 2 conforme au manifeste 2 ; relais en service = final 2 à la ligne « Git » près
++const man2 = JSON.parse(lire(VF2 + '/manifeste.json')), r2 = man2.documents?.[ANCIEN] ?? {};
++const chaine2 = man2.version === 2 && Object.keys(man2.documents ?? {}).join() === ANCIEN && man2.precede?.manifeste === VF + '/manifeste.json' && h(brut(VF + '/manifeste.json')) === man2.precede.sha256
++  && h(brut(VF + '/' + ANCIEN)) === man[ANCIEN].final_sha256 && h(brut(VF2 + '/depart/' + ANCIEN)) === r2.depart_sha256 && h(brut(VF2 + '/' + ANCIEN)) === r2.final_sha256 && ligneGit(brut(VF2 + '/depart/' + ANCIEN), brut(VF + '/' + ANCIEN));
++const relaisV2 = chaine2 && ligneGit(brut(ANCIEN), brut(VF2 + '/' + ANCIEN));
++const changes = Object.entries(man).filter(([p, m]) => (APRES ? (p === ANCIEN ? !relaisV2 : h(brut(p)) !== m.final_sha256 && !suiteBilan(p, m)) || h(brut(VF + '/depart/' + p)) !== m.depart_sha256 : h(brut(p)) !== m.depart_sha256) || h(brut(VF + '/' + p)) !== m.final_sha256).map(([p]) => p);
++ok('C10a', APRES ? 'documents réels = versions finales du manifeste (bilan : version finale suivie seulement de sous-sections §8.67 et suivantes ; relais : version finale 2, chaînée à la version 1) ; sauvegarde de départ = empreintes de départ' : 'documents réels inchangés depuis la génération ; versions finales conformes au manifeste', Object.keys(man).length === 4 && !changes.length, Object.keys(man).length + ' documents' + (changes.length ? ' ; écart : ' + changes.join(', ') : ''));
+ const vRel = lire(VF + '/' + ANCIEN);
+-ok('C10b', 'relais final = candidat sans sa première ligne (commentaire « CANDIDAT »)', vRel === c.slice(c.indexOf('\n') + 1) && !vRel.includes('CANDIDAT'), Buffer.byteLength(vRel) + ' octets');
++ok('C10b', 'relais final 1 = candidat sans sa première ligne (commentaire « CANDIDAT ») ; versions figées 2 chaînées à la version 1, manifeste 1 intact', vRel === c1.slice(c1.indexOf('\n') + 1) && !vRel.includes('CANDIDAT') && chaine2 && !c.includes('CANDIDAT'), Buffer.byteLength(vRel) + ' octets ; version 2 : ' + Buffer.byteLength(c) + ' octets');
+ const vCl = lire(VF + '/CLAUDE.md').split('\n'), aCl = dep('CLAUDE.md').split('\n'); const dCl = aCl.map((l, i) => (l !== vCl[i] ? i + 1 : 0)).filter(Boolean);
+ ok('C10c', 'CLAUDE.md final : seules les lignes de la mention d\'état du §5 changent', vCl.length === aCl.length && dCl.join(',') === '128,129' && !vCl.join('\n').includes('558f150') && vCl[127].includes('`7803163`') && /checkpoint B du 2026-10-18, committé et poussé/.test(vCl[128]), 'lignes ' + dCl.join(', '));
+ const nr = dep('docs/relecture/note-relais.md'), vNr = lire(VF + '/docs/relecture/note-relais.md');
+@@ -196,7 +209,7 @@ ok('C10g', 'sections de provenance citées présentes et pertinentes', /^## 5\.
+   && /^## 5\. Méthode/m.test(perC) && /les documents historiques éclairent/.test(perC) && /^## T2\.3 /m.test(audit) && /Elle ne contient ni « état général » ni « événement général »/.test(audit) && /^### 3\.1 Le corps/m.test(audit) && /^### 3\.2 Unités/m.test(audit) && /D1361/.test(audit)
+   && /aucun identifiant de SENSE n'est renuméroté/.test(bi.slice(bi.indexOf('## 2. '), bi.indexOf('## 3. '))) && /ne sont pas normatifs/.test(lire('docs/conception/a2/README.md').replace(/\s+/g, ' ')), 'périmètre §5, §6, §6.4 ; cohérence §5 ; audit §T2.3, §3.1, §3.2, §5 ; bilan §2 ; README des snapshots');
+ // C8 bis · essai de reprise rejoué sur le relais FINAL et sur le bilan FINAL (les renvois au §8.66 doivent aboutir)
+-ok('C8b', 'essai de reprise sur la version finale : renvois au §8.66 aboutis ; prochaine action lue dans ETAT-ACTUEL.md', /§8\.66/.test(vRel) && /^### 8\.66 Arbitrage du relais allégé/m.test(vBi) && /## 6\. Prochaine action\n\n\*\*Fait foi\*\*/.test(vRel) && !/Au 20\d\d-/.test(vRel.slice(vRel.indexOf('## 6.'), vRel.indexOf('## 7.'))) && pa(etat).length > 50, 'relais final et bilan final');
++ok('C8b', 'essai de reprise sur la version finale 2 : renvois au §8.66 aboutis ; prochaine action lue dans ETAT-ACTUEL.md', /§8\.66/.test(c) && /^### 8\.66 Arbitrage du relais allégé/m.test(vBi) && /## 6\. Prochaine action\n\n\*\*Fait foi\*\*/.test(c) && !/Au 20\d\d-/.test(c.slice(c.indexOf('## 6.'), c.indexOf('## 7.'))) && pa(etat).length > 50, 'relais final 2 et bilan final');
+ 
+ // C11 · mode --apres-application seulement : fins de ligne prévues ; §8.66 unique dans le bilan réel ; références du relais en service
+ if (APRES) {

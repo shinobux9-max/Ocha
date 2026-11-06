@@ -1,0 +1,37 @@
+conforme dossier factuel du périmètre E accepté, à son empreinte : 0f4682d8b00a2d3b
+conforme livraison E1 : 39 sens dans 37 ENTRY de classe `nom` : 37 ENTRY, 39 sens
+conforme chaque ENTRY dans un seul groupe de lecture
+conforme une analyse par sens de E1, et aucune autre : 39 analyses
+conforme les 101 décisions de journal des 37 ENTRY, chacune citée : 101 décisions
+conforme les 22 corrections retenues des 18 ENTRY, chacune citée : 22 corrections
+conforme verdicts du volet 2 : L 33, C 5, L deux fois 1 (声) : L 33, C 5, L+L 1
+conforme valeurs nulles : type 24, catégorie 14, les deux 1 : type 24, catégorie 14, les deux 1
+conforme v_633_s1 : nom de personne, frontière de l'information désignée et de l'information demandée (A10, §2) examinée en R3
+conforme v_657_s1 : nom de personne, frontière de l'information désignée et de l'information demandée (A10, §2) examinée en R3
+conforme v_667_s1 : nom de personne, frontière de l'information désignée et de l'information demandée (A10, §2) examinée en R3
+conforme v_686_s1 : nom de personne, frontière de l'information désignée et de l'information demandée (A10, §2) examinée en R3
+conforme v_687_s1 : nom de personne, frontière de l'information désignée et de l'information demandée (A10, §2) examinée en R3
+conforme v_627_s2 : nom de personne, frontière de l'information désignée et de l'information demandée (A10, §2) examinée en R3
+conforme v_667_s1 : frontière du registre poli (A10, §4, point 3) examinée en R3
+conforme v_687_s1 : frontière du registre poli (A10, §4, point 3) examinée en R3
+conforme v_513_s2 : 質問 dans la fiche, frontière du sens qui nomme une question (A10, §4, point 4) examinée en R3
+conforme v_653_s1 : 質問 dans la fiche, frontière du sens qui nomme une question (A10, §4, point 4) examinée en R3
+conforme v_675_s1 : 質問 dans la fiche, frontière du sens qui nomme une question (A10, §4, point 4) examinée en R3
+conforme v_687_s1 : 質問 dans la fiche, frontière du sens qui nomme une question (A10, §4, point 4) examinée en R3
+conforme v_44_s1 : frontière des indéfinis (A10, §4, point 1) examinée en R3
+conforme v_684_s1 : frontière des indéfinis (A10, §4, point 1) examinée en R3
+conforme 表 : alternative indirecte relevée en R2, marques grammaticales (A10, §4, point 5) en R3
+conforme v_513_s2 : phrases en forme de question rattachées au sens 1, non candidat ; sens par sens (A10, §3, point 3)
+conforme v_321_s2 : phrases en forme de question rattachées au sens 1, non candidat ; sens par sens (A10, §3, point 3)
+conforme 荷物 : la requête citée par D0406 relevée en R5
+conforme relevé des phrases traduites par une question identique au relevé calculé : 14 phrases
+conforme 表 : interrogation indirecte (表が出るか裏が出るか) présente dans l'ancien exemple 3
+conforme 質問 nommé dans quatre phrases : 意味, 声, 次, 皆さん : 4 phrases
+conforme furigana hors balise ruby : 14 phrases (observation hors périmètre) : 14 phrases
+conforme sources : 39 fiches, 117 anciens exemples : 39 fiches, 117 anciens exemples
+conforme 方 : la nuance publiée cite どの方 (relevé au §2.2)
+conforme analyses complètes, conclusions admises, groupes conformes ; décisions, corrections, verdicts du volet 2 et porteurs cités exacts et complets ; frontières demandées examinées ; relevés exacts
+conforme cinq sens non candidats ; six décisions qui portent sur les fonctions ou en parlent (§3.4)
+conforme recueil : 39 fiches sources complètes, 117 anciens exemples, 101 décisions : 39 fiches, 117 anciens exemples, 101 décisions
+écrits : a2-05-travail/omissions-temps3/rapport-relecture-E1.md, a2-05-travail/omissions-temps3/fiches-E1.md
+rédaction conforme ; {"ne relève pas de la fonction":39,"relève de la fonction":0,"à arbitrer":0}

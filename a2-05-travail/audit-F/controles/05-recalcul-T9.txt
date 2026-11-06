@@ -1,0 +1,41 @@
+$ node a2-05-travail/recalcul-T9-perimetre.mjs .
+conforme liste globale : 377 lignes, 377 distinctes, numérotées 1 à 377
+conforme E1, E2 et E3 contre la synthèse : E1 9/9, E2 12/12, E3 3/3
+conforme un seul segment contigu, 337 à 360, bordé par D8 et F1 : E1 337 à 345 ; E2 346 à 357 ; E3 358 à 360 ; avant : D8 ; après : F1
+conforme aucun doublon de sens ; ENTRY distinctes : 24 sens, 21 ENTRY
+conforme les 24 sens examinés dans le seul rapport de T9, arbitré (25 rapports de livraison et de tranche lus) : 24 sens
+conforme inventaire des restants (liste globale moins les sens des rapports arbitrés) : 360 arbitrés, 17 restants ; hors de la liste globale : aucun ; par livraison : F1 11, F2 6
+conforme les 336 sens arbitrés à la clôture de T8 restent arbitrés (empreinte de leur liste triée, `18138b39…`) : 336 lus, 360 arbitrés en tout
+conforme T9 = E1, E2 et E3, entièrement arbitrée, statut du registre non modifié ; F planifiée, livraison unique ; restants tous du bloc F : F 17
+conforme sens du périmètre généré = découpage (ordre et livraison) : 24 sens, 21 ENTRY
+conforme catégories, types et fonctions du §2 = état publié (data/) : 24 sens identiques
+conforme générateur à sa version corrigée (voie A, sur autorisation) ; criblage inchangé, marques conservées : 6537c0ee3681… ; aef9e029f25c…
+conforme marques RES au criblage : 30, dont une sur chacun des 24 sens : 30 marques ; sur T9 : 24
+conforme six marques hors de T9, hors des 377, nommées par le rapport : v_363_s2, v_366_s1, v_434_s1, v_452_s1, v_495_s2, v_500_s2
+conforme neuf motifs de réservation = découpage, §7.2 ; repris par le rapport : 3, 4, 3, 4, 6, 1, 1, 1, 1
+conforme règles du §2 = criblage hors RES, sens par sens : 24 sens
+conforme quatorze règles hors RES ; défaut signalé à part, proposition conservée : 14 règles
+conforme une seule fonction : intensifieur sur 大変 s1 ; ni deictique ni interrogatif : v_495_s1
+conforme types et niveaux de catégorie, comptes du rapport : {"concept_abstrait":4,"evenement":3,"lieu":3,"null":1,"propriete":12,"substance_matiere":1} ; {"2":6,"3":17,"null":1}
+conforme tags publiés : quatre ENTRY : v_459:lieu_restaurant v_594:lieu_konbini+lieu_restaurant v_91:lieu_restaurant v_92:lieu_restaurant
+conforme aucune relation publiée ne touche T9 : aucune
+conforme chaque ENTRY validée dans son lot d'origine (colonne du découpage) : lots 10, 00, 16, 01, 15
+conforme décisions de journal par ENTRY = §5 du générateur (toutes validées) : 41 décisions (correction 3, abandon 12, decision 24, categorie-nulle 1, type-nul 1) ; lots lot-00, lot-01, lot-10, lot-15, lot-16
+conforme aucune décision de fonction ; décisions de tags : 先, 前 et 近く seulement : fonctions : aucune ; tags : D0586, D0600, D0625
+conforme 大変 : catégorie nulle décidée au sens 2 seul, type nul au sens 1 ; 朝ご飯 sans décision : D0052 abandon, D0067 categorie-nulle, D0074 type-nul
+conforme corrections du périmètre sur les ENTRY de T9 : dix V2-n, toutes de nuance, égales au générateur : recalcul V2-116, V2-117, V2-123, V2-152, V2-153, V2-154, V2-155, V2-156, V2-157, V2-158 ; générateur V2-116, V2-117, V2-123, V2-152, V2-153, V2-154, V2-155, V2-156, V2-157, V2-158
+conforme V1-25 à V1-31 retenues, une ligne chacune, valeurs exactes de l'arbitrage ; aucune V1 au-delà : 7 lignes ; 17 corrections sur ces ENTRY
+conforme V1-25 à V1-27 non appliquées (V1-28 à V1-31 : tags publiés, contrôle 7) : Auparavant publiée ; おととし et 近く s2 sans fonction
+conforme autres sens des mêmes ENTRY : aucun restant : 薄い `v_477_s2` B4 arbitré, 薄い `v_477_s3` B1 arbitré, 大変 `v_495_s2` hors des 377
+conforme frontière du bloc F : aucun sens de F ; どこ, seul comparable : どこ
+conforme sens du lot 1 ; étiquettes des comparables conformes : 19 lus ; parmi les comparables : v_455_s2, v_4_s2, v_1_s2
+conforme périmètre accepté (§0) ; hors du statut et du §0, identique à la proposition sauvegardée : 01b9bf833a66… ; §0 : 12 lignes
+conforme périmètre accepté identique à sa version acceptée (empreinte fixée, indépendante du manifeste) : 85faf16c39db…
+conforme §0 de T9 : 24 sens, 21 ENTRY ; trois sens spatiaux maintenus ; voie A recommandée ; audit non autorisé : présents
+conforme inventaire des 41 du rapport = 24 sens de T9 et 17 de F, chacun une fois : 41 sens
+conforme rapport arbitré de T9 (§0) : hors du statut et du §0, identique à sa proposition sauvegardée, §1 et 24 fiches compris : 473 lignes comparées ; proposition 986c2439994a…
+conforme §0 de T9 : 17 conformes, 7 écarts, 0 suspendu ; sept corrections aux valeurs exactes ; 先 s2, 前 s2, six adjectifs et 痛い : 30 lignes
+conforme manifeste : au moins 43 empreintes recalculées, toutes identiques ; les 43 premières dans leur ordre ; périmètre de T9 absent ou en 44e entrée : 45 entrées ; différentes : aucune
+conforme rapport arbitré de T9 absent du manifeste ou en 45e entrée : 45e entrée
+recalcul conforme
+[code de sortie : 0]

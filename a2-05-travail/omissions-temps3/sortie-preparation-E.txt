@@ -1,0 +1,25 @@
+conforme découpage accepté et mesure prise en acte, à leurs empreintes
+conforme groupe E : 121 sens, 107 ENTRY : 121 sens, 107 ENTRY
+conforme groupe E : chaque sens porte T2-nuls, et lui seul
+conforme filtres d'origine identiques à la mesure
+conforme aucune ENTRY du groupe E dans un autre groupe
+conforme chaque sens rattaché à une ENTRY du groupe, chaque ENTRY a un sens
+conforme les cinq groupes couvrent les 234 candidats : 234
+conforme corrections retenues lues dans le bilan : 204 : 204
+conforme audit des null : 147 verdicts lus : 147
+conforme E : toutes les fiches présentes, chacune dans un lot validé : 115 fiches
+conforme E : chaque ENTRY a des décisions de journal, toutes validées : 339 décisions
+conforme E : aucune décision n'emploie le vocabulaire de la question (le groupe ne relève pas de T2-journal)
+conforme E : aucune ENTRY de classe pronom, determinant ou adverbe (le groupe ne relève pas de T2-classe)
+conforme E : aucun sens de ces ENTRY ne porte la fonction
+conforme E : chaque candidat a une catégorie ou un type nul, et aucune fonction
+conforme E : chaque candidat a au moins un verdict arbitré du volet 2 : tous
+conforme E : sens publiés non candidats de ces ENTRY, hors des 234 : 30 : v_50_s1, v_62_s2, v_80_s1, v_130_s2, v_164_s1, v_164_s2, v_181_s2, v_265_s1, v_266_s1, v_321_s1, v_422_s1, v_424_s2, v_427_s1, v_428_s2, v_461_s1, v_464_s1, v_495_s1, v_513_s1, v_523_s1, v_528_s2, v_532_s2, v_536_s1, v_536_s2, v_561_s2, v_562_s2, v_627_s1, v_635_s1, v_642_s1, v_690_s1, v_713_s2
+répartition par classe : {"adjectif_i":17,"adjectif_na":13,"nom":39,"verbe":52}
+répartition par valeur nulle : {"catégorie et type":1,"catégorie":96,"type":24}
+répartition par volet 2 : {"C":6,"L+L":1,"L":114}
+répartition par lot : {"lot-00":7,"lot-01":19,"lot-02":2,"lot-03":1,"lot-04":2,"lot-05":2,"lot-06":1,"lot-07":4,"lot-08":1,"lot-10":1,"lot-13":2,"lot-14":4,"lot-15":3,"lot-16":11,"lot-17":9,"lot-18":23,"lot-19":11,"lot-20":17,"lot-22":1}
+répartition par catégorie : {"espace_proprietes_spatiales":3,"etre_humain":15,"nombres_quantification":4,"null":97,"sciences":1,"temps":1}
+fiches 115 ; anciens exemples 345 ; décisions 339 (fonctions 14) ; corrections 43 dans 31 ENTRY ; lot 3 0 ; phrases en forme de question 36 dans 26 ENTRY
+écrits : a2-05-travail/omissions-temps3/perimetre-E.json, a2-05-travail/omissions-temps3/dossier-E.md
+préparation conforme ; aucun verdict

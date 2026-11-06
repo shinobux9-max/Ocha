@@ -1,0 +1,75 @@
+$ node a2-05-travail/controle-relais-allege.mjs . --apres-application --strict
+conforme C1   taille du candidat : 9644 octets (relais en service : 268511, soit 3.6 %)
+conforme C2a  chemins cités présents dans le dépôt : 29 chemins
+conforme C2b  snapshots cités présents : six présents
+conforme C2c  ancien relais retrouvable dans git (7803163) : code 0, 267490 octets
+conforme C2d  sections citées présentes et pertinentes : bilan §8.42, §8.60, §8.61 ; B9 §2 ; périmètre §6 et §10 ; CLAUDE.md §4 et §5
+conforme C3   aucun décompte calculé recopié : renvoi au bloc a2-05:etat
+conforme C4   informations obligatoires présentes : 29 exigences
+conforme C5a  référence historique citée par le candidat ; référence déclarée, scellée, ancêtre de HEAD et d'origin/ocha-v2 ; tout est poussé, rien après la référence : déclarée 27b27ce ; HEAD 39cce13, en avance de 1 ; non poussés : 0
+conforme C5b  bloc a2-05:etat identique dans les deux documents : empreinte d9f813490811fd9a
+conforme C5c  aucune tranche ouverte ; tranche F suspendue avant l'acceptation de son périmètre opérationnel, planifiée en une seule livraison F après (A10 adopté) : T1 planifiée, T2 planifiée, T3 planifiée, T4 planifiée, T5 planifiée, T6 planifiée, T7 planifiée, T8 planifiée, T9 planifiée, F planifiée ; périmètre de F accepté
+conforme C5d  chantiers fermés du candidat présents dans « Étape en cours » : six présents
+conforme C5e  état de la transition cohérent avec ETAT-ACTUEL.md ; statut d'E5 cohérent avec `docs/conception/` : checkpoint B ; étape 2 ; 3d67594 ; E5 : 2026-11-03 ; A10 : 2026-11-03
+conforme C5f  rubrique « Prochaine action » (qui fait foi) identique dans les deux documents : documents, autorisation, interdits : - **Prochaine action.** L'audit des 17 sens du bloc F, en une seule livraison F (`docs/rap…
+conforme C6   snapshots et addenda du dépôt tous couverts : snapshots : A2-DIM-v1, A2-GLOBAL-v1, A2-L3-v1, A2-LING-v1, A2-REL-v1.1, A2-ST-v1 ; addenda : A1, A10, A2, A3, A4, A5, A6, A7, A8, A9 ; 8 registres
+conforme C7   sections de l'ancien relais : destination vérifiée : 24 sections
+conforme C8   essai de reprise simulée : 12 réponses justes sur 12
+conforme C9a  couverture et empreintes du manifeste réel (calculerEtat sans refus) ; entrées de HEAD inchangées ; entrées nouvelles = rapports de tranche arbitrés et périmètres acceptés (un périmètre accepté peut précéder son rapport) : 45 rapports arbitrés identiques sur 45 au manifeste ; HEAD : 45, inchangées ; nouvelles : aucune
+ÉCART    C9b  données, normes, registres, snapshots, outils et tests non modifiés (CLAUDE.md, modifié sur autorisation : C10a et C10c) : M docs/conception/00-sommaire.md
+?? docs/conception/addendum-A10-interrogatif.md
+conforme C9c  relais mis en service : relais en service = version finale 2 ; ancien relais (départ) intact dans la sauvegarde et lisible dans git : 9644 octets en service ; départ 268511
+conforme C10a documents réels = versions finales du manifeste (bilan : version finale suivie seulement de sous-sections §8.67 et suivantes ; relais : version finale 2, chaînée à la version 1) ; sauvegarde de départ = empreintes de départ : 4 documents
+conforme C10b relais final 1 = candidat sans sa première ligne (commentaire « CANDIDAT ») ; versions figées 2 chaînées à la version 1, manifeste 1 intact : 9051 octets ; version 2 : 9644 octets
+conforme C10c CLAUDE.md final : seules les lignes de la mention d'état du §5 changent : lignes 128, 129
+conforme C10d note-relais.md finale : un paragraphe de gel en tête, historique conservé à l'identique : 429 caractères ajoutés
+conforme C10e bilan final : §8.66 ajouté à la fin, rien d'autre ne change : 4411 octets ajoutés
+conforme C10f §8.66 : sept formulations mot pour mot de l'ancien §6, chacune avec une provenance existante : 7 formulations
+conforme C10g sections de provenance citées présentes et pertinentes : périmètre §5, §6, §6.4 ; cohérence §5 ; audit §T2.3, §3.1, §3.2, §5 ; bilan §2 ; README des snapshots
+conforme C8b  essai de reprise sur la version finale 2 : renvois au §8.66 aboutis ; prochaine action lue dans ETAT-ACTUEL.md : relais final 2 et bilan final
+conforme C11a fins de ligne prévues, sans mélange : 4 documents
+conforme C11b bilan réel : §8.66 présent une fois (dernière sous-section, ou suivie seulement de §8.67 et suivantes), sept formulations de l'ancien §6 : §8.66
+conforme C11c relais en service : chemins présents, renvois au §8.66 et à ETAT-ACTUEL.md : conformes
+
+C7, destinations :
+  1. État du dépôt → état courant : candidat §2
+  1.0 État au 2026-10-12, après le push (m → constats datés : journal d'ETAT-ACTUEL.md, bilan §8, git
+  1.1 État au 2026-10-12, après le checkpo → constats datés : journal d'ETAT-ACTUEL.md, bilan §8, git
+  1.2 État d'avant le checkpoint (conservé → constats datés : journal d'ETAT-ACTUEL.md, bilan §8, git
+  2. Règles de contrôle, inchangées → candidat §1, §5 et §7
+  3. Structure validée d'A2-05 → candidat §2 ; détail : « Terminé et arbitré » d'ETAT-ACTUEL.md, bilan §3 et §4
+  4. Volet 2 : cumul arbitré → audit des null (tranches) et bilan §1
+  5. Corrections retenues, non exécutées → bilan §2 (les dix) et §5 (procédure, D1614, lot véhicule)
+  5 bis. Corrections du volet 1, tenues à  → bilan §8 (V1-n, V2-n)
+  6. Arbitrages de fond à ne pas perdre → candidat §4.8 (principes) ; bilan §8.66 de la version finale (liste mot pour mot, avec provenance) ; audit des null (fiches)
+  6 bis. Suivi transversal du volet 1 : po → bilan §3.2 ; lot 1 du volet 1, arbitré (cohérence rétroactive)
+  7. Les 94 `categorie-nulle` restants apr → audit des null, tranches 2 à 7 (closes)
+  action générale (36) → audit des null, tranches correspondantes (closes)
+  propriété générale (29) → audit des null, tranches correspondantes (closes)
+  aucune catégorie ne nomme la notion (18) → audit des null, tranches correspondantes (closes)
+  autre formulation (11) → audit des null, tranches correspondantes (closes)
+  8. Périmètre proposé pour la prochaine t → audit des null, tranches 2 à 7 (périmètres arbitrés, clos)
+  8 bis. Périmètre proposé pour la tranche → audit des null, tranches 2 à 7 (périmètres arbitrés, clos)
+  8 ter. Périmètre proposé pour la tranche → audit des null, tranches 2 à 7 (périmètres arbitrés, clos)
+  8 quater. Périmètre proposé pour la tran → audit des null, tranches 2 à 7 (périmètres arbitrés, clos)
+  8 quinquies. Périmètre proposé pour la d → audit des null, tranches 2 à 7 (périmètres arbitrés, clos)
+  9. Scripts et sorties de l'audit → a2-05-travail/INVENTAIRE-SCRIPTS.md
+  10. Prochaine action → obsolète (2026-10-08) ; candidat §6 et ETAT-ACTUEL.md
+  11. Anomalie technique du 2026-10-10 : c → règle : candidat §5 ; constat détaillé : ancien relais dans git
+
+C8, essai de reprise :
+  juste Q1 Quel est le dernier checkpoint déclaré ? → 27b27ce0f0b6e62e0686a97194231fe23865b7a9
+  juste Q2 Lot 3 : sens arbitrés / total (renvoi au bloc suivi) → 360/377
+  juste Q3 Bloc B (ROADMAP.md) → 148/148
+  juste Q4 Corrections retenues / ENTRY / appliquées → 204/177/0
+  juste Q5 Prochain numéro libre → V1-32
+  juste Q6 Version active des relations → A2-REL-v1.1
+  juste Q7 E5 est-il normatif ? → oui
+  juste Q8 Un périmètre de T1 est-il accepté ? → non
+  juste Q9 Un avis favorable autorise-t-il un commit ? → non
+  juste Q10 Où sont les motivations des arbitrages ? → docs/rapports/etape2-A2-05-bilan-volet2.md
+  juste Q11 Combien de rapports arbitrés protégés ? → 45
+  juste Q12 Où est la prochaine action qui fait foi ? → ETAT-ACTUEL.md
+
+29 conformes sur 30
+[code de sortie : 1]

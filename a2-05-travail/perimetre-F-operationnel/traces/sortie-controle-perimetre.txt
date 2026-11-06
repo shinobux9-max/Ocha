@@ -1,0 +1,50 @@
+﻿conforme  A10 validé le 2026-11-03 et inscrit au sommaire
+conforme  découpage : 17 lignes distinctes, 361 à 377, contiguës, dernières des 377, bordées par E3
+conforme  frontière F1/F2 : F1 11 sens, 9 ENTRY, 361 à 371 ; F2 6 sens, 6 ENTRY, 372 à 377
+conforme  aucune ENTRY coupée par la frontière F1/F2
+conforme  couverture : les 17 restants du lot 3 sont exactement le bloc F
+conforme  exhaustivité : porteurs publiés d'`interrogatif` = les 17 sens du bloc F
+conforme  aucun cumul sur les 17 sens
+conforme  les 15 ENTRY porteuses n'ont aucun autre sens
+conforme  aucune fiche fusionnée vers une ENTRY porteuse
+conforme  population : 824 sens publiés, 807 sans la fonction (805 N5, 2 hors JLPT), 669 ENTRY
+conforme  population : toutes les fiches présentes ; 33 fiches fusionnées vers 33 ENTRY, 45 sens
+conforme  誰か dans la population ; aucun porteur dans la population
+conforme  42 décisions des 15 ENTRY, toutes validées, aucune sur `linguistic_functions`
+conforme  17 décisions `type-nul` : une par sens, validées, champ `sens N · semantic_type`, type publié nul
+conforme  gabarits des raisons : D0073, D0373, et un gabarit commun aux quinze autres
+conforme  rapport, §2 : 17 lignes égales au découpage, aux données, au journal et au bilan
+conforme  neuf corrections retenues sur les 15 ENTRY, V2-133 à V2-141, toutes de `nuance`
+conforme  rapport, §5 : les trois gabarits cités mot pour mot, avec leurs décisions
+conforme  rapport, §6 : filtres décrits = filtres du module, dans l'ordre
+conforme  rapport, §6 : formes des porteurs citées pour T2-serie = graphies et lectures publiées
+conforme  rapport, §6 : chiffres de la population et de l'essai cités
+conforme  rapport en proposition, sans §0
+conforme  aucun verdict ; aucune correction nouvelle
+conforme  registre des tranches inchangé : F (F1, F2), suspendue
+conforme  non-régression : data/, reconstruction/, tests/, tools/ sans modification
+conforme  index vide
+conforme  HEAD à 39cce13
+conforme  non-régression : 45 empreintes identiques ; périmètre opérationnel hors du manifeste
+conforme  aucune sortie de filtrage dans le dépôt
+
+29 conformes sur 29
+détecté   fonction posée sur un autre sens (誰か) — exhaustivité : porteurs publiés d'`interrogatif` = les 17 sens du bloc F
+détecté   fonction retirée d'un sens (どこ) — exhaustivité : porteurs publiés d'`interrogatif` = les 17 sens du bloc F
+détecté   cumul ajouté (どなた) — aucun cumul sur les 17 sens
+détecté   sens non porteur ajouté à une ENTRY porteuse — les 15 ENTRY porteuses n'ont aucun autre sens
+détecté   fiche fusionnée vers une ENTRY porteuse — aucune fiche fusionnée vers une ENTRY porteuse
+détecté   fiche source supprimée — population : toutes les fiches présentes ; 33 fiches fusionnées vers 33 ENTRY, 45 sens
+détecté   type posé (いつ) — 17 décisions `type-nul` : une par sens, validées, champ `sens N · semantic_type`, type publié nul
+détecté   décision `type-nul` dévalidée — 42 décisions des 15 ENTRY, toutes validées, aucune sur `linguistic_functions`
+détecté   gabarit d'une raison modifié — gabarits des raisons : D0073, D0373, et un gabarit commun aux quinze autres
+détecté   frontière F1/F2 déplacée — frontière F1/F2 : F1 11 sens, 9 ENTRY, 361 à 371 ; F2 6 sens, 6 ENTRY, 372 à 377
+détecté   traduction altérée dans le rapport — rapport, §2 : 17 lignes égales au découpage, aux données, au journal et au bilan
+détecté   correction oubliée dans le rapport — rapport, §2 : 17 lignes égales au découpage, aux données, au journal et au bilan
+détecté   filtre ajouté au module sans le rapport — rapport, §6 : filtres décrits = filtres du module, dans l'ordre
+détecté   verdict glissé dans le rapport — aucun verdict ; aucune correction nouvelle
+détecté   statut arbitré — rapport en proposition, sans §0
+détecté   registre modifié — registre des tranches inchangé : F (F1, F2), suspendue
+détecté   A10 dévalidé — A10 validé le 2026-11-03 et inscrit au sommaire
+témoin sain : conforme
+17 sabotages détectés sur 17

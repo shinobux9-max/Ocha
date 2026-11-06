@@ -1,0 +1,20 @@
+conforme mesure.json : empreinte de la mesure prise en acte : a2-05-travail/arbitrage-F/mesure-couverture/mesure/mesure.json
+conforme mesure : 807 sens, 669 ENTRY, 234 candidats, 0 relu
+conforme découpage : 234 sens, aucun doublon : 234 sens, 234 distincts
+conforme découpage : aucune ENTRY coupée ni dans deux groupes : 195 ENTRY
+conforme filtres d'origine de chaque sens conservés, à l'identique
+conforme groupe A (indices textuels du temps 1) : 39 sens, 31 ENTRY, comme proposé : 39 sens, 31 ENTRY ; rattachés par leur ENTRY : 4
+conforme groupe B (décisions du journal (T2-journal)) : 18 sens, 15 ENTRY, comme proposé : 18 sens, 15 ENTRY ; rattachés par leur ENTRY : 0
+conforme groupe C (série (T2-serie)) : 3 sens, 2 ENTRY, comme proposé : 3 sens, 2 ENTRY ; rattachés par leur ENTRY : 0
+conforme groupe D (classe grammaticale (T2-classe)) : 53 sens, 40 ENTRY, comme proposé : 53 sens, 40 ENTRY ; rattachés par leur ENTRY : 0
+conforme groupe E (valeurs nulles (T2-nuls)) : 121 sens, 107 ENTRY, comme proposé : 121 sens, 107 ENTRY ; rattachés par leur ENTRY : 0
+conforme corrections retenues lues dans le bilan : 204 (10 du volet 2, 194 du §8), aucune appliquée : 204
+conforme A : toutes les fiches sources présentes (fiches fusionnées comprises) : 32 fiches
+conforme A : chaque fiche a son lot d'origine, validé : lot-00, lot-01, lot-02, lot-04, lot-05, lot-06, lot-07, lot-08, lot-09, lot-11, lot-16, lot-19, lot-20, lot-21, lot-22, lot-23, lot-24
+conforme A : les décisions citées par les lots sont toutes parmi celles du journal relevées pour l'ENTRY
+conforme A : toutes les décisions de journal des ENTRY sont validées : 76 décisions
+conforme A : sens publiés non candidats des ENTRY du groupe : hors des 234, non relevés : 0 sens : 
+info    A : sens candidats parmi les 377 du lot 3 (verdicts arbitrés, non rouverts) : v_116_s1 (B15), v_116_s2 (B4), v_120_s1 (C2), v_124_s1 (B5), v_175_s1 (B10), v_175_s2 (B2), v_240_s1 (B4), v_269_s1 (D1), v_392_s1 (D2), v_414_s1 (D3), v_414_s2 (D3), v_465_s1 (E1), v_511_s2 (B5), v_517_s1 (D8), v_517_s2 (A7), v_584_s1 (D7), v_584_s2 (D7), v_596_s1 (D7), v_638_s1 (D1), v_677_s1 (C2), v_688_s1 (D3), v_702_s1 (B3), v_718_s1 (B12), v_719_s1 (C4)
+info    A : ENTRY touchées par une correction retenue non appliquée : v_120 V2-65 (`nuance` (ENTRY)), V1-20 (`tags` (ENTRY)) ; v_175 V2-104 (`nuance` (sens 2)) ; v_240 V2-4 (`nuance` (ENTRY)) ; v_243 V2-109 (`nuance` (ENTRY)) ; v_269 V2-17 (`nuance` (ENTRY)) ; v_414 V2-132 (`nuance` (sens 2)) ; v_486 V2-160 (`nuance` (ENTRY)) ; v_503 volet 2, modification 10 (`category`) ; v_677 V2-71 (`nuance` (ENTRY)), V1-21 (`tags` (ENTRY)) ; v_688 V2-143 (`nuance` (sens 1))
+écrits : a2-05-travail/omissions-temps3/decoupage.json, a2-05-travail/omissions-temps3/perimetre-A.json, a2-05-travail/omissions-temps3/dossier-A.md
+préparation conforme ; aucun verdict

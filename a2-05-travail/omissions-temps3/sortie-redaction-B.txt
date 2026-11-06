@@ -1,0 +1,8 @@
+conforme périmètre : 18 sens, 15 ENTRY
+conforme une analyse par sens du périmètre, et aucune autre : 18 analyses
+conforme les 17 décisions du filtre T2-journal, chacune confrontée dans le R5 d'un sens de son ENTRY : 17 décisions
+conforme analyses complètes, conclusions admises ; décisions, livraisons et corrections citées exactes et complètes ; QB-4 traité
+conforme D0700 (どっち) : même phrase que D0672, ENTRY porteuse d'interrogatif
+conforme recueil : 15 fiches sources complètes, 45 anciens exemples : 15 fiches, 45 anciens exemples
+écrits : a2-05-travail/omissions-temps3/rapport-relecture-B.md, a2-05-travail/omissions-temps3/fiches-B.md
+rédaction conforme ; {"ne relève pas de la fonction":18,"relève de la fonction":0,"à arbitrer":0}

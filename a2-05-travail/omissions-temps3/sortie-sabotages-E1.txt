@@ -1,0 +1,49 @@
+Essais de sabotage de rediger-rapport-E1.mjs, sur copies jetables (scratchpad/e1/sab), 2026-11-05
+--- T0
+témoin sain
+rédaction conforme ; {"ne relève pas de la fonction":39,"relève de la fonction":0,"à arbitrer":0}
+code 0
+--- S1
+D0096 retirée du R5 de v_633_s1
+ÉCART    v_633 : décision de journal de l'ENTRY non citée : D0096
+ÉCART    analyses complètes, conclusions admises, groupes conformes ; décisions, corrections, verdicts du volet 2 et porteurs cités exacts et complets ; frontières demandées examinées ; relevés exacts
+ARRÊT : rien n'est écrit
+code 1 ; rien n'est écrit
+--- S2
+verdict du volet 2 faux pour v_687_s1 (C -> L)
+ÉCART    v_687_s1 : verdict du volet 2 non cité exactement en R5 : Volet 2 : verdict C
+ÉCART    analyses complètes, conclusions admises, groupes conformes ; décisions, corrections, verdicts du volet 2 et porteurs cités exacts et complets ; frontières demandées examinées ; relevés exacts
+ARRÊT : rien n'est écrit
+code 1 ; rien n'est écrit
+--- S3
+frontière de la valeur nulle retirée du R3 de v_46_s1
+ÉCART    v_46_s1 : frontière de la classe et de la valeur nulle (A10, §3, point 2 ; §5) non examinée en R3
+ÉCART    analyses complètes, conclusions admises, groupes conformes ; décisions, corrections, verdicts du volet 2 et porteurs cités exacts et complets ; frontières demandées examinées ; relevés exacts
+ARRÊT : rien n'est écrit
+code 1 ; rien n'est écrit
+--- S4
+porteur cité faux dans le R2 de v_633_s1 (v_397 -> v_403)
+ÉCART    v_633_s1 : porteur cité sans la fonction : v_403
+ÉCART    analyses complètes, conclusions admises, groupes conformes ; décisions, corrections, verdicts du volet 2 et porteurs cités exacts et complets ; frontières demandées examinées ; relevés exacts
+ARRÊT : rien n'est écrit
+code 1 ; rien n'est écrit
+--- S5
+groupe faux pour v_686_s1 (b -> a)
+ÉCART    v_686_s1 : groupe de lecture non conforme à son ENTRY : a / b
+ÉCART    analyses complètes, conclusions admises, groupes conformes ; décisions, corrections, verdicts du volet 2 et porteurs cités exacts et complets ; frontières demandées examinées ; relevés exacts
+ARRÊT : rien n'est écrit
+code 1 ; rien n'est écrit
+--- S6
+question de 時計 retirée du R2 de v_671_s1
+ÉCART    relevé : phrase non citée dans le R2 de son ENTRY : n5_v_671 · ancien exemple 2
+ÉCART    analyses complètes, conclusions admises, groupes conformes ; décisions, corrections, verdicts du volet 2 et porteurs cités exacts et complets ; frontières demandées examinées ; relevés exacts
+ARRÊT : rien n'est écrit
+code 1 ; rien n'est écrit
+--- S7
+frontière de l'information désignée retirée du R3 de v_667_s1
+ÉCART    v_667_s1 : nom de personne, frontière de l'information désignée et de l'information demandée (A10, §2) examinée en R3
+ÉCART    analyses complètes, conclusions admises, groupes conformes ; décisions, corrections, verdicts du volet 2 et porteurs cités exacts et complets ; frontières demandées examinées ; relevés exacts
+ARRÊT : rien n'est écrit
+code 1 ; rien n'est écrit
+
+bilan : 8 sur 8 conformes à l'attendu (témoin à 0, chaque sabotage à 1 sans écriture)

@@ -10,6 +10,6 @@
   { "id": "T7", "livraisons": ["D1", "D4"], "statut": "planifiée" },
   { "id": "T8", "livraisons": ["D5", "D8"], "statut": "planifiée" },
   { "id": "T9", "livraisons": ["E1", "E2", "E3"], "statut": "planifiée" },
-  { "id": "F", "livraisons": ["F1", "F2"], "statut": "suspendue", "condition": "suspendue au préalable E5" }
+  { "id": "F", "livraisons": ["F1", "F2"], "livraison": "F", "statut": "planifiée", "condition": "périmètre opérationnel accepté le 2026-11-03 : une seule livraison F, un seul rapport d'audit ; audit ouvert sur autorisation distincte" }
  ]
 }

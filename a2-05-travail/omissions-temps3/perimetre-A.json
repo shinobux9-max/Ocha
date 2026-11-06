@@ -1,0 +1,2133 @@
+{
+ "objet": "Dossier factuel du groupe A, non arbitré ; aucun verdict",
+ "sens": [
+  {
+   "id": "v_116_s1",
+   "entry": "v_116",
+   "rang": 22,
+   "filtres": [
+    "T1-radicaux",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_116_s2",
+   "entry": "v_116",
+   "rang": 23,
+   "filtres": [
+    "T1-radicaux",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_120_s1",
+   "entry": "v_120",
+   "rang": 24,
+   "filtres": [
+    "T1-point"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_124_s1",
+   "entry": "v_124",
+   "rang": 25,
+   "filtres": [
+    "T1-radicaux"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_174_s1",
+   "entry": "v_174",
+   "rang": 30,
+   "filtres": [
+    "T1-radicaux",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_175_s1",
+   "entry": "v_175",
+   "rang": 31,
+   "filtres": [
+    "T1-radicaux",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_175_s2",
+   "entry": "v_175",
+   "rang": 32,
+   "filtres": [
+    "T1-radicaux",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_240_s1",
+   "entry": "v_240",
+   "rang": 39,
+   "filtres": [
+    "T1-radicaux"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_243_s1",
+   "entry": "v_243",
+   "rang": 40,
+   "filtres": [
+    "T1-point"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_269_s1",
+   "entry": "v_269",
+   "rang": 43,
+   "filtres": [
+    "T1-mots"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_392_s1",
+   "entry": "v_392",
+   "rang": 57,
+   "filtres": [
+    "T1-mots",
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_414_s1",
+   "entry": "v_414",
+   "rang": 70,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "rattaché par son ENTRY"
+  },
+  {
+   "id": "v_414_s2",
+   "entry": "v_414",
+   "rang": 71,
+   "filtres": [
+    "T1-point",
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_444_s1",
+   "entry": "v_444",
+   "rang": 85,
+   "filtres": [
+    "T1-mots"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_465_s1",
+   "entry": "v_465",
+   "rang": 97,
+   "filtres": [
+    "T1-mots"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_486_s1",
+   "entry": "v_486",
+   "rang": 103,
+   "filtres": [
+    "T1-radicaux",
+    "T2-nuls",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_503_s1",
+   "entry": "v_503",
+   "rang": 119,
+   "filtres": [
+    "T1-radicaux",
+    "T2-classe",
+    "T2-nuls",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_510_s1",
+   "entry": "v_510",
+   "rang": 127,
+   "filtres": [
+    "T1-point",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_511_s1",
+   "entry": "v_511",
+   "rang": 128,
+   "filtres": [
+    "T1-radicaux",
+    "T2-nuls",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_511_s2",
+   "entry": "v_511",
+   "rang": 129,
+   "filtres": [
+    "T1-radicaux",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_517_s1",
+   "entry": "v_517",
+   "rang": 135,
+   "filtres": [
+    "T1-point",
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_517_s2",
+   "entry": "v_517",
+   "rang": 136,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "rattaché par son ENTRY"
+  },
+  {
+   "id": "v_542_s1",
+   "entry": "v_542",
+   "rang": 157,
+   "filtres": [
+    "T1-point",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_542_s2",
+   "entry": "v_542",
+   "rang": 158,
+   "filtres": [
+    "T2-nuls"
+   ],
+   "motif": "rattaché par son ENTRY"
+  },
+  {
+   "id": "v_584_s1",
+   "entry": "v_584",
+   "rang": 181,
+   "filtres": [
+    "T1-radicaux",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_584_s2",
+   "entry": "v_584",
+   "rang": 182,
+   "filtres": [
+    "T1-radicaux",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_596_s1",
+   "entry": "v_596",
+   "rang": 183,
+   "filtres": [
+    "T1-mots"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_605_s1",
+   "entry": "v_605",
+   "rang": 188,
+   "filtres": [
+    "T1-point",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_638_s1",
+   "entry": "v_638",
+   "rang": 200,
+   "filtres": [
+    "T1-point"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_651_s1",
+   "entry": "v_651",
+   "rang": 206,
+   "filtres": [
+    "T1-point"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_664_s1",
+   "entry": "v_664",
+   "rang": 209,
+   "filtres": [
+    "T1-point"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_664_s2",
+   "entry": "v_664",
+   "rang": 210,
+   "filtres": [
+    "T2-nuls"
+   ],
+   "motif": "rattaché par son ENTRY"
+  },
+  {
+   "id": "v_677_s1",
+   "entry": "v_677",
+   "rang": 216,
+   "filtres": [
+    "T1-radicaux"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_688_s1",
+   "entry": "v_688",
+   "rang": 221,
+   "filtres": [
+    "T1-mots",
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_700_s1",
+   "entry": "v_700",
+   "rang": 226,
+   "filtres": [
+    "T1-radicaux",
+    "T1-point",
+    "T1-mots",
+    "T2-classe",
+    "T2-nuls",
+    "T2-serie",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_702_s1",
+   "entry": "v_702",
+   "rang": 227,
+   "filtres": [
+    "T1-radicaux",
+    "T2-journal"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_703_s1",
+   "entry": "v_703",
+   "rang": 228,
+   "filtres": [
+    "T1-point"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_718_s1",
+   "entry": "v_718",
+   "rang": 233,
+   "filtres": [
+    "T1-radicaux"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_719_s1",
+   "entry": "v_719",
+   "rang": 234,
+   "filtres": [
+    "T1-radicaux"
+   ],
+   "motif": "filtre propre au groupe"
+  }
+ ],
+ "entrees": [
+  {
+   "entry": "v_116",
+   "mot": "頼む",
+   "classe": "verbe",
+   "fiches": [
+    {
+     "id": "n5_v_116",
+     "presente": true,
+     "lot": "lot-19",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1276",
+      "A2-04-D1277",
+      "A2-04-D1278",
+      "A2-04-D1609",
+      "A2-04-D1610"
+     ],
+     "categorie": "actions_generiques",
+     "sousCategorie": "actions_objets",
+     "type": "verbe godan",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_116_s1",
+     "traduction": "Demander",
+     "categorie": "relations_sociales › interactions_sociales",
+     "type": "action",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "B15"
+    },
+    {
+     "id": "v_116_s2",
+     "traduction": "Commander (un plat au restaurant)",
+     "categorie": "economie_commerce › achat_vente › commande",
+     "type": "action",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "B4"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1276",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": true
+    },
+    {
+     "id": "A2-04-D1277",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": true
+    },
+    {
+     "id": "A2-04-D1278",
+     "statut": "validated",
+     "champ": "readings",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1609",
+     "statut": "validated",
+     "champ": "entrée",
+     "nature": "decision",
+     "vocabulaireQuestion": true
+    },
+    {
+     "id": "A2-04-D1610",
+     "statut": "validated",
+     "champ": "readings",
+     "nature": "correction",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_120",
+   "mot": "飲み物",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_120",
+     "presente": true,
+     "lot": "lot-02",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0186"
+     ],
+     "categorie": "nourriture_boissons",
+     "sousCategorie": "boissons",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_120_s1",
+     "traduction": "Boisson",
+     "categorie": "alimentation_cuisine › boissons",
+     "type": "substance_matiere",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "C2"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0186",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-65 (`nuance` (ENTRY))",
+    "V1-20 (`tags` (ENTRY))"
+   ]
+  },
+  {
+   "entry": "v_124",
+   "mot": "テスト",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_124",
+     "presente": true,
+     "lot": "lot-06",
+     "statutLot": "validated",
+     "journalCite": [],
+     "categorie": "ecole_apprentissage",
+     "sousCategorie": "cours",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_124_s1",
+     "traduction": "Examen",
+     "categorie": "education_apprentissage › evaluation_scolaire › examens",
+     "type": "evenement",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "B5"
+    }
+   ],
+   "decisions": [],
+   "corrections": []
+  },
+  {
+   "entry": "v_174",
+   "mot": "答える",
+   "classe": "verbe",
+   "fiches": [
+    {
+     "id": "n5_v_174",
+     "presente": true,
+     "lot": "lot-08",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0510"
+     ],
+     "categorie": "communication",
+     "sousCategorie": "conversation",
+     "type": "verbe ichidan",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_174_s1",
+     "traduction": "Répondre",
+     "categorie": "communication_langage › parole_conversation › reponse",
+     "type": "action",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0510",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": true
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_175",
+   "mot": "聞く",
+   "classe": "verbe",
+   "fiches": [
+    {
+     "id": "n5_v_175",
+     "presente": true,
+     "lot": "lot-08",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0509"
+     ],
+     "categorie": "communication",
+     "sousCategorie": "conversation",
+     "type": "verbe godan",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_175_s1",
+     "traduction": "Écouter",
+     "categorie": "etre_humain › sens_perception › ouie",
+     "type": "action",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "B10"
+    },
+    {
+     "id": "v_175_s2",
+     "traduction": "Demander",
+     "categorie": "communication_langage › parole_conversation › question",
+     "type": "action",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "B2"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0509",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": true
+    }
+   ],
+   "corrections": [
+    "V2-104 (`nuance` (sens 2))"
+   ]
+  },
+  {
+   "entry": "v_240",
+   "mot": "交番",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_240",
+     "presente": true,
+     "lot": "lot-04",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0315",
+      "A2-04-D0316"
+     ],
+     "categorie": "maison_quotidien",
+     "sousCategorie": "batiments",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_240_s1",
+     "traduction": "Poste de police",
+     "categorie": "droit_justice › application_de_la_loi › police",
+     "type": "lieu",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "B4"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0315",
+     "statut": "validated",
+     "champ": "tags",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0316",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-4 (`nuance` (ENTRY))"
+   ]
+  },
+  {
+   "entry": "v_243",
+   "mot": "国",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_243",
+     "presente": true,
+     "lot": "lot-09",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0568",
+      "A2-04-D0569",
+      "A2-04-D0570"
+     ],
+     "categorie": "maison_quotidien",
+     "sousCategorie": "ville",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_243_s1",
+     "traduction": "Pays",
+     "categorie": "territoires_lieux_geographiques › pays_territoires › pays",
+     "type": "lieu",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0568",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0569",
+     "statut": "validated",
+     "champ": "tags",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0570",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-109 (`nuance` (ENTRY))"
+   ]
+  },
+  {
+   "entry": "v_269",
+   "mot": "天気",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_269",
+     "presente": true,
+     "lot": "lot-07",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0461",
+      "A2-04-D0462"
+     ],
+     "categorie": "meteo_saisons",
+     "sousCategorie": "meteo",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_269_s1",
+     "traduction": "Temps (qu'il fait)",
+     "categorie": "monde_naturel › meteo › conditions_atmospheriques",
+     "type": "etat",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "D1"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0461",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0462",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "correction",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-17 (`nuance` (ENTRY))"
+   ]
+  },
+  {
+   "entry": "v_392",
+   "mot": "そこ",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_392",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0646",
+      "A2-04-D0647",
+      "A2-04-D0648"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_lieux",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_392_s1",
+     "traduction": "Là",
+     "categorie": "espace_proprietes_spatiales › position_localisation",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatA": true,
+     "lot3": "D2"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0646",
+     "statut": "validated",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0647",
+     "statut": "validated",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0648",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_414",
+   "mot": "そっち",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_414",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0690",
+      "A2-04-D0691",
+      "A2-04-D0692"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_direction",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_414_s1",
+     "traduction": "Par là",
+     "categorie": "espace_proprietes_spatiales › direction_orientation › orientation",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatA": true,
+     "lot3": "D3"
+    },
+    {
+     "id": "v_414_s2",
+     "traduction": "Toi, ton camp",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatA": true,
+     "lot3": "D3"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0690",
+     "statut": "validated",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0691",
+     "statut": "validated",
+     "champ": "sens 2 · semantic_type",
+     "nature": "type-nul",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0692",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-132 (`nuance` (sens 2))"
+   ]
+  },
+  {
+   "entry": "v_444",
+   "mot": "好き",
+   "classe": "adjectif_na",
+   "fiches": [
+    {
+     "id": "n5_v_444",
+     "presente": true,
+     "lot": "lot-16",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1076",
+      "A2-04-D1077",
+      "A2-04-D1078"
+     ],
+     "categorie": "descriptions_qualites",
+     "sousCategorie": "sentiment",
+     "type": "adjectif en na",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_444_s1",
+     "traduction": "Aimer",
+     "categorie": "etre_humain › psychologie_esprit › preferences",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1076",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1077",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1078",
+     "statut": "validated",
+     "champ": "nuance",
+     "nature": "correction",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_465",
+   "mot": "痛い",
+   "classe": "adjectif_i",
+   "fiches": [
+    {
+     "id": "n5_v_465",
+     "presente": true,
+     "lot": "lot-01",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0139"
+     ],
+     "categorie": "corps_sante",
+     "sousCategorie": "etat_sante",
+     "type": "adjectif en i",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_465_s1",
+     "traduction": "Douloureux",
+     "categorie": "sante_medecine › symptomes_douleur › douleur",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "E1"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0139",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_486",
+   "mot": "難しい",
+   "classe": "adjectif_i",
+   "fiches": [
+    {
+     "id": "n5_v_486",
+     "presente": true,
+     "lot": "lot-16",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1094",
+      "A2-04-D1095",
+      "A2-04-D1096"
+     ],
+     "categorie": "descriptions_qualites",
+     "sousCategorie": "competence",
+     "type": "adjectif en i",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_486_s1",
+     "traduction": "Difficile",
+     "categorie": "null",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1094",
+     "statut": "validated",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1095",
+     "statut": "validated",
+     "champ": "sens 1 · dimensions",
+     "nature": "decision",
+     "vocabulaireQuestion": true
+    },
+    {
+     "id": "A2-04-D1096",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-160 (`nuance` (ENTRY))"
+   ]
+  },
+  {
+   "entry": "v_503",
+   "mot": "もう一度",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_503",
+     "presente": true,
+     "lot": "lot-21",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1383",
+      "A2-04-D1384",
+      "A2-04-D1385"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "frequence",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_503_s1",
+     "traduction": "Encore une fois",
+     "categorie": "null",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1383",
+     "statut": "validated",
+     "champ": "readings",
+     "nature": "correction",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1384",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": true
+    },
+    {
+     "id": "A2-04-D1385",
+     "statut": "validated",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "volet 2, modification 10 (`category`)"
+   ]
+  },
+  {
+   "entry": "v_510",
+   "mot": "本当",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_510",
+     "presente": true,
+     "lot": "lot-00",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0008",
+      "A2-04-D0044",
+      "A2-04-D0068"
+     ],
+     "categorie": "abstrait",
+     "sousCategorie": "verite",
+     "type": "nom",
+     "anciensExemples": 3
+    },
+    {
+     "id": "n5_v_514",
+     "presente": true,
+     "lot": "lot-00",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0008"
+     ],
+     "categorie": "abstrait",
+     "sousCategorie": "verite",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_510_s1",
+     "traduction": "Vérité",
+     "categorie": "null",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0008",
+     "statut": "validated",
+     "champ": "entrée",
+     "nature": "fusion",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0044",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0068",
+     "statut": "validated",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_511",
+   "mot": "問題",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_511",
+     "presente": true,
+     "lot": "lot-20",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1358",
+      "A2-04-D1359",
+      "A2-04-D1360"
+     ],
+     "categorie": "abstrait",
+     "sousCategorie": "concept",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_511_s1",
+     "traduction": "Problème",
+     "categorie": "null",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    },
+    {
+     "id": "v_511_s2",
+     "traduction": "Question (d'examen)",
+     "categorie": "education_apprentissage › evaluation_scolaire › examens",
+     "type": "information_contenu",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "B5"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1358",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": true
+    },
+    {
+     "id": "A2-04-D1359",
+     "statut": "validated",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1360",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": true
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_517",
+   "mot": "一番",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_517",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1555",
+      "A2-04-D1556",
+      "A2-04-D1557",
+      "A2-04-D1558",
+      "A2-04-D1559"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "superlatif",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_517_s1",
+     "traduction": "Le plus",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "comparatif"
+     ],
+     "candidatA": true,
+     "lot3": "D8"
+    },
+    {
+     "id": "v_517_s2",
+     "traduction": "Numéro un",
+     "categorie": "nombres_quantification › nombres › ordinaux",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "A7"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1555",
+     "statut": "validated",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1556",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1557",
+     "statut": "validated",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1558",
+     "statut": "validated",
+     "champ": "sens 2 · linguistic_functions",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1559",
+     "statut": "validated",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_542",
+   "mot": "吸う",
+   "classe": "verbe",
+   "fiches": [
+    {
+     "id": "n5_v_542",
+     "presente": true,
+     "lot": "lot-19",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1291",
+      "A2-04-D1292",
+      "A2-04-D1293"
+     ],
+     "categorie": "actions_generiques",
+     "sousCategorie": "consommation",
+     "type": "verbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_542_s1",
+     "traduction": "Fumer",
+     "categorie": "null",
+     "type": "action",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    },
+    {
+     "id": "v_542_s2",
+     "traduction": "Aspirer",
+     "categorie": "null",
+     "type": "action",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1291",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1292",
+     "statut": "validated",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1293",
+     "statut": "validated",
+     "champ": "sens 2 · category",
+     "nature": "categorie-nulle",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_584",
+   "mot": "いいえ",
+   "classe": "interjection",
+   "fiches": [
+    {
+     "id": "n5_v_584",
+     "presente": true,
+     "lot": "lot-23",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1493",
+      "A2-04-D1494",
+      "A2-04-D1495",
+      "A2-04-D1496",
+      "A2-04-D1497",
+      "A2-04-D1498",
+      "A2-04-D1499",
+      "A2-04-D1602",
+      "A2-04-D1603"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "politesse",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_584_s1",
+     "traduction": "Non",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "discours"
+     ],
+     "candidatA": true,
+     "lot3": "D7"
+    },
+    {
+     "id": "v_584_s2",
+     "traduction": "De rien",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "politesse"
+     ],
+     "candidatA": true,
+     "lot3": "D7"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1493",
+     "statut": "validated",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1494",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": true
+    },
+    {
+     "id": "A2-04-D1495",
+     "statut": "validated",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1496",
+     "statut": "validated",
+     "champ": "sens 2 · linguistic_functions",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1497",
+     "statut": "validated",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1498",
+     "statut": "validated",
+     "champ": "sens 2 · semantic_type",
+     "nature": "type-nul",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1499",
+     "statut": "validated",
+     "champ": "nuance",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1602",
+     "statut": "validated",
+     "champ": "entrée",
+     "nature": "decision",
+     "vocabulaireQuestion": true
+    },
+    {
+     "id": "A2-04-D1603",
+     "statut": "validated",
+     "champ": "sens 1 · relations",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_596",
+   "mot": "そうして",
+   "classe": "conjonction",
+   "fiches": [
+    {
+     "id": "n5_v_596",
+     "presente": true,
+     "lot": "lot-23",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1450",
+      "A2-04-D1451",
+      "A2-04-D1452",
+      "A2-04-D1453",
+      "A2-04-D1454"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "liaison",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_596_s1",
+     "traduction": "Et puis",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "connecteur"
+     ],
+     "candidatA": true,
+     "lot3": "D7"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1450",
+     "statut": "validated",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1451",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1452",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1453",
+     "statut": "validated",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1454",
+     "statut": "validated",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_605",
+   "mot": "他",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_605",
+     "presente": true,
+     "lot": "lot-22",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1425",
+      "A2-04-D1426",
+      "A2-04-D1427",
+      "A2-04-D1428",
+      "A2-04-D1429"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "alternance",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_605_s1",
+     "traduction": "Autre",
+     "categorie": "null",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1425",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1426",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1427",
+     "statut": "validated",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1428",
+     "statut": "validated",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1429",
+     "statut": "validated",
+     "champ": "nuance",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_638",
+   "mot": "兄弟",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_638",
+     "presente": true,
+     "lot": "lot-01",
+     "statutLot": "validated",
+     "journalCite": [],
+     "categorie": "personnes_famille",
+     "sousCategorie": "famille",
+     "type": "nom",
+     "anciensExemples": 4
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_638_s1",
+     "traduction": "Frères et sœurs",
+     "categorie": "relations_sociales › famille_parente › fratrie",
+     "type": "groupe_collectif",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "D1"
+    }
+   ],
+   "decisions": [],
+   "corrections": []
+  },
+  {
+   "entry": "v_651",
+   "mot": "名前",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_651",
+     "presente": true,
+     "lot": "lot-08",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0515",
+      "A2-04-D0516"
+     ],
+     "categorie": "ecole_apprentissage",
+     "sousCategorie": "identification",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_651_s1",
+     "traduction": "Nom",
+     "categorie": "communication_langage",
+     "type": "information_contenu",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0515",
+     "statut": "validated",
+     "champ": "category",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0516",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_664",
+   "mot": "所",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_664",
+     "presente": true,
+     "lot": "lot-20",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1354",
+      "A2-04-D1355"
+     ],
+     "categorie": "abstrait",
+     "sousCategorie": "lieu",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_664_s1",
+     "traduction": "Endroit",
+     "categorie": "espace_proprietes_spatiales › position_localisation",
+     "type": "lieu",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    },
+    {
+     "id": "v_664_s2",
+     "traduction": "Partie",
+     "categorie": "null",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1354",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1355",
+     "statut": "validated",
+     "champ": "sens 2 · category",
+     "nature": "categorie-nulle",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_677",
+   "mot": "水",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_677",
+     "presente": true,
+     "lot": "lot-02",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0178"
+     ],
+     "categorie": "nourriture_boissons",
+     "sousCategorie": "boisson",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_677_s1",
+     "traduction": "Eau",
+     "categorie": "alimentation_cuisine › boissons › eau",
+     "type": "substance_matiere",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "C2"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0178",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-71 (`nuance` (ENTRY))",
+    "V1-21 (`tags` (ENTRY))"
+   ]
+  },
+  {
+   "entry": "v_688",
+   "mot": "私",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_688",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0725",
+      "A2-04-D0726"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "pronom",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_688_s1",
+     "traduction": "Je",
+     "categorie": "null",
+     "type": "personne",
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatA": true,
+     "lot3": "D3"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0725",
+     "statut": "validated",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0726",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-143 (`nuance` (sens 1))"
+   ]
+  },
+  {
+   "entry": "v_700",
+   "mot": "誰か",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_700",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0724"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "pronom",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_700_s1",
+     "traduction": "Quelqu'un",
+     "categorie": "null",
+     "type": "personne",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0724",
+     "statut": "validated",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "vocabulaireQuestion": true
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_702",
+   "mot": "質問",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_702",
+     "presente": true,
+     "lot": "lot-08",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0511",
+      "A2-04-D0512"
+     ],
+     "categorie": "ecole_apprentissage",
+     "sousCategorie": "communication",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_702_s1",
+     "traduction": "Question",
+     "categorie": "communication_langage › parole_conversation › question",
+     "type": "information_contenu",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "B3"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0511",
+     "statut": "validated",
+     "champ": "suru_compatible",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0512",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "abandon",
+     "vocabulaireQuestion": true
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_703",
+   "mot": "辺",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "n5_v_703",
+     "presente": true,
+     "lot": "lot-20",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1356",
+      "A2-04-D1357"
+     ],
+     "categorie": "abstrait",
+     "sousCategorie": "lieu",
+     "type": "nom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_703_s1",
+     "traduction": "Environs",
+     "categorie": "espace_proprietes_spatiales › distance_proximite › proximite",
+     "type": "lieu",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1356",
+     "statut": "validated",
+     "champ": "suffix",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1357",
+     "statut": "validated",
+     "champ": "senses",
+     "nature": "decision",
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_718",
+   "mot": "レジ袋",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "hj_v_1",
+     "presente": true,
+     "lot": "lot-05",
+     "statutLot": "validated",
+     "journalCite": [],
+     "categorie": "achats_argent",
+     "sousCategorie": "commerce",
+     "type": "nom",
+     "anciensExemples": 0
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_718_s1",
+     "traduction": "Sac de caisse",
+     "categorie": "habillement_accessoires_personnels › sacs_contenants_personnels › sacs",
+     "type": "objet_artefact",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "B12"
+    }
+   ],
+   "decisions": [],
+   "corrections": []
+  },
+  {
+   "entry": "v_719",
+   "mot": "ポイントカード",
+   "classe": "nom",
+   "fiches": [
+    {
+     "id": "hj_v_2",
+     "presente": true,
+     "lot": "lot-05",
+     "statutLot": "validated",
+     "journalCite": [],
+     "categorie": "achats_argent",
+     "sousCategorie": "commerce",
+     "type": "nom",
+     "anciensExemples": 0
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_719_s1",
+     "traduction": "Carte de fidélité",
+     "categorie": "economie_commerce › marketing_promotion",
+     "type": "objet_artefact",
+     "fonctions": [],
+     "candidatA": true,
+     "lot3": "C4"
+    }
+   ],
+   "decisions": [],
+   "corrections": []
+  }
+ ]
+}

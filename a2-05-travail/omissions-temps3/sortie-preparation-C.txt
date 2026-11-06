@@ -1,0 +1,15 @@
+conforme découpage accepté et mesure prise en acte, à leurs empreintes
+conforme groupe C : 3 sens, 2 ENTRY : 3 sens, 2 ENTRY
+conforme groupe C : chaque sens porte T2-serie, aucun ne porte un filtre du temps 1 ni T2-journal
+conforme filtres d'origine identiques à la mesure
+conforme aucune ENTRY du groupe C dans un autre groupe
+conforme les autres sens relevés par T2-serie sont dans un groupe antérieur (règle de priorité) : v_600_s1 どうぞ, v_700_s1 誰か
+conforme corrections retenues lues dans le bilan : 204 : 204
+conforme C : chaque ENTRY a au moins un porteur dont une forme est contenue dans ses graphies (motif de T2-serie) : いつも ⊃ いつ (v_391) ; どうも ⊃ どう (v_393)
+conforme C : toutes les fiches présentes, chacune dans un lot validé : 2 fiches
+conforme C : chaque ENTRY a des décisions de journal, toutes validées : 7 décisions
+conforme C : les décisions citées par l'entrée de lot sont celles du journal pour cette fiche
+conforme C : aucun sens de ces ENTRY ne porte la fonction
+conforme C : tous les sens publiés de ces ENTRY sont candidats : aucun hors candidats
+écrits : a2-05-travail/omissions-temps3/perimetre-C.json, a2-05-travail/omissions-temps3/dossier-C.md
+préparation conforme ; aucun verdict

@@ -1,0 +1,392 @@
+{
+ "v_116_s1": {
+  "indice": "« demander » : traduction principale de la fiche et du sens (« Demander »), et nuance de la fiche (« demander un service ») ; décisions D1276, D1277 et D1609 qui la citent.",
+  "r1": "Non. Le sens est la requête d'un service (« demander un service à quelqu'un ») : il désigne l'acte de solliciter, il ne tient la place d'aucune information non spécifiée.",
+  "r2": "Non. La fiche dit « demander un service, faire une prière » ; l'ancien exemple « 人に頼んでください » est une requête. Rien n'atteste un emploi où 頼む demande une information.",
+  "r3": "Oui : un verbe qui nomme l'acte de demander est un sens lexical (A10, §4, point 4) ; ici, de surcroît, la demande est une requête, non une question.",
+  "r4": "Sans objet (R1 et R2 négatives).",
+  "r5": "D1276 (deux sens), D1277 (« prier » non développé) et D1609 (réouverture pour les furigana) emploient « demander » au sens de la requête ; aucune ne porte sur la fonction. Elles s'accordent avec la définition. Verdict du lot 3 (B15) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens nomme une requête de service ; il ne demande aucune information non spécifiée (A10, §2 ; §4, point 4)."
+ },
+ "v_116_s2": {
+  "indice": "« demander » dans la nuance de la fiche, commune aux deux sens ; décisions D1276, D1277, D1609.",
+  "r1": "Non. Passer une commande au restaurant est une requête d'un plat ou d'une boisson, non une question.",
+  "r2": "Non. L'exemple et deux anciens exemples (定食を頼みました, タクシーを頼んで) disent une commande.",
+  "r3": "Oui, par analogie avec A10, §4, point 4 : le sens nomme un acte (commander), sans tenir la place d'une information demandée.",
+  "r4": "Sans objet.",
+  "r5": "Mêmes décisions que le sens 1 ; aucune ne porte sur la fonction. Verdict du lot 3 (B4) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens nomme l'acte de commander ; aucun rôle interrogatif n'est modélisé ni attesté."
+ },
+ "v_120_s1": {
+  "indice": "Point d'interrogation dans la nuance publiée de l'ENTRY : « 飲み物は？ : et comme boisson ? (au restaurant) ».",
+  "r1": "Non. Le sens désigne une boisson, un référent concret.",
+  "r2": "Non. La question citée en nuance est formée par la particule は et l'intonation (飲み物は？) : 飲み物 y est le thème de la question, non le mot qui en tient la place. La fiche ne mentionne aucun emploi interrogatif.",
+  "r3": "Oui : la question est portée par une marque grammaticale (A10, §4, point 5) ; une traduction contextuelle en forme de question ne suffit pas (§3, point 1).",
+  "r4": "Sans objet.",
+  "r5": "D0186 (abandon de « Liquide buvable ») ne porte pas sur la fonction. Corrections retenues non appliquées : V2-65 (nuance de l'ENTRY, provenance) et V1-20 (tags), lues, non rouvertes. Verdict du lot 3 (C2) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom concret ; la question de la nuance est portée par は et l'intonation, non par le mot (A10, §3, point 1 ; §4, point 5)."
+ },
+ "v_124_s1": {
+  "indice": "Radical « interrog » : alternative publiée « Interrogation » et traduction de la fiche « Interrogation écrite ».",
+  "r1": "Non. « Interrogation » est ici l'épreuve scolaire (un test), non l'acte d'interroger.",
+  "r2": "Non. La fiche dit « un examen scolaire ou une évaluation » ; l'exemple et les anciens exemples parlent d'un test de japonais ou de kanji.",
+  "r3": "Oui : un nom qui désigne une épreuve, même appelée « interrogation », nomme un objet de l'école ; il n'interroge pas (A10, §4, point 4, par analogie).",
+  "r4": "Sans objet.",
+  "r5": "Aucune décision de journal (ENTRY décidée au lot 06, journal vide). D0512 (質問) relève qu'« une interrogation scolaire se dit テスト », ce qui confirme le sens d'épreuve. Verdict du lot 3 (B5) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "« Interrogation » y nomme une épreuve scolaire ; le sens est un événement, sans rôle interrogatif."
+ },
+ "v_174_s1": {
+  "indice": "Radical « question » : traduction de la fiche « Donner une réponse (à une question) », nuance de la fiche ; décision D0510.",
+  "r1": "Non. Répondre est l'acte inverse : fournir l'information demandée, non la demander.",
+  "r2": "Non. La fiche dit « donner une réponse à une question ou à un problème » ; l'exemple et les anciens exemples (質問に答えます) disent la réponse.",
+  "r3": "Oui, par analogie avec A10, §4, point 4 : le verbe nomme un acte de l'échange (répondre), sens lexical du domaine de la communication.",
+  "r4": "Sans objet.",
+  "r5": "D0510 (« Redondant », abandon de la traduction « Donner une réponse (à une question) ») ne porte pas sur la fonction ; elle s'accorde avec la définition.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le verbe nomme l'acte de répondre ; il ne demande rien."
+ },
+ "v_175_s1": {
+  "indice": "Radicaux « demand » et « question » dans la fiche, commune aux deux sens (« demander (une question) ») ; décision D0509.",
+  "r1": "Non. Le sens est la perception auditive (écouter, entendre).",
+  "r2": "Non. L'exemple et deux anciens exemples disent l'écoute (ラジオを聞く, 話を聞く).",
+  "r3": "Sans objet pour ce sens : l'indice vient du sens 2 de la même fiche.",
+  "r4": "Sans objet.",
+  "r5": "D0509 sépare « percevoir un son » et « poser une question » ; elle ne porte pas sur la fonction et s'accorde avec la définition. Verdict du lot 3 (B10) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Sens de perception ; l'indice textuel appartient au sens 2 de la même fiche."
+ },
+ "v_175_s2": {
+  "indice": "Traduction principale « Demander », alternative « Poser une question », fiche « Demander (une question ou une information) » ; décision D0509.",
+  "r1": "Non. Le sens est l'acte de poser une question à quelqu'un : il désigne la demande, il ne tient pas lui-même la place de l'information demandée.",
+  "r2": "La fiche atteste l'acte (« demander (une question) », « lorsqu'on pose une question à quelqu'un ») ; l'ancien exemple (おまわりさんに道を聞きました) montre un verbe dont l'objet est ce que l'on demande (道), sans qu'il en tienne la place.",
+  "r3": "Oui : A10, §4, point 4, nomme précisément 聞く « demander » : « un sens qui désigne l'acte de demander […] est un sens lexical : il a sa catégorie et son type, et ne porte pas la fonction ».",
+  "r4": "Sans objet.",
+  "r5": "D0509 (deux sens, « poser une question à quelqu'un (に) ») ne porte pas sur la fonction ; elle s'accorde avec la définition. Verdict du lot 3 (B2, conforme sur la catégorie et le type) cité, non rouvert. Correction retenue V2-104 (nuance du sens 2), lue, non appliquée.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le verbe nomme l'acte de demander : frontière expresse d'A10, §4, point 4, qui cite ce sens."
+ },
+ "v_240_s1": {
+  "indice": "Radical « demand » dans la nuance publiée de l'ENTRY (« où l'on demande aussi son chemin »).",
+  "r1": "Non. Le sens désigne un lieu, le petit poste de police de quartier.",
+  "r2": "Non. La demande de chemin est ce que l'on fait au 交番 (l'exemple le montre aussi) ; elle n'est pas le sens du mot.",
+  "r3": "Sans objet : aucun lien du mot avec l'acte d'interroger, sinon l'usage du lieu.",
+  "r4": "Sans objet.",
+  "r5": "D0315 (tags) et D0316 (abandons) ne portent pas sur la fonction. Correction retenue V2-4 (nuance de l'ENTRY), lue, non appliquée. Verdict du lot 3 (B4) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom de lieu ; « demander » ne décrit qu'un usage du lieu."
+ },
+ "v_243_s1": {
+  "indice": "Point d'interrogation dans la nuance publiée de l'ENTRY : « お国はどちらですか, d'où venez-vous ? ».",
+  "r1": "Non. Le sens désigne un pays.",
+  "r2": "Non. Dans お国はどちらですか, l'interrogatif est どちら (porteur de la fonction) ; 国 est le thème de la question.",
+  "r3": "Sans objet : le mot n'est pas interrogatif ; la question repose sur un autre mot.",
+  "r4": "Sans objet.",
+  "r5": "D0568 à D0570 ne portent pas sur la fonction. Correction retenue V2-109 (nuance de l'ENTRY), lue, non appliquée.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom de pays ; la question citée en nuance est portée par どちら."
+ },
+ "v_269_s1": {
+  "indice": "Forme « qu' » dans la traduction « Temps (qu'il fait) ».",
+  "r1": "Non. Le sens désigne les conditions atmosphériques.",
+  "r2": "Non. « qu' » est ici un relatif (le temps qu'il fait), non un interrogatif.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet.",
+  "r5": "D0461 et D0462 ne portent pas sur la fonction. Correction retenue V2-17 (nuance de l'ENTRY), lue, non appliquée. Verdict du lot 3 (D1) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Faux indice : « qu' » relatif dans une traduction ; nom d'état météorologique."
+ },
+ "v_392_s1": {
+  "indice": "Pronom relatif « qui » dans la traduction de la fiche « Là-bas (près de la personne à qui l'on parle) » ; classe `pronom` (T2-classe).",
+  "r1": "Non. そこ désigne un lieu repéré par rapport à l'interlocuteur : il montre, il ne demande pas.",
+  "r2": "Non. L'ancien exemple où figure une question (傘はどこですか —「そこにありますよ」) place そこ dans la réponse ; la question est portée par どこ.",
+  "r3": "Oui : `deictique`, rôle distinct de la demande (A10, §4, point 2) ; et jamais par la classe ni par la série ko-so-a-do (§3, point 2).",
+  "r4": "Sans objet : la fonction `deictique` (D0647) reste seule.",
+  "r5": "D0646 (type nul), D0647 (deictique, A7) et D0648 ne portent pas sur `interrogatif` ; elles s'accordent avec la définition. Verdict du lot 3 (D2) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Démonstratif déictique ; l'indice est un relatif, et la question de l'exemple repose sur どこ."
+ },
+ "v_414_s1": {
+  "indice": "Aucun indice du temps 1 sur ce sens : rattaché par son ENTRY ; relevé par T2-classe (`pronom`).",
+  "r1": "Non. Le sens désigne une direction proche de l'interlocuteur.",
+  "r2": "Non. L'ancien exemple そっちには何がありますか est une question portée par 何 ; そっち y est le lieu.",
+  "r3": "Oui : `deictique` (A10, §4, point 2) ; jamais par la classe ni par la série (§3, point 2).",
+  "r4": "Sans objet : `deictique` (D0692) reste seule.",
+  "r5": "D0690 et D0692 ne portent pas sur `interrogatif` ; elles s'accordent avec la définition. Verdict du lot 3 (D3) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Démonstratif déictique de direction ; la question de l'exemple repose sur 何."
+ },
+ "v_414_s2": {
+  "indice": "Point d'interrogation dans la nuance publiée « そっちはどう？ : et de ton côté ? » ; T2-classe.",
+  "r1": "Non. Le sens désigne l'interlocuteur ou son camp.",
+  "r2": "Non. Dans そっちはどう？, l'interrogatif est どう (porteur) ; そっち en est le thème. L'exemple de la fiche (そっちのてんきはどうですか) est construit de même.",
+  "r3": "Oui : `deictique` (A10, §4, point 2).",
+  "r4": "Sans objet.",
+  "r5": "D0691 et D0692 ne portent pas sur `interrogatif`. Correction retenue V2-132 (nuance du sens 2), lue, non appliquée. Verdict du lot 3 (D3) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Déictique de personne ; la question citée repose sur どう."
+ },
+ "v_444_s1": {
+  "indice": "« Que » relatif dans la traduction de la fiche « Que l'on aime ».",
+  "r1": "Non. Le sens exprime l'affection ou la préférence.",
+  "r2": "Non. L'ancien exemple 猫と犬とどちらが好きですか interroge par どちら.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet.",
+  "r5": "D1076 à D1078 ne portent pas sur la fonction.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Faux indice : « que » relatif ; la question de l'exemple repose sur どちら."
+ },
+ "v_465_s1": {
+  "indice": "« Qui » relatif dans la traduction « Qui fait mal ».",
+  "r1": "Non. Le sens qualifie une douleur.",
+  "r2": "Non. Aucun emploi interrogatif dans la fiche ni dans les exemples.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet.",
+  "r5": "D0139 (emploi exclamatif repris en nuance) ne porte pas sur la fonction. Verdict du lot 3 (E1) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Faux indice : « qui » relatif ; adjectif de douleur."
+ },
+ "v_486_s1": {
+  "indice": "Radical « question » dans la nuance de la fiche et la nuance publiée (« une tâche, une question ou une situation ») ; « demande » (« qui demande beaucoup d'effort ») ; D1095 cite cette nuance.",
+  "r1": "Non. Le sens qualifie une difficulté.",
+  "r2": "Non. « Question » y signifie un problème à résoudre, « demander » y signifie exiger (de l'effort).",
+  "r3": "Sans objet.",
+  "r4": "Sans objet.",
+  "r5": "D1094 (catégorie nulle), D1095 (dimension facilité / difficulté) et D1096 ne portent pas sur la fonction. Correction retenue V2-160 (nuance de l'ENTRY), lue, non appliquée.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Faux indices : « question » (problème) et « demander » (exiger) ; adjectif de difficulté."
+ },
+ "v_503_s1": {
+  "indice": "Radical « demand » dans la fiche (« servant à demander la répétition d'une action ») et la nuance publiée ; D1384.",
+  "r1": "Non. Le sens dit la répétition d'une action (« encore une fois ») ; demander qu'on répète est une requête, non la demande d'une information non spécifiée.",
+  "r2": "Non. L'exemple (もう一度おねがいします) et l'ancien exemple (もう一度言ってください) portent la requête par おねがいします et ください ; un autre ancien exemple (もう一度見たい) n'a aucune requête.",
+  "r3": "Sans objet : la requête relève, au plus, d'un rôle pragmatique ; D1384 l'a dite en nuance, sans fonction.",
+  "r4": "Sans objet.",
+  "r5": "D1384 : « La demande (« répétez s'il vous plaît ») est dite en nuance, sans fonction » ; elle s'accorde avec la définition d'A10 (une requête n'est pas une question). D1383 et D1385 ne portent pas sur la fonction. La correction retenue « volet 2, modification 10 » (catégorie) est lue, non appliquée.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Adverbe de répétition ; la « demande » est une requête, portée par d'autres mots, déjà dite en nuance (D1384)."
+ },
+ "v_510_s1": {
+  "indice": "Point d'interrogation dans la nuance de la fiche (« vraiment ? ») et dans la nuance publiée (本当？, vraiment ?) ; T2-nuls.",
+  "r1": "Non. Le sens modélisé est la vérité, la réalité.",
+  "r2": "Non. La fiche dit « employé fréquemment pour marquer l'étonnement (« vraiment ? ») » et, sur la fiche fusionnée n5_v_514, « confirmer la véracité d'un fait ». 本当？ demande la confirmation d'une proposition déjà donnée : ce n'est pas une information non spécifiée, et le mot n'en tient pas la place. L'emploi est mentionné en nuance, ce qui ne suffit pas (A10, §3, point 1).",
+  "r3": "Oui : la question 本当？ est portée par l'intonation (A10, §4, point 5).",
+  "r4": "Sans objet.",
+  "r5": "D0008 (fusion de n5_v_514), D0044 et D0068 ne portent pas sur la fonction.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom de la vérité ; l'emploi 本当？ demande une confirmation (oui ou non), non une information non spécifiée, et reste en nuance."
+ },
+ "v_511_s1": {
+  "indice": "Radical « question » dans la nuance de la fiche (« une question à résoudre ») ; D1358 et D1360 la citent ; T2-nuls.",
+  "r1": "Non. Le sens désigne une difficulté, un différend.",
+  "r2": "Non. « Question » y signifie problème.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet.",
+  "r5": "D1358 (deux sens), D1359 (catégorie nulle) et D1360 (traductions non développées) ne portent pas sur la fonction.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom d'une difficulté ; « question » au sens de problème."
+ },
+ "v_511_s2": {
+  "indice": "Traduction « Question (d'examen) » ; nuance « une question à résoudre » ; D1358, D1360.",
+  "r1": "Non. Le sens désigne une question d'examen, un contenu à résoudre.",
+  "r2": "Non. L'exemple (このしけんの問題はむずかしいです) parle de l'énoncé d'examen.",
+  "r3": "Oui : un sens qui désigne une question est un sens lexical (A10, §4, point 4).",
+  "r4": "Sans objet.",
+  "r5": "D1358 et D1360 ne portent pas sur la fonction. Verdict du lot 3 (B5) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens nomme une question (d'examen) : frontière d'A10, §4, point 4."
+ },
+ "v_517_s1": {
+  "indice": "Point d'interrogation dans la nuance publiée, qui cite l'exemple « なにがいちばんすきですか (qu'est-ce que vous aimez le plus en japonais ?) » ; T2-classe.",
+  "r1": "Non. Le sens marque le superlatif.",
+  "r2": "Non. Dans l'exemple et deux anciens exemples (どれですか, 誰ですか), la question est portée par なに, どれ, 誰 ; 一番 y dit le degré.",
+  "r3": "Sans objet ; jamais par la classe (A10, §3, point 2).",
+  "r4": "Sans objet : `comparatif` (D1557) reste seule.",
+  "r5": "D1555 à D1559 ne portent pas sur `interrogatif`. Verdict du lot 3 (D8) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Superlatif ; les questions des exemples reposent sur なに, どれ et 誰."
+ },
+ "v_517_s2": {
+  "indice": "Aucun indice du temps 1 sur ce sens : rattaché par son ENTRY ; T2-classe.",
+  "r1": "Non. Le sens désigne la première position d'un classement.",
+  "r2": "Non.",
+  "r3": "Sans objet ; jamais par la classe (A10, §3, point 2).",
+  "r4": "Sans objet.",
+  "r5": "D1556 et D1558 (aucune fonction pour ce sens) s'accordent avec la définition. Verdict du lot 3 (A7) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Ordinal ; aucun indice, aucune attestation."
+ },
+ "v_542_s1": {
+  "indice": "Point d'interrogation dans la nuance publiée, qui cite l'exemple « ここでたばこを吸いますか (est-ce qu'on fume ici ?) » ; T2-nuls.",
+  "r1": "Non. Le sens est l'action de fumer.",
+  "r2": "Non. La question de l'exemple est portée par la particule か.",
+  "r3": "Oui : marque grammaticale de l'interrogation (A10, §4, point 5).",
+  "r4": "Sans objet.",
+  "r5": "D1291 et D1292 ne portent pas sur la fonction.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Verbe d'action ; la question de l'exemple est portée par か."
+ },
+ "v_542_s2": {
+  "indice": "Aucun indice du temps 1 sur ce sens : rattaché par son ENTRY ; T2-nuls.",
+  "r1": "Non. Le sens est l'action d'aspirer de l'air ou un liquide.",
+  "r2": "Non.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet.",
+  "r5": "D1291 et D1293 ne portent pas sur la fonction.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Verbe d'action ; aucun indice, aucune attestation."
+ },
+ "v_584_s1": {
+  "indice": "Radical « question » dans la fiche et la nuance publiée (« répondre par la négative à une question ») ; D1494 ; D1602.",
+  "r1": "Non. Le sens est une réponse négative : il fournit une information, il n'en demande pas.",
+  "r2": "Non. Les anciens exemples placent いいえ dans la réponse (「学生ですか」「いいえ、…」).",
+  "r3": "Oui, par analogie avec A10, §4, point 4 : répondre à une question n'est pas interroger.",
+  "r4": "Sans objet : `discours` (D1495) reste seule.",
+  "r5": "D1494 (deux sens) et D1495 (discours) s'accordent avec la définition ; D1602 (réouverture pour une relation) ne porte pas sur la fonction. Verdict du lot 3 (D7) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Réponse négative ; la question appartient à l'interlocuteur."
+ },
+ "v_584_s2": {
+  "indice": "Indices de la fiche commune aux deux sens (« répondre par la négative à une question ») ; D1494, D1602.",
+  "r1": "Non. Le sens décline un remerciement ou un compliment.",
+  "r2": "Non.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet : `politesse` (D1496) reste seule.",
+  "r5": "D1494 et D1496 s'accordent avec la définition ; D1602 ne porte pas sur la fonction. Verdict du lot 3 (D7) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Formule de politesse ; l'indice appartient au sens 1."
+ },
+ "v_596_s1": {
+  "indice": "« que » dans la traduction de la fiche « C'est ainsi que ».",
+  "r1": "Non. Le sens relie deux énoncés (succession, addition).",
+  "r2": "Non. « que » y est conjonctif.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet : `connecteur` (D1453) reste seule.",
+  "r5": "D1450 à D1454 ne portent pas sur `interrogatif`. Verdict du lot 3 (D7) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Faux indice : « que » conjonctif ; connecteur."
+ },
+ "v_605_s1": {
+  "indice": "Point d'interrogation dans la nuance publiée de l'ENTRY (« y a-t-il autre chose ? ») ; T2-nuls.",
+  "r1": "Non. Le sens désigne ce qui est autre que l'élément donné.",
+  "r2": "Non. La question de l'exemple de la fiche (altéré dans la source : « ほか に なに か ります か », D1429) et de l'ancien exemple (ほかに質問がありますか) est portée par か ; 他 n'en tient pas la place.",
+  "r3": "Oui : marque grammaticale de l'interrogation (A10, §4, point 5).",
+  "r4": "Sans objet.",
+  "r5": "D1425 à D1429 ne portent pas sur `interrogatif` (D1428 écarte `alternative`, sans définition).",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom de l'altérité ; les questions des exemples sont portées par か."
+ },
+ "v_638_s1": {
+  "indice": "Point d'interrogation dans la nuance publiée (« 兄弟がいますか (avez-vous des frères et sœurs ?) »).",
+  "r1": "Non. Le sens désigne la fratrie.",
+  "r2": "Non. La question citée est portée par か.",
+  "r3": "Oui : marque grammaticale (A10, §4, point 5).",
+  "r4": "Sans objet.",
+  "r5": "Aucune décision de journal (ENTRY décidée au lot 01, journal vide). Verdict du lot 3 (D1) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom collectif ; la question de l'exemple est portée par か."
+ },
+ "v_651_s1": {
+  "indice": "Point d'interrogation dans la nuance publiée (« お名前は？, votre nom ? »).",
+  "r1": "Non. Le sens désigne un nom, une désignation.",
+  "r2": "Non. お名前は？ est une question elliptique portée par は et l'intonation ; 名前 y nomme ce que l'on demande, il n'en tient pas la place. L'ancien exemple complet (お名前はなんですか) interroge par なん.",
+  "r3": "Oui : marque grammaticale (A10, §4, point 5).",
+  "r4": "Sans objet.",
+  "r5": "D0515 (catégorie) et D0516 ne portent pas sur la fonction.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom ; la question citée est elliptique et repose, en forme complète, sur なん."
+ },
+ "v_664_s1": {
+  "indice": "Point d'interrogation dans la nuance publiée, qui cite l'exemple (« c'est un endroit magnifique, n'est-ce pas ? »).",
+  "r1": "Non. Le sens désigne un lieu.",
+  "r2": "Non. « n'est-ce pas ? » rend la particule ね, une demande d'accord, non d'information ; l'ancien exemple (どこかいい所へ行きませんか) est une invitation, portée par 〜ませんか.",
+  "r3": "Oui : marque grammaticale (A10, §4, point 5).",
+  "r4": "Sans objet.",
+  "r5": "D1354 et D1355 ne portent pas sur la fonction.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom de lieu ; le « ? » traduit la particule ね."
+ },
+ "v_664_s2": {
+  "indice": "Aucun indice du temps 1 sur ce sens : rattaché par son ENTRY ; T2-nuls.",
+  "r1": "Non. Le sens désigne une partie d'une chose ou d'une situation.",
+  "r2": "Non.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet.",
+  "r5": "D1354 et D1355 ne portent pas sur la fonction.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom abstrait ; aucun indice, aucune attestation."
+ },
+ "v_677_s1": {
+  "indice": "Radical « demand » dans la nuance publiée (« Au restaurant, on demande お水 »).",
+  "r1": "Non. Le sens désigne l'eau.",
+  "r2": "Non. « On demande » y est une requête.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet.",
+  "r5": "D0178 ne porte pas sur la fonction. Corrections retenues V2-71 (nuance de l'ENTRY) et V1-21 (tags), lues, non appliquées. Verdict du lot 3 (C2) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom concret ; « demander » y est une requête."
+ },
+ "v_688_s1": {
+  "indice": "« que » dans la traduction de la fiche « Mon / Ma (en tant que préfixe possessif implicite) » ; classe `pronom` (T2-classe).",
+  "r1": "Non. Le sens désigne le locuteur.",
+  "r2": "Non. « que » y appartient à la locution « en tant que ».",
+  "r3": "Oui : `deictique` (A10, §4, point 2) ; jamais par la classe (§3, point 2).",
+  "r4": "Sans objet : `deictique` (D0725) reste seule.",
+  "r5": "D0725 et D0726 ne portent pas sur `interrogatif`. Correction retenue V2-143 (nuance du sens 1), lue, non appliquée. Verdict du lot 3 (D3) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Pronom déictique de la première personne ; faux indice."
+ },
+ "v_700_s1": {
+  "indice": "Sept filtres : « Quelqu'un » et « N'importe qui » (« qui ») ; « ? » de la nuance publiée (誰かいますか : il y a quelqu'un ?) ; « interrog » de la fiche (« pronom interrogatif dare ») ; classe `pronom` ; catégorie nulle ; série (誰) ; D0724.",
+  "r1": "Non. Le sens désigne une personne indéterminée (« quelqu'un ») : il ne demande pas qui.",
+  "r2": "Non. La fiche le dit « pronom indéfini », formé sur l'interrogatif 誰 et la particule か ; l'exemple (誰かがいます) est affirmatif ; la question 誰かいますか est portée par か (« y a-t-il quelqu'un ? », une question fermée).",
+  "r3": "Oui : A10, §4, point 1, cite ce sens : « un sens formé sur un mot interrogatif, mais qui n'interroge pas, ne porte pas la fonction […]. Exemple : 誰か « quelqu'un » (D0724) ». « N'importe qui » relève de l'emploi généralisant, de même.",
+  "r4": "Sans objet.",
+  "r5": "D0724 : « pas de fonction interrogative (誰か n'interroge pas) » ; elle s'accorde avec la définition et la frontière d'A10, et n'est pas réécrite.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Indéfini formé sur 誰 : frontière expresse d'A10, §4, point 1 ; D0724 confirmée."
+ },
+ "v_702_s1": {
+  "indice": "Traduction « Question », fiche « Interrogation » et « poser une question / demander » ; D0512.",
+  "r1": "Non. Le sens désigne une question, un contenu de l'échange.",
+  "r2": "La fiche atteste un nom (« désignant une question posée pour obtenir une information ») ; les exemples (質問をします, 質問があります) le traitent comme objet de する ou sujet de ある.",
+  "r3": "Oui : A10, §4, point 4, nomme précisément 質問 « question » : un sens qui désigne une question est un sens lexical et ne porte pas la fonction.",
+  "r4": "Sans objet.",
+  "r5": "D0511 (suru_compatible) et D0512 (abandon de « Interrogation ») ne portent pas sur la fonction ; elles s'accordent avec la définition. Verdict du lot 3 (B3, conforme sur la catégorie et le type) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le nom désigne une question : frontière expresse d'A10, §4, point 4, qui cite ce sens."
+ },
+ "v_703_s1": {
+  "indice": "Point d'interrogation dans la nuance publiée (« y a-t-il un konbini dans les environs ? »).",
+  "r1": "Non. Le sens désigne les environs.",
+  "r2": "Non. La question est portée par か.",
+  "r3": "Oui : marque grammaticale (A10, §4, point 5).",
+  "r4": "Sans objet.",
+  "r5": "D1356 (suffix) et D1357 ne portent pas sur la fonction.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom de lieu ; la question de l'exemple est portée par か."
+ },
+ "v_718_s1": {
+  "indice": "Radical « demand » dans la nuance de la fiche et la nuance publiée (« le caissier demande presque toujours si l'on en veut un »).",
+  "r1": "Non. Le sens désigne un objet, le sac de caisse.",
+  "r2": "Non. La demande est l'acte du caissier, décrit en nuance ; la question citée (レジ袋はご利用ですか) est portée par か.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet.",
+  "r5": "Aucune décision de journal (ENTRY décidée au lot 05, journal vide). Verdict du lot 3 (B12) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom d'objet ; « demander » décrit l'usage en caisse."
+ },
+ "v_719_s1": {
+  "indice": "Radical « demand » dans la nuance de la fiche et la nuance publiée (« le caissier demande souvent ポイントカードはお持ちですか »).",
+  "r1": "Non. Le sens désigne un objet, la carte de fidélité.",
+  "r2": "Non. La question citée est portée par か.",
+  "r3": "Sans objet.",
+  "r4": "Sans objet.",
+  "r5": "Aucune décision de journal (ENTRY décidée au lot 05, journal vide). Verdict du lot 3 (C4) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Nom d'objet ; « demander » décrit l'usage en caisse."
+ }
+}

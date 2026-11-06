@@ -1,0 +1,3915 @@
+{
+ "objet": "Dossier factuel du groupe D, non arbitré ; aucun verdict",
+ "decoupage": {
+  "chemin": "a2-05-travail/omissions-temps3/decoupage.json",
+  "sha": "56da6952d14259325eefee43cbfe0f2bb7cc6a5060a85e72f2df6c1ad97acc46"
+ },
+ "sens": [
+  {
+   "id": "v_359_s1",
+   "entry": "v_359",
+   "rang": 50,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_403_s1",
+   "entry": "v_403",
+   "rang": 58,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_404_s1",
+   "entry": "v_404",
+   "rang": 59,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_404_s2",
+   "entry": "v_404",
+   "rang": 60,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_405_s1",
+   "entry": "v_405",
+   "rang": 61,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_406_s1",
+   "entry": "v_406",
+   "rang": 62,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_407_s1",
+   "entry": "v_407",
+   "rang": 63,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_408_s1",
+   "entry": "v_408",
+   "rang": 64,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_409_s1",
+   "entry": "v_409",
+   "rang": 65,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_409_s2",
+   "entry": "v_409",
+   "rang": 66,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_410_s1",
+   "entry": "v_410",
+   "rang": 67,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_411_s1",
+   "entry": "v_411",
+   "rang": 68,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_412_s1",
+   "entry": "v_412",
+   "rang": 69,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_415_s1",
+   "entry": "v_415",
+   "rang": 72,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_425_s1",
+   "entry": "v_425",
+   "rang": 77,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_438_s1",
+   "entry": "v_438",
+   "rang": 82,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_441_s1",
+   "entry": "v_441",
+   "rang": 83,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_446_s1",
+   "entry": "v_446",
+   "rang": 86,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_471_s1",
+   "entry": "v_471",
+   "rang": 98,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_471_s2",
+   "entry": "v_471",
+   "rang": 99,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_496_s1",
+   "entry": "v_496",
+   "rang": 107,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_497_s1",
+   "entry": "v_497",
+   "rang": 108,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_497_s2",
+   "entry": "v_497",
+   "rang": 109,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_498_s1",
+   "entry": "v_498",
+   "rang": 110,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_500_s1",
+   "entry": "v_500",
+   "rang": 113,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_500_s2",
+   "entry": "v_500",
+   "rang": 114,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_501_s1",
+   "entry": "v_501",
+   "rang": 115,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_501_s2",
+   "entry": "v_501",
+   "rang": 116,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_502_s1",
+   "entry": "v_502",
+   "rang": 117,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_502_s2",
+   "entry": "v_502",
+   "rang": 118,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_504_s1",
+   "entry": "v_504",
+   "rang": 120,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_504_s2",
+   "entry": "v_504",
+   "rang": 121,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_506_s1",
+   "entry": "v_506",
+   "rang": 122,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_506_s2",
+   "entry": "v_506",
+   "rang": 123,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_509_s1",
+   "entry": "v_509",
+   "rang": 124,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_509_s2",
+   "entry": "v_509",
+   "rang": 125,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_509_s3",
+   "entry": "v_509",
+   "rang": 126,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_515_s1",
+   "entry": "v_515",
+   "rang": 132,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_518_s1",
+   "entry": "v_518",
+   "rang": 137,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_519_s1",
+   "entry": "v_519",
+   "rang": 138,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_520_s1",
+   "entry": "v_520",
+   "rang": 139,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_521_s1",
+   "entry": "v_521",
+   "rang": 140,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_525_s1",
+   "entry": "v_525",
+   "rang": 145,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_525_s2",
+   "entry": "v_525",
+   "rang": 146,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_540_s1",
+   "entry": "v_540",
+   "rang": 154,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_546_s1",
+   "entry": "v_546",
+   "rang": 160,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_546_s2",
+   "entry": "v_546",
+   "rang": 161,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_554_s1",
+   "entry": "v_554",
+   "rang": 165,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_581_s1",
+   "entry": "v_581",
+   "rang": 180,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_606_s1",
+   "entry": "v_606",
+   "rang": 189,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_607_s1",
+   "entry": "v_607",
+   "rang": 190,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_639_s1",
+   "entry": "v_639",
+   "rang": 201,
+   "filtres": [
+    "T2-classe"
+   ],
+   "motif": "filtre propre au groupe"
+  },
+  {
+   "id": "v_691_s1",
+   "entry": "v_691",
+   "rang": 223,
+   "filtres": [
+    "T2-classe",
+    "T2-nuls"
+   ],
+   "motif": "filtre propre au groupe"
+  }
+ ],
+ "entrees": [
+  {
+   "entry": "v_359",
+   "mot": "近々",
+   "lecture": "ちかじか",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_359",
+     "presente": true,
+     "lot": "lot-12",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0795",
+      "A2-04-D0796",
+      "A2-04-D0843"
+     ],
+     "categorie": "temps_calendrier",
+     "sousCategorie": "distance",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_359_s1",
+     "traduction": "Bientôt",
+     "categorie": "temps › moments_periodes › futur",
+     "type": "concept_abstrait",
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D4"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0795",
+     "statut": "validated",
+     "lot": "lot-12",
+     "champ": "tags",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0796",
+     "statut": "validated",
+     "lot": "lot-12",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7, axe du temps : un futur proche, repéré à partir du moment de l'énonciation.",
+     "apres": [
+      "deictique"
+     ]
+    },
+    {
+     "id": "A2-04-D0843",
+     "statut": "validated",
+     "lot": "lot-12",
+     "champ": "readings",
+     "nature": "correction",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_403",
+   "mot": "あそこ",
+   "lecture": "あそこ",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_403",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0649",
+      "A2-04-D0650",
+      "A2-04-D0651"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_lieux",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_403_s1",
+     "traduction": "Là-bas",
+     "categorie": "espace_proprietes_spatiales › position_localisation",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D2"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0649",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0650",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7 (révision 5.12b). あそこ désigne un endroit éloigné des deux interlocuteurs.",
+     "apres": [
+      "deictique"
+     ]
+    },
+    {
+     "id": "A2-04-D0651",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_404",
+   "mot": "あちら",
+   "lecture": "あちら",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_404",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0678",
+      "A2-04-D0679",
+      "A2-04-D0680"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_direction",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_404_s1",
+     "traduction": "Là-bas (poli)",
+     "categorie": "espace_proprietes_spatiales › direction_orientation › orientation",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D2"
+    },
+    {
+     "id": "v_404_s2",
+     "traduction": "Cette personne-là (poli)",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D2"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0678",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0679",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 2 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0680",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Deux sens documentés par la fiche (« de lieu ou de direction poli… Il sert aussi à désigner poliment une personne ») : un lieu, et une personne. Fonction deictique selon l'addendum A7 (révision 5.12b). Les deux sens sont déictiques.",
+     "apres": [
+      "S1 Là-bas (poli)",
+      "S2 Cette personne-là (poli)"
+     ]
+    }
+   ],
+   "corrections": [
+    "V2-127 (`nuance` (sens 1))",
+    "V2-128 (`nuance` (sens 2))"
+   ]
+  },
+  {
+   "entry": "v_405",
+   "mot": "あっち",
+   "lecture": "あっち",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_405",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0693",
+      "A2-04-D0694",
+      "A2-04-D0695"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_direction",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_405_s1",
+     "traduction": "Par là-bas",
+     "categorie": "espace_proprietes_spatiales › direction_orientation › orientation",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D2"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0693",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0694",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0695",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7 (révision 5.12b). あっち désigne une direction éloignée des deux interlocuteurs.",
+     "apres": [
+      "deictique"
+     ]
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_406",
+   "mot": "あの",
+   "lecture": "あの",
+   "classe": "determinant",
+   "fiches": [
+    {
+     "id": "n5_v_406",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0660",
+      "A2-04-D0661",
+      "A2-04-D0662"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_objets",
+     "type": "adjectif",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_406_s1",
+     "traduction": "Ce … là-bas",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D2"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0660",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0661",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0662",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7 (révision 5.12b). あの désigne ce qui est éloigné des deux interlocuteurs.",
+     "apres": [
+      "deictique"
+     ]
+    }
+   ],
+   "corrections": [
+    "V2-129 (`nuance` (sens 1))"
+   ]
+  },
+  {
+   "entry": "v_407",
+   "mot": "あれ",
+   "lecture": "あれ",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_407",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0638",
+      "A2-04-D0639",
+      "A2-04-D0640"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_objets",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_407_s1",
+     "traduction": "Cela (là-bas)",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D2"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0638",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0639",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7 (révision 5.12b). あれ désigne une chose éloignée des deux interlocuteurs.",
+     "apres": [
+      "deictique"
+     ]
+    },
+    {
+     "id": "A2-04-D0640",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_408",
+   "mot": "ここ",
+   "lecture": "ここ",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_408",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0643",
+      "A2-04-D0644",
+      "A2-04-D0645"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_lieux",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_408_s1",
+     "traduction": "Ici",
+     "categorie": "espace_proprietes_spatiales › position_localisation",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D3"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0643",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0644",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7 (révision 5.12b). ここ désigne l'endroit du locuteur. Catégorie de domaine (position, localisation), comme いくら a reçu celle des prix : le sens désigne un lieu.",
+     "apres": [
+      "deictique"
+     ]
+    },
+    {
+     "id": "A2-04-D0645",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_409",
+   "mot": "こっち",
+   "lecture": "こっち",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_409",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0686",
+      "A2-04-D0687",
+      "A2-04-D0688",
+      "A2-04-D0689"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_direction",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_409_s1",
+     "traduction": "Par ici",
+     "categorie": "espace_proprietes_spatiales › direction_orientation › orientation",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D3"
+    },
+    {
+     "id": "v_409_s2",
+     "traduction": "Moi, mon camp",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D3"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0686",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0687",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 2 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0688",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Deux sens documentés par la fiche (« de lieu ou de direction… Il peut aussi désigner le locuteur ou son camp ») : une direction, et le locuteur ou son groupe. Fonction deictique selon l'addendum A7 (révision 5.12b). Les deux sens sont déictiques.",
+     "apres": [
+      "S1 Par ici",
+      "S2 Moi, mon camp"
+     ]
+    },
+    {
+     "id": "A2-04-D0689",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-130 (`nuance` (sens 2))"
+   ]
+  },
+  {
+   "entry": "v_410",
+   "mot": "この",
+   "lecture": "この",
+   "classe": "determinant",
+   "fiches": [
+    {
+     "id": "n5_v_410",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0654",
+      "A2-04-D0655",
+      "A2-04-D0656"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_objets",
+     "type": "adjectif",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_410_s1",
+     "traduction": "Ce … -ci",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D3"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0654",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0655",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0656",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7 (révision 5.12b). この désigne ce qui est proche du locuteur.",
+     "apres": [
+      "deictique"
+     ]
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_411",
+   "mot": "これ",
+   "lecture": "これ",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_411",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0631",
+      "A2-04-D0632",
+      "A2-04-D0633"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_objets",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_411_s1",
+     "traduction": "Ceci",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D3"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0631",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0632",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7 (révision 5.12b). これ désigne une chose située près du locuteur : la fonction est portée par ce sens.",
+     "apres": [
+      "deictique"
+     ]
+    },
+    {
+     "id": "A2-04-D0633",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_412",
+   "mot": "こんな",
+   "lecture": "こんな",
+   "classe": "determinant",
+   "fiches": [
+    {
+     "id": "n5_v_412",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0701",
+      "A2-04-D0702",
+      "A2-04-D0703",
+      "A2-04-D0704"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_qualites",
+     "type": "adjectif",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_412_s1",
+     "traduction": "Ce genre de",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D3"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0701",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0702",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0703",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7 (révision 5.12b). こんな renvoie à ce qui est proche du locuteur.",
+     "apres": [
+      "deictique"
+     ]
+    },
+    {
+     "id": "A2-04-D0704",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-131 (`nuance` (sens 1))"
+   ]
+  },
+  {
+   "entry": "v_415",
+   "mot": "その",
+   "lecture": "その",
+   "classe": "determinant",
+   "fiches": [
+    {
+     "id": "n5_v_415",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0657",
+      "A2-04-D0658",
+      "A2-04-D0659",
+      "A2-04-D0663"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "demonstratifs_objets",
+     "type": "adjectif",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_415_s1",
+     "traduction": "Ce … -là",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D3"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0657",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0658",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0659",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7 (révision 5.12b). その désigne ce qui est proche de l'interlocuteur, ou dont on vient de parler.",
+     "apres": [
+      "deictique"
+     ]
+    },
+    {
+     "id": "A2-04-D0663",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_425",
+   "mot": "だんだん",
+   "lecture": "だんだん",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_425",
+     "presente": true,
+     "lot": "lot-21",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1398",
+      "A2-04-D1399",
+      "A2-04-D1400"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "progression",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_425_s1",
+     "traduction": "Graduellement",
+     "categorie": "null",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1398",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1399",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1400",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Aucune fonction linguistique : aspect n'a pas de définition normative. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé.",
+     "apres": []
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_438",
+   "mot": "同じ",
+   "lecture": "おなじ",
+   "classe": "determinant",
+   "fiches": [
+    {
+     "id": "n5_v_438",
+     "presente": true,
+     "lot": "lot-22",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1417",
+      "A2-04-D1418",
+      "A2-04-D1419",
+      "A2-04-D1420",
+      "A2-04-D1421"
+     ],
+     "categorie": "descriptions_qualites",
+     "sousCategorie": "comparaison",
+     "type": "adjectif en na",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_438_s1",
+     "traduction": "Même",
+     "categorie": "null",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1417",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "readings",
+     "nature": "correction",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1418",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1419",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1420",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1421",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Aucune fonction linguistique : comparatif n'a pas de définition normative (arbitrage du périmètre du lot 22). L'identité est dite par le sens lui-même. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 22) ; aucune définition, aucun addendum n'est créé.",
+     "apres": []
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_441",
+   "mot": "大きな",
+   "lecture": "おおきな",
+   "classe": "determinant",
+   "fiches": [
+    {
+     "id": "n5_v_441",
+     "presente": true,
+     "lot": "lot-15",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1045",
+      "A2-04-D1046",
+      "A2-04-D1075"
+     ],
+     "categorie": "descriptions_qualites",
+     "sousCategorie": "taille",
+     "type": "adjectif en na",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_441_s1",
+     "traduction": "Grand",
+     "categorie": "espace_proprietes_spatiales › dimensions › taille",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "E2"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1045",
+     "statut": "validated",
+     "lot": "lot-15",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1046",
+     "statut": "validated",
+     "lot": "lot-15",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1075",
+     "statut": "validated",
+     "lot": "lot-15",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_446",
+   "mot": "小さな",
+   "lecture": "ちいさな",
+   "classe": "determinant",
+   "fiches": [
+    {
+     "id": "n5_v_446",
+     "presente": true,
+     "lot": "lot-15",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1048",
+      "A2-04-D1049",
+      "A2-04-D1050"
+     ],
+     "categorie": "descriptions_qualites",
+     "sousCategorie": "taille",
+     "type": "adjectif en na",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_446_s1",
+     "traduction": "Petit",
+     "categorie": "espace_proprietes_spatiales › dimensions › taille",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1048",
+     "statut": "validated",
+     "lot": "lot-15",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1049",
+     "statut": "validated",
+     "lot": "lot-15",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1050",
+     "statut": "validated",
+     "lot": "lot-15",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_471",
+   "mot": "結構",
+   "lecture": "けっこう",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_471",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1547",
+      "A2-04-D1548",
+      "A2-04-D1549",
+      "A2-04-D1550",
+      "A2-04-D1551"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "appreciation",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_471_s1",
+     "traduction": "Assez",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "intensifieur"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D8"
+    },
+    {
+     "id": "v_471_s2",
+     "traduction": "Non merci",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "politesse"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D8"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1547",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1548",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Sens 1, fonction intensifieur (A9, §3.6 ; arbitrage du périmètre du lot 24) : modifie le degré d'une propriété exprimée par un autre mot (intéressant), sans la désigner. Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle.",
+     "apres": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+       "intensifieur"
+      ]
+     }
+    },
+    {
+     "id": "A2-04-D1549",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 2 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Sens 2, fonction politesse (A9, §3.3 ; arbitrage du périmètre du lot 24) : décliner une offre est un acte social conventionnel, accompli par la formule. Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle.",
+     "apres": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+       "politesse"
+      ]
+     }
+    },
+    {
+     "id": "A2-04-D1550",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1551",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 2 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_496",
+   "mot": "ちょうど",
+   "lecture": "ちょうど",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_496",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1560",
+      "A2-04-D1561",
+      "A2-04-D1562",
+      "A2-04-D1563"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "mesure",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_496_s1",
+     "traduction": "Exactement",
+     "categorie": "null",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1560",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1561",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · dimensions",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1562",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1563",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Aucune fonction (arbitrage du périmètre du lot 24) : l'exactitude n'est ni une quantification, ni une modification de degré, ni une comparaison (A9, §4.3 : elle relève d'un axe d'A2-DIM).",
+     "apres": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+     }
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_497",
+   "mot": "ちょっと",
+   "lecture": "ちょっと",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_497",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1535",
+      "A2-04-D1536",
+      "A2-04-D1537",
+      "A2-04-D1538",
+      "A2-04-D1539",
+      "A2-04-D1606",
+      "A2-04-D1607",
+      "A2-04-D1608"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "quantite",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_497_s1",
+     "traduction": "Un peu",
+     "categorie": "nombres_quantification › quantite › petite_quantite",
+     "type": null,
+     "fonctions": [
+      "quantificateur"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D8"
+    },
+    {
+     "id": "v_497_s2",
+     "traduction": "Un instant",
+     "categorie": "temps › duree",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "A7"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1535",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Deux sens (arbitrage du périmètre du lot 24) : « une faible quantité », que l'exemple illustre (je bois un peu de café) ; « un bref instant ». L'emploi comme « formule atténuante pour exprimer une hésitation ou un refus poli » reste en nuance, sans politesse ni sens propre. Sens 1 : petite quantité, quantificateur ; sens 2 : temps › durée, type concept_abstrait, sans fonction, comme 少し, sens 3. Classe adverbe mécanique. La fiche ne donne aucune particule : aucune pour les deux sens.",
+     "apres": [
+      "S1 Un peu",
+      "S2 Un instant"
+     ]
+    },
+    {
+     "id": "A2-04-D1536",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1537",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Sens 1, fonction quantificateur (A9, §3.4) : quantifie un référent désigné par un autre mot (le café) ; la petite quantité est dite par la catégorie.",
+     "apres": {
+      "grammatical": [
+       "quantificateur"
+      ],
+      "pragmatic_discourse": []
+     }
+    },
+    {
+     "id": "A2-04-D1538",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 2 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Sens 2, aucune fonction (arbitrage du périmètre du lot 24) : un bref instant est une durée, dite par la catégorie temps › durée. Pas de politesse : le refus poli reste en nuance (arbitrage du périmètre du lot 24).",
+     "apres": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+     }
+    },
+    {
+     "id": "A2-04-D1539",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1606",
+     "statut": "validated",
+     "lot": "lot-26",
+     "champ": "entrée",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1607",
+     "statut": "validated",
+     "lot": "lot-26",
+     "champ": "sens 1 · relations",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1608",
+     "statut": "validated",
+     "lot": "lot-26",
+     "champ": "sens 2 · relations",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V1-7 (`semantic_type`)"
+   ]
+  },
+  {
+   "entry": "v_498",
+   "mot": "とても",
+   "lecture": "とても",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_498",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1540",
+      "A2-04-D1541",
+      "A2-04-D1542"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "degre",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_498_s1",
+     "traduction": "Très",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "intensifieur"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D8"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1540",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1541",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction intensifieur (A9, §3.6) : renforce le degré d'une propriété exprimée par un autre mot (froid), sans la désigner ; comme 大変, sens 1 « Très » (lot 00). Pas de negation (non définie, A9, §6 ; la négation est portée par le verbe). Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle.",
+     "apres": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+       "intensifieur"
+      ]
+     }
+    },
+    {
+     "id": "A2-04-D1542",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_500",
+   "mot": "また",
+   "lecture": "また",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_500",
+     "presente": true,
+     "lot": "lot-21",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1378",
+      "A2-04-D1379",
+      "A2-04-D1380",
+      "A2-04-D1381",
+      "A2-04-D1382",
+      "A2-04-D1403"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "frequence",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_500_s1",
+     "traduction": "À nouveau",
+     "categorie": "null",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    },
+    {
+     "id": "v_500_s2",
+     "traduction": "Aussi",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1378",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Deux sens, sur la fiche, qui décrit deux référents : « la répétition d'une action ou le retour d'un état » (à nouveau, encore), ce que l'exemple illustre, et le fait de « lier des arguments » (aussi, de plus), c'est-à-dire d'ajouter un élément. L'emploi de prise de congé (« mata ne ») est conservé en nuance du sens 1, sans sens ni fonction (doctrine du lot 16) ; ni discours ni politesse n'est posée. Type concept_abstrait pour le sens 1 ; le sens 2 est sans type (D1403, A6). La fiche ne donne aucune particule : aucune pour les deux sens.",
+     "apres": [
+      "S1 À nouveau, encore",
+      "S2 Aussi, de plus"
+     ]
+    },
+    {
+     "id": "A2-04-D1379",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1380",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 2 · category",
+     "nature": "categorie-nulle",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "L'ajout d'un élément à ce qui précède : une relation de discours, sans domaine thématique (A2-LING-v1, §5 : une fonction discursive ne fait pas une catégorie). Addendum A5.",
+     "apres": null
+    },
+    {
+     "id": "A2-04-D1381",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 2 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Aucune fonction linguistique : connecteur n'a pas de définition normative. L'emploi de liaison est dit par le sens lui-même (« Aussi, de plus ») et par sa nuance. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé.",
+     "apres": []
+    },
+    {
+     "id": "A2-04-D1382",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "nuance",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1403",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 2 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Aucun type (arbitrage des choix du lot 21) : la proposition rangeait ce sens en concept_abstrait. La fiche décrit un emploi discursif, qui sert à lier des arguments, à ajouter un élément à ce qui précède ; A2-ST décrit des entités, des occurrences, des conditions et des abstractions, non des fonctions de discours, et concept_abstrait ne doit pas servir de type de secours. Aucun type terminal existant ne décrit correctement ce sens. Le sens reste sans catégorie (D1380) et sans fonction (D1381), connecteur n'ayant pas de définition normative. Addendum A6.",
+     "apres": null
+    }
+   ],
+   "corrections": [
+    "volet 2, modification 1 (`linguistic_functions.pragmatic_discourse`)",
+    "volet 2, modification 9 (`category`)"
+   ]
+  },
+  {
+   "entry": "v_501",
+   "mot": "まだ",
+   "lecture": "まだ",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_501",
+     "presente": true,
+     "lot": "lot-21",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1386",
+      "A2-04-D1387"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "temps",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_501_s1",
+     "traduction": "Encore",
+     "categorie": "temps › relations_temporelles",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "A7"
+    },
+    {
+     "id": "v_501_s2",
+     "traduction": "Pas encore",
+     "categorie": "temps › relations_temporelles",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "A7"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1386",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1387",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Aucune fonction linguistique, pour les deux sens : ni aspect, ni negation, qui n'ont pas de définition normative ; dans « pas encore », la négation est portée par le verbe, l'adverbe l'accompagne. Pas de deictique (arbitrage du périmètre du lot 21) : le moment de référence peut être le présent, mais ne l'est pas nécessairement ; le repérage ne dépend pas directement de la situation d'énonciation au sens de l'addendum A7. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé.",
+     "apres": []
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_502",
+   "mot": "もう",
+   "lecture": "もう",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_502",
+     "presente": true,
+     "lot": "lot-21",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1388",
+      "A2-04-D1389",
+      "A2-04-D1390"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "temps",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_502_s1",
+     "traduction": "Déjà",
+     "categorie": "temps › relations_temporelles",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "A7"
+    },
+    {
+     "id": "v_502_s2",
+     "traduction": "Ne… plus",
+     "categorie": "temps › relations_temporelles",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D5"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1388",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1389",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1390",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Aucune fonction linguistique, pour les deux sens : ni aspect, ni negation, qui n'ont pas de définition normative ; dans « ne… plus », la négation est portée par le verbe. Pas de deictique (arbitrage du périmètre du lot 21) : « déjà » se repère par rapport à un moment de référence, qui n'est pas nécessairement le moment de l'énonciation (addendum A7). Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé.",
+     "apres": []
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_504",
+   "mot": "ゆっくり",
+   "lecture": "ゆっくり",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_504",
+     "presente": true,
+     "lot": "lot-22",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1404",
+      "A2-04-D1405",
+      "A2-04-D1406",
+      "A2-04-D1407",
+      "A2-04-D1435"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "maniere",
+     "type": "adverbe",
+     "anciensExemples": 3
+    },
+    {
+     "id": "n5_v_505",
+     "presente": true,
+     "lot": "lot-22",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1408"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "maniere",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_504_s1",
+     "traduction": "Lentement",
+     "categorie": "espace_proprietes_spatiales › vitesse",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": null
+    },
+    {
+     "id": "v_504_s2",
+     "traduction": "Tranquillement",
+     "categorie": "null",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1404",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1405",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1406",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1407",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "nuance",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1408",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "entrée",
+     "nature": "fusion",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1435",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "sens 2 · category",
+     "nature": "categorie-nulle",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_506",
+   "mot": "よく",
+   "lecture": "よく",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_506",
+     "presente": true,
+     "lot": "lot-21",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1373",
+      "A2-04-D1374",
+      "A2-04-D1375"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "frequence",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_506_s1",
+     "traduction": "Souvent",
+     "categorie": "temps › frequence › frequent",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "A7"
+    },
+    {
+     "id": "v_506_s2",
+     "traduction": "Bien",
+     "categorie": "null",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1373",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1374",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 2 · category",
+     "nature": "categorie-nulle",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1375",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 2 · nuance",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_509",
+   "mot": "少し",
+   "lecture": "すこし",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_509",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1528",
+      "A2-04-D1529",
+      "A2-04-D1530",
+      "A2-04-D1531",
+      "A2-04-D1532",
+      "A2-04-D1533",
+      "A2-04-D1534"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "quantite",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_509_s1",
+     "traduction": "Une petite quantité",
+     "categorie": "nombres_quantification › quantite › petite_quantite",
+     "type": null,
+     "fonctions": [
+      "quantificateur"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D8"
+    },
+    {
+     "id": "v_509_s2",
+     "traduction": "Un peu",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "intensifieur"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D8"
+    },
+    {
+     "id": "v_509_s3",
+     "traduction": "Un court instant",
+     "categorie": "temps › duree",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "A7"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1528",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Trois sens (arbitrage du périmètre du lot 24), un par emploi que la fiche établit : « une faible quantité », que l'exemple illustre (donnez-moi un peu d'eau) ; « un petit degré » ; « une courte durée ». Sens 1 : petite quantité, quantificateur ; sens 2 : sans catégorie, intensifieur ; sens 3 : temps › durée, type concept_abstrait, comme les adverbes de temps du lot 21, sans fonction. La fiche ne donne aucune particule : aucune pour les trois sens. Classe adverbe mécanique ; « ou nom » dit en nuance.",
+     "apres": [
+      "S1 Une petite quantité, un peu",
+      "S2 Un peu (degré)",
+      "S3 Un court instant"
+     ]
+    },
+    {
+     "id": "A2-04-D1529",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Sens 1, fonction quantificateur (A9, §3.4) : quantifie un référent désigné par un autre mot (l'eau) ; la petite quantité est dite par la catégorie.",
+     "apres": {
+      "grammatical": [
+       "quantificateur"
+      ],
+      "pragmatic_discourse": []
+     }
+    },
+    {
+     "id": "A2-04-D1530",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 2 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Sens 2, fonction intensifieur (A9, §3.6) : « un petit degré » modifie, en l'atténuant, le degré d'une propriété exprimée par un autre mot, sans la désigner. Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle.",
+     "apres": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+       "intensifieur"
+      ]
+     }
+    },
+    {
+     "id": "A2-04-D1531",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 3 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Sens 3, aucune fonction (arbitrage du périmètre du lot 24) : une courte durée n'est ni une quantification d'un référent ni une modification de degré ; la durée est dite par la catégorie temps › durée.",
+     "apres": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+     }
+    },
+    {
+     "id": "A2-04-D1532",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1533",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 2 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1534",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "relations",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V1-8 (`semantic_type`)"
+   ]
+  },
+  {
+   "entry": "v_515",
+   "mot": "あまり",
+   "lecture": "あまり",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_515",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1543",
+      "A2-04-D1544",
+      "A2-04-D1545",
+      "A2-04-D1546"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "quantite",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_515_s1",
+     "traduction": "Pas tellement",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "intensifieur"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D8"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1543",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1544",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction intensifieur (A9, §3.6) : atténue le degré de ce qu'exprime le verbe ou l'adjectif, sans le désigner ; A9 couvre l'atténuation. Pas de negation : la négation est portée par le verbe (D1387, D1390 ; A9, §3.6, frontière 3). Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle.",
+     "apres": {
+      "grammatical": [],
+      "pragmatic_discourse": [
+       "intensifieur"
+      ]
+     }
+    },
+    {
+     "id": "A2-04-D1545",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1546",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "nuance",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_518",
+   "mot": "すぐに",
+   "lecture": "すぐに",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_518",
+     "presente": true,
+     "lot": "lot-21",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1391",
+      "A2-04-D1392",
+      "A2-04-D1393"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "temps",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_518_s1",
+     "traduction": "Tout de suite",
+     "categorie": "temps › relations_temporelles",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D5"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1391",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1392",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Aucune fonction linguistique, et pas de deictique (arbitrage du périmètre du lot 21) : すぐに exprime l'absence de délai relativement à un repère ou à un événement (l'exemple : il est venu tout de suite) ; contrairement à 近々 (lot 12, deictique), son sens n'est pas intrinsèquement un futur proche repéré depuis le moment de l'énonciation (addendum A7, §4). Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé.",
+     "apres": []
+    },
+    {
+     "id": "A2-04-D1393",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "nuance",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_519",
+   "mot": "たいてい",
+   "lecture": "たいてい",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_519",
+     "presente": true,
+     "lot": "lot-21",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1371",
+      "A2-04-D1372"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "frequence",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_519_s1",
+     "traduction": "Généralement",
+     "categorie": "temps › frequence › frequent",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D5"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1371",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1372",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "nuance",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_520",
+   "mot": "たくさん",
+   "lecture": "たくさん",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_520",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1519",
+      "A2-04-D1520",
+      "A2-04-D1521",
+      "A2-04-D1522",
+      "A2-04-D1523"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "quantite",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_520_s1",
+     "traduction": "Beaucoup",
+     "categorie": "nombres_quantification › quantite › grande_quantite",
+     "type": null,
+     "fonctions": [
+      "quantificateur"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D8"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1519",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Classe adverbe : la fiche le dit d'abord « adverbe », « ou nom / adjectif en na dans certaines tournures » ; son exemple l'emploie près du verbe, sans particule (りんごをたくさんかいました). Le schéma ne porte qu'une classe ; les autres emplois sont dits en nuance. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (A9, §2.2).",
+     "apres": "adverbe"
+    },
+    {
+     "id": "A2-04-D1520",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1521",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1522",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction quantificateur (A9, §3.4 ; arbitrage du périmètre du lot 24) : たくさん quantifie un référent désigné par un autre mot (les pommes, objet du verbe), en en donnant l'étendue ; c'est le sens lui-même, attesté par la fiche et son exemple. Le concept reste porté par la catégorie (rôle et concept, A9, §3.4, frontière 2).",
+     "apres": {
+      "grammatical": [
+       "quantificateur"
+      ],
+      "pragmatic_discourse": []
+     }
+    },
+    {
+     "id": "A2-04-D1523",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_521",
+   "mot": "たぶん",
+   "lecture": "たぶん",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_521",
+     "presente": true,
+     "lot": "lot-22",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1430",
+      "A2-04-D1431",
+      "A2-04-D1432",
+      "A2-04-D1433",
+      "A2-04-D1434"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "probabilite",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_521_s1",
+     "traduction": "Peut-être",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1430",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1431",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "sens 1 · dimensions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Dimension probabilité (axe à un seul pôle d'A2-DIM, modalité conceptuelle) : l'axe décrit directement le sens, une probabilité, comme possibilité pour 出来る (lot 20). Doctrine arbitrée au lot 16 : un axe existant est employé lorsqu'il décrit directement le sens, et seulement alors. La modalité conceptuelle n'est pas la modalité grammaticale (A2-LING, §5) : aucune fonction n'est posée (D1434).",
+     "apres": [
+      {
+       "axis": "probabilite",
+       "pole": "probabilite"
+      }
+     ]
+    },
+    {
+     "id": "A2-04-D1432",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1433",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1434",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Aucune fonction linguistique : modalite n'a pas de définition normative (arbitrage du périmètre du lot 22) ; la probabilité est dite par la dimension, non par une fonction. Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 22) ; aucune définition, aucun addendum n'est créé.",
+     "apres": []
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_525",
+   "mot": "まっすぐ",
+   "lecture": "まっすぐ",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_525",
+     "presente": true,
+     "lot": "lot-22",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1409",
+      "A2-04-D1410",
+      "A2-04-D1411"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "direction",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_525_s1",
+     "traduction": "Tout droit",
+     "categorie": "espace_proprietes_spatiales › parcours_trajectoire",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D5"
+    },
+    {
+     "id": "v_525_s2",
+     "traduction": "Honnête",
+     "categorie": "null",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1409",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1410",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1411",
+     "statut": "validated",
+     "lot": "lot-22",
+     "champ": "sens 2 · category",
+     "nature": "categorie-nulle",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_540",
+   "mot": "初めて",
+   "lecture": "はじめて",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_540",
+     "presente": true,
+     "lot": "lot-21",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1394",
+      "A2-04-D1395",
+      "A2-04-D1396",
+      "A2-04-D1397"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "temps",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_540_s1",
+     "traduction": "Pour la première fois",
+     "categorie": "temps › chronologie › succession",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "A7"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1394",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1395",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1396",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "nuance",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1397",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Aucune fonction linguistique : ni aspect, qui n'a pas de définition normative, ni deictique (arbitrage du périmètre du lot 21) : la première fois se repère par rapport à l'expérience du sujet, non à la situation d'énonciation (addendum A7). Aucune fonction qui n'a pas de définition normative n'est posée dans ce lot (doctrine du lot 20, reconduite par l'arbitrage du périmètre du lot 21) ; aucune définition, aucun addendum n'est créé.",
+     "apres": []
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_546",
+   "mot": "大体",
+   "lecture": "だいたい",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_546",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1564",
+      "A2-04-D1565",
+      "A2-04-D1566",
+      "A2-04-D1567",
+      "A2-04-D1568"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "approximation",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_546_s1",
+     "traduction": "À peu près",
+     "categorie": "nombres_quantification › approximation_quantitative",
+     "type": "propriete",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "B15"
+    },
+    {
+     "id": "v_546_s2",
+     "traduction": "En général",
+     "categorie": "temps › frequence › frequent",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "A7"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1564",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Deux sens (arbitrage du périmètre du lot 24) : « une approximation », « grosso modo, à peu près », que l'exemple illustre (le travail est à peu près terminé) ; « une règle générale », très proche de たいてい (lot 21). Sens 1 : nombres et quantification › approximation quantitative, type propriete ; sens 2 : temps › fréquence › fréquent, type concept_abstrait, comme たいてい. Sans fonction (aucune des fonctions définies). Classe adverbe mécanique ; « et nom » dit en nuance. La fiche ne donne aucune particule : aucune pour les deux sens.",
+     "apres": [
+      "S1 À peu près",
+      "S2 En général, généralement"
+     ]
+    },
+    {
+     "id": "A2-04-D1565",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1566",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Sens 1, aucune fonction : l'approximation n'est ni une quantification d'un référent, ni une modification de degré, ni une comparaison (A9) ; elle est dite par la catégorie approximation quantitative.",
+     "apres": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+     }
+    },
+    {
+     "id": "A2-04-D1567",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 2 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Sens 2, aucune fonction : la généralité (« en général ») n'est aucune des fonctions définies par A9 ; elle est dite par la catégorie temps › fréquence, comme pour たいてい (lot 21), validée sans fonction.",
+     "apres": {
+      "grammatical": [],
+      "pragmatic_discourse": []
+     }
+    },
+    {
+     "id": "A2-04-D1568",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · dimensions",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_554",
+   "mot": "時々",
+   "lecture": "ときどき",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_554",
+     "presente": true,
+     "lot": "lot-21",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1376",
+      "A2-04-D1377"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "frequence",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_554_s1",
+     "traduction": "Parfois",
+     "categorie": "temps › frequence › occasionnel",
+     "type": "concept_abstrait",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "A7"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1376",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1377",
+     "statut": "validated",
+     "lot": "lot-21",
+     "champ": "nuance",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_581",
+   "mot": "あなた",
+   "lecture": "あなた",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_581",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0727",
+      "A2-04-D0728",
+      "A2-04-D0729"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "pronom",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_581_s1",
+     "traduction": "Vous",
+     "categorie": "null",
+     "type": "personne",
+     "fonctions": [
+      "deictique"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D3"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0727",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction deictique selon l'addendum A7 (révision 5.12b). あなた désigne l'interlocuteur : deixis de personne.",
+     "apres": [
+      "deictique"
+     ]
+    },
+    {
+     "id": "A2-04-D0728",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0729",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_606",
+   "mot": "皆",
+   "lecture": "みんな",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_606",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0732",
+      "A2-04-D0733",
+      "A2-04-D0734"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "quantite",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_606_s1",
+     "traduction": "Tout le monde",
+     "categorie": "null",
+     "type": "groupe_collectif",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0732",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0733",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "writings",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D0734",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "volet 2, modification 4 (`category`)",
+    "V2-142 (`nuance` (sens 1))"
+   ]
+  },
+  {
+   "entry": "v_607",
+   "mot": "もっと",
+   "lecture": "もっと",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_607",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1552",
+      "A2-04-D1553",
+      "A2-04-D1554"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "degre",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_607_s1",
+     "traduction": "Plus",
+     "categorie": "null",
+     "type": null,
+     "fonctions": [
+      "comparatif",
+      "intensifieur"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D8"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1552",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1553",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonctions comparatif et intensifieur, en cumul (A9, §2.3 ; arbitrage du périmètre du lot 24) : le sens situe un degré par rapport à une référence, le niveau actuel (comparatif, A9 §3.5), et l'augmente (intensifieur, A9 §3.6) ; les deux rôles sont intégraux au même emploi, et la fiche dit les deux (« intensification ou augmentation… par rapport au niveau actuel »). Chacun est justifié ici. Sans catégorie : le rôle (quantifier, modifier un degré, comparer) n'a pas de domaine thématique (A9, §4.1) ; la fonction justifie l'absence (A5), sans décision categorie-nulle.",
+     "apres": {
+      "grammatical": [
+       "comparatif"
+      ],
+      "pragmatic_discourse": [
+       "intensifieur"
+      ]
+     }
+    },
+    {
+     "id": "A2-04-D1554",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_639",
+   "mot": "全部",
+   "lecture": "ぜんぶ",
+   "classe": "adverbe",
+   "fiches": [
+    {
+     "id": "n5_v_639",
+     "presente": true,
+     "lot": "lot-24",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D1524",
+      "A2-04-D1525",
+      "A2-04-D1526",
+      "A2-04-D1527"
+     ],
+     "categorie": "adverbes_expressions",
+     "sousCategorie": "quantite",
+     "type": "adverbe",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_639_s1",
+     "traduction": "Tout",
+     "categorie": "nombres_quantification › totalite_partie › totalite",
+     "type": null,
+     "fonctions": [
+      "quantificateur"
+     ],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe"
+     ],
+     "lot3": "D8"
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D1524",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "grammatical_class",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Classe adverbe, groupe null (arbitrage des choix du lot 24) : la fiche dit « nom / adverbe », mais son type source est adverbe, son exemple principal l'emploie près du verbe (りんごをぜんぶたべました), et sa nuance décrit cet emploi (« souvent placé près du verbe »). L'emploi suivi de の, devant un nom, est conservé en nuance. Le schéma ne porte qu'une classe. Groupe null : la classe n'a aucune valeur de groupe compatible (schema-A2-01, §6). La classe ne décide pas de la fonction, ni l'inverse (A9, §2.2).",
+     "apres": "adverbe"
+    },
+    {
+     "id": "A2-04-D1525",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "senses",
+     "nature": "decision",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    },
+    {
+     "id": "A2-04-D1526",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · linguistic_functions",
+     "nature": "decision",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Fonction quantificateur (A9, §3.4 ; arbitrage du périmètre du lot 24) : 全部 quantifie un référent désigné par un autre mot (les pommes), en en donnant l'étendue, la totalité ; c'est le sens lui-même. Le concept de totalité reste porté par la catégorie.",
+     "apres": {
+      "grammatical": [
+       "quantificateur"
+      ],
+      "pragmatic_discourse": []
+     }
+    },
+    {
+     "id": "A2-04-D1527",
+     "statut": "validated",
+     "lot": "lot-24",
+     "champ": "sens 1 · semantic_type",
+     "nature": "type-nul",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "entry": "v_691",
+   "mot": "自分",
+   "lecture": "じぶん",
+   "classe": "pronom",
+   "fiches": [
+    {
+     "id": "n5_v_691",
+     "presente": true,
+     "lot": "lot-11",
+     "statutLot": "validated",
+     "journalCite": [
+      "A2-04-D0730",
+      "A2-04-D0731"
+     ],
+     "categorie": "pronoms_demonstratifs",
+     "sousCategorie": "pronom",
+     "type": "pronom",
+     "anciensExemples": 3
+    }
+   ],
+   "sensPublies": [
+    {
+     "id": "v_691_s1",
+     "traduction": "Soi-même",
+     "categorie": "null",
+     "type": "personne",
+     "fonctions": [],
+     "candidatD": true,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "lot3": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "A2-04-D0730",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "sens 1 · category",
+     "nature": "categorie-nulle",
+     "fonctions": true,
+     "vocabulaireQuestion": false,
+     "raison": "Pronom réfléchi : « personne générique », sans domaine thématique ; pas de fonction deictique (A7 : référence déterminée par la syntaxe, §3.1 ; l'emploi « je », conservé en nuance, ne fait pas partie intégrante du sens modélisé, §4) Addendum A5.",
+     "apres": null
+    },
+    {
+     "id": "A2-04-D0731",
+     "statut": "validated",
+     "lot": "lot-11",
+     "champ": "senses",
+     "nature": "abandon",
+     "fonctions": false,
+     "vocabulaireQuestion": false
+    }
+   ],
+   "corrections": [
+    "V2-144 (`nuance` (sens 1))"
+   ]
+  }
+ ]
+}

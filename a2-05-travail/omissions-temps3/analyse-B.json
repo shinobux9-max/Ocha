@@ -1,0 +1,182 @@
+{
+ "v_82_s1": {
+  "indice": "D1215 (correction de la nuance) dit que la source écrit avec 閉 « le kanji de l'homophone qu'elle demande, dans la phrase suivante, de ne pas confondre » : « demander » au sens de prescrire.",
+  "r1": "Non. Le sens est un geste sur un objet (serrer, nouer, attacher une cravate ou une ceinture) ; il ne tient la place d'aucune information non spécifiée.",
+  "r2": "Non. Les traductions (« Attacher », « Serrer », « Nouer »), la nuance et l'exemple de la fiche (ネクタイを締めます) sont déclaratifs ; les trois anciens exemples sont deux requêtes (…締めてください) et une déclaration. Aucune question n'y figure.",
+  "r3": "Aucune frontière n'est en jeu : le mot n'est ni formé sur un interrogatif, ni déictique, ni un sens qui nomme une question.",
+  "r4": "Sans objet (R1 et R2 négatives).",
+  "r5": "D1215 emploie « demande » au sens de « prescrit » (la mise en garde de la fiche) ; elle porte sur la nuance, non sur la fonction. D1214 (catégorie) et D1240 (traduction principale) ne portent pas sur la fonction. Toutes s'accordent avec la définition. Verdict du lot 3 (B12, conforme) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens nomme un geste ; le filtre est un faux indice (« demander » au sens de prescrire, dans une décision de nuance)."
+ },
+ "v_84_s1": {
+  "indice": "D0169 (graphies) : « retirer le préfixe お change la forme lexicale […] (même question que お皿) » : « question » au sens de problème.",
+  "r1": "Non. Le sens désigne un repas préparé en boîte, un référent concret.",
+  "r2": "Non. La fiche, son exemple (…お弁当です) et ses trois anciens exemples sont déclaratifs ; aucun emploi interrogatif n'est décrit.",
+  "r3": "Aucune frontière n'est en jeu.",
+  "r4": "Sans objet.",
+  "r5": "D0169 emploie « question » au sens d'un problème déjà traité pour お皿 (D0202) ; D0168 (tags) et D0170 (abandon) ne portent pas sur la fonction. Toutes s'accordent avec la définition. Correction retenue non appliquée V2-57 (nuance de l'ENTRY, provenance), lue, non rouverte. Verdict du lot 3 (C1, conforme) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne un aliment préparé ; « question » est, dans D0169, un problème de graphie."
+ },
+ "v_88_s1": {
+  "indice": "D0165 (tags) : le riz cuit « fait partie de ce qu'on commande ou redemande pour être servi » : « demander » au sens d'une requête.",
+  "r1": "Non. Le sens désigne un aliment (le riz blanc cuit).",
+  "r2": "Non. La fiche (« riz blanc cuit, aliment de base »), son exemple (おいしいご飯を食べます) et ses anciens exemples sont déclaratifs.",
+  "r3": "Aucune frontière n'est en jeu.",
+  "r4": "Sans objet.",
+  "r5": "D0165 dit une requête au restaurant (ご飯のおかわり) pour fonder un tag de lieu ; D0166 (deux sens) et D0167 (abandon) ne portent pas sur la fonction. Toutes s'accordent avec la définition. Correction retenue non appliquée V2-60 (nuance de l'ENTRY), lue, non rouverte. Verdict du lot 3 (C1, conforme) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne un aliment ; « redemande » est, dans D0165, une requête de service."
+ },
+ "v_88_s2": {
+  "indice": "Même décision D0165, qui précise que le tag « ne vaut que pour ce sens (sens 1), pas pour le repas » ; le sens 2 est relevé par la décision de son ENTRY, sans indice propre.",
+  "r1": "Non. Le sens désigne un événement, le repas.",
+  "r2": "Non. La fiche le décrit « par extension, un repas complet » (朝ご飯, 昼ご飯, 晩ご飯) ; l'ancien exemple 夕ご飯の準備を始めます est déclaratif.",
+  "r3": "Aucune frontière n'est en jeu.",
+  "r4": "Sans objet.",
+  "r5": "D0165 exclut expressément ce sens de son tag ; D0166 fonde les deux sens sur deux référents. Aucune ne porte sur la fonction ; toutes s'accordent avec la définition. V2-60 porte sur la nuance de l'ENTRY, déjà citée au sens 1.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne le repas ; aucun rôle interrogatif n'est modélisé ni attesté."
+ },
+ "v_111_s1": {
+  "indice": "D0207 (tags) : on les propose au konbini (お箸おつけしますか) et « on les demande au restaurant (お箸をください) » : une requête, et une question citée dans la décision.",
+  "r1": "Non. Le sens désigne un ustensile.",
+  "r2": "Non. La fiche, son exemple et ses trois anciens exemples sont déclaratifs. La question citée par D0207, お箸おつけしますか, est formée par la particule か : 箸 y est l'objet de la question, non le mot qui en tient la place.",
+  "r3": "Oui : l'interrogation de la phrase citée relève d'une marque grammaticale (A10, §4, point 5) ; une décision qui cite une question n'atteste pas un emploi interrogatif du mot (§8).",
+  "r4": "Sans objet.",
+  "r5": "D0207 fonde des tags de lieu sur une requête et sur une offre ; D0208 (abandon) ne porte pas sur la fonction. Toutes deux s'accordent avec la définition. Correction retenue non appliquée V2-64 (nuance de l'ENTRY, retirée), lue, non rouverte.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne un ustensile ; la question citée en décision est portée par か."
+ },
+ "v_163_s1": {
+  "indice": "D1343 (sens) : « le temps ou le coût qu'une tâche ou une situation demande la caractérise » : « demander » au sens d'exiger.",
+  "r1": "Non. Le sens dit qu'une chose exige ou consomme une ressource (du temps, de l'argent) ; la quantité y est donnée (1時間, 30分, たくさん), non demandée.",
+  "r2": "Non. La fiche (« l'exigence ou la consommation d'une ressource »), son exemple et ses trois anciens exemples sont déclaratifs. La fiche ne décrit aucun emploi où かかる tiendrait la place d'une durée ou d'un prix demandés.",
+  "r3": "Aucune frontière n'est en jeu : le sens n'est pas formé sur un interrogatif et ne nomme pas une question.",
+  "r4": "Sans objet.",
+  "r5": "D1343 emploie « demande » au sens d'« exige » pour fonder le type propriete ; D1342 (graphie), D1344 (catégorie nulle, A5) et D1345 (abandon) ne portent pas sur la fonction. Toutes s'accordent avec la définition.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens dit l'exigence d'une ressource, dont la quantité est donnée ; « demande » signifie « exige » dans D1343."
+ },
+ "v_211_s1": {
+  "indice": "D0213 (tags) : « couvert qu'on demande pour être servi » : une requête.",
+  "r1": "Non. Le sens désigne un ustensile.",
+  "r2": "Non. La fiche, son exemple (ナイフでパンを切ります) et ses trois anciens exemples sont déclaratifs.",
+  "r3": "Aucune frontière n'est en jeu.",
+  "r4": "Sans objet.",
+  "r5": "D0213 fonde un tag de lieu sur une requête au restaurant ; D0214 (abandon) ne porte pas sur la fonction. Toutes deux s'accordent avec la définition. Correction retenue non appliquée V2-66 (nuance de l'ENTRY), lue, non rouverte.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne un ustensile ; « demande » est, dans D0213, une requête de service."
+ },
+ "v_225_s1": {
+  "indice": "Deux décisions : D0201 (tags), « l'assiette n'est pas d'ordinaire demandée au restaurant » ; D0202 (graphies), « Question ouverte : 皿 pourrait être une ENTRY distincte ».",
+  "r1": "Non. Le sens désigne un objet de vaisselle.",
+  "r2": "Non. La fiche, son exemple (りょうりをお皿に盛ります) et ses trois anciens exemples sont déclaratifs.",
+  "r3": "Aucune frontière n'est en jeu.",
+  "r4": "Sans objet.",
+  "r5": "D0201 emploie « demandée » au sens d'une requête, pour écarter un tag ; D0202 emploie « question » au sens d'un point laissé ouvert ; D0203 (abandon) ne porte pas sur la fonction. Toutes s'accordent avec la définition.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne un objet ; les deux décisions relevées emploient « demander » et « question » au sens courant."
+ },
+ "v_230_s1": {
+  "indice": "D0205 (tags) : « au restaurant, on demande l'eau (お水) plutôt que le verre » : une requête.",
+  "r1": "Non. Le sens désigne un récipient.",
+  "r2": "Non. La fiche, son exemple (コップにみずをいれます) et ses trois anciens exemples sont déclaratifs ou de requête (…扱ってください).",
+  "r3": "Aucune frontière n'est en jeu.",
+  "r4": "Sans objet.",
+  "r5": "D0205 écarte un tag de lieu au motif d'une requête ; D0206 (abandon de « Tasse ») ne porte pas sur la fonction. Toutes deux s'accordent avec la définition.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne un récipient ; « demande » est, dans D0205, une requête."
+ },
+ "v_231_s1": {
+  "indice": "D0209 (tags) : cuillère « proposée au konbini avec un plat (スプーンおつけしますか), demandée au restaurant » : une requête, et une question citée dans la décision.",
+  "r1": "Non. Le sens désigne un ustensile.",
+  "r2": "Non. La fiche, son exemple et ses trois anciens exemples sont déclaratifs ou de requête (…準備してください). La question citée par D0209, スプーンおつけしますか, est formée par か : スプーン en est l'objet.",
+  "r3": "Oui : l'interrogation de la phrase citée relève d'une marque grammaticale (A10, §4, point 5).",
+  "r4": "Sans objet.",
+  "r5": "D0209 fonde des tags de lieu sur une offre et une requête ; D0210 (abandon) ne porte pas sur la fonction. Toutes deux s'accordent avec la définition.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne un ustensile ; la question citée en décision est portée par か."
+ },
+ "v_232_s1": {
+  "indice": "D0211 (tags) : « couvert qu'on demande pour être servi (フォークをください) » : une requête.",
+  "r1": "Non. Le sens désigne un ustensile.",
+  "r2": "Non. La fiche, son exemple (フォークでパスタを食べます) et ses trois anciens exemples sont déclaratifs.",
+  "r3": "Aucune frontière n'est en jeu.",
+  "r4": "Sans objet.",
+  "r5": "D0211 fonde un tag de lieu sur une requête ; D0212 (abandon) ne porte pas sur la fonction. Toutes deux s'accordent avec la définition.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne un ustensile ; « demande » est, dans D0211, une requête."
+ },
+ "v_339_s1": {
+  "indice": "D0672 (tags) qualifie こちら de « démonstratif ou interrogatif d'usage général » ; la classe pronom (T2-classe) l'a aussi relevé.",
+  "r1": "Non. Le sens désigne une direction ou un lieu proche du locuteur : le référent est situé par l'énonciation, il est spécifié, non demandé.",
+  "r2": "Non. La fiche le dit « pronom démonstratif de la série Ko (proche du locuteur) indiquant une direction, un lieu proche » ; son exemple (こちらへどうぞ) et ses trois anciens exemples sont des invitations, des requêtes ou une déclaration ; aucune question.",
+  "r3": "Oui : frontière `deictique` (A10, §4, point 2) : le sens repère un référent par la situation d'énonciation, il ne demande rien ; dans la série, c'est どちら (`v_396`, porteur de la fonction) qui interroge. L'appartenance à la série ko-so-a-do ne décide pas (§3, point 2).",
+  "r4": "Sans objet (R1 et R2 négatives) ; la fonction `deictique` déjà portée n'est pas réexaminée.",
+  "r5": "D0672 : voir le §3 du rapport ; la formule est un gabarit commun aux décisions de tags de la série (dont D0700, pour どっち) ; appliquée à こちら, seule la branche « démonstratif » vaut, et la décision n'attribue ni ne refuse aucune fonction : elle s'accorde avec A10, sans réécriture. D0670 (deux sens, fonction deictique, A7), D0667 (type nul), D0669 (classe) et D0671 (abandon) ne posent pas la fonction interrogative. Correction retenue non appliquée V2-124 (nuance du sens 1), lue, non rouverte. Verdict du lot 3 (D2, conforme) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne une direction située par l'énonciation (deictique) ; il ne demande aucune information (A10, §2 ; §4, point 2)."
+ },
+ "v_339_s2": {
+  "indice": "Même décision D0672 (gabarit de la série), et la classe pronom.",
+  "r1": "Non. Le sens désigne le locuteur lui-même (« Moi, nous », traduction publiée), en forme polie.",
+  "r2": "Non. La fiche dit seulement « servant de forme polie pour désigner sa propre personne » (les exemples de la nuance publiée, こちらこそ et こちらは田中です, ne viennent pas de la fiche : c'est l'objet de V2-125) ; aucun exemple ni ancien exemple n'emploie ce sens dans une question (l'ancien exemple …こちらから連絡します est une déclaration).",
+  "r3": "Oui : frontière `deictique` (A10, §4, point 2) : le référent est la personne qui parle, repérée par l'énonciation.",
+  "r4": "Sans objet ; la fonction `deictique` déjà portée n'est pas réexaminée.",
+  "r5": "D0672, comme pour le sens 1 (§3 du rapport) ; D0670 fonde ce sens sur la fiche et pose `deictique` (A7) ; D0668 (type nul) ne porte pas sur la fonction interrogative. Toutes s'accordent avec la définition. Correction retenue non appliquée V2-125 (nuance du sens 2), lue, non rouverte. Verdict du lot 3 (D2, conforme) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne le locuteur, repéré par l'énonciation ; il ne demande rien."
+ },
+ "v_340_s1": {
+  "indice": "D0677 (tags) : « démonstratif ou interrogatif d'usage général » ; la classe pronom ; l'exemple de la fiche est une question (そちらはいかがですか).",
+  "r1": "Non. Le sens désigne une direction ou un endroit proche de l'interlocuteur : un référent situé, non une information demandée.",
+  "r2": "Non. La fiche le dit « pronom démonstratif de la série So […] indiquant une direction ou un endroit situé près de la personne à qui l'on s'adresse ». Son exemple, そちらはいかがですか, est une question, mais elle est portée par いかが (`v_390`, porteur de la fonction) et par か : そちら en est le thème, le lieu de l'interlocuteur, déjà spécifié. Le premier ancien exemple, そちらの方に落とし物が落ちていませんか, est de même une question formée par か, où そちら situe le lieu. La traduction « Comment cela se passe-t-il par là chez vous ? » rend la question de la phrase, non le mot (A10, §3, point 1).",
+  "r3": "Oui : frontière `deictique` (§4, point 2) ; et l'interrogation des exemples relève d'un autre mot et d'une marque grammaticale (§4, point 5). La série ne décide pas (§3, point 2).",
+  "r4": "Sans objet ; la fonction `deictique` déjà portée n'est pas réexaminée.",
+  "r5": "D0677 : voir le §3 du rapport ; même gabarit que D0672 et D0637, qui s'accorde avec A10 sans réécriture. D0675 (un seul sens), D0676 (fonction deictique, A7), D0673 (type nul) et D0674 (classe) ne posent pas la fonction interrogative. Correction retenue non appliquée V2-126 (nuance du sens 1), lue, non rouverte. Verdict du lot 3 (D2, conforme) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne un lieu situé près de l'interlocuteur ; dans les questions des exemples, c'est いかが ou か qui interroge, non そちら."
+ },
+ "v_342_s1": {
+  "indice": "D0637 (tags) : « démonstratif ou interrogatif d'usage général » ; la classe pronom ; l'exemple de la fiche est une question (それはなんですか).",
+  "r1": "Non. Le sens désigne une chose proche de l'interlocuteur, ou dont on vient de parler : un référent spécifié par la situation ou le discours.",
+  "r2": "Non. La fiche le dit « pronom démonstratif de la série So désignant un objet ou une chose proche de la personne à laquelle on s'adresse ». Son exemple, それはなんですか (« Qu'est-ce que c'est ? »), est une question, mais l'information demandée est tenue par なん (何, `v_401`, porteur de la fonction) : それ en est le thème, la chose déjà désignée. Les trois anciens exemples sont déclaratifs ou de requête.",
+  "r3": "Oui : frontière `deictique` (§4, point 2) ; l'interrogation de l'exemple relève d'un autre mot, なん, et de か. La série ne décide pas (§3, point 2).",
+  "r4": "Sans objet ; la fonction `deictique` déjà portée n'est pas réexaminée.",
+  "r5": "D0637 : voir le §3 du rapport ; même gabarit, qui s'accorde avec A10 sans réécriture. D0636 (fonction deictique, A7, l'emploi anaphorique restant en nuance), D0634 (type nul) et D0635 (classe) ne posent pas la fonction interrogative. Verdict du lot 3 (D2, conforme) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne une chose située ; dans それはなんですか, c'est なん qui interroge, non それ."
+ },
+ "v_598_s1": {
+  "indice": "D1294 (graphies) et D1612 (forme usuelle) : « La question avait été signalée pour la passe finale par D1294 » : « question » au sens d'un point à traiter.",
+  "r1": "Non. Le sens désigne un objet, la cigarette.",
+  "r2": "Non. La fiche (« désignant le tabac ou une cigarette »), son exemple (ここでたばこをすってはいけません) et deux anciens exemples sont déclaratifs. Le premier ancien exemple, ここでたばこを吸ってもいいですか, est une demande de permission formée par か : たばこ en est l'objet.",
+  "r3": "Oui : l'interrogation de l'ancien exemple relève d'une construction (〜てもいいですか) et d'une marque grammaticale (A10, §4, point 5).",
+  "r4": "Sans objet.",
+  "r5": "D1612 emploie « question » au sens d'un point laissé à la passe finale ; D1294 (graphie, avec le signalement de la forme usuelle), D1295 (catégorie nulle), D1296 (abandon de « Cigare »), D1300 (deux sens), D1611 (réouverture) et D1613 (graphies) ne portent pas sur la fonction. Toutes s'accordent avec la définition.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne un objet ; « question » est, dans D1612, un point de forme usuelle ; la question d'un ancien exemple est portée par か."
+ },
+ "v_598_s2": {
+  "indice": "Mêmes décisions D1294 et D1612, sur l'ENTRY.",
+  "r1": "Non. Le sens désigne une matière, le tabac.",
+  "r2": "Non. La fiche nomme le tabac sans aucun emploi interrogatif ; aucun exemple ni ancien exemple n'emploie ce sens dans une question.",
+  "r3": "Aucune frontière n'est en jeu.",
+  "r4": "Sans objet.",
+  "r5": "Mêmes décisions que le sens 1 ; D1300 fonde ce sens sur deux référents de types différents, D1301 lui laisse une catégorie nulle (A5). Aucune ne porte sur la fonction ; toutes s'accordent avec la définition.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens désigne une matière ; aucun rôle interrogatif n'est modélisé ni attesté."
+ },
+ "v_600_s1": {
+  "indice": "D1500 (classe) : « son exemple l'emploie avec une demande (どうぞ…ください) » ; la série en ど (どう, T2-serie) et la classe adverbe l'ont aussi relevé.",
+  "r1": "Non. Le sens est d'inviter l'autre à faire ou à accepter quelque chose (D1501) : un acte social, non une information demandée.",
+  "r2": "Non. La fiche le dit employé « pour inviter quelqu'un à faire quelque chose, pour lui céder le passage ou pour lui offrir un objet ». Son exemple (どうぞ、こちらへはいってください) est une invitation ; dans le troisième ancien exemple, 「ドアを開けてもいいですか」「はい、どうぞ」, la question est posée par l'autre locuteur, et どうぞ y est la réponse qui accorde.",
+  "r3": "Oui : la série en ど ne décide pas (§3, point 2) : どうぞ n'interroge pas, même si le filtre de série l'a relevé par どう ; le registre poli se dit par `politesse`, déjà portée, et non par la fonction interrogative (§4, point 3, sans objet ici).",
+  "r4": "Sans objet (R1 et R2 négatives) ; la fonction `politesse` déjà portée n'est pas réexaminée.",
+  "r5": "D1500 emploie « demande » au sens d'une requête (…ください), et précise que la classe ne décide pas de la fonction (A9, §2.2) ; D1501 (un seul sens), D1502 (fonction politesse, A9) et D1503 (type nul) ne posent pas la fonction interrogative. Toutes s'accordent avec la définition. Verdict du lot 3 (D7, conforme) cité, non rouvert.",
+  "conclusion": "ne relève pas de la fonction",
+  "motif": "Le sens est une invitation polie ; il ne demande aucune information, et la série en ど ne décide pas (A10, §3, point 2)."
+ }
+}

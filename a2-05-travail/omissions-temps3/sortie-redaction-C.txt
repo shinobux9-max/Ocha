@@ -1,0 +1,9 @@
+conforme dossier factuel du périmètre accepté, à son empreinte : 8eaa24be3aca9b95
+conforme périmètre : 3 sens, 2 ENTRY
+conforme une analyse par sens du périmètre, et aucune autre : 3 analyses
+conforme les sept décisions de journal des deux ENTRY, chacune citée : 7 décisions
+conforme いつも : frontière des indéfinis (A10, §4, point 1) examinée en R3
+conforme analyses complètes, conclusions admises ; décisions, livraisons et corrections citées exactes et complètes ; frontières demandées examinées
+conforme recueil : 2 fiches sources complètes, 6 anciens exemples : 2 fiches, 6 anciens exemples
+écrits : a2-05-travail/omissions-temps3/rapport-relecture-C.md, a2-05-travail/omissions-temps3/fiches-C.md
+rédaction conforme ; {"ne relève pas de la fonction":3,"relève de la fonction":0,"à arbitrer":0}

@@ -1,0 +1,2398 @@
+{
+ "objet": "Proposition de découpage du temps 3 (recherche d'omissions d'`interrogatif`), non arbitrée",
+ "mesure": {
+  "chemin": "a2-05-travail/arbitrage-F/mesure-couverture/mesure/mesure.json",
+  "sha": "7637157edd8a28b7330a77313d525517ee4c28022b3d302964fb2cf9aa0e1d44"
+ },
+ "regle": "chaque ENTRY va, entière, dans le premier groupe (A, B, C, D, E) dont un de ses sens candidats porte un filtre du groupe ; tous les filtres d'origine sont conservés",
+ "groupes": {
+  "A": {
+   "theme": "indices textuels du temps 1",
+   "entry": [
+    "v_116",
+    "v_120",
+    "v_124",
+    "v_174",
+    "v_175",
+    "v_240",
+    "v_243",
+    "v_269",
+    "v_392",
+    "v_414",
+    "v_444",
+    "v_465",
+    "v_486",
+    "v_503",
+    "v_510",
+    "v_511",
+    "v_517",
+    "v_542",
+    "v_584",
+    "v_596",
+    "v_605",
+    "v_638",
+    "v_651",
+    "v_664",
+    "v_677",
+    "v_688",
+    "v_700",
+    "v_702",
+    "v_703",
+    "v_718",
+    "v_719"
+   ],
+   "sens": [
+    {
+     "id": "v_116_s1",
+     "entry": "v_116",
+     "rang": 22,
+     "filtres": [
+      "T1-radicaux",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_116_s2",
+     "entry": "v_116",
+     "rang": 23,
+     "filtres": [
+      "T1-radicaux",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_120_s1",
+     "entry": "v_120",
+     "rang": 24,
+     "filtres": [
+      "T1-point"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_124_s1",
+     "entry": "v_124",
+     "rang": 25,
+     "filtres": [
+      "T1-radicaux"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_174_s1",
+     "entry": "v_174",
+     "rang": 30,
+     "filtres": [
+      "T1-radicaux",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_175_s1",
+     "entry": "v_175",
+     "rang": 31,
+     "filtres": [
+      "T1-radicaux",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_175_s2",
+     "entry": "v_175",
+     "rang": 32,
+     "filtres": [
+      "T1-radicaux",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_240_s1",
+     "entry": "v_240",
+     "rang": 39,
+     "filtres": [
+      "T1-radicaux"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_243_s1",
+     "entry": "v_243",
+     "rang": 40,
+     "filtres": [
+      "T1-point"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_269_s1",
+     "entry": "v_269",
+     "rang": 43,
+     "filtres": [
+      "T1-mots"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_392_s1",
+     "entry": "v_392",
+     "rang": 57,
+     "filtres": [
+      "T1-mots",
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_414_s1",
+     "entry": "v_414",
+     "rang": 70,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "rattaché par son ENTRY"
+    },
+    {
+     "id": "v_414_s2",
+     "entry": "v_414",
+     "rang": 71,
+     "filtres": [
+      "T1-point",
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_444_s1",
+     "entry": "v_444",
+     "rang": 85,
+     "filtres": [
+      "T1-mots"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_465_s1",
+     "entry": "v_465",
+     "rang": 97,
+     "filtres": [
+      "T1-mots"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_486_s1",
+     "entry": "v_486",
+     "rang": 103,
+     "filtres": [
+      "T1-radicaux",
+      "T2-nuls",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_503_s1",
+     "entry": "v_503",
+     "rang": 119,
+     "filtres": [
+      "T1-radicaux",
+      "T2-classe",
+      "T2-nuls",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_510_s1",
+     "entry": "v_510",
+     "rang": 127,
+     "filtres": [
+      "T1-point",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_511_s1",
+     "entry": "v_511",
+     "rang": 128,
+     "filtres": [
+      "T1-radicaux",
+      "T2-nuls",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_511_s2",
+     "entry": "v_511",
+     "rang": 129,
+     "filtres": [
+      "T1-radicaux",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_517_s1",
+     "entry": "v_517",
+     "rang": 135,
+     "filtres": [
+      "T1-point",
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_517_s2",
+     "entry": "v_517",
+     "rang": 136,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "rattaché par son ENTRY"
+    },
+    {
+     "id": "v_542_s1",
+     "entry": "v_542",
+     "rang": 157,
+     "filtres": [
+      "T1-point",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_542_s2",
+     "entry": "v_542",
+     "rang": 158,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "rattaché par son ENTRY"
+    },
+    {
+     "id": "v_584_s1",
+     "entry": "v_584",
+     "rang": 181,
+     "filtres": [
+      "T1-radicaux",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_584_s2",
+     "entry": "v_584",
+     "rang": 182,
+     "filtres": [
+      "T1-radicaux",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_596_s1",
+     "entry": "v_596",
+     "rang": 183,
+     "filtres": [
+      "T1-mots"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_605_s1",
+     "entry": "v_605",
+     "rang": 188,
+     "filtres": [
+      "T1-point",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_638_s1",
+     "entry": "v_638",
+     "rang": 200,
+     "filtres": [
+      "T1-point"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_651_s1",
+     "entry": "v_651",
+     "rang": 206,
+     "filtres": [
+      "T1-point"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_664_s1",
+     "entry": "v_664",
+     "rang": 209,
+     "filtres": [
+      "T1-point"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_664_s2",
+     "entry": "v_664",
+     "rang": 210,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "rattaché par son ENTRY"
+    },
+    {
+     "id": "v_677_s1",
+     "entry": "v_677",
+     "rang": 216,
+     "filtres": [
+      "T1-radicaux"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_688_s1",
+     "entry": "v_688",
+     "rang": 221,
+     "filtres": [
+      "T1-mots",
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_700_s1",
+     "entry": "v_700",
+     "rang": 226,
+     "filtres": [
+      "T1-radicaux",
+      "T1-point",
+      "T1-mots",
+      "T2-classe",
+      "T2-nuls",
+      "T2-serie",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_702_s1",
+     "entry": "v_702",
+     "rang": 227,
+     "filtres": [
+      "T1-radicaux",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_703_s1",
+     "entry": "v_703",
+     "rang": 228,
+     "filtres": [
+      "T1-point"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_718_s1",
+     "entry": "v_718",
+     "rang": 233,
+     "filtres": [
+      "T1-radicaux"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_719_s1",
+     "entry": "v_719",
+     "rang": 234,
+     "filtres": [
+      "T1-radicaux"
+     ],
+     "motif": "filtre propre au groupe"
+    }
+   ]
+  },
+  "B": {
+   "theme": "décisions du journal (T2-journal)",
+   "entry": [
+    "v_82",
+    "v_84",
+    "v_88",
+    "v_111",
+    "v_163",
+    "v_211",
+    "v_225",
+    "v_230",
+    "v_231",
+    "v_232",
+    "v_339",
+    "v_340",
+    "v_342",
+    "v_598",
+    "v_600"
+   ],
+   "sens": [
+    {
+     "id": "v_82_s1",
+     "entry": "v_82",
+     "rang": 17,
+     "filtres": [
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_84_s1",
+     "entry": "v_84",
+     "rang": 18,
+     "filtres": [
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_88_s1",
+     "entry": "v_88",
+     "rang": 19,
+     "filtres": [
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_88_s2",
+     "entry": "v_88",
+     "rang": 20,
+     "filtres": [
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_111_s1",
+     "entry": "v_111",
+     "rang": 21,
+     "filtres": [
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_163_s1",
+     "entry": "v_163",
+     "rang": 28,
+     "filtres": [
+      "T2-nuls",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_211_s1",
+     "entry": "v_211",
+     "rang": 34,
+     "filtres": [
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_225_s1",
+     "entry": "v_225",
+     "rang": 35,
+     "filtres": [
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_230_s1",
+     "entry": "v_230",
+     "rang": 36,
+     "filtres": [
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_231_s1",
+     "entry": "v_231",
+     "rang": 37,
+     "filtres": [
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_232_s1",
+     "entry": "v_232",
+     "rang": 38,
+     "filtres": [
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_339_s1",
+     "entry": "v_339",
+     "rang": 46,
+     "filtres": [
+      "T2-classe",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_339_s2",
+     "entry": "v_339",
+     "rang": 47,
+     "filtres": [
+      "T2-classe",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_340_s1",
+     "entry": "v_340",
+     "rang": 48,
+     "filtres": [
+      "T2-classe",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_342_s1",
+     "entry": "v_342",
+     "rang": 49,
+     "filtres": [
+      "T2-classe",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_598_s1",
+     "entry": "v_598",
+     "rang": 184,
+     "filtres": [
+      "T2-nuls",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_598_s2",
+     "entry": "v_598",
+     "rang": 185,
+     "filtres": [
+      "T2-nuls",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_600_s1",
+     "entry": "v_600",
+     "rang": 186,
+     "filtres": [
+      "T2-classe",
+      "T2-serie",
+      "T2-journal"
+     ],
+     "motif": "filtre propre au groupe"
+    }
+   ]
+  },
+  "C": {
+   "theme": "série (T2-serie)",
+   "entry": [
+    "v_494",
+    "v_499"
+   ],
+   "sens": [
+    {
+     "id": "v_494_s1",
+     "entry": "v_494",
+     "rang": 105,
+     "filtres": [
+      "T2-classe",
+      "T2-serie"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_499_s1",
+     "entry": "v_499",
+     "rang": 111,
+     "filtres": [
+      "T2-classe",
+      "T2-serie"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_499_s2",
+     "entry": "v_499",
+     "rang": 112,
+     "filtres": [
+      "T2-classe",
+      "T2-serie"
+     ],
+     "motif": "filtre propre au groupe"
+    }
+   ]
+  },
+  "D": {
+   "theme": "classe grammaticale (T2-classe)",
+   "entry": [
+    "v_359",
+    "v_403",
+    "v_404",
+    "v_405",
+    "v_406",
+    "v_407",
+    "v_408",
+    "v_409",
+    "v_410",
+    "v_411",
+    "v_412",
+    "v_415",
+    "v_425",
+    "v_438",
+    "v_441",
+    "v_446",
+    "v_471",
+    "v_496",
+    "v_497",
+    "v_498",
+    "v_500",
+    "v_501",
+    "v_502",
+    "v_504",
+    "v_506",
+    "v_509",
+    "v_515",
+    "v_518",
+    "v_519",
+    "v_520",
+    "v_521",
+    "v_525",
+    "v_540",
+    "v_546",
+    "v_554",
+    "v_581",
+    "v_606",
+    "v_607",
+    "v_639",
+    "v_691"
+   ],
+   "sens": [
+    {
+     "id": "v_359_s1",
+     "entry": "v_359",
+     "rang": 50,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_403_s1",
+     "entry": "v_403",
+     "rang": 58,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_404_s1",
+     "entry": "v_404",
+     "rang": 59,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_404_s2",
+     "entry": "v_404",
+     "rang": 60,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_405_s1",
+     "entry": "v_405",
+     "rang": 61,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_406_s1",
+     "entry": "v_406",
+     "rang": 62,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_407_s1",
+     "entry": "v_407",
+     "rang": 63,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_408_s1",
+     "entry": "v_408",
+     "rang": 64,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_409_s1",
+     "entry": "v_409",
+     "rang": 65,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_409_s2",
+     "entry": "v_409",
+     "rang": 66,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_410_s1",
+     "entry": "v_410",
+     "rang": 67,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_411_s1",
+     "entry": "v_411",
+     "rang": 68,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_412_s1",
+     "entry": "v_412",
+     "rang": 69,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_415_s1",
+     "entry": "v_415",
+     "rang": 72,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_425_s1",
+     "entry": "v_425",
+     "rang": 77,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_438_s1",
+     "entry": "v_438",
+     "rang": 82,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_441_s1",
+     "entry": "v_441",
+     "rang": 83,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_446_s1",
+     "entry": "v_446",
+     "rang": 86,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_471_s1",
+     "entry": "v_471",
+     "rang": 98,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_471_s2",
+     "entry": "v_471",
+     "rang": 99,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_496_s1",
+     "entry": "v_496",
+     "rang": 107,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_497_s1",
+     "entry": "v_497",
+     "rang": 108,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_497_s2",
+     "entry": "v_497",
+     "rang": 109,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_498_s1",
+     "entry": "v_498",
+     "rang": 110,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_500_s1",
+     "entry": "v_500",
+     "rang": 113,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_500_s2",
+     "entry": "v_500",
+     "rang": 114,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_501_s1",
+     "entry": "v_501",
+     "rang": 115,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_501_s2",
+     "entry": "v_501",
+     "rang": 116,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_502_s1",
+     "entry": "v_502",
+     "rang": 117,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_502_s2",
+     "entry": "v_502",
+     "rang": 118,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_504_s1",
+     "entry": "v_504",
+     "rang": 120,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_504_s2",
+     "entry": "v_504",
+     "rang": 121,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_506_s1",
+     "entry": "v_506",
+     "rang": 122,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_506_s2",
+     "entry": "v_506",
+     "rang": 123,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_509_s1",
+     "entry": "v_509",
+     "rang": 124,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_509_s2",
+     "entry": "v_509",
+     "rang": 125,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_509_s3",
+     "entry": "v_509",
+     "rang": 126,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_515_s1",
+     "entry": "v_515",
+     "rang": 132,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_518_s1",
+     "entry": "v_518",
+     "rang": 137,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_519_s1",
+     "entry": "v_519",
+     "rang": 138,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_520_s1",
+     "entry": "v_520",
+     "rang": 139,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_521_s1",
+     "entry": "v_521",
+     "rang": 140,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_525_s1",
+     "entry": "v_525",
+     "rang": 145,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_525_s2",
+     "entry": "v_525",
+     "rang": 146,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_540_s1",
+     "entry": "v_540",
+     "rang": 154,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_546_s1",
+     "entry": "v_546",
+     "rang": 160,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_546_s2",
+     "entry": "v_546",
+     "rang": 161,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_554_s1",
+     "entry": "v_554",
+     "rang": 165,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_581_s1",
+     "entry": "v_581",
+     "rang": 180,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_606_s1",
+     "entry": "v_606",
+     "rang": 189,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_607_s1",
+     "entry": "v_607",
+     "rang": 190,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_639_s1",
+     "entry": "v_639",
+     "rang": 201,
+     "filtres": [
+      "T2-classe"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_691_s1",
+     "entry": "v_691",
+     "rang": 223,
+     "filtres": [
+      "T2-classe",
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    }
+   ]
+  },
+  "E": {
+   "theme": "valeurs nulles (T2-nuls)",
+   "entry": [
+    "v_44",
+    "v_46",
+    "v_48",
+    "v_50",
+    "v_51",
+    "v_54",
+    "v_57",
+    "v_58",
+    "v_60",
+    "v_61",
+    "v_62",
+    "v_65",
+    "v_67",
+    "v_79",
+    "v_80",
+    "v_130",
+    "v_144",
+    "v_164",
+    "v_181",
+    "v_265",
+    "v_266",
+    "v_287",
+    "v_321",
+    "v_361",
+    "v_363",
+    "v_364",
+    "v_366",
+    "v_420",
+    "v_421",
+    "v_422",
+    "v_424",
+    "v_427",
+    "v_428",
+    "v_432",
+    "v_434",
+    "v_442",
+    "v_449",
+    "v_451",
+    "v_452",
+    "v_456",
+    "v_457",
+    "v_458",
+    "v_461",
+    "v_462",
+    "v_464",
+    "v_478",
+    "v_484",
+    "v_489",
+    "v_495",
+    "v_512",
+    "v_513",
+    "v_516",
+    "v_522",
+    "v_523",
+    "v_524",
+    "v_526",
+    "v_528",
+    "v_532",
+    "v_533",
+    "v_536",
+    "v_539",
+    "v_541",
+    "v_545",
+    "v_548",
+    "v_551",
+    "v_552",
+    "v_558",
+    "v_560",
+    "v_561",
+    "v_562",
+    "v_564",
+    "v_567",
+    "v_568",
+    "v_573",
+    "v_575",
+    "v_576",
+    "v_578",
+    "v_579",
+    "v_580",
+    "v_603",
+    "v_608",
+    "v_609",
+    "v_611",
+    "v_627",
+    "v_633",
+    "v_635",
+    "v_637",
+    "v_642",
+    "v_646",
+    "v_648",
+    "v_653",
+    "v_657",
+    "v_665",
+    "v_667",
+    "v_671",
+    "v_675",
+    "v_684",
+    "v_685",
+    "v_686",
+    "v_687",
+    "v_690",
+    "v_694",
+    "v_696",
+    "v_709",
+    "v_710",
+    "v_713",
+    "v_716"
+   ],
+   "sens": [
+    {
+     "id": "v_44_s1",
+     "entry": "v_44",
+     "rang": 1,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_46_s1",
+     "entry": "v_46",
+     "rang": 2,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_48_s1",
+     "entry": "v_48",
+     "rang": 3,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_50_s2",
+     "entry": "v_50",
+     "rang": 4,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_51_s1",
+     "entry": "v_51",
+     "rang": 5,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_54_s1",
+     "entry": "v_54",
+     "rang": 6,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_57_s1",
+     "entry": "v_57",
+     "rang": 7,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_58_s1",
+     "entry": "v_58",
+     "rang": 8,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_60_s1",
+     "entry": "v_60",
+     "rang": 9,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_61_s1",
+     "entry": "v_61",
+     "rang": 10,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_62_s1",
+     "entry": "v_62",
+     "rang": 11,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_65_s1",
+     "entry": "v_65",
+     "rang": 12,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_65_s2",
+     "entry": "v_65",
+     "rang": 13,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_67_s1",
+     "entry": "v_67",
+     "rang": 14,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_79_s1",
+     "entry": "v_79",
+     "rang": 15,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_80_s2",
+     "entry": "v_80",
+     "rang": 16,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_130_s1",
+     "entry": "v_130",
+     "rang": 26,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_144_s1",
+     "entry": "v_144",
+     "rang": 27,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_164_s3",
+     "entry": "v_164",
+     "rang": 29,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_181_s1",
+     "entry": "v_181",
+     "rang": 33,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_265_s2",
+     "entry": "v_265",
+     "rang": 41,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_266_s2",
+     "entry": "v_266",
+     "rang": 42,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_287_s1",
+     "entry": "v_287",
+     "rang": 44,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_321_s2",
+     "entry": "v_321",
+     "rang": 45,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_361_s1",
+     "entry": "v_361",
+     "rang": 51,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_361_s2",
+     "entry": "v_361",
+     "rang": 52,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_363_s1",
+     "entry": "v_363",
+     "rang": 53,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_363_s2",
+     "entry": "v_363",
+     "rang": 54,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_364_s1",
+     "entry": "v_364",
+     "rang": 55,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_366_s1",
+     "entry": "v_366",
+     "rang": 56,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_420_s1",
+     "entry": "v_420",
+     "rang": 73,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_421_s1",
+     "entry": "v_421",
+     "rang": 74,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_422_s2",
+     "entry": "v_422",
+     "rang": 75,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_424_s1",
+     "entry": "v_424",
+     "rang": 76,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_427_s2",
+     "entry": "v_427",
+     "rang": 78,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_428_s1",
+     "entry": "v_428",
+     "rang": 79,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_432_s1",
+     "entry": "v_432",
+     "rang": 80,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_434_s1",
+     "entry": "v_434",
+     "rang": 81,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_442_s1",
+     "entry": "v_442",
+     "rang": 84,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_449_s1",
+     "entry": "v_449",
+     "rang": 87,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_451_s1",
+     "entry": "v_451",
+     "rang": 88,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_452_s1",
+     "entry": "v_452",
+     "rang": 89,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_456_s1",
+     "entry": "v_456",
+     "rang": 90,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_457_s1",
+     "entry": "v_457",
+     "rang": 91,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_458_s1",
+     "entry": "v_458",
+     "rang": 92,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_461_s2",
+     "entry": "v_461",
+     "rang": 93,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_462_s1",
+     "entry": "v_462",
+     "rang": 94,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_462_s2",
+     "entry": "v_462",
+     "rang": 95,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_464_s2",
+     "entry": "v_464",
+     "rang": 96,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_478_s1",
+     "entry": "v_478",
+     "rang": 100,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_484_s1",
+     "entry": "v_484",
+     "rang": 101,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_484_s2",
+     "entry": "v_484",
+     "rang": 102,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_489_s1",
+     "entry": "v_489",
+     "rang": 104,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_495_s2",
+     "entry": "v_495",
+     "rang": 106,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_512_s1",
+     "entry": "v_512",
+     "rang": 130,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_513_s2",
+     "entry": "v_513",
+     "rang": 131,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_516_s1",
+     "entry": "v_516",
+     "rang": 133,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_516_s2",
+     "entry": "v_516",
+     "rang": 134,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_522_s1",
+     "entry": "v_522",
+     "rang": 141,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_522_s2",
+     "entry": "v_522",
+     "rang": 142,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_523_s2",
+     "entry": "v_523",
+     "rang": 143,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_524_s1",
+     "entry": "v_524",
+     "rang": 144,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_526_s1",
+     "entry": "v_526",
+     "rang": 147,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_528_s1",
+     "entry": "v_528",
+     "rang": 148,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_532_s1",
+     "entry": "v_532",
+     "rang": 149,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_533_s1",
+     "entry": "v_533",
+     "rang": 150,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_536_s3",
+     "entry": "v_536",
+     "rang": 151,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_539_s1",
+     "entry": "v_539",
+     "rang": 152,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_539_s2",
+     "entry": "v_539",
+     "rang": 153,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_541_s1",
+     "entry": "v_541",
+     "rang": 155,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_541_s2",
+     "entry": "v_541",
+     "rang": 156,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_545_s1",
+     "entry": "v_545",
+     "rang": 159,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_548_s1",
+     "entry": "v_548",
+     "rang": 162,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_551_s1",
+     "entry": "v_551",
+     "rang": 163,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_552_s1",
+     "entry": "v_552",
+     "rang": 164,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_558_s1",
+     "entry": "v_558",
+     "rang": 166,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_560_s1",
+     "entry": "v_560",
+     "rang": 167,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_560_s2",
+     "entry": "v_560",
+     "rang": 168,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_561_s1",
+     "entry": "v_561",
+     "rang": 169,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_562_s1",
+     "entry": "v_562",
+     "rang": 170,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_564_s1",
+     "entry": "v_564",
+     "rang": 171,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_567_s1",
+     "entry": "v_567",
+     "rang": 172,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_568_s1",
+     "entry": "v_568",
+     "rang": 173,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_573_s1",
+     "entry": "v_573",
+     "rang": 174,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_575_s1",
+     "entry": "v_575",
+     "rang": 175,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_576_s1",
+     "entry": "v_576",
+     "rang": 176,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_578_s1",
+     "entry": "v_578",
+     "rang": 177,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_579_s1",
+     "entry": "v_579",
+     "rang": 178,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_580_s1",
+     "entry": "v_580",
+     "rang": 179,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_603_s1",
+     "entry": "v_603",
+     "rang": 187,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_608_s1",
+     "entry": "v_608",
+     "rang": 191,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_608_s2",
+     "entry": "v_608",
+     "rang": 192,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_609_s1",
+     "entry": "v_609",
+     "rang": 193,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_609_s2",
+     "entry": "v_609",
+     "rang": 194,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_611_s1",
+     "entry": "v_611",
+     "rang": 195,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_627_s2",
+     "entry": "v_627",
+     "rang": 196,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_633_s1",
+     "entry": "v_633",
+     "rang": 197,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_635_s2",
+     "entry": "v_635",
+     "rang": 198,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_637_s1",
+     "entry": "v_637",
+     "rang": 199,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_642_s2",
+     "entry": "v_642",
+     "rang": 202,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_642_s3",
+     "entry": "v_642",
+     "rang": 203,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_646_s1",
+     "entry": "v_646",
+     "rang": 204,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_648_s1",
+     "entry": "v_648",
+     "rang": 205,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_653_s1",
+     "entry": "v_653",
+     "rang": 207,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_657_s1",
+     "entry": "v_657",
+     "rang": 208,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_665_s1",
+     "entry": "v_665",
+     "rang": 211,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_665_s2",
+     "entry": "v_665",
+     "rang": 212,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_667_s1",
+     "entry": "v_667",
+     "rang": 213,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_671_s1",
+     "entry": "v_671",
+     "rang": 214,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_675_s1",
+     "entry": "v_675",
+     "rang": 215,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_684_s1",
+     "entry": "v_684",
+     "rang": 217,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_685_s1",
+     "entry": "v_685",
+     "rang": 218,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_686_s1",
+     "entry": "v_686",
+     "rang": 219,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_687_s1",
+     "entry": "v_687",
+     "rang": 220,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_690_s2",
+     "entry": "v_690",
+     "rang": 222,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_694_s1",
+     "entry": "v_694",
+     "rang": 224,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_696_s1",
+     "entry": "v_696",
+     "rang": 225,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_709_s1",
+     "entry": "v_709",
+     "rang": 229,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_710_s1",
+     "entry": "v_710",
+     "rang": 230,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_713_s1",
+     "entry": "v_713",
+     "rang": 231,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    },
+    {
+     "id": "v_716_s1",
+     "entry": "v_716",
+     "rang": 232,
+     "filtres": [
+      "T2-nuls"
+     ],
+     "motif": "filtre propre au groupe"
+    }
+   ]
+  }
+ }
+}

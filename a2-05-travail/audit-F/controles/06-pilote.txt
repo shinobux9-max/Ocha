@@ -1,0 +1,52 @@
+$ node a2-05-travail/controle-bilan-pilote.mjs .
+conforme T1 : taille et verdicts proposés (§1) : 24 sens, 23 conformes, 1 écart(s), corrections V1-11
+conforme T1 : arbitré, verdicts proposés tous retenus (§0) : Statut : arbitré le 2026-10-20 ; « 24 verdicts retenus »
+conforme T1 : rapport et périmètre protégés au manifeste, empreintes identiques : 9188fd78bfbc… ; 459e4d1b82d5…
+constat  T1 : tri 4 complexe(s), 20 simple(s) ; 5 questions au §7 ; rapport 156208 octets (6509 par sens), périmètre 37715 octets
+conforme T2 : taille et verdicts proposés (§1) : 21 sens, 20 conformes, 1 écart(s), corrections V1-12
+conforme T2 : arbitré, verdicts proposés tous retenus (§0) : Statut : arbitré le 2026-10-22 ; « 21 verdicts retenus »
+conforme T2 : rapport et périmètre protégés au manifeste, empreintes identiques : 0ff57f27b71b… ; b3b8ac70c178…
+constat  T2 : tri 2 complexe(s), 19 simple(s) ; 6 questions au §7 ; rapport 139693 octets (6652 par sens), périmètre 32467 octets
+conforme T3 : taille et verdicts proposés (§1) : 24 sens, 22 conformes, 2 écart(s), corrections V1-13, V1-14
+conforme T3 : arbitré, verdicts proposés tous retenus (§0) : Statut : arbitré le 2026-10-23 ; « 24 verdicts retenus »
+conforme T3 : rapport et périmètre protégés au manifeste, empreintes identiques : 0b7ffa6d3826… ; 270451ec4a68…
+constat  T3 : tri 2 complexe(s), 22 simple(s) ; 5 questions au §7 ; rapport 151015 octets (6292 par sens), périmètre 35631 octets
+conforme pilote : 69 sens (T1, T2, T3), 65 conformes, 4 écarts : 69 sens
+conforme bilan du pilote, corps historique : proposition conservée, seuls changent le statut et le §0 ; accepté (§0), condition du registre satisfaite : proposition 96ffa3983786… ; §0 : 13 lignes insérées ; statut : Statut : arbitré le 2026-10-23 (§0). La proposition 
+conforme bilan du pilote, §0 : référence approuvée intacte : 49fb15aa19ada04e…
+conforme bilan du pilote, §0 : identique à la référence approuvée, champ par champ : intitulé, décision, en-tête, 6 points : Faits retenus, Mesures, Défauts ouverts, Condition du registre, T4, Garde-fous
+conforme bilan du pilote, §0 : faits retenus égaux à la référence et aux faits recalculés (T1, T2, T3) : 69 sens, 65 conformes, 4 écarts, 69 verdicts retenus, 13 incidents ; recalculés : 69, 65, 4
+conforme T4 : proposition sauvegardée en proposition, sans §0, 35 sens (fait historique) : 35 sens ; 42201 caractères
+conforme T4 : périmètre accepté (§0), 35 sens, en une seule tranche ; seuls changent le statut et le §0 : proposition 206be2459e29… ; §0 : 10 lignes insérées ; statut : Statut : périmètre accepté le 2026-10-23 (§0). La pr
+conforme T4 : périmètre accepté protégé au manifeste, empreinte identique : ac266eee3820…
+conforme T4 : rapport arbitré (§0) ; proposition conservée, seuls changent le statut et le §0 : proposition 2e3fcff61bef… ; §0 : 17 lignes insérées ; statut : Statut : arbitré le 2026-10-24 (§0). La proposition 
+conforme T4 : §1 et fiches d'examen d'origine : 35 sens, 26 conformes, 9 écarts proposés, corrections V1-15 à V1-23, 35 fiches : 35 sens, 26 conformes, 9 écarts ; 9 corrections
+conforme T4, §0 : référence approuvée intacte : d99cb150f924355f…
+conforme T4, §0 : identique à la référence approuvée, champ par champ : intitulé, décision, synthèse, en-tête, 6 points, liste
+conforme T4 : 28 conformes et 7 écarts arbitrés = §1 (26 et 9) corrigé des réservations ; §8.91 : V1-15 à V1-21 retenues, V1-22 et V1-23 réservées : 28 et 7 ; retenues V1-15, V1-16, V1-17, V1-18, V1-19, V1-20, V1-21 ; réservées V1-22, V1-23
+conforme T4 : rapport arbitré protégé au manifeste, empreinte identique : e0022e0dd956…
+conforme T5 : documents attendus présents (périmètre accepté, rapport arbitré et leurs propositions sauvegardées) : 4 présents
+conforme T5 : proposition sauvegardée en proposition, sans §0, 22 sens, D2 11 et D3 11 (fait historique) : 22 sens ; D2 11, D3 11
+conforme T5 : périmètre accepté (§0), 22 sens dans 18 ENTRY ; seuls changent le statut et le §0 : proposition ee014eb7d33e… ; §0 : 10 lignes insérées ; statut : Statut : périmètre accepté le 2026-10-25 (§0). La pr
+conforme T5 : périmètre accepté protégé au manifeste, empreinte identique : 3f635e373ec2…
+conforme T6 : périmètre accepté présent : présent
+conforme T6 : proposition sauvegardée en proposition, sans §0, 22 sens, D6 12 et D7 10 (fait historique) : 22 sens ; D6 12, D7 10
+conforme T6 : périmètre accepté (§0), 22 sens dans 13 ENTRY ; seuls changent le statut et le §0 : proposition d0d4e113a85b… ; §0 : 10 lignes insérées ; statut : Statut : périmètre accepté le 2026-10-27 (§0). La pr
+conforme T6 : périmètre accepté identique à sa version acceptée (empreinte fixée, indépendante du manifeste) : 614b7503d324…
+conforme T6 : périmètre accepté protégé au manifeste, empreinte identique : 614b7503d324…
+conforme T5 : rapport arbitré (§0) ; proposition conservée, seuls changent le statut et le §0 : proposition d9361ba48ca5… ; §0 : 17 lignes insérées ; statut : Statut : arbitré le 2026-10-25 (§0). La proposition 
+conforme T5 : §1 et fiches d'examen d'origine : 22 sens, 22 conformes, aucun écart, aucune correction, 22 fiches, sens du périmètre accepté : 22 sens, 22 conformes, 0 écarts ; 0 corrections ; 22 fiches
+conforme T5, §0 : référence approuvée intacte : 757083e5ca9268c5…
+conforme T5, §0 : identique à la référence approuvée, champ par champ : intitulé, décision, synthèse, en-tête, 6 points, liste
+conforme T5, réserve normative : six fragments de la référence dans le point du §0 et dans le §8.95 : 6 fragments, §0 et §8.95
+conforme T5, réserve normative : D0668, D0679, D0687 et D0691 conservées (journal, lot 11, `type-nul`, validées) ; types nuls publiés : D0668 こちら v_339_s2 null ; D0679 あちら v_404_s2 null ; D0687 こっち v_409_s2 null ; D0691 そっち v_414_s2 null
+conforme T5 : 22 conformes, aucun écart = §1 ; aucune correction nouvelle (§0 ; bilan : V1-1 à V1-21 retenues avant V1-24, V1-22 et V1-23 réservées ; §8.95 sans ligne de tableau) : 22 conformes ; corrections citées au §0 : aucune ; bilan : 29 retenues, réservées V1-22, V1-23 ; liste 196, 172, V1-24
+conforme T5 : rapport arbitré protégé au manifeste, empreinte identique : 4121ed863c5f…
+conforme registre : condition du pilote portée par T4 ; statuts non modifiés : T4 « conditionnée au bilan du pilote ; divisible en deux » ; T1 à T5 « planifiée »
+conforme bilan du volet 2 : aucun bilan du pilote avant §8.86 ; acceptation consignée au §8.87 : aucune sous-section antérieure à §8.86 intitulée « bilan du pilote » ; §8.87 présent
+conforme manifeste : au moins 38 empreintes recalculées, toutes identiques ; périmètre de T5 (36e entrée), rapport arbitré de T5 (37e entrée), périmètre de T6 (38e entrée) ; rapport arbitré de T6 absent (38 entrées) ou 39e entrée : 45 entrées ; rapport de T6 : 39e entrée ; différentes : aucune
+conforme T6 : rapport arbitré, s'il est au manifeste, identique à sa version arbitrée relue (empreinte fixée, indépendante du manifeste) : 7e3bfd8ecc12…
+conforme manifeste : entrées ajoutées = journal des ajouts, dans l'ordre ; dix premiers ajouts inchangés : 17 ajouts, 18 chemins ; 18 entrées ajoutées ; 2d92bd6d20e6… ; rapport de T6 ajouté
+conforme manifeste : au moins autant d'empreintes que le bloc d'état synchronisé en déclare (ETAT-ACTUEL.md, ROADMAP.md) : déclarées : 45, 45 ; présentes : 45
+contrôle conforme
+[code de sortie : 0]

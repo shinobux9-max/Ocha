@@ -1,0 +1,15 @@
+$ git rev-parse HEAD ; git diff --cached --name-only ; git status --short (hors non suivis)
+39cce138f12c50d32675cc4acff5237883eec0b1
+index : 0 fichier(s)
+ M .gitattributes
+ M ETAT-ACTUEL.md
+ M ROADMAP.md
+ M a2-05-travail/controle-relais-allege.mjs
+ M a2-05-travail/recalcul-T7-perimetre.mjs
+ M a2-05-travail/recalcul-T8-perimetre.mjs
+ M a2-05-travail/recalcul-T9-perimetre.mjs
+ M a2-05-travail/registre-tranches.json
+ M docs/conception/00-sommaire.md
+ M docs/rapports/etape2-A2-05-bilan-volet2.md
+ M docs/relecture/reprise-A2-05.md
+[code de sortie : 0]

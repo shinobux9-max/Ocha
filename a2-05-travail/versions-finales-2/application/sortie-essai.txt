@@ -1,0 +1,71 @@
+﻿conforme copie jetable identique au dépôt réel : 2586 fichiers
+conforme artefacts du clone : octets identiques au dépôt réel, non modifiés sur lui : a2-05-travail/proposition-CLAUDE-md-section5.diff
+conforme R1 index non vide : ÉCART    P2 index vide ; modifiés : aucun
+conforme R2 sauvegarde déjà présente : ÉCART    P3 sauvegarde absente, opération jamais lancée
+conforme R3 `CLAUDE.md` modifié : ÉCART    P4 préservé : CLAUDE.md : c5fa224bad1e… ; modifiés : aucun
+conforme R4 A10 modifié : ÉCART    P4 préservé : docs/conception/addendum-A10-interrogatif.md : 5c62ac323364… ; modifiés : aucun
+conforme R5 `ETAT-ACTUEL.md` modifié (consignation) : ÉCART    P4 préservé : ETAT-ACTUEL.md : 8b05e41309e5… ; modifiés : aucun
+conforme R6 donnée modifiée : ÉCART    P6 données, lots, journal, registres, tests et outils sans modification ; modifiés : aucun
+conforme R7 rapport protégé modifié : ÉCART    P7 manifeste des rapports : 45 empreintes conformes ; modifiés : aucun
+conforme R8 version finale 2 modifiée : ÉCART    P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/docs/relecture/reprise-A2-05.md : c3bdc60ae ; modifiés : aucun
+conforme R9 manifeste 2 modifié : ÉCART    P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/manifeste.json : 2a36c47dfe94fae6 ; modifiés : aucun
+conforme R10 générateur 2 modifié : ÉCART    P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/generer.mjs : b4003e54f8b4cca2 ; modifiés : aucun
+conforme R11 diff relu du relais modifié : ÉCART    P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/diffs/docs__relecture__reprise-A2-05.md.dif ; modifiés : aucun
+conforme R12 contrôle proposé modifié : ÉCART    P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/proposition/controle-relais-allege.mjs : ba ; modifiés : aucun
+conforme R13 diff relu du contrôle modifié : ÉCART    P8 version figée ou proposition relue : a2-05-travail/versions-finales-2/proposition/diffs/controle-relais-allege.mj ; modifiés : aucun
+conforme R14 manifeste 1 modifié (ancienne preuve) : ÉCART    P8 version figée ou proposition relue : a2-05-travail/versions-finales/manifeste.json : d67a0e2962955e92 ; modifiés : aucun
+conforme R15 version finale 1 modifiée (ancienne preuve) : ÉCART    P8 version figée ou proposition relue : a2-05-travail/versions-finales/docs/relecture/reprise-A2-05.md : a651cc84229 ; modifiés : aucun
+conforme R16 relais en service modifié : ÉCART    P10 empreinte de départ : docs/relecture/reprise-A2-05.md : d0586d42795b00fb ; modifiés : aucun
+conforme R17 contrôle installé modifié : ÉCART    P10 empreinte de départ : a2-05-travail/controle-relais-allege.mjs : b91ed6ddf43ef7e2 ; modifiés : aucun
+conforme témoin : copie revenue à l'état de départ
+   conforme C1 diff réel écrit : docs/relecture/reprise-A2-05.md
+   conforme C1 diff réel écrit : a2-05-travail/controle-relais-allege.mjs
+   conforme C2 relais (contrôle adapté) : 29 sur 30, C9b seul, écart temporaire levé au prochain commit : 29 conformes sur 30 ; écarts : C9b
+   conforme C3 Q7 : le relais constate le statut normatif d'A10 : juste Q7 E5 est-il normatif ? → oui
+   conforme C4 relais --strict : écarts attendus seuls : 29 conformes sur 30 ; écarts : C9b
+   conforme C5 manifeste des rapports : 45 empreintes conformes
+   conforme C6 recalcul de T5 : code 0
+   conforme C6 recalcul de T6 : code 0
+   conforme C6 recalcul de T7 : code 0
+   conforme C6 recalcul de T8 : code 0
+   conforme C6 recalcul de T9 : code 0
+   conforme C6 contrôle du pilote : code 0
+   conforme C7 couverture : 360/377 : couverture : 360 arbitrés, 0 proposés, 17 restants, sur 377 ; bloc B :
+   conforme C8 204 corrections dans 177 ENTRY, aucune appliquée : {"arbitres":360,"restants":17,"proposes":0,"corrections":204,"entry":177,"libre":"V1-32","reserves":["V1-22
+   conforme C9 run.mjs assemble : code 0
+   conforme C9 run.mjs verify : code 0
+   conforme C10 510 tests : code 0 ; 510 sur 510
+   conforme C11 arbre entier comparé : les deux fichiers visés seuls ; versions figées 1 et 2, candidat et pilotage intacts : 2586 fichiers
+   conforme C12 préservé : CLAUDE.md
+   conforme C12 préservé : docs/conception/addendum-A10-interrogatif.md
+   conforme C12 préservé : docs/conception/00-sommaire.md
+   conforme C12 préservé : .gitattributes
+   conforme C12 préservé : ETAT-ACTUEL.md
+   conforme C12 préservé : ROADMAP.md
+   conforme C12 préservé : docs/rapports/etape2-A2-05-bilan-volet2.md
+   conforme C13 index vide
+   conforme C14 git diff --check : code 0
+conforme exécution nominale sur la copie : code 0 ; 64 vérifications conformes
+conforme fichiers visés seuls modifiés, hors traces : a2-05-travail/controle-relais-allege.mjs, docs/relecture/reprise-A2-05.md
+conforme seconde exécution refusée, sans modification : ÉCART    P3 sauvegarde absente, opération jamais lancée
+conforme T1 témoin : contrôle adapté, relais 2 en service : C9b seul ; Q7 « oui », juste : 29 conformes sur 30 ; juste Q7 E5 est-il normatif ? → oui
+conforme T2 contrôle installé avec le relais 2 (révision non coordonnée) : écarts C10a,C9b,C9c : 27 conformes sur 30 ; écarts : C10a,C9b,C9c ; juste Q7 E5 est-il normatif ? → non
+conforme S1 relais en service : ligne 18 revenue à l'ancien texte : écarts C10a,C9b,C9c : 27 conformes sur 30 ; écarts : C10a,C9b,C9c ; juste Q7 E5 est-il normatif ? → oui
+conforme S2 falsification cohérente : ligne 18 revenue à « Proposé, non adopté : l'addendum E5 » : écarts C4,C8,C9b : 27 conformes sur 30 ; écarts : C4,C8,C9b ; FAUX  Q7 E5 est-il normatif ? → relais muet (attendu : oui)
+conforme S3 falsification cohérente : « ni adoptée ni normative » rétabli ligne 29 : écarts C4,C8,C9b : 27 conformes sur 30 ; écarts : C4,C8,C9b ; FAUX  Q7 E5 est-il normatif ? → relais muet (attendu : oui)
+conforme S4 falsification cohérente : date d'adoption fausse dans le relais : écarts C4,C9b : 28 conformes sur 30 ; écarts : C4,C9b ; juste Q7 E5 est-il normatif ? → oui
+conforme S5 falsification cohérente : E5 rétabli parmi les chantiers fermés : écarts C4,C9b : 28 conformes sur 30 ; écarts : C4,C9b ; juste Q7 E5 est-il normatif ? → oui
+conforme S6 falsification cohérente : A10 retiré des addenda validés : écarts C4,C9b : 28 conformes sur 30 ; écarts : C4,C9b ; juste Q7 E5 est-il normatif ? → oui
+conforme S7 A10 absent (le relais 2 cite son chemin : C2a et C11c le voient aussi) : écarts C11c,C2a,C4,C5e,C6,C8,C9b : 23 conformes sur 30 ; écarts : C11c,C2a,C4,C5e,C6,C8,C9b ; FAUX  Q7 E5 est-il normatif ? → oui (attendu : non)
+conforme S8 statut d'A10 non validé : écarts C4,C5e,C8,C9b : 26 conformes sur 30 ; écarts : C4,C5e,C8,C9b ; FAUX  Q7 E5 est-il normatif ? → oui (attendu : A10 incohérent)
+conforme S9 manifeste 1 modifié (ancienne preuve) : écarts C10a,C10b,C9b : 27 conformes sur 30 ; écarts : C10a,C10b,C9b ; juste Q7 E5 est-il normatif ? → oui
+conforme S10 version finale 1 modifiée (ancienne preuve) : écarts C10a,C10b,C9b : 27 conformes sur 30 ; écarts : C10a,C10b,C9b ; juste Q7 E5 est-il normatif ? → oui
+conforme S11 candidat 1 modifié (ancienne preuve) : écarts C10b,C9b : 28 conformes sur 30 ; écarts : C10b,C9b ; juste Q7 E5 est-il normatif ? → oui
+conforme S12 date d'adoption fausse dans « Étape en cours » : écarts C5e,C9b : 28 conformes sur 30 ; écarts : C5e,C9b ; juste Q7 E5 est-il normatif ? → oui
+conforme A1 commit simulé de huit fichiers, dans la copie seulement : code 0
+conforme A2 `git diff --check` du commit simulé, sans filtre de chemin : code 0
+conforme A3 après commit simulé : relais normal, 30 sur 30 : écarts aucun : 30 conformes sur 30 ; écarts : aucun ; juste Q7 E5 est-il normatif ? → oui
+conforme A4 après commit simulé : `--strict`, C5a seul : écarts C5a : 29 conformes sur 30 ; écarts : C5a ; juste Q7 E5 est-il normatif ? → oui
+conforme dépôt réel inchangé : 2586 fichiers
+conforme index réel vide
+essai conforme
