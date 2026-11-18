@@ -8,6 +8,7 @@
 //       NON ACTIVÉ : ce mode n'est lancé que sur des copies temporaires (essais-sync-stable.mjs) tant que l'adoption n'est pas autorisée.
 // Ne lit ni n'écrit rien dans data/, reconstruction/, tools/, tests/ ni docs/conception/.
 // PROPOSITION (2026-10-24), non appliquée : prise en compte des identifiants réservés (V1-22 et V1-23, propositions non retenues de T4).
+// ADAPTATION APPLIQUÉE (2026-11-16) : comptage des corrections retenues du volet 3 (série V3-n, décision G6-T03 I-1, option (b)).
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
@@ -30,7 +31,10 @@ export function calculerEtat(root) {
   const txt = (p) => sansCR(readFileSync(join(root, p), 'utf8'));
   const cov = couverture(root); const emp = verifierEmpreintes(root);
   const b = txt('docs/rapports/etape2-A2-05-bilan-volet2.md');
-  const m = new Map(); for (const l of b.slice(b.search(/^## 8\. /m)).split(LF)) { const r = l.match(/^\| (V[12]-\d+) \| (?:[a-z]+ \| )?`((?:hj_)?v_\d+)(?:_s\d+)?`/); if (r && !m.has(r[1])) m.set(r[1], r[2]); }
+  // Corrections retenues du §8 : séries V1-n (volet 1), V2-n (volet 2) et V3-n (volet 3, décision G6-T03 I-1 du 2026-11-16). Seul ce relevé
+  // compte la série V3 : le prochain numéro libre reste celui de la série V1, et les réservations restent limitées à V1 et V2 (une ligne
+  // « | réservé | V3-n | … » est refusée comme mal formée, ci-dessous).
+  const m = new Map(); for (const l of b.slice(b.search(/^## 8\. /m)).split(LF)) { const r = l.match(/^\| (V[123]-\d+) \| (?:[a-z]+ \| )?`((?:hj_)?v_\d+)(?:_s\d+)?`/); if (r && !m.has(r[1])) m.set(r[1], r[2]); }
   const vol2 = []; for (const l of b.slice(0, b.search(/^## 7\. /m)).split(LF)) { const r = l.match(/^\| (\d+) \| `((?:hj_)?v_\d+)_s\d+` \|/); if (r) vol2.push(r[2]); }
   const v1 = [...m.keys()].filter((k) => k.startsWith('V1'));
   // Identifiants réservés (décision du 2026-10-24, T4) : lignes « | réservé | V1-n | `rapport.md` | … » du §8, hors du tableau des corrections
